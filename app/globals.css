@@ -2,12 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: dark;
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    background-color: #0B1020;
+    color: #F5F0E6;
+  }
+
+  body {
+    font-family: "IBM Plex Sans Thai", system-ui, -apple-system, sans-serif;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: "Noto Serif Thai", Georgia, serif;
+    line-height: 1.35;
+  }
 }
 
-html,
-body {
-  background-color: #0B1020;
-  color: #F5F0E6;
+/* reading column helper — ใช้กับเนื้อหาบทความเพื่อจำกัดความกว้างให้อ่านสบาย */
+.reading-column {
+  max-width: 42rem;
+  line-height: 1.85;
 }
