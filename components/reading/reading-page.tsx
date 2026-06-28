@@ -242,10 +242,7 @@ export function ReadingPage({
       {/* Footer Zone — References */}
       {entry.references.length > 0 ? (
         <section className="scroll-reveal mt-14">
-          <h2 className="flex items-center gap-2 font-serif text-2xl text-ivory">
-            <span className="material-symbols-outlined text-[22px] text-antique-gold">format_quote</span>
-            เอกสารอ้างอิง
-          </h2>
+          <h2 className="font-serif text-2xl text-ivory">เอกสารอ้างอิง</h2>
           <ol className="mt-5 space-y-3">
             {entry.references.map((s: SourceItem, i) => (
               <li key={i} className="text-sm leading-relaxed text-soft-ivory">
