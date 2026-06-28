@@ -4,12 +4,12 @@ import { useState } from "react";
 import Link from "next/link";
 
 const NAV = [
-  { label: "บทความ", href: "/#knowledge" },
-  { label: "คลังแนวคิด", href: "/#concept" },
-  { label: "ซีรีส์", href: "/#concept" },
-  { label: "แหล่งอ้างอิง", href: "/#footer" },
-  { label: "Manifesto", href: "/#manifesto" },
-  { label: "สนับสนุน", href: "/#footer" },
+  { label: "บทความ", href: "/articles" },
+  { label: "คลังแนวคิด", href: "/concepts" },
+  { label: "ซีรีส์", href: "/reading-sets" },
+  { label: "แหล่งอ้างอิง", href: "/sources" },
+  { label: "Manifesto", href: "/manifesto" },
+  { label: "สนับสนุน", href: "/support" },
 ];
 
 function CompassMark() {
