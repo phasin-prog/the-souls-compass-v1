@@ -1,10 +1,17 @@
+import type { ComponentType } from "react";
 import Link from "next/link";
+import { BookIcon, ConceptIcon, PathIcon, SourceIcon } from "@/components/icons";
 
-const ENTRY = [
-  { label: "บทความ", href: "/articles", desc: "งานอ่านที่อธิบายและตีความแนวคิด" },
-  { label: "คลังแนวคิด", href: "/concepts", desc: "ระบบความรู้แบบเชื่อมโยง (Wiki)" },
-  { label: "ซีรีส์", href: "/reading-sets", desc: "เส้นทางการอ่านจากพื้นฐานสู่ลึก" },
-  { label: "แหล่งอ้างอิง", href: "/sources", desc: "ฐานความรู้และการอ้างอิง" },
+const ENTRY: {
+  label: string;
+  href: string;
+  desc: string;
+  Icon: ComponentType<{ className?: string }>;
+}[] = [
+  { label: "บทความ", href: "/articles", desc: "งานอ่านที่อธิบายและตีความแนวคิด", Icon: BookIcon },
+  { label: "คลังแนวคิด", href: "/concepts", desc: "ระบบความรู้แบบเชื่อมโยง (Wiki)", Icon: ConceptIcon },
+  { label: "ซีรีส์", href: "/reading-sets", desc: "เส้นทางการอ่านจากพื้นฐานสู่ลึก", Icon: PathIcon },
+  { label: "แหล่งอ้างอิง", href: "/sources", desc: "ฐานความรู้และการอ้างอิง", Icon: SourceIcon },
 ];
 
 const KNOWLEDGE = [
@@ -25,7 +32,6 @@ const CONCEPTS = [
 export default function HomePage() {
   return (
     <main>
-      {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_500px_at_70%_-10%,rgba(200,168,90,0.10),transparent_60%)]" />
         <div className="relative mx-auto max-w-6xl px-6 py-28 md:py-36">
@@ -45,47 +51,40 @@ export default function HomePage() {
             ตรวจสอบได้ และเชื่อมโยงกันได้มากขึ้น
           </p>
           <div className="mt-12 flex flex-wrap gap-4">
-            <Link
-              href="/articles"
-              className="rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-7 py-3.5 text-base font-semibold text-[#1a1306] transition-transform hover:-translate-y-0.5"
-            >
+            <Link href="/articles" className="rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-7 py-3.5 text-base font-semibold text-[#1a1306] transition-transform hover:-translate-y-0.5">
               เริ่มอ่านบทความ →
             </Link>
-            <Link
-              href="/concepts"
-              className="rounded-sm border border-white/25 px-7 py-3.5 text-base text-ivory transition-colors hover:border-antique-gold hover:text-soft-gold"
-            >
+            <Link href="/concepts" className="rounded-sm border border-white/25 px-7 py-3.5 text-base text-ivory transition-colors hover:border-antique-gold hover:text-soft-gold">
               เปิดแผนที่แนวคิด
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Entry Points */}
       <section className="mx-auto max-w-6xl px-6 py-14">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {ENTRY.map((e) => (
-            <Link
-              key={e.href}
-              href={e.href}
-              className="group rounded-md border border-white/10 bg-surface-1/50 p-6 transition-colors hover:border-antique-gold/40"
-            >
-              <span className="font-serif text-lg text-ivory group-hover:text-soft-gold">{e.label}</span>
-              <p className="mt-2 text-sm leading-relaxed text-muted">{e.desc}</p>
-              <span className="mt-3 inline-block text-sm text-antique-gold">เข้าชม →</span>
-            </Link>
-          ))}
+          {ENTRY.map((e) => {
+            const Icon = e.Icon;
+            return (
+              <Link
+                key={e.href}
+                href={e.href}
+                className="group rounded-md border border-white/10 bg-surface-1/50 p-6 transition-colors hover:border-antique-gold/40"
+              >
+                <Icon className="h-6 w-6 text-antique-gold" />
+                <span className="mt-3 block font-serif text-lg text-ivory group-hover:text-soft-gold">{e.label}</span>
+                <p className="mt-2 text-sm leading-relaxed text-muted">{e.desc}</p>
+                <span className="mt-3 inline-block text-sm text-antique-gold">เข้าชม →</span>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
-      {/* Knowledge cards */}
       <section id="knowledge" className="mx-auto max-w-6xl px-6 py-16">
         <div className="grid gap-5 md:grid-cols-3">
           {KNOWLEDGE.map((c) => (
-            <article
-              key={c.no}
-              className="rounded-md border border-white/10 bg-surface-1/60 p-8 transition-colors hover:border-antique-gold/30"
-            >
+            <article key={c.no} className="rounded-md border border-white/10 bg-surface-1/60 p-8 transition-colors hover:border-antique-gold/30">
               <span className="font-display text-3xl text-antique-gold">{c.no}</span>
               <h3 className="mt-4 font-serif text-xl text-ivory">{c.title}</h3>
               <p className="mt-3 text-base leading-relaxed text-soft-ivory">{c.desc}</p>
@@ -94,22 +93,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Concept map */}
       <section id="concept" className="mx-auto max-w-6xl px-6 py-16">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-xs tracking-[0.18em] text-antique-gold">แผนที่ความรู้</span>
           <h2 className="mt-4 font-serif text-3xl text-ivory">แผนที่ความรู้ของจิตใจมนุษย์</h2>
-          <p className="mt-4 text-base text-muted">
-            หกหมวดหลักที่เชื่อมโยงกันเป็นระบบ ดั่งคลังเอกสารและหอดูดาวของชีวิตภายใน
-          </p>
+          <p className="mt-4 text-base text-muted">หกหมวดหลักที่เชื่อมโยงกันเป็นระบบ ดั่งคลังเอกสารและหอดูดาวของชีวิตภายใน</p>
         </div>
         <div className="mt-12 grid gap-4 md:grid-cols-3">
           {CONCEPTS.map((c) => (
-            <Link
-              key={c.no}
-              href="/concepts"
-              className="group flex min-h-[170px] flex-col rounded-md border border-white/10 bg-charcoal/40 p-7 transition-colors hover:border-antique-gold/30 hover:bg-surface-2/40"
-            >
+            <Link key={c.no} href="/concepts" className="group flex min-h-[170px] flex-col rounded-md border border-white/10 bg-charcoal/40 p-7 transition-colors hover:border-antique-gold/30 hover:bg-surface-2/40">
               <div className="flex items-center justify-between">
                 <span className="font-display text-xl text-antique-gold">{c.no}</span>
                 <span className="h-2.5 w-2.5 rounded-full border border-antique-gold" aria-hidden="true" />
@@ -120,29 +112,22 @@ export default function HomePage() {
           ))}
         </div>
         <div className="mt-8 text-center">
-          <Link href="/concepts" className="text-sm text-soft-gold hover:underline">
-            เปิดคลังแนวคิดทั้งหมด →
-          </Link>
+          <Link href="/concepts" className="text-sm text-soft-gold hover:underline">เปิดคลังแนวคิดทั้งหมด →</Link>
         </div>
       </section>
 
-      {/* Manifesto — editorial pull-quote */}
       <section id="manifesto" className="relative py-28">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(700px_400px_at_50%_50%,rgba(200,168,90,0.08),transparent_64%)]" />
         <div className="relative mx-auto max-w-2xl px-6 text-center">
           <span className="block font-display text-6xl leading-none text-antique-gold/50" aria-hidden="true">&ldquo;</span>
-          <h2 className="mt-2 font-serif text-2xl leading-relaxed text-ivory md:text-3xl">
-            เราไม่รีบทำให้ความซับซ้อนกลายเป็นคำตอบง่าย ๆ
-          </h2>
+          <h2 className="mt-2 font-serif text-2xl leading-relaxed text-ivory md:text-3xl">เราไม่รีบทำให้ความซับซ้อนกลายเป็นคำตอบง่าย ๆ</h2>
           <p className="mt-7 text-lg leading-loose text-soft-ivory">
             ความรู้เกี่ยวกับจิตใจมนุษย์ไม่ควรถูกลดทอนเหลือเพียงป้ายกำกับ ประเภทบุคลิกภาพ
             หรือสูตรสำเร็จในการใช้ชีวิต The Soul&apos;s Compass จึงพยายามวางแนวคิดไว้ในบริบทเดิมของมัน
             พร้อมเปิดพื้นที่ให้การตีความ การเปรียบเทียบ และการตั้งคำถามเกิดขึ้นอย่างรับผิดชอบ
           </p>
           <div className="mt-8">
-            <Link href="/manifesto" className="text-sm text-soft-gold hover:underline">
-              อ่าน Manifesto ฉบับเต็ม →
-            </Link>
+            <Link href="/manifesto" className="text-sm text-soft-gold hover:underline">อ่าน Manifesto ฉบับเต็ม →</Link>
           </div>
         </div>
       </section>

@@ -1,6 +1,6 @@
 import Link from "next/link";
+import { ArrowRightIcon } from "@/components/icons";
 
-// ลำดับหน้าสาธารณะสำหรับนำทาง ย้อนกลับ / ถัดไป
 export const PAGE_ORDER = [
   { href: "/articles", label: "บทความ" },
   { href: "/concepts", label: "คลังแนวคิด" },
@@ -20,8 +20,9 @@ export function PageNav({ current }: { current: string }) {
       <div className="grid grid-cols-3 items-center gap-4 border-t border-white/10 pt-8 text-sm">
         <div>
           {prev ? (
-            <Link href={prev.href} className="text-soft-ivory transition-colors hover:text-soft-gold">
-              ← {prev.label}
+            <Link href={prev.href} className="inline-flex items-center gap-2 text-soft-ivory transition-colors hover:text-soft-gold">
+              <ArrowRightIcon className="h-4 w-4 rotate-180" />
+              {prev.label}
             </Link>
           ) : null}
         </div>
@@ -30,10 +31,11 @@ export function PageNav({ current }: { current: string }) {
             กลับหน้าแรก
           </Link>
         </div>
-        <div className="text-right">
+        <div className="flex justify-end">
           {next ? (
-            <Link href={next.href} className="text-soft-ivory transition-colors hover:text-soft-gold">
-              {next.label} →
+            <Link href={next.href} className="inline-flex items-center gap-2 text-soft-ivory transition-colors hover:text-soft-gold">
+              {next.label}
+              <ArrowRightIcon className="h-4 w-4" />
             </Link>
           ) : null}
         </div>
