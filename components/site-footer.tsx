@@ -105,13 +105,15 @@ export function SiteFooter() {
         </div>
       </div>
 
-      <div className="mx-auto mt-24 flex max-w-[1200px] flex-col items-center justify-between gap-8 border-t border-slate-boundary/30 px-6 pt-12 sm:flex-row">
-        <div className="text-[10px] uppercase tracking-[0.3em] text-on-surface-variant/40">
-          © 2026 The Soul&apos;s Compass · คลังความรู้เพื่อการศึกษาจิตใจมนุษย์
-        </div>
-        <div className="text-[10px] uppercase tracking-[0.3em] text-on-surface-variant/40">
+      <div className="mx-auto mt-24 flex max-w-[1200px] flex-col items-center justify-between gap-4 border-t border-slate-boundary/30 px-6 pt-10 sm:flex-row">
+        <p className="text-center text-xs leading-relaxed tracking-wide text-on-surface-variant/55 sm:text-left">
+          © 2026 <span className="text-on-surface-variant/85">The Soul&apos;s Compass</span>
+          <span className="px-1.5 text-on-surface-variant/30">·</span>
+          คลังความรู้เพื่อการศึกษาจิตใจมนุษย์
+        </p>
+        <p className="text-center font-serif text-sm italic leading-relaxed text-on-surface-variant/70 sm:text-right">
           สร้างขึ้นเพื่อการศึกษา การอ่าน และการตีความอย่างมีบริบท
-        </div>
+        </p>
       </div>
     </footer>
   );
