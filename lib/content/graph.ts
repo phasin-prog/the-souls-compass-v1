@@ -37,13 +37,13 @@ export const NODE_TYPE_LABEL: Record<NodeType, string> = {
   term: "คำศัพท์",
 };
 
-// ARCHRON palette — สีโหนดสำหรับ graph บนพื้นกระดาษ (เข้มพอให้คอนทราสต์)
+// ARCHRON Color Cosmology — สีโหนดตามสถานะการสืบค้น (เข้มพอให้คอนทราสต์บน Humanitas)
 export const NODE_TYPE_COLOR: Record<NodeType, string> = {
-  concept: "#8A6D3E", // Old Gold เข้ม
-  person: "#4F7C82", // Verdigris
-  book: "#8A6A3F", // Bronze
-  school: "#4F7C5A", // เขียวสนิม
-  symbol: "#1F2A44", // Midnight Indigo
+  concept: "#476C82", // Psyche — โลกภายใน/การวิเคราะห์
+  person: "#6D7462", // Mercurius — บทสนทนา/การแปรเปลี่ยน
+  book: "#8A6D3E", // Sapientia เข้ม — ปัญญาสะสม
+  school: "#4F7C5A", // การบูรณาการ
+  symbol: "#1B1C2E", // Prima Materia — ตำนาน/สัญลักษณ์
   term: "#6E665A", // Charcoal-gray
 };
 

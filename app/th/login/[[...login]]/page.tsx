@@ -24,9 +24,9 @@ export default function LoginPage() {
           appearance={{
             variables: {
               colorPrimary: "#B08D57",
-              colorBackground: "#F5F1E8",
+              colorBackground: "#EFE8DD",
               colorInputBackground: "rgba(255, 255, 255, 0.6)",
-              colorInputText: "#1F2A44",
+              colorInputText: "#1B1C2E",
               colorText: "#2B2B2B",
               colorTextSecondary: "#6E665A",
               fontFamily: "var(--font-ibm-plex-thai), sans-serif",

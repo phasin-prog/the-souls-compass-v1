@@ -12,12 +12,12 @@ import {
   type GraphData,
 } from "@/lib/content/graph";
 
-// ARCHRON palette — สีเส้นความสัมพันธ์บนพื้นกระดาษ (เข้มพอให้คอนทราสต์)
+// ARCHRON Color Cosmology — สีเส้นความสัมพันธ์ตามสถานะการสืบค้น
 const RELATION_COLOR: Record<RelationType, string> = {
-  prerequisite: "#8A6D3E",
-  "part-of": "#B08D57",
-  "source-of": "#8A6A3F",
-  "influenced-by": "#4F7C82",
+  prerequisite: "#8A6D3E", // Sapientia เข้ม
+  "part-of": "#B08D57", // Sapientia
+  "source-of": "#6D7462", // Mercurius
+  "influenced-by": "#476C82", // Psyche
   "contrasts-with": "#9F4F3F",
   "used-in": "#3E6E8C",
   related: "#8A8275",

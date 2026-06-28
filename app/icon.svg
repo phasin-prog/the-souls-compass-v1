@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
   <!-- ARCHRON mark — วงกลมเปิด (ความรู้ไม่สิ้นสุด) + จุดศูนย์กลาง (มนุษย์) -->
-  <rect width="48" height="48" rx="10" fill="#1F2A44"/>
+  <rect width="48" height="48" rx="10" fill="#1B1C2E"/>
   <circle cx="24" cy="24" r="15" fill="none" stroke="#B08D57" stroke-width="2"
           stroke-linecap="round" stroke-dasharray="80 14.25" transform="rotate(-58 24 24)"/>
-  <circle cx="24" cy="24" r="2.8" fill="#F5F1E8"/>
+  <circle cx="24" cy="24" r="2.8" fill="#EFE8DD"/>
 </svg>

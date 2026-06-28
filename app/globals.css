@@ -1,59 +1,73 @@
 @import "tailwindcss";
 
 /* ============================================================================
-   ARCHRON — Design System (Light "Codex / Paper" mode)
+   ARCHRON — Color Cosmology v1.0
    ----------------------------------------------------------------------------
-   ปรัชญาสี (จาก Founding Brand Codex):
-     • Ivory #F5F1E8        — พื้นหลัง: หนังสือ กระดาษ codex ความรู้ของมนุษย์
-     • Midnight Indigo #1F2A44 — หมึก/หัวเรื่อง: ค่ำคืนก่อนรุ่งสาง ความลึก การใคร่ครวญ
-     • Charcoal #2B2B2B     — ตัวอักษรเนื้อหา: การอ่าน อำนาจที่เงียบงัน
-     • Old Gold #B08D57     — accent หลัก: ปัญญาเหนือกาล ต้นฉบับโบราณ
-     • Verdigris #4F7C82    — accent รอง: สนิมสำริด ประวัติศาสตร์ การแปรเปลี่ยน
+   สีไม่ใช่การตกแต่ง สีคือแผนที่ของการสืบค้นความเป็นมนุษย์
+   ทุกสีคือ "สถานะเชิงมโนทัศน์" ในเส้นทาง:
+   Chaos → Inquiry → Insight → Integration → Transformation → Civilization
+
+     • Prima Materia #1B1C2E — สิ่งที่ยังไม่รู้ จิตไร้สำนึก ความเป็นไปได้ตั้งต้น (พื้นมืด/hero/night)
+     • Lumen        #E9D7A5 — แสงแรกของความเข้าใจ (highlight / interactive)
+     • Psyche       #476C82 — โลกภายใน ความทรงจำ ความฝัน (จิตวิทยา/แผนที่ความรู้)
+     • Mercurius    #6D7462 — สะพานระหว่างขั้วตรงข้าม การแปรเปลี่ยน (transition/connection)
+     • Humanitas    #EFE8DD — มนุษย์เป็นศูนย์กลาง (พื้นหลังหลัก/การอ่าน)
+     • Sapientia    #B08D57 — ปัญญาที่สั่งสมข้ามรุ่น (brand/logo/heading)
+     • Charcoal     #2B2B2B — ตัวอักษร อำนาจที่เงียบงัน
+     • Mist         #F8F7F3 — ที่ว่างหายใจ ความสบายตาในการอ่าน
 
    Tailwind v4 (CSS-first): ตัวแปร --color-* กลายเป็น utility อัตโนมัติ
-   ชื่อ token เดิม (deep-navy / ivory / antique-gold ฯลฯ) ถูก remap ให้ค่าที่
-   เหมาะกับโหมดสว่าง เพื่อให้ utility ทั่วเว็บไม่พังระหว่างรีแบรนด์
+   ชื่อ token เดิมถูก remap ให้เข้ากับ cosmology เพื่อให้ utility ทั่วเว็บไม่พัง
    ============================================================================ */
 @theme {
-  /* ---- ARCHRON core palette (ชื่อใหม่ ใช้เป็นแหล่งความจริง) ---- */
-  --color-paper: #F5F1E8;          /* Ivory — พื้นหน้าหลัก */
-  --color-paper-raised: #FCFAF3;   /* การ์ด/ผิวยกเด่น (สว่างกว่าพื้น) */
-  --color-paper-sunken: #ECE3D2;   /* ผิวจม เช่น code block */
-  --color-ink: #1F2A44;            /* Midnight Indigo — หัวเรื่อง/หมึกเข้ม */
-  --color-charcoal-ink: #2B2B2B;   /* Charcoal — ตัวอักษรเนื้อหา */
-  --color-gold: #B08D57;           /* Old Gold — accent หลัก */
-  --color-gold-deep: #8A6D3E;      /* Old Gold เข้ม — ลิงก์/คอนทราสต์บนพื้นสว่าง */
-  --color-verdigris: #4F7C82;      /* Verdigris — accent รอง */
-  --color-line: #DCD2BF;           /* เส้นขอบโทนกระดาษ */
+  /* ---- Cosmology core (แหล่งความจริง) ---- */
+  --color-prima: #1B1C2E;
+  --color-lumen: #E9D7A5;
+  --color-psyche: #476C82;
+  --color-mercurius: #6D7462;
+  --color-humanitas: #EFE8DD;
+  --color-sapientia: #B08D57;
+  --color-mist: #F8F7F3;
+  --color-charcoal-ink: #2B2B2B;
 
-  /* ---- legacy token remap (คงชื่อเดิม → ค่าโหมดสว่าง) ---- */
-  --color-midnight: #F5F1E8;       /* เคยเป็นพื้นดำ → เป็นพื้นกระดาษ */
-  --color-deep-navy: #F5F1E8;      /* ใช้เป็น bg ทั่วเว็บ → พื้นกระดาษ */
-  --color-charcoal: #2B2B2B;       /* ตัวอักษรเนื้อหา */
-  --color-surface-1: #FCFAF3;
-  --color-surface-2: #F0E9DA;
-  --color-surface-3: #E9E0CF;
-  --color-ivory: #232A38;          /* เคยเป็น "สีตัวอักษรสว่าง" → กลับเป็นหมึกเข้มเพื่ออ่านบนพื้นสว่าง */
-  --color-soft-ivory: #3A362E;     /* ตัวอักษรเนื้อหารอง (md-body) */
+  /* ---- semantic aliases ---- */
+  --color-paper: #EFE8DD;          /* Humanitas — พื้นการอ่านหลัก */
+  --color-paper-raised: #F8F7F3;   /* Mist — การ์ด/ผิวยกเด่น */
+  --color-paper-sunken: #E4DBCA;   /* ผิวจม เช่น code block */
+  --color-ink: #1B1C2E;            /* Prima Materia — หัวเรื่อง/หมึกเข้ม */
+  --color-gold: #B08D57;           /* Sapientia */
+  --color-gold-deep: #8A6D3E;      /* Sapientia เข้ม — ลิงก์บนพื้นสว่าง */
+  --color-verdigris: #476C82;      /* Psyche (คงชื่อเดิมไว้ใช้กับลิงก์ hover ฯลฯ) */
+  --color-line: #DCD2BD;
+
+  /* ---- legacy token remap (คงชื่อเดิม → ค่า cosmology โหมดสว่าง) ---- */
+  --color-midnight: #EFE8DD;       /* พื้น → Humanitas */
+  --color-deep-navy: #EFE8DD;      /* พื้น → Humanitas */
+  --color-charcoal: #2B2B2B;
+  --color-surface-1: #F8F7F3;      /* Mist */
+  --color-surface-2: #EFE8DD;
+  --color-surface-3: #E4DBCA;
+  --color-ivory: #1B1C2E;          /* token "สีตัวอักษรสว่างเดิม" → Prima ink (อ่านบนพื้นสว่าง) */
+  --color-soft-ivory: #36322A;     /* ตัวอักษรเนื้อหารอง (md-body) */
   --color-muted: #6E665A;
   --color-subtle: #8A8275;
-  --color-antique-gold: #B08D57;   /* Old Gold */
-  --color-bronze: #8A6A3F;
-  --color-soft-gold: #8A6D3E;      /* ลิงก์ทองบนพื้นสว่าง (เข้มพอให้คอนทราสต์) */
+  --color-antique-gold: #B08D57;   /* Sapientia */
+  --color-bronze: #6D7462;         /* Mercurius */
+  --color-soft-gold: #8A6D3E;      /* ลิงก์ทองเข้ม */
   --color-success: #4F7C5A;
   --color-warning: #9A7A45;
   --color-danger: #9F4F3F;
-  --color-info: #4F7C82;
+  --color-info: #476C82;           /* Psyche */
 
-  /* โทเค็นเดิมของ chrome หน้าแรก — remap เป็นโหมดสว่าง */
-  --color-burnished-gold: #B08D57; /* Old Gold (brand wordmark / accent) */
-  --color-on-surface: #232A38;     /* ตัวอักษรหลัก (เคยสว่าง → เข้ม) */
-  --color-on-surface-variant: #4A4438; /* ตัวอักษรรอง */
+  /* chrome หน้าแรก (เดิม) → cosmology */
+  --color-burnished-gold: #B08D57; /* Sapientia (brand wordmark) */
+  --color-on-surface: #1B1C2E;     /* ตัวอักษรหลัก = Prima ink */
+  --color-on-surface-variant: #4A4438;
   --color-primary: #B08D57;
-  --color-slate-boundary: #DCD2BF; /* เส้นขอบ */
-  --color-surface-container: #F0E9DA;
-  --color-surface-container-low: #EFE7D6;
-  --color-surface-container-lowest: #F5F1E8;
+  --color-slate-boundary: #DCD2BD;
+  --color-surface-container: #E7DECB;
+  --color-surface-container-low: #ECE4D3;
+  --color-surface-container-lowest: #F4F0E7;
 
   --font-sans: var(--font-ibm-plex-thai), "IBM Plex Sans Thai", system-ui, sans-serif;
   --font-serif: var(--font-noto-serif-thai), "Noto Serif Thai", Georgia, serif;
@@ -75,7 +89,7 @@
 
   html,
   body {
-    background-color: var(--color-paper);
+    background-color: var(--color-humanitas);
     color: var(--color-charcoal-ink);
   }
 
@@ -98,6 +112,12 @@
   h1 { line-height: 1.18; }
   h2 { line-height: 1.3; }
   h3 { line-height: 1.4; }
+
+  /* Lumen = แสงแรกของความเข้าใจ → ใช้กับ selection */
+  ::selection {
+    background: var(--color-lumen);
+    color: var(--color-prima);
+  }
 }
 
 /* reading column — จำกัดความกว้างบทความให้อ่านสบาย */
@@ -106,8 +126,8 @@
   line-height: 1.9;
 }
 
-/* Markdown body (E5) — เนื้อหาเต็มที่ render จาก Markdown ผ่าน react-markdown + remark-gfm
-   ไม่อนุญาต raw HTML (sanitize โดยค่าเริ่มต้นของ react-markdown) ใช้พาเลตต์ codex/paper */
+/* Markdown body (E5) — render จาก Markdown ผ่าน react-markdown + remark-gfm
+   ไม่อนุญาต raw HTML (sanitize ค่าเริ่มต้นของ react-markdown) ใช้พาเลตต์ cosmology (Humanitas) */
 .md-body {
   font-size: 1.0625rem;
   line-height: 1.8;
@@ -149,7 +169,7 @@
   text-underline-offset: 3px;
 }
 .md-body a:hover {
-  color: var(--color-verdigris);
+  color: var(--color-psyche);
 }
 .md-body strong {
   color: var(--color-ink);
@@ -176,7 +196,7 @@
   color: var(--color-gold);
 }
 /* Core-Epiphany callout — blockquote (>) = คำพูดจากงานต้นฉบับ / ประโยคแก่น
-   โทน codex/paper: ผิวกระดาษยกเบา ๆ + เส้นทองเนื้อหา + เครื่องหมายคำพูดทองจาง
+   โทน codex/paper: ผิวกระดาษยกเบา ๆ + เส้นทอง Sapientia + เครื่องหมายคำพูดทองจาง
    ใช้ serif แทน italic (ไทยไม่เหมาะกับ italic) */
 .md-body blockquote {
   position: relative;
@@ -215,7 +235,7 @@
   font-family: var(--font-mono, ui-monospace, "SFMono-Regular", Menlo, monospace);
   font-size: 0.92em;
   background: var(--color-paper-sunken);
-  border: 1px solid rgba(31, 42, 68, 0.12);
+  border: 1px solid rgba(27, 28, 46, 0.12);
   border-radius: 0.3rem;
   padding: 0.1rem 0.4rem;
 }
@@ -223,7 +243,7 @@
   margin: 1.6rem 0;
   padding: 1.1rem 1.25rem;
   background: var(--color-paper-sunken);
-  border: 1px solid rgba(31, 42, 68, 0.12);
+  border: 1px solid rgba(27, 28, 46, 0.12);
   border-radius: 0.5rem;
   overflow-x: auto;
   line-height: 1.7;
@@ -237,7 +257,7 @@
 .md-body hr {
   margin: 2.6rem 0;
   border: 0;
-  border-top: 1px solid rgba(31, 42, 68, 0.14);
+  border-top: 1px solid rgba(27, 28, 46, 0.14);
 }
 .md-body table {
   width: 100%;
@@ -247,7 +267,7 @@
 }
 .md-body th,
 .md-body td {
-  border: 1px solid rgba(31, 42, 68, 0.14);
+  border: 1px solid rgba(27, 28, 46, 0.14);
   padding: 0.55rem 0.8rem;
   text-align: left;
   vertical-align: top;
@@ -264,9 +284,9 @@
   margin: 1.6rem 0;
 }
 
-/* ===== หน้าแรก — chrome + sections (โหมดสว่าง codex/paper) ===== */
+/* ===== หน้าแรก — chrome + sections (โหมดสว่าง Humanitas) ===== */
 .glass-nav {
-  background: rgba(245, 241, 232, 0.78);
+  background: rgba(239, 232, 221, 0.78);
   backdrop-filter: blur(24px) saturate(180%);
   -webkit-backdrop-filter: blur(24px) saturate(180%);
   border-bottom: 1px solid rgba(176, 141, 87, 0.22);
@@ -283,21 +303,21 @@
   direction: ltr;
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
 }
+/* hero glow — Psyche (โลกภายใน) เรืองจาง */
 .hero-gradient {
-  background: radial-gradient(circle at center, rgba(79, 124, 130, 0.08) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(71, 108, 130, 0.09) 0%, transparent 70%);
 }
 .concept-card {
-  background: linear-gradient(145deg, rgba(252, 250, 243, 1) 0%, rgba(240, 233, 218, 1) 100%);
+  background: linear-gradient(145deg, rgba(248, 247, 243, 1) 0%, rgba(239, 232, 221, 1) 100%);
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .concept-card:hover {
   transform: translateY(-8px);
-  background: linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(245, 241, 232, 1) 100%);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(244, 240, 231, 1) 100%);
   border-color: rgba(176, 141, 87, 0.45);
-  box-shadow: 0 20px 40px -18px rgba(31, 42, 68, 0.22);
+  box-shadow: 0 20px 40px -18px rgba(27, 28, 46, 0.22);
 }
-/* แสดงโดย default — ซ่อนเพื่อ animate เฉพาะเมื่อ JS พร้อม (html.js-reveal)
-   กันหน้าเปล่า/มองไม่เห็น ถ้า JS ช้าหรือเผยพลาดจังหวะ */
+/* แสดงโดย default — ซ่อนเพื่อ animate เฉพาะเมื่อ JS พร้อม (html.js-reveal) */
 .scroll-reveal {
   transition:
     opacity 1s cubic-bezier(0.21, 0.6, 0.35, 1),
@@ -342,7 +362,7 @@
   animation: menu-in var(--dur-fast) var(--ease-out) both;
 }
 
-/* แสงทองเรือง "หายใจ" ช้า ๆ ที่ hero (โทนหอจดหมายเหตุ/แสงเทียนอ่านหนังสือ) */
+/* แสงเรือง "หายใจ" ช้า ๆ ที่ hero (Lumen — แสงแรกของความเข้าใจ) */
 @keyframes ambient-glow {
   0%, 100% { opacity: 0.45; transform: scale(1); }
   50% { opacity: 0.85; transform: scale(1.05); }
@@ -358,7 +378,7 @@
     border-color var(--dur-base) var(--ease-out);
 }
 .glass-nav.is-scrolled {
-  background: rgba(245, 241, 232, 0.94);
+  background: rgba(239, 232, 221, 0.94);
   border-bottom-color: rgba(176, 141, 87, 0.3);
 }
 

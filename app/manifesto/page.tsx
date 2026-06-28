@@ -262,7 +262,7 @@ export default function ManifestoPage() {
             </figure>
             <figure className="flex flex-col items-center gap-4 text-center">
               <svg viewBox="0 0 64 64" className="h-16 w-16" aria-hidden="true">
-                <circle cx="32" cy="32" r="22" fill="none" stroke="#1F2A44" strokeWidth="2" />
+                <circle cx="32" cy="32" r="22" fill="none" stroke="#1B1C2E" strokeWidth="2" />
                 <circle cx="32" cy="32" r="3.5" fill="#B08D57" />
               </svg>
               <figcaption className="text-sm leading-relaxed text-on-surface-variant/75">
@@ -272,7 +272,7 @@ export default function ManifestoPage() {
             </figure>
             <figure className="flex flex-col items-center gap-4 text-center">
               <svg viewBox="0 0 64 64" className="h-16 w-16" aria-hidden="true">
-                <circle cx="25" cy="32" r="18" fill="none" stroke="#4F7C82" strokeWidth="2" />
+                <circle cx="25" cy="32" r="18" fill="none" stroke="#476C82" strokeWidth="2" />
                 <circle cx="39" cy="32" r="18" fill="none" stroke="#B08D57" strokeWidth="2" />
               </svg>
               <figcaption className="text-sm leading-relaxed text-on-surface-variant/75">
