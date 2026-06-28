@@ -158,7 +158,7 @@ export function ConstellationMindmap({
             }}
           >
             <span className="px-2 text-center font-serif text-sm leading-tight text-ivory">
-              {focusNode.thaiTitle || focusNode.label}
+              {focusNode.label}
             </span>
           </span>
           <span className="mt-2 inline-flex items-center gap-1 text-[11px] text-burnished-gold opacity-80 transition-opacity group-hover:opacity-100">
@@ -188,7 +188,7 @@ export function ConstellationMindmap({
                     className="h-2 w-2 shrink-0 rounded-full"
                     style={{ backgroundColor: NODE_TYPE_COLOR[n.nodeType] }}
                   />
-                  <span className="font-serif text-sm text-on-surface">{n.thaiTitle || n.label}</span>
+                  <span className="font-serif text-sm text-on-surface">{n.label}</span>
                 </span>
                 <span className="text-[10px] text-on-surface-variant/55">
                   {RELATION_LABEL[p.relation]}
@@ -213,7 +213,7 @@ export function ConstellationMindmap({
             style={{ backgroundColor: NODE_TYPE_COLOR[focusNode.nodeType] }}
           />
           <span className="font-serif text-lg text-ivory">
-            {focusNode.thaiTitle || focusNode.label}
+            {focusNode.label}
           </span>
           <span className="text-xs text-on-surface-variant/55">
             {[NODE_TYPE_LABEL[focusNode.nodeType], focusNode.framework].filter(Boolean).join(" · ")}
