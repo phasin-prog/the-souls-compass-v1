@@ -26,11 +26,14 @@ export function ContextMenu({
   items,
   children,
   className,
+  as = "div",
 }: {
   items: ContextMenuItem[];
   children: ReactNode;
   className?: string;
+  as?: "div" | "span";
 }) {
+  const Wrapper = as;
   const [open, setOpen] = useState(false);
   const [pos, setPos] = useState<Pos>({ x: 0, y: 0 });
   const menuRef = useRef<HTMLDivElement | null>(null);
@@ -116,7 +119,7 @@ export function ContextMenu({
   }, [open, pos.x, pos.y]);
 
   return (
-    <div
+    <Wrapper
       className={className}
       onContextMenu={onContextMenu}
       onTouchStart={onTouchStart}
@@ -158,6 +161,6 @@ export function ContextMenu({
             document.body,
           )
         : null}
-    </div>
+    </Wrapper>
   );
 }
