@@ -5,7 +5,8 @@ import { notFound } from "next/navigation";
 import { ReadingPage } from "@/components/reading/reading-page";
 import { conceptRegistry, getConceptBySlug } from "@/lib/content/concept-registry";
 import { getBacklinksForConcept } from "@/lib/content/related";
-import { entries, getEntryBySlug } from "@/lib/content/entries";
+import { entries } from "@/lib/content/entries";
+import { getPublicEntries, getPublicEntryBySlug } from "@/lib/content/public-source";
 import {
   ConceptIcon,
   PersonIcon,
@@ -17,6 +18,8 @@ import {
 
 // Dynamic route — รองรับ slug ใหม่ตอน runtime
 export const dynamicParams = true;
+// E8 — ISR: regenerate ทุก 5 นาที + on-demand revalidate จาก E7
+export const revalidate = 300;
 
 const NODE_LABEL: Record<string, string> = {
   concept: "แนวคิด",
@@ -50,7 +53,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const entry = getEntryBySlug(slug);
+  const entry = await getPublicEntryBySlug(slug);
   const node = getConceptBySlug(slug);
   const title = entry?.title ?? node?.title;
   return {
@@ -61,8 +64,9 @@ export async function generateMetadata({
 }
 
 // บล็อก backlinks — บทความ/เนื้อหาที่อ้างถึงแนวคิดนี้
-function Backlinks({ slug }: { slug: string }) {
-  const backlinks = getBacklinksForConcept(slug, entries).filter(
+async function Backlinks({ slug }: { slug: string }) {
+  const all = await getPublicEntries();
+  const backlinks = getBacklinksForConcept(slug, all).filter(
     (a) => a.slug !== slug,
   );
   return (
@@ -99,7 +103,7 @@ export default async function ConceptNodePage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const entry = getEntryBySlug(slug);
+  const entry = await getPublicEntryBySlug(slug);
 
   // ถ้ามีเนื้อหาเต็ม → render รูปแบบเดียวกับ Article (ReadingPage) + backlinks
   if (entry) {

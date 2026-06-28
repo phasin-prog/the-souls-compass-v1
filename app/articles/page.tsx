@@ -2,14 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader } from "@/components/page-header";
 import { PageNav } from "@/components/page-nav";
-import { entries } from "@/lib/content/entries";
+import { getPublicEntries } from "@/lib/content/public-source";
 
 export const metadata: Metadata = {
   title: "บทความ — The Soul's Compass",
 };
 
-export default function ArticlesPage() {
-  const published = entries.filter((e) => e.status === "published");
+// E8 — อ่านจาก Supabase (published) + fallback static · ISR 5 นาที + on-demand จาก E7
+export const revalidate = 300;
+
+export default async function ArticlesPage() {
+  const published = await getPublicEntries();
 
   return (
     <main className="pb-24">

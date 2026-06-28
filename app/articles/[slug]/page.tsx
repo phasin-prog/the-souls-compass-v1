@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { ReadingPage } from "@/components/reading/reading-page";
-import { getEntryBySlug, allEntrySlugs } from "@/lib/content/entries";
+import { allEntrySlugs } from "@/lib/content/entries";
+import { getPublicEntryBySlug } from "@/lib/content/public-source";
 
 // Dynamic route — pre-render slug ที่มีอยู่ และรองรับ slug ใหม่ตอน runtime
 export const dynamicParams = true;
+// E8 — ISR: regenerate ทุก 5 นาที + on-demand revalidate จาก E7
+export const revalidate = 300;
 
 export function generateStaticParams() {
   return allEntrySlugs().map((slug) => ({ slug }));
@@ -16,7 +19,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const entry = getEntryBySlug(slug);
+  const entry = await getPublicEntryBySlug(slug);
   return {
     title: entry
       ? `${entry.title} — The Soul's Compass`
@@ -30,7 +33,7 @@ export default async function ArticleEntryPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const entry = getEntryBySlug(slug);
+  const entry = await getPublicEntryBySlug(slug);
   if (!entry) {
     notFound();
   }
