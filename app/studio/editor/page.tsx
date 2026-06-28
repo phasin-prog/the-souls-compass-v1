@@ -12,10 +12,12 @@ import {
 } from "@/lib/content/publish-validation";
 import { createClerkSupabaseClient } from "@/lib/supabase/client";
 import { saveDraft as saveDraftDb, loadDraftBySlug } from "@/lib/content/draft-db";
+import { addRevision } from "@/lib/content/entries-db";
 import { SearchableSelect } from "@/components/studio/searchable-select";
 import { SearchableMultiSelect } from "@/components/studio/searchable-multi-select";
 import { RelatedConceptPicker } from "@/components/studio/related-concept-picker";
 import { InternalLinkSuggestionPanel } from "@/components/studio/internal-link-suggestion-panel";
+import { RevisionPanel } from "@/components/studio/revision-panel";
 
 const CONTENT_TYPES = [
   "article", "concept", "reading-set", "source-note",
@@ -58,12 +60,16 @@ export default function StudioEditorPage() {
   );
 
   const [draft, setDraft] = useState<EditorDraft>(EMPTY_DRAFT);
+  const [entryId, setEntryId] = useState<string | null>(null);
+  const [reloadKey, setReloadKey] = useState(0);
   const [savedAt, setSavedAt] = useState<string | null>(null);
-  const [saving, setSaving] = useState(false);
+  const [autoState, setAutoState] = useState<"idle" | "saving" | "saved">("idle");
   const [message, setMessage] = useState<string | null>(null);
   const [preview, setPreview] = useState(false);
   const [publishTried, setPublishTried] = useState(false);
   const [ref, setRef] = useState({ sourceType: "primary-source", title: "", relatedClaim: "" });
+
+  const canSave = draft.slug.trim() !== "" && draft.title.trim() !== "";
 
   // โหลดเนื้อหาเดิมถ้ามี ?slug=
   useEffect(() => {
@@ -86,25 +92,48 @@ export default function StudioEditorPage() {
     setDraft((d) => ({ ...d, [key]: value }));
   }
 
-  async function handleSave() {
+  // บันทึกลง Supabase; snapshot=true จะเก็บลง version history ด้วย
+  async function persist(snapshot: boolean): Promise<boolean> {
+    if (!userId || !canSave) return false;
+    const { data, error } = await saveDraftDb(supabase, userId, draft);
+    if (error) {
+      setMessage(`บันทึกไม่สำเร็จ: ${error.message}`);
+      return false;
+    }
+    setMessage(null);
+    const row = data as { id?: string } | null;
+    const id = row?.id ?? entryId;
+    if (id && id !== entryId) setEntryId(id);
+    setSavedAt(new Date().toLocaleString("th-TH"));
+    if (snapshot && id) {
+      await addRevision(supabase, id, draft, userId, "บันทึกด้วยตนเอง");
+      setReloadKey((k) => k + 1);
+    }
+    return true;
+  }
+
+  // Autosave — debounce 2.5 วินาทีหลังหยุดพิมพ์
+  useEffect(() => {
+    if (!userId || !canSave) return;
+    setAutoState("saving");
+    const t = setTimeout(async () => {
+      const ok = await persist(false);
+      setAutoState(ok ? "saved" : "idle");
+    }, 2500);
+    return () => clearTimeout(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [draft, userId]);
+
+  async function handleManualSave() {
     if (!userId) {
       setMessage("ยังไม่ได้เข้าสู่ระบบ — บันทึกไม่ได้");
       return;
     }
-    if (draft.slug.trim() === "" || draft.title.trim() === "") {
+    if (!canSave) {
       setMessage("ต้องมี Title และ Slug ก่อนบันทึก");
       return;
     }
-    setSaving(true);
-    setMessage(null);
-    const { error } = await saveDraftDb(supabase, userId, draft);
-    setSaving(false);
-    if (error) {
-      setMessage(`บันทึกไม่สำเร็จ: ${error.message}`);
-    } else {
-      setSavedAt(new Date().toLocaleString("th-TH"));
-      setMessage(null);
-    }
+    await persist(true);
   }
 
   const checklist = getPublishChecklist(draft);
@@ -118,9 +147,7 @@ export default function StudioEditorPage() {
           <Link href="/" className="text-sm text-soft-ivory hover:text-soft-gold">← กลับหน้าแรก</Link>
           <span className="rounded-full border border-white/15 px-3 py-1 text-xs text-muted">สถานะ: {draft.status}</span>
           <div className="flex items-center gap-2">
-            <button onClick={handleSave} disabled={saving} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold disabled:opacity-40">
-              {saving ? "กำลังบันทึก..." : "บันทึกแบบร่าง"}
-            </button>
+            <button onClick={handleManualSave} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold">บันทึก + เวอร์ชัน</button>
             <button onClick={() => setPreview((v) => !v)} disabled={!canPreview} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold disabled:opacity-40">{preview ? "ปิดพรีวิว" : "พรีวิว"}</button>
             <button onClick={() => setPublishTried(true)} className="rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-4 py-2 text-sm font-semibold text-[#1a1306]">เผยแพร่</button>
             <UserButton afterSignOutUrl="/" />
@@ -132,7 +159,8 @@ export default function StudioEditorPage() {
         <main className="space-y-10">
           <p className="text-xs text-muted">
             เขียนในชื่อ (author_id): <span className="text-soft-ivory">{userId ?? "— (ยังไม่ได้ login)"}</span>
-            {savedAt ? <span> · บันทึกลง Supabase ล่าสุดเมื่อ {savedAt}</span> : null}
+            {autoState === "saving" ? <span> · กำลังบันทึกอัตโนมัติ...</span> : null}
+            {autoState === "saved" && savedAt ? <span> · บันทึกอัตโนมัติแล้ว {savedAt}</span> : null}
           </p>
           {message ? <p className="text-sm text-danger">{message}</p> : null}
 
@@ -262,7 +290,7 @@ export default function StudioEditorPage() {
               <li>เขียนให้ชัด ไม่ลดทอนแนวคิดจนผิด</li>
               <li>เลี่ยงคำว่า ลึก/คม/ทรงพลัง ถ้าไม่อธิบายว่าอย่างไร</li>
               <li>แยกข้อเท็จจริง แหล่งที่มา และการตีความ</li>
-              <li>ถ้ายังไม่มีแหล่ง ตั้งสถานะ Needs Source Check</li>
+              <li>autosave ทุก 2.5 วิ · กด “บันทึก + เวอร์ชัน” เพื่อเก็บ snapshot</li>
             </ul>
           </div>
           <div className="rounded-md border border-white/10 bg-surface-1/40 p-5">
@@ -281,6 +309,12 @@ export default function StudioEditorPage() {
               </p>
             ) : null}
           </div>
+          <RevisionPanel
+            supabase={supabase}
+            entryId={entryId}
+            reloadKey={reloadKey}
+            onRestore={(d) => setDraft(d)}
+          />
           <InternalLinkSuggestionPanel
             text={`${draft.visualExplanation} ${draft.technicalMeaning}`}
             onInsert={(term) =>
