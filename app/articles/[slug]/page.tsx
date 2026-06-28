@@ -3,16 +3,18 @@ import { notFound } from "next/navigation";
 import { ReadingPage } from "@/components/reading/reading-page";
 import { getEntryBySlug, allEntrySlugs } from "@/lib/content/entries";
 
+// Next 15: params เป็น Promise — ต้อง await
 export function generateStaticParams() {
   return allEntrySlugs().map((slug) => ({ slug }));
 }
 
-export function generateMetadata({
+export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
-}): Metadata {
-  const entry = getEntryBySlug(params.slug);
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const entry = getEntryBySlug(slug);
   return {
     title: entry
       ? `${entry.title} — The Soul's Compass`
@@ -20,12 +22,13 @@ export function generateMetadata({
   };
 }
 
-export default function ArticleEntryPage({
+export default async function ArticleEntryPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const entry = getEntryBySlug(params.slug);
+  const { slug } = await params;
+  const entry = getEntryBySlug(slug);
   if (!entry) {
     notFound();
   }

@@ -1,6 +1,29 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* Tailwind v4 — design tokens แบบ CSS-first (แทน tailwind.config.ts)
+   สีที่ประกาศเป็น --color-* จะกลายเป็น utility อัตโนมัติ เช่น bg-midnight, text-antique-gold */
+@theme {
+  --color-midnight: #0B1020;
+  --color-deep-navy: #101827;
+  --color-charcoal: #171717;
+  --color-surface-1: #121A2A;
+  --color-surface-2: #182234;
+  --color-surface-3: #202B3D;
+  --color-ivory: #F5F0E6;
+  --color-soft-ivory: #E7DDCC;
+  --color-muted: #A8A29E;
+  --color-subtle: #78716C;
+  --color-antique-gold: #C8A85A;
+  --color-bronze: #9B6B3D;
+  --color-soft-gold: #D8C58A;
+  --color-success: #7A9B76;
+  --color-warning: #C2A15A;
+  --color-danger: #B46A5A;
+  --color-info: #6F8FAF;
+
+  --font-serif: "Noto Serif Thai", Georgia, serif;
+  --font-sans: "IBM Plex Sans Thai", system-ui, sans-serif;
+}
 
 @layer base {
   :root {
@@ -9,12 +32,12 @@
 
   html,
   body {
-    background-color: #0B1020;
-    color: #F5F0E6;
+    background-color: var(--color-midnight);
+    color: var(--color-ivory);
   }
 
   body {
-    font-family: "IBM Plex Sans Thai", system-ui, -apple-system, sans-serif;
+    font-family: var(--font-sans);
     line-height: 1.75;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -23,12 +46,12 @@
   h1,
   h2,
   h3 {
-    font-family: "Noto Serif Thai", Georgia, serif;
+    font-family: var(--font-serif);
     line-height: 1.35;
   }
 }
 
-/* reading column helper — ใช้กับเนื้อหาบทความเพื่อจำกัดความกว้างให้อ่านสบาย */
+/* reading column helper — จำกัดความกว้างบทความให้อ่านสบาย */
 .reading-column {
   max-width: 42rem;
   line-height: 1.85;
