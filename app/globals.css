@@ -1,36 +1,59 @@
 @import "tailwindcss";
 
-/* Tailwind v4 — design tokens (CSS-first). สีที่ประกาศ --color-* กลายเป็น utility อัตโนมัติ
-   ฟอนต์ผูกกับ next/font variables (กำหนดบน <html> ใน layout.tsx) พร้อม fallback */
-@theme {
-  --color-midnight: #0B1020;
-  --color-deep-navy: #101827;
-  --color-charcoal: #171717;
-  --color-surface-1: #121A2A;
-  --color-surface-2: #182234;
-  --color-surface-3: #202B3D;
-  --color-ivory: #F5F0E6;
-  --color-soft-ivory: #E7DDCC;
-  --color-muted: #A8A29E;
-  --color-subtle: #78716C;
-  --color-antique-gold: #C8A85A;
-  --color-bronze: #9B6B3D;
-  --color-soft-gold: #D8C58A;
-  --color-success: #7A9B76;
-  --color-warning: #C2A15A;
-  --color-danger: #B46A5A;
-  --color-info: #6F8FAF;
+/* ============================================================================
+   ARCHRON — Design System (Light "Codex / Paper" mode)
+   ----------------------------------------------------------------------------
+   ปรัชญาสี (จาก Founding Brand Codex):
+     • Ivory #F5F1E8        — พื้นหลัง: หนังสือ กระดาษ codex ความรู้ของมนุษย์
+     • Midnight Indigo #1F2A44 — หมึก/หัวเรื่อง: ค่ำคืนก่อนรุ่งสาง ความลึก การใคร่ครวญ
+     • Charcoal #2B2B2B     — ตัวอักษรเนื้อหา: การอ่าน อำนาจที่เงียบงัน
+     • Old Gold #B08D57     — accent หลัก: ปัญญาเหนือกาล ต้นฉบับโบราณ
+     • Verdigris #4F7C82    — accent รอง: สนิมสำริด ประวัติศาสตร์ การแปรเปลี่ยน
 
-  /* โทเค็นดีไซน์หน้าแรก (จาก HTML ที่ผู้ใช้ให้) — ใช้ร่วมกับชุดเดิม */
-  --color-burnished-gold: #D4AF37;
-  --color-deep-navy: #080B16;
-  --color-on-surface: #E0E1F2;
-  --color-on-surface-variant: #D0C5AF;
-  --color-primary: #F2CA50;
-  --color-slate-boundary: #1E2538;
-  --color-surface-container: #1C1F2B;
-  --color-surface-container-low: #181B27;
-  --color-surface-container-lowest: #0B0E19;
+   Tailwind v4 (CSS-first): ตัวแปร --color-* กลายเป็น utility อัตโนมัติ
+   ชื่อ token เดิม (deep-navy / ivory / antique-gold ฯลฯ) ถูก remap ให้ค่าที่
+   เหมาะกับโหมดสว่าง เพื่อให้ utility ทั่วเว็บไม่พังระหว่างรีแบรนด์
+   ============================================================================ */
+@theme {
+  /* ---- ARCHRON core palette (ชื่อใหม่ ใช้เป็นแหล่งความจริง) ---- */
+  --color-paper: #F5F1E8;          /* Ivory — พื้นหน้าหลัก */
+  --color-paper-raised: #FCFAF3;   /* การ์ด/ผิวยกเด่น (สว่างกว่าพื้น) */
+  --color-paper-sunken: #ECE3D2;   /* ผิวจม เช่น code block */
+  --color-ink: #1F2A44;            /* Midnight Indigo — หัวเรื่อง/หมึกเข้ม */
+  --color-charcoal-ink: #2B2B2B;   /* Charcoal — ตัวอักษรเนื้อหา */
+  --color-gold: #B08D57;           /* Old Gold — accent หลัก */
+  --color-gold-deep: #8A6D3E;      /* Old Gold เข้ม — ลิงก์/คอนทราสต์บนพื้นสว่าง */
+  --color-verdigris: #4F7C82;      /* Verdigris — accent รอง */
+  --color-line: #DCD2BF;           /* เส้นขอบโทนกระดาษ */
+
+  /* ---- legacy token remap (คงชื่อเดิม → ค่าโหมดสว่าง) ---- */
+  --color-midnight: #F5F1E8;       /* เคยเป็นพื้นดำ → เป็นพื้นกระดาษ */
+  --color-deep-navy: #F5F1E8;      /* ใช้เป็น bg ทั่วเว็บ → พื้นกระดาษ */
+  --color-charcoal: #2B2B2B;       /* ตัวอักษรเนื้อหา */
+  --color-surface-1: #FCFAF3;
+  --color-surface-2: #F0E9DA;
+  --color-surface-3: #E9E0CF;
+  --color-ivory: #232A38;          /* เคยเป็น "สีตัวอักษรสว่าง" → กลับเป็นหมึกเข้มเพื่ออ่านบนพื้นสว่าง */
+  --color-soft-ivory: #3A362E;     /* ตัวอักษรเนื้อหารอง (md-body) */
+  --color-muted: #6E665A;
+  --color-subtle: #8A8275;
+  --color-antique-gold: #B08D57;   /* Old Gold */
+  --color-bronze: #8A6A3F;
+  --color-soft-gold: #8A6D3E;      /* ลิงก์ทองบนพื้นสว่าง (เข้มพอให้คอนทราสต์) */
+  --color-success: #4F7C5A;
+  --color-warning: #9A7A45;
+  --color-danger: #9F4F3F;
+  --color-info: #4F7C82;
+
+  /* โทเค็นเดิมของ chrome หน้าแรก — remap เป็นโหมดสว่าง */
+  --color-burnished-gold: #B08D57; /* Old Gold (brand wordmark / accent) */
+  --color-on-surface: #232A38;     /* ตัวอักษรหลัก (เคยสว่าง → เข้ม) */
+  --color-on-surface-variant: #4A4438; /* ตัวอักษรรอง */
+  --color-primary: #B08D57;
+  --color-slate-boundary: #DCD2BF; /* เส้นขอบ */
+  --color-surface-container: #F0E9DA;
+  --color-surface-container-low: #EFE7D6;
+  --color-surface-container-lowest: #F5F1E8;
 
   --font-sans: var(--font-ibm-plex-thai), "IBM Plex Sans Thai", system-ui, sans-serif;
   --font-serif: var(--font-noto-serif-thai), "Noto Serif Thai", Georgia, serif;
@@ -39,7 +62,7 @@
 
 @layer base {
   :root {
-    color-scheme: dark;
+    color-scheme: light;
 
     /* Motion tokens — ละมุน เรียบหรู (animate เฉพาะ transform/opacity) */
     --ease-soft: cubic-bezier(0.21, 0.6, 0.35, 1);
@@ -52,8 +75,8 @@
 
   html,
   body {
-    background-color: var(--color-midnight);
-    color: var(--color-ivory);
+    background-color: var(--color-paper);
+    color: var(--color-charcoal-ink);
   }
 
   body {
@@ -69,6 +92,7 @@
   h2,
   h3 {
     font-family: var(--font-serif);
+    color: var(--color-ink);
     text-wrap: balance;
   }
   h1 { line-height: 1.18; }
@@ -83,7 +107,7 @@
 }
 
 /* Markdown body (E5) — เนื้อหาเต็มที่ render จาก Markdown ผ่าน react-markdown + remark-gfm
-   ไม่อนุญาต raw HTML (sanitize โดยค่าเริ่มต้นของ react-markdown) ใช้พาเลตต์ night-library */
+   ไม่อนุญาต raw HTML (sanitize โดยค่าเริ่มต้นของ react-markdown) ใช้พาเลตต์ codex/paper */
 .md-body {
   font-size: 1.0625rem;
   line-height: 1.8;
@@ -96,7 +120,7 @@
 .md-body h3,
 .md-body h4 {
   font-family: var(--font-serif);
-  color: var(--color-ivory);
+  color: var(--color-ink);
   text-wrap: balance;
 }
 .md-body h2 {
@@ -120,15 +144,15 @@
   margin: 1.15rem 0;
 }
 .md-body a {
-  color: var(--color-soft-gold);
+  color: var(--color-gold-deep);
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 .md-body a:hover {
-  color: var(--color-antique-gold);
+  color: var(--color-verdigris);
 }
 .md-body strong {
-  color: var(--color-ivory);
+  color: var(--color-ink);
   font-weight: 600;
 }
 .md-body em {
@@ -149,19 +173,19 @@
   margin: 0.4rem 0;
 }
 .md-body li::marker {
-  color: var(--color-antique-gold);
+  color: var(--color-gold);
 }
 /* Core-Epiphany callout — blockquote (>) = คำพูดจากงานต้นฉบับ / ประโยคแก่น
-   โทน night-library: พื้น surface ยกเบา ๆ + เส้นทองเนื้อหา + เครื่องหมายคำพูดทองจาง
+   โทน codex/paper: ผิวกระดาษยกเบา ๆ + เส้นทองเนื้อหา + เครื่องหมายคำพูดทองจาง
    ใช้ serif แทน italic (ไทยไม่เหมาะกับ italic) */
 .md-body blockquote {
   position: relative;
   margin: 2rem 0;
   padding: 1.5rem 1.75rem 1.5rem 2.6rem;
-  border-left: 3px solid var(--color-antique-gold);
+  border-left: 3px solid var(--color-gold);
   border-radius: 0.5rem;
   background: var(--color-surface-container);
-  color: var(--color-ivory);
+  color: var(--color-ink);
   font-family: var(--font-serif);
   font-size: 1.15rem;
   line-height: 1.8;
@@ -174,8 +198,8 @@
   font-family: var(--font-serif);
   font-size: 2.6rem;
   line-height: 1;
-  color: var(--color-antique-gold);
-  opacity: 0.28;
+  color: var(--color-gold);
+  opacity: 0.32;
   pointer-events: none;
 }
 .md-body blockquote p {
@@ -190,16 +214,16 @@
 .md-body code {
   font-family: var(--font-mono, ui-monospace, "SFMono-Regular", Menlo, monospace);
   font-size: 0.92em;
-  background: var(--color-surface-2);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--color-paper-sunken);
+  border: 1px solid rgba(31, 42, 68, 0.12);
   border-radius: 0.3rem;
   padding: 0.1rem 0.4rem;
 }
 .md-body pre {
   margin: 1.6rem 0;
   padding: 1.1rem 1.25rem;
-  background: var(--color-surface-1);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--color-paper-sunken);
+  border: 1px solid rgba(31, 42, 68, 0.12);
   border-radius: 0.5rem;
   overflow-x: auto;
   line-height: 1.7;
@@ -213,7 +237,7 @@
 .md-body hr {
   margin: 2.6rem 0;
   border: 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  border-top: 1px solid rgba(31, 42, 68, 0.14);
 }
 .md-body table {
   width: 100%;
@@ -223,13 +247,13 @@
 }
 .md-body th,
 .md-body td {
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(31, 42, 68, 0.14);
   padding: 0.55rem 0.8rem;
   text-align: left;
   vertical-align: top;
 }
 .md-body th {
-  color: var(--color-ivory);
+  color: var(--color-ink);
   background: var(--color-surface-2);
   font-weight: 600;
 }
@@ -240,12 +264,12 @@
   margin: 1.6rem 0;
 }
 
-/* ===== หน้าแรก redesign — chrome + sections (จาก HTML ที่ผู้ใช้ให้) ===== */
+/* ===== หน้าแรก — chrome + sections (โหมดสว่าง codex/paper) ===== */
 .glass-nav {
-  background: rgba(8, 11, 22, 0.7);
+  background: rgba(245, 241, 232, 0.78);
   backdrop-filter: blur(24px) saturate(180%);
   -webkit-backdrop-filter: blur(24px) saturate(180%);
-  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+  border-bottom: 1px solid rgba(176, 141, 87, 0.22);
 }
 .material-symbols-outlined {
   font-family: "Material Symbols Outlined";
@@ -260,17 +284,17 @@
   font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
 }
 .hero-gradient {
-  background: radial-gradient(circle at center, rgba(212, 175, 55, 0.05) 0%, transparent 70%);
+  background: radial-gradient(circle at center, rgba(79, 124, 130, 0.08) 0%, transparent 70%);
 }
 .concept-card {
-  background: linear-gradient(145deg, rgba(18, 23, 38, 1) 0%, rgba(11, 14, 25, 1) 100%);
+  background: linear-gradient(145deg, rgba(252, 250, 243, 1) 0%, rgba(240, 233, 218, 1) 100%);
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .concept-card:hover {
   transform: translateY(-8px);
-  background: linear-gradient(145deg, rgba(28, 31, 43, 1) 0%, rgba(18, 23, 38, 1) 100%);
-  border-color: rgba(212, 175, 55, 0.4);
-  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 1) 0%, rgba(245, 241, 232, 1) 100%);
+  border-color: rgba(176, 141, 87, 0.45);
+  box-shadow: 0 20px 40px -18px rgba(31, 42, 68, 0.22);
 }
 /* แสดงโดย default — ซ่อนเพื่อ animate เฉพาะเมื่อ JS พร้อม (html.js-reveal)
    กันหน้าเปล่า/มองไม่เห็น ถ้า JS ช้าหรือเผยพลาดจังหวะ */
@@ -318,10 +342,10 @@
   animation: menu-in var(--dur-fast) var(--ease-out) both;
 }
 
-/* แสงทองเรือง "หายใจ" ช้า ๆ ที่ hero (โทนหอดูดาว) */
+/* แสงทองเรือง "หายใจ" ช้า ๆ ที่ hero (โทนหอจดหมายเหตุ/แสงเทียนอ่านหนังสือ) */
 @keyframes ambient-glow {
-  0%, 100% { opacity: 0.55; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.05); }
+  0%, 100% { opacity: 0.45; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.05); }
 }
 .ambient-glow {
   animation: ambient-glow var(--dur-ambient) ease-in-out infinite;
@@ -334,8 +358,8 @@
     border-color var(--dur-base) var(--ease-out);
 }
 .glass-nav.is-scrolled {
-  background: rgba(8, 11, 22, 0.92);
-  border-bottom-color: rgba(212, 175, 55, 0.18);
+  background: rgba(245, 241, 232, 0.94);
+  border-bottom-color: rgba(176, 141, 87, 0.3);
 }
 
 /* re-center fade ของ radial focus-map (/constellation) */
