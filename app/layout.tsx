@@ -4,6 +4,7 @@ import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { ScrollToTop } from "@/components/scroll-to-top";
+import { Tabbar } from "@/components/tabbar";
 
 const notoSerifThai = Noto_Serif_Thai({
   subsets: ["thai", "latin"],
@@ -53,11 +54,12 @@ export default function RootLayout({
           <style>{`.scroll-reveal{opacity:1!important;transform:none!important}`}</style>
         </noscript>
       </head>
-      <body className="min-h-screen bg-deep-navy text-ivory antialiased">
+      <body className="min-h-screen bg-deep-navy pb-16 text-ivory antialiased md:pb-0">
         <SiteHeader />
         {children}
         <SiteFooter />
         <ScrollToTop />
+        <Tabbar />
       </body>
     </html>
   );
