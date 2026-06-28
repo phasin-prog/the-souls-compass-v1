@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/page-header";
+import { PageNav } from "@/components/page-nav";
 
 export const metadata: Metadata = {
   title: "แหล่งอ้างอิง — The Soul's Compass",
@@ -32,6 +33,7 @@ export default function SourcesPage() {
           <p className="text-soft-ivory">ยังไม่มีบันทึกแหล่งอ้างอิงเผยแพร่</p>
         </div>
       </section>
+      <PageNav current="/sources" />
     </main>
   );
 }

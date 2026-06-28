@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/page-header";
+import { PageNav } from "@/components/page-nav";
 
 export const metadata: Metadata = {
   title: "สนับสนุน — The Soul's Compass",
@@ -29,6 +30,7 @@ export default function SupportPage() {
           ))}
         </div>
       </section>
+      <PageNav current="/support" />
     </main>
   );
 }

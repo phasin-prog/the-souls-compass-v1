@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/page-header";
+import { PageNav } from "@/components/page-nav";
 
 export const metadata: Metadata = {
   title: "Manifesto — The Soul's Compass",
@@ -23,6 +24,7 @@ export default function ManifestoPage() {
           ตรวจสอบได้ และเชื่อมโยงกันได้มากขึ้น
         </p>
       </section>
+      <PageNav current="/manifesto" />
     </main>
   );
 }

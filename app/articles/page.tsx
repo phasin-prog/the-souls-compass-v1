@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHeader } from "@/components/page-header";
+import { PageNav } from "@/components/page-nav";
 import { entries } from "@/lib/content/entries";
 
 export const metadata: Metadata = {
@@ -48,6 +49,7 @@ export default function ArticlesPage() {
           </div>
         )}
       </section>
+      <PageNav current="/articles" />
     </main>
   );
 }

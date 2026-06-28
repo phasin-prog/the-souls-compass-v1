@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/page-header";
+import { PageNav } from "@/components/page-nav";
 
 export const metadata: Metadata = {
   title: "คลังแนวคิด — The Soul's Compass",
@@ -34,6 +35,7 @@ export default function ConceptsPage() {
           <p className="mt-2 text-sm text-muted">Concept Registry, backlinks และ Constellation Map จะตามมา</p>
         </div>
       </section>
+      <PageNav current="/concepts" />
     </main>
   );
 }

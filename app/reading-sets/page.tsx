@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/page-header";
+import { PageNav } from "@/components/page-nav";
 
 export const metadata: Metadata = {
   title: "ซีรีส์ / ชุดอ่าน — The Soul's Compass",
@@ -19,6 +20,7 @@ export default function ReadingSetsPage() {
           <p className="mt-2 text-sm text-muted">ตัวอย่างที่วางแผนไว้ เช่น เริ่มต้นกับ Jung จาก Ego ถึง Self</p>
         </div>
       </section>
+      <PageNav current="/reading-sets" />
     </main>
   );
 }
