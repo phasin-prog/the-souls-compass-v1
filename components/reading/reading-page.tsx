@@ -201,7 +201,7 @@ export function ReadingPage({
             ))}
           </div>
           {hasOverflow ? (
-            <Link href="/concepts" className="mt-5 inline-block text-sm text-soft-gold hover:underline">
+            <Link href="/constellation" className="mt-5 inline-block text-sm text-soft-gold hover:underline">
               ดูแผนที่ความสัมพันธ์ทั้งหมด →
             </Link>
           ) : null}
