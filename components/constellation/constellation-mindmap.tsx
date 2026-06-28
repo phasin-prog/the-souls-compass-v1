@@ -2,7 +2,9 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import type { RelationType } from "@/types/content";
+import { ContextMenu } from "@/components/context-menu";
 import {
   NODE_TYPE_COLOR,
   NODE_TYPE_LABEL,
@@ -32,11 +34,23 @@ export function ConstellationMindmap({
   data: GraphData;
   initialFocus: string;
 }) {
+  const router = useRouter();
   const nodeById = useMemo(() => new Map(data.nodes.map((n) => [n.id, n])), [data]);
   const [focus, setFocus] = useState(initialFocus);
   const [history, setHistory] = useState<string[]>([]);
   const [hover, setHover] = useState<string | null>(null);
   const [query, setQuery] = useState("");
+  const [copied, setCopied] = useState(false);
+
+  const copyLink = (id: string) => {
+    navigator.clipboard
+      ?.writeText(`${window.location.origin}/concepts/${id}`)
+      .then(() => {
+        setCopied(true);
+        window.setTimeout(() => setCopied(false), 1500);
+      })
+      .catch(() => {});
+  };
 
   const focusNode = nodeById.get(focus);
 
@@ -146,9 +160,16 @@ export function ConstellationMindmap({
         </svg>
 
         {/* Center (focus) node */}
+        <ContextMenu
+          items={[
+            { label: "เปิดหน้าเต็ม", icon: "open_in_full", onSelect: () => router.push(`/concepts/${focusNode.id}`) },
+            { label: "คัดลอกลิงก์", icon: "link", onSelect: () => copyLink(focusNode.id) },
+          ]}
+          className="absolute left-1/2 top-1/2 z-20 -translate-x-1/2 -translate-y-1/2"
+        >
         <Link
           href={`/concepts/${focusNode.id}`}
-          className="group absolute left-1/2 top-1/2 z-20 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center"
+          className="group flex flex-col items-center"
         >
           <span
             className="flex h-24 w-24 items-center justify-center rounded-full border-2 bg-deep-navy/85 backdrop-blur"
@@ -169,6 +190,7 @@ export function ConstellationMindmap({
             <span className="material-symbols-outlined text-[13px]">arrow_forward</span>
           </span>
         </Link>
+        </ContextMenu>
 
         {/* Neighbor nodes */}
         {positions.map((p) => {
@@ -179,6 +201,14 @@ export function ConstellationMindmap({
               className="absolute z-10 -translate-x-1/2 -translate-y-1/2"
               style={{ left: `${p.x}%`, top: `${p.y}%` }}
             >
+              <ContextMenu
+                items={[
+                  { label: "ตั้งเป็นศูนย์กลาง", icon: "center_focus_strong", onSelect: () => goTo(p.id) },
+                  { label: "เปิดหน้าเต็ม", icon: "open_in_full", onSelect: () => router.push(`/concepts/${p.id}`) },
+                  { label: "คัดลอกลิงก์", icon: "link", onSelect: () => copyLink(p.id) },
+                ]}
+                className="inline-block"
+              >
               <button
                 type="button"
                 onClick={() => goTo(p.id)}
@@ -200,6 +230,7 @@ export function ConstellationMindmap({
                   {RELATION_LABEL[p.relation]}
                 </span>
               </button>
+              </ContextMenu>
             </div>
           );
         })}
@@ -208,6 +239,12 @@ export function ConstellationMindmap({
           <p className="absolute left-1/2 top-[64%] w-full -translate-x-1/2 text-center text-sm text-on-surface-variant/55">
             แนวคิดนี้ยังไม่มีความเชื่อมโยงในระบบ — ลองค้นหาแนวคิดอื่น
           </p>
+        ) : null}
+
+        {copied ? (
+          <div className="pointer-events-none absolute bottom-3 left-1/2 z-30 -translate-x-1/2 rounded-md bg-burnished-gold px-3 py-1 text-xs font-medium text-deep-navy">
+            คัดลอกลิงก์แล้ว
+          </div>
         ) : null}
       </div>
 

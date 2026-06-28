@@ -9,6 +9,7 @@ import {
   type MouseEvent,
   type TouchEvent,
 } from "react";
+import { createPortal } from "react-dom";
 
 export type ContextMenuItem = {
   label: string;
@@ -124,36 +125,39 @@ export function ContextMenu({
       onClickCapture={onClickCapture}
     >
       {children}
-      {open ? (
-        <div
-          ref={menuRef}
-          role="menu"
-          aria-label="เมนูลัด"
-          className="menu-in fixed z-[60] min-w-48 overflow-hidden rounded-lg border border-burnished-gold/20 bg-surface-container/95 py-1.5 shadow-[0_16px_40px_-12px_rgba(0,0,0,0.7)] backdrop-blur"
-          style={{ left: pos.x, top: pos.y }}
-          onClick={(e) => e.stopPropagation()}
-        >
-          {items.map((it) => (
-            <button
-              key={it.label}
-              type="button"
-              role="menuitem"
-              onClick={() => {
-                it.onSelect();
-                close();
-              }}
-              className="flex w-full items-center gap-2.5 px-3.5 py-2 text-left text-sm text-on-surface transition-colors hover:bg-burnished-gold/12 hover:text-burnished-gold focus:bg-burnished-gold/12 focus:text-burnished-gold focus:outline-none"
+      {open && typeof document !== "undefined"
+        ? createPortal(
+            <div
+              ref={menuRef}
+              role="menu"
+              aria-label="เมนูลัด"
+              className="menu-in fixed z-[60] min-w-48 overflow-hidden rounded-lg border border-burnished-gold/20 bg-surface-container/95 py-1.5 shadow-[0_16px_40px_-12px_rgba(0,0,0,0.7)] backdrop-blur"
+              style={{ left: pos.x, top: pos.y }}
+              onClick={(e) => e.stopPropagation()}
             >
-              {it.icon ? (
-                <span className="material-symbols-outlined text-[18px] text-burnished-gold">
-                  {it.icon}
-                </span>
-              ) : null}
-              {it.label}
-            </button>
-          ))}
-        </div>
-      ) : null}
+              {items.map((it) => (
+                <button
+                  key={it.label}
+                  type="button"
+                  role="menuitem"
+                  onClick={() => {
+                    it.onSelect();
+                    close();
+                  }}
+                  className="flex w-full items-center gap-2.5 px-3.5 py-2 text-left text-sm text-on-surface transition-colors hover:bg-burnished-gold/12 hover:text-burnished-gold focus:bg-burnished-gold/12 focus:text-burnished-gold focus:outline-none"
+                >
+                  {it.icon ? (
+                    <span className="material-symbols-outlined text-[18px] text-burnished-gold">
+                      {it.icon}
+                    </span>
+                  ) : null}
+                  {it.label}
+                </button>
+              ))}
+            </div>,
+            document.body,
+          )
+        : null}
     </div>
   );
 }
