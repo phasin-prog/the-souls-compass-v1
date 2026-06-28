@@ -8,21 +8,9 @@ const ENTRY = [
 ];
 
 const KNOWLEDGE = [
-  {
-    no: "01",
-    title: "ศึกษาเป็นระบบ",
-    desc: "อ่านแนวคิดสำคัญจากหลายสำนัก โดยไม่ตัดขาดจากบริบทเดิมของมัน",
-  },
-  {
-    no: "02",
-    title: "ตรวจสอบแหล่งที่มา",
-    desc: "แยกข้อเท็จจริง งานต้นทาง และการตีความออกจากกัน เพื่อให้ความรู้ไม่กลายเป็นคำกล่าวลอย ๆ",
-  },
-  {
-    no: "03",
-    title: "เชื่อมโยงข้ามศาสตร์",
-    desc: "เห็นความสัมพันธ์ระหว่างจิตวิทยา ปรัชญา ภาษา สัญลักษณ์ และชีวิตภายในของมนุษย์",
-  },
+  { no: "01", title: "ศึกษาเป็นระบบ", desc: "อ่านแนวคิดสำคัญจากหลายสำนัก โดยไม่ตัดขาดจากบริบทเดิมของมัน" },
+  { no: "02", title: "ตรวจสอบแหล่งที่มา", desc: "แยกข้อเท็จจริง งานต้นทาง และการตีความออกจากกัน เพื่อให้ความรู้ไม่กลายเป็นคำกล่าวลอย ๆ" },
+  { no: "03", title: "เชื่อมโยงข้ามศาสตร์", desc: "เห็นความสัมพันธ์ระหว่างจิตวิทยา ปรัชญา ภาษา สัญลักษณ์ และชีวิตภายในของมนุษย์" },
 ];
 
 const CONCEPTS = [
@@ -40,28 +28,28 @@ export default function HomePage() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(900px_500px_at_70%_-10%,rgba(200,168,90,0.10),transparent_60%)]" />
-        <div className="relative mx-auto max-w-6xl px-6 py-24 md:py-32">
-          <p className="text-sm tracking-widest text-antique-gold">
+        <div className="relative mx-auto max-w-6xl px-6 py-28 md:py-36">
+          <p className="text-sm tracking-[0.18em] text-antique-gold">
             คลังความรู้เพื่อศึกษาจิตใจมนุษย์อย่างมีบริบท
           </p>
-          <h1 className="mt-6 max-w-3xl font-serif text-4xl font-semibold leading-snug text-ivory md:text-5xl">
+          <h1 className="mt-7 max-w-3xl font-serif text-[clamp(2.6rem,6vw,4.8rem)] font-semibold leading-[1.18] text-ivory">
             อ่านจิตใจมนุษย์ โดยไม่ลดทอนให้เหลือเพียง
             <span className="text-soft-gold"> ป้ายกำกับ</span>
           </h1>
-          <p className="mt-7 max-w-2xl text-lg leading-relaxed text-soft-ivory">
+          <p className="mt-8 max-w-2xl text-xl leading-relaxed text-soft-ivory">
             The Soul&apos;s Compass คือพื้นที่ศึกษาจิตวิทยา จิตวิเคราะห์ ปรัชญา ประสาทวิทยาศาสตร์
             และทฤษฎีความรู้ โดยแยกแหล่งที่มา ข้อเท็จจริง และการตีความออกจากกัน
           </p>
-          <p className="mt-5 max-w-2xl border-l-2 border-antique-gold/30 pl-5 text-base italic leading-relaxed text-muted">
+          <p className="mt-6 max-w-xl border-l-2 border-antique-gold pl-6 font-serif text-xl leading-relaxed text-ivory">
             เราไม่ได้ทำให้ความคิดซับซ้อนกลายเป็นคำตอบง่าย ๆ แต่ทำให้ความซับซ้อนนั้นอ่านได้
             ตรวจสอบได้ และเชื่อมโยงกันได้มากขึ้น
           </p>
-          <div className="mt-10 flex flex-wrap gap-4">
+          <div className="mt-12 flex flex-wrap gap-4">
             <Link
               href="/articles"
               className="rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-7 py-3.5 text-base font-semibold text-[#1a1306] transition-transform hover:-translate-y-0.5"
             >
-              เริ่มอ่านบทความ
+              เริ่มอ่านบทความ →
             </Link>
             <Link
               href="/concepts"
@@ -74,7 +62,7 @@ export default function HomePage() {
       </section>
 
       {/* Entry Points */}
-      <section className="mx-auto max-w-6xl px-6 py-12">
+      <section className="mx-auto max-w-6xl px-6 py-14">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {ENTRY.map((e) => (
             <Link
@@ -98,7 +86,7 @@ export default function HomePage() {
               key={c.no}
               className="rounded-md border border-white/10 bg-surface-1/60 p-8 transition-colors hover:border-antique-gold/30"
             >
-              <span className="font-serif text-2xl text-antique-gold">{c.no}</span>
+              <span className="font-display text-3xl text-antique-gold">{c.no}</span>
               <h3 className="mt-4 font-serif text-xl text-ivory">{c.title}</h3>
               <p className="mt-3 text-base leading-relaxed text-soft-ivory">{c.desc}</p>
             </article>
@@ -109,7 +97,7 @@ export default function HomePage() {
       {/* Concept map */}
       <section id="concept" className="mx-auto max-w-6xl px-6 py-16">
         <div className="mx-auto max-w-2xl text-center">
-          <span className="text-xs tracking-widest text-antique-gold">แผนที่ความรู้</span>
+          <span className="text-xs tracking-[0.18em] text-antique-gold">แผนที่ความรู้</span>
           <h2 className="mt-4 font-serif text-3xl text-ivory">แผนที่ความรู้ของจิตใจมนุษย์</h2>
           <p className="mt-4 text-base text-muted">
             หกหมวดหลักที่เชื่อมโยงกันเป็นระบบ ดั่งคลังเอกสารและหอดูดาวของชีวิตภายใน
@@ -123,7 +111,7 @@ export default function HomePage() {
               className="group flex min-h-[170px] flex-col rounded-md border border-white/10 bg-charcoal/40 p-7 transition-colors hover:border-antique-gold/30 hover:bg-surface-2/40"
             >
               <div className="flex items-center justify-between">
-                <span className="font-serif text-lg text-antique-gold">{c.no}</span>
+                <span className="font-display text-xl text-antique-gold">{c.no}</span>
                 <span className="h-2.5 w-2.5 rounded-full border border-antique-gold" aria-hidden="true" />
               </div>
               <h3 className="mt-4 font-serif text-xl text-ivory group-hover:text-soft-gold">{c.title}</h3>
@@ -138,11 +126,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Manifesto */}
-      <section id="manifesto" className="relative py-24">
+      {/* Manifesto — editorial pull-quote */}
+      <section id="manifesto" className="relative py-28">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(700px_400px_at_50%_50%,rgba(200,168,90,0.08),transparent_64%)]" />
         <div className="relative mx-auto max-w-2xl px-6 text-center">
-          <h2 className="font-serif text-2xl leading-relaxed text-ivory md:text-3xl">
+          <span className="block font-display text-6xl leading-none text-antique-gold/50" aria-hidden="true">&ldquo;</span>
+          <h2 className="mt-2 font-serif text-2xl leading-relaxed text-ivory md:text-3xl">
             เราไม่รีบทำให้ความซับซ้อนกลายเป็นคำตอบง่าย ๆ
           </h2>
           <p className="mt-7 text-lg leading-loose text-soft-ivory">

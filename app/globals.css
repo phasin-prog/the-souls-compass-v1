@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-/* Tailwind v4 — design tokens แบบ CSS-first (แทน tailwind.config.ts)
-   สีที่ประกาศเป็น --color-* จะกลายเป็น utility อัตโนมัติ เช่น bg-midnight, text-antique-gold */
+/* Tailwind v4 — design tokens (CSS-first). สีที่ประกาศ --color-* กลายเป็น utility อัตโนมัติ
+   ฟอนต์ผูกกับ next/font variables (กำหนดบน <html> ใน layout.tsx) พร้อม fallback */
 @theme {
   --color-midnight: #0B1020;
   --color-deep-navy: #101827;
@@ -21,8 +21,9 @@
   --color-danger: #B46A5A;
   --color-info: #6F8FAF;
 
-  --font-serif: "Noto Serif Thai", Georgia, serif;
-  --font-sans: "IBM Plex Sans Thai", system-ui, sans-serif;
+  --font-sans: var(--font-ibm-plex-thai), "IBM Plex Sans Thai", system-ui, sans-serif;
+  --font-serif: var(--font-noto-serif-thai), "Noto Serif Thai", Georgia, serif;
+  --font-display: var(--font-playfair), "Playfair Display", Georgia, serif;
 }
 
 @layer base {
@@ -38,7 +39,9 @@
 
   body {
     font-family: var(--font-sans);
-    line-height: 1.75;
+    font-size: 1.0625rem;
+    line-height: 1.88;
+    letter-spacing: 0.1px;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
@@ -47,12 +50,15 @@
   h2,
   h3 {
     font-family: var(--font-serif);
-    line-height: 1.35;
+    text-wrap: balance;
   }
+  h1 { line-height: 1.18; }
+  h2 { line-height: 1.3; }
+  h3 { line-height: 1.4; }
 }
 
-/* reading column helper — จำกัดความกว้างบทความให้อ่านสบาย */
+/* reading column — จำกัดความกว้างบทความให้อ่านสบาย */
 .reading-column {
   max-width: 42rem;
-  line-height: 1.85;
+  line-height: 1.9;
 }
