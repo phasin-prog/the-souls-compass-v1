@@ -18,15 +18,29 @@ const SVG = (className: string, children: React.ReactNode) => (
   </svg>
 );
 
-export function CompassIcon({ className = "h-5 w-5" }: IconProps) {
-  return SVG(
-    className,
-    <>
-      <circle cx="12" cy="12" r="9" />
-      <polygon points="12,5 14,12 10,12" fill="currentColor" stroke="none" />
-      <polygon points="12,19 14,12 10,12" fill="none" />
-      <circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none" />
-    </>,
+// ARCHRON mark — วงกลมเปิด (ความรู้ไม่สิ้นสุด) + จุดศูนย์กลาง (มนุษย์)
+// แทนไอคอน compass เดิม ตาม Founding Brand Codex (เลี่ยงสัญลักษณ์เข็มทิศ)
+export function ArchronMark({ className = "h-5 w-5" }: IconProps) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <circle
+        cx="12"
+        cy="12"
+        r="8"
+        strokeDasharray="42 8.3"
+        transform="rotate(-55 12 12)"
+      />
+      <circle cx="12" cy="12" r="1.3" fill="currentColor" stroke="none" />
+    </svg>
   );
 }
 

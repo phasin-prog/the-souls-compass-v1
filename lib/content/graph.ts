@@ -37,13 +37,14 @@ export const NODE_TYPE_LABEL: Record<NodeType, string> = {
   term: "คำศัพท์",
 };
 
+// ARCHRON palette — สีโหนดสำหรับ graph บนพื้นกระดาษ (เข้มพอให้คอนทราสต์)
 export const NODE_TYPE_COLOR: Record<NodeType, string> = {
-  concept: "#C8A85A",
-  person: "#6F8FAF",
-  book: "#9B6B3D",
-  school: "#7A9B76",
-  symbol: "#E8D9A8",
-  term: "#A8A29E",
+  concept: "#8A6D3E", // Old Gold เข้ม
+  person: "#4F7C82", // Verdigris
+  book: "#8A6A3F", // Bronze
+  school: "#4F7C5A", // เขียวสนิม
+  symbol: "#1F2A44", // Midnight Indigo
+  term: "#6E665A", // Charcoal-gray
 };
 
 export const RELATION_LABEL: Record<RelationType, string> = {

@@ -12,14 +12,15 @@ import {
   type GraphData,
 } from "@/lib/content/graph";
 
+// ARCHRON palette — สีเส้นความสัมพันธ์บนพื้นกระดาษ (เข้มพอให้คอนทราสต์)
 const RELATION_COLOR: Record<RelationType, string> = {
-  prerequisite: "#C8A85A",
-  "part-of": "#D8C58A",
-  "source-of": "#9B6B3D",
-  "influenced-by": "#D8C58A",
-  "contrasts-with": "#B46A5A",
-  "used-in": "#6F8FAF",
-  related: "#8A8378",
+  prerequisite: "#8A6D3E",
+  "part-of": "#B08D57",
+  "source-of": "#8A6A3F",
+  "influenced-by": "#4F7C82",
+  "contrasts-with": "#9F4F3F",
+  "used-in": "#3E6E8C",
+  related: "#8A8275",
 };
 
 type Neighbor = { id: string; relation: RelationType; soft?: boolean };
