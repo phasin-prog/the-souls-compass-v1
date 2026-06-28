@@ -7,18 +7,27 @@ import {
   NODE_TYPE_ORDER,
   type GraphNode,
 } from "@/lib/content/graph";
-import { ConstellationGraph } from "@/components/constellation/constellation-graph";
-
-export const revalidate = 300;
+import { ConstellationMindmap } from "@/components/constellation/constellation-mindmap";
 
 export const metadata: Metadata = {
   title: "แผนที่ความสัมพันธ์ — The Soul's Compass",
   description:
-    "กราฟความสัมพันธ์ระหว่างแนวคิด นักคิด หนังสือ และสำนักคิด ในคลังความรู้จิตใจมนุษย์ — สำรวจว่าแต่ละแนวคิดเชื่อมโยงกันอย่างไร",
+    "แผนภาพรัศมีของแนวคิด นักคิด หนังสือ และสำนักคิด — เลือกแนวคิดเป็นศูนย์กลางแล้วสำรวจความเชื่อมโยงทีละก้าว",
 };
 
-export default async function ConstellationPage() {
+export default async function ConstellationPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ focus?: string }>;
+}) {
   const graph = buildGraph(await getPublicEntries());
+  const { focus } = await searchParams;
+
+  const hub = [...graph.nodes].sort(
+    (a, b) => b.inbound - a.inbound || b.degree - a.degree,
+  )[0];
+  const initialFocus =
+    focus && graph.nodes.some((n) => n.id === focus) ? focus : (hub?.id ?? graph.nodes[0]?.id ?? "");
 
   const grouped = NODE_TYPE_ORDER.map((nt) => ({
     nt,
@@ -38,21 +47,23 @@ export default async function ConstellationPage() {
           <span className="text-soft-ivory">แผนที่ความสัมพันธ์</span>
         </nav>
 
-        <header className="mt-6 mb-6">
+        <header className="mt-6">
           <h1 className="font-serif text-4xl font-bold text-ivory">แผนที่ความสัมพันธ์</h1>
           <p className="mt-3 max-w-2xl text-base leading-relaxed text-soft-ivory">
-            กราฟแสดงความเชื่อมโยงระหว่างแนวคิด นักคิด หนังสือ และสำนักคิดทั้งระบบ —
-            ชี้ที่ node เพื่อดูความสัมพันธ์ คลิกเพื่อเปิดหน้าเต็ม node ที่ถูกอ้างถึงมากจะเด่นเป็นพิเศษ
+            เลือกแนวคิดเป็น “ศูนย์กลาง” แล้วดูว่ามันเชื่อมโยงกับแนวคิดใดบ้าง — คลิกแนวคิดรอบ ๆ
+            เพื่อย้ายศูนย์กลางและสำรวจต่อทีละก้าว หรือเปิดหน้าเต็มเพื่ออ่านรายละเอียด
           </p>
         </header>
 
-        <ConstellationGraph data={graph} />
+        {initialFocus ? (
+          <ConstellationMindmap data={graph} initialFocus={initialFocus} />
+        ) : null}
 
         {/* Fallback (no-JS / a11y): รายการ node จัดกลุ่มตามชนิด เป็นลิงก์ */}
         <noscript>
           <section className="mt-10">
             <p className="text-sm text-muted">
-              กราฟต้องใช้ JavaScript — ด้านล่างคือรายการแนวคิดทั้งหมดแบบลิงก์
+              แผนที่ต้องใช้ JavaScript — ด้านล่างคือรายการแนวคิดทั้งหมดแบบลิงก์
             </p>
             {grouped.map((g) => (
               <div key={g.nt} className="mt-6">

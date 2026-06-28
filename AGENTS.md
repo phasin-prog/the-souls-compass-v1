@@ -17,7 +17,7 @@ The Soul's Compass — คลังความรู้ภาษาไทยเ
 | `/articles/[slug]` | `app/articles/[slug]/page.tsx` | SSG + ISR | หน้าอ่านบทความ (ใช้ `ReadingPage`, section="articles") |
 | `/concepts` | `app/concepts/page.tsx` | static | รายการ node จาก concept-registry |
 | `/concepts/[slug]` | `app/concepts/[slug]/page.tsx` | SSG + ISR | หน้าอ่านแนวคิด (entry → `ReadingPage` + Backlinks; ไม่มี entry → stub จาก registry) |
-| `/constellation` | `app/constellation/page.tsx` | static + ISR | กราฟความสัมพันธ์ (Obsidian-style, d3-force) + no-JS fallback |
+| `/constellation` | `app/constellation/page.tsx` | dynamic | Radial focus-map (โฟกัส+เพื่อนบ้าน คลิกย้ายศูนย์กลาง · รับ `?focus=`) + no-JS fallback |
 | `/external-links` | `app/external-links/page.tsx` | static | คลังทรัพยากร/ลิงก์ภายนอก (6 หมวด) |
 | `/guide` | `app/guide/page.tsx` | static | บริการ Jungian Type Analysis (CTA จากหน้าอ่าน) |
 | `/manifesto` | `app/manifesto/page.tsx` | static | จุดยืนโครงการ |
@@ -50,7 +50,7 @@ Chrome / โครงร่วม: `app/layout.tsx` (ฟอนต์ + SiteHeade
 | `studio/internal-link-suggestion-panel.tsx` | แนะนำ `[[ ]]` จาก registry | ✅ |
 | `studio/revision-panel.tsx` | ประวัติเวอร์ชัน + กู้คืน | ✅ |
 | `studio/my-content-search.tsx` | Studio search — ค้น `listMyEntries` ของผู้เขียน เปิดผ่าน `?slug=` | ✅ |
-| `constellation/constellation-graph.tsx` | กราฟ d3-force + canvas (hover/zoom/pan/search/filter/detail) | ✅ |
+| `constellation/constellation-mindmap.tsx` | Radial focus-map (SVG เส้นโยง + HTML node chips · re-center · search) | ✅ |
 | `search/search-client.tsx` | UI ค้นหากลาง (filter + ผลลัพธ์จัดกลุ่ม) | ✅ |
 | `external-links/external-links-browser.tsx` | filter tabs + การ์ดทรัพยากร | ✅ |
 
