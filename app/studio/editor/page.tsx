@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useAuth, UserButton } from "@clerk/nextjs";
 import {
   EMPTY_DRAFT,
   getPublishChecklist,
@@ -48,6 +49,7 @@ const inputClass =
   "w-full rounded-md border border-white/10 bg-charcoal/40 px-3 py-2 text-ivory outline-none focus:border-antique-gold/50";
 
 export default function StudioEditorPage() {
+  const { userId } = useAuth(); // author_id (E3-wire จะใช้ตอนบันทึกลง Supabase)
   const [draft, setDraft] = useState<EditorDraft>(EMPTY_DRAFT);
   const [savedAt, setSavedAt] = useState<string | null>(null);
   const [preview, setPreview] = useState(false);
@@ -68,6 +70,7 @@ export default function StudioEditorPage() {
   }
 
   function saveDraft() {
+    // E3-wire: เปลี่ยนเป็น saveDraft(supabase, userId, draft) เมื่อเชื่อม Supabase client
     try {
       window.localStorage.setItem(STORAGE_KEY, JSON.stringify(draft));
       setSavedAt(new Date().toLocaleString("th-TH"));
@@ -90,13 +93,17 @@ export default function StudioEditorPage() {
             <button onClick={saveDraft} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold">บันทึกแบบร่าง</button>
             <button onClick={() => setPreview((v) => !v)} disabled={!canPreview} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold disabled:opacity-40">{preview ? "ปิดพรีวิว" : "พรีวิว"}</button>
             <button onClick={() => setPublishTried(true)} className="rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-4 py-2 text-sm font-semibold text-[#1a1306]">เผยแพร่</button>
+            <UserButton afterSignOutUrl="/" />
           </div>
         </div>
       </div>
 
       <div className="mx-auto grid max-w-6xl gap-8 px-6 py-10 md:grid-cols-[1fr_320px]">
         <main className="space-y-10">
-          {savedAt ? <p className="text-xs text-muted">บันทึกล่าสุดเมื่อ {savedAt}</p> : null}
+          <p className="text-xs text-muted">
+            เขียนในชื่อ (author_id): <span className="text-soft-ivory">{userId ?? "— (ยังไม่ได้ login)"}</span>
+            {savedAt ? <span> · บันทึกล่าสุดเมื่อ {savedAt}</span> : null}
+          </p>
 
           <section className="space-y-4">
             <h2 className="font-serif text-xl text-ivory">ข้อมูลพื้นฐาน</h2>
@@ -239,7 +246,7 @@ export default function StudioEditorPage() {
             </ul>
             {publishTried ? (
               <p className={ready ? "mt-4 text-sm text-success" : "mt-4 text-sm text-danger"}>
-                {ready ? "พร้อมเผยแพร่ (เดโม v0.1 — ยังไม่เชื่อมระบบเผยแพร่จริง)" : "ยังเผยแพร่ไม่ได้ — ทำรายการที่ยังไม่ผ่านให้ครบ"}
+                {ready ? "พร้อมเผยแพร่ (เดโม — E7 จะเชื่อม publish จริง)" : "ยังเผยแพร่ไม่ได้ — ทำรายการที่ยังไม่ผ่านให้ครบ"}
               </p>
             ) : null}
           </div>

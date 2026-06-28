@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ClerkProvider } from "@clerk/nextjs";
 import { Noto_Serif_Thai, IBM_Plex_Sans_Thai, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
@@ -38,15 +39,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="th"
-      className={`${notoSerifThai.variable} ${ibmPlexThai.variable} ${playfair.variable}`}
-    >
-      <body className="min-h-screen bg-midnight text-ivory antialiased">
-        <SiteHeader />
-        {children}
-        <SiteFooter />
-      </body>
-    </html>
+    <ClerkProvider>
+      <html
+        lang="th"
+        className={`${notoSerifThai.variable} ${ibmPlexThai.variable} ${playfair.variable}`}
+      >
+        <body className="min-h-screen bg-midnight text-ivory antialiased">
+          <SiteHeader />
+          {children}
+          <SiteFooter />
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }
