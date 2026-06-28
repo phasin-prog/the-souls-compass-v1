@@ -4,7 +4,7 @@ export default function HomePage() {
       <p className="text-sm tracking-widest text-antique-gold">
         คลังความรู้เพื่อศึกษาจิตใจมนุษย์อย่างมีบริบท
       </p>
-      <h1 className="text-4xl font-semibold leading-snug text-ivory md:text-5xl">
+      <h1 className="font-serif text-4xl font-semibold leading-snug text-ivory md:text-5xl">
         The Soul&apos;s Compass
       </h1>
       <p className="max-w-xl text-lg leading-relaxed text-soft-ivory">
