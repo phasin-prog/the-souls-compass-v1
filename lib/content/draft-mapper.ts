@@ -32,6 +32,7 @@ export function draftToRow(
     tags: d.tags.length > 0 ? d.tags : null,
     visual_explanation: d.visualExplanation || null,
     technical_meaning: d.technicalMeaning || null,
+    body_markdown: d.bodyMarkdown || null,
     related_concepts: d.relatedConcepts as unknown as EntryRow["related_concepts"],
     source_refs: d.references as unknown as EntryRow["source_refs"],
     roots: roots as EntryRow["roots"],
@@ -51,6 +52,7 @@ export function entryToDraft(entry: ContentEntry): EditorDraft {
     tags: entry.tags ?? [],
     visualExplanation: entry.visualExplanation ?? "",
     technicalMeaning: entry.technicalMeaning ?? "",
+    bodyMarkdown: entry.bodyMarkdown ?? "",
     relatedConcepts: (entry.relatedConcepts ?? []).map((r) => ({
       conceptSlug: r.conceptSlug,
       relationType: r.relationType,

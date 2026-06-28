@@ -1,4 +1,6 @@
 import Link from "next/link";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import type { ContentEntry, RelationType, SourceItem } from "@/types/content";
 import { InternalLinkText } from "@/components/reading/internal-link-text";
 import { SourceIcon, PathIcon } from "@/components/icons";
@@ -114,6 +116,16 @@ export function ReadingPage({ entry }: { entry: ContentEntry }) {
           <p className="mt-4 whitespace-pre-line text-lg leading-loose text-soft-ivory">
             <InternalLinkText text={entry.technicalMeaning} />
           </p>
+        </section>
+      ) : null}
+
+      {entry.bodyMarkdown && entry.bodyMarkdown.trim() !== "" ? (
+        <section className="mt-12">
+          <div className="md-body">
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+              {entry.bodyMarkdown}
+            </ReactMarkdown>
+          </div>
         </section>
       ) : null}
 

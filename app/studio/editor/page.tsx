@@ -2,6 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { useAuth, useSession, UserButton } from "@clerk/nextjs";
 import {
   EMPTY_DRAFT,
@@ -225,6 +227,17 @@ export default function StudioEditorPage() {
               <Label>ความหมายทางวิชาการ / เทคนิค (รองรับ [[Shadow]] / [[Carl Jung|ยุง]])</Label>
               <textarea className={inputClass} rows={4} value={draft.technicalMeaning} onChange={(e) => set("technicalMeaning", e.target.value)} placeholder="นิยามเชิงทฤษฎี ขอบเขตของคำ — แยกกรอบนักคิดกับการตีความของเว็บ" />
             </div>
+            <div>
+              <Label>เนื้อหาเต็ม (Markdown)</Label>
+              <textarea
+                className={`${inputClass} font-mono text-sm leading-relaxed`}
+                rows={16}
+                value={draft.bodyMarkdown}
+                onChange={(e) => set("bodyMarkdown", e.target.value)}
+                placeholder={"เขียนเนื้อหาแบบ Markdown — รองรับหัวข้อ (## , ### ), ตัวหนา **...**, รายการ, ตาราง (GFM), บล็อกอ้างอิง > ...\nระบบแปลงเป็น HTML แบบปลอดภัย ไม่อนุญาต raw HTML"}
+              />
+              <p className="mt-1 text-xs text-muted">รองรับ Markdown + GFM (ตาราง, รายการงาน, ขีดฆ่า) · กด “พรีวิว” เพื่อดูผลลัพธ์</p>
+            </div>
           </section>
 
           <section className="space-y-3">
@@ -279,6 +292,11 @@ export default function StudioEditorPage() {
               {draft.tags.length > 0 ? <p className="mt-2 text-xs text-soft-gold">{draft.tags.join(", ")}</p> : null}
               {draft.visualExplanation ? <p className="mt-4 whitespace-pre-line text-soft-ivory">{draft.visualExplanation}</p> : null}
               {draft.technicalMeaning ? <p className="mt-3 whitespace-pre-line text-soft-ivory">{draft.technicalMeaning}</p> : null}
+              {draft.bodyMarkdown && draft.bodyMarkdown.trim() !== "" ? (
+                <div className="md-body mt-5 border-t border-white/10 pt-5">
+                  <ReactMarkdown remarkPlugins={[remarkGfm]}>{draft.bodyMarkdown}</ReactMarkdown>
+                </div>
+              ) : null}
             </section>
           ) : null}
         </main>

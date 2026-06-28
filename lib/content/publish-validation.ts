@@ -23,6 +23,7 @@ export type EditorDraft = {
   tags: string[];
   visualExplanation: string;
   technicalMeaning: string;
+  bodyMarkdown: string;
   relatedConcepts: EditorRelatedConcept[];
   references: EditorReference[];
   rootsEtymology: string;
@@ -41,6 +42,7 @@ export const EMPTY_DRAFT: EditorDraft = {
   tags: [],
   visualExplanation: "",
   technicalMeaning: "",
+  bodyMarkdown: "",
   relatedConcepts: [],
   references: [],
   rootsEtymology: "",
