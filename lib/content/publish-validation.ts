@@ -1,4 +1,4 @@
-// Publish validation (Phase 8) — ตรวจความพร้อมก่อน publish ตาม Publish Checklist v0.1
+// Publish validation (Phase 8/9) — ตรวจความพร้อมก่อน publish ตาม Publish Checklist v0.1
 
 export type EditorRelatedConcept = {
   conceptSlug: string;
@@ -20,6 +20,7 @@ export type EditorDraft = {
   framework: string;
   mainThinker: string;
   difficulty: string;
+  tags: string[];
   visualExplanation: string;
   technicalMeaning: string;
   relatedConcepts: EditorRelatedConcept[];
@@ -37,6 +38,7 @@ export const EMPTY_DRAFT: EditorDraft = {
   framework: "",
   mainThinker: "",
   difficulty: "beginner",
+  tags: [],
   visualExplanation: "",
   technicalMeaning: "",
   relatedConcepts: [],

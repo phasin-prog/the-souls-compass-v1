@@ -9,6 +9,9 @@ import {
   slugify,
   type EditorDraft,
 } from "@/lib/content/publish-validation";
+import { SearchableSelect } from "@/components/studio/searchable-select";
+import { SearchableMultiSelect } from "@/components/studio/searchable-multi-select";
+import { RelatedConceptPicker } from "@/components/studio/related-concept-picker";
 
 const CONTENT_TYPES = [
   "article", "concept", "reading-set", "source-note",
@@ -23,13 +26,15 @@ const FRAMEWORKS = [
   "Editorial Interpretation",
 ];
 const DIFFICULTIES = ["beginner", "intermediate", "advanced", "source-note"];
-const RELATION_TYPES = [
-  "prerequisite", "related", "contrasts-with", "part-of",
-  "source-of", "used-in", "influenced-by",
-];
 const SOURCE_TYPES = [
   "primary-source", "secondary-source", "commentary",
   "editorial-interpretation", "website", "dictionary-lexicon", "other",
+];
+const TAG_OPTIONS = [
+  "jung", "freud", "lacan", "psyche", "ego", "shadow", "persona", "self",
+  "archetype", "unconscious", "collective-unconscious", "individuation",
+  "complex", "projection", "symbol", "myth", "philosophy", "psychoanalysis",
+  "depth-psychology", "source-note", "beginner", "intermediate", "advanced",
 ];
 
 const STORAGE_KEY = "tsc-editor-draft-v0";
@@ -46,9 +51,6 @@ export default function StudioEditorPage() {
   const [savedAt, setSavedAt] = useState<string | null>(null);
   const [preview, setPreview] = useState(false);
   const [publishTried, setPublishTried] = useState(false);
-
-  // new-item buffers
-  const [rc, setRc] = useState({ conceptSlug: "", relationType: "related", reason: "" });
   const [ref, setRef] = useState({ sourceType: "primary-source", title: "", relatedClaim: "" });
 
   useEffect(() => {
@@ -79,44 +81,22 @@ export default function StudioEditorPage() {
 
   return (
     <div className="min-h-screen">
-      {/* Top bar */}
       <div className="sticky top-0 z-40 border-b border-antique-gold/15 bg-midnight/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-3 px-6 py-3">
-          <Link href="/" className="text-sm text-soft-ivory hover:text-soft-gold">
-            \u2190 กลับหน้าแรก
-          </Link>
-          <span className="rounded-full border border-white/15 px-3 py-1 text-xs text-muted">
-            สถานะ: {draft.status}
-          </span>
+          <Link href="/" className="text-sm text-soft-ivory hover:text-soft-gold">← กลับหน้าแรก</Link>
+          <span className="rounded-full border border-white/15 px-3 py-1 text-xs text-muted">สถานะ: {draft.status}</span>
           <div className="flex items-center gap-2">
-            <button onClick={saveDraft} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold">
-              บันทึกแบบร่าง
-            </button>
-            <button
-              onClick={() => setPreview((v) => !v)}
-              disabled={!canPreview}
-              className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold disabled:opacity-40"
-            >
-              {preview ? "ปิดพรีวิว" : "พรีวิว"}
-            </button>
-            <button
-              onClick={() => setPublishTried(true)}
-              className="rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-4 py-2 text-sm font-semibold text-[#1a1306]"
-            >
-              เผยแพร่
-            </button>
+            <button onClick={saveDraft} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold">บันทึกแบบร่าง</button>
+            <button onClick={() => setPreview((v) => !v)} disabled={!canPreview} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold disabled:opacity-40">{preview ? "ปิดพรีวิว" : "พรีวิว"}</button>
+            <button onClick={() => setPublishTried(true)} className="rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-4 py-2 text-sm font-semibold text-[#1a1306]">เผยแพร่</button>
           </div>
         </div>
       </div>
 
       <div className="mx-auto grid max-w-6xl gap-8 px-6 py-10 md:grid-cols-[1fr_320px]">
-        {/* Main form */}
         <main className="space-y-10">
-          {savedAt ? (
-            <p className="text-xs text-muted">บันทึกล่าสุดเมื่อ {savedAt}</p>
-          ) : null}
+          {savedAt ? <p className="text-xs text-muted">บันทึกล่าสุดเมื่อ {savedAt}</p> : null}
 
-          {/* Section 1 */}
           <section className="space-y-4">
             <h2 className="font-serif text-xl text-ivory">ข้อมูลพื้นฐาน</h2>
             <div>
@@ -127,9 +107,7 @@ export default function StudioEditorPage() {
               <Label>Slug</Label>
               <div className="flex gap-2">
                 <input className={inputClass} value={draft.slug} onChange={(e) => set("slug", e.target.value)} placeholder="psyche" />
-                <button onClick={() => set("slug", slugify(draft.title))} className="shrink-0 rounded-md border border-white/20 px-3 text-sm text-soft-ivory hover:border-antique-gold">
-                  สร้างจากชื่อ
-                </button>
+                <button onClick={() => set("slug", slugify(draft.title))} className="shrink-0 rounded-md border border-white/20 px-3 text-sm text-soft-ivory hover:border-antique-gold">สร้างจากชื่อ</button>
               </div>
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
@@ -141,23 +119,17 @@ export default function StudioEditorPage() {
               </div>
               <div>
                 <Label>Content Type</Label>
-                <select className={inputClass} value={draft.contentType} onChange={(e) => set("contentType", e.target.value)}>
-                  {CONTENT_TYPES.map((s) => <option key={s} value={s}>{s}</option>)}
-                </select>
+                <SearchableSelect value={draft.contentType} onChange={(v) => set("contentType", v)} options={CONTENT_TYPES} placeholder="เลือกประเภทเนื้อหา" />
               </div>
             </div>
           </section>
 
-          {/* Section 2 */}
           <section className="space-y-4">
             <h2 className="font-serif text-xl text-ivory">กรอบทฤษฎี</h2>
             <div className="grid gap-4 sm:grid-cols-2">
               <div>
                 <Label>Framework</Label>
-                <select className={inputClass} value={draft.framework} onChange={(e) => set("framework", e.target.value)}>
-                  <option value="">— เลือก —</option>
-                  {FRAMEWORKS.map((s) => <option key={s} value={s}>{s}</option>)}
-                </select>
+                <SearchableSelect value={draft.framework} onChange={(v) => set("framework", v)} options={FRAMEWORKS} placeholder="เลือกกรอบทฤษฎี" />
               </div>
               <div>
                 <Label>Difficulty</Label>
@@ -170,9 +142,12 @@ export default function StudioEditorPage() {
               <Label>นักคิดหลัก</Label>
               <input className={inputClass} value={draft.mainThinker} onChange={(e) => set("mainThinker", e.target.value)} placeholder="เช่น Carl Jung" />
             </div>
+            <div>
+              <Label>Tags</Label>
+              <SearchableMultiSelect values={draft.tags} onChange={(v) => set("tags", v)} options={TAG_OPTIONS} />
+            </div>
           </section>
 
-          {/* Section 3 writing */}
           <section className="space-y-4">
             <h2 className="font-serif text-xl text-ivory">เนื้อหา</h2>
             <div>
@@ -181,43 +156,16 @@ export default function StudioEditorPage() {
             </div>
             <div>
               <Label>ความหมายทางวิชาการ / เทคนิค</Label>
-              <textarea className={inputClass} rows={4} value={draft.technicalMeaning} onChange={(e) => set("technicalMeaning", e.target.value)} placeholder="นิยามเชิงทฤษฎี ขอบเขตของคำ ความต่างจากคำใกล้เคียง — แยกกรอบนักคิดกับการตีความของเว็บ" />
+              <textarea className={inputClass} rows={4} value={draft.technicalMeaning} onChange={(e) => set("technicalMeaning", e.target.value)} placeholder="นิยามเชิงทฤษฎี ขอบเขตของคำ — แยกกรอบนักคิดกับการตีความของเว็บ" />
             </div>
           </section>
 
-          {/* Related concepts */}
           <section className="space-y-3">
             <h2 className="font-serif text-xl text-ivory">แนวคิดที่เกี่ยวข้อง</h2>
-            {draft.relatedConcepts.map((r, i) => (
-              <div key={i} className="flex items-start justify-between gap-3 rounded-md border border-white/10 bg-charcoal/40 p-3">
-                <div className="text-sm text-soft-ivory">
-                  <span className="text-ivory">{r.conceptSlug}</span>
-                  <span className="ml-2 text-xs text-antique-gold">{r.relationType}</span>
-                  {r.reason ? <p className="mt-1 text-muted">{r.reason}</p> : null}
-                </div>
-                <button onClick={() => set("relatedConcepts", draft.relatedConcepts.filter((_, j) => j !== i))} className="text-xs text-danger">ลบ</button>
-              </div>
-            ))}
-            <div className="grid gap-2 sm:grid-cols-[1fr_1fr_2fr_auto]">
-              <input className={inputClass} value={rc.conceptSlug} onChange={(e) => setRc({ ...rc, conceptSlug: e.target.value })} placeholder="concept slug" />
-              <select className={inputClass} value={rc.relationType} onChange={(e) => setRc({ ...rc, relationType: e.target.value })}>
-                {RELATION_TYPES.map((s) => <option key={s} value={s}>{s}</option>)}
-              </select>
-              <input className={inputClass} value={rc.reason} onChange={(e) => setRc({ ...rc, reason: e.target.value })} placeholder="เหตุผลที่เชื่อมโยง (ห้ามเชื่อมเพราะชื่อคล้าย)" />
-              <button
-                onClick={() => {
-                  if (rc.conceptSlug.trim() === "") return;
-                  set("relatedConcepts", [...draft.relatedConcepts, rc]);
-                  setRc({ conceptSlug: "", relationType: "related", reason: "" });
-                }}
-                className="rounded-md border border-white/20 px-3 text-sm text-soft-ivory hover:border-antique-gold"
-              >
-                เพิ่ม
-              </button>
-            </div>
+            <p className="text-sm text-muted">ค้นหาจาก Concept Registry แล้วระบุความสัมพันธ์ + เหตุผล</p>
+            <RelatedConceptPicker value={draft.relatedConcepts} onChange={(v) => set("relatedConcepts", v)} />
           </section>
 
-          {/* References */}
           <section className="space-y-3">
             <h2 className="font-serif text-xl text-ivory">เอกสารอ้างอิง</h2>
             {draft.references.map((r, i) => (
@@ -249,36 +197,25 @@ export default function StudioEditorPage() {
             </div>
           </section>
 
-          {/* Roots */}
           <section className="space-y-4">
             <h2 className="font-serif text-xl text-ivory">Roots — ที่มาของคำ</h2>
-            <div>
-              <Label>รากศัพท์ (Etymology)</Label>
-              <textarea className={inputClass} rows={2} value={draft.rootsEtymology} onChange={(e) => set("rootsEtymology", e.target.value)} />
-            </div>
-            <div>
-              <Label>การเปลี่ยนความหมาย</Label>
-              <textarea className={inputClass} rows={2} value={draft.rootsMeaningShift} onChange={(e) => set("rootsMeaningShift", e.target.value)} />
-            </div>
-            <div>
-              <Label>ข้อควรระวัง</Label>
-              <textarea className={inputClass} rows={2} value={draft.rootsCaution} onChange={(e) => set("rootsCaution", e.target.value)} placeholder="อย่าใช้รากศัพท์แทนนิยามทฤษฎี" />
-            </div>
+            <div><Label>รากศัพท์ (Etymology)</Label><textarea className={inputClass} rows={2} value={draft.rootsEtymology} onChange={(e) => set("rootsEtymology", e.target.value)} /></div>
+            <div><Label>การเปลี่ยนความหมาย</Label><textarea className={inputClass} rows={2} value={draft.rootsMeaningShift} onChange={(e) => set("rootsMeaningShift", e.target.value)} /></div>
+            <div><Label>ข้อควรระวัง</Label><textarea className={inputClass} rows={2} value={draft.rootsCaution} onChange={(e) => set("rootsCaution", e.target.value)} placeholder="อย่าใช้รากศัพท์แทนนิยามทฤษฎี" /></div>
           </section>
 
-          {/* Preview */}
           {preview ? (
             <section className="rounded-md border border-antique-gold/20 bg-surface-1/40 p-6">
               <p className="text-xs tracking-widest text-antique-gold">พรีวิว (ไม่เผยแพร่)</p>
               <h3 className="mt-2 font-serif text-2xl text-ivory">{draft.title || "(ยังไม่มีชื่อ)"}</h3>
               <p className="mt-1 text-sm text-muted">{[draft.framework, draft.difficulty, draft.mainThinker].filter(Boolean).join(" · ")}</p>
+              {draft.tags.length > 0 ? <p className="mt-2 text-xs text-soft-gold">{draft.tags.join(", ")}</p> : null}
               {draft.visualExplanation ? <p className="mt-4 whitespace-pre-line text-soft-ivory">{draft.visualExplanation}</p> : null}
               {draft.technicalMeaning ? <p className="mt-3 whitespace-pre-line text-soft-ivory">{draft.technicalMeaning}</p> : null}
             </section>
           ) : null}
         </main>
 
-        {/* Right panel */}
         <aside className="space-y-6 md:sticky md:top-20 md:self-start">
           <div className="rounded-md border border-white/10 bg-surface-1/40 p-5">
             <h3 className="font-serif text-base text-ivory">คำแนะนำ</h3>
@@ -289,22 +226,19 @@ export default function StudioEditorPage() {
               <li>ถ้ายังไม่มีแหล่ง ตั้งสถานะ Needs Source Check</li>
             </ul>
           </div>
-
           <div className="rounded-md border border-white/10 bg-surface-1/40 p-5">
             <h3 className="font-serif text-base text-ivory">Publish Checklist</h3>
             <ul className="mt-3 space-y-2 text-sm">
               {checklist.map((c) => (
                 <li key={c.label} className={c.ok ? "text-soft-ivory" : "text-muted"}>
-                  <span className={c.ok ? "text-success" : "text-danger"}>{c.ok ? "\u2713" : "\u2715"}</span>{" "}
+                  <span className={c.ok ? "text-success" : "text-danger"}>{c.ok ? "✓" : "✕"}</span>{" "}
                   {c.label}
                 </li>
               ))}
             </ul>
             {publishTried ? (
               <p className={ready ? "mt-4 text-sm text-success" : "mt-4 text-sm text-danger"}>
-                {ready
-                  ? "พร้อมเผยแพร่ (เดโม v0.1 — ยังไม่เชื่อมระบบเผยแพร่จริง)"
-                  : "ยังเผยแพร่ไม่ได้ — ทำรายการที่ยังไม่ผ่านให้ครบ"}
+                {ready ? "พร้อมเผยแพร่ (เดโม v0.1 — ยังไม่เชื่อมระบบเผยแพร่จริง)" : "ยังเผยแพร่ไม่ได้ — ทำรายการที่ยังไม่ผ่านให้ครบ"}
               </p>
             ) : null}
           </div>
