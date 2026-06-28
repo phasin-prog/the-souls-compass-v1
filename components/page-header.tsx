@@ -6,7 +6,7 @@ type PageHeaderProps = {
 
 export function PageHeader({ kicker, title, lead }: PageHeaderProps) {
   return (
-    <header className="mx-auto max-w-6xl px-6 pb-10 pt-20">
+    <header className="scroll-reveal mx-auto max-w-6xl px-6 pb-10 pt-20">
       {kicker ? (
         <p className="text-xs tracking-widest text-antique-gold">{kicker}</p>
       ) : null}

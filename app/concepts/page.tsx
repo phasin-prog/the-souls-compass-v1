@@ -43,7 +43,7 @@ export default function ConceptsPage() {
         title="แผนที่ความรู้ของจิตใจมนุษย์"
         lead="ไม่ใช่หมวดบทความ แต่เป็นระบบความรู้แบบเชื่อมโยง ที่พาผู้อ่านเดินจากแนวคิดหนึ่งไปยังอีกแนวคิดอย่างมีเหตุผล"
       />
-      <section className="mx-auto max-w-6xl px-6">
+      <section className="scroll-reveal stagger-1 mx-auto max-w-6xl px-6">
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {conceptRegistry.map((c) => {
             const Icon = NODE_ICON[c.nodeType];

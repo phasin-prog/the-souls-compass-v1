@@ -41,7 +41,7 @@ export default function GuidePage() {
   return (
     <main>
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-slate-boundary/30 px-6 py-24 md:py-32">
+      <section className="scroll-reveal relative overflow-hidden border-b border-slate-boundary/30 px-6 py-24 md:py-32">
         <div className="hero-gradient pointer-events-none absolute inset-0" />
         <div className="relative mx-auto max-w-3xl text-center">
           <span className="block text-xs font-semibold uppercase tracking-[0.3em] text-burnished-gold/80">
@@ -75,7 +75,7 @@ export default function GuidePage() {
       </section>
 
       {/* Scope */}
-      <section className="mx-auto max-w-5xl px-6 py-20">
+      <section className="scroll-reveal mx-auto max-w-5xl px-6 py-20">
         <h2 className="font-serif text-3xl text-on-surface">ขอบเขตการวิเคราะห์</h2>
         <p className="mt-3 text-on-surface-variant/70">สิ่งที่คุณจะได้รับจากการวิเคราะห์หนึ่งครั้ง</p>
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -93,7 +93,7 @@ export default function GuidePage() {
       </section>
 
       {/* Process */}
-      <section className="border-y border-slate-boundary/30 bg-surface-container-lowest px-6 py-20">
+      <section className="scroll-reveal border-y border-slate-boundary/30 bg-surface-container-lowest px-6 py-20">
         <div className="mx-auto max-w-5xl">
           <h2 className="font-serif text-3xl text-on-surface">ขั้นตอนการเข้ารับบริการ</h2>
           <div className="mt-10 grid gap-8 md:grid-cols-4">
@@ -110,7 +110,7 @@ export default function GuidePage() {
       </section>
 
       {/* Boundaries / academic scope */}
-      <section className="mx-auto max-w-3xl px-6 py-20">
+      <section className="scroll-reveal mx-auto max-w-3xl px-6 py-20">
         <div className="rounded-md border border-burnished-gold/30 bg-surface-container p-8 md:p-10">
           <h2 className="font-serif text-2xl text-on-surface">กรอบวิชาการ และสิ่งที่บริการนี้ “ไม่ทำ”</h2>
           <ul className="mt-5 space-y-3">
@@ -130,7 +130,7 @@ export default function GuidePage() {
       </section>
 
       {/* Pricing */}
-      <section className="mx-auto max-w-3xl px-6 pb-4">
+      <section className="scroll-reveal mx-auto max-w-3xl px-6 pb-4">
         <div className="grid gap-4 sm:grid-cols-2">
           <div className="rounded-md border border-burnished-gold/40 bg-surface-container-low p-7">
             <span className="text-xs font-semibold uppercase tracking-[0.2em] text-burnished-gold">ราคาทดลอง</span>
@@ -146,7 +146,7 @@ export default function GuidePage() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="mt-12 border-t border-slate-boundary/30 bg-surface-container-low px-6 py-20">
+      <section id="contact" className="scroll-reveal mt-12 border-t border-slate-boundary/30 bg-surface-container-low px-6 py-20">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="font-serif text-3xl text-on-surface">นัดหมาย / สอบถาม</h2>
           <p className="mx-auto mt-3 max-w-xl text-on-surface-variant/70">

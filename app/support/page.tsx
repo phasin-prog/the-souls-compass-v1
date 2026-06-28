@@ -20,7 +20,7 @@ export default function SupportPage() {
         title="สนับสนุนการเป็นคลังความรู้"
         lead="การสนับสนุนที่มีค่าที่สุดคือการอ่าน คิด และใช้ความรู้อย่างมีความรับผิดชอบ"
       />
-      <section className="mx-auto max-w-6xl px-6">
+      <section className="scroll-reveal stagger-1 mx-auto max-w-6xl px-6">
         <div className="grid gap-4 md:grid-cols-3">
           {WAYS.map((w) => (
             <article key={w.title} className="rounded-md border border-white/10 bg-charcoal/40 p-6">

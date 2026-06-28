@@ -20,7 +20,7 @@ export default function SourcesPage() {
         title="ฐานความรู้และการอ้างอิง"
         lead="ทุกแนวคิดควรมีฐานรองรับ ที่นี่เราแยกแหล่งต้นทาง งานอธิบาย และการตีความออกจากกันอย่างชัดเจน"
       />
-      <section className="mx-auto max-w-6xl px-6">
+      <section className="scroll-reveal stagger-1 mx-auto max-w-6xl px-6">
         <div className="grid gap-4 md:grid-cols-3">
           {SOURCE_GROUPS.map((g) => (
             <article key={g.title} className="rounded-md border border-white/10 bg-charcoal/40 p-6">

@@ -10,7 +10,7 @@ export default function ManifestoPage() {
   return (
     <main className="pb-24">
       <PageHeader kicker="Manifesto" title="เราไม่รีบทำให้ความซับซ้อนกลายเป็นคำตอบง่าย ๆ" />
-      <section className="mx-auto max-w-2xl space-y-6 px-6 text-lg leading-loose text-soft-ivory">
+      <section className="scroll-reveal stagger-1 mx-auto max-w-2xl space-y-6 px-6 text-lg leading-loose text-soft-ivory">
         <p>
           ความรู้เกี่ยวกับจิตใจมนุษย์ไม่ควรถูกลดทอนเหลือเพียงป้ายกำกับ ประเภทบุคลิกภาพ
           หรือสูตรสำเร็จในการใช้ชีวิต

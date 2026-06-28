@@ -21,7 +21,7 @@ export default async function ArticlesPage() {
         title="บทความ"
         lead="งานอ่านที่อธิบาย วิเคราะห์ และตีความแนวคิดเกี่ยวกับจิตใจมนุษย์ โดยวางไว้ในบริบทเดิมและเชื่อมกลับไปยังแนวคิดและแหล่งอ้างอิง"
       />
-      <section className="mx-auto max-w-6xl px-6">
+      <section className="scroll-reveal stagger-1 mx-auto max-w-6xl px-6">
         {published.length === 0 ? (
           <div className="rounded-md border border-white/10 bg-surface-1/50 p-10 text-center">
             <p className="text-soft-ivory">ยังไม่มีบทความเผยแพร่ — กำลังจัดเตรียมเนื้อหาชุดแรก</p>
