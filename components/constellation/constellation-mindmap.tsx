@@ -161,6 +161,9 @@ export function ConstellationMindmap({
               {focusNode.label}
             </span>
           </span>
+          {focusNode.thaiTitle ? (
+            <span className="mt-1.5 text-[11px] text-on-surface-variant/70">{focusNode.thaiTitle}</span>
+          ) : null}
           <span className="mt-2 inline-flex items-center gap-1 text-[11px] text-burnished-gold opacity-80 transition-opacity group-hover:opacity-100">
             เปิดหน้าเต็ม
             <span className="material-symbols-outlined text-[13px]">arrow_forward</span>
@@ -190,6 +193,9 @@ export function ConstellationMindmap({
                   />
                   <span className="font-serif text-sm text-on-surface">{n.label}</span>
                 </span>
+                {n.thaiTitle ? (
+                  <span className="text-[10px] text-on-surface-variant/70">{n.thaiTitle}</span>
+                ) : null}
                 <span className="text-[10px] text-on-surface-variant/55">
                   {RELATION_LABEL[p.relation]}
                 </span>
@@ -215,6 +221,9 @@ export function ConstellationMindmap({
           <span className="font-serif text-lg text-ivory">
             {focusNode.label}
           </span>
+          {focusNode.thaiTitle ? (
+            <span className="text-sm text-on-surface-variant/70">{focusNode.thaiTitle}</span>
+          ) : null}
           <span className="text-xs text-on-surface-variant/55">
             {[NODE_TYPE_LABEL[focusNode.nodeType], focusNode.framework].filter(Boolean).join(" · ")}
           </span>
