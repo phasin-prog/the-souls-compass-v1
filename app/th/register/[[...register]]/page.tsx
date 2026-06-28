@@ -1,6 +1,6 @@
-import { SignIn } from "@clerk/nextjs";
+import { SignUp } from "@clerk/nextjs";
 
-export default function SignInPage() {
+export default function RegisterPage() {
   return (
     <main className="flex min-h-[75vh] flex-col items-center justify-center px-4 py-16 bg-deep-navy relative overflow-hidden">
       {/* เอฟเฟกต์แสงพื้นหลังสร้างบรรยากาศ */}
@@ -16,10 +16,10 @@ export default function SignInPage() {
           </p>
         </div>
 
-        <SignIn
-          path="/studio/sign-in"
+        <SignUp
+          path="/th/register"
           routing="path"
-          signUpUrl="/studio/sign-up"
+          signInUrl="/th/login"
           fallbackRedirectUrl="/studio/editor"
           appearance={{
             variables: {

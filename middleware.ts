@@ -4,8 +4,8 @@ import { NextResponse, type NextRequest, type NextFetchEvent } from "next/server
 // ป้องกันเฉพาะ /studio (ต้อง login)
 const isProtectedRoute = createRouteMatcher(["/studio(.*)"]);
 const isAuthRoute = createRouteMatcher([
-  "/studio/sign-in(.*)",
-  "/studio/sign-up(.*)",
+  "/th/login(.*)",
+  "/th/register(.*)",
 ]);
 
 // ถ้ายังไม่ได้ตั้งคีย์ Clerk ใน env ให้ middleware ผ่านเฉย ๆ (public site ไม่ล่ม 500)
