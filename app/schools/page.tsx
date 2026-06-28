@@ -19,7 +19,7 @@ export default function SchoolsPage() {
           <span className="text-soft-ivory">สำนักคิดและนักปราชญ์</span>
         </nav>
 
-        <header className="mt-6">
+        <header className="scroll-reveal mt-6">
           <span className="block text-xs font-semibold uppercase tracking-[0.3em] text-burnished-gold/70">
             Schools of Thought &amp; Thinkers
           </span>
@@ -31,7 +31,9 @@ export default function SchoolsPage() {
           </p>
         </header>
 
-        <SchoolsHub schools={SCHOOLS} />
+        <div className="scroll-reveal stagger-1">
+          <SchoolsHub schools={SCHOOLS} />
+        </div>
       </div>
     </main>
   );

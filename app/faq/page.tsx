@@ -20,14 +20,16 @@ export default function FaqPage() {
           <span className="text-soft-ivory">คำถามที่พบบ่อย</span>
         </nav>
 
-        <header className="mt-6 mb-8">
+        <header className="scroll-reveal mt-6 mb-8">
           <h1 className="font-serif text-4xl font-bold text-ivory">คำถามที่พบบ่อย</h1>
           <p className="mt-3 max-w-2xl text-base leading-relaxed text-soft-ivory">
             รวมคำถามเกี่ยวกับจุดยืนของโครงการ วิธีอ่าน ระดับเนื้อหา และการนำไปใช้ — คลิกที่คำถามเพื่อดูคำตอบ
           </p>
         </header>
 
-        <Accordion items={items} />
+        <div className="scroll-reveal stagger-1">
+          <Accordion items={items} />
+        </div>
 
         <p className="mt-8 text-sm text-on-surface-variant/60">
           มีคำถามอื่นเพิ่มเติม?{" "}

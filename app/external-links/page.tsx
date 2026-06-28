@@ -19,7 +19,7 @@ export default function ExternalLinksPage() {
           <span className="text-soft-ivory">ทรัพยากรและลิงก์ภายนอก</span>
         </nav>
 
-        <header className="mt-6">
+        <header className="scroll-reveal mt-6">
           <span className="block text-xs font-semibold uppercase tracking-[0.3em] text-burnished-gold/70">
             คลังทรัพยากรภายนอก
           </span>
@@ -32,7 +32,9 @@ export default function ExternalLinksPage() {
           </p>
         </header>
 
-        <ExternalLinksBrowser categories={EXTERNAL_CATEGORIES} />
+        <div className="scroll-reveal stagger-1">
+          <ExternalLinksBrowser categories={EXTERNAL_CATEGORIES} />
+        </div>
 
         <p className="mt-16 border-t border-slate-boundary/30 pt-6 text-sm leading-relaxed text-on-surface-variant/50">
           หมายเหตุ: ลิงก์ทั้งหมดนำไปสู่เว็บไซต์ภายนอก โครงการ The Soul&apos;s Compass

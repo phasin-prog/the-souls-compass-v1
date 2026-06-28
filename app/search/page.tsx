@@ -24,14 +24,16 @@ export default async function SearchPage() {
           <span className="text-soft-ivory">ค้นหา</span>
         </nav>
 
-        <header className="mt-6">
+        <header className="scroll-reveal mt-6">
           <h1 className="font-serif text-4xl font-bold text-ivory">ค้นหา</h1>
           <p className="mt-3 text-base leading-relaxed text-soft-ivory">
             ค้นทั่วทั้งคลังความรู้ — แนวคิด บทความ ทรัพยากรภายนอก และหน้าต่าง ๆ ในที่เดียว
           </p>
         </header>
 
-        <SearchClient items={index} />
+        <div className="scroll-reveal stagger-1">
+          <SearchClient items={index} />
+        </div>
       </div>
     </main>
   );
