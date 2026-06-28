@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ContentEntry, RelationType, SourceItem } from "@/types/content";
 import { InternalLinkText } from "@/components/reading/internal-link-text";
+import { SourceIcon, PathIcon } from "@/components/icons";
 
 const RELATION_LABEL: Record<RelationType, string> = {
   prerequisite: "ควรอ่านก่อน",
@@ -144,7 +145,10 @@ export function ReadingPage({ entry }: { entry: ContentEntry }) {
 
       {entry.references.length > 0 ? (
         <section className="mt-12">
-          <h2 className="font-serif text-2xl text-ivory">เอกสารอ้างอิง</h2>
+          <h2 className="flex items-center gap-2 font-serif text-2xl text-ivory">
+            <SourceIcon className="h-5 w-5 text-antique-gold" />
+            เอกสารอ้างอิง
+          </h2>
           {primary.length > 0 ? (
             <div className="mt-5">
               <h3 className="text-sm tracking-widest text-antique-gold">แหล่งต้นทาง (Primary)</h3>
@@ -193,7 +197,10 @@ export function ReadingPage({ entry }: { entry: ContentEntry }) {
       ) : null}
 
       <section className="mt-12 border-t border-white/10 pt-8">
-        <h2 className="font-serif text-xl text-ivory">อ่านต่อจากแนวคิดนี้</h2>
+        <h2 className="flex items-center gap-2 font-serif text-xl text-ivory">
+          <PathIcon className="h-5 w-5 text-antique-gold" />
+          อ่านต่อจากแนวคิดนี้
+        </h2>
         <div className="mt-4 flex flex-wrap gap-3">
           <Link href="/concepts" className="rounded-sm border border-white/20 px-5 py-2.5 text-sm text-ivory transition-colors hover:border-antique-gold hover:text-soft-gold">
             สำรวจคลังแนวคิด

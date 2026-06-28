@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
+import type { ComponentType } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { PageHeader } from "@/components/page-header";
 import { conceptRegistry, getConceptBySlug } from "@/lib/content/concept-registry";
 import { getBacklinksForConcept } from "@/lib/content/related";
 import { entries } from "@/lib/content/entries";
+import {
+  ConceptIcon,
+  PersonIcon,
+  BookIcon,
+  SchoolIcon,
+  SymbolIcon,
+  TermIcon,
+} from "@/components/icons";
 
 // Dynamic route — pre-render node ที่มีใน registry และรองรับ slug ใหม่ตอน runtime
 export const dynamicParams = true;
@@ -16,6 +24,15 @@ const NODE_LABEL: Record<string, string> = {
   school: "สำนักคิด",
   symbol: "สัญลักษณ์",
   term: "คำศัพท์",
+};
+
+const NODE_ICON: Record<string, ComponentType<{ className?: string }>> = {
+  concept: ConceptIcon,
+  person: PersonIcon,
+  book: BookIcon,
+  school: SchoolIcon,
+  symbol: SymbolIcon,
+  term: TermIcon,
 };
 
 export function generateStaticParams() {
@@ -47,14 +64,22 @@ export default async function ConceptNodePage({
     notFound();
   }
   const backlinks = getBacklinksForConcept(slug, entries);
+  const Icon = NODE_ICON[node.nodeType];
+  const label = NODE_LABEL[node.nodeType] ?? node.nodeType;
 
   return (
     <main className="pb-24">
-      <PageHeader
-        kicker={NODE_LABEL[node.nodeType] ?? node.nodeType}
-        title={node.title}
-        lead={node.description}
-      />
+      <header className="mx-auto max-w-2xl px-6 pb-8 pt-20">
+        <div className="flex items-center gap-3">
+          {Icon ? <Icon className="h-7 w-7 text-antique-gold" /> : null}
+          <span className="text-xs tracking-[0.18em] text-antique-gold">{label}</span>
+        </div>
+        <h1 className="mt-4 font-serif text-3xl text-ivory md:text-4xl">{node.title}</h1>
+        {node.description ? (
+          <p className="mt-5 text-base leading-relaxed text-soft-ivory">{node.description}</p>
+        ) : null}
+      </header>
+
       <section className="mx-auto max-w-2xl space-y-10 px-6">
         <dl className="grid grid-cols-2 gap-4 border-y border-white/10 py-6 text-sm">
           {node.thaiTitle ? (
@@ -65,7 +90,7 @@ export default async function ConceptNodePage({
           ) : null}
           <div>
             <dt className="text-muted">ชนิด node</dt>
-            <dd className="mt-1 text-ivory">{NODE_LABEL[node.nodeType] ?? node.nodeType}</dd>
+            <dd className="mt-1 text-ivory">{label}</dd>
           </div>
           {node.framework ? (
             <div>
