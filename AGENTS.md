@@ -43,6 +43,7 @@ Chrome / โครงร่วม: `app/layout.tsx` (ฟอนต์ + SiteHeade
 | `page-header.tsx`, `page-nav.tsx` | header/nav ของหน้า list (articles/concepts/reading-sets/sources) | — |
 | `icons.tsx` | ชุดไอคอน SVG (Compass, Search, Menu, Concept, Person, Book, School, Symbol, Term, Source, Path) | — |
 | `scroll-reveal.tsx` | IntersectionObserver เปิด `.scroll-reveal`→`.visible` (เรียกครั้งเดียวจาก template) | ✅ |
+| `scroll-to-top.tsx` | ปุ่มเลื่อนขึ้นบนสุด (โผล่เมื่อ scroll ลง) เรนเดอร์ใน layout มีทุกหน้า | ✅ |
 | `reading/reading-page.tsx` | **หน้าอ่าน Unified** (ใช้ทั้ง article/concept) — breadcrumb, meta-grid, markdown, related, refs, CTA | — |
 | `reading/internal-link-text.tsx` | render ข้อความที่มี `[[wikilink]]` | — |
 | `studio/searchable-select.tsx`, `searchable-multi-select.tsx` | dropdown ค้นหาได้ | ✅ |

@@ -3,6 +3,7 @@ import { Noto_Serif_Thai, IBM_Plex_Sans_Thai, Playfair_Display } from "next/font
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { ScrollToTop } from "@/components/scroll-to-top";
 
 const notoSerifThai = Noto_Serif_Thai({
   subsets: ["thai", "latin"],
@@ -56,6 +57,7 @@ export default function RootLayout({
         <SiteHeader />
         {children}
         <SiteFooter />
+        <ScrollToTop />
       </body>
     </html>
   );
