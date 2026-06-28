@@ -13,8 +13,10 @@ import {
   type EditorDraft,
 } from "@/lib/content/publish-validation";
 import { createClerkSupabaseClient } from "@/lib/supabase/client";
-import { saveDraft as saveDraftDb, loadDraftBySlug } from "@/lib/content/draft-db";
+import { saveDraft as saveDraftDb, loadDraftBySlug, publishEntry } from "@/lib/content/draft-db";
 import { addRevision } from "@/lib/content/entries-db";
+import { findDeadLinks } from "@/lib/content/internal-links";
+import { revalidatePublic } from "./actions";
 import { SearchableSelect } from "@/components/studio/searchable-select";
 import { SearchableMultiSelect } from "@/components/studio/searchable-multi-select";
 import { RelatedConceptPicker } from "@/components/studio/related-concept-picker";
@@ -70,6 +72,7 @@ export default function StudioEditorPage() {
   const [preview, setPreview] = useState(false);
   const [publishTried, setPublishTried] = useState(false);
   const [ref, setRef] = useState({ sourceType: "primary-source", title: "", relatedClaim: "" });
+  const [publishing, setPublishing] = useState(false);
 
   const canSave = draft.slug.trim() !== "" && draft.title.trim() !== "";
 
@@ -138,6 +141,65 @@ export default function StudioEditorPage() {
     await persist(true);
   }
 
+  // dead links จากทุกฟิลด์ข้อความ (คำอธิบายให้เห็นภาพ / ความหมายเทคนิค / เนื้อหา Markdown)
+  const deadLinks = useMemo(
+    () =>
+      Array.from(
+        new Set(
+          findDeadLinks(
+            `${draft.visualExplanation} ${draft.technicalMeaning} ${draft.bodyMarkdown}`,
+          ),
+        ),
+      ),
+    [draft.visualExplanation, draft.technicalMeaning, draft.bodyMarkdown],
+  );
+
+  // เผยแพร่จริง (E7): ตรวจ checklist + dead links → publish → snapshot → revalidate public
+  async function handlePublish() {
+    setPublishTried(true);
+    if (!userId) {
+      setMessage("ยังไม่ได้เข้าสู่ระบบ — เผยแพร่ไม่ได้");
+      return;
+    }
+    if (!canSave) {
+      setMessage("ต้องมี Title และ Slug ก่อนเผยแพร่");
+      return;
+    }
+    if (!canPublish(getPublishChecklist(draft))) {
+      setMessage("ยังเผยแพร่ไม่ได้ — ทำรายการใน Publish Checklist ให้ครบก่อน");
+      return;
+    }
+    if (deadLinks.length > 0) {
+      setMessage(
+        `พบลิงก์เสีย (dead links) ${deadLinks.length} รายการ: ${deadLinks.join(", ")} — แก้หรือลบก่อนเผยแพร่`,
+      );
+      return;
+    }
+    setPublishing(true);
+    const { data, error } = await publishEntry(supabase, userId, draft);
+    if (error) {
+      setPublishing(false);
+      setMessage(`เผยแพร่ไม่สำเร็จ: ${error.message}`);
+      return;
+    }
+    const row = data as { id?: string } | null;
+    const id = row?.id ?? entryId;
+    if (id && id !== entryId) setEntryId(id);
+    if (id) {
+      await addRevision(supabase, id, { ...draft, status: "published" }, userId, "เผยแพร่");
+      setReloadKey((k) => k + 1);
+    }
+    setDraft((d) => ({ ...d, status: "published" }));
+    setSavedAt(new Date().toLocaleString("th-TH"));
+    try {
+      await revalidatePublic(draft.slug);
+    } catch {
+      // revalidate ล้มเหลวไม่นับว่า publish ล้มเหลว — เนื้อหาถูกตั้ง published แล้ว
+    }
+    setPublishing(false);
+    setMessage("เผยแพร่แล้ว ✓ — ตั้งสถานะ published (หน้า public จะดึงจาก DB เมื่อทำ E8)");
+  }
+
   const checklist = getPublishChecklist(draft);
   const ready = canPublish(checklist);
   const canPreview = draft.title.trim() !== "" && draft.contentType !== "";
@@ -151,7 +213,7 @@ export default function StudioEditorPage() {
           <div className="flex items-center gap-2">
             <button onClick={handleManualSave} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold">บันทึก + เวอร์ชัน</button>
             <button onClick={() => setPreview((v) => !v)} disabled={!canPreview} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold disabled:opacity-40">{preview ? "ปิดพรีวิว" : "พรีวิว"}</button>
-            <button onClick={() => setPublishTried(true)} className="rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-4 py-2 text-sm font-semibold text-[#1a1306]">เผยแพร่</button>
+            <button onClick={handlePublish} disabled={publishing} className="rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-4 py-2 text-sm font-semibold text-[#1a1306] disabled:opacity-50">{publishing ? "กำลังเผยแพร่..." : "เผยแพร่"}</button>
             <UserButton afterSignOutUrl="/" />
           </div>
         </div>
@@ -321,9 +383,16 @@ export default function StudioEditorPage() {
                 </li>
               ))}
             </ul>
+            {deadLinks.length > 0 ? (
+              <p className="mt-3 text-xs text-danger">
+                ลิงก์เสีย {deadLinks.length}: {deadLinks.join(", ")}
+              </p>
+            ) : null}
             {publishTried ? (
-              <p className={ready ? "mt-4 text-sm text-success" : "mt-4 text-sm text-danger"}>
-                {ready ? "พร้อมเผยแพร่ (E7 จะเชื่อม publish จริง)" : "ยังเผยแพร่ไม่ได้ — ทำรายการที่ยังไม่ผ่านให้ครบ"}
+              <p className={ready && deadLinks.length === 0 ? "mt-4 text-sm text-success" : "mt-4 text-sm text-danger"}>
+                {ready && deadLinks.length === 0
+                  ? "พร้อมเผยแพร่ — กดปุ่ม “เผยแพร่” ด้านบน"
+                  : "ยังเผยแพร่ไม่ได้ — ทำรายการที่ยังไม่ผ่าน / แก้ลิงก์เสียให้ครบ"}
               </p>
             ) : null}
           </div>

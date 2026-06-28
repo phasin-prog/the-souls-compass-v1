@@ -48,3 +48,32 @@ export async function listMyDrafts(
     .order("updated_at", { ascending: false });
   return ((data ?? []) as EntryRow[]).map(rowToEntry);
 }
+
+// เผยแพร่จริง (E7): ตั้ง status=published + published_at
+// คงวันเผยแพร่ครั้งแรกไว้ถ้าเคยเผยแพร่แล้ว (ไม่รีเซ็ตทุกครั้งที่กดเผยแพร่ซ้ำ)
+export async function publishEntry(
+  sb: SupabaseClient,
+  authorId: string,
+  draft: EditorDraft,
+) {
+  const { data: existing } = await sb
+    .from("entries")
+    .select("published_at")
+    .eq("slug", draft.slug)
+    .maybeSingle();
+
+  const publishedAt =
+    (existing as { published_at: string | null } | null)?.published_at ??
+    new Date().toISOString();
+
+  const row = {
+    ...draftToRow({ ...draft, status: "published" }, authorId),
+    published_at: publishedAt,
+  };
+
+  return sb
+    .from("entries")
+    .upsert(row, { onConflict: "slug" })
+    .select()
+    .maybeSingle();
+}
