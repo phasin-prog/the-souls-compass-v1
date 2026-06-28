@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { useAuth, UserButton } from "@clerk/nextjs";
+import { useAuth, useSession, UserButton } from "@clerk/nextjs";
 import {
   EMPTY_DRAFT,
   getPublishChecklist,
@@ -10,6 +10,8 @@ import {
   slugify,
   type EditorDraft,
 } from "@/lib/content/publish-validation";
+import { createClerkSupabaseClient } from "@/lib/supabase/client";
+import { saveDraft as saveDraftDb, loadDraftBySlug } from "@/lib/content/draft-db";
 import { SearchableSelect } from "@/components/studio/searchable-select";
 import { SearchableMultiSelect } from "@/components/studio/searchable-multi-select";
 import { RelatedConceptPicker } from "@/components/studio/related-concept-picker";
@@ -39,8 +41,6 @@ const TAG_OPTIONS = [
   "depth-psychology", "source-note", "beginner", "intermediate", "advanced",
 ];
 
-const STORAGE_KEY = "tsc-editor-draft-v0";
-
 function Label({ children }: { children: React.ReactNode }) {
   return <label className="mb-1 block text-sm text-soft-ivory">{children}</label>;
 }
@@ -49,33 +49,61 @@ const inputClass =
   "w-full rounded-md border border-white/10 bg-charcoal/40 px-3 py-2 text-ivory outline-none focus:border-antique-gold/50";
 
 export default function StudioEditorPage() {
-  const { userId } = useAuth(); // author_id (E3-wire จะใช้ตอนบันทึกลง Supabase)
+  const { userId } = useAuth();
+  const { session } = useSession();
+
+  const supabase = useMemo(
+    () => createClerkSupabaseClient(async () => (await session?.getToken()) ?? null),
+    [session],
+  );
+
   const [draft, setDraft] = useState<EditorDraft>(EMPTY_DRAFT);
   const [savedAt, setSavedAt] = useState<string | null>(null);
+  const [saving, setSaving] = useState(false);
+  const [message, setMessage] = useState<string | null>(null);
   const [preview, setPreview] = useState(false);
   const [publishTried, setPublishTried] = useState(false);
   const [ref, setRef] = useState({ sourceType: "primary-source", title: "", relatedClaim: "" });
 
+  // โหลดเนื้อหาเดิมถ้ามี ?slug=
   useEffect(() => {
-    try {
-      const raw = window.localStorage.getItem(STORAGE_KEY);
-      if (raw) setDraft({ ...EMPTY_DRAFT, ...JSON.parse(raw) });
-    } catch {
-      // ignore
-    }
-  }, []);
+    const slug =
+      typeof window !== "undefined"
+        ? new URLSearchParams(window.location.search).get("slug")
+        : null;
+    if (!slug) return;
+    let active = true;
+    (async () => {
+      const loaded = await loadDraftBySlug(supabase, slug);
+      if (active && loaded) setDraft(loaded);
+    })();
+    return () => {
+      active = false;
+    };
+  }, [supabase]);
 
   function set<K extends keyof EditorDraft>(key: K, value: EditorDraft[K]) {
     setDraft((d) => ({ ...d, [key]: value }));
   }
 
-  function saveDraft() {
-    // E3-wire: เปลี่ยนเป็น saveDraft(supabase, userId, draft) เมื่อเชื่อม Supabase client
-    try {
-      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(draft));
+  async function handleSave() {
+    if (!userId) {
+      setMessage("ยังไม่ได้เข้าสู่ระบบ — บันทึกไม่ได้");
+      return;
+    }
+    if (draft.slug.trim() === "" || draft.title.trim() === "") {
+      setMessage("ต้องมี Title และ Slug ก่อนบันทึก");
+      return;
+    }
+    setSaving(true);
+    setMessage(null);
+    const { error } = await saveDraftDb(supabase, userId, draft);
+    setSaving(false);
+    if (error) {
+      setMessage(`บันทึกไม่สำเร็จ: ${error.message}`);
+    } else {
       setSavedAt(new Date().toLocaleString("th-TH"));
-    } catch {
-      // ignore
+      setMessage(null);
     }
   }
 
@@ -90,7 +118,9 @@ export default function StudioEditorPage() {
           <Link href="/" className="text-sm text-soft-ivory hover:text-soft-gold">← กลับหน้าแรก</Link>
           <span className="rounded-full border border-white/15 px-3 py-1 text-xs text-muted">สถานะ: {draft.status}</span>
           <div className="flex items-center gap-2">
-            <button onClick={saveDraft} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold">บันทึกแบบร่าง</button>
+            <button onClick={handleSave} disabled={saving} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold disabled:opacity-40">
+              {saving ? "กำลังบันทึก..." : "บันทึกแบบร่าง"}
+            </button>
             <button onClick={() => setPreview((v) => !v)} disabled={!canPreview} className="rounded-sm border border-white/20 px-4 py-2 text-sm text-ivory hover:border-antique-gold disabled:opacity-40">{preview ? "ปิดพรีวิว" : "พรีวิว"}</button>
             <button onClick={() => setPublishTried(true)} className="rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-4 py-2 text-sm font-semibold text-[#1a1306]">เผยแพร่</button>
             <UserButton afterSignOutUrl="/" />
@@ -102,8 +132,9 @@ export default function StudioEditorPage() {
         <main className="space-y-10">
           <p className="text-xs text-muted">
             เขียนในชื่อ (author_id): <span className="text-soft-ivory">{userId ?? "— (ยังไม่ได้ login)"}</span>
-            {savedAt ? <span> · บันทึกล่าสุดเมื่อ {savedAt}</span> : null}
+            {savedAt ? <span> · บันทึกลง Supabase ล่าสุดเมื่อ {savedAt}</span> : null}
           </p>
+          {message ? <p className="text-sm text-danger">{message}</p> : null}
 
           <section className="space-y-4">
             <h2 className="font-serif text-xl text-ivory">ข้อมูลพื้นฐาน</h2>
@@ -246,7 +277,7 @@ export default function StudioEditorPage() {
             </ul>
             {publishTried ? (
               <p className={ready ? "mt-4 text-sm text-success" : "mt-4 text-sm text-danger"}>
-                {ready ? "พร้อมเผยแพร่ (เดโม — E7 จะเชื่อม publish จริง)" : "ยังเผยแพร่ไม่ได้ — ทำรายการที่ยังไม่ผ่านให้ครบ"}
+                {ready ? "พร้อมเผยแพร่ (E7 จะเชื่อม publish จริง)" : "ยังเผยแพร่ไม่ได้ — ทำรายการที่ยังไม่ผ่านให้ครบ"}
               </p>
             ) : null}
           </div>
