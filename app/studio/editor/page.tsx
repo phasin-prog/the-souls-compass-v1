@@ -120,8 +120,8 @@ export default function StudioEditorPage() {
   // Autosave — debounce 2.5 วินาทีหลังหยุดพิมพ์
   useEffect(() => {
     if (!userId || !canSave) return;
-    setAutoState("saving");
     const t = setTimeout(async () => {
+      setAutoState("saving");
       const ok = await persist(false);
       setAutoState(ok ? "saved" : "idle");
     }, 2500);

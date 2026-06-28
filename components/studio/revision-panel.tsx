@@ -26,12 +26,12 @@ export function RevisionPanel({
   const [revs, setRevs] = useState<RevisionRow[]>([]);
 
   useEffect(() => {
-    if (!entryId) {
-      setRevs([]);
-      return;
-    }
     let active = true;
     (async () => {
+      if (!entryId) {
+        if (active) setRevs([]);
+        return;
+      }
       const data = await getRevisions(supabase, entryId);
       if (active) setRevs((data as RevisionRow[]) ?? []);
     })();
