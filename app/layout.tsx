@@ -42,7 +42,16 @@ export default function RootLayout({
       lang="th"
       className={`${notoSerifThai.variable} ${ibmPlexThai.variable} ${playfair.variable}`}
     >
-      <body className="min-h-screen bg-midnight text-ivory antialiased">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap"
+        />
+        <noscript>
+          <style>{`.scroll-reveal{opacity:1!important;transform:none!important}`}</style>
+        </noscript>
+      </head>
+      <body className="min-h-screen bg-deep-navy text-ivory antialiased">
         <SiteHeader />
         {children}
         <SiteFooter />

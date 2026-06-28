@@ -21,6 +21,17 @@
   --color-danger: #B46A5A;
   --color-info: #6F8FAF;
 
+  /* โทเค็นดีไซน์หน้าแรก (จาก HTML ที่ผู้ใช้ให้) — ใช้ร่วมกับชุดเดิม */
+  --color-burnished-gold: #D4AF37;
+  --color-deep-navy: #080B16;
+  --color-on-surface: #E0E1F2;
+  --color-on-surface-variant: #D0C5AF;
+  --color-primary: #F2CA50;
+  --color-slate-boundary: #1E2538;
+  --color-surface-container: #1C1F2B;
+  --color-surface-container-low: #181B27;
+  --color-surface-container-lowest: #0B0E19;
+
   --font-sans: var(--font-ibm-plex-thai), "IBM Plex Sans Thai", system-ui, sans-serif;
   --font-serif: var(--font-noto-serif-thai), "Noto Serif Thai", Georgia, serif;
   --font-display: var(--font-playfair), "Playfair Display", Georgia, serif;
@@ -190,4 +201,59 @@
   height: auto;
   border-radius: 0.5rem;
   margin: 1.6rem 0;
+}
+
+/* ===== หน้าแรก redesign — chrome + sections (จาก HTML ที่ผู้ใช้ให้) ===== */
+.glass-nav {
+  background: rgba(8, 11, 22, 0.7);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+}
+.hero-gradient {
+  background: radial-gradient(circle at center, rgba(212, 175, 55, 0.05) 0%, transparent 70%);
+}
+.concept-card {
+  background: linear-gradient(145deg, rgba(18, 23, 38, 1) 0%, rgba(11, 14, 25, 1) 100%);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.concept-card:hover {
+  transform: translateY(-8px);
+  background: linear-gradient(145deg, rgba(28, 31, 43, 1) 0%, rgba(18, 23, 38, 1) 100%);
+  border-color: rgba(212, 175, 55, 0.4);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+}
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.stagger-1 { transition-delay: 100ms; }
+.stagger-2 { transition-delay: 200ms; }
+.stagger-3 { transition-delay: 300ms; }
+.stagger-4 { transition-delay: 400ms; }
+.stagger-5 { transition-delay: 500ms; }
+.stagger-6 { transition-delay: 600ms; }
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
 }
