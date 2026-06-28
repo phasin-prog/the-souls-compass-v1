@@ -41,6 +41,10 @@ const SOURCE_TYPE_LABEL: Record<string, string> = {
 
 const MAX_RELATED_INLINE = 6;
 
+// ปลายทางปุ่ม CTA "สำรวจประเภททางจิตวิทยา" — ชั่วคราวชี้ไปโหนด Psychological Types ในคลังแนวคิด
+// TODO: เปลี่ยนเป็นหน้า/ลิงก์บริการจริงเมื่อผู้ใช้กำหนดปลายทาง
+const GUIDE_CTA_HREF = "/concepts/psychological-types";
+
 // ประมาณเวลาอ่านจากความยาวเนื้อหา (ภาษาไทยไม่เว้นวรรค — ใช้จำนวนอักขระ ~400/นาที)
 function readTime(entry: ContentEntry): string {
   const chars =
@@ -230,27 +234,32 @@ export function ReadingPage({
         </section>
       ) : null}
 
-      {/* Engagement Box — on-brand (สำรวจความรู้ ไม่ใช่ขายบริการ) */}
-      <aside className="mt-16 rounded-md border border-antique-gold/25 bg-surface-1/40 p-7 text-center">
-        <h2 className="font-serif text-xl text-ivory">สำรวจแนวคิดนี้ต่อในบริบทที่กว้างขึ้น</h2>
-        <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-muted">
-          เดินตามเส้นความสัมพันธ์ของแนวคิด หรืออ่านงานเรียบเรียงที่เชื่อมโยงกัน
-          โดยไม่ลดทอนให้เหลือเพียงป้ายกำกับ
-        </p>
-        <div className="mt-5 flex flex-wrap justify-center gap-3">
-          <Link
-            href="/concepts"
-            className="inline-flex items-center gap-2 rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-6 py-3 text-sm font-semibold text-[#1a1306] transition-transform hover:-translate-y-0.5"
-          >
-            เปิดแผนที่ความสัมพันธ์
-            <span className="material-symbols-outlined text-[18px]">hub</span>
-          </Link>
-          <Link
-            href="/articles"
-            className="inline-flex items-center gap-2 rounded-sm border border-white/25 px-6 py-3 text-sm text-ivory transition-colors hover:border-antique-gold hover:text-soft-gold"
-          >
-            อ่านบทความที่เกี่ยวข้อง
-          </Link>
+      {/* CTA — guide การเข้าใจตัวตน ภายใต้กรอบ Psychological Types (วิชาการ ไม่ใช่ป้ายสำเร็จรูป) */}
+      <aside className="mt-16 overflow-hidden rounded-md border border-antique-gold/30 bg-surface-1/50">
+        <div className="border-l-2 border-antique-gold p-7 md:p-9">
+          <span className="text-xs uppercase tracking-[0.2em] text-antique-gold">
+            Psychological Types · การอ่านตัวตน
+          </span>
+          <h2 className="mt-3 font-serif text-2xl text-ivory">
+            ทำความเข้าใจแนวโน้มทางจิตของคุณ ผ่านกรอบ Psychological Types
+          </h2>
+          <p className="mt-3 max-w-xl text-base leading-relaxed text-soft-ivory">
+            บริการอ่านและให้คำแนะนำเชิงลึก โดยใช้ทฤษฎีประเภททางจิตวิทยา (Psychological Types)
+            ของ C. G. Jung เป็นกรอบในการ guide การเข้าใจตัวตน — อ่าน “แนวโน้ม”
+            อย่างมีบริบท ไม่ใช่ตัดสินด้วยป้ายประเภทสำเร็จรูป และแยกการตีความออกจากข้อเท็จจริงตามแนวทางของคลังความรู้นี้
+          </p>
+          <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
+            <Link
+              href={GUIDE_CTA_HREF}
+              className="inline-flex items-center gap-2 rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-6 py-3 text-sm font-semibold text-[#1a1306] transition-transform hover:-translate-y-0.5"
+            >
+              เริ่มสำรวจประเภททางจิตวิทยาของคุณ
+              <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
+            </Link>
+            <Link href="/articles" className="text-sm text-soft-gold hover:underline">
+              อ่านบทความที่เกี่ยวข้อง →
+            </Link>
+          </div>
         </div>
       </aside>
     </main>
