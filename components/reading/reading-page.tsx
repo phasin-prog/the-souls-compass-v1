@@ -6,6 +6,8 @@ import type { ContentEntry, RelationType, SourceItem, Difficulty } from "@/types
 import { InternalLinkText } from "@/components/reading/internal-link-text";
 import { conceptTitle } from "@/lib/content/concept-registry";
 import { Tooltip } from "@/components/tooltip";
+import { ReadingToc } from "@/components/reading/reading-toc";
+import { ReadingDock } from "@/components/reading/reading-dock";
 
 type Section = "articles" | "concepts";
 
@@ -89,7 +91,15 @@ export function ReadingPage({
   const subtitleParts = [entry.thaiName, entry.originalTerm, entry.partOfSpeech].filter(Boolean);
 
   return (
-    <main className="mx-auto max-w-2xl px-6 pb-24 pt-10">
+    <div className="mx-auto grid max-w-6xl grid-cols-1 xl:grid-cols-[1fr_42rem_1fr] xl:gap-8">
+      {/* Sticky TOC (เฉพาะ xl+ · ซ่อนบนจอเล็ก · ขึ้นเมื่อมีหัวข้อ >= 3) */}
+      <aside className="hidden xl:block">
+        <div className="sticky top-28 max-h-[calc(100vh-8rem)] overflow-y-auto py-10 pr-2">
+          <ReadingToc />
+        </div>
+      </aside>
+
+      <main id="reading-article" className="w-full max-w-2xl px-6 pb-24 pt-10 xl:mx-0 mx-auto">
       {/* Breadcrumb */}
       <nav aria-label="เส้นทางนำทาง" className="scroll-reveal flex flex-wrap items-center gap-1 text-xs text-muted">
         <Link href="/" className="transition-colors hover:text-soft-gold">หน้าแรก</Link>
@@ -143,7 +153,7 @@ export function ReadingPage({
       {entry.visualExplanation ? (
         <section className="scroll-reveal mt-12">
           <h2 className="font-serif text-2xl text-ivory">คำอธิบายให้เห็นภาพ</h2>
-          <p className="reading-prose mt-4 whitespace-pre-line text-lg text-soft-ivory">
+          <p className="mt-4 whitespace-pre-line text-lg leading-[1.8] text-soft-ivory">
             <InternalLinkText text={entry.visualExplanation} />
           </p>
         </section>
@@ -152,7 +162,7 @@ export function ReadingPage({
       {entry.technicalMeaning ? (
         <section className="scroll-reveal mt-12">
           <h2 className="font-serif text-2xl text-ivory">ความหมายทางวิชาการ / เทคนิค</h2>
-          <p className="reading-prose mt-4 whitespace-pre-line text-lg text-soft-ivory">
+          <p className="mt-4 whitespace-pre-line text-lg leading-[1.8] text-soft-ivory">
             <InternalLinkText text={entry.technicalMeaning} />
           </p>
         </section>
@@ -281,6 +291,13 @@ export function ReadingPage({
           </div>
         </div>
       </aside>
-    </main>
+      </main>
+
+      {/* spacer คอลัมน์ขวา — รักษาบทความให้อยู่กึ่งกลาง grid */}
+      <div className="hidden xl:block" aria-hidden="true" />
+
+      {/* แถบเครื่องมือหน้าอ่าน (desktop) */}
+      <ReadingDock slug={entry.slug} />
+    </div>
   );
 }
