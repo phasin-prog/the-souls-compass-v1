@@ -4,7 +4,7 @@ import { EXTERNAL_CATEGORIES } from "@/lib/content/external-links";
 import { ExternalLinksBrowser } from "@/components/external-links/external-links-browser";
 
 export const metadata: Metadata = {
-  title: "แหล่งอ้างอิงและเครือข่ายความรู้ — The Soul's Compass",
+  title: "แหล่งอ้างอิงและเครือข่ายความรู้ — ARCHRON",
   description:
     "รวมลิงก์ ผลงานวิจัย และคลังข้อมูลภายนอกด้านจิตวิทยาวิเคราะห์ จิตวิเคราะห์ ปรัชญา ประสาทวิทยา และมานุษยวิทยา เพื่อการศึกษาค้นคว้าเชิงลึก",
 };
@@ -37,7 +37,7 @@ export default function ExternalLinksPage() {
         </div>
 
         <p className="mt-16 border-t border-slate-boundary/30 pt-6 text-sm leading-relaxed text-on-surface-variant/50">
-          หมายเหตุ: ลิงก์ทั้งหมดนำไปสู่เว็บไซต์ภายนอก โครงการ The Soul&apos;s Compass
+          หมายเหตุ: ลิงก์ทั้งหมดนำไปสู่เว็บไซต์ภายนอก โครงการ ARCHRON
           ไม่มีส่วนเกี่ยวข้องกับการบริหารจัดการเนื้อหาภายในเว็บปลายทางเหล่านั้น
         </p>
       </div>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Jungian Type Analysis — วิเคราะห์ประเภททางจิต | The Soul's Compass",
+  title: "Jungian Type Analysis — วิเคราะห์ประเภททางจิต | ARCHRON",
   description:
     "บริการวิเคราะห์โครงสร้าง Ego ผ่านกรอบ Jungian Psychological Types — อ่านแนวโน้มการรับรู้โลกอย่างมีบริบท ไม่ใช่การวินิจฉัยทางการแพทย์หรือการทำนายอนาคต",
 };
@@ -45,7 +45,7 @@ export default function GuidePage() {
         <div className="hero-gradient pointer-events-none absolute inset-0" />
         <div className="relative mx-auto max-w-3xl text-center">
           <span className="block text-xs font-semibold uppercase tracking-[0.3em] text-burnished-gold/80">
-            The Soul&apos;s Compass · Moonlight
+            ARCHRON · Moonlight
           </span>
           <h1 className="mt-5 font-serif text-4xl font-bold text-on-surface md:text-5xl">
             Jungian Type Analysis
@@ -60,7 +60,7 @@ export default function GuidePage() {
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <a
               href="#contact"
-              className="group inline-flex items-center gap-2 bg-burnished-gold px-9 py-4 text-sm font-semibold tracking-[0.05em] text-deep-navy transition-all duration-500 hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]"
+              className="group inline-flex items-center gap-2 bg-burnished-gold px-9 py-4 text-sm font-semibold tracking-[0.05em] text-ink transition-all duration-500 hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]"
             >
               นัดหมาย / สอบถาม
               <span className="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1.5">

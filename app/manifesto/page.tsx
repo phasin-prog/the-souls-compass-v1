@@ -3,7 +3,7 @@ import { PageHeader } from "@/components/page-header";
 import { PageNav } from "@/components/page-nav";
 
 export const metadata: Metadata = {
-  title: "Manifesto — The Soul's Compass",
+  title: "Manifesto — ARCHRON",
 };
 
 export default function ManifestoPage() {
@@ -16,7 +16,7 @@ export default function ManifestoPage() {
           หรือสูตรสำเร็จในการใช้ชีวิต
         </p>
         <p>
-          The Soul&apos;s Compass จึงพยายามวางแนวคิดไว้ในบริบทเดิมของมัน พร้อมเปิดพื้นที่ให้การตีความ
+          ARCHRON จึงพยายามวางแนวคิดไว้ในบริบทเดิมของมัน พร้อมเปิดพื้นที่ให้การตีความ
           การเปรียบเทียบ และการตั้งคำถามเกิดขึ้นอย่างรับผิดชอบ
         </p>
         <p className="border-l-2 border-antique-gold/30 pl-5 text-base italic text-muted">

@@ -5,7 +5,7 @@ import { conceptRegistry } from "@/lib/content/concept-registry";
 import { ConceptCard } from "@/components/concepts/concept-card";
 
 export const metadata: Metadata = {
-  title: "คลังแนวคิด — The Soul's Compass",
+  title: "คลังแนวคิด — ARCHRON",
 };
 
 export default function ConceptsPage() {

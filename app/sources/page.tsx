@@ -3,7 +3,7 @@ import { PageHeader } from "@/components/page-header";
 import { PageNav } from "@/components/page-nav";
 
 export const metadata: Metadata = {
-  title: "แหล่งอ้างอิง — The Soul's Compass",
+  title: "แหล่งอ้างอิง — ARCHRON",
 };
 
 const SOURCE_GROUPS = [

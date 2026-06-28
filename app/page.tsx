@@ -50,13 +50,13 @@ export default function HomePage() {
               <span className="italic text-burnished-gold">ป้ายกำกับ</span>
             </h1>
             <p className="scroll-reveal stagger-2 mx-auto mb-12 max-w-3xl text-lg leading-[1.8] text-on-surface-variant/80">
-              The Soul&apos;s Compass คือพื้นที่ศึกษาจิตวิทยา จิตวิเคราะห์ ปรัชญา ประสาทวิทยาศาสตร์
+              ARCHRON คือพื้นที่ศึกษาจิตวิทยา จิตวิเคราะห์ ปรัชญา ประสาทวิทยาศาสตร์
               และทฤษฎีความรู้ โดยแยกแหล่งที่มา ข้อเท็จจริง และการตีความออกจากกัน
             </p>
             <div className="scroll-reveal stagger-3 flex flex-col justify-center gap-6 sm:flex-row">
               <Link
                 href="/articles"
-                className="group flex items-center justify-center gap-3 bg-burnished-gold px-10 py-5 text-xs font-semibold tracking-[0.05em] text-deep-navy transition-all duration-500 hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]"
+                className="group flex items-center justify-center gap-3 bg-burnished-gold px-10 py-5 text-xs font-semibold tracking-[0.05em] text-ink transition-all duration-500 hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]"
               >
                 เริ่มอ่านบทความ
                 <span className="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1.5">
@@ -161,7 +161,7 @@ export default function HomePage() {
           <div className="mx-auto mb-12 h-px w-16 bg-burnished-gold/20" />
           <p className="mx-auto mb-16 max-w-3xl text-lg leading-[1.9] text-on-surface-variant/80">
             ความรู้เกี่ยวกับจิตใจมนุษย์ไม่ควรถูกลดทอนเหลือเพียงป้ายกำกับ ประเภทบุคลิกภาพ
-            หรือสูตรสำเร็จในการใช้ชีวิต The Soul&apos;s Compass จึงพยายามวางแนวคิดไว้ในบริบทเดิมของมัน
+            หรือสูตรสำเร็จในการใช้ชีวิต ARCHRON จึงพยายามวางแนวคิดไว้ในบริบทเดิมของมัน
             พร้อมเปิดพื้นที่ให้การตีความ การเปรียบเทียบ และการตั้งคำถามเกิดขึ้นอย่างรับผิดชอบ
           </p>
           <Link

@@ -69,7 +69,7 @@ export function Fab() {
               : "translate(0px, 0px) scale(0.5)",
             transitionDelay: `${open ? i * 40 : 0}ms`,
           }}
-          className={`group absolute bottom-1.5 left-1.5 flex h-11 w-11 items-center justify-center rounded-full border border-burnished-gold/30 bg-surface-container/90 text-burnished-gold shadow-[0_8px_24px_-8px_rgba(0,0,0,0.6)] backdrop-blur transition-all duration-300 ease-out hover:bg-burnished-gold hover:text-deep-navy motion-reduce:transition-none ${
+          className={`group absolute bottom-1.5 left-1.5 flex h-11 w-11 items-center justify-center rounded-full border border-burnished-gold/30 bg-surface-container/90 text-burnished-gold shadow-[0_8px_24px_-8px_rgba(0,0,0,0.6)] backdrop-blur transition-all duration-300 ease-out hover:bg-burnished-gold hover:text-ink motion-reduce:transition-none ${
             open ? "opacity-100" : "pointer-events-none opacity-0"
           }`}
         >
@@ -85,7 +85,7 @@ export function Fab() {
         aria-label={open ? "ปิดเมนูลัด" : "เปิดเมนูลัด"}
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className="relative flex h-14 w-14 items-center justify-center rounded-full border border-burnished-gold/40 bg-gradient-to-br from-burnished-gold to-soft-gold text-deep-navy shadow-[0_10px_30px_-8px_rgba(0,0,0,0.7)] transition-transform duration-300 hover:scale-105 motion-reduce:transition-none"
+        className="relative flex h-14 w-14 items-center justify-center rounded-full border border-burnished-gold/40 bg-gradient-to-br from-burnished-gold to-soft-gold text-ink shadow-[0_10px_30px_-8px_rgba(0,0,0,0.7)] transition-transform duration-300 hover:scale-105 motion-reduce:transition-none"
       >
         <span
           className={`material-symbols-outlined text-[26px] transition-transform duration-300 motion-reduce:transition-none ${

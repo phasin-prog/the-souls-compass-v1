@@ -10,7 +10,7 @@ import {
 import { ConstellationMindmap } from "@/components/constellation/constellation-mindmap";
 
 export const metadata: Metadata = {
-  title: "แผนที่ความสัมพันธ์ — The Soul's Compass",
+  title: "แผนที่ความสัมพันธ์ — ARCHRON",
   description:
     "แผนภาพรัศมีของแนวคิด นักคิด หนังสือ และสำนักคิด — เลือกแนวคิดเป็นศูนย์กลางแล้วสำรวจความเชื่อมโยงทีละก้าว",
 };

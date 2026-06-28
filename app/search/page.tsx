@@ -7,7 +7,7 @@ import { SearchClient } from "@/components/search/search-client";
 export const revalidate = 300;
 
 export const metadata: Metadata = {
-  title: "ค้นหา — The Soul's Compass",
+  title: "ค้นหา — ARCHRON",
   description:
     "ค้นหาแนวคิด บทความ ทรัพยากรภายนอก และหน้าต่าง ๆ ในคลังความรู้จิตใจมนุษย์",
 };

@@ -243,7 +243,7 @@ export function ConstellationMindmap({
         ) : null}
 
         {copied ? (
-          <div className="pointer-events-none absolute bottom-3 left-1/2 z-30 -translate-x-1/2 rounded-md bg-burnished-gold px-3 py-1 text-xs font-medium text-deep-navy">
+          <div className="pointer-events-none absolute bottom-3 left-1/2 z-30 -translate-x-1/2 rounded-md bg-burnished-gold px-3 py-1 text-xs font-medium text-ink">
             คัดลอกลิงก์แล้ว
           </div>
         ) : null}

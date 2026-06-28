@@ -22,8 +22,8 @@ export async function generateMetadata({
   const entry = await getPublicEntryBySlug(slug);
   return {
     title: entry
-      ? `${entry.title} — The Soul's Compass`
-      : "ไม่พบหน้า — The Soul's Compass",
+      ? `${entry.title} — ARCHRON`
+      : "ไม่พบหน้า — ARCHRON",
   };
 }
 

@@ -20,12 +20,15 @@ export function SiteFooter() {
     <footer id="footer" className="w-full border-t border-slate-boundary bg-deep-navy py-24">
       <div className="mx-auto grid max-w-[1200px] grid-cols-1 gap-16 px-6 md:grid-cols-12">
         <div className="md:col-span-5">
-          <div className="mb-8 font-serif text-[24px] tracking-tight text-burnished-gold">
-            The Soul&apos;s Compass
+          <div className="mb-4 font-serif text-[24px] font-semibold tracking-[0.2em] text-burnished-gold">
+            ARCHRON
           </div>
+          <p className="mb-6 max-w-md text-sm leading-relaxed tracking-wide text-on-surface-variant/85">
+            คลังความรู้เพื่อเข้าใจจิตวิญญาณของมนุษย์ ข้ามผ่านห้วงเวลา และศาสตร์วิชา
+          </p>
           <p className="mb-10 max-w-md leading-relaxed text-on-surface-variant/70">
-            คลังความรู้จิตวิทยา ปรัชญา และจิตใจมนุษย์ สร้างขึ้นเพื่อการศึกษา การอ่าน
-            และการตีความอย่างมีบริบท ไม่ใช่เพื่อการลดทอนความหมายของมนุษย์
+            สำนักศึกษามนุษย์ที่เชื่อมจิตวิทยา ปรัชญา ประวัติศาสตร์ ภาษา และศาสตร์ว่าด้วยมนุษย์เข้าด้วยกัน
+            เพื่อการศึกษา การอ่าน และการเปรียบเทียบอย่างมีบริบท ไม่ใช่เพื่อการลดทอนความหมายของมนุษย์
           </p>
           <div className="flex gap-6">
             <Link
@@ -108,7 +111,7 @@ export function SiteFooter() {
 
       <div className="mx-auto mt-24 flex max-w-[1200px] flex-col items-center justify-between gap-4 border-t border-slate-boundary/30 px-6 pt-10 sm:flex-row">
         <p className="text-center text-xs leading-relaxed tracking-wide text-on-surface-variant/55 sm:text-left">
-          © 2026 <span className="text-on-surface-variant/85">The Soul&apos;s Compass</span>
+          © 2026 <span className="text-on-surface-variant/85">ARCHRON</span>
           <span className="px-1.5 text-on-surface-variant/30">·</span>
           คลังความรู้เพื่อการศึกษาจิตใจมนุษย์
         </p>

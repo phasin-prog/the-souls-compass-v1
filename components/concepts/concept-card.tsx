@@ -85,7 +85,7 @@ export function ConceptCard({ c }: { c: ConceptRegistryItem }) {
         ) : null}
       </Link>
       {copied ? (
-        <span className="pointer-events-none absolute right-3 top-3 rounded bg-burnished-gold px-2 py-0.5 text-[11px] font-medium text-deep-navy">
+        <span className="pointer-events-none absolute right-3 top-3 rounded bg-burnished-gold px-2 py-0.5 text-[11px] font-medium text-ink">
           คัดลอกแล้ว
         </span>
       ) : null}

@@ -4,8 +4,8 @@ import { FAQ } from "@/lib/content/faq";
 import { Accordion } from "@/components/accordion";
 
 export const metadata: Metadata = {
-  title: "คำถามที่พบบ่อย — The Soul's Compass",
-  description: "คำถามที่พบบ่อยเกี่ยวกับ The Soul's Compass — จุดยืน วิธีอ่าน ระดับเนื้อหา การอ้างอิง และบริการ",
+  title: "คำถามที่พบบ่อย — ARCHRON",
+  description: "คำถามที่พบบ่อยเกี่ยวกับ ARCHRON — จุดยืน วิธีอ่าน ระดับเนื้อหา การอ้างอิง และบริการ",
 };
 
 export default function FaqPage() {

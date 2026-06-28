@@ -58,8 +58,8 @@ export async function generateMetadata({
   const title = entry?.title ?? node?.title;
   return {
     title: title
-      ? `${title} — The Soul's Compass`
-      : "ไม่พบหน้า — The Soul's Compass",
+      ? `${title} — ARCHRON`
+      : "ไม่พบหน้า — ARCHRON",
   };
 }
 

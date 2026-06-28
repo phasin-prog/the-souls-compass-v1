@@ -9,7 +9,7 @@ export default function LoginPage() {
       <div className="w-full max-w-md animate-fade-in">
         <div className="mb-8 text-center">
           <h1 className="font-serif text-3xl tracking-wide text-burnished-gold">
-            The Soul&apos;s Compass
+            ARCHRON
           </h1>
           <p className="mt-2 text-xs tracking-widest text-on-surface-variant/60 uppercase">
             ผู้ดูแลระบบ & นักเขียนกิตติมศักดิ์

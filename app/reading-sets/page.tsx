@@ -3,7 +3,7 @@ import { PageHeader } from "@/components/page-header";
 import { PageNav } from "@/components/page-nav";
 
 export const metadata: Metadata = {
-  title: "ซีรีส์ / ชุดอ่าน — The Soul's Compass",
+  title: "ซีรีส์ / ชุดอ่าน — ARCHRON",
 };
 
 export default function ReadingSetsPage() {

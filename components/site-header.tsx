@@ -52,10 +52,10 @@ export function SiteHeader() {
       >
         <Link
           href="/"
-          className="font-serif text-[22px] tracking-tight text-burnished-gold"
-          aria-label="The Soul's Compass หน้าแรก"
+          className="font-serif text-[22px] font-semibold tracking-[0.18em] text-burnished-gold"
+          aria-label="ARCHRON หน้าแรก"
         >
-          The Soul&apos;s Compass
+          ARCHRON
         </Link>
 
         {/* Desktop: dropdown groups */}
@@ -102,7 +102,7 @@ export function SiteHeader() {
           </Link>
           <Link
             href="/articles"
-            className="hidden border border-burnished-gold/30 bg-burnished-gold/10 px-6 py-2.5 text-[10px] font-semibold tracking-[0.08em] text-burnished-gold transition-all duration-500 hover:bg-burnished-gold hover:text-deep-navy md:block"
+            className="hidden border border-burnished-gold/30 bg-burnished-gold/10 px-6 py-2.5 text-[10px] font-semibold tracking-[0.08em] text-burnished-gold transition-all duration-500 hover:bg-burnished-gold hover:text-ink md:block"
           >
             เข้าสู่คลังความรู้
           </Link>

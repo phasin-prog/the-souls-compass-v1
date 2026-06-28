@@ -5,7 +5,7 @@ import { PageNav } from "@/components/page-nav";
 import { getPublicEntries } from "@/lib/content/public-source";
 
 export const metadata: Metadata = {
-  title: "บทความ — The Soul's Compass",
+  title: "บทความ — ARCHRON",
 };
 
 // E8 — อ่านจาก Supabase (published) + fallback static · ISR 5 นาที + on-demand จาก E7

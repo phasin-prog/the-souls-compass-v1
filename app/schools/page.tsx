@@ -4,7 +4,7 @@ import { SCHOOLS } from "@/lib/content/schools";
 import { SchoolsHub } from "@/components/schools/schools-hub";
 
 export const metadata: Metadata = {
-  title: "คลังปัญญา: สำนักคิดและนักปราชญ์โลก — The Soul's Compass",
+  title: "คลังปัญญา: สำนักคิดและนักปราชญ์โลก — ARCHRON",
   description:
     "ไดเรกทอรีสำนักคิดและนักปราชญ์โลก — สำรวจสำนักคิด นักปราชญ์ และผลงานเด่น เรียงตามชื่อสำนัก พร้อมค้นหาและดัชนีตัวอักษร",
 };

@@ -3,7 +3,7 @@ import { PageHeader } from "@/components/page-header";
 import { PageNav } from "@/components/page-nav";
 
 export const metadata: Metadata = {
-  title: "สนับสนุน — The Soul's Compass",
+  title: "สนับสนุน — ARCHRON",
 };
 
 const WAYS = [
