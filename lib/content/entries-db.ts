@@ -1,0 +1,104 @@
+import type { SupabaseClient } from "@supabase/supabase-js";
+import type { ContentEntry } from "@/types/content";
+import { createServerSupabase } from "@/lib/supabase/server";
+import { rowToEntry, type EntryRow } from "./entry-mapper";
+
+// ============ Public reads (server, anon) ============
+// ใช้แทน static entries.ts ใน E8 (ตอนนี้พร้อมใช้ ยังไม่สลับ)
+
+export async function getPublishedEntries(): Promise<ContentEntry[]> {
+  const sb = createServerSupabase();
+  const { data, error } = await sb
+    .from("entries")
+    .select("*")
+    .eq("status", "published")
+    .order("published_at", { ascending: false });
+  if (error || !data) return [];
+  return (data as EntryRow[]).map(rowToEntry);
+}
+
+export async function getPublishedEntryBySlug(
+  slug: string,
+): Promise<ContentEntry | null> {
+  const sb = createServerSupabase();
+  const { data, error } = await sb
+    .from("entries")
+    .select("*")
+    .eq("slug", slug)
+    .eq("status", "published")
+    .maybeSingle();
+  if (error || !data) return null;
+  return rowToEntry(data as EntryRow);
+}
+
+export async function getPublishedSlugs(): Promise<string[]> {
+  const sb = createServerSupabase();
+  const { data } = await sb.from("entries").select("slug").eq("status", "published");
+  return ((data ?? []) as { slug: string }[]).map((r) => r.slug);
+}
+
+// ============ Authed (studio) — รับ client ที่แนบ Clerk token ============
+// RLS บังคับ ownership: ผู้ใช้เห็น/แก้/ลบได้เฉพาะของตน
+
+export async function listMyEntries(
+  sb: SupabaseClient,
+  authorId: string,
+): Promise<ContentEntry[]> {
+  const { data } = await sb
+    .from("entries")
+    .select("*")
+    .eq("author_id", authorId)
+    .order("updated_at", { ascending: false });
+  return ((data ?? []) as EntryRow[]).map(rowToEntry);
+}
+
+export async function getMyEntryBySlug(
+  sb: SupabaseClient,
+  slug: string,
+): Promise<ContentEntry | null> {
+  const { data, error } = await sb
+    .from("entries")
+    .select("*")
+    .eq("slug", slug)
+    .maybeSingle();
+  if (error || !data) return null;
+  return rowToEntry(data as EntryRow);
+}
+
+// upsert แถว (E3 จะแปลง EditorDraft → EntryRow ก่อนเรียก)
+export async function upsertEntryRow(
+  sb: SupabaseClient,
+  row: Partial<EntryRow> & { slug: string; title: string; author_id: string },
+) {
+  return sb.from("entries").upsert(row, { onConflict: "slug" }).select().maybeSingle();
+}
+
+export async function deleteEntry(sb: SupabaseClient, id: string) {
+  return sb.from("entries").delete().eq("id", id);
+}
+
+// ============ Revisions (version history — ใช้ใน E6) ============
+
+export async function addRevision(
+  sb: SupabaseClient,
+  entryId: string,
+  snapshot: unknown,
+  createdBy: string,
+  note?: string,
+) {
+  return sb.from("entry_revisions").insert({
+    entry_id: entryId,
+    snapshot,
+    created_by: createdBy,
+    note: note ?? null,
+  });
+}
+
+export async function getRevisions(sb: SupabaseClient, entryId: string) {
+  const { data } = await sb
+    .from("entry_revisions")
+    .select("*")
+    .eq("entry_id", entryId)
+    .order("created_at", { ascending: false });
+  return data ?? [];
+}
