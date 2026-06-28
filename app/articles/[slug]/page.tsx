@@ -37,5 +37,5 @@ export default async function ArticleEntryPage({
   if (!entry) {
     notFound();
   }
-  return <ReadingPage entry={entry} />;
+  return <ReadingPage entry={entry} section="articles" />;
 }

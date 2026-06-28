@@ -1,9 +1,16 @@
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import type { ContentEntry, RelationType, SourceItem } from "@/types/content";
+import type { ContentEntry, RelationType, SourceItem, Difficulty } from "@/types/content";
 import { InternalLinkText } from "@/components/reading/internal-link-text";
-import { SourceIcon, PathIcon } from "@/components/icons";
+import { conceptTitle } from "@/lib/content/concept-registry";
+
+type Section = "articles" | "concepts";
+
+const SECTION_LABEL: Record<Section, string> = {
+  articles: "บทความ",
+  concepts: "คลังแนวคิด",
+};
 
 const RELATION_LABEL: Record<RelationType, string> = {
   prerequisite: "ควรอ่านก่อน",
@@ -15,92 +22,101 @@ const RELATION_LABEL: Record<RelationType, string> = {
   "influenced-by": "ได้รับอิทธิพลจาก",
 };
 
+const DIFFICULTY_LABEL: Record<Difficulty, string> = {
+  beginner: "ผู้เริ่มต้น",
+  intermediate: "ระดับกลาง",
+  advanced: "อ่านลึก",
+  "source-note": "บันทึกอ้างอิง",
+};
+
+const SOURCE_TYPE_LABEL: Record<string, string> = {
+  "primary-source": "แหล่งต้นทาง",
+  "secondary-source": "งานอธิบาย",
+  commentary: "อรรถาธิบาย",
+  "editorial-interpretation": "การตีความของเว็บ",
+  website: "เว็บไซต์",
+  "dictionary-lexicon": "พจนานุกรม / ศัพทานุกรม",
+  other: "อื่น ๆ",
+};
+
 const MAX_RELATED_INLINE = 6;
 
-function SourceList({ items }: { items: SourceItem[] }) {
+// ประมาณเวลาอ่านจากความยาวเนื้อหา (ภาษาไทยไม่เว้นวรรค — ใช้จำนวนอักขระ ~400/นาที)
+function readTime(entry: ContentEntry): string {
+  const chars =
+    (entry.visualExplanation ?? "").length +
+    (entry.technicalMeaning ?? "").length +
+    (entry.bodyMarkdown ?? "").length;
+  return `${Math.max(1, Math.round(chars / 400))} นาที`;
+}
+
+function MetaCell({ label, value }: { label: string; value: string }) {
   return (
-    <ul className="space-y-3">
-      {items.map((s, i) => (
-        <li key={i} className="text-sm leading-relaxed text-soft-ivory">
-          <span className="text-ivory">{[s.author, s.title].filter(Boolean).join(", ")}</span>
-          {s.year ? <span className="text-muted"> ({s.year})</span> : null}
-          {s.relatedClaim ? (
-            <span className="block text-muted">รองรับ: {s.relatedClaim}</span>
-          ) : null}
-        </li>
-      ))}
-    </ul>
+    <div className="rounded-md border border-white/10 bg-surface-1/40 p-4">
+      <dt className="text-[11px] uppercase tracking-wider text-muted">{label}</dt>
+      <dd className="mt-1 text-sm leading-snug text-ivory">{value}</dd>
+    </div>
   );
 }
 
-export function ReadingPage({ entry }: { entry: ContentEntry }) {
-  const primary = entry.references.filter((r) => r.sourceType === "primary-source");
-  const secondary = entry.references.filter((r) =>
-    ["secondary-source", "commentary"].includes(r.sourceType),
-  );
-  const interpretation = entry.references.filter((r) =>
-    ["editorial-interpretation", "website", "dictionary-lexicon", "other"].includes(
-      r.sourceType,
-    ),
-  );
-
+export function ReadingPage({
+  entry,
+  section = "concepts",
+}: {
+  entry: ContentEntry;
+  section?: Section;
+}) {
   const relatedInline = entry.relatedConcepts.slice(0, MAX_RELATED_INLINE);
   const hasOverflow = entry.relatedConcepts.length > MAX_RELATED_INLINE;
 
+  const thinker =
+    entry.mainThinkers && entry.mainThinkers.length > 0
+      ? entry.mainThinkers.join(", ")
+      : "—";
+  const level = entry.difficulty ? DIFFICULTY_LABEL[entry.difficulty] : "—";
+  const subtitleParts = [entry.thaiName, entry.originalTerm, entry.partOfSpeech].filter(Boolean);
+
   return (
-    <main className="mx-auto max-w-2xl px-6 pb-24 pt-16">
-      <header>
-        <h1 className="font-serif text-4xl text-ivory">{entry.mainTerm ?? entry.title}</h1>
-        <p className="mt-3 text-base text-soft-ivory">
-          {[entry.thaiName, entry.originalTerm, entry.partOfSpeech]
-            .filter(Boolean)
-            .join(" · ")}
-          {entry.ipa ? <span className="text-muted"> {entry.ipa}</span> : null}
-        </p>
-        {entry.shortDescription ? (
-          <p className="mt-4 text-lg leading-relaxed text-soft-ivory">
-            {entry.shortDescription}
+    <main className="mx-auto max-w-2xl px-6 pb-24 pt-10">
+      {/* Breadcrumb */}
+      <nav aria-label="เส้นทางนำทาง" className="flex flex-wrap items-center gap-1 text-xs text-muted">
+        <Link href="/" className="transition-colors hover:text-soft-gold">หน้าแรก</Link>
+        <span className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
+        <Link href={`/${section}`} className="transition-colors hover:text-soft-gold">
+          {SECTION_LABEL[section]}
+        </Link>
+        <span className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
+        <span className="text-soft-ivory">{entry.mainTerm ?? entry.title}</span>
+      </nav>
+
+      {/* Header Zone */}
+      <header className="mt-7">
+        <h1 className="font-serif text-4xl font-bold text-ivory md:text-5xl">
+          {entry.mainTerm ?? entry.title}
+        </h1>
+        {subtitleParts.length > 0 || entry.ipa ? (
+          <p className="mt-3 text-base text-soft-ivory">
+            {subtitleParts.join(" · ")}
+            {entry.ipa ? <span className="text-muted"> {entry.ipa}</span> : null}
           </p>
+        ) : null}
+        {entry.shortDescription ? (
+          <p className="mt-5 text-lg leading-relaxed text-soft-ivory">{entry.shortDescription}</p>
+        ) : null}
+        {entry.updatedAt ? (
+          <p className="mt-3 text-xs text-subtle">อัปเดตล่าสุด {entry.updatedAt}</p>
         ) : null}
       </header>
 
-      <dl className="mt-8 grid grid-cols-2 gap-4 border-y border-white/10 py-6 text-sm">
-        {entry.framework ? (
-          <div>
-            <dt className="text-muted">สำนัก / กรอบทฤษฎี</dt>
-            <dd className="mt-1 text-ivory">{entry.framework}</dd>
-          </div>
-        ) : null}
-        {entry.mainThinkers && entry.mainThinkers.length > 0 ? (
-          <div>
-            <dt className="text-muted">นักคิดหลัก</dt>
-            <dd className="mt-1 text-ivory">{entry.mainThinkers.join(", ")}</dd>
-          </div>
-        ) : null}
-        {entry.difficulty ? (
-          <div>
-            <dt className="text-muted">ระดับการอ่าน</dt>
-            <dd className="mt-1 text-ivory">{entry.difficulty}</dd>
-          </div>
-        ) : null}
-        <div>
-          <dt className="text-muted">ผู้เรียบเรียง</dt>
-          <dd className="mt-1 text-ivory">{entry.author ?? "The Soul's Compass"}</dd>
-        </div>
-        {entry.publishedAt ? (
-          <div>
-            <dt className="text-muted">เผยแพร่</dt>
-            <dd className="mt-1 text-ivory">{entry.publishedAt}</dd>
-          </div>
-        ) : null}
-        {entry.updatedAt ? (
-          <div>
-            <dt className="text-muted">อัปเดตล่าสุด</dt>
-            <dd className="mt-1 text-ivory">{entry.updatedAt}</dd>
-          </div>
-        ) : null}
+      {/* Meta-data Grid */}
+      <dl className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
+        <MetaCell label="สำนัก / กรอบทฤษฎี" value={entry.framework ?? "—"} />
+        <MetaCell label="นักคิดหลัก" value={thinker} />
+        <MetaCell label="ระดับการอ่าน" value={level} />
+        <MetaCell label="เวลาอ่านโดยประมาณ" value={readTime(entry)} />
       </dl>
 
+      {/* Main Content Zone */}
       {entry.visualExplanation ? (
         <section className="mt-12">
           <h2 className="font-serif text-2xl text-ivory">คำอธิบายให้เห็นภาพ</h2>
@@ -122,31 +138,65 @@ export function ReadingPage({ entry }: { entry: ContentEntry }) {
       {entry.bodyMarkdown && entry.bodyMarkdown.trim() !== "" ? (
         <section className="mt-12">
           <div className="md-body">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>
-              {entry.bodyMarkdown}
-            </ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{entry.bodyMarkdown}</ReactMarkdown>
           </div>
         </section>
       ) : null}
 
-      {entry.relatedConcepts.length > 0 ? (
+      {entry.roots ? (
         <section className="mt-12">
+          <h2 className="font-serif text-2xl text-ivory">ที่มาของคำและบริบท</h2>
+          <ul className="mt-4 space-y-3 text-base leading-relaxed text-soft-ivory">
+            {entry.roots.etymology ? (
+              <li className="flex gap-3">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-antique-gold" aria-hidden="true" />
+                <span><span className="text-muted">รากศัพท์: </span>{entry.roots.etymology}</span>
+              </li>
+            ) : null}
+            {entry.roots.historicalUsage ? (
+              <li className="flex gap-3">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-antique-gold" aria-hidden="true" />
+                <span><span className="text-muted">การใช้ในอดีต: </span>{entry.roots.historicalUsage}</span>
+              </li>
+            ) : null}
+            {entry.roots.meaningShift ? (
+              <li className="flex gap-3">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-antique-gold" aria-hidden="true" />
+                <span><span className="text-muted">การเปลี่ยนความหมาย: </span>{entry.roots.meaningShift}</span>
+              </li>
+            ) : null}
+          </ul>
+          {entry.roots.caution ? (
+            <p className="mt-4 border-l-2 border-antique-gold/40 pl-4 text-sm italic leading-relaxed text-muted">
+              ข้อควรระวัง: {entry.roots.caution}
+            </p>
+          ) : null}
+        </section>
+      ) : null}
+
+      {/* Ecosystem & Relations Zone */}
+      {entry.relatedConcepts.length > 0 ? (
+        <section className="mt-14">
           <h2 className="font-serif text-2xl text-ivory">แนวคิดที่เกี่ยวข้อง</h2>
-          <ul className="mt-4 space-y-3">
+          <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {relatedInline.map((rc) => (
-              <li key={rc.conceptSlug} className="rounded-md border border-white/10 bg-charcoal/40 p-4">
-                <Link href={`/concepts/${rc.conceptSlug}`} className="text-ivory hover:text-soft-gold">
-                  {rc.conceptSlug}
-                </Link>
-                <span className="ml-2 text-xs text-antique-gold">
+              <Link
+                key={rc.conceptSlug}
+                href={`/concepts/${rc.conceptSlug}`}
+                className="group flex flex-col rounded-md border border-white/10 bg-charcoal/40 p-5 transition-colors hover:border-antique-gold/40"
+              >
+                <span className="font-serif text-lg text-ivory group-hover:text-soft-gold">
+                  {conceptTitle(rc.conceptSlug)}
+                </span>
+                <span className="mt-2 inline-block w-fit rounded-full border border-antique-gold/30 px-2.5 py-0.5 text-[11px] text-antique-gold">
                   {RELATION_LABEL[rc.relationType]}
                 </span>
                 {rc.reason ? (
-                  <p className="mt-1 text-sm leading-relaxed text-muted">{rc.reason}</p>
+                  <p className="mt-3 text-sm leading-relaxed text-muted">{rc.reason}</p>
                 ) : null}
-              </li>
+              </Link>
             ))}
-          </ul>
+          </div>
           {hasOverflow ? (
             <Link href="/concepts" className="mt-5 inline-block text-sm text-soft-gold hover:underline">
               ดูแผนที่ความสัมพันธ์ทั้งหมด →
@@ -155,73 +205,54 @@ export function ReadingPage({ entry }: { entry: ContentEntry }) {
         </section>
       ) : null}
 
+      {/* Footer Zone — References */}
       {entry.references.length > 0 ? (
-        <section className="mt-12">
+        <section className="mt-14">
           <h2 className="flex items-center gap-2 font-serif text-2xl text-ivory">
-            <SourceIcon className="h-5 w-5 text-antique-gold" />
+            <span className="material-symbols-outlined text-[22px] text-antique-gold">format_quote</span>
             เอกสารอ้างอิง
           </h2>
-          {primary.length > 0 ? (
-            <div className="mt-5">
-              <h3 className="text-sm tracking-widest text-antique-gold">แหล่งต้นทาง (Primary)</h3>
-              <div className="mt-3"><SourceList items={primary} /></div>
-            </div>
-          ) : null}
-          {secondary.length > 0 ? (
-            <div className="mt-5">
-              <h3 className="text-sm tracking-widest text-antique-gold">งานอธิบาย (Secondary)</h3>
-              <div className="mt-3"><SourceList items={secondary} /></div>
-            </div>
-          ) : null}
-          {interpretation.length > 0 ? (
-            <div className="mt-5">
-              <h3 className="text-sm tracking-widest text-antique-gold">การตีความของเว็บ (Interpretation)</h3>
-              <div className="mt-3"><SourceList items={interpretation} /></div>
-            </div>
-          ) : null}
+          <ol className="mt-5 space-y-3">
+            {entry.references.map((s: SourceItem, i) => (
+              <li key={i} className="text-sm leading-relaxed text-soft-ivory">
+                <span className="mr-2 text-antique-gold">{i + 1}.</span>
+                <span className="mr-1 text-xs uppercase tracking-wide text-antique-gold/70">
+                  [{SOURCE_TYPE_LABEL[s.sourceType] ?? s.sourceType}]
+                </span>
+                <span className="text-ivory">{[s.author, s.title].filter(Boolean).join(", ")}</span>
+                {s.year ? <span className="text-muted"> ({s.year})</span> : null}
+                {s.relatedClaim ? (
+                  <span className="mt-1 block text-muted">รองรับ: {s.relatedClaim}</span>
+                ) : null}
+              </li>
+            ))}
+          </ol>
         </section>
       ) : null}
 
-      {entry.roots ? (
-        <section className="mt-12 rounded-md border border-white/10 bg-surface-1/40 p-7">
-          <h2 className="font-serif text-2xl text-ivory">Roots — ที่มาของคำ</h2>
-          {entry.roots.etymology ? (
-            <p className="mt-4 text-base leading-relaxed text-soft-ivory">
-              <span className="text-muted">รากศัพท์: </span>{entry.roots.etymology}
-            </p>
-          ) : null}
-          {entry.roots.historicalUsage ? (
-            <p className="mt-3 text-base leading-relaxed text-soft-ivory">
-              <span className="text-muted">การใช้ในอดีต: </span>{entry.roots.historicalUsage}
-            </p>
-          ) : null}
-          {entry.roots.meaningShift ? (
-            <p className="mt-3 text-base leading-relaxed text-soft-ivory">
-              <span className="text-muted">การเปลี่ยนความหมาย: </span>{entry.roots.meaningShift}
-            </p>
-          ) : null}
-          {entry.roots.caution ? (
-            <p className="mt-3 text-sm italic leading-relaxed text-muted">
-              ข้อควรระวัง: {entry.roots.caution}
-            </p>
-          ) : null}
-        </section>
-      ) : null}
-
-      <section className="mt-12 border-t border-white/10 pt-8">
-        <h2 className="flex items-center gap-2 font-serif text-xl text-ivory">
-          <PathIcon className="h-5 w-5 text-antique-gold" />
-          อ่านต่อจากแนวคิดนี้
-        </h2>
-        <div className="mt-4 flex flex-wrap gap-3">
-          <Link href="/concepts" className="rounded-sm border border-white/20 px-5 py-2.5 text-sm text-ivory transition-colors hover:border-antique-gold hover:text-soft-gold">
-            สำรวจคลังแนวคิด
+      {/* Engagement Box — on-brand (สำรวจความรู้ ไม่ใช่ขายบริการ) */}
+      <aside className="mt-16 rounded-md border border-antique-gold/25 bg-surface-1/40 p-7 text-center">
+        <h2 className="font-serif text-xl text-ivory">สำรวจแนวคิดนี้ต่อในบริบทที่กว้างขึ้น</h2>
+        <p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-muted">
+          เดินตามเส้นความสัมพันธ์ของแนวคิด หรืออ่านงานเรียบเรียงที่เชื่อมโยงกัน
+          โดยไม่ลดทอนให้เหลือเพียงป้ายกำกับ
+        </p>
+        <div className="mt-5 flex flex-wrap justify-center gap-3">
+          <Link
+            href="/concepts"
+            className="inline-flex items-center gap-2 rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-6 py-3 text-sm font-semibold text-[#1a1306] transition-transform hover:-translate-y-0.5"
+          >
+            เปิดแผนที่ความสัมพันธ์
+            <span className="material-symbols-outlined text-[18px]">hub</span>
           </Link>
-          <Link href="/articles" className="rounded-sm border border-white/20 px-5 py-2.5 text-sm text-ivory transition-colors hover:border-antique-gold hover:text-soft-gold">
-            อ่านบทความอื่น
+          <Link
+            href="/articles"
+            className="inline-flex items-center gap-2 rounded-sm border border-white/25 px-6 py-3 text-sm text-ivory transition-colors hover:border-antique-gold hover:text-soft-gold"
+          >
+            อ่านบทความที่เกี่ยวข้อง
           </Link>
         </div>
-      </section>
+      </aside>
     </main>
   );
 }

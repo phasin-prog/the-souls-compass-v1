@@ -109,7 +109,7 @@ export default async function ConceptNodePage({
   if (entry) {
     return (
       <div className="pb-24">
-        <ReadingPage entry={entry} />
+        <ReadingPage entry={entry} section="concepts" />
         <Backlinks slug={slug} />
       </div>
     );
