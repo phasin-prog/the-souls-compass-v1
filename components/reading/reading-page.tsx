@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ContentEntry, RelationType, SourceItem } from "@/types/content";
+import { InternalLinkText } from "@/components/reading/internal-link-text";
 
 const RELATION_LABEL: Record<RelationType, string> = {
   prerequisite: "ควรอ่านก่อน",
@@ -101,7 +102,7 @@ export function ReadingPage({ entry }: { entry: ContentEntry }) {
         <section className="mt-12">
           <h2 className="font-serif text-2xl text-ivory">คำอธิบายให้เห็นภาพ</h2>
           <p className="mt-4 whitespace-pre-line text-lg leading-loose text-soft-ivory">
-            {entry.visualExplanation}
+            <InternalLinkText text={entry.visualExplanation} />
           </p>
         </section>
       ) : null}
@@ -110,7 +111,7 @@ export function ReadingPage({ entry }: { entry: ContentEntry }) {
         <section className="mt-12">
           <h2 className="font-serif text-2xl text-ivory">ความหมายทางวิชาการ / เทคนิค</h2>
           <p className="mt-4 whitespace-pre-line text-lg leading-loose text-soft-ivory">
-            {entry.technicalMeaning}
+            <InternalLinkText text={entry.technicalMeaning} />
           </p>
         </section>
       ) : null}
@@ -134,10 +135,7 @@ export function ReadingPage({ entry }: { entry: ContentEntry }) {
             ))}
           </ul>
           {hasOverflow ? (
-            <Link
-              href="/concepts"
-              className="mt-5 inline-block text-sm text-soft-gold hover:underline"
-            >
+            <Link href="/concepts" className="mt-5 inline-block text-sm text-soft-gold hover:underline">
               ดูแผนที่ความสัมพันธ์ทั้งหมด →
             </Link>
           ) : null}
