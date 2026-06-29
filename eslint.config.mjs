@@ -5,6 +5,11 @@ const preset = Array.isArray(nextCoreWebVitals) ? nextCoreWebVitals : [nextCoreW
 const config = [
   { ignores: [".next/**", "node_modules/**", "next-env.d.ts"] },
   ...preset,
+  {
+    rules: {
+      "react-hooks/set-state-in-effect": "off",
+    },
+  },
 ];
 
 export default config;

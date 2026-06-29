@@ -160,7 +160,7 @@ export function ReadingPage({
 
       {/* Header Zone */}
       <header className="scroll-reveal stagger-1 mt-7">
-        <h1 className="font-serif text-4xl font-bold text-ivory md:text-5xl">
+        <h1 className="font-serif text-fluid-h1 font-bold text-ivory">
           {entry.mainTerm ?? entry.title}
         </h1>
         {subtitleParts.length > 0 || entry.ipa ? (
@@ -170,7 +170,7 @@ export function ReadingPage({
           </p>
         ) : null}
         {entry.shortDescription ? (
-          <p className="mt-5 text-lg leading-relaxed text-soft-ivory">{entry.shortDescription}</p>
+          <p className="mt-5 text-fluid-lg leading-relaxed text-soft-ivory">{entry.shortDescription}</p>
         ) : null}
         {entry.updatedAt ? (
           <p className="mt-3 text-xs text-subtle">อัปเดตล่าสุด {entry.updatedAt}</p>
@@ -219,19 +219,19 @@ export function ReadingPage({
       {/* Main Content Zone */}
       {entry.visualExplanation ? (
         <section className="scroll-reveal mt-12">
-          <h2 className="font-serif text-2xl text-ivory">คำอธิบายให้เห็นภาพ</h2>
-          <p className="mt-4 whitespace-pre-line text-lg leading-[1.8] text-soft-ivory">
+          <h2 className="font-serif text-fluid-h2 text-ivory">คำอธิบายให้เห็นภาพ</h2>
+          <div className="md-body mt-4 whitespace-pre-line">
             <InternalLinkText text={entry.visualExplanation} />
-          </p>
+          </div>
         </section>
       ) : null}
 
       {entry.technicalMeaning ? (
         <section className="scroll-reveal mt-12">
-          <h2 className="font-serif text-2xl text-ivory">ความหมายทางวิชาการ / เทคนิค</h2>
-          <p className="mt-4 whitespace-pre-line text-lg leading-[1.8] text-soft-ivory">
+          <h2 className="font-serif text-fluid-h2 text-ivory">ความหมายทางวิชาการ / เทคนิค</h2>
+          <div className="md-body mt-4 whitespace-pre-line">
             <InternalLinkText text={entry.technicalMeaning} />
-          </p>
+          </div>
         </section>
       ) : null}
 
@@ -247,7 +247,7 @@ export function ReadingPage({
 
       {entry.roots ? (
         <section className="scroll-reveal mt-12">
-          <h2 className="font-serif text-2xl text-ivory">ที่มาของคำและบริบท</h2>
+          <h2 className="font-serif text-fluid-h2 text-ivory">ที่มาของคำและบริบท</h2>
           <ul className="mt-4 space-y-3 text-base leading-relaxed text-soft-ivory">
             {entry.roots.etymology ? (
               <li className="flex gap-3">
@@ -279,7 +279,7 @@ export function ReadingPage({
       {/* Ecosystem & Relations Zone */}
       {entry.relatedConcepts.length > 0 ? (
         <section className="mt-14">
-          <h2 className="scroll-reveal font-serif text-2xl text-ivory">แนวคิดที่เกี่ยวข้อง</h2>
+          <h2 className="scroll-reveal font-serif text-fluid-h2 text-ivory">แนวคิดที่เกี่ยวข้อง</h2>
           <LocalGraph entry={entry} />
           <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {relatedInline.map((rc, i) => (
@@ -311,7 +311,7 @@ export function ReadingPage({
       {/* Footer Zone — References */}
       {entry.references.length > 0 ? (
         <section className="scroll-reveal mt-14">
-          <h2 className="font-serif text-2xl text-ivory">เอกสารอ้างอิง</h2>
+          <h2 className="font-serif text-fluid-h2 text-ivory">เอกสารอ้างอิง</h2>
           <ol className="mt-5 space-y-3">
             {entry.references.map((s: SourceItem, i) => (
               <li
