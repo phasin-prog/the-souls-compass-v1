@@ -11,3 +11,7 @@ next-env.d.ts
 /.agent
 /.agents
 .vercel
+
+# build artifacts
+*.tsbuildinfo
+dev-out.log

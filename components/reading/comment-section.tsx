@@ -1,51 +1,42 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useAuth, useSession, useUser, SignedIn, SignedOut } from "@clerk/nextjs";
-import { createClerkSupabaseClient } from "@/lib/supabase/client";
+import { useAuth, useUser, SignedIn, SignedOut } from "@clerk/nextjs";
 import {
-  listComments,
-  addComment,
-  deleteComment,
-  type Comment,
-} from "@/lib/content/comments-db";
+  listCommentsAction,
+  addCommentAction,
+  deleteCommentAction,
+} from "@/lib/content/comments-actions";
+import type { Comment } from "@/lib/content/comments-db";
 
 // ความคิดเห็นท้ายบทความ/แนวคิด — กรอบวิชาการ: ต้องมีบัญชีจึงร่วมอภิปรายได้
 // หมายเหตุ: ตัวห่อ ClerkProvider อยู่ที่ ReadingPage (island) เพื่อไม่กระทบ ISR หน้าอื่น
+// ใช้ Server Actions (service-role) แทน client-side Clerk JWT → แก้ปัญหา "No suitable key"
 export function CommentSection({ section, slug }: { section: string; slug: string }) {
   const { userId } = useAuth();
-  const { session } = useSession();
   const { user } = useUser();
-
-  const supabase = useMemo(
-    () => createClerkSupabaseClient(async () => (await session?.getToken()) ?? null),
-    [session],
-  );
 
   const [comments, setComments] = useState<Comment[] | null>(null);
   const [body, setBody] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const load = useMemo(
-    () => async () => {
-      const data = await listComments(supabase, section, slug);
-      setComments(data);
-    },
-    [supabase, section, slug],
-  );
+  async function load() {
+    const data = await listCommentsAction(section, slug);
+    setComments(data);
+  }
 
   useEffect(() => {
     let active = true;
     (async () => {
-      const data = await listComments(supabase, section, slug);
+      const data = await listCommentsAction(section, slug);
       if (active) setComments(data);
     })();
     return () => {
       active = false;
     };
-  }, [supabase, section, slug]);
+  }, [section, slug]);
 
   const authorName =
     user?.fullName || user?.username || user?.primaryEmailAddress?.emailAddress || "ผู้อ่าน";
@@ -54,16 +45,10 @@ export function CommentSection({ section, slug }: { section: string; slug: strin
     if (!userId || !body.trim()) return;
     setBusy(true);
     setError(null);
-    const { error } = await addComment(supabase, {
-      section,
-      slug,
-      userId,
-      authorName,
-      body,
-    });
+    const { error } = await addCommentAction(section, slug, body);
     setBusy(false);
     if (error) {
-      setError(`ส่งความคิดเห็นไม่สำเร็จ: ${error.message}`);
+      setError(`ส่งความคิดเห็นไม่สำเร็จ: ${error}`);
       return;
     }
     setBody("");
@@ -71,7 +56,7 @@ export function CommentSection({ section, slug }: { section: string; slug: strin
   }
 
   async function handleDelete(id: string) {
-    const { error } = await deleteComment(supabase, id);
+    const { error } = await deleteCommentAction(id);
     if (!error) await load();
   }
 
@@ -101,7 +86,6 @@ export function CommentSection({ section, slug }: { section: string; slug: strin
         แลกเปลี่ยนความเข้าใจอย่างมีเหตุผลและให้เกียรติกัน — โปรดอ้างอิงแหล่งที่มาเมื่อยกข้อเท็จจริง
       </p>
 
-      {/* กล่องเขียน — เฉพาะผู้ล็อกอิน */}
       <div className="mt-6">
         <SignedIn>
           <div className="rounded-md border border-ink/12 bg-surface-container/50 p-4">
@@ -138,7 +122,6 @@ export function CommentSection({ section, slug }: { section: string; slug: strin
         </SignedOut>
       </div>
 
-      {/* รายการความคิดเห็น */}
       <div className="mt-8 space-y-5">
         {comments === null ? (
           <p className="text-sm text-on-surface-variant/50">ยังไม่เปิดระบบความคิดเห็นในขณะนี้</p>

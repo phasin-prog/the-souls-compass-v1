@@ -4,15 +4,40 @@ import type { ContentEntry } from "@/types/content";
 import { draftToRow, entryToDraft } from "@/lib/content/draft-mapper";
 import { rowToEntry, type EntryRow } from "@/lib/content/entry-mapper";
 
-// ชั้น persistence ของ editor (E3) — เรียกด้วย Supabase client ที่แนบ Clerk token (มาจาก E2)
-// RLS บังคับ ownership: เขียน/อ่านได้เฉพาะของตน
+// ชั้น persistence ของ editor (E3) — เรียกด้วย Supabase service-role client
+// service role ข้าม RLS ได้ จึงต้องตรวจสอบ ownership เองทุก operation
+// (author_id === userId มิฉะนั้นผู้ใช้ A จะเขียนทับงานของ B ได้)
+
+// ดึง author_id ของ entry ที่มีอยู่ (ตาม slug) — สำหรับตรวจ ownership
+async function getExistingAuthor(
+  sb: SupabaseClient,
+  slug: string,
+): Promise<string | null> {
+  const { data } = await sb
+    .from("entries")
+    .select("author_id")
+    .eq("slug", slug)
+    .maybeSingle();
+  return (data as { author_id: string } | null)?.author_id ?? null;
+}
 
 // บันทึก/อัปเดตฉบับร่าง (upsert ตาม slug)
+// ถ้า entry มีอยู่แล้ว author_id ต้องตรงกับผู้เขียนปัจจุบัน (ป้องกันเขียนทับของคนอื่น)
 export async function saveDraft(
   sb: SupabaseClient,
   authorId: string,
   draft: EditorDraft,
 ) {
+  const existingAuthor = await getExistingAuthor(sb, draft.slug);
+  if (existingAuthor !== null && existingAuthor !== authorId) {
+    return {
+      data: null,
+      error: { message: "slug นี้เป็นของผู้เขียนคนอื่น — ใช้ slug อื่น" } as {
+        message: string;
+      },
+    };
+  }
+
   const row = draftToRow(draft, authorId);
   const { data, error } = await sb
     .from("entries")
@@ -51,11 +76,22 @@ export async function listMyDrafts(
 
 // เผยแพร่จริง (E7): ตั้ง status=published + published_at
 // คงวันเผยแพร่ครั้งแรกไว้ถ้าเคยเผยแพร่แล้ว (ไม่รีเซ็ตทุกครั้งที่กดเผยแพร่ซ้ำ)
+// ตรวจ ownership ก่อน publish
 export async function publishEntry(
   sb: SupabaseClient,
   authorId: string,
   draft: EditorDraft,
 ) {
+  const existingAuthor = await getExistingAuthor(sb, draft.slug);
+  if (existingAuthor !== null && existingAuthor !== authorId) {
+    return {
+      data: null,
+      error: { message: "slug นี้เป็นของผู้เขียนคนอื่น — ไม่สามารถเผยแพร่ได้" } as {
+        message: string;
+      },
+    };
+  }
+
   const { data: existing } = await sb
     .from("entries")
     .select("published_at")

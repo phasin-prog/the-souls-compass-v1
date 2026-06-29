@@ -1,21 +1,19 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
-import { useAuth, useSession, useUser } from "@clerk/nextjs";
-import { createClerkSupabaseClient } from "@/lib/supabase/client";
-import { getMyProfile, upsertMyProfile, requestWriter } from "@/lib/content/profile-db";
+import { useAuth, useUser } from "@clerk/nextjs";
 import { roleFromMetadata, ROLE_LABEL, ROLE_META, canWrite } from "@/lib/content/roles";
+import {
+  getMyProfileAction,
+  upsertMyProfileAction,
+  requestWriterAction,
+} from "./actions";
+import type { Profile } from "@/lib/content/profile-db";
 
 export default function StudioProfilePage() {
   const { userId } = useAuth();
-  const { session } = useSession();
   const { user } = useUser();
-
-  const supabase = useMemo(
-    () => createClerkSupabaseClient(async () => (await session?.getToken()) ?? null),
-    [session],
-  );
 
   const role = roleFromMetadata(user?.publicMetadata);
   const roleMeta = ROLE_META[role];
@@ -31,7 +29,7 @@ export default function StudioProfilePage() {
     if (!userId) return;
     let active = true;
     (async () => {
-      const p = await getMyProfile(supabase, userId);
+      const p: Profile | null = await getMyProfileAction();
       if (active && p) {
         setUsername(p.username ?? "");
         setDisplayName(p.display_name ?? "");
@@ -42,7 +40,7 @@ export default function StudioProfilePage() {
     return () => {
       active = false;
     };
-  }, [supabase, userId]);
+  }, [userId]);
 
   async function handleSave() {
     if (!userId) {
@@ -50,23 +48,23 @@ export default function StudioProfilePage() {
       return;
     }
     setSaving(true);
-    const { error } = await upsertMyProfile(supabase, userId, {
+    const { error } = await upsertMyProfileAction({
       username,
       display_name: displayName,
       title,
     });
     setSaving(false);
-    setMessage(error ? `บันทึกไม่สำเร็จ: ${error.message}` : "บันทึกโปรไฟล์แล้ว ✓");
+    setMessage(error ? `บันทึกไม่สำเร็จ: ${error}` : "บันทึกโปรไฟล์แล้ว ✓");
   }
 
   async function handleRequestWriter() {
     if (!userId) return;
-    const { error } = await requestWriter(supabase, userId);
+    const { error } = await requestWriterAction();
     if (!error) {
       setWriterRequested(true);
       setMessage("ส่งคำขอเป็นนักเขียนแล้ว — รอแอดมินอนุมัติ");
     } else {
-      setMessage(`ส่งคำขอไม่สำเร็จ: ${error.message}`);
+      setMessage(`ส่งคำขอไม่สำเร็จ: ${error}`);
     }
   }
 
@@ -85,7 +83,6 @@ export default function StudioProfilePage() {
         </p>
       </header>
 
-      {/* role ปัจจุบัน */}
       <div className="mb-8 flex items-center justify-between rounded-md border border-slate-boundary/50 bg-surface-1/50 p-4">
         <div className="flex items-center gap-3">
           <span
@@ -119,55 +116,29 @@ export default function StudioProfilePage() {
       <div className="space-y-5">
         <div>
           <label className="mb-1 block text-sm text-soft-ivory">ชื่อผู้ใช้ (Username)</label>
-          <input
-            className={inputClass}
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            placeholder="เช่น phasin"
-          />
+          <input className={inputClass} value={username} onChange={(e) => setUsername(e.target.value)} placeholder="เช่น phasin" />
         </div>
         <div>
           <label className="mb-1 block text-sm text-soft-ivory">ชื่อที่แสดง</label>
-          <input
-            className={inputClass}
-            value={displayName}
-            onChange={(e) => setDisplayName(e.target.value)}
-            placeholder="ชื่อที่ปรากฏบนงานเขียน"
-          />
+          <input className={inputClass} value={displayName} onChange={(e) => setDisplayName(e.target.value)} placeholder="ชื่อที่ปรากฏบนงานเขียน" />
         </div>
         <div>
           <label className="mb-1 block text-sm text-soft-ivory">ยศ / ตำแหน่ง</label>
-          <input
-            className={inputClass}
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-            placeholder="เช่น ผู้สนับสนุน, นักเขียนกิตติมศักดิ์"
-          />
+          <input className={inputClass} value={title} onChange={(e) => setTitle(e.target.value)} placeholder="เช่น ผู้สนับสนุน, นักเขียนกิตติมศักดิ์" />
         </div>
-
-        <button
-          onClick={handleSave}
-          disabled={saving}
-          className="inline-flex items-center gap-2 bg-gradient-to-br from-antique-gold to-burnished-gold px-6 py-2.5 text-sm font-semibold text-prima transition-transform hover:-translate-y-0.5 disabled:opacity-50"
-        >
+        <button onClick={handleSave} disabled={saving} className="inline-flex items-center gap-2 bg-gradient-to-br from-antique-gold to-burnished-gold px-6 py-2.5 text-sm font-semibold text-prima transition-transform hover:-translate-y-0.5 disabled:opacity-50">
           <span className="material-symbols-outlined text-[18px]">save</span>
           {saving ? "กำลังบันทึก..." : "บันทึกโปรไฟล์"}
         </button>
       </div>
 
-      {/* ขอเป็นนักเขียน (เฉพาะ role user) */}
       {role === "user" ? (
         <div className="mt-10 rounded-md border border-slate-boundary/50 bg-surface-1/40 p-5">
           <h2 className="font-serif text-lg text-on-surface">อยากร่วมเป็นนักเขียน?</h2>
           <p className="mt-2 text-sm leading-relaxed text-on-surface-variant/70">
-            ผู้ใช้ทั่วไปอ่านได้ทุกอย่าง หากต้องการเขียนและเรียบเรียงเนื้อหา
-            ส่งคำขอเป็นนักเขียนเพื่อให้แอดมินพิจารณา
+            ผู้ใช้ทั่วไปอ่านได้ทุกอย่าง หากต้องการเขียนและเรียบเรียงเนื้อหา ส่งคำขอเป็นนักเขียนเพื่อให้แอดมินพิจารณา
           </p>
-          <button
-            onClick={handleRequestWriter}
-            disabled={writerRequested}
-            className="mt-4 inline-flex items-center gap-2 rounded border border-burnished-gold/40 px-4 py-2 text-sm text-burnished-gold transition-colors hover:bg-burnished-gold/10 disabled:opacity-50"
-          >
+          <button onClick={handleRequestWriter} disabled={writerRequested} className="mt-4 inline-flex items-center gap-2 rounded border border-burnished-gold/40 px-4 py-2 text-sm text-burnished-gold transition-colors hover:bg-burnished-gold/10 disabled:opacity-50">
             <span className="material-symbols-outlined text-[18px]">how_to_reg</span>
             {writerRequested ? "ส่งคำขอแล้ว — รออนุมัติ" : "ขอเป็นนักเขียน"}
           </button>
@@ -175,9 +146,7 @@ export default function StudioProfilePage() {
       ) : null}
 
       <div className="mt-10">
-        <Link href="/studio" className="text-sm text-soft-gold hover:underline">
-          ← กลับห้องเขียน
-        </Link>
+        <Link href="/studio" className="text-sm text-soft-gold hover:underline">← กลับห้องเขียน</Link>
       </div>
     </main>
   );
