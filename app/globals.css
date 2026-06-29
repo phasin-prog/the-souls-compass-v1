@@ -1,0 +1,706 @@
+@import "tailwindcss";
+
+/* Dynamic Accent — สี accent ที่เปลี่ยนตามบริบท (หน้า/หมวด) และไล่สีได้นุ่ม ๆ
+   @property ทำให้ transition ของ custom property สีทำงาน (morph เมื่อเปลี่ยนหน้า) */
+@property --accent {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #B58D4A;
+}
+
+/* ============================================================================
+   ARCHRON — Material & Color Cosmology v2.0 · DARK (Observatory / Night)
+   ----------------------------------------------------------------------------
+   "Color is memory. Material is civilization."
+   โหมดมืดเป็นหลัก: Prima Materia (หินค่ำคืน) เป็นพื้น, ตัวอักษรสว่าง (Humanitas/Mist),
+   accent = Sapientia(ทอง) · Lumen(แสง) · Psyche(น้ำลึก) · Mercurius(สนิมทองแดง)
+   แสงนุ่มแบบหอดูดาว/ห้องสมุด/แสงเทียน — ไม่จัด ไม่เงา
+
+     • Prima Materia #181B24 — พื้นมืด/ค่ำคืน/สิ่งที่ยังไม่รู้
+     • Psyche       #3D6177 — น้ำลึก/โลกภายใน (ใช้เป็นแสงเรืองหลัง)
+     • Lumen        #E7D7A6 — แสงแรกของความเข้าใจ (ลิงก์/ไฮไลต์)
+     • Sapientia    #B58D4A — ทองโบราณ (brand/heading accent)
+     • Mercurius    #607565 — สนิมทองแดง
+     • Humanitas    #F3EEE5 — กระดาษ/ตัวอักษรสว่าง
+     • Ink #2A2A2A · Dust #CFC8BC · Ash #8A857D
+   ============================================================================ */
+@theme {
+  /* ---- Material Cosmology core ---- */
+  --color-prima: #181B24;
+  --color-psyche: #3D6177;
+  --color-lumen: #E7D7A6;
+  --color-sapientia: #B58D4A;
+  --color-mercurius: #607565;
+  --color-humanitas: #F3EEE5;
+  --color-ink-neutral: #2A2A2A;
+  --color-dust: #CFC8BC;
+  --color-ash: #8A857D;
+  --color-mist: #F8F7F3;
+  --color-charcoal-ink: #2A2A2A;
+
+  /* ---- semantic aliases (DARK) ---- */
+  --color-paper: #1C1F29;          /* ผิวการ์ดมืด */
+  --color-paper-raised: #232735;   /* การ์ดยกเด่น (มืดสว่างกว่าพื้น) */
+  --color-paper-sunken: #121319;   /* code block */
+  --color-ink: #F3EEE5;            /* หัวเรื่อง/เส้นขอบ = สว่าง (บนพื้นมืด) */
+  --color-gold: #B58D4A;           /* Sapientia */
+  --color-gold-deep: #8A6A37;
+  --color-verdigris: #6E93A8;      /* Psyche สว่างขึ้นให้เห็นบนพื้นมืด (ลิงก์ hover) */
+  --color-line: #3A3F4D;
+  --color-accent: var(--accent);   /* Dynamic Accent → utility text-accent/bg-accent/border-accent */
+
+  /* ---- legacy token remap → ค่าโหมดมืด ---- */
+  --color-midnight: #181B24;       /* พื้นหลัก = Prima */
+  --color-deep-navy: #181B24;
+  --color-charcoal: #2A2A2A;       /* พื้นการ์ด/อินพุต (bg-charcoal) */
+  --color-surface-1: #20232E;
+  --color-surface-2: #262A36;
+  --color-surface-3: #2D313D;
+  --color-ivory: #F3EEE5;          /* text-ivory = สว่าง */
+  --color-soft-ivory: #D8D2C6;     /* เนื้อหา (md-body) สว่างนวล */
+  --color-muted: #9A948A;
+  --color-subtle: #8A857D;
+  --color-antique-gold: #B58D4A;
+  --color-bronze: #607565;
+  --color-soft-gold: #E7D7A6;      /* ลิงก์ = Lumen (สว่าง) */
+  --color-success: #7FB08A;
+  --color-warning: #D8B56A;
+  --color-danger: #C9776A;
+  --color-info: #6E93A8;
+
+  /* chrome */
+  --color-burnished-gold: #B58D4A; /* Sapientia (wordmark/accent) */
+  --color-on-surface: #F3EEE5;     /* ตัวอักษรหลัก = สว่าง */
+  --color-on-surface-variant: #C9C2B4;
+  --color-primary: #B58D4A;
+  --color-slate-boundary: #343A47;
+  --color-surface-container: #20232E;
+  --color-surface-container-low: #1A1D27;
+  --color-surface-container-lowest: #15161F;
+
+  /* Dynamic Typography — ฟอนต์สองภาษา (อังกฤษขึ้นก่อนเสมอ → ไทย) */
+  /* Heading = สาย Serif: IBM Plex Serif (อังกฤษ) + Noto Serif Thai (ไทย) */
+  --font-heading: var(--font-ibm-plex-serif), var(--font-noto-serif-thai), "IBM Plex Serif",
+    "Noto Serif Thai", Georgia, serif;
+  /* Body = สายโมเดิร์นร่วมสมัย: Inter + Noto Sans Thai */
+  --font-body: var(--font-inter), var(--font-noto-sans-thai), "Inter", "Noto Sans Thai",
+    system-ui, sans-serif;
+  /* alias เดิม — ให้ utility ที่มีอยู่ทำงานต่อโดยไม่ต้องแก้รายไฟล์
+     (font-serif = heading 89 จุด, font-sans = body) */
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-heading);
+  --font-display: var(--font-playfair), "Playfair Display", Georgia, serif;
+  --font-wordmark: var(--font-cinzel), "Cinzel", "Trajan Pro", Georgia, serif;
+}
+
+@layer base {
+  :root {
+    color-scheme: dark;
+
+    /* Dynamic Accent — ค่าเริ่มต้น + ไล่สีนุ่มเมื่อเปลี่ยนหน้า */
+    --accent: #B58D4A;
+    transition: --accent 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+
+    /* Dynamic Typography — Fluid scale (clamp: เล็กสุด / ขยายตามจอ / ใหญ่สุด) */
+    --text-base: clamp(1rem, 0.95vw + 0.8rem, 1.25rem); /* 16 → 20px */
+    --text-h1: clamp(2rem, 4vw + 1rem, 3.5rem); /* 32 → 56px */
+    --text-h2: clamp(1.5rem, 2vw + 1rem, 2.5rem); /* 24 → 40px */
+    --text-h3: clamp(1.25rem, 1.2vw + 0.9rem, 1.75rem); /* 20 → 28px */
+
+    /* Motion tokens */
+    --ease-soft: cubic-bezier(0.21, 0.6, 0.35, 1);
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --dur-fast: 200ms;
+    --dur-base: 450ms;
+    --dur-slow: 850ms;
+    --dur-ambient: 8s;
+
+    /* ── Dynamic Colour — Cosmology variable ชุด (default = Sapientia) ───────
+       ถูกตั้งโดย :root[data-cosmology="..."] (route theme จาก AccentController)
+       และ override โดย .archron-card--{cosmology} (card-level)
+       ทุก element ที่ต้องการ cosmology awareness อ่านจากชุดนี้ */
+    --cosmology-accent: #B58D4A;
+    --cosmology-accent-soft: #B58D4A;
+    --surface-tint: color-mix(in srgb, #B58D4A 8%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #B58D4A 32%, var(--color-slate-boundary));
+    --glow-tint: #B58D4A;
+  }
+
+  /* @property ทำให้ transition ของ custom property สีทำงาน (morph เมื่อเปลี่ยน cosmology) */
+  @property --cosmology-accent {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #B58D4A;
+  }
+  @property --surface-tint {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #20232E;
+  }
+  @property --border-tint {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #343A47;
+  }
+
+  /* route theme — แต่ละ cosmology ตั้ง variable ชุดเต็ม */
+  :root[data-cosmology="prima"] {
+    --cosmology-accent: #B9C2CE;
+    --cosmology-accent-soft: color-mix(in srgb, #B9C2CE 70%, transparent);
+    --surface-tint: color-mix(in srgb, #B9C2CE 7%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #B9C2CE 30%, var(--color-slate-boundary));
+    --glow-tint: #B9C2CE;
+  }
+  :root[data-cosmology="psyche"] {
+    --cosmology-accent: #6E93A8;
+    --cosmology-accent-soft: color-mix(in srgb, #6E93A8 70%, transparent);
+    --surface-tint: color-mix(in srgb, #6E93A8 9%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #6E93A8 32%, var(--color-slate-boundary));
+    --glow-tint: #6E93A8;
+  }
+  :root[data-cosmology="lumen"] {
+    --cosmology-accent: #E7D7A6;
+    --cosmology-accent-soft: color-mix(in srgb, #E7D7A6 70%, transparent);
+    --surface-tint: color-mix(in srgb, #E7D7A6 8%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #E7D7A6 34%, var(--color-slate-boundary));
+    --glow-tint: #E7D7A6;
+  }
+  :root[data-cosmology="sapientia"] {
+    --cosmology-accent: #CBA45A;
+    --cosmology-accent-soft: color-mix(in srgb, #CBA45A 70%, transparent);
+    --surface-tint: color-mix(in srgb, #CBA45A 8%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #CBA45A 34%, var(--color-slate-boundary));
+    --glow-tint: #CBA45A;
+  }
+  :root[data-cosmology="mercurius"] {
+    --cosmology-accent: #8AA395;
+    --cosmology-accent-soft: color-mix(in srgb, #8AA395 70%, transparent);
+    --surface-tint: color-mix(in srgb, #8AA395 8%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #8AA395 32%, var(--color-slate-boundary));
+    --glow-tint: #8AA395;
+  }
+  :root[data-cosmology="humanitas"] {
+    --cosmology-accent: #C9C2B4;
+    --cosmology-accent-soft: color-mix(in srgb, #C9C2B4 70%, transparent);
+    --surface-tint: color-mix(in srgb, #C9C2B4 7%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #C9C2B4 30%, var(--color-slate-boundary));
+    --glow-tint: #C9C2B4;
+  }
+
+  /* transition นุ่มเมื่อ cosmology เปลี่ยน (route → route) */
+  :root {
+    transition:
+      --cosmology-accent 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+      --surface-tint 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+      --border-tint 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  html,
+  body {
+    background-color: var(--color-prima);
+    color: var(--color-soft-ivory);
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-synthesis: none;
+    font-size: var(--text-base);
+    line-height: 1.6; /* ระยะห่างบรรทัดที่พอดีกับภาษาไทย */
+    letter-spacing: 0.1px;
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-heading);
+    color: var(--color-on-surface);
+    text-wrap: balance;
+    line-height: 1.3;
+    font-weight: 650; /* Variable weight — สายวิเคราะห์ */
+  }
+  h1 { font-size: var(--text-h1); }
+  h2 { font-size: var(--text-h2); }
+  h3 { font-size: var(--text-h3); }
+
+  /* Lumen = แสงแรกของความเข้าใจ → selection */
+  ::selection {
+    background: var(--color-lumen);
+    color: var(--color-prima);
+  }
+
+  /* a11y — โฟกัสคีย์บอร์ดมองเห็นชัด (วงแหวนทอง Sapientia) ทั่วทั้งเว็บ */
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+/* Dynamic Typography — utility opt-in (ใช้แทน text-[..] คงที่ เพื่อให้ลื่นไหลตามจอ) */
+@layer utilities {
+  .text-fluid-h1 { font-size: var(--text-h1); }
+  .text-fluid-h2 { font-size: var(--text-h2); }
+  .text-fluid-h3 { font-size: var(--text-h3); }
+  .text-fluid-base { font-size: var(--text-base); }
+}
+
+/* reading column */
+.reading-column {
+  max-width: 42rem;
+  line-height: 1.9;
+}
+
+/* Markdown body (E5) — โทนค่ำคืน: ตัวอักษรสว่างบนพื้นมืด */
+.md-body {
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--color-soft-ivory);
+}
+.md-body > :first-child {
+  margin-top: 0;
+}
+.md-body h2,
+.md-body h3,
+.md-body h4 {
+  font-family: var(--font-serif);
+  color: var(--color-on-surface);
+  text-wrap: balance;
+}
+.md-body h2 {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  margin-top: 2.6rem;
+  margin-bottom: 0.9rem;
+}
+.md-body h3 {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
+}
+.md-body h4 {
+  font-size: 1.12rem;
+  margin-top: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.md-body p {
+  margin: 1.15rem 0;
+}
+.md-body a {
+  color: var(--color-lumen);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.md-body a:hover {
+  color: var(--color-verdigris);
+}
+
+/* ── Citation System (A1) ──────────────────────────────────────────────
+   มาร์กเกอร์อ้างอิงในเนื้อหา [[cite:N]] → ลิงก์ [N] ยกกำลัง ชี้ไป #ref-N */
+.md-body a[href^="#ref-"] {
+  font-size: 0.72em;
+  vertical-align: super;
+  line-height: 0;
+  margin: 0 0.05em;
+  padding: 0 0.12em;
+  font-weight: 600;
+  color: var(--color-gold);
+  text-decoration: none;
+}
+.md-body a[href^="#ref-"]::before {
+  content: "[";
+}
+.md-body a[href^="#ref-"]::after {
+  content: "]";
+}
+.md-body a[href^="#ref-"]:hover {
+  color: var(--color-lumen);
+}
+
+/* รายการ "เอกสารอ้างอิง" — เลื่อนไม่ให้ header บัง + ไฮไลต์เมื่อถูกอ้างถึง */
+.reference-item {
+  scroll-margin-top: 6.5rem;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  margin-left: -0.5rem;
+  transition: background-color 0.5s var(--ease-soft);
+}
+.reference-item:target {
+  background-color: color-mix(in srgb, var(--color-gold) 16%, transparent);
+}
+
+/* GFM footnotes ([^1]) — โทนค่ำคืน + เปลี่ยนหัวข้อเป็นไทย "เชิงอรรถ" */
+.md-body .footnotes {
+  margin-top: 2.75rem;
+  border-top: 1px solid var(--color-slate-boundary);
+  padding-top: 1.25rem;
+  font-size: 0.95rem;
+  color: var(--color-on-surface-variant);
+}
+.md-body .footnotes h2[id="footnote-label"] {
+  font-size: 0;
+  margin-bottom: 0.75rem;
+}
+.md-body .footnotes h2[id="footnote-label"]::before {
+  content: "เชิงอรรถ";
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  color: var(--color-on-surface);
+}
+.md-body sup a[data-footnote-ref],
+.md-body a[data-footnote-ref] {
+  color: var(--color-gold);
+  text-decoration: none;
+  font-weight: 600;
+}
+.md-body a[data-footnote-backref] {
+  color: var(--color-gold);
+  text-decoration: none;
+}
+.md-body strong {
+  color: var(--color-on-surface);
+  font-weight: 600;
+}
+.md-body em {
+  font-style: italic;
+}
+.md-body ul,
+.md-body ol {
+  margin: 1.15rem 0;
+  padding-left: 1.5rem;
+}
+.md-body ul {
+  list-style: disc;
+}
+.md-body ol {
+  list-style: decimal;
+}
+.md-body li {
+  margin: 0.4rem 0;
+}
+.md-body li::marker {
+  color: var(--color-gold);
+}
+/* Core-Epiphany blockquote — ผิว surface มืด + เส้นทอง Sapientia */
+.md-body blockquote {
+  position: relative;
+  margin: 2rem 0;
+  padding: 1.5rem 1.75rem 1.5rem 2.6rem;
+  border-left: 3px solid var(--color-gold);
+  border-radius: 0.5rem;
+  background: var(--color-surface-container);
+  color: var(--color-on-surface);
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  line-height: 1.8;
+}
+.md-body blockquote::before {
+  content: "\201C";
+  position: absolute;
+  top: 0.15rem;
+  left: 0.7rem;
+  font-family: var(--font-serif);
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--color-gold);
+  opacity: 0.4;
+  pointer-events: none;
+}
+.md-body blockquote p {
+  margin: 0.5rem 0;
+}
+.md-body blockquote p:first-of-type {
+  margin-top: 0;
+}
+.md-body blockquote p:last-of-type {
+  margin-bottom: 0;
+}
+.md-body code {
+  font-family: var(--font-mono, ui-monospace, "SFMono-Regular", Menlo, monospace);
+  font-size: 0.92em;
+  background: var(--color-paper-sunken);
+  border: 1px solid rgba(243, 238, 229, 0.1);
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.4rem;
+}
+.md-body pre {
+  margin: 1.6rem 0;
+  padding: 1.1rem 1.25rem;
+  background: var(--color-paper-sunken);
+  border: 1px solid rgba(243, 238, 229, 0.1);
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  line-height: 1.7;
+}
+.md-body pre code {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+.md-body hr {
+  margin: 2.6rem 0;
+  border: 0;
+  border-top: 1px solid rgba(243, 238, 229, 0.14);
+}
+.md-body table {
+  width: 100%;
+  margin: 1.6rem 0;
+  border-collapse: collapse;
+  font-size: 0.97rem;
+}
+.md-body th,
+.md-body td {
+  border: 1px solid rgba(243, 238, 229, 0.14);
+  padding: 0.55rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+.md-body th {
+  color: var(--color-on-surface);
+  background: var(--color-surface-2);
+  font-weight: 600;
+}
+.md-body img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  margin: 1.6rem 0;
+}
+
+/* ===== chrome — โหมดมืด หอดูดาว ===== */
+.glass-nav {
+  background: rgba(24, 27, 36, 0.72);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border-bottom: 1px solid rgba(181, 141, 74, 0.18);
+}
+.material-symbols-outlined {
+  font-family: "Material Symbols Outlined";
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 24;
+}
+/* Dynamic Accent aura — แสงเรืองทั่วเว็บที่ "หายใจ" และเปลี่ยนสีตามหน้า (เคลื่อนไหวนุ่ม) */
+.accent-aura {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    62% 46% at 50% 0%,
+    color-mix(in srgb, var(--accent) 24%, transparent) 0%,
+    transparent 70%
+  );
+  opacity: 0.45;
+  animation: accent-breathe 9s ease-in-out infinite;
+  transition: background 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@keyframes accent-breathe {
+  0%, 100% { opacity: 0.32; }
+  50% { opacity: 0.55; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .accent-aura { animation: none; }
+}
+
+/* แสงน้ำลึก Psyche เรืองจางที่ hero */
+.hero-gradient {
+  background: radial-gradient(circle at center, rgba(61, 97, 119, 0.14) 0%, transparent 70%);
+}
+/* ============================================================================
+   ARCHRON Card — ภาษาการ์ดมาตรฐาน (Dynamic Colour)
+   ผิวไล่เฉดเชิงลึก · ขอบประณีต · hover ยกตัว + เรือง cosmology + เส้น sheen บนสัน
+   - รับ theme ของหน้าอัตโนมัติ (ผ่าน --surface-tint/--border-tint/--glow-tint จาก :root[data-cosmology])
+   - override ด้วย .archron-card--{cosmology} เพื่อใช้ cosmology ของเนื้อหาในการ์ด
+   - .archron-card--link สำหรับ link card ขนาดกะทัดรัด (hover subtle)
+   ============================================================================ */
+.archron-card {
+  position: relative;
+  border: 1px solid color-mix(in srgb, var(--border-tint) 70%, transparent);
+  border-radius: 0.75rem;
+  background: linear-gradient(
+    160deg,
+    var(--surface-tint) 0%,
+    color-mix(in srgb, var(--color-surface-container) 92%, transparent) 100%
+  );
+  transition:
+    transform var(--dur-base) var(--ease-out),
+    border-color var(--dur-base) var(--ease-out),
+    box-shadow var(--dur-base) var(--ease-out);
+}
+.archron-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--glow-tint) 45%, transparent),
+    transparent
+  );
+  opacity: 0;
+  transition: opacity var(--dur-base) var(--ease-out);
+  pointer-events: none;
+}
+.archron-card:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--glow-tint) 50%, transparent);
+  box-shadow:
+    0 18px 40px -22px rgba(0, 0, 0, 0.7),
+    0 0 26px -12px color-mix(in srgb, var(--glow-tint) 36%, transparent);
+}
+.archron-card:hover::before {
+  opacity: 1;
+}
+
+/* ── Cosmology variant — override theme ของหน้า สำหรับเนื้อหาในการ์ด ──────
+   ตั้ง variable ชุดเดียวกับ :root[data-cosmology] → การ์ดใช้ cosmology ของตัวเอง */
+.archron-card--prima {
+  --cosmology-accent: #B9C2CE;
+  --cosmology-accent-soft: color-mix(in srgb, #B9C2CE 70%, transparent);
+  --surface-tint: color-mix(in srgb, #B9C2CE 8%, var(--color-paper-raised));
+  --border-tint: color-mix(in srgb, #B9C2CE 32%, var(--color-slate-boundary));
+  --glow-tint: #B9C2CE;
+}
+.archron-card--psyche {
+  --cosmology-accent: #6E93A8;
+  --cosmology-accent-soft: color-mix(in srgb, #6E93A8 70%, transparent);
+  --surface-tint: color-mix(in srgb, #6E93A8 10%, var(--color-paper-raised));
+  --border-tint: color-mix(in srgb, #6E93A8 34%, var(--color-slate-boundary));
+  --glow-tint: #6E93A8;
+}
+.archron-card--lumen {
+  --cosmology-accent: #E7D7A6;
+  --cosmology-accent-soft: color-mix(in srgb, #E7D7A6 70%, transparent);
+  --surface-tint: color-mix(in srgb, #E7D7A6 9%, var(--color-paper-raised));
+  --border-tint: color-mix(in srgb, #E7D7A6 36%, var(--color-slate-boundary));
+  --glow-tint: #E7D7A6;
+}
+.archron-card--sapientia {
+  --cosmology-accent: #CBA45A;
+  --cosmology-accent-soft: color-mix(in srgb, #CBA45A 70%, transparent);
+  --surface-tint: color-mix(in srgb, #CBA45A 9%, var(--color-paper-raised));
+  --border-tint: color-mix(in srgb, #CBA45A 36%, var(--color-slate-boundary));
+  --glow-tint: #CBA45A;
+}
+.archron-card--mercurius {
+  --cosmology-accent: #8AA395;
+  --cosmology-accent-soft: color-mix(in srgb, #8AA395 70%, transparent);
+  --surface-tint: color-mix(in srgb, #8AA395 9%, var(--color-paper-raised));
+  --border-tint: color-mix(in srgb, #8AA395 34%, var(--color-slate-boundary));
+  --glow-tint: #8AA395;
+}
+.archron-card--humanitas {
+  --cosmology-accent: #C9C2B4;
+  --cosmology-accent-soft: color-mix(in srgb, #C9C2B4 70%, transparent);
+  --surface-tint: color-mix(in srgb, #C9C2B4 8%, var(--color-paper-raised));
+  --border-tint: color-mix(in srgb, #C9C2B4 32%, var(--color-slate-boundary));
+  --glow-tint: #C9C2B4;
+}
+
+/* ── Link variant — compact, hover subtle (not-found / recently-viewed / nav cards) ── */
+.archron-card--link {
+  border-radius: 0.5rem;
+}
+.archron-card--link:hover {
+  transform: translateY(-1px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .archron-card,
+  .archron-card:hover,
+  .archron-card--link:hover {
+    transform: none;
+  }
+}
+.scroll-reveal {
+  transition:
+    opacity 1s cubic-bezier(0.21, 0.6, 0.35, 1),
+    transform 1s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.js-reveal .scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+}
+.js-reveal .scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.stagger-1 { transition-delay: 100ms; }
+.stagger-2 { transition-delay: 200ms; }
+.stagger-3 { transition-delay: 300ms; }
+.stagger-4 { transition-delay: 400ms; }
+.stagger-5 { transition-delay: 500ms; }
+.stagger-6 { transition-delay: 600ms; }
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+}
+
+/* ===== Motion system ===== */
+@keyframes route-fade {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.route-fade {
+  animation: route-fade var(--dur-base) var(--ease-out) both;
+}
+@keyframes menu-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.menu-in {
+  animation: menu-in var(--dur-fast) var(--ease-out) both;
+}
+/* แสง Lumen "หายใจ" ช้า ๆ ที่ hero */
+@keyframes ambient-glow {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 0.95; transform: scale(1.05); }
+}
+.ambient-glow {
+  animation: ambient-glow var(--dur-ambient) ease-in-out infinite;
+  will-change: opacity, transform;
+}
+.glass-nav {
+  transition: background var(--dur-base) var(--ease-out),
+    border-color var(--dur-base) var(--ease-out);
+}
+.glass-nav.is-scrolled {
+  background: rgba(24, 27, 36, 0.92);
+  border-bottom-color: rgba(181, 141, 74, 0.28);
+}
+@keyframes mm-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.mm-fade {
+  animation: mm-fade var(--dur-base) var(--ease-out) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .route-fade,
+  .menu-in,
+  .ambient-glow,
+  .mm-fade {
+    animation: none !important;
+  }
+  /* VesicaUnity — GSAP ถูกปิดใน component; คงสถานะ unity (วงซ้อน + จุดสว่าง) */
+  .vu-center {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+

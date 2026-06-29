@@ -1,0 +1,98 @@
+// ARCHRON — Themes (B1) · แก่นเรื่องข้ามศาสตร์
+// ต่อยอดบน entry.tags ที่มีอยู่ (ไม่เพิ่มคอลัมน์ DB) — theme = ชุด tag ที่คัดสรร
+// ใช้แสดง "ชิปแก่นเรื่อง" บนหน้าอ่าน และเชื่อมเนื้อหาต่างศาสตร์ที่พูดถึงแก่นเดียวกัน
+
+import type { ContentEntry } from "@/types/content";
+
+export type Theme = {
+  key: string;
+  label: string; // ชื่อไทยสำหรับแสดงผล
+  description: string;
+  accent: string; // สีตาม cosmology
+  aliases: string[]; // tag/คำที่นับว่าเป็นแก่นนี้ (เทียบแบบไม่สนตัวพิมพ์)
+};
+
+export const THEMES: Theme[] = [
+  {
+    key: "unconscious",
+    label: "จิตไร้สำนึก",
+    description: "ชั้นของจิตที่อยู่นอกเหนือการรู้ตัว และอิทธิพลที่มีต่อชีวิต",
+    accent: "#6E93A8",
+    aliases: ["unconscious", "collective-unconscious", "จิตไร้สำนึก"],
+  },
+  {
+    key: "shadow",
+    label: "เงา",
+    description: "ด้านที่ถูกปฏิเสธหรือไม่ยอมรับของตัวตน",
+    accent: "#9A948A",
+    aliases: ["shadow", "เงา"],
+  },
+  {
+    key: "self",
+    label: "ตัวตน",
+    description: "ศูนย์รวมและความเป็นทั้งหมดของจิต — อัตตาและตัวตนที่ลึกกว่า",
+    accent: "#C9A24A",
+    aliases: ["self", "ego", "persona", "ตัวตน", "อัตตา"],
+  },
+  {
+    key: "individuation",
+    label: "การตื่นรู้และการเป็นปัจเจก",
+    description: "กระบวนการกลายเป็นตัวเองที่สมบูรณ์และตื่นรู้",
+    accent: "#7FB08A",
+    aliases: ["individuation", "awakening", "การตื่นรู้"],
+  },
+  {
+    key: "meaning",
+    label: "ความหมาย",
+    description: "การแสวงหาและสร้างความหมายของการมีอยู่",
+    accent: "#CBA45A",
+    aliases: ["meaning", "ความหมาย"],
+  },
+  {
+    key: "freedom",
+    label: "เสรีภาพ",
+    description: "อิสรภาพ การเลือก และความรับผิดชอบของมนุษย์",
+    accent: "#8AA395",
+    aliases: ["freedom", "เสรีภาพ"],
+  },
+  {
+    key: "existence",
+    label: "การดำรงอยู่",
+    description: "คำถามต่อการมีอยู่ ความตาย และเงื่อนไขของชีวิต",
+    accent: "#B9C2CE",
+    aliases: ["existence", "existentialism", "การดำรงอยู่"],
+  },
+  {
+    key: "symbol-myth",
+    label: "สัญลักษณ์และตำนาน",
+    description: "ภาพแทน เรื่องเล่า และแบบแผนร่วมของมนุษยชาติ",
+    accent: "#B9C2CE",
+    aliases: ["symbol", "myth", "archetype", "สัญลักษณ์", "ตำนาน"],
+  },
+];
+
+const norm = (s: string) => s.trim().toLowerCase();
+
+// แก่นเรื่องของ entry — เทียบ entry.tags กับ aliases ของแต่ละ theme
+export function themesForEntry(entry: ContentEntry): Theme[] {
+  const tags = (entry.tags ?? []).map(norm);
+  if (tags.length === 0) return [];
+  return THEMES.filter((t) => t.aliases.some((a) => tags.includes(norm(a))));
+}
+
+export function themeByKey(key: string): Theme | undefined {
+  return THEMES.find((t) => t.key === key);
+}
+
+// entry นี้อยู่ในแก่นเรื่อง key หรือไม่
+export function entryHasTheme(entry: ContentEntry, key: string): boolean {
+  return themesForEntry(entry).some((t) => t.key === key);
+}
+
+// entries ทั้งหมดที่อยู่ในแก่นเรื่อง key (ข้ามศาสตร์)
+export function entriesForTheme(entries: ContentEntry[], key: string): ContentEntry[] {
+  return entries.filter((e) => entryHasTheme(e, key));
+}
+
+// slug tag ที่ใช้แทนแก่นเรื่อง (ใช้เติมใน TAG_OPTIONS ของ editor)
+export const THEME_TAG_SUGGESTIONS = THEMES.map((t) => t.aliases[0]);
