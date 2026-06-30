@@ -9,7 +9,6 @@ import {
   LanguageIcon,
 } from "@/components/icons";
 import { RecentlyViewed } from "@/components/recently-viewed";
-import { VesicaUnity } from "@/components/hero/vesica-unity";
 import { VesicaPattern } from "@/components/hero/vesica-pattern";
 import type { Cosmology } from "@/lib/content/cosmology";
 
@@ -61,29 +60,26 @@ export default function HomePage() {
   return (
     <main>
         {/* Hero — Prima Materia (night sea journey) → แสง Lumen → ละลายสู่พื้น Humanitas */}
-        <section className="relative flex min-h-[90vh] flex-col items-center justify-center overflow-hidden bg-prima px-6 text-center text-mist">
-          {/* ความลึกแบบทะเลกลางคืน: ด้านบนเข้มเกือบดำ → Prima Materia */}
+        <section 
+          className="relative flex min-h-[90vh] flex-col items-center justify-center overflow-hidden px-6 text-center text-mist"
+          style={{
+            background: "radial-gradient(circle at center, #121826 30%, #0B0D12 100%)"
+          }}
+        >
+          {/* Ambient Glow: แสงเรืองรองจางๆ (ไม่มี Animation) */}
           <div
-            className="pointer-events-none absolute inset-0 z-0"
+            className="pointer-events-none absolute left-1/2 top-[42%] z-0 h-[320px] w-[320px] -translate-x-1/2 -translate-y-1/2 rounded-full"
             style={{
-              background:
-                "linear-gradient(to bottom, #121319 0%, #181B24 44%, transparent 100%)",
+              background: "radial-gradient(circle, rgba(199, 154, 74, 0.07) 0%, rgba(199, 154, 74, 0) 70%)",
             }}
           />
-          {/* ชั้นลึก: ประกายน้ำลึก Psyche */}
-          <div className="hero-gradient pointer-events-none absolute inset-0 z-0" />
-          {/* แสงแรกของความเข้าใจ (Lumen) เรืองขึ้นจากเบื้องล่าง */}
-          <div
-            className="ambient-glow pointer-events-none absolute inset-0 z-0"
-            style={{
-              background:
-                "radial-gradient(ellipse 70% 55% at 50% 72%, rgba(231, 215, 166,0.18) 0%, transparent 62%)",
-            }}
-          />
-          {/* ละลายขอบล่างสู่พื้น Humanitas สว่าง */}
-          <div className="pointer-events-none absolute inset-0 z-0 bg-gradient-to-b from-transparent via-transparent to-prima" />
-          {/* Vesica Unity — logomark เคลื่อนไหวสื่อ unity ของศาสตร์ (GSAP) */}
-          <VesicaUnity className="pointer-events-none absolute left-1/2 top-1/2 z-0 h-[420px] w-[420px] -translate-x-1/2 -translate-y-1/2 text-lumen/25" />
+          {/* ARCHRON Symbol Layer (เส้นวงกลมตัดกันลางๆ สื่อถึงจิตวิทยาและศาสตร์ต่างๆ - ไม่มี Animation) */}
+          <div 
+            className="pointer-events-none absolute left-1/2 top-[45%] z-0 h-[260px] w-[260px] -translate-x-1/2 -translate-y-1/2 opacity-15"
+          >
+            <div className="absolute top-0 left-[45px] w-[170px] h-[170px] border border-[#C79A4A] rounded-full" />
+            <div className="absolute bottom-0 left-[45px] w-[170px] h-[170px] border border-[#C79A4A] rounded-full" />
+          </div>
           <div className="relative z-10 mx-auto max-w-5xl py-24">
             <span className="scroll-reveal mb-8 block text-xs font-semibold tracking-[0.05em] text-lumen/90">
               สำนักศึกษามนุษย์ ข้ามผ่านห้วงเวลาและศาสตร์วิชา

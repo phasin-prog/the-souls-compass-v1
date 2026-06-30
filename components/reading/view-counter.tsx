@@ -3,11 +3,17 @@
 import { useEffect, useState } from "react";
 import { createClerkSupabaseClient } from "@/lib/supabase/client";
 import { incrementPageView, getPageView } from "@/lib/content/views-db";
+import { recordView } from "@/components/recently-viewed";
 
 // ตัวนับผู้เยี่ยมชมต่อบทความ — เพิ่ม +1 ครั้งเดียวต่อ session ต่อ slug
 // ใช้ anon client (ไม่ต้องล็อกอิน) · ถ้าตาราง/RPC ยังไม่พร้อม จะซ่อนตัวเองอย่างนุ่มนวล
-export function ViewCounter({ slug }: { slug: string }) {
+export function ViewCounter({ slug, title, section }: { slug: string; title: string; section: "articles" | "concepts" }) {
   const [views, setViews] = useState<number | null>(null);
+
+  useEffect(() => {
+    // บันทึกประวัติการเปิดอ่านอัตโนมัติลง localStorage เพื่อใช้แสดงในหน้าแรก
+    recordView(slug, title, section);
+  }, [slug, title, section]);
 
   useEffect(() => {
     const supabase = createClerkSupabaseClient(async () => null);

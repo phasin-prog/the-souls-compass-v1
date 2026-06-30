@@ -45,9 +45,12 @@ export async function getPublicEntryBySlug(
 ): Promise<ContentEntry | null> {
   if (hasSupabaseEnv()) {
     try {
-      return await cached(KEYS.entryBySlug(slug), async () => {
+      const dbEntry = await cached(KEYS.entryBySlug(slug), async () => {
         return getPublishedEntryBySlug(slug);
       });
+      if (dbEntry !== null) {
+        return dbEntry;
+      }
     } catch {
       // DB เข้าถึงไม่ได้ — fallback ไป static
     }

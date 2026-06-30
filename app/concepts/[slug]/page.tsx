@@ -5,7 +5,6 @@ import { notFound } from "next/navigation";
 import { ReadingPage } from "@/components/reading/reading-page";
 import { conceptRegistry, getConceptBySlug } from "@/lib/content/concept-registry";
 import { nodeTypeAccent } from "@/lib/content/cosmology";
-import { getBacklinksForConcept } from "@/lib/content/related";
 import { entries } from "@/lib/content/entries";
 import { getPublicEntries, getPublicEntryBySlug } from "@/lib/content/public-source";
 import {
@@ -64,39 +63,7 @@ export async function generateMetadata({
   };
 }
 
-// บล็อก backlinks — บทความ/เนื้อหาที่อ้างถึงแนวคิดนี้
-async function Backlinks({ slug }: { slug: string }) {
-  const all = await getPublicEntries();
-  const backlinks = getBacklinksForConcept(slug, all).filter(
-    (a) => a.slug !== slug,
-  );
-  return (
-    <section className="mx-auto mt-4 max-w-2xl border-t border-ink/10 px-6 pt-10">
-      <h2 className="font-serif text-xl text-ivory">บทความที่ใช้แนวคิดนี้</h2>
-      {backlinks.length === 0 ? (
-        <p className="mt-3 text-sm text-muted">ยังไม่มีบทความอื่นอ้างถึงแนวคิดนี้</p>
-      ) : (
-        <ul className="mt-4 space-y-3">
-          {backlinks.map((a) => (
-            <li key={a.slug}>
-              <Link
-                href={`/articles/${a.slug}`}
-                className="text-soft-ivory transition-colors hover:text-soft-gold"
-              >
-                {a.title}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
-      <div className="mt-8">
-        <Link href="/concepts" className="text-sm text-soft-gold hover:underline">
-          ← กลับคลังแนวคิดทั้งหมด
-        </Link>
-      </div>
-    </section>
-  );
-}
+
 
 export default async function ConceptNodePage({
   params,
@@ -111,12 +78,11 @@ export default async function ConceptNodePage({
     ["--accent"]: nodeTypeAccent(node?.nodeType ?? "concept"),
   } as CSSProperties;
 
-  // ถ้ามีเนื้อหาเต็ม → render รูปแบบเดียวกับ Article (ReadingPage) + backlinks
+  // ถ้ามีเนื้อหาเต็ม → render รูปแบบเดียวกับ Article (ReadingPage)
   if (entry) {
     return (
       <div className="pb-24" style={accentStyle}>
         <ReadingPage entry={entry} section="concepts" />
-        <Backlinks slug={slug} />
       </div>
     );
   }
@@ -168,8 +134,6 @@ export default async function ConceptNodePage({
           ) : null}
         </dl>
       </section>
-
-      <Backlinks slug={slug} />
     </main>
   );
 }

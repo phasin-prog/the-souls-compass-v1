@@ -15,6 +15,7 @@ import {
 } from "@/components/icons";
 import { NODE_TYPE_COLOR } from "@/lib/content/graph";
 import { ViewBadge } from "@/components/view-badge";
+import { nodeTypeCosmology } from "@/lib/content/cosmology";
 
 const NODE_LABEL: Record<string, string> = {
   concept: "แนวคิด",
@@ -69,31 +70,33 @@ export function ConceptCard({ c }: { c: ConceptRegistryItem }) {
     <ContextMenu items={items} className="relative">
       <Link
         href={href}
-        className="archron-card group block p-5"
+        className={`archron-card archron-card--${nodeTypeCosmology(c.nodeType)} group flex min-h-[190px] flex-col justify-between p-5`}
       >
-        <div className="flex items-center justify-between gap-3">
-          <div className="flex items-center gap-2.5">
-            {Icon ? (
-              <span style={{ color: accent }} className="flex items-center">
-                <Icon className="h-5 w-5" />
+        <div>
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex items-center gap-2.5">
+              {Icon ? (
+                <span style={{ color: accent }} className="flex items-center">
+                  <Icon className="h-5 w-5" />
+                </span>
+              ) : null}
+              <span className="font-serif text-lg text-ivory transition-colors group-hover:text-soft-gold">
+                {c.title}
               </span>
-            ) : null}
-            <span className="font-serif text-lg text-ivory group-hover:text-soft-gold">
-              {c.title}
+            </div>
+            <span
+              className="shrink-0 rounded-full px-2.5 py-0.5 text-[11px] font-medium"
+              style={{ backgroundColor: `${accent}14`, color: accent }}
+            >
+              {NODE_LABEL[c.nodeType] ?? c.nodeType}
             </span>
           </div>
-          <span
-            className="shrink-0 rounded-full px-2.5 py-0.5 text-[11px] font-medium"
-            style={{ backgroundColor: `${accent}14`, color: accent }}
-          >
-            {NODE_LABEL[c.nodeType] ?? c.nodeType}
-          </span>
+          {c.thaiTitle ? <p className="mt-1 text-xs font-medium text-muted">{c.thaiTitle}</p> : null}
+          {c.description ? (
+            <p className="mt-3 text-sm leading-relaxed text-soft-ivory/80 line-clamp-3">{c.description}</p>
+          ) : null}
         </div>
-        {c.thaiTitle ? <p className="mt-1 text-sm text-muted">{c.thaiTitle}</p> : null}
-        {c.description ? (
-          <p className="mt-2 text-sm leading-relaxed text-soft-ivory">{c.description}</p>
-        ) : null}
-        <span className="mt-3 flex justify-end">
+        <span className="mt-4 flex justify-end border-t border-slate-boundary/10 pt-3">
           <ViewBadge slug={c.slug} />
         </span>
       </Link>

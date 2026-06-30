@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useState, useRef, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
@@ -114,14 +114,16 @@ export function QuickOpen() {
     }
   }, [open]);
 
-  const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const terms = useMemo(() => {
+    return query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  }, [query]);
 
   const matched = useMemo(() => {
     if (terms.length === 0) return index.slice(0, 8); // show top 8 when no query
     return index
       .filter((it) => terms.every((t) => it.keywords.includes(t)))
       .slice(0, 12);
-  }, [query, index, terms]);
+  }, [index, terms]);
 
   // Reset selection when results change
   useEffect(() => {

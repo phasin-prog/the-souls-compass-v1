@@ -16,6 +16,8 @@ import { ViewCounter } from "@/components/reading/view-counter";
 import { CommentSection } from "@/components/reading/comment-section";
 import { LocalGraph } from "@/components/reading/local-graph";
 import { themesForEntry } from "@/lib/content/themes";
+import { getPublicEntries } from "@/lib/content/public-source";
+import { getBacklinksForConcept } from "@/lib/content/related";
 
 type Section = "articles" | "concepts";
 
@@ -116,7 +118,7 @@ function MetaCell({ label, value }: { label: string; value: ReactNode }) {
   );
 }
 
-export function ReadingPage({
+export async function ReadingPage({
   entry,
   section = "concepts",
 }: {
@@ -126,13 +128,14 @@ export function ReadingPage({
   const relatedInline = entry.relatedConcepts.slice(0, MAX_RELATED_INLINE);
   const hasOverflow = entry.relatedConcepts.length > MAX_RELATED_INLINE;
 
-  const thinker =
-    entry.mainThinkers && entry.mainThinkers.length > 0
-      ? entry.mainThinkers.join(", ")
-      : "—";
-  const level = entry.difficulty ? DIFFICULTY_LABEL[entry.difficulty] : "—";
   const subtitleParts = [entry.thaiName, entry.originalTerm, entry.partOfSpeech].filter(Boolean);
   const themes = themesForEntry(entry);
+
+  // ดึงข้อมูล backlinks สำหรับแสดงในหน้านี้โดยตรง
+  const allEntries = await getPublicEntries();
+  const backlinks = getBacklinksForConcept(entry.slug, allEntries).filter(
+    (a) => a.slug !== entry.slug,
+  );
 
   return (
     <div className="mx-auto grid max-w-6xl grid-cols-1 xl:grid-cols-[1fr_42rem_1fr] xl:gap-8">
@@ -147,234 +150,279 @@ export function ReadingPage({
       </aside>
 
       <main id="reading-article" className="w-full max-w-2xl px-6 pb-24 pt-10 xl:mx-0 mx-auto">
-      {/* Breadcrumb */}
-      <nav aria-label="เส้นทางนำทาง" className="scroll-reveal flex flex-wrap items-center gap-1 text-xs text-muted">
-        <Link href="/" className="transition-colors hover:text-soft-gold">หน้าแรก</Link>
-        <span className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
-        <Link href={`/${section}`} className="transition-colors hover:text-soft-gold">
-          {SECTION_LABEL[section]}
-        </Link>
-        <span className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
-        <span className="text-soft-ivory">{entry.mainTerm ?? entry.title}</span>
-      </nav>
+        {/* Breadcrumb */}
+        <nav aria-label="เส้นทางนำทาง" className="scroll-reveal flex flex-wrap items-center gap-1 text-xs text-muted">
+          <Link href="/" className="transition-colors hover:text-soft-gold">หน้าแรก</Link>
+          <span className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
+          <Link href={`/${section}`} className="transition-colors hover:text-soft-gold">
+            {SECTION_LABEL[section]}
+          </Link>
+          <span className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
+          <span className="text-soft-ivory">{entry.mainTerm ?? entry.title}</span>
+        </nav>
 
-      {/* Header Zone */}
-      <header className="scroll-reveal stagger-1 mt-7">
-        <h1 className="font-serif text-fluid-h1 font-bold text-ivory">
-          {entry.mainTerm ?? entry.title}
-        </h1>
-        {subtitleParts.length > 0 || entry.ipa ? (
-          <p className="mt-3 text-base text-soft-ivory">
-            {subtitleParts.join(" · ")}
-            {entry.ipa ? <span className="text-muted"> {entry.ipa}</span> : null}
-          </p>
-        ) : null}
-        {entry.shortDescription ? (
-          <p className="mt-5 text-fluid-lg leading-relaxed text-soft-ivory">{entry.shortDescription}</p>
-        ) : null}
-        {entry.updatedAt ? (
-          <p className="mt-3 text-xs text-subtle">อัปเดตล่าสุด {entry.updatedAt}</p>
-        ) : null}
-        {entry.author ? (
-          <p className="mt-1 text-xs text-subtle">เขียนโดย {entry.author}</p>
-        ) : null}
-        {themes.length > 0 ? (
-          <div className="mt-5 flex flex-wrap items-center gap-2">
-            <span className="text-xs text-muted">แก่นเรื่อง:</span>
-            {themes.map((t) => (
-              <Link
-                key={t.key}
-                href={`/themes/${t.key}`}
-                title={t.description}
-                className="inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs transition-opacity hover:opacity-80"
-                style={{
-                  borderColor: `${t.accent}55`,
-                  color: t.accent,
-                  backgroundColor: `${t.accent}12`,
-                }}
-              >
-                {t.label}
-              </Link>
-            ))}
-          </div>
-        ) : null}
-      </header>
+        {/* Header Zone */}
+        <header className="scroll-reveal stagger-1 mt-7">
+          {/* ชื่อภาษาอังกฤษ (Header 2) */}
+          <h2 className="font-serif text-fluid-h2 font-semibold text-ivory">
+            {entry.mainTerm ?? entry.title}
+          </h2>
 
-      {/* Meta-data Grid */}
-      <dl className="scroll-reveal stagger-2 mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
-        <MetaCell label="สำนัก / กรอบทฤษฎี" value={entry.framework ?? "—"} />
-        <MetaCell label="นักคิดหลัก" value={thinker} />
-        <MetaCell
-          label="ระดับการอ่าน"
-          value={
-            entry.difficulty ? (
-              <Tooltip label={DIFFICULTY_HINT[entry.difficulty]}>
-                <span className="border-b border-dotted border-on-surface-variant/40">{level}</span>
-              </Tooltip>
-            ) : (
-              level
-            )
-          }
-        />
-        <MetaCell label="เวลาอ่านโดยประมาณ" value={readTime(entry)} />
-      </dl>
+          {/* คำอธิบายแบบกระชับ */}
+          {entry.shortDescription ? (
+            <p className="mt-4 text-base leading-relaxed text-soft-ivory">{entry.shortDescription}</p>
+          ) : null}
 
-      {/* Main Content Zone */}
-      {entry.visualExplanation ? (
-        <section className="scroll-reveal mt-12">
-          <h2 className="font-serif text-fluid-h2 text-ivory">คำอธิบายให้เห็นภาพ</h2>
-          <div className="md-body mt-4 whitespace-pre-line">
-            <InternalLinkText text={entry.visualExplanation} />
-          </div>
-        </section>
-      ) : null}
-
-      {entry.technicalMeaning ? (
-        <section className="scroll-reveal mt-12">
-          <h2 className="font-serif text-fluid-h2 text-ivory">ความหมายทางวิชาการ / เทคนิค</h2>
-          <div className="md-body mt-4 whitespace-pre-line">
-            <InternalLinkText text={entry.technicalMeaning} />
-          </div>
-        </section>
-      ) : null}
-
-      {entry.bodyMarkdown && entry.bodyMarkdown.trim() !== "" ? (
-        <section className="scroll-reveal mt-12">
-          <div className="md-body">
-            <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
-              {citeify(entry.bodyMarkdown)}
-            </ReactMarkdown>
-          </div>
-        </section>
-      ) : null}
-
-      {entry.roots ? (
-        <section className="scroll-reveal mt-12">
-          <h2 className="font-serif text-fluid-h2 text-ivory">ที่มาของคำและบริบท</h2>
-          <ul className="mt-4 space-y-3 text-base leading-relaxed text-soft-ivory">
-            {entry.roots.etymology ? (
-              <li className="flex gap-3">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-antique-gold" aria-hidden="true" />
-                <span><span className="text-muted">รากศัพท์: </span>{entry.roots.etymology}</span>
-              </li>
-            ) : null}
-            {entry.roots.historicalUsage ? (
-              <li className="flex gap-3">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-antique-gold" aria-hidden="true" />
-                <span><span className="text-muted">การใช้ในอดีต: </span>{entry.roots.historicalUsage}</span>
-              </li>
-            ) : null}
-            {entry.roots.meaningShift ? (
-              <li className="flex gap-3">
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-antique-gold" aria-hidden="true" />
-                <span><span className="text-muted">การเปลี่ยนความหมาย: </span>{entry.roots.meaningShift}</span>
-              </li>
-            ) : null}
-          </ul>
-          {entry.roots.caution ? (
-            <p className="mt-4 border-l-2 border-antique-gold/40 pl-4 text-sm italic leading-relaxed text-muted">
-              ข้อควรระวัง: {entry.roots.caution}
+          {/* ด้านล่าง: คำแปลไทย/ชื่อไทย — ชนิดคำ — กรอบทฤษฎี — ชื่อเรียกภาษาอื่นๆ */}
+          {subtitleParts.length > 0 || entry.ipa || entry.framework ? (
+            <p className="mt-3.5 text-xs leading-relaxed text-muted">
+              {[
+                entry.thaiName ? `ชื่อไทย/แปลไทย: ${entry.thaiName}` : null,
+                entry.partOfSpeech ? `ชนิดคำ: ${entry.partOfSpeech}` : null,
+                entry.framework ? `กรอบทฤษฎี: ${entry.framework}` : null,
+                entry.originalTerm ? `ชื่อเรียกอื่น: ${entry.originalTerm}` : null
+              ].filter(Boolean).join(" — ")}
+              {entry.ipa ? <span className="text-muted/60"> ({entry.ipa})</span> : null}
             </p>
           ) : null}
-        </section>
-      ) : null}
 
-      {/* Ecosystem & Relations Zone */}
-      {entry.relatedConcepts.length > 0 ? (
-        <section className="mt-14">
-          <h2 className="scroll-reveal font-serif text-fluid-h2 text-ivory">แนวคิดที่เกี่ยวข้อง</h2>
-          <LocalGraph entry={entry} />
-          <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {relatedInline.map((rc, i) => (
-              <Link
-                key={rc.conceptSlug}
-                href={`/concepts/${rc.conceptSlug}`}
-                className={`archron-card scroll-reveal stagger-${i + 1} group flex flex-col p-5`}
-              >
-                <span className="font-serif text-lg text-ivory group-hover:text-soft-gold">
-                  {conceptTitle(rc.conceptSlug)}
-                </span>
-                <span className="mt-2 inline-block w-fit rounded-full border border-antique-gold/30 px-2.5 py-0.5 text-[11px] text-antique-gold">
-                  {RELATION_LABEL[rc.relationType]}
-                </span>
-                {rc.reason ? (
-                  <p className="mt-3 text-sm leading-relaxed text-muted">{rc.reason}</p>
-                ) : null}
-              </Link>
-            ))}
+          {/* บันทึกไปยังหน้าการอ่าน */}
+          <div className="mt-4 flex items-center gap-1.5 text-xs text-soft-gold font-medium">
+            <span className="material-symbols-outlined text-[16px]">bookmark_added</span>
+            <span>บันทึกไปยังประวัติการอ่านแล้ว (สามารถอ่านต่อได้จากหน้าแรก)</span>
           </div>
-          {hasOverflow ? (
-            <Link href={`/constellation?focus=${entry.slug}`} className="mt-5 inline-block text-sm text-soft-gold hover:underline">
-              ดูแผนที่ความสัมพันธ์ทั้งหมด →
-            </Link>
+
+          <hr className="mt-6 border-slate-boundary/20" />
+
+          {entry.updatedAt || entry.author ? (
+            <div className="mt-3 flex items-center gap-4 text-xs text-subtle">
+              {entry.updatedAt ? <span>อัปเดตล่าสุด {entry.updatedAt}</span> : null}
+              {entry.author ? <span>เขียนโดย {entry.author}</span> : null}
+              <span>เวลาอ่าน ~ {readTime(entry)}</span>
+            </div>
           ) : null}
-        </section>
-      ) : null}
 
-      {/* Footer Zone — References */}
-      {entry.references.length > 0 ? (
-        <section className="scroll-reveal mt-14">
-          <h2 className="font-serif text-fluid-h2 text-ivory">เอกสารอ้างอิง</h2>
-          <ol className="mt-5 space-y-3">
-            {entry.references.map((s: SourceItem, i) => (
-              <li
-                key={i}
-                id={`ref-${i + 1}`}
-                className="reference-item text-sm leading-relaxed text-soft-ivory"
+          {themes.length > 0 ? (
+            <div className="mt-4 flex flex-wrap items-center gap-2">
+              <span className="text-xs text-muted">แก่นเรื่อง:</span>
+              {themes.map((t) => (
+                <Link
+                  key={t.key}
+                  href={`/themes/${t.key}`}
+                  title={t.description}
+                  className="inline-flex items-center gap-1 rounded-full border px-2.5 py-0.5 text-xs transition-opacity hover:opacity-80"
+                  style={{
+                    borderColor: `${t.accent}55`,
+                    color: t.accent,
+                    backgroundColor: `${t.accent}12`,
+                  }}
+                >
+                  {t.label}
+                </Link>
+              ))}
+            </div>
+          ) : null}
+        </header>
+
+        {/* Main Content Zone */}
+        {entry.visualExplanation ? (
+          <section className="scroll-reveal mt-12">
+            {/* คำอธิบายให้เห็นภาพ (Header 3) */}
+            <h3 className="font-serif text-fluid-h3 text-ivory">คำอธิบายให้เห็นภาพ</h3>
+            <div className="md-body mt-4 whitespace-pre-line">
+              <InternalLinkText text={entry.visualExplanation} />
+            </div>
+          </section>
+        ) : null}
+
+        {entry.technicalMeaning ? (
+          <section className="scroll-reveal mt-12">
+            {/* ความหมายทางวิชาการ / เทคนิค (Header 3) */}
+            <h3 className="font-serif text-fluid-h3 text-ivory">ความหมายทางวิชาการ / เทคนิค</h3>
+            <div className="md-body mt-4 whitespace-pre-line">
+              <InternalLinkText text={entry.technicalMeaning} />
+            </div>
+          </section>
+        ) : null}
+
+        {entry.bodyMarkdown && entry.bodyMarkdown.trim() !== "" ? (
+          <section className="scroll-reveal mt-12">
+            <div className="md-body">
+              <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
+                {citeify(entry.bodyMarkdown)}
+              </ReactMarkdown>
+            </div>
+          </section>
+        ) : null}
+
+        {/* ความเข้าใจผิดที่พบบ่อย (Caution) */}
+        {entry.roots?.caution ? (
+          <section className="scroll-reveal mt-12 border-l-2 border-amber-500/40 pl-4 bg-amber-500/5 p-4 rounded-r-md">
+            <h3 className="font-serif text-fluid-h3 text-amber-400/90 flex items-center gap-2">
+              <span className="material-symbols-outlined text-[20px]">warning</span>
+              ความเข้าใจผิดที่พบบ่อย / ข้อควรระวัง
+            </h3>
+            <p className="mt-3 text-base leading-relaxed text-soft-ivory/95">
+              {entry.roots.caution}
+            </p>
+          </section>
+        ) : null}
+
+        {entry.roots && (entry.roots.etymology || entry.roots.historicalUsage || entry.roots.meaningShift) ? (
+          <section className="scroll-reveal mt-12">
+            <h3 className="font-serif text-fluid-h3 text-ivory">ที่มาของคำและบริบท</h3>
+            <ul className="mt-4 space-y-3 text-base leading-relaxed text-soft-ivory">
+              {entry.roots.etymology ? (
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-antique-gold" aria-hidden="true" />
+                  <span><span className="text-muted">รากศัพท์: </span>{entry.roots.etymology}</span>
+                </li>
+              ) : null}
+              {entry.roots.historicalUsage ? (
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-antique-gold" aria-hidden="true" />
+                  <span><span className="text-muted">การใช้ในอดีต: </span>{entry.roots.historicalUsage}</span>
+                </li>
+              ) : null}
+              {entry.roots.meaningShift ? (
+                <li className="flex gap-3">
+                  <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-antique-gold" aria-hidden="true" />
+                  <span><span className="text-muted">การเปลี่ยนความหมาย: </span>{entry.roots.meaningShift}</span>
+                </li>
+              ) : null}
+            </ul>
+          </section>
+        ) : null}
+
+        {/* Ecosystem & Relations Zone */}
+        {entry.relatedConcepts.length > 0 ? (
+          <section className="mt-14">
+            {/* แนวคิดที่เกี่ยวข้อง (Header 3) */}
+            <h3 className="scroll-reveal font-serif text-fluid-h3 text-ivory">แนวคิดที่เกี่ยวข้อง</h3>
+            <LocalGraph entry={entry} />
+            <div className="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {relatedInline.map((rc, i) => (
+                <Link
+                  key={rc.conceptSlug}
+                  href={`/concepts/${rc.conceptSlug}`}
+                  className={`archron-card scroll-reveal stagger-${i + 1} group flex flex-col p-5`}
+                >
+                  <span className="font-serif text-lg text-ivory group-hover:text-soft-gold">
+                    {conceptTitle(rc.conceptSlug)}
+                  </span>
+                  <span className="mt-2 inline-block w-fit rounded-full border border-antique-gold/30 px-2.5 py-0.5 text-[11px] text-antique-gold">
+                    {RELATION_LABEL[rc.relationType]}
+                  </span>
+                  {rc.reason ? (
+                    <p className="mt-3 text-sm leading-relaxed text-muted">{rc.reason}</p>
+                  ) : null}
+                </Link>
+              ))}
+            </div>
+            {hasOverflow ? (
+              <Link href={`/constellation?focus=${entry.slug}`} className="mt-5 inline-block text-sm text-soft-gold hover:underline">
+                ดูแผนที่ความสัมพันธ์ทั้งหมด →
+              </Link>
+            ) : null}
+          </section>
+        ) : null}
+
+        {/* Footer Zone — References */}
+        {entry.references.length > 0 ? (
+          <section className="scroll-reveal mt-14">
+            {/* เอกสารอ้างอิง (Header 3) */}
+            <h3 className="font-serif text-fluid-h3 text-ivory">เอกสารอ้างอิง</h3>
+            <ol className="mt-5 space-y-3">
+              {entry.references.map((s: SourceItem, i) => (
+                <li
+                  key={i}
+                  id={`ref-${i + 1}`}
+                  className="reference-item text-sm leading-relaxed text-soft-ivory"
+                >
+                  <span className="mr-2 text-antique-gold">{i + 1}.</span>
+                  <span className="mr-1 text-xs tracking-[0.04em] text-antique-gold/70">
+                    [{SOURCE_TYPE_LABEL[s.sourceType] ?? s.sourceType}]
+                  </span>
+                  <span className="text-ivory">{[s.author, s.title].filter(Boolean).join(", ")}</span>
+                  {s.year ? <span className="text-muted"> ({s.year})</span> : null}
+                  {s.relatedClaim ? (
+                    <span className="mt-1 block text-muted">รองรับ: {s.relatedClaim}</span>
+                  ) : null}
+                </li>
+              ))}
+            </ol>
+          </section>
+        ) : null}
+
+        {/* CTA — guide การเข้าใจตัวตน */}
+        <aside className="scroll-reveal mt-16 overflow-hidden rounded-md border border-antique-gold/30 bg-surface-1/50">
+          <div className="border-l-2 border-antique-gold p-7 md:p-9">
+            <span className="text-xs tracking-[0.05em] text-antique-gold">
+              Psychological Types · การอ่านตัวตน
+            </span>
+            <h2 className="mt-3 font-serif text-2xl text-ivory">
+              ทำความเข้าใจแนวโน้มทางจิตของคุณ ผ่านกรอบ Psychological Types
+            </h2>
+            <p className="mt-3 max-w-xl text-base leading-relaxed text-soft-ivory">
+              บริการอ่านและให้คำแนะนำเชิงลึก โดยใช้ทฤษฎีประเภททางจิตวิทยา (Psychological Types)
+              ของ C. G. Jung เป็นกรอบในการ guide การเข้าใจตัวตน — อ่าน “แนวโน้ม”
+              อย่างมีบริบท ไม่ใช่ตัดสินด้วยป้ายประเภทสำเร็จรูป และแยกการตีความออกจากข้อเท็จจริงตามแนวทางของคลังความรู้นี้
+            </p>
+            <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
+              <Link
+                href={GUIDE_CTA_HREF}
+                className="inline-flex items-center gap-2 rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-6 py-3 text-sm font-semibold text-prima transition-transform hover:-translate-y-0.5"
               >
-                <span className="mr-2 text-antique-gold">{i + 1}.</span>
-                <span className="mr-1 text-xs tracking-[0.04em] text-antique-gold/70">
-                  [{SOURCE_TYPE_LABEL[s.sourceType] ?? s.sourceType}]
-                </span>
-                <span className="text-ivory">{[s.author, s.title].filter(Boolean).join(", ")}</span>
-                {s.year ? <span className="text-muted"> ({s.year})</span> : null}
-                {s.relatedClaim ? (
-                  <span className="mt-1 block text-muted">รองรับ: {s.relatedClaim}</span>
-                ) : null}
-              </li>
-            ))}
-          </ol>
-        </section>
-      ) : null}
+                เริ่มสำรวจประเภททางจิตวิทยาของคุณ
+                <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
+              </Link>
+              <Link href="/articles" className="text-sm text-soft-gold hover:underline">
+                อ่านบทความที่เกี่ยวข้อง →
+              </Link>
+            </div>
+          </div>
+        </aside>
 
-      {/* CTA — guide การเข้าใจตัวตน ภายใต้กรอบ Psychological Types (วิชาการ ไม่ใช่ป้ายสำเร็จรูป) */}
-      <aside className="scroll-reveal mt-16 overflow-hidden rounded-md border border-antique-gold/30 bg-surface-1/50">
-        <div className="border-l-2 border-antique-gold p-7 md:p-9">
-          <span className="text-xs tracking-[0.05em] text-antique-gold">
-            Psychological Types · การอ่านตัวตน
-          </span>
-          <h2 className="mt-3 font-serif text-2xl text-ivory">
-            ทำความเข้าใจแนวโน้มทางจิตของคุณ ผ่านกรอบ Psychological Types
-          </h2>
-          <p className="mt-3 max-w-xl text-base leading-relaxed text-soft-ivory">
-            บริการอ่านและให้คำแนะนำเชิงลึก โดยใช้ทฤษฎีประเภททางจิตวิทยา (Psychological Types)
-            ของ C. G. Jung เป็นกรอบในการ guide การเข้าใจตัวตน — อ่าน “แนวโน้ม”
-            อย่างมีบริบท ไม่ใช่ตัดสินด้วยป้ายประเภทสำเร็จรูป และแยกการตีความออกจากข้อเท็จจริงตามแนวทางของคลังความรู้นี้
-          </p>
-          <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
-            <Link
-              href={GUIDE_CTA_HREF}
-              className="inline-flex items-center gap-2 rounded-sm bg-gradient-to-br from-antique-gold to-soft-gold px-6 py-3 text-sm font-semibold text-prima transition-transform hover:-translate-y-0.5"
-            >
-              เริ่มสำรวจประเภททางจิตวิทยาของคุณ
-              <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
-            </Link>
-            <Link href="/articles" className="text-sm text-soft-gold hover:underline">
-              อ่านบทความที่เกี่ยวข้อง →
+        {/* สถิติผู้เยี่ยมชมต่อบทความ */}
+        <div className="mt-12 flex justify-end">
+          <ViewCounter slug={entry.slug} title={entry.title} section={section} />
+        </div>
+
+        {/* ระบบความคิดเห็น (island — ครอบ ClerkProvider เฉพาะส่วนนี้) */}
+        <ClerkProvider>
+          <CommentSection section={section} slug={entry.slug} />
+        </ClerkProvider>
+
+        {/* บทความที่ใช้แนวคิดนี้ (Backlinks) — แสดงเฉพาะแนวคิด (concepts) */}
+        {section === "concepts" && (
+          <section className="scroll-reveal mt-14 border-t border-slate-boundary/20 pt-10">
+            <h3 className="font-serif text-fluid-h3 text-ivory">บทความที่ใช้แนวคิดนี้</h3>
+            {backlinks.length === 0 ? (
+              <p className="mt-4 text-sm text-muted">ยังไม่มีบทความอื่นอ้างถึงแนวคิดนี้</p>
+            ) : (
+              <ul className="mt-4 space-y-3">
+                {backlinks.map((a) => (
+                  <li key={a.slug}>
+                    <Link
+                      href={`/articles/${a.slug}`}
+                      className="text-base text-soft-ivory transition-colors hover:text-soft-gold"
+                    >
+                      {a.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+        )}
+
+        {section === "concepts" && (
+          <div className="mt-8">
+            <Link href="/concepts" className="text-sm text-soft-gold hover:underline">
+              ← กลับคลังแนวคิดทั้งหมด
             </Link>
           </div>
-        </div>
-      </aside>
-
-      {/* สถิติผู้เยี่ยมชมต่อบทความ */}
-      <div className="mt-12 flex justify-end">
-        <ViewCounter slug={entry.slug} />
-      </div>
-
-      {/* ระบบความคิดเห็น (island — ครอบ ClerkProvider เฉพาะส่วนนี้) */}
-      <ClerkProvider>
-        <CommentSection section={section} slug={entry.slug} />
-      </ClerkProvider>
+        )}
       </main>
 
       {/* spacer คอลัมน์ขวา — รักษาบทความให้อยู่กึ่งกลาง grid */}

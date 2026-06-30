@@ -4,6 +4,7 @@ import { PageHeader } from "@/components/page-header";
 import { PageNav } from "@/components/page-nav";
 import { ViewBadge } from "@/components/view-badge";
 import { getPublicEntries } from "@/lib/content/public-source";
+import { nodeTypeCosmology } from "@/lib/content/cosmology";
 
 export const metadata: Metadata = {
   title: "บทความ — ARCHRON",
@@ -14,6 +15,7 @@ export const revalidate = 300;
 
 export default async function ArticlesPage() {
   const published = await getPublicEntries();
+  const articles = published.filter((e) => e.contentType === "article");
 
   return (
     <main className="pb-24">
@@ -23,35 +25,39 @@ export default async function ArticlesPage() {
         lead="งานอ่านที่อธิบาย วิเคราะห์ และตีความแนวคิดเกี่ยวกับจิตใจมนุษย์ โดยวางไว้ในบริบทเดิมและเชื่อมกลับไปยังแนวคิดและแหล่งอ้างอิง"
       />
       <section className="scroll-reveal stagger-1 mx-auto max-w-6xl px-6">
-        {published.length === 0 ? (
+        {articles.length === 0 ? (
           <div className="rounded-md border border-ink/10 bg-surface-1/50 p-10 text-center">
             <p className="text-soft-ivory">ยังไม่มีบทความเผยแพร่ — กำลังจัดเตรียมเนื้อหาชุดแรก</p>
             <p className="mt-2 text-sm text-muted">เนื้อหาเริ่มต้นจะถูกเพิ่มใน Phase 13 (Initial Content Seed)</p>
           </div>
         ) : (
-          <div className="grid gap-4 md:grid-cols-2">
-            {published.map((e) => (
+          <div className="grid gap-6 md:grid-cols-2">
+            {articles.map((e) => (
               <Link
                 key={e.slug}
                 href={`/articles/${e.slug}`}
-                className="archron-card group p-6"
+                className={`archron-card archron-card--${nodeTypeCosmology(e.contentType)} group flex min-h-[220px] flex-col justify-between p-6`}
               >
-                <span className="text-xs tracking-widest text-antique-gold">
-                  {e.framework ?? e.contentType}
-                </span>
-                <h2 className="mt-2 font-serif text-xl text-ivory group-hover:text-soft-gold">
-                  {e.title}
-                </h2>
-                {e.shortDescription ? (
-                  <p className="mt-2 text-sm leading-relaxed text-soft-ivory">
-                    {e.shortDescription}
-                  </p>
-                ) : null}
-                <span className="mt-3 flex items-center justify-between">
-                  <span className="text-sm text-soft-gold">อ่านต่อ →</span>
-                  <span className="flex items-center gap-2">
+                <div>
+                  <span className="text-[10px] font-semibold uppercase tracking-widest text-[var(--cosmology-accent,#CBA45A)] opacity-85">
+                    {e.framework ?? e.contentType}
+                  </span>
+                  <h2 className="mt-2.5 font-serif text-xl text-ivory transition-colors group-hover:text-soft-gold">
+                    {e.title}
+                  </h2>
+                  {e.shortDescription ? (
+                    <p className="mt-3 text-sm leading-relaxed text-soft-ivory/80 line-clamp-3">
+                      {e.shortDescription}
+                    </p>
+                  ) : null}
+                </div>
+                <span className="mt-5 flex items-center justify-between border-t border-slate-boundary/20 pt-4">
+                  <span className="text-xs font-semibold text-[var(--cosmology-accent,#CBA45A)] flex items-center gap-1 transition-transform duration-300 group-hover:translate-x-1">
+                    อ่านต่อ <span className="material-symbols-outlined text-[16px]">arrow_right_alt</span>
+                  </span>
+                  <span className="flex items-center gap-3">
                     {e.author ? (
-                      <span className="text-xs text-on-surface-variant/60">โดย {e.author}</span>
+                      <span className="text-xs text-on-surface-variant/50">โดย {e.author}</span>
                     ) : null}
                     <ViewBadge slug={e.slug} />
                   </span>

@@ -294,6 +294,80 @@ export const entries: ContentEntry[] = [
     ],
     relatedCTA: { conceptSlugs: ["self", "shadow", "archetype", "individuation"], showConstellationMap: false },
   },
+
+  {
+    id: "article-sea-journey",
+    title: "การเดินทางทางทะเลในยามค่ำคืน: การเผชิญหน้ากับจิตไร้สำนึก",
+    slug: "night-sea-journey",
+    status: "published",
+    contentType: "article",
+    author: "ARCHRON",
+    publishedAt: "2026-06-29",
+    updatedAt: "2026-06-29",
+    shortDescription: "สำรวจสัญลักษณ์การเดินทางทางทะเลในยามค่ำคืน (Night Sea Journey) ในฐานะภาพแทนของการเดินทางผ่านความมืดมิดของจิตใจเพื่อการกำเนิดใหม่ของตัวตน",
+    framework: "Analytical Psychology",
+    difficulty: "intermediate",
+    tags: ["unconscious", "symbol", "individuation", "archetype"],
+    visualExplanation: "การเดินทางในความมืดที่ไม่มีดวงดาว เพื่อค้นหาแสงสว่างที่ซ่อนอยู่ภายในส่วนลึกที่สุดของจิตใจ",
+    technicalMeaning: "วิเคราะห์สัญลักษณ์ Night Sea Journey ตามแนวคิดของ Carl Jung ในฐานะกระบวนการที่ Ego ยอมจมลงสู่ Collective Unconscious เพื่อไปปฏิสัมพันธ์กับ archetypal structures และกลับขึ้นมาพร้อมกับบูรณาการตัวตนใหม่",
+    bodyMarkdown: `## การเดินทางทางทะเลในยามค่ำคืน (Night Sea Journey)
+
+ในจิตวิทยาวิเคราะห์ของ **คาร์ล ยุง (Carl Jung)** สัญลักษณ์การเดินทางทางทะเลในยามค่ำคืนเป็นสัญลักษณ์สากลที่สะท้อนถึงการเดินทางผ่านความมืดมิดของจิตใจเพื่อการกำเนิดใหม่ของตัวตน
+
+### 1. ความหมายของสัญลักษณ์
+การเดินทางในยามค่ำคืนบนทะเลที่ปั่นป่วนหมายถึงสภาวะที่ Ego หรือจิตสำนึกสูญเสียการควบคุมและต้องเผชิญหน้ากับความลึกซึ้งของจิตไร้สำนึก (Unconscious) มันไม่ได้เป็นเพียงความล้มเหลว แต่เป็นขั้นตอนจำเป็นของการพัฒนาปัจเจกภาพ (Individuation)
+
+### 2. การเผชิญหน้าและบูรณาการ
+เมื่อเผชิญกับมอนสเตอร์หรือความมืดในทะเลลึก บุคคลจะค่อย ๆ ค้นพบส่วนที่ขาดหายไปของตัวเอง (เช่น Shadow หรือ Anima/Animus) และนำมันกลับมาผสมผสานเข้ากับจิตสำนึก ทำให้เกิดการเติบโตและการหลอมรวมเข้ากับ Self ในที่สุด`,
+    relatedConcepts: [
+      { conceptSlug: "unconscious", relationType: "related", reason: "ทะเลในยามค่ำคืนคือสัญลักษณ์แทนจิตไร้สำนึก" },
+      { conceptSlug: "individuation", relationType: "used-in", reason: "การเดินทางทางทะเลในยามค่ำคืนเป็นเสมือนแผนที่จำลองของกระบวนการปัจเจกภาพ" }
+    ],
+    references: [
+      { sourceType: "primary-source", author: "C. G. Jung", title: "Collected Works Vol. 12: Psychology and Alchemy", relatedClaim: "บทวิเคราะห์สัญลักษณ์การเดินทางทางทะเลในยามค่ำคืน" }
+    ],
+    roots: {
+      etymology: "Night Sea Journey (Nekyia) มีรากมาจากพิธีกรรมโบราณและการสืบหาความรู้ในโลกหลังความตาย",
+      caution: "การเผชิญหน้ากับจิตไร้สำนึกมีความเสี่ยงที่ Ego จะถูกกลืนกิน หากไม่มีสติและการนำทางที่เหมาะสม"
+    }
+  },
+
+  {
+    id: "article-archetypes-intro",
+    title: "ถอดรหัสแบบฉบับดั้งเดิม: วิธีที่ตำนานจัดรูปประสบการณ์ของเรา",
+    slug: "decoding-archetypes",
+    status: "published",
+    contentType: "article",
+    author: "ARCHRON",
+    publishedAt: "2026-06-30",
+    updatedAt: "2026-06-30",
+    shortDescription: "ทำความเข้าใจแนวคิดแบบฉบับดั้งเดิม (Archetype) และความสำคัญของการรู้เท่าทันโครงสร้างร่วมทางจิตที่คอยกำหนดพฤเบิกและการรับรู้ของเรา",
+    framework: "Analytical Psychology",
+    difficulty: "beginner",
+    tags: ["archetype", "collective-unconscious", "symbol"],
+    visualExplanation: "พิมพ์เขียวทางจิตที่มองไม่เห็น แต่เป็นตัวกำหนดรูปร่างของทุกประสบการณ์ในชีวิตเรา",
+    technicalMeaning: "วิเคราะห์การทำงานของ Archetypes ใน Collective Unconscious และวิธีที่โครงสร้างเหล่านี้แปรเปลี่ยนประสบการณ์ส่วนบุคคลให้กลายเป็นภาพแทนที่เข้าใจได้ง่ายผ่านโครงเรื่องและสัญลักษณ์ทางวัฒนธรรม",
+    bodyMarkdown: `## ถอดรหัสแบบฉบับดั้งเดิม (Archetypes)
+
+แนวคิดเรื่อง **Archetype** เป็นหนึ่งในแนวคิดหลักที่ผู้คนมักเข้าใจคลาดเคลื่อนมากที่สุดในจิตวิทยาเชิงลึก
+
+### 1. แบบแผนร่วมไม่ใช่ภาพสำเร็จรูป
+ยุงเน้นย้ำว่า Archetype ไม่ใช่ 'ภาพที่ถูกโปรแกรมไว้ล่วงหน้า' ในสมอง แต่เป็น **'โครงสร้างที่ไม่มีเนื้อหา'** คล้ายกับร่องน้ำที่รอให้น้ำ (ประสบการณ์ชีวิตส่วนบุคคล) ไหลผ่านและจัดรูปตามร่องนั้น
+
+### 2. อิทธิพลต่อพฤติกรรมและสังคม
+เมื่อเราตกอยู่ภายใต้อิทธิพลของ Archetype ใดอย่างรุนแรง (เช่น Hero หรือ Persona) เราจะแสดงพฤติกรรมตามทิศทางของแบบแผนนั้นโดยไม่รู้ตัว การตระหนักรู้เท่าทันจะช่วยให้เรามีอิสระจากการถูกครอบงำและปรับความสัมพันธ์กับชีวิตภายในได้ดียิ่งขึ้น`,
+    relatedConcepts: [
+      { conceptSlug: "archetype", relationType: "related", reason: "อธิบายภาพรวมและกลไกการทำงานของ Archetype" },
+      { conceptSlug: "collective-unconscious", relationType: "part-of", reason: "Archetypes ตั้งอยู่ในจิตไร้สำนึกร่วม" }
+    ],
+    references: [
+      { sourceType: "primary-source", author: "C. G. Jung", title: "The Archetypes and the Collective Unconscious", relatedClaim: "แนวคิดพื้นฐานและการทำงานของ Archetypes" }
+    ],
+    roots: {
+      etymology: "มาจากภาษากรีก arkhe (ต้นกำเนิด) และ typos (แบบแผน/รอยพิมพ์)",
+      caution: "หลีกเลี่ยงการนำไปใช้เป็นแบบทดสอบบุคลิกภาพสำเร็จรูป ซึ่งลดทอนความลึกและจุดประสงค์ดั้งเดิมของทฤษฎี"
+    }
+  }
 ];
 
 export function getEntryBySlug(slug: string): ContentEntry | undefined {

@@ -28,6 +28,7 @@ import { RelatedConceptPicker } from "@/components/studio/related-concept-picker
 import { InternalLinkSuggestionPanel } from "@/components/studio/internal-link-suggestion-panel";
 import { RevisionPanel } from "@/components/studio/revision-panel";
 import { MyContentSearch } from "@/components/studio/my-content-search";
+import { ImagePicker } from "@/components/studio/image-picker";
 import { FeedbackToast, type Feedback } from "@/components/studio/feedback-toast";
 import {
   getMyProfileAction,

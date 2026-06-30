@@ -531,42 +531,90 @@
    ============================================================================ */
 .archron-card {
   position: relative;
-  border: 1px solid color-mix(in srgb, var(--border-tint) 70%, transparent);
-  border-radius: 0.75rem;
+  /* ลูกเล่นอสมมาตร (Asymmetric borders) คล้ายศิลาจารึกโบราณ ขจัดความเหลี่ยมทื่อ */
+  border: 1px solid color-mix(in srgb, var(--cosmology-accent) 12%, var(--color-slate-boundary));
+  border-radius: 1rem 0.25rem;
+  /* Surface & Background Role: ความอิ่มตัวต่ำเพื่อลด Cognitive Load */
   background: linear-gradient(
-    160deg,
-    var(--surface-tint) 0%,
-    color-mix(in srgb, var(--color-surface-container) 92%, transparent) 100%
+    165deg,
+    color-mix(in srgb, var(--cosmology-accent) 6%, var(--color-surface-container-low)) 0%,
+    color-mix(in srgb, var(--cosmology-accent) 1%, var(--color-surface-container-lowest)) 100%
   );
+  box-shadow:
+    0 4px 20px -8px rgba(0, 0, 0, 0.4),
+    inset 0 1px 1px color-mix(in srgb, var(--cosmology-accent) 8%, transparent);
+  backdrop-filter: blur(12px);
   transition:
     transform var(--dur-base) var(--ease-out),
     border-color var(--dur-base) var(--ease-out),
-    box-shadow var(--dur-base) var(--ease-out);
+    box-shadow var(--dur-base) var(--ease-out),
+    border-radius var(--dur-base) var(--ease-out);
 }
 .archron-card::before {
   content: "";
   position: absolute;
-  inset: 0 0 auto 0;
-  height: 1px;
+  inset: 0;
+  border-radius: 1rem 0.25rem;
+  padding: 1px;
   background: linear-gradient(
-    90deg,
-    transparent,
-    color-mix(in srgb, var(--glow-tint) 45%, transparent),
-    transparent
+    135deg,
+    color-mix(in srgb, var(--cosmology-accent) 55%, transparent) 0%,
+    transparent 50%,
+    transparent 100%
   );
-  opacity: 0;
-  transition: opacity var(--dur-base) var(--ease-out);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: 0.25;
   pointer-events: none;
+  transition: opacity var(--dur-base) var(--ease-out);
+}
+/* Astronomical Corner Brackets (ขีดมุมดาราศาสตร์โบราณทั้งสี่มุม) */
+.archron-card::after {
+  content: "";
+  position: absolute;
+  inset: -3px; /* ยื่นออกนอกขอบเล็กน้อยเพื่อให้ดูมีชั้นความลึก */
+  border-radius: 1.15rem 0.4rem;
+  background:
+    /* บนซ้าย */
+    linear-gradient(to right, var(--cosmology-accent) 8px, transparent 8px) 0 0,
+    linear-gradient(to bottom, var(--cosmology-accent) 8px, transparent 8px) 0 0,
+    /* บนขวา */
+    linear-gradient(to left, var(--cosmology-accent) 8px, transparent 8px) 100% 0,
+    linear-gradient(to bottom, var(--cosmology-accent) 8px, transparent 8px) 100% 0,
+    /* ล่างซ้าย */
+    linear-gradient(to right, var(--cosmology-accent) 8px, transparent 8px) 0 100%,
+    linear-gradient(to top, var(--cosmology-accent) 8px, transparent 8px) 0 100%,
+    /* ล่างขวา */
+    linear-gradient(to left, var(--cosmology-accent) 8px, transparent 8px) 100% 100%,
+    linear-gradient(to top, var(--cosmology-accent) 8px, transparent 8px) 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0.18;
+  pointer-events: none;
+  transition:
+    opacity var(--dur-base) var(--ease-out),
+    inset var(--dur-base) var(--ease-out);
 }
 .archron-card:hover {
-  transform: translateY(-3px);
-  border-color: color-mix(in srgb, var(--glow-tint) 50%, transparent);
+  transform: translateY(-4px);
+  /* ค่อยๆ ขยับสัดส่วนโค้งให้มนขึ้นเล็กน้อยเมื่อ hover เสมือนหินที่กำลังตอบรับสัมผัส */
+  border-radius: 0.85rem 0.4rem;
+  border-color: color-mix(in srgb, var(--cosmology-accent) 70%, transparent);
   box-shadow:
-    0 18px 40px -22px rgba(0, 0, 0, 0.7),
-    0 0 26px -12px color-mix(in srgb, var(--glow-tint) 36%, transparent);
+    0 20px 48px -16px rgba(0, 0, 0, 0.8),
+    0 0 28px -6px color-mix(in srgb, var(--cosmology-accent) 26%, transparent),
+    inset 0 1px 2px color-mix(in srgb, var(--cosmology-accent) 30%, transparent);
 }
 .archron-card:hover::before {
-  opacity: 1;
+  border-radius: 0.85rem 0.4rem;
+  opacity: 0.95;
+}
+.archron-card:hover::after {
+  opacity: 0.85;
+  inset: -1px; /* หดกลับเข้ามาแนบขอบเมื่อ hover เสมือนเฟรมกำลังล็อคเป้าหมาย */
+  border-radius: 0.95rem 0.5rem;
 }
 
 /* ── Cosmology variant — override theme ของหน้า สำหรับเนื้อหาในการ์ด ──────
@@ -671,14 +719,8 @@
 .menu-in {
   animation: menu-in var(--dur-fast) var(--ease-out) both;
 }
-/* แสง Lumen "หายใจ" ช้า ๆ ที่ hero */
-@keyframes ambient-glow {
-  0%, 100% { opacity: 0.5; transform: scale(1); }
-  50% { opacity: 0.95; transform: scale(1.05); }
-}
 .ambient-glow {
-  animation: ambient-glow var(--dur-ambient) ease-in-out infinite;
-  will-change: opacity, transform;
+  opacity: 0.8;
 }
 .glass-nav {
   transition: background var(--dur-base) var(--ease-out),

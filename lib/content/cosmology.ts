@@ -137,3 +137,24 @@ export function nodeTypeAccent(nodeType: string): string {
       return DEFAULT_ACCENT;
   }
 }
+
+// nodeType/contentType → Cosmology id
+export function nodeTypeCosmology(nodeType: string | undefined | null): Cosmology {
+  switch (nodeType) {
+    case "concept":
+      return "psyche";
+    case "person":
+    case "school":
+      return "mercurius";
+    case "symbol":
+      return "prima";
+    case "book":
+      return "sapientia";
+    case "term":
+      return "humanitas";
+    case "article":
+      return "sapientia";
+    default:
+      return "sapientia";
+  }
+}
