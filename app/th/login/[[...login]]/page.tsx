@@ -49,7 +49,7 @@ export default function LoginPage() {
 
         {/* คอลัมน์ขวา: การ์ดล็อกอินนักอ่าน (Premium Card Layout) */}
         <div className="md:col-span-5 flex flex-col justify-center md:items-end">
-          <div className="w-full max-w-sm rounded-md border border-antique-gold/20 bg-paper-raised/85 p-1.5 shadow-2xl backdrop-blur-md">
+          <div className="w-full max-w-sm rounded-lg border border-antique-gold/45 bg-paper-raised p-1.5 shadow-xl ring-1 ring-antique-gold/10 backdrop-blur-md">
             <SignIn
               path="/th/login"
               routing="path"
@@ -58,15 +58,15 @@ export default function LoginPage() {
               appearance={{
                 variables: {
                   colorPrimary: "#B58D4A",
-                  colorBackground: "#262A3C", // สีพื้นหลังอุ่นขึ้น (สอดคล้องกับโทนกระดาษ)
-                  colorInputBackground: "rgba(255, 255, 255, 0.04)",
+                  colorBackground: "#2E3349",
+                  colorInputBackground: "rgba(255, 255, 255, 0.06)",
                   colorInputText: "#F3EEE5",
                   colorText: "#E7E2D8",
                   colorTextSecondary: "#9A948A",
                   fontFamily: "var(--font-ibm-plex-thai), sans-serif",
                 },
                 elements: {
-                  cardBox: "shadow-none border-0 bg-transparent",
+                  cardBox: "shadow-none border-0",
                   card: "bg-transparent p-5 border-0 shadow-none",
                   formButtonPrimary:
                     "bg-gradient-to-br from-antique-gold to-burnished-gold hover:brightness-105 text-prima font-semibold transition-all duration-300 py-2.5 rounded-sm border-0",
@@ -75,13 +75,13 @@ export default function LoginPage() {
                   headerSubtitle: "text-on-surface-variant/60 text-xs",
                   formFieldLabel: "text-soft-ivory/80 text-[11px] font-semibold uppercase tracking-wider",
                   formFieldInput:
-                    "border-ink/10 bg-paper-sunken/80 text-ivory outline-none focus:border-antique-gold/60 rounded-sm py-2 px-3",
+                    "border-slate-boundary/60 bg-white/5 text-ivory outline-none focus:border-antique-gold/60 rounded-sm py-2 px-3",
                   identityPreviewText: "text-ivory",
                   identityPreviewEditButtonIcon: "text-antique-gold",
                   socialButtonsBlockButton:
-                    "border border-ink/10 bg-paper-sunken/60 text-ivory hover:bg-ink/5 hover:border-antique-gold/40 rounded-sm",
+                    "border border-slate-boundary/60 bg-white/5 text-ivory hover:bg-white/10 hover:border-antique-gold/40 rounded-sm",
                   socialButtonsBlockButtonText: "text-ivory font-medium",
-                  dividerLine: "bg-ink/10",
+                  dividerLine: "bg-slate-boundary/40",
                   dividerText: "text-on-surface-variant/55 text-[10px] uppercase tracking-widest",
                   formFieldWarningText: "text-danger text-xs",
                   formFieldErrorText: "text-danger text-xs",

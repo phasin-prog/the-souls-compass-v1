@@ -1,21 +1,37 @@
--- Archron — Editor v1 / E0
--- รันใน Supabase SQL Editor (Project > SQL Editor > New query)
--- สิทธิ์: ผู้ใช้สร้าง/แก้/ลบได้เฉพาะเนื้อหาของตน (author_id = Clerk user id), published อ่านได้ทุกคน
+-- =========================================================
+-- Archron — Database Schema (Supabase SQL Editor)
+-- =========================================================
+-- Architecture — 3 systems:
+--   Database = Supabase (PostgreSQL + RLS)  <-- this file
+--   Storage  = Cloudflare R2 (private bucket) -> images via /api/media proxy
+--       cover_image stores URL pointing to /api/media/uploads/...
+--   Cache    = Upstash Redis (TTL 300s) -> lib/content/public-source.ts
+--       keys: archron:cache:entries:published / entry:<slug>
+--
+-- How to run: copy this whole file -> Supabase Dashboard > SQL Editor > New query > Run
+-- Idempotent: safe to re-run (uses if not exists / drop policy if exists)
+--
+-- RLS:
+--   published  -> anyone can read (anon + authenticated)
+--   draft      -> only owner (author_id = Clerk user id)
+--   Studio writes use service-role (bypass RLS) + ownership check in data layer
+--     (lib/content/server-auth.ts -> getAuthedSupabase)
+-- =========================================================
 
 create extension if not exists "pgcrypto";
 
 -- =========================================================
--- ตารางเนื้อหา
+-- 1) entries -- Studio-Editor content table (ALL fields)
 -- =========================================================
 create table if not exists public.entries (
   id uuid primary key default gen_random_uuid(),
-  slug text unique not null,
-  title text not null,
-  status text not null default 'draft',          -- draft | needs-source-check | ready-to-publish | published | archived
-  content_type text not null default 'article',
-  author_id text not null,                       -- Clerk user id (JWT sub)
+  slug text unique not null,                       -- EditorDraft.slug
+  title text not null,                             -- EditorDraft.title
+  status text not null default 'draft',            -- draft | needs-source-check | ready-to-publish | published | archived
+  content_type text not null default 'article',    -- article | concept | reading-set | source-note | person | book | school | symbol | term
+  author_id text not null,                         -- Clerk user id (set by server-auth)
 
-  -- identity block
+  -- identity block (concept identity; DB-ready, editor form not yet wired)
   main_term text,
   thai_name text,
   original_term text,
@@ -24,32 +40,32 @@ create table if not exists public.entries (
   ipa text,
   short_description text,
 
-  -- framework
-  framework text,
-  main_thinkers text[],
-  school text,
-  difficulty text,
-  tags text[],
+  -- framework / theory
+  framework text,                                  -- EditorDraft.framework
+  main_thinkers text[],                            -- EditorDraft.mainThinker -> [mainThinker]
+  school text,                                     -- ContentEntry.school (DB-ready)
+  difficulty text,                                 -- beginner | intermediate | advanced | source-note
+  tags text[],                                     -- EditorDraft.tags
 
-  -- content
-  visual_explanation text,
-  technical_meaning text,
-  body_markdown text,
-  cover_image text,
+  -- content (reading body)
+  visual_explanation text,                         -- EditorDraft.visualExplanation
+  technical_meaning text,                          -- EditorDraft.technicalMeaning
+  body_markdown text,                              -- EditorDraft.bodyMarkdown
+  cover_image text,                                -- R2 URL or null (EditorDraft.coverImage)
 
   -- structured (jsonb)
-  roots jsonb,
-  related_concepts jsonb not null default '[]'::jsonb,
-  source_refs jsonb not null default '[]'::jsonb,   -- เลี่ยงคำสงวน references
-  related_cta jsonb,
+  roots jsonb,                                     -- { etymology, historicalUsage, meaningShift, caution }
+  related_concepts jsonb not null default '[]'::jsonb,  -- [{ conceptSlug, relationType, reason }]
+  source_refs jsonb not null default '[]'::jsonb,  -- [{ sourceType, title, relatedClaim }] (avoid reserved word)
+  related_cta jsonb,                               -- { articleSlugs, conceptSlugs, readingSetSlugs, sourceNoteSlugs, showConstellationMap }
 
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),
-  published_at timestamptz
+  published_at timestamptz                         -- set on first publish (publishEntry preserves original)
 );
 
 -- =========================================================
--- ประวัติเวอร์ชัน
+-- 2) entry_revisions -- version history (Studio Editor snapshots)
 -- =========================================================
 create table if not exists public.entry_revisions (
   id uuid primary key default gen_random_uuid(),
@@ -59,14 +75,16 @@ create table if not exists public.entry_revisions (
   note text,
   created_at timestamptz not null default now()
 );
-
+-- =========================================================
+-- 3) Indexes
+-- =========================================================
 create index if not exists entries_author_idx on public.entries (author_id);
 create index if not exists entries_status_idx on public.entries (status);
 create index if not exists entries_slug_idx on public.entries (slug);
 create index if not exists rev_entry_idx on public.entry_revisions (entry_id);
 
 -- =========================================================
--- updated_at trigger
+-- 4) updated_at trigger
 -- =========================================================
 create or replace function public.set_updated_at()
 returns trigger language plpgsql as $$
@@ -81,7 +99,7 @@ create trigger entries_set_updated_at
   for each row execute function public.set_updated_at();
 
 -- =========================================================
--- Row Level Security
+-- 5) RLS -- entries + entry_revisions (auth.jwt() = Clerk user id)
 -- auth.jwt()->>'sub' = Clerk user id (ผ่าน Supabase Third-Party Auth / Clerk)
 -- =========================================================
 alter table public.entries enable row level security;
@@ -122,9 +140,9 @@ create policy rev_all_own on public.entry_revisions
   with check (created_by = (auth.jwt()->>'sub'));
 
 -- =========================================================
--- โปรไฟล์ผู้ใช้ (ARCHRON) — username/ยศเฉพาะของเว็บ
--- role (admin/writer/user) เก็บใน Clerk publicMetadata (แหล่งความจริง) ไม่ใช่ที่นี่
--- ตารางนี้เก็บ username, ชื่อแสดง, ยศ (เช่น ผู้สนับสนุน) และคำขอเป็นนักเขียน
+-- 6) profiles -- reader/writer profile (role stored in Clerk publicMetadata)
+
+
 -- =========================================================
 create table if not exists public.profiles (
   clerk_user_id text primary key,                -- Clerk user id (JWT sub)
@@ -161,8 +179,8 @@ create policy profiles_update on public.profiles
   with check (clerk_user_id = (auth.jwt()->>'sub'));
 
 -- =========================================================
--- ความคิดเห็น (Comments) — ท้ายบทความ/แนวคิด · ต้องเข้าสู่ระบบจึงคอมเมนต์ได้
--- section = 'articles' | 'concepts' · slug = slug ของ entry
+-- 7) comments -- article/concept comments (login required)
+-- section = 'articles' | 'concepts'  ยท  slug = entry slug
 -- =========================================================
 create table if not exists public.comments (
   id uuid primary key default gen_random_uuid(),
@@ -201,8 +219,8 @@ create policy comments_delete on public.comments
   for delete using (clerk_user_id = (auth.jwt()->>'sub'));
 
 -- =========================================================
--- ตัวนับผู้เยี่ยมชม (Page Views) — ต่อ slug + ยอดรวม
--- เพิ่มค่าได้เฉพาะผ่านฟังก์ชัน SECURITY DEFINER (anon เพิ่มได้ แต่เขียนตรงไม่ได้)
+-- 8) page_views -- visit counter (per slug + total, via SECURITY DEFINER RPC)
+
 -- =========================================================
 create table if not exists public.page_views (
   slug text primary key,
@@ -247,3 +265,53 @@ $$;
 
 grant execute on function public.increment_page_view(text) to anon, authenticated;
 grant execute on function public.total_page_views() to anon, authenticated;
+
+
+-- =========================================================
+-- 9) Foreign key links -- connect comments & page_views to entries
+--    NOTE: deleting an entry cascades to its comments + views
+--    NOTE: commenting requires an entry row to exist (FK constraint)
+-- =========================================================
+do $$
+begin
+  if not exists (
+    select 1 from information_schema.table_constraints
+    where constraint_name = 'comments_slug_fkey' and table_name = 'comments'
+  ) then
+    alter table public.comments
+    add constraint comments_slug_fkey
+    foreign key (slug) references public.entries(slug)
+    on delete cascade;
+  end if;
+end $$;
+
+do $$
+begin
+  if not exists (
+    select 1 from information_schema.table_constraints
+    where constraint_name = 'page_views_slug_fkey' and table_name = 'page_views'
+  ) then
+    alter table public.page_views
+    add constraint page_views_slug_fkey
+    foreign key (slug) references public.entries(slug)
+    on delete cascade;
+  end if;
+end $$;
+
+-- =========================================================
+-- 10) Grants -- allow anon + authenticated to use RLS-protected tables
+--     (RLS still enforces row-level access; grants enable table-level access)
+-- =========================================================
+grant select on public.entries to anon, authenticated;
+grant insert, update, delete on public.entries to authenticated;
+grant select, insert, update, delete on public.entry_revisions to authenticated;
+grant select on public.profiles to anon, authenticated;
+grant insert, update on public.profiles to authenticated;
+grant select on public.comments to anon, authenticated;
+grant insert, update, delete on public.comments to authenticated;
+grant select on public.page_views to anon, authenticated;
+
+-- =========================================================
+-- END -- Run this file in Supabase SQL Editor to set up the full DB
+--       DB=Supabase (this)  Storage=Cloudflare R2  Cache=Upstash Redis
+-- =========================================================
