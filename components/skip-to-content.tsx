@@ -1,4 +1,4 @@
-﻿// Skip-to-Content — link hidden for keyboard users to bypass nav to #main-content
+// Skip-to-Content — link hidden for keyboard users to bypass nav to #main-content
 // Appears on focus (first Tab), supports WCAG 2.4.1 Bypass Blocks
 export function SkipToContent() {
   return (

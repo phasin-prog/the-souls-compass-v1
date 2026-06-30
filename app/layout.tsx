@@ -101,6 +101,7 @@ export default function RootLayout({
         className={`${inter.variable} ${notoSansThai.variable} ${ibmPlexSerif.variable} ${notoSerifThai.variable} ${ibmPlexThai.variable} ${playfair.variable} ${cinzel.variable}`}
       >
         <head>
+          <meta charSet="utf-8" />
           {/* eslint-disable-next-line @next/next/no-page-custom-font -- App Router ไม่มี pages/_document; โหลด Material Symbols ที่นี่ถูกต้องแล้ว */}
           <link
             rel="stylesheet"

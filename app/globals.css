@@ -25,58 +25,58 @@
      • Ink #2A2A2A · Dust #CFC8BC · Ash #8A857D
    ============================================================================ */
 @theme {
-  /* ---- Material Cosmology core ---- */
-  --color-prima: #1F2231;
-  --color-psyche: #3D6177;
-  --color-lumen: #E7D7A6;
-  --color-sapientia: #B58D4A;
-  --color-mercurius: #607565;
-  --color-humanitas: #F3EEE5;
+  /* ---- Material Cosmology core (Brand Canon v1.0) ---- */
+  --color-prima: #0B0D12;          /* Shadow Black: สิ่งที่ยังไม่รู้/พื้นหลังมืดล่างสุด */
+  --color-psyche: #6E93A8;         /* Psyche: สีน้ำลึก/โลกภายใน */
+  --color-lumen: #E7D7A6;          /* Lumen: สีเหลืองนวล/แสงแรกแห่งความเข้าใจ */
+  --color-sapientia: #C79A4A;      /* Archron Gold: สีทองปัญญาโบราณ */
+  --color-mercurius: #8AA395;      /* Mercurius: สีสนิมทองแดง/ผู้ส่งสาร */
+  --color-humanitas: #F4F1EA;      /* Ivory: มนุษย์/ภาษา/ตัวอักษรหลัก */
   --color-ink-neutral: #2A2A2A;
   --color-dust: #CFC8BC;
-  --color-ash: #8A857D;
-  --color-mist: #F8F7F3;
-  --color-charcoal-ink: #2A2A2A;
+  --color-ash: #8A8F98;            /* Stone Gray: เหตุผล/วิทยาศาสตร์ */
+  --color-mist: #F4F1EA;
+  --color-charcoal-ink: #0B0D12;
 
   /* ---- semantic aliases (DARK) ---- */
-  --color-paper: #262A3C;          /* ผิวการ์ดมืด */
-  --color-paper-raised: #2E3349;   /* การ์ดยกเด่น (มืดสว่างกว่าพื้น) */
-  --color-paper-sunken: #121319;   /* code block */
-  --color-ink: #F3EEE5;            /* หัวเรื่อง/เส้นขอบ = สว่าง (บนพื้นมืด) */
-  --color-gold: #B58D4A;           /* Sapientia */
-  --color-gold-deep: #8A6A37;
-  --color-verdigris: #6E93A8;      /* Psyche สว่างขึ้นให้เห็นบนพื้นมืด (ลิงก์ hover) */
-  --color-line: #3A3F4D;
-  --color-accent: var(--accent);   /* Dynamic Accent → utility text-accent/bg-accent/border-accent */
+  --color-paper: #121826;          /* Midnight Blue: ฉากหลังการ์ด/พื้นที่อารมณ์ร่วม */
+  --color-paper-raised: #1C2335;   /* พื้นยกเด่น */
+  --color-paper-sunken: #0B0D12;   /* พื้นจมลึก */
+  --color-ink: #F4F1EA;            /* Ivory: ตัวอักษรสีงาช้างสว่าง */
+  --color-gold: #C79A4A;           /* Archron Gold */
+  --color-gold-deep: #9B7735;
+  --color-verdigris: #6E93A8;
+  --color-line: #222C41;
+  --color-accent: var(--accent);
 
-  /* ---- legacy token remap → ค่าโหมดมืด ---- */
-  --color-midnight: #1F2231;       /* พื้นหลัก = Prima */
-  --color-deep-navy: #1F2231;
-  --color-charcoal: #2A2A2A;       /* พื้นการ์ด/อินพุต (bg-charcoal) */
-  --color-surface-1: #2A2F42;
-  --color-surface-2: #30364C;
-  --color-surface-3: #373E57;
-  --color-ivory: #F3EEE5;          /* text-ivory = สว่าง */
-  --color-soft-ivory: #D8D2C6;     /* เนื้อหา (md-body) สว่างนวล */
-  --color-muted: #9A948A;
-  --color-subtle: #8A857D;
-  --color-antique-gold: #B58D4A;
-  --color-bronze: #607565;
-  --color-soft-gold: #E7D7A6;      /* ลิงก์ = Lumen (สว่าง) */
+  /* ---- legacy token remap ---- */
+  --color-midnight: #121826;       /* Midnight Blue */
+  --color-deep-navy: #121826;      /* Midnight Blue */
+  --color-charcoal: #121826;
+  --color-surface-1: #182033;
+  --color-surface-2: #1E273E;
+  --color-surface-3: #242E49;
+  --color-ivory: #F4F1EA;          /* Ivory */
+  --color-soft-ivory: #DEDAD2;     /* สี Ivory หม่นนุ่มนวลสำหรับ body content */
+  --color-muted: #8A8F98;          /* Stone Gray */
+  --color-subtle: #8A8F98;         /* Stone Gray */
+  --color-antique-gold: #C79A4A;   /* Archron Gold */
+  --color-bronze: #8AA395;
+  --color-soft-gold: #E7D7A6;      /* Lumen */
   --color-success: #7FB08A;
   --color-warning: #D8B56A;
   --color-danger: #C9776A;
   --color-info: #6E93A8;
 
   /* chrome */
-  --color-burnished-gold: #B58D4A; /* Sapientia (wordmark/accent) */
-  --color-on-surface: #F3EEE5;     /* ตัวอักษรหลัก = สว่าง */
-  --color-on-surface-variant: #C9C2B4;
-  --color-primary: #B58D4A;
-  --color-slate-boundary: #3E465F;
-  --color-surface-container: #2A2F42;
-  --color-surface-container-low: #24283A;
-  --color-surface-container-lowest: #1E202E;
+  --color-burnished-gold: #C79A4A; /* Archron Gold */
+  --color-on-surface: #F4F1EA;     /* Ivory */
+  --color-on-surface-variant: #DEDAD2;
+  --color-primary: #C79A4A;
+  --color-slate-boundary: #2C3852;
+  --color-surface-container: #151C2C;
+  --color-surface-container-low: #111724;
+  --color-surface-container-lowest: #0B0D12; /* Shadow Black */
 
   /* Dynamic Typography — ฟอนต์สองภาษา (อังกฤษขึ้นก่อนเสมอ → ไทย) */
   /* Heading = สาย Serif: IBM Plex Serif (อังกฤษ) + Noto Serif Thai (ไทย) */
@@ -85,8 +85,7 @@
   /* Body = สายโมเดิร์นร่วมสมัย: Inter + Noto Sans Thai */
   --font-body: var(--font-inter), var(--font-noto-sans-thai), "Inter", "Noto Sans Thai",
     system-ui, sans-serif;
-  /* alias เดิม — ให้ utility ที่มีอยู่ทำงานต่อโดยไม่ต้องแก้รายไฟล์
-     (font-serif = heading 89 จุด, font-sans = body) */
+  /* alias เดิม — ให้ utility ที่มีอยู่ทำงานต่อโดยไม่ต้องแก้รายไฟล์ */
   --font-sans: var(--font-body);
   --font-serif: var(--font-heading);
   --font-display: var(--font-playfair), "Playfair Display", Georgia, serif;
@@ -98,15 +97,15 @@
     color-scheme: dark;
 
     /* Dynamic Accent — ค่าเริ่มต้น + ไล่สีนุ่มเมื่อเปลี่ยนหน้า */
-    --accent: #B58D4A;
+    --accent: #C79A4A;
     transition: --accent 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 
-    /* Dynamic Typography — Fluid scale (clamp: เล็กสุด / ขยายตามจอ / ใหญ่สุด) */
-    --text-base: clamp(1rem, 0.95vw + 0.8rem, 1.25rem); /* 16 → 20px */
-    --text-h1: clamp(2rem, 4vw + 1rem, 3.5rem); /* 32 → 56px */
-    --text-h2: clamp(1.5rem, 2vw + 1rem, 2.5rem); /* 24 → 40px */
-    --text-h3: clamp(1.25rem, 1.2vw + 0.9rem, 1.75rem); /* 20 → 28px */
-    --text-lg: clamp(1.125rem, 1.07rem + 0.23vw, 1.25rem); /* 18 → 20px */
+    /* Dynamic Typography — Fluid scale (clamp) */
+    --text-base: clamp(1rem, 0.95vw + 0.8rem, 1.25rem);
+    --text-h1: clamp(2rem, 4vw + 1rem, 3.5rem);
+    --text-h2: clamp(1.5rem, 2vw + 1rem, 2.5rem);
+    --text-h3: clamp(1.25rem, 1.2vw + 0.9rem, 1.75rem);
+    --text-lg: clamp(1.125rem, 1.07rem + 0.23vw, 1.25rem);
 
     /* Motion tokens */
     --ease-soft: cubic-bezier(0.21, 0.6, 0.35, 1);
@@ -116,76 +115,97 @@
     --dur-slow: 850ms;
     --dur-ambient: 8s;
 
-    /* ── Dynamic Colour — Cosmology variable ชุด (default = Sapientia) ───────
-       ถูกตั้งโดย :root[data-cosmology="..."] (route theme จาก AccentController)
-       และ override โดย .archron-card--{cosmology} (card-level)
-       ทุก element ที่ต้องการ cosmology awareness อ่านจากชุดนี้ */
-    --cosmology-accent: #B58D4A;
-    --cosmology-accent-soft: #B58D4A;
-    --surface-tint: color-mix(in srgb, #B58D4A 8%, var(--color-paper-raised));
-    --border-tint: color-mix(in srgb, #B58D4A 32%, var(--color-slate-boundary));
-    --glow-tint: #B58D4A;
+    /* ── Dynamic Colour — Cosmology variable ชุด (default = Sapientia) ─────── */
+    --cosmology-accent: #C79A4A;
+    --cosmology-accent-soft: #C79A4A;
+    --surface-tint: color-mix(in srgb, #C79A4A 8%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #C79A4A 32%, var(--color-slate-boundary));
+    --glow-tint: #C79A4A;
   }
 
-  /* @property ทำให้ transition ของ custom property สีทำงาน (morph เมื่อเปลี่ยน cosmology) */
+  /* @property ทำให้ transition ของ custom property สีทำงาน */
   @property --cosmology-accent {
     syntax: "<color>";
     inherits: true;
-    initial-value: #B58D4A;
+    initial-value: #C79A4A;
   }
   @property --surface-tint {
     syntax: "<color>";
     inherits: true;
-    initial-value: #20232E;
+    initial-value: #182033;
   }
   @property --border-tint {
     syntax: "<color>";
     inherits: true;
-    initial-value: #343A47;
+    initial-value: #2C3852;
   }
 
   /* route theme — แต่ละ cosmology ตั้ง variable ชุดเต็ม */
   :root[data-cosmology="prima"] {
-    --cosmology-accent: #B9C2CE;
-    --cosmology-accent-soft: color-mix(in srgb, #B9C2CE 70%, transparent);
-    --surface-tint: color-mix(in srgb, #B9C2CE 7%, var(--color-paper-raised));
-    --border-tint: color-mix(in srgb, #B9C2CE 30%, var(--color-slate-boundary));
-    --glow-tint: #B9C2CE;
+    --cosmology-accent: #8A8F98; /* Stone Gray */
+    --cosmology-accent-soft: color-mix(in srgb, #8A8F98 70%, transparent);
+    --surface-tint: color-mix(in srgb, #8A8F98 7%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #8A8F98 30%, var(--color-slate-boundary));
+    --glow-tint: #8A8F98;
   }
   :root[data-cosmology="psyche"] {
-    --cosmology-accent: #6E93A8;
+    --cosmology-accent: #6E93A8; /* Psyche */
     --cosmology-accent-soft: color-mix(in srgb, #6E93A8 70%, transparent);
     --surface-tint: color-mix(in srgb, #6E93A8 9%, var(--color-paper-raised));
     --border-tint: color-mix(in srgb, #6E93A8 32%, var(--color-slate-boundary));
     --glow-tint: #6E93A8;
   }
   :root[data-cosmology="lumen"] {
-    --cosmology-accent: #E7D7A6;
+    --cosmology-accent: #E7D7A6; /* Lumen */
     --cosmology-accent-soft: color-mix(in srgb, #E7D7A6 70%, transparent);
     --surface-tint: color-mix(in srgb, #E7D7A6 8%, var(--color-paper-raised));
     --border-tint: color-mix(in srgb, #E7D7A6 34%, var(--color-slate-boundary));
     --glow-tint: #E7D7A6;
   }
   :root[data-cosmology="sapientia"] {
-    --cosmology-accent: #CBA45A;
-    --cosmology-accent-soft: color-mix(in srgb, #CBA45A 70%, transparent);
-    --surface-tint: color-mix(in srgb, #CBA45A 8%, var(--color-paper-raised));
-    --border-tint: color-mix(in srgb, #CBA45A 34%, var(--color-slate-boundary));
-    --glow-tint: #CBA45A;
+    --cosmology-accent: #C79A4A; /* Archron Gold */
+    --cosmology-accent-soft: color-mix(in srgb, #C79A4A 70%, transparent);
+    --surface-tint: color-mix(in srgb, #C79A4A 8%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #C79A4A 34%, var(--color-slate-boundary));
+    --glow-tint: #C79A4A;
   }
   :root[data-cosmology="mercurius"] {
-    --cosmology-accent: #8AA395;
+    --cosmology-accent: #8AA395; /* Mercurius */
     --cosmology-accent-soft: color-mix(in srgb, #8AA395 70%, transparent);
     --surface-tint: color-mix(in srgb, #8AA395 8%, var(--color-paper-raised));
     --border-tint: color-mix(in srgb, #8AA395 32%, var(--color-slate-boundary));
     --glow-tint: #8AA395;
   }
   :root[data-cosmology="humanitas"] {
-    --cosmology-accent: #C9C2B4;
-    --cosmology-accent-soft: color-mix(in srgb, #C9C2B4 70%, transparent);
-    --surface-tint: color-mix(in srgb, #C9C2B4 7%, var(--color-paper-raised));
-    --border-tint: color-mix(in srgb, #C9C2B4 30%, var(--color-slate-boundary));
-    --glow-tint: #C9C2B4;
+    --cosmology-accent: #F4F1EA; /* Ivory */
+    --cosmology-accent-soft: color-mix(in srgb, #F4F1EA 70%, transparent);
+    --surface-tint: color-mix(in srgb, #F4F1EA 7%, var(--color-paper-raised));
+    --border-tint: color-mix(in srgb, #F4F1EA 30%, var(--color-slate-boundary));
+    --glow-tint: #F4F1EA;
+  }
+
+  /* transition นุ่มเมื่อ cosmology เปลี่ยน (route → route) */
+  :root {
+    transition:
+      --cosmology-accent 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+      --surface-tint 1.2s cubic-bezier(0.16, 1, 0.3, 1),
+      --border-tint 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Typography Emphasis: การเน้นคำสำหรับบทความวิชาการ */
+  strong {
+    color: var(--color-soft-gold); /* สีทองประกายอ่อน Lumen ดึงดูดสายตาอย่างประณีต */
+    font-weight: 600;
+  }
+  em {
+    color: var(--color-soft-ivory);
+    font-style: italic;
+  }
+  mark {
+    background-color: color-mix(in srgb, var(--cosmology-accent) 22%, transparent);
+    color: var(--color-ivory);
+    padding: 0.1em 0.3em;
+    border-radius: 0.25rem;
   }
 
   /* transition นุ่มเมื่อ cosmology เปลี่ยน (route → route) */

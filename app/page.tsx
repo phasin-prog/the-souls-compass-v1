@@ -49,13 +49,6 @@ const ATLAS: AtlasItem[] = [
   { no: "06", kicker: "ภาษา", title: "ภาษาและการตีความ", desc: "เข้าใจว่าความหมายถูกสร้าง ส่งผ่าน และตีความอย่างไร", Icon: LanguageIcon, accent: "#8AA395", cosmology: "mercurius" },
 ];
 
-const QUICK = [
-  { no: "01", kicker: "บทความ", title: "บทความ", desc: "งานอ่านที่อธิบายและตีความแนวคิดสำคัญในบริบทปัจจุบัน", href: "/articles" },
-  { no: "02", kicker: "คลังแนวคิด", title: "คลังแนวคิด", desc: "ระบบความรู้แบบเชื่อมโยง (Wiki) ที่รวบรวมพื้นฐานของแต่ละศาสตร์", href: "/concepts" },
-  { no: "03", kicker: "ซีรีส์", title: "ซีรีส์", desc: "เส้นทางการอ่านที่เรียงลำดับจากพื้นฐานสู่ความเข้าใจระดับลึก", href: "/reading-sets" },
-  { no: "04", kicker: "แหล่งอ้างอิง", title: "แหล่งอ้างอิง", desc: "ฐานข้อมูลเอกสารชั้นต้นและรายชื่อหนังสือสำหรับการศึกษาต่อ", href: "/sources" },
-];
-
 export default function HomePage() {
   return (
     <main>
@@ -233,30 +226,6 @@ export default function HomePage() {
               arrow_right_alt
             </span>
           </Link>
-        </section>
-
-        {/* Quick links */}
-        <section className="scroll-reveal border-t border-slate-boundary/30 bg-surface-container-low py-24">
-          <div className="mx-auto max-w-[1200px] px-6">
-            <div className="grid grid-cols-1 gap-px overflow-hidden border border-slate-boundary/20 bg-slate-boundary/20 sm:grid-cols-2 lg:grid-cols-4">
-              {QUICK.map((q) => (
-                <Link
-                  key={q.no}
-                  href={q.href}
-                  className="group bg-surface-container-low p-10 transition-all duration-500 hover:bg-surface-container"
-                >
-                  <span className="mb-4 block text-xs font-semibold tracking-[0.05em] text-burnished-gold/60">
-                    {q.no} / {q.kicker}
-                  </span>
-                  <h5 className="mb-3 font-serif text-[20px] text-on-surface">{q.title}</h5>
-                  <p className="mb-6 text-sm leading-relaxed text-on-surface-variant/60">{q.desc}</p>
-                  <div className="flex items-center gap-2 text-xs font-medium tracking-[0.05em] text-burnished-gold transition-all group-hover:gap-4">
-                    เข้าชม <span className="material-symbols-outlined text-sm">arrow_forward</span>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
         </section>
     </main>
   );
