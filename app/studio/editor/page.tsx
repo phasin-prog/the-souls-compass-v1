@@ -29,7 +29,9 @@ import { InternalLinkSuggestionPanel } from "@/components/studio/internal-link-s
 import { RevisionPanel } from "@/components/studio/revision-panel";
 import { MyContentSearch } from "@/components/studio/my-content-search";
 import { FeedbackToast, type Feedback } from "@/components/studio/feedback-toast";
-import { ImagePicker } from "@/components/studio/image-picker";
+import {
+  getMyProfileAction,
+} from "@/app/studio/profile/actions";
 import {
   contentTypeMeta,
   statusMeta,
@@ -86,8 +88,20 @@ export default function StudioEditorPage() {
   const [publishTried, setPublishTried] = useState(false);
   const [ref, setRef] = useState({ sourceType: "primary-source", title: "", relatedClaim: "" });
   const [publishing, setPublishing] = useState(false);
+  const [displayName, setDisplayName] = useState<string | null>(null);
 
   const canSave = draft.slug.trim() !== "" && draft.title.trim() !== "";
+
+  // โหลด display_name จาก profile
+  useEffect(() => {
+    if (!userId) return;
+    let active = true;
+    (async () => {
+      const p = await getMyProfileAction();
+      if (active && p?.display_name) setDisplayName(p.display_name);
+    })();
+    return () => { active = false; };
+  }, [userId]);
 
   // โหลดเนื้อหาเดิมถ้ามี ?slug=
   useEffect(() => {
@@ -270,7 +284,7 @@ export default function StudioEditorPage() {
       <div className="mx-auto grid max-w-6xl gap-8 px-6 py-10 pb-28 md:grid-cols-[1fr_320px] lg:pb-10">
         <main className="space-y-10">
           <p className="text-xs text-muted">
-            เขียนในชื่อ (author_id): <span className="text-soft-ivory">{userId ?? "— (ยังไม่ได้ login)"}</span>
+            เขียนในชื่อ: <span className="text-soft-ivory">{displayName ?? userId ?? "— (ยังไม่ได้ login)"}</span>
             {autoState === "saving" ? <span> · กำลังบันทึกอัตโนมัติ...</span> : null}
             {autoState === "saved" && savedAt ? <span> · บันทึกอัตโนมัติแล้ว {savedAt}</span> : null}
           </p>

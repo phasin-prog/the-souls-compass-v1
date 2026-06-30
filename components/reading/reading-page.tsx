@@ -175,6 +175,9 @@ export function ReadingPage({
         {entry.updatedAt ? (
           <p className="mt-3 text-xs text-subtle">อัปเดตล่าสุด {entry.updatedAt}</p>
         ) : null}
+        {entry.author ? (
+          <p className="mt-1 text-xs text-subtle">เขียนโดย {entry.author}</p>
+        ) : null}
         {themes.length > 0 ? (
           <div className="mt-5 flex flex-wrap items-center gap-2">
             <span className="text-xs text-muted">แก่นเรื่อง:</span>

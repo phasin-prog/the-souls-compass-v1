@@ -3,6 +3,7 @@ import type { EditorDraft } from "@/lib/content/publish-validation";
 import type { ContentEntry } from "@/types/content";
 import { draftToRow, entryToDraft } from "@/lib/content/draft-mapper";
 import { rowToEntry, type EntryRow } from "@/lib/content/entry-mapper";
+import { getMyProfile } from "@/lib/content/profile-db";
 
 // ชั้น persistence ของ editor (E3) — เรียกด้วย Supabase service-role client
 // service role ข้าม RLS ได้ จึงต้องตรวจสอบ ownership เองทุก operation
@@ -38,7 +39,9 @@ export async function saveDraft(
     };
   }
 
-  const row = draftToRow(draft, authorId);
+  const profile = await getMyProfile(sb, authorId);
+  const authorName = profile?.display_name ?? profile?.username ?? null;
+  const row = draftToRow(draft, authorId, authorName);
   const { data, error } = await sb
     .from("entries")
     .upsert(row, { onConflict: "slug" })
@@ -102,8 +105,10 @@ export async function publishEntry(
     (existing as { published_at: string | null } | null)?.published_at ??
     new Date().toISOString();
 
+  const profile = await getMyProfile(sb, authorId);
+  const authorName = profile?.display_name ?? profile?.username ?? null;
   const row = {
-    ...draftToRow({ ...draft, status: "published" }, authorId),
+    ...draftToRow({ ...draft, status: "published" }, authorId, authorName),
     published_at: publishedAt,
   };
 

@@ -6,6 +6,7 @@ import type { ContentEntry } from "@/types/content";
 export function draftToRow(
   d: EditorDraft,
   authorId: string,
+  authorName?: string | null,
 ): Partial<EntryRow> & { slug: string; title: string; author_id: string } {
   const hasRoots =
     d.rootsEtymology.trim() !== "" ||
@@ -24,6 +25,7 @@ export function draftToRow(
     slug: d.slug,
     title: d.title,
     author_id: authorId,
+    author_name: authorName ?? null,
     status: d.status,
     content_type: d.contentType,
     framework: d.framework || null,

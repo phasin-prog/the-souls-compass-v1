@@ -17,6 +17,7 @@ export type EntryRow = {
   status: string;
   content_type: string;
   author_id: string;
+  author_name: string | null;
   main_term: string | null;
   thai_name: string | null;
   original_term: string | null;
@@ -50,6 +51,7 @@ export function rowToEntry(r: EntryRow): ContentEntry {
     slug: r.slug,
     status: r.status as ArticleStatus,
     contentType: r.content_type as ContentType,
+    author: r.author_name ?? undefined,
     publishedAt: r.published_at ?? undefined,
     updatedAt: r.updated_at ?? undefined,
     mainTerm: r.main_term ?? undefined,

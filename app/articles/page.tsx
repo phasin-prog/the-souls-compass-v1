@@ -49,7 +49,12 @@ export default async function ArticlesPage() {
                 ) : null}
                 <span className="mt-3 flex items-center justify-between">
                   <span className="text-sm text-soft-gold">อ่านต่อ →</span>
-                  <ViewBadge slug={e.slug} />
+                  <span className="flex items-center gap-2">
+                    {e.author ? (
+                      <span className="text-xs text-on-surface-variant/60">โดย {e.author}</span>
+                    ) : null}
+                    <ViewBadge slug={e.slug} />
+                  </span>
                 </span>
               </Link>
             ))}
