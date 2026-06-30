@@ -17,6 +17,7 @@ import { Tabbar } from "@/components/tabbar";
 import { Fab } from "@/components/fab";
 import { SkipToContent } from "@/components/skip-to-content";
 import { QuickOpen } from "@/components/quick-open";
+import { IntroPreloader } from "@/components/hero/intro-preloader";
 import { ClerkProvider } from "@clerk/nextjs";
 
 
@@ -111,6 +112,7 @@ export default function RootLayout({
           </noscript>
         </head>
         <body className="min-h-screen bg-deep-navy pb-16 text-ivory antialiased md:pb-0">
+          <IntroPreloader />
           <SkipToContent />
           <AccentController />
           <div className="accent-aura" aria-hidden="true" />
