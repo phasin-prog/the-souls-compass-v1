@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SCHOOLS } from "@/lib/content/schools";
+import { getPublicSchools } from "@/lib/content/public-source";
 import { SchoolsHub } from "@/components/schools/schools-hub";
+
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "คลังปัญญา: สำนักคิดและนักปราชญ์โลก — ARCHRON",
@@ -9,7 +11,9 @@ export const metadata: Metadata = {
     "ไดเรกทอรีสำนักคิดและนักปราชญ์โลก — สำรวจสำนักคิด นักปราชญ์ และผลงานเด่น เรียงตามชื่อสำนัก พร้อมค้นหาและดัชนีตัวอักษร",
 };
 
-export default function SchoolsPage() {
+export default async function SchoolsPage() {
+  const schools = await getPublicSchools();
+  
   return (
     <main className="px-6 pb-24 pt-10">
       <div className="mx-auto max-w-[1100px]">
@@ -32,7 +36,7 @@ export default function SchoolsPage() {
         </header>
 
         <div className="scroll-reveal stagger-1">
-          <SchoolsHub schools={SCHOOLS} />
+          <SchoolsHub schools={schools} />
         </div>
       </div>
     </main>

@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/page-header";
 import { PageNav } from "@/components/page-nav";
+import { getPublicEntryBySlug } from "@/lib/content/public-source";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+
+export const revalidate = 300;
 
 export const metadata: Metadata = {
   title: "ปฏิญญาก่อตั้ง ARCHRON — The Founding Manifesto | ARCHRON",
@@ -30,7 +35,28 @@ function Movement({
   );
 }
 
-export default function ManifestoPage() {
+export default async function ManifestoPage() {
+  const dbManifesto = await getPublicEntryBySlug("manifesto");
+
+  if (dbManifesto && dbManifesto.bodyMarkdown) {
+    return (
+      <main className="pb-24">
+        <PageHeader
+          kicker="ARCHRON · เจตนารมณ์"
+          title={dbManifesto.title}
+        />
+        <div className="mx-auto max-w-2xl px-6 mt-10">
+          <div className="markdown-body prose prose-invert text-soft-ivory/90 leading-loose text-lg">
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>
+              {dbManifesto.bodyMarkdown}
+            </ReactMarkdown>
+          </div>
+        </div>
+        <PageNav current="/manifesto" />
+      </main>
+    );
+  }
+
   return (
     <main className="pb-24">
       <PageHeader
