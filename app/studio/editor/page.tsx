@@ -24,6 +24,7 @@ import { findDeadLinks } from "@/lib/content/internal-links";
 import { SearchableSelect } from "@/components/studio/searchable-select";
 import { SearchableMultiSelect } from "@/components/studio/searchable-multi-select";
 import { THEME_TAG_SUGGESTIONS } from "@/lib/content/themes";
+import { SCHOOLS } from "@/lib/content/schools";
 import { RelatedConceptPicker } from "@/components/studio/related-concept-picker";
 import { InternalLinkSuggestionPanel } from "@/components/studio/internal-link-suggestion-panel";
 import { RevisionPanel } from "@/components/studio/revision-panel";
@@ -65,6 +66,19 @@ const BASE_TAG_OPTIONS = [
   "depth-psychology", "source-note", "beginner", "intermediate", "advanced",
 ];
 const TAG_OPTIONS = Array.from(new Set([...BASE_TAG_OPTIONS, ...THEME_TAG_SUGGESTIONS]));
+
+const THINKER_OPTIONS = SCHOOLS.flatMap((s) =>
+  s.thinkers.map((t) => ({
+    value: t.nameEn,
+    label: `${t.nameTh} (${t.nameEn})`,
+  }))
+);
+const thinkerMeta = (val: string) => {
+  return {
+    icon: "person",
+    accent: "#C79A4A",
+  };
+};
 
 function Label({ children }: { children: React.ReactNode }) {
   return <label className="mb-1 block text-sm text-soft-ivory">{children}</label>;
@@ -339,7 +353,7 @@ export default function StudioEditorPage() {
             </div>
             <div>
               <Label>นักคิดหลัก</Label>
-              <input className={inputClass} value={draft.mainThinker} onChange={(e) => set("mainThinker", e.target.value)} placeholder="เช่น Carl Jung" />
+              <SearchableSelect value={draft.mainThinker} onChange={(v) => set("mainThinker", v)} options={THINKER_OPTIONS} placeholder="เลือกหรือค้นหานักคิดที่เกี่ยวข้อง" meta={thinkerMeta} allowCustom />
             </div>
             <div>
               <Label>Tags</Label>

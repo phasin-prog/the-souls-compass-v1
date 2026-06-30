@@ -222,6 +222,25 @@ export async function ReadingPage({
               ))}
             </div>
           ) : null}
+
+          {entry.mainThinkers && entry.mainThinkers.length > 0 ? (
+            <div className="mt-4 flex flex-wrap items-center gap-2">
+              <span className="text-xs text-muted">นักคิดที่เกี่ยวข้อง:</span>
+              {entry.mainThinkers.map((t) => {
+                const thinkerSlug = t.toLowerCase().replace(/\s+/g, "-");
+                return (
+                  <Link
+                    key={t}
+                    href={`/thinkers/${thinkerSlug}`}
+                    className="inline-flex items-center gap-1 rounded bg-burnished-gold/10 border border-burnished-gold/25 px-2.5 py-0.5 text-xs text-burnished-gold transition-colors hover:bg-burnished-gold/20"
+                  >
+                    <span className="material-symbols-outlined text-[14px]">person</span>
+                    {t}
+                  </Link>
+                );
+              })}
+            </div>
+          ) : null}
         </header>
 
         {/* Main Content Zone */}
