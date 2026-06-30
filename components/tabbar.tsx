@@ -8,7 +8,7 @@ type Item = { href: string; label: string; icon: string };
 // 4 ปลายทางหลักสำหรับมือถือ (เลือกจาก glass-nav เดิม ให้กระชับ)
 const ITEMS: Item[] = [
   { href: "/", label: "หน้าแรก", icon: "home" },
-  { href: "/concepts", label: "คลังแนวคิด", icon: "neurology" },
+  { href: "/knowledge", label: "คลังความรู้", icon: "explore" },
   { href: "/search", label: "ค้นหา", icon: "search" },
   { href: "/constellation", label: "แผนที่", icon: "hub" },
 ];

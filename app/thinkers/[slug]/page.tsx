@@ -1,10 +1,35 @@
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import ReactMarkdown, { type Components } from "react-markdown";
+import remarkGfm from "remark-gfm";
 import type { Thinker, School } from "@/lib/content/schools";
 import { getPublicEntries, getPublicSchools } from "@/lib/content/public-source";
 import { readFromR2 } from "@/lib/storage";
 import { disciplineMeta } from "@/components/discipline-meta";
+import { InternalConceptLink } from "@/components/reading/internal-concept-link";
+
+// mdComponents — ชุดเดียวกับ reading-page.tsx: แปลงลิงก์ /concepts/<slug> → glossary hover,
+// เปิดลิงก์ภายนอกในแท็บใหม่ (Thai-first · noopener) · ลิงก์อื่น ๆ ผ่านตรง
+const mdComponents: Components = {
+  a({ href, children }) {
+    const h = typeof href === "string" ? href : "";
+    const m = h.match(/^\/concepts\/([^/#?]+)/);
+    if (m) {
+      const label = typeof children === "string" ? children : String(children ?? "");
+      return <InternalConceptLink slug={m[1]} label={label} />;
+    }
+    if (/^https?:\/\//.test(h)) {
+      return (
+        <a href={h} target="_blank" rel="noopener noreferrer">
+          {children}
+        </a>
+      );
+    }
+    return <a href={h}>{children}</a>;
+  },
+};
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -23,7 +48,9 @@ function findThinkerAndSchool(slug: string, schools: School[]): { thinker: Think
 export async function generateStaticParams() {
   const schools = await getPublicSchools();
   const params: { slug: string }[] = [];
+  const seedSchoolIds = ["classical-greek", "positivism", "behaviorism", "psychoanalysis", "analytical-psychology"];
   for (const s of schools) {
+    if (!seedSchoolIds.includes(s.id)) continue;
     for (const t of s.thinkers) {
       params.push({ slug: t.nameEn.toLowerCase().replace(/\s+/g, "-") });
     }
@@ -51,16 +78,22 @@ export default async function ThinkerDetailPage({ params }: PageProps) {
   const { thinker: t, school: s } = res;
   const meta = disciplineMeta(s.field);
 
-  // ดึงประวัติชีวประวัติฉบับเต็มจาก R2 (ถ้ามี)
+  // ดึงประวัติชีวประวัติฉบับเต็มจาก R2 (ถ้ามี) — เนื้อหาใน R2 เป็น Markdown
+  // ใช้ react-markdown pipeline เดียวกับ reading-page; t.bio (seed) เป็น plain text
   let bioContent = t.bio;
+  let bioIsMarkdown = false;
   if (t.r2ContentKey) {
     const r2Content = await readFromR2(t.r2ContentKey);
     if (r2Content) {
       bioContent = r2Content;
+      bioIsMarkdown = true;
     }
   }
 
-  // ค้นหาบทความและแนวคิดที่อ้างอิงถึงนักคิดคนนี้
+  // ค้นหาบทความและแนวคิดที่เกี่ยวข้องกับนักคิดคนนี้
+  // ลำดับความสำคัญ: (1) ความสัมพันธ์ mainThinkers (canonical) → (2) ปรากฏชื่อในเนื้อหา
+  // เก็บ fallback (2) ไว้ เพราะ seed ปัจจุบันแท็ก mainThinkers เฉพาะ Carl Jung —
+  // นักคิดคนอื่นยังพึ่งการปรากฏชื่อใน bodyMarkdown อยู่
   const allEntries = await getPublicEntries();
   const relatedEntries = allEntries.filter(
     (e) =>
@@ -75,57 +108,51 @@ export default async function ThinkerDetailPage({ params }: PageProps) {
     <main className="px-6 pb-24 pt-10">
       <div className="mx-auto max-w-[800px]">
         {/* Breadcrumb */}
-        <nav aria-label="เส้นทางนำทาง" className="flex flex-wrap items-center gap-1 text-xs text-muted">
-          <Link href="/" className="transition-colors hover:text-soft-gold">หน้าแรก</Link>
-          <span className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
-          <Link href="/schools" className="transition-colors hover:text-soft-gold">สำนักคิดและนักปราชญ์</Link>
-          <span className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
-          <Link href={`/schools/${s.id}`} className="transition-colors hover:text-soft-gold">{s.nameTh}</Link>
-          <span className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
-          <span className="text-soft-ivory">{t.nameTh}</span>
+        <nav aria-label="เส้นทางนำทาง" className="text-xs text-muted">
+          <ol className="flex flex-wrap items-center gap-1">
+            <li className="inline-flex items-center gap-0.5">
+              <Link href="/" className="rounded px-1.5 py-1 transition-colors hover:text-soft-gold">หน้าแรก</Link>
+              <span aria-hidden="true" className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
+            </li>
+            <li className="inline-flex items-center gap-0.5">
+              <Link href="/schools" className="rounded px-1.5 py-1 transition-colors hover:text-soft-gold">สำนักคิดและนักปราชญ์</Link>
+              <span aria-hidden="true" className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
+            </li>
+            <li className="inline-flex items-center gap-0.5">
+              <Link href={`/schools/${s.id}`} className="rounded px-1.5 py-1 transition-colors hover:text-soft-gold">{s.nameTh}</Link>
+              <span aria-hidden="true" className="material-symbols-outlined text-[16px] text-subtle">chevron_right</span>
+            </li>
+            <li className="px-1.5 py-1 text-soft-ivory" aria-current="page">{t.nameTh}</li>
+          </ol>
         </nav>
 
         {/* Thinker Header */}
-        <header className="mt-8 rounded-md border border-slate-boundary/40 bg-surface-container/20 p-8 relative overflow-hidden">
+        <header
+          className="mt-8 rounded-md border border-slate-boundary/40 bg-surface-container/20 p-8 relative overflow-hidden"
+          style={{ "--discipline-accent": meta.accent } as CSSProperties}
+        >
           <div
+            aria-hidden="true"
             className="absolute -right-20 -top-20 h-44 w-44 rounded-full blur-[80px]"
-            style={{ backgroundColor: `${meta.accent}12` }}
+            style={{ backgroundColor: "color-mix(in srgb, var(--discipline-accent) 12%, transparent)" }}
           />
 
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 relative z-10">
-            <div>
-              <span className="text-xs font-semibold tracking-wider text-burnished-gold/80 block mb-1">
-                นักปราชญ์ / ผู้สร้างสรรค์แนวคิด
-              </span>
-              <h1 className="font-serif text-3xl font-bold text-ivory md:text-4xl">
-                {t.nameTh}
-              </h1>
-              <p className="mt-1 text-sm text-on-surface-variant/60">
-                {t.nameEn} · {t.era}
-              </p>
-            </div>
-            <div>
-              <Link
-                href={`/schools/${s.id}`}
-                className="inline-flex items-center gap-2 rounded bg-surface-container-low px-4 py-2 border border-slate-boundary/30 text-xs font-medium text-soft-ivory hover:border-burnished-gold/30 hover:text-burnished-gold transition-all"
-              >
-                <span className="material-symbols-outlined text-[14px]" style={{ color: meta.accent }}>
-                  account_balance
-                </span>
-                สังกัด: {s.nameTh}
-              </Link>
-            </div>
+          <div className="relative z-10">
+            <span className="text-xs font-semibold tracking-wider text-burnished-gold/80 block mb-1">
+              นักปราชญ์ / ผู้สร้างสรรค์แนวคิด
+            </span>
+            <h1 className="font-serif text-3xl font-bold text-ivory md:text-4xl">
+              {t.nameTh}
+            </h1>
+            <p className="mt-1 text-sm text-on-surface-variant/60">
+              {t.nameEn} · {t.era}
+            </p>
           </div>
 
           {t.quote && (
-            <div className="mt-8 border-l-2 border-burnished-gold bg-black/10 p-5 rounded-r">
-              <span className="material-symbols-outlined text-[36px] text-burnished-gold/20 block h-6 leading-none">
-                format_quote
-              </span>
-              <p className="font-serif text-lg italic leading-relaxed text-soft-gold mt-1">
-                “{t.quote}”
-              </p>
-            </div>
+            <blockquote className="mt-8 border-l border-burnished-gold/50 pl-5 font-serif text-lg italic leading-relaxed text-soft-gold">
+              “{t.quote}”
+            </blockquote>
           )}
         </header>
 
@@ -134,9 +161,23 @@ export default async function ThinkerDetailPage({ params }: PageProps) {
           <h2 className="font-serif text-2xl font-semibold text-ivory border-b border-slate-boundary/20 pb-3">
             ประวัติและชีวิตเบื้องต้น
           </h2>
-          <p className="mt-6 text-base leading-relaxed text-soft-ivory whitespace-pre-line">
-            {bioContent || "— ไม่มีข้อมูลประวัติชีวิตเพิ่มเติมในขณะนี้ —"}
-          </p>
+          {bioContent ? (
+            bioIsMarkdown ? (
+              <div className="md-body mt-6">
+                <ReactMarkdown remarkPlugins={[remarkGfm]} components={mdComponents}>
+                  {bioContent}
+                </ReactMarkdown>
+              </div>
+            ) : (
+              <p className="mt-6 text-base leading-relaxed text-soft-ivory whitespace-pre-line">
+                {bioContent}
+              </p>
+            )
+          ) : (
+            <p className="mt-6 text-base leading-relaxed text-soft-ivory whitespace-pre-line">
+              — ไม่มีข้อมูลประวัติชีวิตเพิ่มเติมในขณะนี้ —
+            </p>
+          )}
         </section>
 
         {/* Relations Section */}
@@ -176,7 +217,7 @@ export default async function ThinkerDetailPage({ params }: PageProps) {
             งานเขียนและแนวคิดที่เกี่ยวข้องในระบบ
           </h2>
           {relatedEntries.length === 0 ? (
-            <p className="mt-6 rounded-md border border-ink/10 bg-surface-container/20 p-8 text-center text-sm text-on-surface-variant/50">
+            <p className="mt-6 rounded-md border border-ink/10 bg-surface-container/20 p-8 text-center text-sm text-on-surface-variant/60">
               ยังไม่มีงานเขียนหรือคำอธิบายคำศัพท์วิชาการในคลังสำหรับ {t.nameTh}
             </p>
           ) : (
