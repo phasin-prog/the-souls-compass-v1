@@ -1,0 +1,701 @@
+Philosophy of Mind / Philosophy of Psychiatry
+หมายเหตุสั้น ๆ:
+สายนี้คือกลุ่มความคิดที่ถามตรงที่สุดว่า จิตคืออะไร / สำนึกคืออะไร / ความป่วยทางจิตคืออะไร / จิตเวชกำลังรักษาโรค หรือกำลังจัดระเบียบความเบี่ยงเบนของมนุษย์
+คำถามใหญ่ของสายนี้คือ
+mind ต่างจาก brain หรือเป็นสิ่งเดียวกัน
+consciousness อธิบายด้วยสมองได้หมดหรือไม่
+qualia หรือ “ความรู้สึกจากข้างใน” มีสถานะอย่างไร
+intentionality หรือความมุ่งไปหาบางสิ่งของจิตคืออะไร
+self เป็น substance, process, narrative, body หรือ illusion
+mental disorder เป็นโรคธรรมชาติจริง ๆ หรือเป็นการตัดสินด้วยคุณค่าทางสังคม
+depression, schizophrenia, delusion, anxiety, trauma และ personality disorder ควรถูกเข้าใจผ่านชีววิทยา ประสบการณ์ ภาษา สังคม หรือทั้งหมดร่วมกัน
+diagnosis ช่วยคนหรือทำร้ายคนได้อย่างไร
+psychiatry เป็นวิทยาศาสตร์แบบเดียวกับ medicine อื่น ๆ หรือมีปัญหาเฉพาะของมันเอง
+สายนี้สำคัญมาก เพราะมันเป็นฐานที่ทำให้เว็บไม่พูดเรื่อง “จิต” แบบลอย ๆ และไม่พูดเรื่อง “ความป่วย” แบบเชื่อคู่มือวินิจฉัยอย่างเดียว แต่สามารถถามได้ลึกขึ้นว่าอะไรคือจิต อะไรคือสมอง อะไรคือความทุกข์ อะไรคือโรค และใครมีอำนาจนิยามความปกติของมนุษย์
+René Descartes
+สาย / สำนัก: Dualism, Philosophy of Mind, Rationalism
+ผลงานสำคัญ:
+Meditations on First Philosophy
+Discourse on Method
+The Passions of the Soul
+แกนความคิด:
+Descartes คือจุดตั้งต้นใหญ่ของปัญหา mind-body ในปรัชญาสมัยใหม่ เขาแยกระหว่าง res cogitans หรือสิ่งที่คิด กับ res extensa หรือสิ่งที่มีมิติในอวกาศ ทำให้เกิดคำถามมหึมาว่าจิตกับร่างกายสัมพันธ์กันอย่างไร ถ้าจิตไม่ใช่ร่างกาย แล้วมันส่งผลต่อร่างกายได้อย่างไร แม้หลายคนจะไม่รับ dualism แบบ Descartes แล้ว แต่ปัญหาที่เขาวางไว้ยังหลอกหลอน philosophy of mind จนถึงปัจจุบัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+mind-body problem, dualism, consciousness, self, rationalism, subjectivity
+Franz Brentano
+สาย / สำนัก: Intentionality, Descriptive Psychology, Phenomenology Precursor
+ผลงานสำคัญ:
+Psychology from an Empirical Standpoint
+แกนความคิด:
+Brentano สำคัญกับแนวคิด intentionality หรือคุณสมบัติที่จิต “มุ่งไปหา” บางสิ่ง เช่น คิดถึงบางสิ่ง รักบางสิ่ง กลัวบางสิ่ง เชื่อบางสิ่ง จิตไม่ได้เป็นก้อนวัตถุเฉย ๆ แต่เป็นความสัมพันธ์ต่อโลก แนวคิดนี้ส่งอิทธิพลมหาศาลต่อ Husserl, phenomenology, analytic philosophy of mind และการเข้าใจอาการทางจิตที่เกี่ยวข้องกับความหมายและประสบการณ์
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+intentionality, mental act, object of thought, consciousness, phenomenology
+Edmund Husserl
+สาย / สำนัก: Phenomenology, Consciousness, Intentionality
+ผลงานสำคัญ:
+Logical Investigations
+Ideas Pertaining to a Pure Phenomenology
+Cartesian Meditations
+The Crisis of European Sciences
+แกนความคิด:
+Husserl วางฐาน phenomenology โดยให้กลับไปดูประสบการณ์อย่างที่มันปรากฏต่อ consciousness เขาเน้น intentionality, lived experience, epoché และโครงสร้างของประสบการณ์จากมุมมองบุคคลที่หนึ่ง งานของเขาสำคัญมากต่อ philosophy of mind และ philosophy of psychiatry เพราะช่วยให้การเข้าใจความป่วยทางจิตไม่เหลือแค่ symptom list แต่ต้องฟังว่าโลกปรากฏต่อคนคนนั้นอย่างไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+phenomenology, lived experience, intentionality, consciousness, first-person perspective
+Maurice Merleau-Ponty
+สาย / สำนัก: Embodied Phenomenology, Philosophy of Perception, Philosophy of Mind
+ผลงานสำคัญ:
+Phenomenology of Perception
+The Visible and the Invisible
+The Structure of Behavior
+แกนความคิด:
+Merleau-Ponty ทำให้ philosophy of mind กลับมาหา body อย่างลึก เขาเสนอว่ามนุษย์ไม่ได้เป็นจิตที่อยู่ในร่างกายเหมือนคนขับในรถ แต่เราเป็น embodied subject ที่รับรู้โลกผ่านร่างกายที่มีชีวิต การรับรู้จึงไม่ใช่ข้อมูลที่สมองประมวลผลเฉย ๆ แต่เป็นการอยู่ในโลกผ่านท่าทาง การเคลื่อนไหว ความเคยชิน และเนื้อหนัง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+embodiment, perception, lived body, phenomenology, body-subject
+Ludwig Wittgenstein
+สาย / สำนัก: Philosophy of Language, Philosophy of Mind, Anti-Cartesian Thought
+ผลงานสำคัญ:
+Tractatus Logico-Philosophicus
+Philosophical Investigations
+On Certainty
+Remarks on the Philosophy of Psychology
+แกนความคิด:
+Wittgenstein สำคัญต่อ philosophy of mind เพราะเขาทำลายภาพความคิดที่ว่า mental state เป็นวัตถุลับ ๆ ข้างในหัวที่ภาษาแค่เอามาตั้งชื่อ เขาชี้ว่าความหมายของคำทางจิต เช่น เจ็บ เชื่อ ต้องการ กลัว เข้าใจ ต้องดูจากการใช้ภาษา รูปแบบชีวิต และบริบททางสังคม ไม่ใช่ขุดหาสิ่งลึกลับภายในอย่างเดียว งานของเขามีผลมากต่อการวิจารณ์จิตวิทยาที่ใช้ภาษาทางจิตแบบหลวม ๆ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+private language, mental concepts, language-game, form of life, pain, rule-following
+Gilbert Ryle
+สาย / สำนัก: Ordinary Language Philosophy, Anti-Cartesian Philosophy, Behavior-Oriented Mind Theory
+ผลงานสำคัญ:
+The Concept of Mind
+แกนความคิด:
+Ryle วิจารณ์ Cartesian dualism ว่าเป็น “ghost in the machine” คือภาพผิดที่ทำเหมือนมนุษย์เป็นเครื่องจักรร่างกายที่มีผีจิตซ่อนอยู่ข้างใน เขาเสนอว่าคำทางจิตจำนวนมากไม่ได้หมายถึงวัตถุลับในหัว แต่หมายถึงความสามารถ แนวโน้ม พฤติกรรม และบริบทของการกระทำ งานของเขาสำคัญในการย้าย philosophy of mind ออกจากการตามหาวัตถุภายใน ไปสู่การวิเคราะห์ภาษาและพฤติกรรม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+category mistake, ghost in the machine, mind concept, dispositions, anti-dualism
+Wilfrid Sellars
+สาย / สำนัก: Philosophy of Mind, Myth of the Given, Scientific Image
+ผลงานสำคัญ:
+Empiricism and the Philosophy of Mind
+Science, Perception and Reality
+แกนความคิด:
+Sellars สำคัญกับการวิจารณ์ myth of the given หรือความคิดว่ามีประสบการณ์ดิบที่ให้ความรู้แก่เราโดยไม่ผ่านกรอบความคิด ภาษา หรือการเรียนรู้ เขาแยกระหว่าง manifest image หรือภาพโลกแบบสามัญของมนุษย์ กับ scientific image หรือภาพโลกแบบวิทยาศาสตร์ ปัญหาใหญ่คือจะรวมสองภาพนี้อย่างไร โดยไม่ลบประสบการณ์มนุษย์ทิ้งและไม่ปฏิเสธวิทยาศาสตร์
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+myth of the given, perception, scientific image, manifest image, mental concepts
+Donald Davidson
+สาย / สำนัก: Anomalous Monism, Philosophy of Action, Philosophy of Mind
+ผลงานสำคัญ:
+Essays on Actions and Events
+Subjective, Intersubjective, Objective
+Inquiries into Truth and Interpretation
+แกนความคิด:
+Davidson เสนอ anomalous monism คือ mental events เป็น physical events แต่ไม่มีกฎ strict แบบวิทยาศาสตร์ที่ลด mental ให้เหลือ physical ได้ง่าย ๆ งานของเขาสำคัญมากเพราะช่วยให้เราเห็นว่าการอธิบายมนุษย์ผ่านเหตุผล ความเชื่อ ความตั้งใจ และการกระทำ อาจมีตรรกะเฉพาะที่ไม่เหมือนการอธิบายวัตถุทางฟิสิกส์
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+anomalous monism, action, reason, causation, mental event, interpretation
+Hilary Putnam
+สาย / สำนัก: Functionalism, Philosophy of Mind, Philosophy of Language
+ผลงานสำคัญ:
+Mind, Language and Reality
+Reason, Truth and History
+Representation and Reality
+แกนความคิด:
+Putnam เป็นหนึ่งในผู้วางฐาน functionalism ใน philosophy of mind เขาเสนอว่าจิตอาจไม่ต้องนิยามจากวัสดุที่ประกอบมัน แต่จากบทบาทเชิงหน้าที่ เช่น ความเชื่อ ความเจ็บปวด หรือความต้องการ ทำหน้าที่อะไรในระบบความคิดและพฤติกรรม แนวคิดนี้สำคัญต่อ cognitive science และ AI เพราะเปิดทางให้จิตไม่จำเป็นต้องผูกกับสมองชีวภาพแบบเดียวเท่านั้น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+functionalism, multiple realizability, mental state, computation, mind and language
+Jerry Fodor
+สาย / สำนัก: Computational Theory of Mind, Modularity, Cognitive Science
+ผลงานสำคัญ:
+The Language of Thought
+The Modularity of Mind
+Psychosemantics
+The Mind Doesn’t Work That Way
+แกนความคิด:
+Fodor เสนอ computational theory of mind และ language of thought ว่าความคิดอาจมีโครงสร้างคล้ายภาษาในระดับภายใน เขามอง mind เป็นระบบประมวล representation และบางส่วนของจิตมีลักษณะ modular คือทำงานเฉพาะด้าน ค่อนข้างอัตโนมัติ และแยกจากระบบกลาง งานของเขาสำคัญมากต่อ cognitive science รุ่นคลาสสิก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+computational mind, language of thought, modularity, representation, cognitive science
+Daniel Dennett
+สาย / สำนัก: Philosophy of Mind, Consciousness Studies, Functionalism, Intentional Stance
+ผลงานสำคัญ:
+Consciousness Explained
+The Intentional Stance
+Darwin’s Dangerous Idea
+Kinds of Minds
+From Bacteria to Bach and Back
+แกนความคิด:
+Dennett เป็นนักคิดสาย naturalist ที่พยายามอธิบาย consciousness โดยไม่ยอมรับ qualia แบบลึกลับภายใน เขาเสนอ intentional stance คือการอธิบายพฤติกรรมของระบบโดยถือว่ามันมีความเชื่อและความต้องการในระดับหนึ่ง เขายังเสนอ multiple drafts model ของ consciousness ซึ่งมองว่าสำนึกไม่ใช่โรงละครกลางในหัว แต่เป็นกระบวนการหลายชุดที่ถูกแก้ไข แข่งขัน และถูกเล่าเป็นประสบการณ์
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+consciousness, intentional stance, multiple drafts, qualia critique, naturalism, self as narrative
+Thomas Nagel
+สาย / สำนัก: Consciousness, Subjectivity, Philosophy of Mind
+ผลงานสำคัญ:
+“What Is It Like to Be a Bat?”
+The View from Nowhere
+Mind and Cosmos
+แกนความคิด:
+Nagel สำคัญมากกับคำถามเรื่อง subjectivity เขาชี้ว่าการเข้าใจ consciousness ต้องเข้าใจ “what it is like” หรือความเป็นประสบการณ์จากข้างใน ต่อให้เรารู้ข้อมูลทางกายภาพเกี่ยวกับค้างคาวครบแค่ไหน เราอาจยังไม่รู้ว่าการเป็นค้างคาวจากมุมมองของค้างคาวเป็นอย่างไร งานของเขาคือแกนใหญ่ของปัญหาช่องว่างระหว่างคำอธิบายบุคคลที่สามกับประสบการณ์บุคคลที่หนึ่ง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+subjectivity, what-it-is-like, consciousness, first-person perspective, explanatory gap
+David Chalmers
+สาย / สำนัก: Philosophy of Consciousness, Hard Problem, Property Dualism
+ผลงานสำคัญ:
+The Conscious Mind
+The Character of Consciousness
+Reality+
+งานเรื่อง hard problem of consciousness
+แกนความคิด:
+Chalmers ทำให้คำว่า hard problem of consciousness กลายเป็นแกนใหญ่ของ philosophy of mind เขาแยกระหว่าง easy problems เช่น การรายงาน การจำแนกข้อมูล การควบคุมพฤติกรรม กับ hard problem คือทำไมกระบวนการทางกายภาพจึงมีประสบการณ์จากข้างในเกิดขึ้น งานของเขาทำให้ physicalism ต้องตอบคำถามหนักขึ้นว่า neural processing กลายเป็น feeling ได้อย่างไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+hard problem, consciousness, qualia, zombie argument, property dualism, experience
+John Searle
+สาย / สำนัก: Biological Naturalism, Intentionality, Philosophy of Mind
+ผลงานสำคัญ:
+Intentionality
+The Rediscovery of the Mind
+Minds, Brains and Science
+บทความ “Minds, Brains, and Programs”
+แกนความคิด:
+Searle เสนอ biological naturalism ว่า consciousness เป็นปรากฏการณ์ชีวภาพจริงที่เกิดจากสมอง แต่ไม่ควรถูกลดให้เป็น computation อย่างเดียว เขาโด่งดังจาก Chinese Room argument ที่วิจารณ์ strong AI ว่าการประมวลสัญลักษณ์ตามกฎไม่เท่ากับความเข้าใจจริง งานของเขาเหมาะกับการถกเรื่อง mind, brain, AI, intentionality และความหมาย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+biological naturalism, Chinese Room, intentionality, consciousness, AI, understanding
+Ned Block
+สาย / สำนัก: Consciousness Studies, Philosophy of Mind, Access vs Phenomenal Consciousness
+ผลงานสำคัญ:
+งานเรื่อง access consciousness / phenomenal consciousness
+งานด้าน consciousness, representation และ cognition
+แกนความคิด:
+Block สำคัญกับการแยก access consciousness กับ phenomenal consciousness เขาชี้ว่าการมีข้อมูลพร้อมใช้ในการ reasoning หรือรายงาน อาจไม่เท่ากับการมีประสบการณ์จากข้างใน ความต่างนี้สำคัญมากต่อการถกเรื่อง consciousness เพราะบางทฤษฎีอาจอธิบายการเข้าถึงข้อมูลได้ แต่ยังไม่แตะคุณภาพของประสบการณ์จริง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+phenomenal consciousness, access consciousness, qualia, cognition, experience
+Frank Jackson
+สาย / สำนัก: Knowledge Argument, Qualia, Philosophy of Mind
+ผลงานสำคัญ:
+บทความ “Epiphenomenal Qualia”
+งาน Mary’s Room / knowledge argument
+From Metaphysics to Ethics
+แกนความคิด:
+Jackson สำคัญจาก Mary’s Room argument หรือ knowledge argument เขาให้จินตนาการถึง Mary นักวิทยาศาสตร์ที่รู้ทุกอย่างทางกายภาพเกี่ยวกับสี แต่ไม่เคยเห็นสีจริง เมื่อเธอเห็นสีแดงครั้งแรก เธอได้รู้สิ่งใหม่หรือไม่ ถ้าได้ แปลว่าความรู้ทางกายภาพอาจยังไม่พออธิบาย qualia ทั้งหมด แม้ภายหลัง Jackson จะเปลี่ยนจุดยืน แต่ข้อโต้แย้งนี้ยังสำคัญมาก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Mary’s Room, qualia, knowledge argument, physicalism, experience
+Saul Kripke
+สาย / สำนัก: Metaphysics, Naming and Necessity, Mind-Body Identity Critique
+ผลงานสำคัญ:
+Naming and Necessity
+Wittgenstein on Rules and Private Language
+แกนความคิด:
+Kripke สำคัญต่อ philosophy of mind เพราะเขาวิจารณ์ mind-brain identity theory ผ่านแนวคิด necessity และ identity เขาชี้ว่าถ้า pain = C-fiber firing จริงในเชิง identity มันควรเป็นความจริงจำเป็น แต่เรายังสามารถจินตนาการ pain โดยไม่มี C-fiber firing หรือ C-fiber firing โดยไม่มี pain ได้ งานนี้เป็นแรงสำคัญที่ทำให้การลด mental ให้เหลือ brain state ไม่ง่าย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+identity theory, necessity, pain, modal argument, mind-brain relation
+Jaegwon Kim
+สาย / สำนัก: Philosophy of Mind, Mental Causation, Supervenience
+ผลงานสำคัญ:
+Mind in a Physical World
+Philosophy of Mind
+Physicalism, or Something Near Enough
+แกนความคิด:
+Kim สำคัญกับปัญหา mental causation และ supervenience เขาถามว่าถ้าทุกอย่างทางกายภาพมีสาเหตุทางกายภาพครบแล้ว mental cause ยังมีบทบาทจริงหรือไม่ ถ้าความคิด ความเชื่อ หรือความตั้งใจเป็นเพียงสิ่งที่ supervene บนสมอง มันยัง “ทำให้เกิด” อะไรได้อย่างไร งานของเขาเป็นแกนหลักของการถกเรื่อง physicalism, reduction และ causal exclusion
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+mental causation, supervenience, physicalism, reduction, causal exclusion
+Patricia Churchland
+สาย / สำนัก: Neurophilosophy, Eliminative Materialism, Philosophy of Neuroscience
+ผลงานสำคัญ:
+Neurophilosophy
+Brain-Wise
+Touching a Nerve
+Conscience
+แกนความคิด:
+Patricia Churchland เป็นแกนสำคัญของ neurophilosophy เธอพยายามเชื่อม philosophy of mind เข้ากับ neuroscience อย่างจริงจัง และวิจารณ์แนวคิดทางจิตแบบ folk psychology ที่อาจไม่สอดคล้องกับสมองจริง งานของเธอทำให้ philosophy of mind ไม่สามารถพูดเรื่องจิตโดยไม่สนสมองได้ง่าย ๆ อีกต่อไป
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+neurophilosophy, brain, consciousness, morality, eliminative materialism, neuroscience
+Paul Churchland
+สาย / สำนัก: Eliminative Materialism, Neurophilosophy, Philosophy of Mind
+ผลงานสำคัญ:
+Matter and Consciousness
+A Neurocomputational Perspective
+The Engine of Reason, the Seat of the Soul
+แกนความคิด:
+Paul Churchland เสนอ eliminative materialism ว่าแนวคิดสามัญเกี่ยวกับจิต เช่น belief, desire, intention อาจเป็นทฤษฎีพื้นบ้านที่ผิด และอนาคตของ neuroscience อาจแทนที่มันด้วยภาษาของสมองและเครือข่ายประสาท งานของเขาแรงมาก เพราะท้าทายว่าจิตวิทยาแบบสามัญที่เราใช้เข้าใจกันทุกวันอาจไม่ใช่ความจริงสุดท้ายของ mind
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+eliminative materialism, folk psychology, neural networks, neurophilosophy, mind-brain reduction
+Andy Clark
+สาย / สำนัก: Extended Mind, Predictive Processing, Embodied Cognition
+ผลงานสำคัญ:
+Being There
+Supersizing the Mind
+Surfing Uncertainty
+The Experience Machine
+แกนความคิด:
+Clark สำคัญกับ embodied, embedded และ extended mind เขาเสนอว่าจิตไม่ได้อยู่ในกะโหลกอย่างโดดเดี่ยว แต่ขยายออกไปผ่านร่างกาย เครื่องมือ สิ่งแวดล้อม ภาษา สมุดโน้ต โทรศัพท์ และโลกที่เราจัดวางเพื่อคิด แนวคิด predictive processing ของเขายังทำให้ perception, action และ cognition ถูกอ่านในฐานะการคาดการณ์และปรับแก้ต่อโลกอย่างต่อเนื่อง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+extended mind, embodied cognition, predictive processing, environment, cognition
+David Chalmers / Andy Clark
+สาย / สำนัก: Extended Mind, Externalism, Philosophy of Cognitive Science
+ผลงานสำคัญ:
+บทความ “The Extended Mind”
+แกนความคิด:
+Clark และ Chalmers เสนอ extended mind thesis ว่าเครื่องมือภายนอกบางอย่างอาจเป็นส่วนหนึ่งของกระบวนการคิดจริง ไม่ใช่แค่ตัวช่วยภายนอก ตัวอย่างคลาสสิกคือสมุดโน้ตของ Otto ที่ทำหน้าที่เหมือน memory ภายนอก งานนี้สำคัญมากต่อการคิดเรื่อง AI, smartphone, Obsidian, writing system และเครื่องมือคิดว่าอาจไม่ใช่แค่สิ่งที่เราใช้ แต่เป็นส่วนหนึ่งของ cognitive ecology
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+extended mind, cognitive tool, memory, externalism, technology and self
+Francisco Varela
+สาย / สำนัก: Enactivism, Embodied Mind, Neurophenomenology
+ผลงานสำคัญ:
+The Embodied Mind
+Principles of Biological Autonomy
+งานด้าน neurophenomenology
+แกนความคิด:
+Varela เสนอ enactivism ว่าจิตไม่ใช่การสร้าง representation ในหัวอย่างเดียว แต่เกิดจากการที่สิ่งมีชีวิต enact หรือก่อโลกขึ้นผ่านร่างกาย การกระทำ และสิ่งแวดล้อม เขายังเสนอ neurophenomenology เพื่อเชื่อม first-person experience กับ neuroscience โดยไม่ลดประสบการณ์ให้เหลือข้อมูลสมองอย่างเดียว
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+enactivism, embodied mind, neurophenomenology, first-person method, cognition
+Evan Thompson
+สาย / สำนัก: Embodied Mind, Enactivism, Consciousness, Comparative Philosophy
+ผลงานสำคัญ:
+Mind in Life
+Waking, Dreaming, Being
+The Embodied Mind
+Why I Am Not a Buddhist
+แกนความคิด:
+Thompson เชื่อม philosophy of mind, cognitive science, phenomenology และพุทธปรัชญาเข้าด้วยกัน เขามอง mind ในฐานะกระบวนการของชีวิต ไม่ใช่สิ่งที่แยกจากร่างกายหรือโลก งานของเขาเหมาะมากสำหรับการเขียนเรื่อง consciousness, self, dream, meditation และ embodied cognition แบบไม่ตื้นเป็น neuroscience ล้วน ๆ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+embodied mind, enactivism, consciousness, self, meditation, dream
+Alva Noë
+สาย / สำนัก: Enactive Perception, Philosophy of Mind, Consciousness
+ผลงานสำคัญ:
+Action in Perception
+Out of Our Heads
+Strange Tools
+แกนความคิด:
+Noë เสนอว่าการรับรู้ไม่ใช่ภาพที่สมองสร้างภายในเฉย ๆ แต่เป็นทักษะการสำรวจโลกผ่านการเคลื่อนไหวและร่างกาย จิตและสำนึกจึงไม่ได้อยู่ “ในหัว” อย่างเดียว แต่เกิดจากการมีชีวิตอยู่กับโลก งานของเขาเหมาะกับการเขียนเรื่อง perception, art, action และ embodied consciousness
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+perception, action, embodied cognition, consciousness, world-involving mind
+Shaun Gallagher
+สาย / สำนัก: Phenomenology, Embodied Cognition, Self and Psychopathology
+ผลงานสำคัญ:
+How the Body Shapes the Mind
+The Phenomenological Mind
+Enactivist Interventions
+งานด้าน self, agency และ psychiatry
+แกนความคิด:
+Gallagher เชื่อม phenomenology, cognitive science และ psychiatry เขาสนใจ body schema, minimal self, agency, intersubjectivity และ embodied mind งานของเขาสำคัญมากต่อ philosophy of psychiatry เพราะช่วยอธิบายอาการอย่าง schizophrenia, disturbance of agency และความแปลกแยกจากตนเองโดยไม่ลดทุกอย่างเป็น neurotransmitter
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+minimal self, agency, body schema, schizophrenia, phenomenology, embodiment
+Dan Zahavi
+สาย / สำนัก: Phenomenology of Self, Consciousness, Intersubjectivity
+ผลงานสำคัญ:
+Self-Awareness and Alterity
+Subjectivity and Selfhood
+The Phenomenological Mind
+Husserl’s Phenomenology
+แกนความคิด:
+Zahavi สำคัญกับการอธิบาย minimal self และ self-awareness จากสาย phenomenology เขาเสนอว่าประสบการณ์มีความเป็น first-personal อยู่ในตัว ไม่จำเป็นต้องมี ego เป็นวัตถุแยกต่างหาก งานของเขาใช้ได้ดีมากในการเชื่อม consciousness, self, intersubjectivity และ psychopathology โดยเฉพาะปัญหาว่าความรู้สึกเป็น “ฉัน” ถูกรบกวนได้อย่างไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+minimal self, self-awareness, subjectivity, phenomenology, intersubjectivity
+Karl Jaspers
+สาย / สำนัก: Phenomenological Psychiatry, Existential Psychiatry, Philosophy of Psychiatry
+ผลงานสำคัญ:
+General Psychopathology
+Philosophy
+Reason and Existenz
+แกนความคิด:
+Jaspers คือรากใหญ่ของ philosophy of psychiatry และ phenomenological psychopathology เขาแยกระหว่าง explanation กับ understanding คือบางอย่างอธิบายเชิงสาเหตุได้ แต่บางอย่างต้องเข้าใจจากความหมายและประสบการณ์ของผู้ป่วย เขายังเน้นการบรรยายอาการอย่างระมัดระวังจากมุมมองที่คนป่วยมีต่อโลกของตนเอง งานของเขาคือฐานสำคัญของการไม่ลด psychiatry ให้เหลือชีววิทยาล้วน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+phenomenological psychiatry, understanding, explanation, delusion, psychopathology, existential psychiatry
+Ludwig Binswanger
+สาย / สำนัก: Daseinsanalysis, Existential Psychiatry, Phenomenological Psychiatry
+ผลงานสำคัญ:
+Being-in-the-World
+Dream and Existence
+งานด้าน Daseinsanalysis
+แกนความคิด:
+Binswanger นำ Heidegger และ phenomenology มาใช้กับ psychiatry เขามองความป่วยทางจิตผ่านรูปแบบการอยู่ในโลกของมนุษย์ ไม่ใช่แค่กลุ่มอาการในสมอง คนป่วยไม่ได้มีแค่อาการ แต่มีโลกที่เปลี่ยนรูป ความสัมพันธ์กับเวลา พื้นที่ ผู้อื่น และตนเองเปลี่ยนไป งานของเขาสำคัญมากต่อสาย existential / phenomenological psychiatry
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Daseinsanalysis, being-in-the-world, existential psychiatry, world, psychosis
+Medard Boss
+สาย / สำนัก: Daseinsanalysis, Existential Analysis, Phenomenological Psychiatry
+ผลงานสำคัญ:
+Psychoanalysis and Daseinsanalysis
+Existential Foundations of Medicine and Psychology
+The Analysis of Dreams
+แกนความคิด:
+Boss ต่อยอด Daseinsanalysis โดยได้รับอิทธิพลจาก Heidegger เขามองอาการทางจิตและความฝันในฐานะรูปแบบการเปิดโลกของมนุษย์ ไม่ใช่สัญญาณที่ต้องรีบแปลเป็นแรงขับซ่อนเร้นอย่างเดียว งานของเขาเหมาะสำหรับเชื่อม existential philosophy, psychiatry, dream และ psychotherapy
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Daseinsanalysis, dream, existential therapy, Heidegger, being-in-the-world
+R. D. Laing
+สาย / สำนัก: Existential Psychiatry, Anti-Psychiatry, Schizophrenia and Self
+ผลงานสำคัญ:
+The Divided Self
+The Politics of Experience
+Sanity, Madness and the Family
+แกนความคิด:
+Laing อ่าน schizophrenia และ psychosis ผ่านประสบการณ์ของ self ที่แตก แปลกแยก และถูกทำให้ไม่สามารถอยู่กับโลกได้ เขาวิจารณ์ครอบครัว สังคม และ psychiatry ที่อาจทำให้ความบ้าของคนถูกตัดออกจากบริบทชีวิต งานของเขามีอิทธิพลสูงมาก แต่ต้องใช้ด้วยความระวัง เพราะบางจุดอาจ romanticize madness หรือวิจารณ์ psychiatry แบบสุดขั้วเกินไป
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+divided self, schizophrenia, anti-psychiatry, family, alienation, madness
+Thomas Szasz
+สาย / สำนัก: Anti-Psychiatry, Libertarian Critique of Psychiatry, Philosophy of Psychiatry
+ผลงานสำคัญ:
+The Myth of Mental Illness
+The Manufacture of Madness
+Law, Liberty, and Psychiatry
+แกนความคิด:
+Szasz โต้ว่า mental illness ในหลายกรณีไม่ใช่ illness แบบเดียวกับโรคกาย แต่เป็น problems in living ที่ถูก medicalize โดย psychiatry เขาวิจารณ์การบังคับรักษา การวินิจฉัย และอำนาจของรัฐกับจิตเวชอย่างรุนแรง งานของเขาสำคัญในเชิงสิทธิเสรีภาพและการวิจารณ์ medical model แต่ก็ถูกวิจารณ์หนักว่าอาจปฏิเสธความทุกข์และความพิการจริงของผู้ป่วยบางกลุ่มมากเกินไป
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+myth of mental illness, medicalization, coercion, liberty, psychiatric power
+Michel Foucault
+สาย / สำนัก: History of Madness, Power/Knowledge, Critical Psychiatry
+ผลงานสำคัญ:
+Madness and Civilization
+Discipline and Punish
+The Birth of the Clinic
+The History of Sexuality
+แกนความคิด:
+Foucault สำคัญมากต่อ philosophy of psychiatry เพราะเขาชี้ว่าความบ้า ความปกติ การวินิจฉัย และสถาบันรักษาไม่ได้เป็นเพียงเรื่องวิทยาศาสตร์บริสุทธิ์ แต่เกี่ยวข้องกับประวัติศาสตร์ อำนาจ การจำแนก และการควบคุมมนุษย์ งานของเขาทำให้เราถามว่า psychiatry ช่วยรักษาคน หรือบางครั้งทำหน้าที่จัดระเบียบคนที่สังคมไม่ต้องการเห็น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+madness, psychiatric power, discipline, normality, institution, genealogy
+Ian Hacking
+สาย / สำนัก: Philosophy of Science, Historical Ontology, Philosophy of Psychiatry
+ผลงานสำคัญ:
+Rewriting the Soul
+The Social Construction of What?
+Mad Travelers
+Historical Ontology
+แกนความคิด:
+Hacking สำคัญมากกับแนวคิด looping effects และ human kinds เขาเสนอว่าการจำแนกมนุษย์ไม่เหมือนการจำแนกหินหรือธาตุ เพราะเมื่อคนถูกจัดหมวดหมู่ เขาอาจเปลี่ยนพฤติกรรมและตัวตนตามหมวดหมู่นั้น แล้วหมวดหมู่ก็เปลี่ยนตามมนุษย์อีกที งานนี้สำคัญมหาศาลต่อ psychiatric diagnosis, trauma, dissociation และ identity
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+looping effect, human kinds, diagnosis, trauma, dissociation, social construction
+Jerome Wakefield
+สาย / สำนัก: Philosophy of Psychiatry, Mental Disorder Definition, Harmful Dysfunction Analysis
+ผลงานสำคัญ:
+งาน Harmful Dysfunction Analysis
+งานวิจารณ์การขยายขอบเขต disorder
+งานด้าน diagnosis, grief และ DSM
+แกนความคิด:
+Wakefield เสนอ harmful dysfunction analysis โดยมองว่า mental disorder ต้องมีสองส่วน คือ dysfunction ของกลไกภายในบางอย่าง และ harm ตามมาตรฐานคุณค่าของสังคมหรือชีวิตมนุษย์ แนวคิดนี้พยายามประสาน naturalism กับ normativity คือไม่ให้ disorder เป็นแค่การตัดสินทางสังคม แต่ก็ไม่ปฏิเสธว่าคำว่า harm มีคุณค่าเกี่ยวข้องอยู่เสมอ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+mental disorder, harmful dysfunction, DSM, grief, diagnosis, naturalism and normativity
+Christopher Boorse
+สาย / สำนัก: Philosophy of Medicine, Biostatistical Theory, Health and Disease
+ผลงานสำคัญ:
+“Health as a Theoretical Concept”
+งาน Biostatistical Theory of Health
+แกนความคิด:
+Boorse เสนอ biostatistical theory ว่า disease ควรถูกเข้าใจจากการทำงานผิดปกติของระบบชีวภาพเมื่อเทียบกับ species-typical functioning โดยพยายามทำให้แนวคิด health/disease เป็น value-free มากที่สุด แม้เขาไม่ได้จำกัดเฉพาะ psychiatry แต่แนวคิดของเขาสำคัญมากต่อการถกว่าความป่วยทางจิตนิยามแบบชีววิทยาล้วนได้หรือไม่
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+health, disease, biostatistical theory, naturalism, dysfunction, medicine
+Derek Bolton
+สาย / สำนัก: Philosophy of Psychiatry, Biopsychosocial Model, Mental Disorder
+ผลงานสำคัญ:
+What Is Mental Disorder?
+The Biopsychosocial Model of Health and Disease
+งานด้าน psychiatry, biology, agency และ context
+แกนความคิด:
+Bolton สำคัญกับการวิจารณ์นิยาม mental disorder แบบธรรมชาตินิยมแข็ง ๆ เขาเสนอว่าความป่วยทางจิตต้องเข้าใจผ่านหลายระดับ ทั้งชีวภาพ จิตใจ สังคม ความหมาย และบริบท งานของเขาดีมากสำหรับการวางฐาน biopsychosocial แบบไม่ใช้เป็นคำสวย ๆ แต่คิดจริงว่าแต่ละระดับสัมพันธ์กันอย่างไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+mental disorder, biopsychosocial model, dysfunction, context, psychiatry theory
+K. W. M. Fulford
+สาย / สำนัก: Philosophy of Psychiatry, Values-Based Practice, Philosophy of Medicine
+ผลงานสำคัญ:
+Moral Theory and Medical Practice
+Essential Values-Based Practice
+The Oxford Handbook of Philosophy and Psychiatry
+แกนความคิด:
+Fulford สำคัญมากกับ values-based practice เขาชี้ว่า psychiatry เต็มไปด้วยคุณค่า เพราะคำว่า disorder, harm, risk, recovery, autonomy, capacity และ treatment ไม่ได้เป็นคำเป็นกลางทั้งหมด หน้าที่จึงไม่ใช่แกล้งทำว่าจิตเวชไร้คุณค่า แต่ต้องทำให้คุณค่าที่เกี่ยวข้องปรากฏ ชัดเจน และถูกเจรจาอย่างรับผิดชอบร่วมกับผู้ป่วย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+values-based practice, psychiatry, medical ethics, diagnosis, autonomy, recovery
+George Graham
+สาย / สำนัก: Philosophy of Psychiatry, Philosophy of Mind, Mental Disorder
+ผลงานสำคัญ:
+The Disordered Mind
+Philosophy of Mind: An Introduction
+งานด้าน self, delusion, mental disorder
+แกนความคิด:
+Graham เชื่อม philosophy of mind กับ psychiatry โดยตรง เขาสนใจว่าความผิดปกติทางจิตส่องให้เห็นโครงสร้างของ mind อย่างไร เช่น delusion, addiction, depression และ disorder of self งานของเขาเหมาะมากสำหรับการใช้ psychopathology เป็นหน้าต่างกลับไปถามว่า belief, agency, self-control และ rationality คืออะไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+disordered mind, delusion, addiction, self-control, philosophy of mind and psychiatry
+Jennifer Radden
+สาย / สำนัก: Philosophy of Psychiatry, Melancholy, Emotion and Mental Disorder
+ผลงานสำคัญ:
+The Nature of Melancholy
+Moody Minds Distempered
+งานด้าน depression, melancholy, psychiatric concepts
+แกนความคิด:
+Radden สำคัญกับการอ่าน depression และ melancholy ในเชิงประวัติศาสตร์ ปรัชญา และจิตเวช เธอทำให้เห็นว่าคำอย่าง melancholy ไม่ใช่แค่ diagnosis เก่า แต่เป็นประวัติของความทุกข์ ความเศร้า self, body, moral life และวัฒนธรรมการเข้าใจอารมณ์มนุษย์
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+melancholy, depression, emotion, history of psychiatry, psychiatric concepts
+Dominic Murphy
+สาย / สำนัก: Philosophy of Psychiatry, Philosophy of Cognitive Science, Classification
+ผลงานสำคัญ:
+Psychiatry in the Scientific Image
+งานด้าน psychiatric classification, explanation และ cognitive science
+แกนความคิด:
+Murphy สนใจว่า psychiatry ควรเป็นวิทยาศาสตร์แบบใด เขาวิเคราะห์ปัญหา classification, causal explanation และความสัมพันธ์ระหว่าง cognitive science กับ mental disorder งานของเขาสำคัญสำหรับการถามว่าโรคทางจิตเป็น natural kinds ได้ไหม หรือเป็นกลุ่มอาการที่จัดขึ้นเพื่อประโยชน์บางอย่างทางคลินิกและวิจัย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+psychiatric classification, scientific psychiatry, natural kinds, cognitive science, explanation
+Rachel Cooper
+สาย / สำนัก: Philosophy of Psychiatry, Classification, Science of Mental Disorder
+ผลงานสำคัญ:
+Classifying Madness
+Psychiatry and Philosophy of Science
+งานด้าน diagnosis, classification และ DSM
+แกนความคิด:
+Cooper สำคัญกับการวิเคราะห์ psychiatric classification อย่างละเอียด เธอถามว่าระบบวินิจฉัยอย่าง DSM ทำหน้าที่อะไร เป็นเครื่องมือวิทยาศาสตร์ เครื่องมือสื่อสารทางคลินิก หรือระบบบริหารจัดการความทุกข์ งานของเธอช่วยให้เห็นว่าปัญหาการจำแนกโรคทางจิตไม่ใช่แค่ตั้งชื่อให้ถูก แต่เกี่ยวกับเป้าหมายของ psychiatry ทั้งระบบ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+classification, DSM, diagnosis, philosophy of science, mental disorder taxonomy
+John Z. Sadler
+สาย / สำนัก: Philosophy of Psychiatry, Values in Diagnosis, Psychiatric Ethics
+ผลงานสำคัญ:
+Values and Psychiatric Diagnosis
+The Oxford Handbook of Psychiatric Ethics
+งานด้าน ethics, values และ classification
+แกนความคิด:
+Sadler สำคัญกับการเปิดให้เห็นว่าการวินิจฉัยทางจิตเวชเต็มไปด้วยคุณค่าทางสังคม ศีลธรรม และวัฒนธรรม เขาไม่ได้บอกว่า psychiatry จึงไร้ประโยชน์ แต่บอกว่าต้องซื่อสัตย์ว่าคำว่า normal, abnormal, harmful, deviant และ disordered มีการตัดสินคุณค่าอยู่ในตัวเสมอ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+values, psychiatric diagnosis, DSM, ethics, normality, classification
+Kenneth Kendler
+สาย / สำนัก: Philosophy of Psychiatry, Psychiatric Genetics, Explanatory Pluralism
+ผลงานสำคัญ:
+งานด้าน psychiatric genetics
+งาน explanatory pluralism in psychiatry
+งานด้าน nosology และ causal explanation
+แกนความคิด:
+Kendler เป็นจิตแพทย์และนักวิจัยที่มีบทบาทสูงใน philosophy of psychiatry เพราะเขาเสนอ explanatory pluralism คือความผิดปกติทางจิตต้องอธิบายหลายระดับ ตั้งแต่ gene, brain, development, personality, environment, culture ไปจนถึง meaning ไม่มีระดับเดียวที่อธิบายทุกอย่างได้หมด งานของเขาช่วยต้านทั้ง biological reductionism และ social reductionism
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+explanatory pluralism, psychiatric genetics, causation, nosology, multi-level explanation
+Giovanni Stanghellini
+สาย / สำนัก: Phenomenological Psychopathology, Philosophy of Psychiatry, Schizophrenia Studies
+ผลงานสำคัญ:
+Disembodied Spirits and Deanimated Bodies
+Lost in Dialogue
+The Oxford Handbook of Phenomenological Psychopathology
+งานด้าน schizophrenia, self และ embodiment
+แกนความคิด:
+Stanghellini สำคัญกับ phenomenological psychopathology ร่วมสมัย เขาอ่านความผิดปกติทางจิตผ่าน embodiment, selfhood, intersubjectivity และการเปลี่ยนแปลงของโลกที่ผู้ป่วยอาศัยอยู่ งานของเขาเหมาะมากสำหรับการเขียนเรื่อง schizophrenia, depression, eating disorder และ personality disorder แบบลึกกว่าคู่มือวินิจฉัย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+phenomenological psychopathology, schizophrenia, embodiment, self, intersubjectivity
+Louis Sass
+สาย / สำนัก: Phenomenological Psychopathology, Schizophrenia, Modernism and Self
+ผลงานสำคัญ:
+Madness and Modernism
+The Paradoxes of Delusion
+งานด้าน schizophrenia และ self-disorder
+แกนความคิด:
+Sass อ่าน schizophrenia ผ่าน phenomenology, modernism, self-consciousness และวัฒนธรรมสมัยใหม่ เขาเสนอว่า psychosis บางรูปแบบอาจเกี่ยวข้องกับ hyperreflexivity คือ self-awareness ที่มากเกินจนประสบการณ์ธรรมดาแปลกประหลาดขึ้น งานของเขาทำให้ schizophrenia ไม่ถูกอ่านแค่เป็นความคิดผิด แต่เป็นการเปลี่ยนรูปของการอยู่กับตนเองและโลก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+schizophrenia, hyperreflexivity, modernism, self-disorder, delusion
+Josef Parnas
+สาย / สำนัก: Phenomenological Psychopathology, Schizophrenia Spectrum, Self-Disorder
+ผลงานสำคัญ:
+งานด้าน self-disorders in schizophrenia
+EASE: Examination of Anomalous Self-Experience
+งานร่วมกับ Louis Sass และ Dan Zahavi
+แกนความคิด:
+Parnas สำคัญกับการศึกษาความผิดปกติของ minimal self ใน schizophrenia spectrum เขาเสนอว่าก่อนจะเห็นอาการใหญ่ เช่น delusion หรือ hallucination อาจมีความเปลี่ยนแปลงลึกของ self-experience เช่น ความรู้สึกว่าความคิดไม่เป็นของตน โลกแปลก หรือการมีอยู่ของตนเองไม่มั่นคง งานนี้สำคัญมากต่อการอ่าน psychosis แบบละเอียด
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self-disorder, schizophrenia, anomalous self-experience, minimal self, phenomenology
+Thomas Fuchs
+สาย / สำนัก: Phenomenological Psychiatry, Embodied Mind, Ecology of Mind
+ผลงานสำคัญ:
+Ecology of the Brain
+In Defense of the Human Being
+งานด้าน embodiment, depression, schizophrenia และ intersubjectivity
+แกนความคิด:
+Fuchs เสนอการอ่านจิตและสมองแบบ embodied, ecological และ relational เขาวิจารณ์การลด mind ให้เหลือ brain process แบบแคบ ๆ และมองว่าความผิดปกติทางจิตคือการเปลี่ยนแปลงของการมีชีวิตอยู่ในร่างกาย เวลา โลก และความสัมพันธ์ งานของเขาเหมาะมากสำหรับสร้างฐาน psychiatry ที่ไม่แบนเป็น neurobiology ล้วน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+embodied psychiatry, ecology of brain, depression, schizophrenia, temporality, intersubjectivity
+Matthew Ratcliffe
+สาย / สำนัก: Phenomenology of Emotion, Existential Feelings, Depression and Grief
+ผลงานสำคัญ:
+Feelings of Being
+Experiences of Depression
+Grief Worlds
+Real Hallucinations
+แกนความคิด:
+Ratcliffe สำคัญกับแนวคิด existential feelings หรือความรู้สึกพื้นฐานของการมีอยู่ในโลก เช่น โลกยังเปิดอยู่ไหม อนาคตยังเป็นไปได้ไหม ฉันยังเชื่อมกับคนอื่นได้ไหม งานของเขาเรื่อง depression และ grief ลึกมาก เพราะเขาอ่านความเศร้าไม่ใช่แค่อารมณ์หนึ่ง แต่เป็นการเปลี่ยนโครงสร้างของโลก ประสบการณ์ เวลา และความเป็นไปได้ของชีวิต
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+existential feelings, depression, grief, world-experience, phenomenology, emotion
+Lisa Bortolotti
+สาย / สำนัก: Philosophy of Psychiatry, Delusion, Rationality, Agency
+ผลงานสำคัญ:
+Delusions and Other Irrational Beliefs
+The Epistemic Innocence of Irrational Beliefs
+งานด้าน delusion, confabulation, self-deception
+แกนความคิด:
+Bortolotti สำคัญกับการถามว่า delusion และความเชื่อที่ดูไร้เหตุผลควรถูกเข้าใจอย่างไร เธอเสนอว่าความเชื่อบางอย่างอาจ irrational ในแง่หนึ่ง แต่มีบทบาทปกป้องจิตหรือทำให้คนดำรงอยู่ต่อได้ในอีกแง่หนึ่ง แนวคิด epistemic innocence ของเธอช่วยให้เราไม่รีบมองความเชื่อผิดปกติเป็นแค่ความล้มเหลวทางเหตุผล
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+delusion, irrational belief, epistemic innocence, confabulation, agency
+Hanna Pickard
+สาย / สำนัก: Philosophy of Psychiatry, Addiction, Responsibility, Agency
+ผลงานสำคัญ:
+งานด้าน responsibility without blame
+งานเกี่ยวกับ addiction, personality disorder และ agency
+งาน philosophy of psychiatry and ethics
+แกนความคิด:
+Pickard สำคัญกับการแยกระหว่าง responsibility กับ blame เธอเสนอว่าเราสามารถถือว่าคนมี agency และความรับผิดชอบต่อการเปลี่ยนแปลงบางอย่างได้ โดยไม่ต้องประณามหรือลงโทษเขา งานของเธอมีประโยชน์มากกับ addiction, personality disorder, forensic psychiatry และ therapy เพราะช่วยหลุดจากสองขั้ว “ป่วยจึงไม่รับผิดชอบ” กับ “ผิดจึงต้องโทษ”
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+responsibility without blame, addiction, agency, personality disorder, ethics
+Neil Levy
+สาย / สำนัก: Philosophy of Mind, Moral Psychology, Addiction and Responsibility
+ผลงานสำคัญ:
+Hard Luck
+Consciousness and Moral Responsibility
+Addiction and Self-Control
+แกนความคิด:
+Levy เชื่อม philosophy of mind, neuroscience และ moral responsibility เขาถามว่าความรู้เกี่ยวกับสมอง จิตไร้สำนึก และข้อจำกัดของ self-control ทำให้เราต้องคิดเรื่องความรับผิดชอบใหม่อย่างไร งานของเขาใช้ได้ดีมากกับ addiction, compulsion, agency และคำถามว่าคนควรถูกตำหนิแค่ไหนเมื่อระบบจิตของเขาถูกบีบโดยเงื่อนไขที่ควบคุมยาก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+moral responsibility, addiction, consciousness, self-control, agency, blame
+Tim Thornton
+สาย / สำนัก: Philosophy of Psychiatry, Wittgensteinian Psychiatry, Meaning and Mental Health
+ผลงานสำคัญ:
+Essential Philosophy of Psychiatry
+Wittgenstein on Language and Thought
+งานด้าน judgement, meaning, psychiatry และ values
+แกนความคิด:
+Thornton สำคัญกับการใช้ philosophy of language และ Wittgenstein ใน psychiatry เขาสนใจว่าคำวินิจฉัย คำอธิบายอาการ และความหมายของประสบการณ์ทางจิตเวชทำงานอย่างไร งานของเขาเหมาะมากสำหรับการกันไม่ให้ psychiatry ใช้ภาษาทางเทคนิคจนลืมว่าคำเหล่านั้นกำลังจัดรูปชีวิตคนจริง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+language, psychiatry, meaning, Wittgenstein, diagnosis, judgement
+German Berrios
+สาย / สำนัก: History of Psychiatry, Descriptive Psychopathology, Conceptual History
+ผลงานสำคัญ:
+The History of Mental Symptoms
+งานด้าน descriptive psychopathology และ history of psychiatry
+แกนความคิด:
+Berrios สำคัญกับประวัติศาสตร์แนวคิดอาการทางจิต เขาชี้ว่าอาการอย่าง hallucination, delusion, obsession, melancholia หรือ personality disorder ไม่ได้มีความหมายคงที่ตลอดประวัติศาสตร์ แต่ถูกนิยามใหม่ผ่านภาษา การแพทย์ สถาบัน และทฤษฎีในแต่ละยุค งานของเขาช่วยให้เราไม่คิดว่าคู่มือวินิจฉัยปัจจุบันคือธรรมชาติแท้ของความบ้า
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+history of symptoms, descriptive psychopathology, psychiatric concepts, delusion, hallucination
+Samir Okasha
+สาย / สำนัก: Philosophy of Science, Philosophy of Psychiatry, Evolutionary Explanation
+ผลงานสำคัญ:
+Philosophy of Science: A Very Short Introduction
+งานด้าน evolution, classification และ philosophy of biology
+แกนความคิด:
+Okasha ไม่ใช่ philosopher of psychiatry แบบเฉพาะ แต่สำคัญในฐานะฐาน philosophy of science สำหรับคิดเรื่อง explanation, classification, natural kinds และ evolutionary reasoning ซึ่งใช้มากใน psychiatry โดยเฉพาะเวลาถามว่า mental disorder เป็น natural kind หรือเป็น category ที่สร้างขึ้นเพื่อการรักษา วิจัย และบริหาร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+philosophy of science, explanation, classification, natural kinds, evolution
+Peter Zachar
+สาย / สำนัก: Philosophy of Psychiatry, Classification, Practical Kinds
+ผลงานสำคัญ:
+A Metaphysics of Psychopathology
+งานด้าน psychiatric classification และ practical kinds
+แกนความคิด:
+Zachar เสนอแนวคิด practical kinds เพื่ออธิบาย psychiatric categories ว่าอาจไม่ใช่ natural kinds แบบแข็งเหมือนธาตุเคมี แต่เป็นหมวดหมู่ที่มีประโยชน์เชิงปฏิบัติในบางบริบท เช่น การรักษา วิจัย สื่อสาร และวางนโยบาย งานของเขาเหมาะมากกับการเขียนเรื่อง diagnosis แบบไม่หลงคิดว่าทุกชื่อโรคต้องมี essence เดียวซ่อนอยู่
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+practical kinds, psychiatric classification, psychopathology, diagnosis, nosology
+Ian Hacking / Foucault / Szasz เป็นแกนร่วมอย่างไร
+สาย / สำนัก: Critical Philosophy of Psychiatry, Madness, Classification and Power
+ผลงานสำคัญ:
+Hacking: Rewriting the Soul
+Foucault: Madness and Civilization
+Szasz: The Myth of Mental Illness
+แกนความคิด:
+ถ้าจะวางแกนวิจารณ์ psychiatry ในเว็บ สามคนนี้ควรอยู่ร่วมกัน
+Szasz ให้คำถามเรื่อง medicalization, liberty และการบังคับรักษา
+Foucault ให้คำถามเรื่องอำนาจ สถาบัน และประวัติศาสตร์ของความบ้า
+Hacking ให้คำถามเรื่อง classification, looping effect และการที่ชื่อวินิจฉัยย้อนกลับไปเปลี่ยนตัวตนของมนุษย์
+รวมกันแล้วจะได้สายวิจารณ์ที่ไม่ใช่แค่ “ต่อต้านจิตเวช” แบบดิบ ๆ แต่เป็นการถามว่าเมื่อเราตั้งชื่อความทุกข์ของมนุษย์ เรากำลังช่วยเขา หรือกำลังสร้างกรงใหม่ให้เขาอยู่
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+anti-psychiatry, psychiatric power, diagnosis, looping effect, medicalization, madness
+Jaspers / Stanghellini / Ratcliffe เป็นแกนร่วมอย่างไร
+สาย / สำนัก: Phenomenological Psychopathology, Existential Psychiatry, Lived Experience
+ผลงานสำคัญ:
+Jaspers: General Psychopathology
+Stanghellini: Disembodied Spirits and Deanimated Bodies
+Ratcliffe: Feelings of Being
+แกนความคิด:
+ถ้าจะวางแกน phenomenological psychiatry ในเว็บ สามคนนี้สำคัญมาก
+Jaspers ให้ฐานการแยก explanation กับ understanding
+Stanghellini ให้การอ่าน embodiment, self และ intersubjectivity ใน psychopathology
+Ratcliffe ให้ภาษาเรื่อง existential feelings, depression, grief และโลกที่เปลี่ยนไป
+รวมกันแล้ว psychiatry จะไม่เหลือแค่ checklist ของอาการ แต่กลายเป็นการฟังว่าโลก เวลา ร่างกาย ความสัมพันธ์ และความเป็นฉันของผู้ป่วยเปลี่ยนรูปไปอย่างไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+phenomenological psychopathology, lived experience, depression, schizophrenia, self, world
+Chalmers / Dennett / Nagel เป็นแกนร่วมอย่างไร
+สาย / สำนัก: Consciousness Studies, Philosophy of Mind, Subjectivity
+ผลงานสำคัญ:
+Nagel: “What Is It Like to Be a Bat?”
+Dennett: Consciousness Explained
+Chalmers: The Conscious Mind
+แกนความคิด:
+ถ้าจะวางแกน consciousness ในเว็บ สามคนนี้ควรอยู่เป็นคู่ขัดแย้ง
+Nagel เปิดปัญหา subjectivity ว่าประสบการณ์จากข้างในไม่ถูกจับด้วยข้อมูลบุคคลที่สามง่าย ๆ
+Chalmers ทำให้ปัญหานี้เป็น hard problem ของ consciousness
+Dennett พยายามรื้อภาพลวงของ qualia และอธิบายสำนึกแบบ naturalistic ผ่านกระบวนการของระบบ
+สามคนนี้ช่วยให้การเขียนเรื่องสำนึกไม่ง่ายเป็น “สมองสร้างจิต” หรือ “จิตเหนือสมอง” แต่เห็นสนามถกเถียงจริงของ philosophy of mind
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+consciousness, hard problem, qualia, subjectivity, naturalism, first-person experience
+Clark / Varela / Merleau-Ponty เป็นแกนร่วมอย่างไร
+สาย / สำนัก: Embodied Mind, Enactivism, Extended Cognition
+ผลงานสำคัญ:
+Merleau-Ponty: Phenomenology of Perception
+Varela: The Embodied Mind
+Clark: Supersizing the Mind
+แกนความคิด:
+ถ้าจะวางแกน embodied mind ในเว็บ สามคนนี้สำคัญมาก
+Merleau-Ponty ให้ฐาน lived body และ perception
+Varela ให้ฐาน enactivism และ neurophenomenology
+Clark ให้ฐาน extended mind และ predictive processing
+รวมกันแล้ว mind จะไม่ถูกขังอยู่ในกะโหลก แต่ถูกอ่านผ่านร่างกาย การกระทำ เครื่องมือ สิ่งแวดล้อม และโลกที่มนุษย์เข้าไปอยู่จริง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+embodied mind, extended mind, enactivism, perception, body, environment
+สรุปแกนของสายนี้
+สายนี้ควรเก็บไว้เป็นฐานของเว็บเวลาเขียนเรื่อง:
+philosophy of mind ทำให้เราถามว่า “จิต” คืออะไร ก่อนจะรีบเอาไปใช้ในจิตวิทยา
+consciousness ยังเป็นปัญหาหนัก เพราะข้อมูลสมองบุคคลที่สามอาจไม่เท่ากับประสบการณ์บุคคลที่หนึ่ง
+mind-body problem ยังไม่ตาย มันแค่เปลี่ยนรูปเป็นปัญหา consciousness, embodiment, AI, neuroscience และ self
+intentionality สำคัญมาก เพราะจิตไม่ได้เป็นของลอย ๆ แต่เป็นความสัมพันธ์ที่มุ่งไปหาโลก วัตถุ ความหมาย และผู้อื่น
+philosophy of psychiatry ทำให้เราไม่รับคำว่า mental disorder แบบเชื่อง ๆ แต่ถามว่ามันเป็นโรค ความแตกต่าง ความทุกข์ ความบกพร่อง หรือการตัดสินทางสังคม
+psychiatric diagnosis มีประโยชน์จริง แต่ก็มีอำนาจจริง และอาจเปลี่ยนวิธีที่คนมองตัวเองได้จริง
+phenomenological psychiatry สำคัญมาก เพราะมันฟังโลกของผู้ป่วยจากข้างใน ไม่ใช่ดูแต่ symptom checklist
+critical psychiatry เตือนว่า psychiatry อาจกลายเป็นเครื่องมือควบคุมความเบี่ยงเบนได้ ถ้าไม่ระวังเรื่องอำนาจ สถาบัน และคุณค่าทางสังคม
+embodied / enactive / extended mind ทำให้จิตไม่ถูกลดเหลือสมอง แต่ถูกเข้าใจผ่านร่างกาย โลก เครื่องมือ และความสัมพันธ์
+ถ้าจะเขียน Jung / Freud / Lacan ให้แข็งขึ้น สายนี้จำเป็นมาก เพราะมันให้เครื่องมือถามว่า unconscious, symbol, desire, self, psychosis และ diagnosis มีสถานะทางปรัชญาอย่างไร
+รายชื่อแกนหลักที่ควรใช้เป็นฐานอ้างอิงก่อน
+René Descartes
+Franz Brentano
+Edmund Husserl
+Maurice Merleau-Ponty
+Ludwig Wittgenstein
+Gilbert Ryle
+Wilfrid Sellars
+Donald Davidson
+Hilary Putnam
+Jerry Fodor
+Daniel Dennett
+Thomas Nagel
+David Chalmers
+John Searle
+Ned Block
+Frank Jackson
+Saul Kripke
+Jaegwon Kim
+Patricia Churchland
+Paul Churchland
+Andy Clark
+Francisco Varela
+Evan Thompson
+Alva Noë
+Shaun Gallagher
+Dan Zahavi
+Karl Jaspers
+Ludwig Binswanger
+Medard Boss
+R. D. Laing
+Thomas Szasz
+Michel Foucault
+Ian Hacking
+Jerome Wakefield
+Christopher Boorse
+Derek Bolton
+K. W. M. Fulford
+George Graham
+Jennifer Radden
+Dominic Murphy
+Rachel Cooper
+John Z. Sadler
+Kenneth Kendler
+Giovanni Stanghellini
+Louis Sass
+Josef Parnas
+Thomas Fuchs
+Matthew Ratcliffe
+Lisa Bortolotti
+Hanna Pickard
+Neil Levy
+Tim Thornton
+German Berrios
+Peter Zachar
+รันสายอื่น ๆ ต่อได้เลยค่ะ
+สายถัดไปคือ Educational / Learning / Developmental Science

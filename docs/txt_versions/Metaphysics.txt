@@ -1,0 +1,393 @@
+ได้ค่ะ สายต่อไปคือ Metaphysics / Ontology / Being
+สายนี้คือแกนลึกสุดของปรัชญา เพราะมันไม่ได้ถามแค่ว่า “มนุษย์ควรใช้ชีวิตอย่างไร” แต่ถามว่า
+สิ่งที่มีอยู่คืออะไร
+ความจริงมีโครงสร้างแบบไหน
+ตัวตนเป็น substance หรือ process
+เวลาเป็นสิ่งจริงหรือรูปแบบการรับรู้
+การเปลี่ยนแปลงเป็นของจริงหรือภาพปรากฏ
+และ psyche เป็น “สิ่ง” หรือเป็น “สนามของ becoming”
+Metaphysics / Ontology / Being
+แกนกลาง:
+อะไรคือความจริง สิ่งมีอยู่คืออะไร ตัวตน สาระ เวลา เหตุและผล ความเป็นไปได้ ความจำเป็น ความบังเอิญ substance, process, being, becoming, reality, identity, causality, modality
+เหมาะกับเว็บ:
+ใช้วางฐานเรื่อง being, becoming, substance, process, reality, psyche as dynamic field, identity, self, time, causality, transformation, ontology of psyche
+Metaphysics แบบคลาสสิกเริ่มชัดมากจาก Aristotle แม้ตัว Aristotle เองไม่ได้ใช้ชื่อ “metaphysics” ในความหมายที่เราคุ้น แต่สิ่งที่ภายหลังเรียกว่า Metaphysics คือการศึกษาสิ่งมีอยู่ในฐานะสิ่งมีอยู่ หรือ being qua being และเขาให้ความสำคัญกับคำถามเรื่อง substance / ousia เป็นแกนกลางของการเข้าใจ being. (plato.stanford.edu)
+Parmenides
+ผลงานหลัก:
+On Nature — เหลือเป็น fragment ในรูปบทกวีปรัชญา
+แนวคิดสำคัญ:
+Being / What Is — สิ่งที่เป็น ย่อมเป็น
+Non-being is not — สิ่งที่ไม่เป็น ไม่อาจถูกคิดหรือกล่าวในฐานะสิ่งที่เป็น
+Way of Truth — ทางแห่งความจริง
+Way of Opinion — ทางแห่งความเห็น/ภาพปรากฏของมนุษย์
+Change as Problem — ถ้าสิ่งที่เป็น “เป็น” อย่างแท้จริง การเปลี่ยนแปลงจะเป็นไปได้อย่างไร
+Ontological Monism — ความจริงอาจต้องเป็นหนึ่ง ไม่เกิด ไม่ดับ ไม่เปลี่ยน
+Thinking and Being — การคิดกับสิ่งที่เป็นมีความสัมพันธ์ลึก
+Critique of Appearance — โลกที่เห็นด้วยประสาทสัมผัสอาจไม่น่าไว้ใจ
+Parmenides เป็นหนึ่งในนักคิดที่ทำให้คำถามเรื่อง Being กลายเป็นปัญหาปรัชญาอย่างจริงจัง งานของเขาถูกตีความหลายแบบมาก ทั้งแบบ monism, logical interpretation, modal interpretation และยังเป็นหนึ่งในแรงบีบที่ทำให้นักคิดหลังเขาต้องอธิบายเรื่อง change, plurality และ natural world ให้ซับซ้อนขึ้น. (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Parmenides ใช้เป็นฐานของบทความเรื่อง identity, permanence, illusion, metaphysical ground, self as stable being
+เขาคือขั้วตรงข้ามสำคัญของ Heraclitus:
+Heraclitus = ทุกสิ่งไหล เปลี่ยน แปร
+Parmenides = ความจริงแท้ต้องไม่แตก ไม่ไหล ไม่เปลี่ยน
+ประโยคใช้งานเว็บ:
+Parmenides ทำให้เราต้องถามว่า สิ่งที่เปลี่ยนตลอดเวลาเป็นความจริงแท้ หรือเป็นเพียงภาพปรากฏของสิ่งที่ลึกกว่านั้นซึ่งไม่เปลี่ยนตามโลก
+Aristotle
+ผลงานหลัก:
+Metaphysics, Categories, Physics, De Anima, Nicomachean Ethics
+แนวคิดสำคัญ:
+Being qua Being — ศึกษาสิ่งมีอยู่ในฐานะสิ่งมีอยู่
+Substance / Ousia — สิ่งที่มีฐานะเป็น “สิ่ง” อย่างแท้
+Essence — สิ่งที่ทำให้สิ่งหนึ่งเป็นสิ่งนั้น
+Accident — คุณลักษณะที่มีได้หรือไม่มีได้โดยไม่ทำลายความเป็นสิ่งนั้น
+Form and Matter / Hylomorphism — สิ่งมีอยู่ประกอบด้วย form และ matter
+Potentiality / Actuality — ศักยภาพกับภาวะที่ศักยภาพกลายเป็นจริง
+Four Causes — material, formal, efficient, final cause
+Teleology — สิ่งต่าง ๆ ถูกเข้าใจผ่านจุดหมายหรือภาวะสมบูรณ์
+Prime Mover — หลักสูงสุดที่เป็น actual ล้วนและเป็นเหตุปลายทางของการเคลื่อนไหว
+ใน Metaphysics Aristotle เชื่อมคำถาม “being คืออะไร” เข้ากับคำถาม “substance คืออะไร” และให้ substance มีฐานะพิเศษ เพราะสิ่งอื่น เช่น คุณภาพ ปริมาณ หรือความสัมพันธ์ ต้องอาศัย substance ในการมีอยู่. (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Aristotle สำคัญมากกับบทความเรื่อง psyche as living form, telos, growth, habit, identity, character, process of becoming
+เขาช่วยให้เราไม่อ่าน psyche เป็น “ก้อนวิญญาณลอย ๆ” แต่เป็นรูปแบบชีวิตที่กำลังทำงานในร่างกาย นิสัย การกระทำ และจุดหมาย
+ประโยคใช้งานเว็บ:
+Aristotle ทำให้ psyche ไม่ใช่สิ่งลึกลับที่ซ่อนอยู่หลังร่างกาย แต่เป็นรูปแบบของชีวิตที่ค่อย ๆ แสดงตัวผ่านการเติบโต การกระทำ นิสัย และจุดหมายของสิ่งมีชีวิต
+Spinoza
+ผลงานหลัก:
+Ethics, Theological-Political Treatise, Political Treatise, Treatise on the Emendation of the Intellect
+แนวคิดสำคัญ:
+Substance Monism — มี substance เดียว คือ God or Nature
+Deus sive Natura — พระเจ้าหรือธรรมชาติ
+Attributes — วิธีที่ intellect รับรู้ essence ของ substance เช่น thought และ extension
+Modes — สิ่งเฉพาะทั้งหลายเป็น modification ของ substance
+Immanence — พระเจ้าไม่ได้อยู่ “นอกโลก” แต่เป็นความจริงภายในของโลก
+Necessity — ทุกสิ่งเกิดตามความจำเป็นของธรรมชาติ
+Conatus — แรงพยายามดำรงอยู่ของสิ่งหนึ่ง
+Mind-Body Parallelism — mind และ body ไม่ใช่ substance แยกกัน แต่เป็นการเข้าใจสิ่งเดียวกันผ่าน attributes ต่างกัน
+Freedom as Understanding Necessity — เสรีภาพไม่ใช่การหลุดจากเหตุปัจจัย แต่คือการเข้าใจความจำเป็น
+SEP อธิบายว่าใน ontology ของ Spinoza มี substance เดียวคือ God และมี modes จำนวนมาก ส่วน attributes เช่น thought และ extension เป็นแกนที่ทำให้เราเข้าใจโลกทางความคิดและโลกทางกายได้โดยไม่ต้องแยกเป็นสอง substance แบบ Cartesian dualism. (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Spinoza เหมาะกับบทความเรื่อง mind-body, affect, necessity, desire, conatus, nature, psyche as mode of reality
+ถ้าใช้กับเว็บเรา เขาจะช่วยแก้ปัญหาใหญ่ของจิตวิทยาสมัยใหม่ที่มักแยก mind / body / nature ออกจากกันเกินไป
+ประโยคใช้งานเว็บ:
+Spinoza ทำให้จิตไม่ใช่สิ่งแปลกปลอมที่ติดอยู่ในร่าง แต่เป็นมิติหนึ่งของธรรมชาติเดียวกันที่แสดงตัวทั้งในรูปความคิด ร่างกาย ความปรารถนา และแรงดำรงอยู่
+Leibniz
+ผลงานหลัก:
+Monadology, Discourse on Metaphysics, Theodicy, New Essays on Human Understanding, Principles of Nature and Grace
+แนวคิดสำคัญ:
+Monads — หน่วยพื้นฐานของความจริง เป็นศูนย์กลางของ perception และ appetition
+Pre-established Harmony — monads ไม่ได้กระทำต่อกันโดยตรง แต่ประสานกันผ่าน harmony ที่พระเจ้าตั้งไว้
+Principle of Sufficient Reason — ทุกสิ่งต้องมีเหตุผลเพียงพอว่าทำไมจึงเป็นเช่นนั้น ไม่ใช่อย่างอื่น
+Identity of Indiscernibles — ถ้าสองสิ่งไม่มีความแตกต่างใด ๆ เลย ก็ไม่ใช่สองสิ่งจริง
+Possible Worlds — โลกที่เป็นไปได้ และโลกจริงในฐานะโลกที่พระเจ้าเลือก
+Best of All Possible Worlds — โลกจริงเป็นโลกที่ดีที่สุดในบรรดาโลกที่เป็นไปได้ ในกรอบเทววิทยาของ Leibniz
+Petites Perceptions — การรับรู้เล็ก ๆ ที่ต่ำกว่าระดับสำนึกชัด
+Appetition — แรงภายในที่ทำให้ monad เคลื่อนไปจาก perception หนึ่งสู่อีก perception หนึ่ง
+Perspective — แต่ละ monad สะท้อนจักรวาลจากมุมมองของตัวเอง
+Leibniz เป็นตัวหลักของหลัก sufficient reason ซึ่งกล่าวโดยย่อว่า ทุกความจริงหรือข้อเท็จจริงต้องมีเหตุผลอธิบายได้ว่าทำไมจึงเป็นเช่นนั้น และเขายังเป็นผู้เสนอ pre-established harmony อย่างโด่งดัง โดย finite substances ไม่ได้มี causal interaction ระหว่างกันโดยตรง แต่สถานะของแต่ละสิ่งประสานกันในระดับระบบทั้งหมด. (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Leibniz เหมาะกับบทความเรื่อง perspective, unconscious micro-perceptions, individuality, hidden continuity, possible selves, inner world
+ประโยคใช้งานเว็บ:
+Leibniz ทำให้ตัวตนแต่ละคนไม่ใช่เศษส่วนแยกขาดจากจักรวาล แต่เป็นมุมมองหนึ่งที่สะท้อนโลกทั้งหมดจากตำแหน่งเฉพาะของตัวเอง
+Kant
+ผลงานหลัก:
+Critique of Pure Reason, Critique of Practical Reason, Critique of Judgment, Prolegomena to Any Future Metaphysics
+แนวคิดสำคัญ:
+Transcendental Idealism — เรารู้โลกในฐานะ appearance ภายใต้เงื่อนไขของการรับรู้มนุษย์
+Phenomena — สิ่งที่ปรากฏแก่เราในประสบการณ์
+Noumena / Things-in-themselves — สิ่งในตัวเองที่เราคิดได้ แต่รู้โดยตรงไม่ได้
+Space and Time as Forms of Intuition — space/time เป็นรูปแบบของการรับรู้ ไม่ใช่สิ่งที่เรารู้ในตัวมันเอง
+Categories of Understanding — concept พื้นฐานที่ทำให้ประสบการณ์เป็นระเบียบ
+Synthetic A Priori — ความรู้ที่เพิ่มเนื้อหาแต่มีเงื่อนไขก่อนประสบการณ์
+Limits of Metaphysics — เหตุผลมนุษย์มีขอบเขต ไม่สามารถอ้างรู้สิ่งเหนือประสบการณ์ได้ตามใจ
+Transcendental Apperception — “I think” ที่ต้องสามารถ accompany representations
+Antinomies — เหตุผลเมื่อใช้เกินขอบเขตจะพาตัวเองเข้าคู่ขัดแย้ง
+Kant พลิก metaphysics ครั้งใหญ่ เพราะเขาไม่ได้เริ่มจากถามว่า “โลกในตัวเองเป็นอย่างไร” แต่ถามว่า “เงื่อนไขใดทำให้ประสบการณ์ของโลกเป็นไปได้” ใน Critique of Pure Reason เขาเสนอว่า space และ time เป็น forms of intuition และเรารู้ objects ในฐานะ appearances ไม่ใช่ things-in-themselves โดยตรง. (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Kant สำคัญกับบทความเรื่อง perception, projection, cognitive frame, symbolic interpretation, limits of knowledge, self-awareness
+เขาช่วยให้เว็บคุมความแม่นเวลาพูดเรื่อง psyche:
+เราไม่ได้เห็นโลกดิบ ๆ
+เราเห็นโลกผ่านโครงสร้างการรับรู้
+และจิตไม่ได้เป็นกระจกใส แต่มันมีรูปแบบที่จัดโลกให้ปรากฏแก่เรา
+ประโยคใช้งานเว็บ:
+Kant ทำให้เราต้องถ่อมตัวต่อความจริง เพราะสิ่งที่เราพบไม่ใช่โลกเปลือยเปล่า แต่คือโลกที่ผ่านเงื่อนไขของการรับรู้ ความคิด ภาษา และโครงสร้างของจิตมนุษย์มาแล้ว
+Hegel
+ผลงานหลัก:
+Phenomenology of Spirit, Science of Logic, Encyclopedia of the Philosophical Sciences, Philosophy of Right, Lectures on the Philosophy of History
+แนวคิดสำคัญ:
+Being / Nothing / Becoming — จุดเริ่มของ Science of Logic
+Dialectic — ความคิดเคลื่อนผ่านความขัดแย้ง การปฏิเสธ และการยกระดับ
+Negation — การปฏิเสธไม่ใช่แค่ทำลาย แต่เป็นแรงพัฒนา
+Aufhebung — ยกเลิก เก็บรักษา และยกระดับพร้อมกัน
+Mediation — สิ่งหนึ่งเป็นตัวเองผ่านความสัมพันธ์และการผ่านสิ่งอื่น
+Absolute — ความจริงที่รวมเงื่อนไขและการพัฒนาของตัวเองไว้ในระบบ
+Spirit / Geist — จิตวิญญาณเชิงประวัติศาสตร์ สังคม และความรู้
+Recognition — self-consciousness ต้องผ่านการยอมรับจากอีก self-consciousness
+History as Development of Freedom — ประวัติศาสตร์ในฐานะการคลี่ตัวของเสรีภาพ
+Hegel เป็นนักคิดระบบใหญ่ของ German Idealism หลัง Kant และ SEP อธิบายว่าเขาพยายามสร้าง philosophy แบบ comprehensive จากจุดเริ่มเชิง logic และเป็นที่รู้จักมากกับ account เชิง teleological ของประวัติศาสตร์ รวมถึงบทบาทของ dialectic ใน logic, ethics, politics และ spirit. (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Hegel เหมาะกับบทความเรื่อง conflict, contradiction, recognition, becoming, historical psyche, social self, identity through negation
+เขาสำคัญมากถ้าเว็บเราจะพูดว่า psyche ไม่ได้โตแบบเส้นตรง แต่โตผ่านแรงปะทะ:
+เราไม่ได้กลายเป็นตัวเองด้วยการรักษาความเหมือนเดิม
+แต่ผ่านสิ่งที่ขัดแย้งกับเรา บังคับให้เราเปลี่ยนระดับของตัวเอง
+ประโยคใช้งานเว็บ:
+Hegel ทำให้ความขัดแย้งไม่ใช่ความผิดพลาดของชีวิต แต่เป็นกลไกที่ทำให้ self ถูกบังคับให้พ้นจากรูปเดิมของตัวเอง
+Heidegger
+ผลงานหลัก:
+Being and Time, Introduction to Metaphysics, What Is Metaphysics?, The Question Concerning Technology, Contributions to Philosophy
+แนวคิดสำคัญ:
+Question of Being / Seinsfrage — คำถามเรื่องความหมายของ Being
+Dasein — สิ่งมีอยู่ที่ความเป็นอยู่ของตนเป็นปัญหาสำหรับตนเอง
+Being-in-the-world — มนุษย์ไม่ได้เป็น subject แยกจากโลก แต่ดำรงอยู่ในโลกตั้งแต่แรก
+Thrownness / Geworfenheit — ถูกโยนมาในโลก ภาษา ประวัติศาสตร์ และเงื่อนไขที่ไม่ได้เลือก
+Care / Sorge — โครงสร้างพื้นฐานของ Dasein
+Temporality — เวลาเป็นแกนของการเข้าใจ being ของมนุษย์
+Being-toward-death — ความตายเปิดความเป็นไปได้ของชีวิตแท้
+Ontological Difference — ความต่างระหว่าง beings กับ Being
+Clearing / Lichtung — พื้นที่เปิดให้สิ่งมีอยู่ปรากฏ
+Critique of Metaphysics — วิจารณ์ประเพณีที่ลืมคำถามเรื่อง Being
+ใน Being and Time Heidegger พยายามวาง “fundamental ontology” ผ่านการวิเคราะห์ Dasein เพราะมนุษย์เป็นสิ่งมีอยู่ที่สามารถถามเรื่อง Being ได้ และโครงสร้างพื้นฐานของ Dasein คือ being-in-the-world ไม่ใช่ subject โดดเดี่ยวที่ค่อยไปสัมพันธ์กับโลกทีหลัง. (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Heidegger เหมาะกับบทความเรื่อง existence, anxiety, death, authenticity, world, meaning, thrownness, selfhood, technology
+ถ้าใช้กับเว็บเรา จะช่วยให้คำว่า psyche ไม่ถูกขังอยู่ใน “หัว” แต่กลับมาเป็นชีวิตที่ถูกโยนเข้าโลกจริง:
+เราไม่ได้มีจิตอยู่ในสุญญากาศ
+เราเกิดมาในภาษา ครอบครัว ประวัติศาสตร์ ร่างกาย เวลา และความตาย
+ประโยคใช้งานเว็บ:
+Heidegger ทำให้ตัวตนไม่ใช่สิ่งที่เรานั่งค้นเจอข้างในอย่างเดียว แต่เป็นวิธีที่เราถูกโยนมา อยู่ในโลก ห่วงใย เลือก หนี และเผชิญความตายของตนเอง
+Alfred North Whitehead
+ผลงานหลัก:
+Process and Reality, Science and the Modern World, Adventures of Ideas, Modes of Thought, Religion in the Making
+แนวคิดสำคัญ:
+Process Philosophy — ความจริงพื้นฐานคือ process ไม่ใช่ substance นิ่ง
+Actual Occasions / Actual Entities — หน่วยพื้นฐานของความจริงเป็นเหตุการณ์ของ becoming
+Prehension — การรับ/เกี่ยวข้อง/รู้สึกโลกก่อนหน้าในกระบวนการเกิดของเหตุการณ์ใหม่
+Concrescence — การรวมหลายข้อมูล/หลายความสัมพันธ์ให้กลายเป็น actual occasion หนึ่ง
+Creativity — หลักสูงสุดของการเกิดใหม่
+Eternal Objects — pure potentials หรือรูปแบบความเป็นไปได้
+Societies — กลุ่มของ actual occasions ที่มี pattern ต่อเนื่อง
+Relational Ontology — สิ่งหนึ่งเป็นตัวเองผ่านความสัมพันธ์
+God as Poet of the World — พระเจ้าในฐานะผู้โน้มนำความเป็นไปได้ ไม่ใช่ผู้บังคับแบบ omnipotent control
+Perpetual Perishing — เวลาและ process ทำให้ทุก actual occasion ผ่านไป แต่ทิ้งคุณค่าไว้ในโครงสร้างของโลก
+Whitehead สำคัญกับสาย process ontology เพราะเขาแทนที่ภาพความจริงแบบ substance นิ่งด้วยภาพความจริงแบบ actual occasions หรือเหตุการณ์ขนาดเล็กที่เป็นกระบวนการของ becoming; SEP อธิบายว่าใน Process and Reality เขามอง actual entities เป็น “drops of experience” และ reality เติบโตผ่านหยด/หน่วยของประสบการณ์ที่สัมพันธ์กัน. (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Whitehead เข้ากับ Transformative Psyche Dynamics Theory มากที่สุดในสายนี้ เพราะเขาให้ภาษา ontology สำหรับจิตแบบ dynamic field:
+psyche ไม่ใช่ substance
+self ไม่ใช่ก้อนแข็ง
+experience ไม่ใช่ข้อมูลเฉย ๆ
+identity คือ pattern ของ events ที่สืบต่อกัน
+transformation คือการเกิดใหม่ของ actual occasions ใน pattern ที่เปลี่ยนไป
+ประโยคใช้งานเว็บ:
+Whitehead ทำให้ psyche เป็นสนามของเหตุการณ์ ไม่ใช่สิ่งของ; ตัวตนจึงไม่ใช่ก้อนเดียวที่อยู่ครบถ้วนตั้งแต่ต้น แต่เป็น pattern ของประสบการณ์ที่เกิด ดับ รับอดีต และสร้างความเป็นไปได้ใหม่ในแต่ละขณะ
+นักคิดเสริมที่ควรเก็บไว้ในสายนี้
+Plato
+ควรมี เพราะ:
+Forms เป็นฐานอภิปรัชญาใหญ่เรื่อง reality beyond appearance
+ใช้กับเว็บ:
+form, archetype, image, symbolic truth, cave, appearance vs reality
+Descartes
+ควรมี เพราะ:
+วางปัญหา mind-body dualism, substance, certainty, subject
+ใช้กับเว็บ:
+modern self, mind-body split, subjectivity, rational ego
+Aquinas
+ควรมี เพราะ:
+รับ Aristotle เข้าสู่ Christian metaphysics ผ่าน essence/existence, act/potency, God, being
+ใช้กับเว็บ:
+soul, natural law, personhood, theology of being
+Hume
+ควรมี เพราะ:
+วิจารณ์ causality, substance, self ในเชิง empiricism
+ใช้กับเว็บ:
+self as bundle, habit, causality, skepticism
+Husserl
+ควรมี เพราะ:
+phenomenology ทำให้ ontology ต้องผ่านการวิเคราะห์ประสบการณ์ที่ปรากฏ
+ใช้กับเว็บ:
+consciousness, intentionality, lived experience, first-person psyche
+Gilles Deleuze
+ควรมีแบบข้ามสาย:
+สำคัญกับ difference, becoming, multiplicity, virtual/actual
+ใช้กับเว็บ:
+psyche as multiplicity, becoming, process, anti-fixed identity
+คำศัพท์แกนที่ควรทำเป็น Wiki
+คำ
+ความหมายแกน
+ใช้กับเว็บ
+Being
+ความเป็น / การมีอยู่
+ontology, existence
+Becoming
+การกลายเป็น / การแปรสภาพ
+transformation, psyche dynamics
+Ontology
+การศึกษาสิ่งมีอยู่
+reality map
+Metaphysics
+การศึกษาความจริงระดับฐาน
+being, causality, identity
+Substance
+สิ่งที่ดำรงเป็นฐาน
+self, reality, psyche
+Mode
+รูปเฉพาะ/การแปรของ substance
+Spinoza, psychic expression
+Attribute
+วิธีที่ substance ถูกรับรู้
+mind-body, thought-extension
+Essence
+สิ่งที่ทำให้สิ่งหนึ่งเป็นสิ่งนั้น
+identity
+Existence
+การมีอยู่จริง
+being, presence
+Accident
+คุณลักษณะที่ไม่ใช่แก่น
+persona, traits
+Form
+รูปแบบจัดโครงสร้าง
+archetype, pattern
+Matter
+วัตถุดิบ/สิ่งรับรูป
+body, potential
+Potentiality
+ศักยภาพ
+becoming
+Actuality
+ภาวะที่เป็นจริงแล้ว
+development
+Causality
+เหตุและผล
+psyche dynamics
+Final Cause
+เหตุเชิงจุดหมาย
+telos, individuation
+Necessity
+ความจำเป็น
+fate, determinism
+Contingency
+ความเป็นไปได้ที่จะเป็นอื่น
+freedom, chance
+Modality
+possible / necessary / impossible
+possible selves
+Possible World
+โลกที่อาจเป็นไปได้
+imagination, alternate life
+Appearance
+สิ่งที่ปรากฏ
+perception, projection
+Thing-in-itself
+สิ่งในตัวเอง
+limits of knowledge
+Dialectic
+การเคลื่อนผ่านความขัดแย้ง
+inner conflict
+Negation
+การปฏิเสธที่ก่อรูปใหม่
+shadow, transformation
+Dasein
+ผู้ดำรงอยู่ที่ถามถึง Being
+existential self
+Thrownness
+การถูกโยนมาในโลก
+trauma, condition
+Being-in-the-world
+การดำรงอยู่แบบไม่แยกจากโลก
+lived psyche
+Actual Occasion
+เหตุการณ์จริงพื้นฐาน
+process psyche
+Prehension
+การรับโลกก่อนหน้าเข้าเป็นส่วนของเหตุการณ์ใหม่
+memory, affect
+Concrescence
+การรวมตัวเป็นเหตุการณ์หนึ่ง
+psyche formation
+Creativity
+หลักของการเกิดใหม่
+transformation
+แกนบทความที่ควรแตกจากสายนี้
+สำหรับ Being / Self / Identity
+Self เป็น substance หรือ process
+ตัวตนมีแก่นแท้ไหม หรือเป็น pattern ที่เกิดซ้ำ
+Being vs Becoming: จิตมนุษย์อยู่ฝั่งไหน
+สิ่งที่เราเรียกว่า “ตัวฉัน” เป็นสิ่งเดียวเดิม หรือความต่อเนื่องของเหตุการณ์
+Identity ในฐานะเรื่องเล่า ภาวะดำรงอยู่ หรือโครงสร้าง ontological
+สำหรับ Psyche / TPDT
+Psyche as dynamic field: จิตไม่ใช่กล่อง แต่เป็นสนาม
+Complex เป็น substance หรือ event-pattern
+Affect เป็นเหตุการณ์ ไม่ใช่ของที่ถูกเก็บไว้เฉย ๆ
+Transformation ในฐานะ ontological re-patterning
+Whitehead กับ TPDT: actual occasion, prehension, concrescence
+สำหรับ Jung / Depth Psychology
+Archetype เป็น Form, Pattern หรือ Dynamic Potential
+Self ใน Jung เป็น ontology หรือ psychology
+Being and Shadow: สิ่งที่เราไม่ยอมให้มีอยู่ในตัวเอง
+Individuation เป็น teleology หรือ process
+Projection ในมุม Kant: เราเห็น object หรือเห็น object-through-conditions
+สำหรับ Existential / Phenomenological Bridge
+Heidegger: เราไม่ได้มี psyche นอกโลก
+Being-toward-death กับการกลับมาเป็นตัวเอง
+Anxiety ในฐานะอารมณ์ที่เปิด Being
+Thrownness: ชีวิตที่เราไม่ได้เลือก แต่ต้องรับผิดชอบ
+Authenticity ไม่ใช่การเป็นตัวเองแบบ lifestyle
+สำหรับ Writing / Web / Knowledge System
+Ontology ของเว็บ: เว็บนี้มองมนุษย์เป็นอะไร
+ถ้าเรานิยาม psyche ผิด เว็บทั้งระบบจะผิดอย่างไร
+AI slop เกิดจาก ontology ที่ผิด: เห็นบทความเป็น content ไม่ใช่ event of thought
+Wiki ไม่ใช่คลังข้อมูล แต่เป็น ontology ของความรู้
+Design ontology: UI ที่มองคนเป็น user-object vs living subject
+จุดเชื่อมกับ Jung / Psychology แบบคุมให้คม
+ใช้ได้
+Aristotle → psyche as form of living body
+ใช้แก้ mind-body split และทำให้ psyche มีฐานในชีวิตจริง
+Spinoza → mind-body as one reality under different attributes
+ใช้ดีมากกับ affect, body, desire, nature
+Leibniz → petites perceptions / perspective
+ใช้กับ unconscious micro-perception และมุมมองเฉพาะของแต่ละ psyche
+Kant → conditions of experience
+ใช้กับ projection, perception, symbolic interpretation, cognitive frame
+Hegel → contradiction and recognition
+ใช้กับ inner conflict, shadow, social self, dialectical growth
+Heidegger → being-in-the-world
+ใช้กับ existential psychology, lived experience, worldhood
+Whitehead → psyche as process/event-field
+ใช้กับ TPDT ได้แรงที่สุด เพราะช่วยเปลี่ยนภาพจิตจาก structure นิ่งเป็น dynamic becoming
+ต้องระวัง
+อย่าบอกว่า Aristotle’s substance = ego
+อย่าบอกว่า Spinoza’s God/Nature = Jungian Self ตรง ๆ
+อย่าบอกว่า Leibniz’s monads = complexes
+อย่าบอกว่า Kant = ทุกอย่างเป็น projection แบบหยาบ
+อย่าบอกว่า Hegel = thesis-antithesis-synthesis แบบสูตรสำเร็จตื้น ๆ
+อย่าบอกว่า Heidegger = existential self-help
+อย่าบอกว่า Whitehead = quantum spirituality
+อย่าลืมว่า metaphysics ไม่ใช่คำสวย แต่เป็นการเลือกฐานว่า “เราคิดว่าสิ่งจริงคืออะไร”
+สรุปใช้งานสำหรับเว็บ
+สายนี้ควรเป็นหนึ่งในชั้นฐานที่สุดของเว็บ เพราะมันกำหนดว่าเราจะมองมนุษย์แบบไหน
+ถ้าเรามองมนุษย์เป็น substance แข็ง
+บทความจะพูดเรื่อง identity แบบติดป้าย
+ถ้าเรามองมนุษย์เป็น mechanism
+บทความจะพูดเหมือนซ่อมเครื่องจักร
+ถ้าเรามองมนุษย์เป็น soul แยกจากโลก
+บทความจะลอยจากร่างกายและสังคม
+แต่ถ้าเรามองมนุษย์เป็น dynamic field of becoming
+เว็บจะเริ่มเห็นว่า psyche คือสนามของเหตุการณ์ ความทรงจำ แรงขัดแย้ง ภาพ สัญลักษณ์ ความสัมพันธ์ และความเป็นไปได้ที่กำลังก่อตัวใหม่ตลอดเวลา
+สรุปตัวละครหลัก:
+Parmenides = Being / permanence / truth beyond appearance
+Aristotle = substance / form-matter / actuality-potentiality / telos
+Spinoza = one substance / God or Nature / attributes / modes / necessity
+Leibniz = monads / sufficient reason / possible worlds / pre-established harmony
+Kant = transcendental conditions / phenomena / noumena / limits of metaphysics
+Hegel = dialectic / negation / becoming / recognition / Absolute
+Heidegger = question of Being / Dasein / being-in-the-world / temporality
+Whitehead = process / actual occasions / prehension / creativity / relational becoming
+ประโยคแกนของสายนี้สำหรับเว็บ:
+Metaphysics ทำให้เรารู้ว่า
+ก่อนจะพูดเรื่องจิตมนุษย์
+เราต้องตอบเงียบ ๆ ในใจให้ได้ก่อนว่า
+เราคิดว่าจิตเป็น “สิ่ง” หรือเป็น “กระบวนการ”
+เป็น substance หรือ event
+เป็นแก่นตายตัวหรือ pattern ที่กำลังก่อตัว
+เพราะถ้า ontology ผิด
+การเยียวยา การตีความ การเขียนบทความ และการเข้าใจมนุษย์ทั้งระบบ
+จะเริ่มผิดตั้งแต่ฐานแรกโดยที่เราไม่รู้ตัว
+รันสายถัดไปได้เลยค่ะ: Process Philosophy / Philosophy of Becoming

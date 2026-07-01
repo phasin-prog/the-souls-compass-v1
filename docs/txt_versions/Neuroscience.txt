@@ -1,0 +1,243 @@
+Neuroscience / Neuropsychoanalysis / Affective Neuroscience
+หมายเหตุสั้น ๆ:
+สายนี้ไม่ใช่สำนักเดียวกันทั้งหมด แต่เป็น “กลุ่มความรู้” ที่พยายามอธิบายจิตใจจากระบบประสาท
+Neuroscience = สมอง ระบบประสาท ความจำ การรับรู้ การตัดสินใจ
+Affective Neuroscience = อารมณ์ ความรู้สึก ระบบแรงขับพื้นฐาน
+Neuropsychoanalysis = เอา Freud / จิตวิเคราะห์ กลับไปคุยกับสมองและประสาทวิทยา
+งานของ Panksepp เป็นฐานสำคัญของ affective neuroscience โดยเฉพาะหนังสือ Affective Neuroscience และ The Archaeology of Mind (OUP Academic) ส่วน Solms คือคนสำคัญของ neuropsychoanalysis ร่วมสมัย โดยเฉพาะ The Hidden Spring (Profile Books)
+Jaak Panksepp
+สาย / สำนัก: Affective Neuroscience, Evolutionary Neuroscience, Emotion Systems
+ผลงานสำคัญ:
+Affective Neuroscience: The Foundations of Human and Animal Emotions
+The Archaeology of Mind: Neuroevolutionary Origins of Human Emotions
+Textbook of Biological Psychiatry
+แกนความคิด:
+Panksepp คือคนที่ทำให้อารมณ์ไม่ใช่แค่ “ผลพลอยได้ของความคิด” แต่เป็นระบบพื้นฐานของสมองสัตว์เลี้ยงลูกด้วยนม เขาเสนอระบบอารมณ์พื้นฐาน เช่น SEEKING, FEAR, RAGE, LUST, CARE, PANIC/GRIEF, PLAY ซึ่งสำคัญมากต่อการเข้าใจแรงขับ ความต้องการ ความเจ็บปวด ความผูกพัน และชีวิตจิตไร้สำนึกเชิงชีวภาพ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+อารมณ์ดึกดำบรรพ์, แรงขับ, จิตสัตว์, ความเศร้า, ความกลัว, ความต้องการ, สมองกับ archetypal affect
+Mark Solms
+สาย / สำนัก: Neuropsychoanalysis, Psychoanalysis, Neuropsychology
+ผลงานสำคัญ:
+The Brain and the Inner World
+The Hidden Spring: A Journey to the Source of Consciousness
+Clinical Studies in Neuro-Psychoanalysis
+The Neuropsychology of Dreams
+แกนความคิด:
+Solms คือคนสำคัญที่พยายามทำให้จิตวิเคราะห์กลับมาคุยกับ neuroscience อย่างจริงจัง เขาสนใจคำถามว่า “สำนึกเกิดจากอะไร” และเสนอว่าสำนึกเกี่ยวข้องอย่างลึกกับ feeling, affect, homeostasis, brainstem มากกว่าการมองว่าสำนึกอยู่แค่ cortex หรือการคิดเชิงเหตุผล
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Freud กับสมอง, จิตไร้สำนึกเชิงประสาทวิทยา, ความฝัน, สำนึก, affect, body-mind relation
+Antonio Damasio
+สาย / สำนัก: Neuroscience of Emotion, Consciousness Studies, Embodied Mind
+ผลงานสำคัญ:
+Descartes’ Error
+The Feeling of What Happens
+Looking for Spinoza
+Self Comes to Mind
+The Strange Order of Things
+Feeling & Knowing
+แกนความคิด:
+Damasio สำคัญมากในการรื้อความคิดแบบ “เหตุผลแยกจากอารมณ์” เขาเสนอว่าอารมณ์และความรู้สึกเป็นฐานของการตัดสินใจ ตัวตน และสำนึก ไม่ใช่สิ่งรบกวนเหตุผล งานของเขาเชื่อมสมอง ร่างกาย ความรู้สึก และ self เข้าด้วยกัน โดยเฉพาะแนวคิด somatic marker hypothesis และ consciousness ที่เกิดจากการรับรู้สภาวะของร่างกาย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+ร่างกายกับตัวตน, feeling, consciousness, emotion and reason, Spinoza, embodied self
+Joseph LeDoux
+สาย / สำนัก: Affective Neuroscience, Fear Circuitry, Anxiety Neuroscience
+ผลงานสำคัญ:
+The Emotional Brain
+Synaptic Self
+Anxious
+The Deep History of Ourselves
+แกนความคิด:
+LeDoux คือคนสำคัญด้านสมองกับความกลัว โดยเฉพาะวงจร amygdala, threat response, fear conditioning และ anxiety เขามีบทบาทมากในการทำให้ “ความกลัว” กลายเป็นเรื่องที่อธิบายได้ผ่านระบบประสาท แต่ในงานหลัง ๆ เขาก็ระวังมากขึ้นเรื่องการแยกระหว่าง defensive survival circuits กับ “ความรู้สึกกลัว” ในเชิงประสบการณ์ตัวตน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+fear, anxiety, trauma response, amygdala, survival circuit, unconscious emotional processing
+Eric Kandel
+สาย / สำนัก: Neuroscience, Memory Research, Neurobiology of Learning
+ผลงานสำคัญ:
+Principles of Neural Science
+In Search of Memory
+The Age of Insight
+Psychiatry, Psychoanalysis, and the New Biology of Mind
+แกนความคิด:
+Kandel คือสะพานสำคัญระหว่างชีววิทยาของความจำกับจิตวิทยา เขาศึกษากลไกการเรียนรู้และความจำระดับเซลล์ประสาท โดยเฉพาะ synaptic plasticity งานของเขาทำให้เราเข้าใจว่า “ประสบการณ์” ไม่ใช่แค่เรื่องนามธรรม แต่มันเปลี่ยนสมองได้จริง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+memory, learning, neural plasticity, psychoanalysis and biology, experience changes brain
+Alexander Luria
+สาย / สำนัก: Neuropsychology, Soviet Psychology, Cultural-Historical Psychology
+ผลงานสำคัญ:
+Higher Cortical Functions in Man
+The Working Brain
+The Man with a Shattered World
+The Mind of a Mnemonist
+แกนความคิด:
+Luria คือบิดาคนสำคัญของ neuropsychology สมัยใหม่ เขาไม่ได้มองสมองแบบแยกชิ้นแข็ง ๆ แต่ดูว่า function ทางจิตเกิดจากระบบการทำงานร่วมกันของสมองหลายส่วนอย่างไร จุดแข็งของ Luria คือการอ่าน “คนไข้” ไม่ใช่แค่ “สมอง” ทำให้งานเขายังมีมิติของความเป็นมนุษย์สูงมาก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+brain injury, language, memory, higher mental functions, neuropsychological case study
+Oliver Sacks
+สาย / สำนัก: Clinical Neurology, Narrative Neurology, Neuropsychology
+ผลงานสำคัญ:
+Awakenings
+The Man Who Mistook His Wife for a Hat
+An Anthropologist on Mars
+Musicophilia
+Hallucinations
+แกนความคิด:
+Sacks คือคนที่ทำให้ neurology มี “วิญญาณของมนุษย์” เขาเขียน case study ทางสมองอย่างมีความเป็นวรรณกรรม เห็นทั้งความผิดปกติ ความสูญเสีย ความสามารถพิเศษ และความเป็นตัวตนของคนไข้ งานของเขาเหมาะมากสำหรับเว็บไซต์ที่ไม่อยากให้ neuroscience แห้งเป็นภาพสแกนสมองเฉย ๆ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+case study, identity after brain damage, music and mind, hallucination, neurological self
+V. S. Ramachandran
+สาย / สำนัก: Behavioral Neurology, Neuropsychology, Body Image, Consciousness
+ผลงานสำคัญ:
+Phantoms in the Brain
+The Tell-Tale Brain
+A Brief Tour of Human Consciousness
+แกนความคิด:
+Ramachandran สำคัญกับเรื่อง phantom limb, mirror therapy, body image, brain plasticity และความสัมพันธ์ระหว่างสมองกับภาพร่างกาย เขาเป็นนักคิดที่ทำให้เราเห็นว่า “ตัวตนทางร่างกาย” ไม่ได้เรียบง่ายอย่างที่คิด สมองสร้างภาพของร่างกายขึ้นมา และภาพนั้นอาจบิดเบี้ยว เปลี่ยน หรือซ่อมแซมได้
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+phantom limb, body image, mirror neurons, self-image, embodied identity
+Donald Hebb
+สาย / สำนัก: Neuropsychology, Learning Theory, Neural Networks
+ผลงานสำคัญ:
+The Organization of Behavior
+แกนความคิด:
+Hebb สำคัญมากกับแนวคิดเรื่องการเรียนรู้ระดับเครือข่ายประสาท โดยประโยคที่มักสรุปงานเขาคือ “neurons that fire together wire together” แม้จะเป็นการสรุปแบบ popular แต่แกนจริงคือสมองเรียนรู้ผ่านการเสริมแรงของการเชื่อมต่อระหว่างเซลล์ประสาท
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+learning, habit, neural association, memory formation, brain plasticity
+Michael Gazzaniga
+สาย / สำนัก: Cognitive Neuroscience, Split-Brain Research, Consciousness
+ผลงานสำคัญ:
+The Social Brain
+The Mind’s Past
+Human: The Science Behind What Makes Us Unique
+Who’s in Charge?
+แกนความคิด:
+Gazzaniga สำคัญกับงาน split-brain และคำถามเรื่อง “ตัวตนผู้เล่าเรื่อง” เขาเสนอแนวคิดเรื่อง left-brain interpreter คือสมองซีกซ้ายมีแนวโน้มสร้างคำอธิบายหลังเหตุการณ์ เพื่อทำให้พฤติกรรมของเราดูมีเหตุผลและต่อเนื่อง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self as narrator, split-brain, consciousness, confabulation, free will
+Karl Friston
+สาย / สำนัก: Theoretical Neuroscience, Predictive Processing, Free Energy Principle
+ผลงานสำคัญ:
+งานวิชาการเรื่อง Free Energy Principle
+งานเกี่ยวกับ Active Inference
+งานด้าน computational neuroscience และ brain modeling
+แกนความคิด:
+Friston เป็นนักคิดร่วมสมัยที่ยากแต่ทรงอิทธิพลมาก เขาเสนอว่าสมองไม่ได้แค่รับข้อมูลจากโลก แต่คอยคาดการณ์โลกอยู่ตลอดเวลา แล้วลดความคลาดเคลื่อนระหว่างสิ่งที่คาดกับสิ่งที่เกิดจริง แนวคิดนี้ต่อยอดไปถึง perception, action, emotion, psychopathology และ consciousness
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+predictive mind, active inference, anxiety as prediction, self-model, free energy
+Allan Schore
+สาย / สำนัก: Developmental Neuroscience, Attachment Neurobiology, Affect Regulation
+ผลงานสำคัญ:
+Affect Regulation and the Origin of the Self
+Affect Dysregulation and Disorders of the Self
+The Science of the Art of Psychotherapy
+Right Brain Psychotherapy
+แกนความคิด:
+Schore เชื่อม attachment, affect regulation, right brain และพัฒนาการของ self เขาสำคัญมากถ้าจะอธิบายว่าเด็กไม่ได้โตขึ้นด้วยคำสอนอย่างเดียว แต่โตผ่านระบบประสาทที่ถูกปรับโดยความสัมพันธ์ โดยเฉพาะความสามารถในการ regulate อารมณ์
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+attachment and brain, affect regulation, right brain, early trauma, self development
+Stephen Porges
+สาย / สำนัก: Autonomic Nervous System, Polyvagal Theory, Trauma-Informed Body Psychology
+ผลงานสำคัญ:
+The Polyvagal Theory
+The Pocket Guide to the Polyvagal Theory
+Polyvagal Safety
+แกนความคิด:
+Porges เสนอ Polyvagal Theory เพื่ออธิบายระบบประสาทอัตโนมัติ ความปลอดภัย การเชื่อมสัมพันธ์ freeze, fight-flight และ social engagement แนวนี้มีอิทธิพลมากใน trauma therapy และ somatic therapy
+ข้อควรระวัง:
+ควรใช้แบบมีสติ เพราะ Polyvagal Theory มีทั้งส่วนที่มีประโยชน์เชิงคลินิกและส่วนที่ถูกวิจารณ์ทางวิทยาศาสตร์ อย่าเขียนเหมือนเป็นความจริงเด็ดขาดทั้งหมด
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+safety, nervous system regulation, trauma body response, freeze, social engagement
+Bud Craig / A. D. Craig
+สาย / สำนัก: Interoception, Affective Neuroscience, Conscious Awareness
+ผลงานสำคัญ:
+How Do You Feel? An Interoceptive Moment with Your Neurobiological Self
+งานวิจัยเรื่อง insula, interoception, bodily feeling
+แกนความคิด:
+Craig สำคัญกับคำถามว่า “เรารู้สึกว่ามีร่างกายอยู่ได้อย่างไร” เขาศึกษา interoception หรือการรับรู้สภาวะภายในร่างกาย เช่น เจ็บ หิว เหนื่อย อุ่น เย็น แน่นหน้าอก ซึ่งเชื่อมกับ emotion, self-awareness และ consciousness โดยตรง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+interoception, bodily self, feeling body, insula, self-awareness
+Kent Berridge
+สาย / สำนัก: Affective Neuroscience, Reward System, Motivation
+ผลงานสำคัญ:
+งานวิจัยเรื่อง wanting vs liking
+งานด้าน reward, motivation, pleasure, addiction
+แกนความคิด:
+Berridge สำคัญมากกับการแยกระหว่าง “อยากได้” กับ “ชอบจริง ๆ” หรือ wanting / liking นี่คมมากสำหรับอธิบาย addiction, desire, craving และแรงขับในมนุษย์ เพราะหลายครั้งเราถูกระบบอยากลากไป ทั้งที่ไม่ได้มีความสุขจริงกับสิ่งนั้นแล้ว
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+desire, addiction, craving, reward system, pleasure, compulsion
+Richard Davidson
+สาย / สำนัก: Affective Neuroscience, Contemplative Neuroscience, Emotion Regulation
+ผลงานสำคัญ:
+The Emotional Life of Your Brain
+งานวิจัยด้าน emotion, meditation, brain plasticity
+แกนความคิด:
+Davidson เชื่อม neuroscience กับ emotion regulation, temperament, meditation และ well-being เขาสำคัญถ้าจะเขียนเรื่องสมองกับการฝึกจิต โดยเฉพาะการเปลี่ยนแปลงทางอารมณ์ผ่านการฝึก attention, mindfulness และ compassion
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+emotion regulation, meditation, temperament, affective style, neuroplasticity
+Helen Mayberg
+สาย / สำนัก: Neuropsychiatry, Depression Circuitry, Brain Stimulation
+ผลงานสำคัญ:
+งานวิจัยด้าน depression circuit
+งานด้าน deep brain stimulation สำหรับ depression
+งานเกี่ยวกับ subcallosal cingulate และ mood regulation
+แกนความคิด:
+Mayberg สำคัญกับการมองโรคซึมเศร้าในฐานะปัญหาระบบวงจรสมอง ไม่ใช่แค่สารเคมีตัวเดียว งานของเธอทำให้เห็นว่า mood, depression, motivation และ self-experience เกี่ยวข้องกับ network ในสมองอย่างซับซ้อน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+depression, mood circuit, neuropsychiatry, brain stimulation, affective disorder
+Anil Seth
+สาย / สำนัก: Consciousness Science, Predictive Processing, Self-Model Theory
+ผลงานสำคัญ:
+Being You: A New Science of Consciousness
+งานวิจัยด้าน consciousness, perception, selfhood
+แกนความคิด:
+Seth เสนอแนวคิดว่าสำนึกและตัวตนเกี่ยวข้องกับการคาดการณ์ของสมองต่อโลกและร่างกาย เขามักอธิบาย perception ว่าเป็นเหมือน “controlled hallucination” คือสมองไม่ได้เห็นโลกดิบ ๆ แต่สร้างประสบการณ์ขึ้นจากการทำนายและปรับแก้ตลอดเวลา
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+consciousness, self-model, predictive processing, perception, embodied self
+Iain McGilchrist
+สาย / สำนัก: Neuroscience, Philosophy of Mind, Hemisphere Theory
+ผลงานสำคัญ:
+The Master and His Emissary
+The Matter with Things
+แกนความคิด:
+McGilchrist สำคัญในฐานะนักคิดที่เชื่อมสมองซีกซ้าย-ขวากับวัฒนธรรม ปรัชญา และวิธีที่มนุษย์รับรู้โลก เขาไม่ได้พูดแค่เรื่องสมองแบบแคบ ๆ แต่ใช้สมองเป็นทางเข้าไปสู่คำถามเรื่องความหมาย ความสัมพันธ์ และวิธีที่มนุษย์ทำโลกให้กลายเป็นวัตถุ
+ข้อควรระวัง:
+ควรใช้เป็นสายปรัชญา-ประสาทวิทยาเชิงตีความ ไม่ใช่อ้างแบบ neuroscience แข็ง ๆ ทั้งหมด
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+left/right hemisphere, modernity, attention, meaning, reductionism, symbolic perception
+Lisa Feldman Barrett
+สาย / สำนัก: Affective Neuroscience, Emotion Theory, Constructed Emotion
+ผลงานสำคัญ:
+How Emotions Are Made
+Seven and a Half Lessons About the Brain
+แกนความคิด:
+Barrett เสนอทฤษฎี constructed emotion ที่มองว่าอารมณ์ไม่ได้เป็นแพ็กเกจตายตัวแบบ fear/anger/sadness ที่มีวงจรเฉพาะหนึ่งต่อหนึ่ง แต่สมองสร้างอารมณ์ขึ้นจาก prediction, body budget, concept และบริบททางวัฒนธรรม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+emotion construction, affect, prediction, body budget, culture and emotion
+หมายเหตุ:
+Barrett จะไปเด่นมากในสายถัดไป Emotion Theory / Affect Theory / Emotion-Focused Therapy ด้วย
+สรุปแกนของสายนี้
+สายนี้ควรเก็บไว้เป็นฐานของเว็บเวลาเขียนเรื่อง:
+สมองไม่ได้เป็นแค่เครื่องคิด แต่เป็นระบบมีชีวิตที่รู้สึก
+อารมณ์ไม่ใช่ของต่ำกว่าเหตุผล แต่อาจเป็นฐานของเหตุผล
+จิตไร้สำนึกไม่ได้มีแค่เชิงสัญลักษณ์ แต่มีมิติชีวภาพ / ระบบประสาท / ร่างกาย
+self ไม่ใช่สิ่งแข็งตัว แต่เกิดจากสมอง ร่างกาย ความจำ อารมณ์ และการเล่าเรื่องร่วมกัน
+trauma, anxiety, depression, desire, attachment ล้วนต้องอ่านผ่านทั้ง psyche และ nervous system
+ถ้าจะเชื่อม Jung / Freud / Lacan กับวิทยาศาสตร์ร่วมสมัย สายนี้คือสะพานสำคัญมาก
+รายชื่อแกนหลักที่ควรใช้เป็นฐานอ้างอิงก่อน
+Jaak Panksepp
+Mark Solms
+Antonio Damasio
+Joseph LeDoux
+Eric Kandel
+Alexander Luria
+Oliver Sacks
+V. S. Ramachandran
+Allan Schore
+Karl Friston
+Bud Craig
+Kent Berridge
+Richard Davidson
+Helen Mayberg
+Anil Seth
+Lisa Feldman Barrett
+Iain McGilchrist
+Stephen Porges

@@ -7,6 +7,7 @@ import {
   Noto_Serif_Thai,
   Playfair_Display,
   Cinzel,
+  EB_Garamond,
 } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
@@ -76,6 +77,15 @@ const cinzel = Cinzel({
   display: "swap",
 });
 
+// EB Garamond — ฟอนต์ italic สำหรับ intro preloader (มี Greek + diacritics ครบ: ἀρχή ἄρχων Χρόνος)
+const ebGaramond = EB_Garamond({
+  subsets: ["greek", "latin"],
+  weight: ["400", "500"],
+  style: ["normal", "italic"],
+  variable: "--font-eb-garamond",
+  display: "swap",
+});
+
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
@@ -98,7 +108,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html
         lang="th"
-        className={`${inter.variable} ${notoSansThai.variable} ${ibmPlexSerif.variable} ${notoSerifThai.variable} ${ibmPlexThai.variable} ${playfair.variable} ${cinzel.variable}`}
+        className={`${inter.variable} ${notoSansThai.variable} ${ibmPlexSerif.variable} ${notoSerifThai.variable} ${ibmPlexThai.variable} ${playfair.variable} ${cinzel.variable} ${ebGaramond.variable}`}
       >
         <head>
           <meta charSet="utf-8" />

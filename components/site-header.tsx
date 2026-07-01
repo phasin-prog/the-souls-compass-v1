@@ -3,19 +3,34 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { ArchronLogomark } from "@/components/icons";
+import {
+  ArchronLogomark,
+  KnowledgeHubIcon,
+  ManifestoIcon,
+  QuoteIcon,
+  ExternalLinkIcon,
+  HelpIcon,
+  HeartIcon,
+  SearchIcon,
+  MenuIcon,
+  CloseIcon,
+  LoginIcon,
+  EditIcon,
+  LogoutIcon,
+} from "@/components/icons";
 import { SignedIn, SignedOut, useClerk } from "@clerk/nextjs";
 
-type NavItem = { label: string; href: string; icon: string };
+type IconComponent = React.ComponentType<{ className?: string }>;
+type NavItem = { label: string; href: string; Icon: IconComponent };
 
 // ลิงก์ระดับบนทั้งหมด — แยกเป็นลิงก์เดี่ยว ไม่มี dropdown
 const NAV: NavItem[] = [
-  { label: "เข้าสู่คลังความรู้", href: "/knowledge", icon: "explore" },
-  { label: "ปฏิญญา", href: "/manifesto", icon: "description" },
-  { label: "แหล่งอ้างอิง", href: "/sources", icon: "format_quote" },
-  { label: "ทรัพยากรภายนอก", href: "/external-links", icon: "link" },
-  { label: "คำถามที่พบบ่อย", href: "/faq", icon: "help" },
-  { label: "สนับสนุนโครงการ", href: "/support", icon: "favorite" },
+  { label: "เข้าสู่คลังความรู้", href: "/knowledge", Icon: KnowledgeHubIcon },
+  { label: "ปฏิญญา", href: "/manifesto", Icon: ManifestoIcon },
+  { label: "แหล่งอ้างอิง", href: "/sources", Icon: QuoteIcon },
+  { label: "ทรัพยากรภายนอก", href: "/external-links", Icon: ExternalLinkIcon },
+  { label: "คำถามที่พบบ่อย", href: "/faq", Icon: HelpIcon },
+  { label: "สนับสนุนโครงการ", href: "/support", Icon: HeartIcon },
 ];
 
 export function SiteHeader() {
@@ -65,13 +80,11 @@ export function SiteHeader() {
                   isActive ? "text-accent font-semibold" : "text-on-surface-variant hover:text-accent"
                 }`}
               >
-                <span
-                  className={`material-symbols-outlined text-[17px] transition-colors ${
+                <item.Icon
+                  className={`h-[17px] w-[17px] shrink-0 transition-colors ${
                     isActive ? "text-accent" : "text-accent/60 group-hover:text-accent"
                   }`}
-                >
-                  {item.icon}
-                </span>
+                />
                 {item.label}
               </Link>
             );
@@ -86,15 +99,15 @@ export function SiteHeader() {
               pathname === "/search" ? "text-accent" : "text-on-surface-variant hover:text-accent"
             }`}
           >
-            <span className="material-symbols-outlined text-[22px]">search</span>
+            <SearchIcon className="h-[22px] w-[22px]" />
           </Link>
-          
+
           <SignedOut>
             <Link
               href="/th/login"
               className="hidden items-center gap-1.5 border border-accent/30 bg-accent/5 px-6 py-2.5 text-[10px] font-semibold tracking-[0.08em] text-accent transition-all duration-500 hover:bg-accent hover:text-prima lg:inline-flex"
             >
-              <span className="material-symbols-outlined text-[15px]">login</span>
+              <LoginIcon className="h-3.5 w-3.5" />
               เข้าสู่ระบบ
             </Link>
           </SignedOut>
@@ -105,14 +118,14 @@ export function SiteHeader() {
                 href="/studio"
                 className="inline-flex items-center gap-1.5 border border-accent/30 bg-accent/10 px-6 py-2.5 text-[10px] font-semibold tracking-[0.08em] text-accent transition-all duration-500 hover:bg-accent hover:text-prima"
               >
-                <span className="material-symbols-outlined text-[15px]">edit_note</span>
+                <EditIcon className="h-3.5 w-3.5" />
                 Studio
               </Link>
               <button
                 onClick={() => clerk.signOut()}
                 className="inline-flex items-center gap-1.5 border border-danger/30 bg-danger/5 px-5 py-2.5 text-[10px] font-semibold tracking-[0.08em] text-danger transition-all duration-500 hover:bg-danger hover:text-ivory cursor-pointer"
               >
-                <span className="material-symbols-outlined text-[15px]">logout</span>
+                <LogoutIcon className="h-3.5 w-3.5" />
                 ออกจากระบบ
               </button>
             </div>
@@ -127,7 +140,7 @@ export function SiteHeader() {
             aria-label={open ? "ปิดเมนู" : "เปิดเมนู"}
             aria-expanded={open}
           >
-            <span className="material-symbols-outlined text-2xl">{open ? "close" : "menu"}</span>
+            {open ? <CloseIcon className="h-6 w-6" /> : <MenuIcon className="h-6 w-6" />}
           </button>
         </div>
       </nav>
@@ -135,7 +148,7 @@ export function SiteHeader() {
       {/* Mobile / tablet (< lg): ลิงก์แยกเดี่ยว + Studio */}
       {open ? (
         <nav
-          className="menu-in border-t border-slate-boundary/40 bg-deep-navy px-6 py-4 lg:hidden"
+          className="menu-in glass-nav-panel border-t border-slate-boundary/40 px-6 py-4 lg:hidden"
           aria-label="เมนูมือถือ"
         >
           {NAV.map((item) => {
@@ -149,13 +162,11 @@ export function SiteHeader() {
                   isActive ? "text-accent font-semibold" : "text-on-surface-variant hover:text-accent"
                 }`}
               >
-                <span
-                  className={`material-symbols-outlined text-[20px] transition-colors ${
+                <item.Icon
+                  className={`h-5 w-5 shrink-0 transition-colors ${
                     isActive ? "text-accent" : "text-accent/70"
                   }`}
-                >
-                  {item.icon}
-                </span>
+                />
                 {item.label}
               </Link>
             );
@@ -166,7 +177,7 @@ export function SiteHeader() {
               onClick={() => setOpen(false)}
               className="mt-3 inline-flex items-center gap-2 rounded border border-accent/30 px-4 py-2.5 text-base font-medium text-accent transition-colors hover:bg-accent hover:text-prima"
             >
-              <span className="material-symbols-outlined text-[20px]">login</span>
+              <LoginIcon className="h-5 w-5" />
               เข้าสู่ระบบ
             </Link>
           </SignedOut>
@@ -178,7 +189,7 @@ export function SiteHeader() {
                 onClick={() => setOpen(false)}
                 className="mt-3 inline-flex items-center gap-2 rounded border border-accent/30 px-4 py-2.5 text-base font-medium text-accent transition-colors hover:bg-accent hover:text-prima"
               >
-                <span className="material-symbols-outlined text-[20px]">edit_note</span>
+                <EditIcon className="h-5 w-5" />
                 Studio
               </Link>
               <button
@@ -188,7 +199,7 @@ export function SiteHeader() {
                 }}
                 className="inline-flex items-center gap-2 rounded border border-danger/30 px-4 py-2.5 text-base font-medium text-danger transition-colors hover:bg-danger hover:text-ivory cursor-pointer"
               >
-                <span className="material-symbols-outlined text-[20px]">logout</span>
+                <LogoutIcon className="h-5 w-5" />
                 ออกจากระบบ
               </button>
             </div>

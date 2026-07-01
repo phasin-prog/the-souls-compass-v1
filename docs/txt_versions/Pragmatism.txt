@@ -1,0 +1,311 @@
+ได้ค่ะ สายต่อไปคือ Pragmatism / American Philosophy
+สายนี้สำคัญมากกับเว็บของสิน เพราะมันทำหน้าที่ “ดึงทฤษฎีกลับมาชนชีวิตจริง” โดยไม่ลดความคิดให้เหลือแค่ประโยชน์หยาบ ๆ
+Pragmatism / American Philosophy
+แกนกลาง:
+ความจริงในฐานะสิ่งที่ต้องพิสูจน์ในประสบการณ์ การทดลอง การกระทำ ผลลัพธ์ ชุมชนผู้สืบค้น ประชาธิปไตย การเรียนรู้ และคำถามว่า แนวคิดหนึ่งเปลี่ยนชีวิตจริงอย่างไร
+เหมาะกับเว็บ:
+ใช้กับ AI usage, learning system, Obsidian/Wiki, writing practice, democracy of knowledge, therapy as practice, truth as inquiry, anti-theory-floating, practical philosophy, self-cultivation through action
+Pragmatism เริ่มในสหรัฐอเมริการาวทศวรรษ 1870 และพัฒนาโดยนักคิดคลาสสิกอย่าง Charles Sanders Peirce, William James และ John Dewey โดยแกนร่วมคือการมองความรู้ไม่แยกจากการกระทำในโลก และใช้ผลเชิงประสบการณ์/การปฏิบัติเป็นวิธีตรวจความหมายของแนวคิด ไม่ใช่ปล่อยให้ทฤษฎีลอยอยู่เหนือชีวิตจริง. (Stanford Encyclopedia of Philosophy)
+Charles Sanders Peirce
+ผลงานหลัก:
+How to Make Our Ideas Clear, The Fixation of Belief, Collected Papers, Writings of Charles S. Peirce
+แนวคิดสำคัญ:
+Pragmatic Maxim — ความหมายของแนวคิดต้องดูจากผลเชิงปฏิบัติที่พึงคาดได้
+Inquiry — การสืบค้นเริ่มจาก doubt และมุ่งไปสู่ belief ที่มั่นคงกว่า
+Fallibilism — ความรู้มนุษย์ผิดได้เสมอ
+Community of Inquiry — ความจริงไม่ใช่ของ ego เดี่ยว แต่เกิดในชุมชนผู้สืบค้นระยะยาว
+Abduction — การตั้งสมมติฐานอธิบายที่ดีที่สุดเบื้องต้น
+Deduction / Induction / Abduction — เหตุผลสามรูปแบบในการสืบค้น
+Semiotics — sign, object, interpretant
+Firstness / Secondness / Thirdness — หมวดพื้นฐานของประสบการณ์และความสัมพันธ์
+Anti-Cartesianism — ไม่เริ่มจาก subject ที่แยกขาด แต่เริ่มจาก inquiry, sign, community และ practice
+Peirce ใช้ pragmatic maxim เพื่อทำให้แนวคิดชัดขึ้นโดยถามว่า ถ้าแนวคิดนั้นจริง มันจะสร้างผลแตกต่างอะไรในประสบการณ์หรือการกระทำ และเขายังสำคัญมากกับ semiotics และ logic of inquiry โดยเฉพาะ abduction ซึ่งเป็นการตั้งสมมติฐานเพื่อเปิดทางให้ความคิดใหม่เกิดขึ้น. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Peirce เหมาะกับบทความเรื่อง การตรวจแนวคิด, source discipline, symbolic interpretation, AI fact-checking, abduction ในการอ่านฝัน/สัญลักษณ์
+ประโยคใช้งานเว็บ:
+Peirce ทำให้แนวคิดไม่รอดเพราะฟังดูลึก แต่ต้องถามได้ว่า ถ้ามันจริง มันทำให้เราคาดหวังอะไร ตรวจอะไร หรือปฏิบัติต่อโลกต่างไปจากเดิมอย่างไร
+William James
+ผลงานหลัก:
+Pragmatism, The Principles of Psychology, The Varieties of Religious Experience, Essays in Radical Empiricism, The Will to Believe, A Pluralistic Universe
+แนวคิดสำคัญ:
+Pragmatic Method — ตัดข้อถกเถียงนามธรรมด้วยการถามว่าแตกต่างในทางปฏิบัติไหม
+Radical Empiricism — ประสบการณ์รวมความสัมพันธ์ ไม่ใช่แค่ข้อมูลโดด ๆ
+Stream of Consciousness — จิตสำนึกเป็นกระแส ไม่ใช่กล่องเก็บความคิด
+Cash Value of Ideas — แนวคิดมีมูลค่าเมื่อมันทำงานในประสบการณ์จริง
+Pluralism — ความจริงไม่จำเป็นต้องถูกรวมเป็นระบบเดียวหมด
+Will to Believe — บางความเชื่อที่มีชีวิต บังคับให้เลือก และสำคัญ อาจต้องตัดสินก่อนหลักฐานสมบูรณ์
+Religious Experience — ศาสนาควรถูกศึกษาในฐานะประสบการณ์มีชีวิต
+Truth as Verification Process — ความจริงเกี่ยวข้องกับการถูกทำให้จริง/ตรวจสอบในประสบการณ์
+Temperament in Philosophy — ปรัชญาไม่เคยแยกจากอารมณ์พื้นฐานของผู้คิดทั้งหมด
+James เสนอ pragmatism เป็นวิธีคลี่ข้อถกเถียงที่ไม่จบ โดยถามว่าถ้าความเห็นหนึ่งถูก อีกความเห็นหนึ่งผิด จะมีผลต่างอะไรต่อประสบการณ์และการปฏิบัติจริงหรือไม่ และเขายังเสนอ radical empiricism ซึ่งมองว่าความสัมพันธ์ระหว่างสิ่งต่าง ๆ เป็นส่วนหนึ่งของประสบการณ์จริง ไม่ใช่สิ่งที่จิตเติมทีหลัง. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+James เหมาะกับบทความเรื่อง consciousness, religious experience, practical truth, lived experience, plural psyche, ความจริงที่เปลี่ยนชีวิต
+ประโยคใช้งานเว็บ:
+William James ทำให้ความจริงไม่ใช่รูปปั้นเย็น ๆ ที่ตั้งอยู่นอกชีวิต แต่เป็นสิ่งที่ต้องเดินผ่านประสบการณ์ ความเสี่ยง ความเชื่อ การทดลอง และผลที่เกิดขึ้นจริงในชีวิตมนุษย์
+John Dewey
+ผลงานหลัก:
+Democracy and Education, Experience and Nature, Art as Experience, Human Nature and Conduct, The Public and Its Problems, Logic: The Theory of Inquiry
+แนวคิดสำคัญ:
+Experience as Transaction — ประสบการณ์คือการปฏิสัมพันธ์ระหว่างสิ่งมีชีวิตกับสิ่งแวดล้อม
+Inquiry as Problem-solving — ความคิดเกิดเมื่อ habit เดิมสะดุดและต้องแก้ปัญหา
+Learning by Doing — เรียนรู้ผ่านการลงมือ ทำ ทดลอง และสะท้อนผล
+Democracy as Way of Life — ประชาธิปไตยไม่ใช่แค่ระบอบ แต่เป็นวิถีการอยู่ร่วมและเรียนรู้ร่วม
+Education as Growth — การศึกษาไม่ใช่การยัดข้อมูล แต่คือการสร้างความสามารถเติบโตต่อ
+Habit — นิสัยเป็นโครงสร้างของการกระทำและการปรับตัว
+Instrumentalism — idea เป็นเครื่องมือในการจัดการสถานการณ์
+Art as Experience — ศิลปะไม่ใช่วัตถุแยกจากชีวิต แต่เป็นประสบการณ์ที่มีความสมบูรณ์
+Public and Communication — สาธารณะเกิดเมื่อผลของการกระทำร่วมต้องถูกสื่อสารและจัดการร่วมกัน
+ใน SEP ภาพรวมของ pragmatism อธิบายว่า Dewey พัฒนาแนวคิด experience แบบไม่แยกผู้รู้จากโลก แต่เน้นการ transacting กับธรรมชาติ/สิ่งแวดล้อม และ Britannica ก็วาง Dewey เป็นหนึ่งในนักคิดคลาสสิกที่ทำให้ pragmatism ขยายไปสู่การศึกษา ประชาธิปไตย และการทดลองทางสังคม. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Dewey เหมาะสุด ๆ กับโปรเจกต์ของสินเรื่อง ลด AI, กลับมาคิดเอง, ทำ Obsidian/Wiki เป็นระบบฝึกคิด, เว็บเป็นพื้นที่เรียนรู้ ไม่ใช่คลังบทความ
+ประโยคใช้งานเว็บ:
+Dewey ทำให้การเรียนรู้ไม่ใช่การสะสมคำตอบ แต่เป็นการเข้าไปอยู่ในปัญหา ทดลอง ปรับตัว สะท้อนผล และค่อย ๆ สร้างนิสัยใหม่ของความคิด
+George Herbert Mead
+ผลงานหลัก:
+Mind, Self, and Society, The Philosophy of the Present, Movements of Thought in the Nineteenth Century
+แนวคิดสำคัญ:
+Social Self — self เกิดจากปฏิสัมพันธ์ทางสังคม ไม่ใช่ก้อนภายในที่มีอยู่ก่อน
+Significant Symbols — สัญลักษณ์/คำพูดที่มีความหมายร่วมในปฏิสัมพันธ์
+Role-taking — การรับบทบาทของผู้อื่น
+Generalized Other — ท่าทีของชุมชนที่ถูก internalized เข้ามาใน self
+I / Me — “I” คือด้านตอบสนอง สร้างสรรค์ คาดเดายาก; “Me” คือด้านที่รับท่าทีของสังคม
+Mind as Social Process — mind เกิดผ่านภาษา gesture และ interaction
+Self-consciousness — เกิดเมื่อเราสามารถเป็น object ให้ตัวเองได้ผ่านสายตาผู้อื่น
+Symbolic Interactionism — รากสำคัญของการมองตัวตนผ่านสัญลักษณ์และปฏิสัมพันธ์
+Present as Emergent — ปัจจุบันเป็นพื้นที่ที่สิ่งใหม่เกิดขึ้นจากความสัมพันธ์ของอดีตกับการกระทำ
+Mead พัฒนา theory of mind/self ในสาย pragmatist social psychology โดยมองว่า mind และ self-consciousness เกิดจากปฏิสัมพันธ์ทางสังคม ผ่าน gesture และ significant symbols เช่น ภาษา; เขาจึงเป็นตัวสำคัญสำหรับการอ่าน self ในฐานะสิ่งที่เกิดร่วมกับผู้อื่น ไม่ใช่สิ่งโดดเดี่ยวในหัว. (Encyclopedia Britannica)
+เหมาะกับเว็บเรา:
+Mead เหมาะกับบทความเรื่อง Persona, social self, generalized other, shame, role, identity, AI companionship, community feedback
+ประโยคใช้งานเว็บ:
+Mead ทำให้ตัวตนไม่ใช่สิ่งที่เราพบในห้องปิดของจิต แต่เป็นสิ่งที่ค่อย ๆ เกิดจากการเห็นตัวเองผ่านภาษาของผู้อื่น บทบาทของสังคม และการตอบกลับของ “I” ต่อ “Me” ที่โลกสร้างไว้ในเรา
+Richard Rorty
+ผลงานหลัก:
+Philosophy and the Mirror of Nature, Consequences of Pragmatism, Contingency, Irony, and Solidarity, Objectivity, Relativism, and Truth, Philosophy and Social Hope, Achieving Our Country
+แนวคิดสำคัญ:
+Anti-representationalism — ความรู้ไม่ใช่กระจกสะท้อนโลกแบบตรง ๆ
+Critique of Epistemology — วิจารณ์ปรัชญาที่หมกมุ่นกับฐานความรู้สุดท้าย
+Vocabulary — มนุษย์อยู่และคิดผ่านชุดภาษาที่ใช้บรรยายโลก
+Redescription — การเปลี่ยนคำบรรยายคือการเปลี่ยนโลกที่เราอยู่
+Contingency — ภาษา ตัวตน และสังคมไม่ได้มีฐานนิรันดร์
+Irony — การรู้ว่าภาษาและความเชื่อของตนอาจถูก redescribe ได้
+Solidarity — ความก้าวหน้าทางศีลธรรมคือการขยายวง “พวกเรา” ให้รวมผู้ทุกข์ที่เคยมองไม่เห็น
+Liberal Utopia — สังคมที่ลด cruelty และเปิดพื้นที่ให้การสร้างตน
+Philosophy as Cultural Politics — ปรัชญาเป็นการแทรกแซงวัฒนธรรม ไม่ใช่แค่ค้นฐานนิรันดร์ของความจริง
+Rorty เป็นนักคิด neopragmatist ที่โจมตีภาพความรู้แบบ “กระจกสะท้อนธรรมชาติ” และเสนอให้เข้าใจปรัชญาในฐานะการปรับ vocabulary, redescription และ cultural politics มากกว่าการหาฐานความรู้สุดท้าย; SEP ระบุว่าแกนสำคัญของเขาคือการวิจารณ์ representationalism และการขยาย solidarity ผ่านการฝึกความไวต่อความทุกข์ของผู้อื่น. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Rorty เหมาะกับบทความเรื่อง AI language, writing style, redescription, narrative self, anti-foundationalism, public philosophy
+ประโยคใช้งานเว็บ:
+Rorty ทำให้ภาษาไม่ใช่แค่เครื่องมือบรรยายโลก แต่เป็นเครื่องมือสร้างความเป็นไปได้ใหม่ของตัวตน สังคม และความเห็นอกเห็นใจ
+Cornel West
+ผลงานหลัก:
+The American Evasion of Philosophy, Race Matters, Democracy Matters, The Ethical Dimensions of Marxist Thought, Prophetic Fragments, Black Prophetic Fire
+แนวคิดสำคัญ:
+Prophetic Pragmatism — pragmatism ที่เชื่อมความจริงเชิงปฏิบัติ จริยธรรม ศาสนา การเมือง และการปลดปล่อย
+Race, Class, Justice — อ่านอเมริกาผ่านเชื้อชาติ ชนชั้น และอำนาจ
+Tragicomic Hope — ความหวังที่ไม่ไร้เดียงสา เพราะรู้จักความทุกข์และโศกนาฏกรรม
+Democratic Faith — ประชาธิปไตยเป็นวิถีชีวิต ไม่ใช่แค่กลไกรัฐ
+Public Philosophy — ปรัชญาต้องพูดกับสาธารณะ ไม่ใช่อยู่แต่ในมหาวิทยาลัย
+Nihilism in Black America — วิเคราะห์ความสิ้นหวังที่เกิดจากความจน การเหยียดผิว และการสูญเสียความหมาย
+Love and Justice — ความรักต้องสัมพันธ์กับความยุติธรรม ไม่ใช่ความรู้สึกส่วนตัว
+Blues Sensibility — การรักษาศักดิ์ศรีและเสียงท่ามกลางความทุกข์
+Prophetic Critique — วิจารณ์อำนาจด้วยเสียงที่ผูกกับความจริง ความรัก และความยุติธรรม
+Cornel West เป็นนักปรัชญา นักวิจารณ์สังคม และนักกิจกรรมการเมืองอเมริกัน งานของเขาเชื่อม American pragmatism, Christian moral sensibility, democratic socialism และประเด็น race/class/justice โดย Race Matters เป็นงานสำคัญที่วิเคราะห์วิกฤตทางเชื้อชาติ ความยากจน และความสิ้นหวังในสหรัฐฯ. (Encyclopedia Britannica)
+เหมาะกับเว็บเรา:
+West เหมาะกับบทความเรื่อง public philosophy, justice, spirituality with teeth, social suffering, moral courage, voice of the oppressed
+ประโยคใช้งานเว็บ:
+Cornel West ทำให้ pragmatism มีเลือด มีเสียง มีบาดแผล และมีความรัก เพราะความคิดที่ไม่แตะความอยุติธรรมจริง ก็เป็นเพียงความฉลาดที่ยังไม่ยอมลงไปอยู่ข้างคนเจ็บ
+นักคิดเสริมที่ควรเก็บไว้ในสายนี้
+Jane Addams
+ควรมี เพราะ:
+เป็น pragmatist ที่เอาทฤษฎีลงไปอยู่กับ social action จริงผ่าน Hull House, democracy, social ethics, feminism และ inclusive deliberation
+ใช้กับเว็บ:
+community work, social healing, feminist pragmatism, democracy as shared life, applied philosophy
+Addams สำคัญมากเพราะเธอไม่ได้แยก theory ออกจาก action แต่ทำให้ pragmatism เป็น applied philosophy ที่ฝังอยู่ในงานสังคมจริง และ SEP ชี้ว่าเธอ radicalize pragmatism ด้วยแนวคิด social progress ที่ต้องเป็นผลร่วม ไม่ใช่ความก้าวหน้าของคนเก่งไม่กี่คน. (Stanford Encyclopedia of Philosophy)
+Josiah Royce
+ควรมี เพราะ:
+เป็นคู่สนทนาของ Peirce/James และสำคัญกับ community, loyalty, interpretation
+ใช้กับเว็บ:
+community of interpretation, loyalty, shared meaning, collective inquiry
+W. E. B. Du Bois
+ควรมีแบบข้ามสาย:
+ไม่ใช่ pragmatist แบบแคบ แต่สำคัญมากกับ American philosophy, race, double consciousness, democracy
+ใช้กับเว็บ:
+identity, race, double consciousness, social self, recognition
+Hilary Putnam
+ควรมี เพราะ:
+เป็น neopragmatist สำคัญที่พยายามรักษาความจริง ความเป็นวัตถุวิสัย และ ethics หลัง analytic philosophy
+ใช้กับเว็บ:
+truth, realism, fact/value, anti-relativism
+Susan Haack
+ควรมี เพราะ:
+สำคัญกับ pragmatist epistemology และ foundherentism
+ใช้กับเว็บ:
+epistemic responsibility, evidence, inquiry, anti-slop reasoning
+Cheryl Misak
+ควรมี เพราะ:
+สำคัญกับ Peircean pragmatism, truth, democracy, moral/political inquiry
+ใช้กับเว็บ:
+truth as inquiry, democratic deliberation, public reason
+คำศัพท์แกนที่ควรทำเป็น Wiki
+คำ
+ความหมายแกน
+ใช้กับเว็บ
+Pragmatism
+ปรัชญาที่ทดสอบความหมายผ่านผลในประสบการณ์/การปฏิบัติ
+theory-to-practice
+Pragmatic Maxim
+ดูผลเชิงปฏิบัติของแนวคิดเพื่อทำให้ความหมายชัด
+concept audit
+Inquiry
+กระบวนการสืบค้นจาก doubt ไปสู่ belief ที่ดีขึ้น
+research, learning
+Doubt
+ภาวะที่ habit เดิมสะดุด
+crisis, thinking
+Belief
+ความเชื่อที่จัดการกระทำ
+worldview
+Fallibilism
+ความรู้ผิดได้เสมอ
+epistemic humility
+Abduction
+การตั้งสมมติฐานอธิบาย
+interpretation
+Community of Inquiry
+ชุมชนผู้สืบค้นที่ตรวจความจริงร่วมกัน
+web, scholarship
+Radical Empiricism
+ประสบการณ์รวมความสัมพันธ์ด้วย
+lived experience
+Stream of Consciousness
+จิตสำนึกเป็นกระแส
+psychology
+Cash Value
+ผลจริงของ idea ในประสบการณ์
+practical meaning
+Instrumentalism
+idea เป็นเครื่องมือแก้สถานการณ์
+Dewey
+Experience
+ปฏิสัมพันธ์ของสิ่งมีชีวิตกับโลก
+learning, therapy
+Habit
+รูปแบบการกระทำที่สะสม
+character, psyche
+Learning by Doing
+เรียนรู้ผ่านการลงมือและสะท้อนผล
+education
+Democracy as Way of Life
+ประชาธิปไตยเป็นวิถีอยู่ร่วม ไม่ใช่แค่ระบบรัฐ
+community
+Generalized Other
+ท่าทีของชุมชนที่เข้าไปอยู่ใน self
+Mead
+I / Me
+ด้านสร้างสรรค์ตอบสนอง / ด้านสังคมที่ถูก internalized
+social self
+Redescription
+การเปลี่ยนคำบรรยายเพื่อเปิดโลกใหม่
+writing, therapy
+Solidarity
+การขยายวง “เรา” ให้รวมคนที่เคยถูกมองข้าม
+justice
+Meliorism
+โลกดีขึ้นได้ผ่านการกระทำร่วม
+hope, reform
+Public Philosophy
+ปรัชญาที่พูดกับชีวิตสาธารณะ
+website mission
+แกนบทความที่ควรแตกจากสายนี้
+สำหรับ AI / Writing / Learning
+แนวคิดหนึ่ง “ทำงาน” จริงไหม หรือแค่ฟังดูดี
+AI ช่วย inquiry หรือทำให้เราหยุด inquiry
+Obsidian/Wiki เป็น community of inquiry ภายในหัวได้ไหม
+การเขียนบทความเป็น learning by doing ไม่ใช่ content generation
+Draft ที่ดีต้องเปลี่ยนการกระทำของผู้เขียน ไม่ใช่แค่เพิ่มข้อความ
+Pragmatism สำหรับการลด AI: ใช้ AI เป็นเครื่องมือ ไม่ใช่แทน judgment
+สำหรับ Psychology / Therapy / Self
+ความเข้าใจตัวเองต้องพิสูจน์ในชีวิตจริงอย่างไร
+Insight ที่ไม่เปลี่ยน habit ยังเป็น insight ไหม
+Therapy เป็น inquiry ร่วม ไม่ใช่คำตอบจากผู้เชี่ยวชาญฝ่ายเดียว
+Mead: self เกิดจาก social feedback อย่างไร
+James: stream of consciousness กับการเขียนชีวิตภายใน
+Dewey: habit เปลี่ยนผ่านการทดลองกับสภาพแวดล้อม
+สำหรับ Jung / Symbol / Interpretation
+Symbol มีผลอะไรต่อชีวิตจริง
+Active imagination เปลี่ยน habit of perception ได้ไหม
+Dream interpretation มี cash value แบบไหน โดยไม่ทำให้ความฝันกลายเป็น productivity tool
+Archetype เป็น idea ที่ทำงานใน experience อย่างไร
+Jungian theory ถ้าไม่เปลี่ยนวิธีอยู่กับตัวเองและผู้อื่น ยังมีความหมายแค่ไหน
+Abduction กับการตีความฝัน: ตั้งสมมติฐาน ไม่ใช่ฟันธง
+สำหรับ Website / The Soul’s Compass
+เว็บไม่ควรเป็นคลังความรู้ แต่เป็นเครื่องมือ inquiry
+บทความควรถามผู้อ่านว่า “แล้วคุณจะทดลองอะไรในชีวิตจริง”
+Wiki Guide ควรทำให้คนเรียนรู้เอง ไม่ใช่เสพคำตอบ
+The Soul’s Compass เป็น public philosophy ได้อย่างไร
+ระบบ feedback ในเว็บคือ democratic inquiry
+ไม่ใช่เว็บที่ “รู้แทนคนอ่าน” แต่เป็นเว็บที่ช่วยคนอ่านคิด ทดลอง และตรวจชีวิตตัวเอง
+สำหรับ Politics / Education / Democracy
+Dewey: การศึกษาคือประชาธิปไตยของประสบการณ์
+Addams: social progress ต้องเป็นของส่วนรวม ไม่ใช่ของ elite
+West: public philosophy ต้องมี justice และ love
+Rorty: solidarity เกิดจากการขยายจินตนาการต่อทุกข์ของผู้อื่น
+Democracy ไม่ใช่แค่เลือกตั้ง แต่คือวิธีเรียนรู้ร่วมกัน
+Philosophy ที่ไม่แตะชีวิตสาธารณะยังเป็นปรัชญาที่มีความรับผิดชอบไหม
+จุดเชื่อมกับ Jung / Psychology แบบคุมให้คม
+ใช้ได้
+Peirce → abduction / signs / community of inquiry
+ใช้กับ symbolic interpretation, dream reading, research discipline
+James → stream of consciousness / radical empiricism
+ใช้กับ lived experience, religious experience, first-person psyche
+Dewey → habit / learning by doing / experience
+ใช้กับ therapy, education, writing practice, AI reduction
+Mead → social self / generalized other
+ใช้กับ Persona, shame, identity, social feedback
+Rorty → redescription / solidarity
+ใช้กับ narrative therapy, writing, public philosophy, social imagination
+West → prophetic pragmatism / justice / public philosophy
+ใช้กับเว็บที่ไม่อยากเป็น spiritual content กลวง ๆ แต่ต้องมีความรับผิดชอบต่อโลกจริง
+ต้องระวัง
+อย่าทำ pragmatism = “อะไรมีประโยชน์ก็จริง” แบบหยาบ
+อย่าทำ James เป็น relativist ง่าย ๆ
+อย่าทำ Dewey เป็นแค่ education reformer
+อย่าทำ Peirce เป็นแค่คนพูดว่า practical consequences
+อย่าบอกว่า Rorty = ไม่มีความจริง อะไรก็ได้
+อย่าทำ Mead เป็น behaviorism แบบตื้น ๆ
+อย่าทำ West เป็นแค่นักพูดการเมือง เพราะเขาเป็นนักคิด public philosophy ที่เชื่อม pragmatism กับ justice
+อย่าลืมว่า pragmatism ไม่ได้ฆ่าความลึก แต่มันทดสอบว่าความลึกนั้นมีชีวิตจริงหรือไม่
+สรุปใช้งานสำหรับเว็บ
+สายนี้คือยาถอนพิษของทฤษฎีลอย
+The Soul’s Compass จะพูดเรื่องใหญ่ได้เยอะมาก:
+psyche, soul, symbol, archetype, self, shadow, trauma, AI, philosophy, typology, consciousness
+แต่ Pragmatism จะคอยถามตลอดว่า:
+แล้วแนวคิดนี้ทำให้ชีวิตต่างไปอย่างไร
+ช่วยให้คนคิดเองขึ้นไหม
+ทำให้ตัดสินใจดีขึ้นไหม
+ทำให้รับผิดชอบมากขึ้นไหม
+ทำให้ฟังผู้อื่นได้ดีขึ้นไหม
+ทำให้ความทุกข์ถูกเข้าใจและเปลี่ยนเงื่อนไขได้จริงไหม
+หรือเป็นเพียงภาษาสวยที่ทำให้เรารู้สึกเหมือนลึก แต่ไม่ต้องเปลี่ยนอะไรเลย
+สรุปตัวละครหลัก:
+Charles Sanders Peirce = pragmatic maxim / inquiry / signs / abduction / fallibilism
+William James = radical empiricism / stream of consciousness / practical truth / religious experience
+John Dewey = experience / habit / learning by doing / democracy / education / inquiry
+George Herbert Mead = social self / significant symbols / generalized other / I-Me
+Richard Rorty = anti-representationalism / redescription / solidarity / cultural politics
+Cornel West = prophetic pragmatism / race-class-justice / public philosophy / love and justice
+ประโยคแกนของสายนี้สำหรับเว็บ:
+Pragmatism ทำให้ปรัชญาไม่ใช่ห้องกระจกที่ความคิดชมความลึกของตัวเอง
+แต่มันคือเครื่องมือสำหรับอยู่ ทดลอง แก้ไข เรียนรู้ และเปลี่ยนโลกที่เราอยู่จริง
+แนวคิดหนึ่งไม่ได้รอดเพราะมันฟังดูสูง
+ไม่ได้รอดเพราะมันมีศัพท์ยาก
+ไม่ได้รอดเพราะมันอยู่ในหนังสือคลาสสิก
+แต่มันต้องตอบได้ว่า
+เมื่อมนุษย์คนหนึ่งถือแนวคิดนี้เข้าไปในชีวิต
+เขามองโลกต่างขึ้นอย่างไร
+ทำอะไรต่างขึ้นอย่างไร
+รัก รับผิดชอบ ฟัง เรียนรู้ และแก้ไขชีวิตจริงได้มากขึ้นหรือไม่
+ถ้าไม่
+มันอาจเป็นเพียงความคิดที่สวย
+แต่ยังไม่กลายเป็นปัญญา
+รันสายถัดไปได้เลยค่ะ: Analytic Philosophy / Language / Logic

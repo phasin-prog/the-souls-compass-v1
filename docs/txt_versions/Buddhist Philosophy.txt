@@ -1,0 +1,381 @@
+ได้ค่ะ สายต่อไปคือ Buddhist Philosophy / Buddhist Psychology
+สายนี้คือแกนที่คมมากสำหรับเว็บ เพราะมันไม่ถามแค่ว่า self คืออะไร แต่ถามแรงกว่านั้นว่า:
+ถ้า self ที่เรายึดอยู่ ไม่มีตัวตนถาวรจริง ๆ
+แล้วทุกข์ ความอยาก ความจำ การรับรู้ ego และการหลุดพ้น
+ทำงานอย่างไร
+Buddhist Philosophy / Buddhist Psychology
+แกนกลาง:
+ทุกข์ อนัตตา ความไม่เที่ยง จิต เจตสิก การรับรู้ ความว่าง การเกิดดับของตัวตน ความอยาก การยึดมั่น dependent origination และการหลุดพ้นทางจิต
+เหมาะกับเว็บ:
+ใช้กับ no-self, suffering, craving, mindfulness, emptiness, ego dissolution, psychological liberation, dependent arising, perception, self-construction, affect, mental formation
+Buddhism เป็นทั้งศาสนาและปรัชญาที่พัฒนาจากคำสอนของพระพุทธเจ้าในอินเดียโบราณ และแพร่กระจายไปทั่วเอเชีย ก่อนเข้าสู่โลกตะวันตกในยุคสมัยใหม่ แกนที่ใช้กับเว็บเราได้มากคือ Four Noble Truths, Eightfold Path, dependent origination, no-self และการฝึกจิตเพื่อลดทุกข์ ไม่ใช่แค่ระบบความเชื่อเชิงศาสนาอย่างเดียว (Encyclopedia Britannica)
+The Buddha / Early Buddhist Thought
+ผลงานหลัก / แหล่งหลัก:
+Pāli Canon / Tipiṭaka — โดยเฉพาะ Sutta Piṭaka, Vinaya Piṭaka, Abhidhamma Piṭaka
+หมายเหตุ: พระพุทธเจ้าไม่ได้ “เขียนหนังสือ” ในความหมายแบบนักปรัชญาตะวันตก แต่คำสอนถูกสืบทอดและจัดหมวดในพระไตรปิฎก
+แนวคิดสำคัญ:
+Dukkha — ทุกข์ / ความไม่พอ / ความบีบคั้นของชีวิตที่ยึดมั่น
+Anicca — ความไม่เที่ยง
+Anattā / Anātman — ไม่มี self ถาวรที่เป็นแก่นแท้
+Pratītyasamutpāda / Paṭiccasamuppāda — ปฏิจจสมุปบาท / dependent origination
+Five Aggregates / Khandha — รูป เวทนา สัญญา สังขาร วิญญาณ
+Craving / Taṇhā — ความอยากที่ผูกจิตเข้ากับทุกข์
+Clinging / Upādāna — การยึดมั่นถือมั่น
+Nirvāṇa / Nibbāna — ความดับของทุกข์และเชื้อไฟแห่งตัณหา
+Mindfulness / Sati — การระลึกรู้
+Eightfold Path — ทางฝึกชีวิต จิต เหตุผล การกระทำ และปัญญา
+เหมาะกับเว็บเรา:
+นี่คือฐานของบทความเรื่อง ego, suffering, craving, self-construction, mindfulness, psychological liberation
+พุทธคิดต่างจาก Vedanta ตรงที่ไม่ได้บอกว่า ego ปลอมแล้วมี Self แท้ถาวร ซ่อนอยู่ข้างหลัง แต่ผลักคำถามไปไกลกว่า:
+สิ่งที่เรียกว่า “ฉัน” เป็นชุดกระบวนการที่เกิดขึ้น อาศัยเหตุปัจจัย แล้วดับไป
+ไม่ใช่เจ้าของถาวรของประสบการณ์
+ประโยคใช้งานเว็บ:
+พุทธไม่ได้เริ่มจากการหาว่า self แท้คืออะไร แต่เริ่มจากการดูให้ชัดว่าสิ่งที่เรายึดว่าเป็น “ฉัน” นั้นเกิดขึ้นจากอะไร และทำไมการยึดมันไว้จึงทำให้ทุกข์
+Nāgārjuna
+ผลงานหลัก:
+Mūlamadhyamakakārikā / Fundamental Verses on the Middle Way, Vigrahavyāvartanī, Śūnyatāsaptati, Yuktiṣaṣṭikā
+หมายเหตุ: งานบางชิ้นมีปัญหาเรื่อง attribution ต้องเช็กแยกเป็นรายชิ้น
+แนวคิดสำคัญ:
+Madhyamaka — ทางสายกลางเชิงปรัชญา
+Śūnyatā — ความว่าง / emptiness
+Niḥsvabhāva — ไม่มี intrinsic nature / ไม่มีแก่นสาระโดยตัวเอง
+Dependent Origination = Emptiness — สิ่งใดเกิดโดยอาศัยเหตุปัจจัย สิ่งนั้นว่างจากตัวตนโดยตัวเอง
+Two Truths — conventional truth / ultimate truth
+Critique of Essence — วิจารณ์ความคิดว่าสิ่งต่าง ๆ มี essence ถาวร
+Anti-Reification — แม้แต่ “ความว่าง” ก็ห้ามยึดเป็นสิ่งสูงสุด
+Middle Way between Eternalism and Nihilism — ไม่ใช่ทั้งมีถาวร และไม่ใช่ไม่มีอะไรเลย
+Nāgārjuna ถูกยกให้เป็นหนึ่งในนักปรัชญาพุทธที่สำคัญที่สุดหลังพระพุทธเจ้า และเป็นแกนของ Madhyamaka โดย SEP อธิบายว่าความคิดของเขาหมุนรอบ śūnyatā หรือความว่างจาก svabhāva ซึ่งแปลได้ใกล้ ๆ ว่า intrinsic nature / inherent existence / essence (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Nāgārjuna สำคัญมากกับบทความเรื่อง ego, essence, identity, projection, symbolic interpretation, emptiness, anti-dogmatism
+เขาคือคนที่ทำให้คำว่า “ตัวตน” ถูกสั่นถึงราก:
+ไม่ใช่แค่ ego ไม่มีแก่น
+แต่ทุกสิ่งที่จิตพยายามจับให้เป็นของแข็ง ก็ไม่มีแก่นโดยตัวเอง
+ประโยคใช้งานเว็บ:
+Nāgārjuna ไม่ได้บอกว่าโลกไม่มีอะไรเลย แต่บอกว่าสิ่งทั้งหลายไม่ได้มีอยู่แบบโดดเดี่ยว แข็งตัว และเป็นเจ้าของตัวเองอย่างที่ความคิดของเราชอบจับมันไว้
+Vasubandhu
+ผลงานหลัก:
+Abhidharmakośabhāṣya, Viṃśatikā, Triṃśikā, Karmasiddhiprakaraṇa, Pañcaskandhaka
+แนวคิดสำคัญ:
+Abhidharma Systematization — จัดระบบองค์ประกอบของประสบการณ์และจิตอย่างละเอียด
+Five Aggregates — วิเคราะห์ตัวตนเป็นขันธ์
+Momentariness — สิ่งต่าง ๆ โดยเฉพาะกระบวนการจิต เกิดดับเป็นขณะ
+Karma and Continuity — อธิบายความต่อเนื่องของชีวิตโดยไม่ต้องมี self ถาวร
+Yogācāra / Consciousness Analysis — วิเคราะห์ความสัมพันธ์ระหว่างจิต การรับรู้ และวัตถุ
+Representation-only / Vijñaptimātra — สิ่งที่เรารับรู้ถูกให้ผ่านโครงสร้างของ consciousness
+Storehouse Consciousness / Ālayavijñāna — ฐานสะสมเมล็ดพันธุ์กรรมและแนวโน้มจิต
+Three Natures — imagined, dependent, perfected nature
+Vasubandhu เป็นนักปรัชญาพุทธช่วงคริสต์ศตวรรษที่ 4–5 ที่สำคัญมากทั้งใน Abhidharma และ Yogācāra; SEP ระบุว่า Abhidharmakośabhāṣya เป็นแหล่งสำคัญมากสำหรับการเข้าใจ non-Mahāyāna Buddhist philosophy ในโลกทิเบตและเอเชียตะวันออก ส่วนงาน Yogācāra ของเขาก็กลายเป็นมาตรฐานสำคัญของสำนักนี้ (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Vasubandhu เหมาะกับบทความเรื่อง self as process, unconscious tendency, karmic pattern, perception, memory, consciousness, mental construction
+ประโยคใช้งานเว็บ:
+Vasubandhu ทำให้ self ไม่ใช่เจ้าของประสบการณ์ แต่เป็นผลชั่วคราวของขันธ์ ความจำ แนวโน้ม กรรม และรูปแบบการรับรู้ที่เกิดดับต่อเนื่องจนดูเหมือนมี “ฉัน” คนเดิมอยู่ตรงกลาง
+Asaṅga
+ผลงานหลัก:
+Mahāyānasaṃgraha, Abhidharmasamuccaya, Yogācārabhūmi
+หมายเหตุ: งานบางชุดเกี่ยวข้องกับประเพณี Maitreya-Asaṅga และต้องอ่านเรื่อง attribution อย่างระวัง
+แนวคิดสำคัญ:
+Yogācāra — สำนักวิเคราะห์ consciousness และเส้นทางปฏิบัติของ Mahāyāna
+Ālayavijñāna — storehouse consciousness
+Kliṣṭamanas — defiled mind / จิตที่ยึดฐานลึกเป็น “ฉัน”
+Three Natures / Trisvabhāva — imagined, dependent, perfected
+Bodhisattva Path — เส้นทางพระโพธิสัตว์
+Compassion and Wisdom — กรุณากับปัญญาต้องไปด้วยกัน
+Consciousness Transformation — การหลุดพ้นคือการแปรสภาพของ consciousness
+Meditative Phenomenology — วิเคราะห์ประสบการณ์ภายในของผู้ปฏิบัติอย่างละเอียด
+Yogācāra เป็นหนึ่งในสองสายปรัชญา Mahāyāna สำคัญคู่กับ Madhyamaka และ SEP ระบุว่าสำนักนี้พัฒนาแนวคิดเด่นอย่าง mind-only, three natures, eightfold consciousness, defiled mind และ store consciousness ซึ่งมีอิทธิพลต่ออินเดีย จีน ญี่ปุ่น และทิเบตอย่างมาก (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Asaṅga เหมาะกับบทความเรื่อง deep mind, unconscious tendency, ego-making, compassion, consciousness transformation
+ถ้าใช้กับ Jung ต้องระวังมาก แต่อาจเทียบเชิงโครงสร้างได้:
+Ālayavijñāna ≠ collective unconscious
+แต่ทั้งคู่ช่วยถามว่า “มีชั้นลึกของจิตที่เก็บรูปแบบ/แนวโน้มเกินกว่า ego ไหม”
+ประโยคใช้งานเว็บ:
+Asaṅga ทำให้จิตไม่ได้มีแค่ความคิดที่เรารู้ตัว แต่มีชั้นลึกของแนวโน้ม เมล็ดพันธุ์ และความเคยชินที่คอยทำให้โลกปรากฏแก่เราในรูปเดิมซ้ำ ๆ
+Buddhaghosa
+ผลงานหลัก:
+Visuddhimagga / The Path of Purification และคัมภีร์อรรถกถาภาษาบาลีจำนวนมาก
+แนวคิดสำคัญ:
+Theravāda Systematization — จัดระบบคำสอนเถรวาทอย่างละเอียด
+Sīla / Samādhi / Paññā — ศีล สมาธิ ปัญญา
+Path of Purification — เส้นทางชำระจิต
+Meditation Objects — กรรมฐานหลายประเภท
+Jhāna — สมาธิระดับลึก
+Insight / Vipassanā — การเห็นไตรลักษณ์
+Abhidhamma Psychology — วิเคราะห์จิต เจตสิก รูป นิพพาน
+Mental Factors — แยกองค์ประกอบของจิตอย่างเป็นระบบ
+Purification of View — การชำระความเห็นผิดเกี่ยวกับ self และโลก
+Britannica อธิบายว่า Visuddhimagga เป็นงานสรุปและอธิบายคำสอนของสำนัก Mahāvihāra ในเถรวาทอย่างเป็นระบบ เขียนโดย Buddhaghosa ในคริสต์ศตวรรษที่ 5 และจัดเนื้อหาใหญ่ภายใต้ sīla, samādhi, paññā พร้อมอธิบายเทคนิคสมาธิและหลักคำสอนเถรวาทจำนวนมาก (Encyclopedia Britannica)
+เหมาะกับเว็บเรา:
+Buddhaghosa เหมาะมากกับบทความเรื่อง Buddhist psychology, meditation map, purification, attention, affect, mental factors, insight
+ประโยคใช้งานเว็บ:
+Buddhaghosa ทำให้การภาวนาไม่ใช่อารมณ์สงบแบบกว้าง ๆ แต่เป็นแผนที่ละเอียดของศีล สมาธิ ปัญญา และการชำระความเห็นผิดที่ทำให้จิตยึดโลกกับตัวเองผิดไป
+Dignāga
+ผลงานหลัก:
+Pramāṇasamuccaya, Ālambanaparīkṣā, Hetucakra
+แนวคิดสำคัญ:
+Buddhist Epistemology — ญาณวิทยาพุทธ
+Pramāṇa — แหล่งความรู้ที่เชื่อถือได้
+Perception / Pratyakṣa — การรับรู้ตรงแบบไม่ผ่าน conceptual construction
+Inference / Anumāṇa — การอนุมาน
+Apoha Theory — ความหมายของคำเกิดจากการแยกออก / exclusion
+Conceptual Construction — ความคิดและภาษาสร้าง universals ที่ไม่ได้มีอยู่แบบตรง ๆ ใน reality
+Logic and Debate — วางรากตรรกะพุทธแบบเข้ม
+Nominalist Tendency — ระวังการยึด universal เป็นสิ่งจริง
+Dignāga เป็นรากของสาย Buddhist epistemology ที่ต่อมาพัฒนาโดย Dharmakīrti โดย SEP อธิบายว่าในสาย Dignāga-Dharmakīrti มีแหล่งความรู้หลักสองชนิดคือ perception และ inference; perception เป็น non-conceptual ส่วน inference เป็น conceptual และ linguistic (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Dignāga เหมาะกับบทความเรื่อง perception, concept, language, naming, projection, AI language, symbolic interpretation
+ประโยคใช้งานเว็บ:
+Dignāga ทำให้เราเห็นว่าภาษาไม่ได้จับโลกอย่างบริสุทธิ์ แต่ทำงานด้วยการตัด แยก จัดหมวด และสร้างความหมายขึ้นจากสิ่งที่โลกไม่ได้ยื่นให้เป็นคำสำเร็จรูป
+Dharmakīrti
+ผลงานหลัก:
+Pramāṇavārttika, Pramāṇaviniścaya, Nyāyabindu, Hetubindu, Saṃbandhaparīkṣā, Vādanyāya
+แนวคิดสำคัญ:
+Refinement of Buddhist Logic — พัฒนาตรรกะและญาณวิทยาพุทธอย่างเข้ม
+Perception and Inference — แยกการรับรู้ตรงกับการคิดอนุมาน
+Momentary Particulars — สิ่งจริงในระดับหนึ่งคือ particulars ที่มี causal power และเกิดดับ
+Conceptual Fiction — universal เป็น fiction ที่จำเป็นต่อภาษาและความคิด
+Apoha Reinterpreted — ความหมายของ concept เกิดจาก exclusion และความสัมพันธ์เชิงเหตุ
+Causal Efficacy — สิ่งจริงต้องมีพลังเชิงเหตุ
+Proof and Debate — วางมาตรฐานเหตุผล ข้อพิสูจน์ และการโต้แย้ง
+Buddhist Nominalism — ต้านการยึด concept เป็น reality
+SEP อธิบายว่าสาย Dignāga-Dharmakīrti ยอมรับว่าสิ่งที่ real ในระดับหนึ่งคือ particular ที่มี causal powers ส่วน universals เป็นสิ่งสมมติหรือ fiction ที่จำเป็นต่อความคิดและภาษา ไม่ใช่สิ่งจริงแบบเดียวกับ particulars (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Dharmakīrti ดีมากกับบทความเรื่อง truth, perception, concept, cognitive distortion, overgeneralization, category error, language discipline
+ประโยคใช้งานเว็บ:
+Dharmakīrti เป็นยาดีสำหรับเว็บที่ต้องตีความสัญลักษณ์ เพราะเขาเตือนว่า concept ที่เราคิดว่าจับความจริง อาจเป็นเพียงเครื่องมือจำเป็นที่บิดโลกให้มนุษย์พอคิดและพูดถึงมันได้
+Tsongkhapa
+ผลงานหลัก:
+Lamrim Chenmo / Great Treatise on the Stages of the Path to Enlightenment, Ocean of Reasoning, Essence of True Eloquence, Three Principal Aspects of the Path
+แนวคิดสำคัญ:
+Gelug Madhyamaka — วางระบบ Madhyamaka ในทิเบตอย่างทรงอิทธิพล
+Prāsaṅgika Interpretation — อ่าน Nāgārjuna ผ่าน Candrakīrti
+Emptiness and Dependent Origination — ความว่างกับปฏิจจสมุปบาทต้องเข้าใจคู่กัน
+Avoiding Nihilism — ความว่างไม่ใช่ไม่มีอะไรเลย
+Conventional Validity — โลก conventional ยังทำงานได้
+Lamrim — ลำดับขั้นของเส้นทางปฏิบัติ
+Union of Wisdom and Method — ปัญญากับวิธีปฏิบัติ/กรุณาต้องไปด้วยกัน
+Reasoning as Practice — เหตุผลไม่ใช่ของแห้ง แต่เป็นเครื่องมือทำลายความยึดผิด
+Tsongkhapa เป็นนักปรัชญาทิเบตสำคัญมากในศตวรรษที่ 14–15 และเป็นศูนย์กลางของ Gelug; SEP ระบุว่าเขาเสนอ Middle Way ที่อิง Nāgārjuna และได้รับอิทธิพลจากสายตรรกะ-ญาณวิทยาอินเดียของ Dignāga และ Dharmakīrti (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Tsongkhapa เหมาะกับบทความเรื่อง emptiness without nihilism, rigorous interpretation, practice path, reasoning and meditation
+ประโยคใช้งานเว็บ:
+Tsongkhapa ทำให้ความว่างไม่ใช่ข้ออ้างให้โลกหายไป แต่เป็นการเห็นว่าโลกทำงานได้เพราะมันอาศัยเหตุปัจจัย ไม่ใช่เพราะมันมีแก่นแข็งถาวรอยู่ในตัวเอง
+Thich Nhat Hanh
+ผลงานหลัก:
+The Miracle of Mindfulness, The Heart of the Buddha’s Teaching, Interbeing, Peace Is Every Step, Being Peace, The Heart of Understanding
+แนวคิดสำคัญ:
+Mindfulness in Daily Life — สติในชีวิตประจำวัน
+Interbeing — สิ่งทั้งหลาย inter-are / อิงอาศัยกันในการมีอยู่
+Engaged Buddhism — พุทธที่เข้าไปสัมพันธ์กับสังคม การเมือง สันติภาพ และความยุติธรรม
+Compassionate Presence — การอยู่ตรงนั้นกับทุกข์ของตนและผู้อื่น
+Deep Listening — ฟังอย่างลึก
+Mindful Breathing — ลมหายใจเป็นฐานของการกลับมาอยู่กับปัจจุบัน
+Non-duality of Self and World — ตัวเราไม่แยกขาดจากโลก
+Healing through Awareness — การรู้ตัวอย่างอ่อนโยนเป็นฐานของการเยียวยา
+Britannica ระบุว่า Engaged Buddhism เป็นพัฒนาการสำคัญของพุทธยุคสมัยใหม่ โดย Thich Nhat Hanh เป็นหนึ่งในบุคคลสำคัญที่ทำให้พุทธธรรมสัมพันธ์กับสันติภาพ ความยุติธรรม และกิจกรรมทางสังคมการเมือง (Encyclopedia Britannica)
+เหมาะกับเว็บเรา:
+Thich Nhat Hanh เหมาะกับบทความเรื่อง mindfulness, trauma, everyday suffering, compassion, interdependence, social healing, gentle practice
+ประโยคใช้งานเว็บ:
+Thich Nhat Hanh ทำให้ mindfulness ไม่ใช่เทคนิคเพิ่ม productivity แต่เป็นวิธีหายใจ ฟัง เดิน กิน อยู่ และสัมพันธ์กับโลกโดยไม่ทำให้ทุกข์ของตนกับทุกข์ของผู้อื่นถูกตัดขาดจากกัน
+นักคิดเสริมที่ควรเก็บไว้ในสายนี้
+Śāntideva
+ควรมี เพราะ:
+สำคัญมากกับ Mahāyāna ethics, compassion, bodhicitta และการฝึกใจ
+ผลงานหลัก:
+Bodhicaryāvatāra / The Way of the Bodhisattva
+ใช้กับเว็บ:
+compassion, anger, patience, ego-reduction, ethical transformation
+Candrakīrti
+ควรมี เพราะ:
+เป็นตัวหลักในการอ่าน Madhyamaka แบบ Prāsaṅgika ที่มีอิทธิพลมากต่อทิเบตและ Tsongkhapa
+ใช้กับเว็บ:
+emptiness, dependent arising, critique of essence, anti-foundational thought
+Bhāviveka
+ควรมี เพราะ:
+สำคัญในข้อถกเถียง Madhyamaka เรื่องวิธีใช้เหตุผลและ autonomous syllogism
+ใช้กับเว็บ:
+argument style, debate, interpretation, reason in Buddhist philosophy
+Kamalaśīla
+ควรมี เพราะ:
+สำคัญกับลำดับการภาวนาและข้อถกเถียงอินเดีย-ทิเบตเรื่อง sudden vs gradual awakening
+ใช้กับเว็บ:
+meditation path, gradual cultivation, reason and practice
+Ledi Sayadaw / Mahasi Sayadaw
+ควรมีในสาย Buddhist Psychology สมัยใหม่:
+สำคัญกับการฟื้นและเผยแพร่ vipassanā ในโลกสมัยใหม่
+ใช้กับเว็บ:
+mindfulness, noting, insight meditation, modern meditation movement
+D. T. Suzuki
+ควรมีแบบระวัง:
+สำคัญกับการแนะนำ Zen ให้โลกตะวันตก แต่ต้องระวัง romanticization
+ใช้กับเว็บ:
+Zen, direct experience, emptiness, East-West reception
+คำศัพท์แกนที่ควรทำเป็น Wiki
+คำ
+ความหมายแกน
+ใช้กับเว็บ
+Dukkha
+ทุกข์ / ความบีบคั้น
+suffering, existential pain
+Anicca
+ความไม่เที่ยง
+change, impermanence
+Anattā / Anātman
+ไม่มี self ถาวร
+ego, no-self
+Śūnyatā
+ความว่างจาก intrinsic nature
+emptiness, anti-essentialism
+Svabhāva
+intrinsic nature / self-being
+essence critique
+Pratītyasamutpāda
+dependent origination
+relational psyche
+Skandhas / Khandhas
+ขันธ์ 5
+self as process
+Vijñāna
+consciousness
+cognition, awareness
+Saṃskāra / Saṅkhāra
+formations / conditioned patterns
+habit, complex-like patterns
+Tṛṣṇā / Taṇhā
+craving
+desire, attachment
+Upādāna
+clinging
+fixation, identity grip
+Kleśa / Kilesa
+afflictions
+defilements, affective distortions
+Nirvāṇa / Nibbāna
+ดับไฟตัณหา / liberation
+freedom from suffering
+Sati
+mindfulness
+attention, awareness
+Samādhi
+concentration / meditative absorption
+mental stability
+Prajñā / Paññā
+wisdom
+liberating insight
+Bodhicitta
+awakening mind
+compassion, vow
+Karunā
+compassion
+empathy, care
+Mettā / Maitrī
+loving-kindness
+relational healing
+Ālayavijñāna
+storehouse consciousness
+deep tendency, karmic seeds
+Kliṣṭamanas
+defiled mind
+egoic appropriation
+Vijñaptimātra
+representation-only
+perception, consciousness
+Apoha
+exclusion theory of meaning
+language, concept
+Pramāṇa
+valid cognition
+epistemology
+Paramārtha-satya
+ultimate truth
+emptiness
+Saṃvṛti-satya
+conventional truth
+everyday reality
+Interbeing
+การอิงอาศัยกันในการมีอยู่
+ecology, social healing
+แกนบทความที่ควรแตกจากสายนี้
+สำหรับ Self / Ego / No-Self
+Anattā: ไม่มี self แปลว่าไม่มีใครอยู่เลยหรือเปล่า
+ขันธ์ 5 กับการประกอบสร้างตัวตน
+Ego ใน Jung/Freud เทียบกับ no-self ได้แค่ไหน
+Self ใน Jung กับ Anattā: จุดชนที่ต้องระวัง
+“ฉัน” เป็นเจ้าของความคิด หรือเป็นผลของความคิดที่เกิดดับ
+สำหรับ Suffering / Desire
+ทุกข์ไม่ได้แปลว่าเศร้าตลอดเวลา
+Taṇhā: ความอยากที่ทำให้โลกธรรมดาไม่เคยพอ
+Upādāna: การยึดมั่นในตัวตน เรื่องเล่า และบาดแผล
+Craving กับ addiction
+ทุกข์ในพุทธกับ trauma psychology คุยกันได้อย่างไร
+สำหรับ Emptiness / Ontology
+Śūnyatā ไม่ใช่ nihilism
+Nāgārjuna กับการทำลาย essence
+Dependent origination คือ ontology ของความสัมพันธ์
+ความว่างของ self กับความว่างของ concept
+Emptiness for writers: อย่ายึดคำที่ตัวเองสร้างจนคิดว่ามันคือความจริง
+สำหรับ Buddhist Psychology
+Abhidhamma ในฐานะจิตวิทยาโบราณ
+Buddhaghosa กับแผนที่ศีล สมาธิ ปัญญา
+Mental factors: จิตไม่ได้เป็นก้อนเดียว
+Momentariness: ทำไมจิตดูต่อเนื่องทั้งที่เกิดดับ
+Ālayavijñāna กับ unconscious tendency
+สำหรับ Mindfulness / Modern Life
+Mindfulness ไม่ใช่ productivity hack
+สติในยุค attention economy
+Deep listening กับความสัมพันธ์ที่ไม่ทำให้อีกฝ่ายเป็น object
+Interbeing กับ ecological psyche
+Engaged Buddhism: การหลุดพ้นที่ไม่หนีความทุกข์ของโลก
+จุดเชื่อมกับ Jung / Psychology แบบคุมให้คม
+ใช้ได้
+Anattā → critique of ego-identification
+ใช้ได้ดีมากกับการถามว่า ego ยึดอะไรเป็นตัวเอง
+Skandhas → self as process
+ใช้กับการอธิบาย self ว่าเป็น assemblage ของ body, feeling, perception, formation, consciousness
+Saṅkhāra → conditioned patterns
+ใช้เทียบกับ habit / complex-like pattern ได้บางส่วน แต่ห้ามบอกว่าเหมือน complex ตรง ๆ
+Ālayavijñāna → deep tendency / karmic storage
+ใช้เป็นสะพานกับ unconscious ได้ แต่ไม่เท่ากับ Jungian collective unconscious
+Śūnyatā → anti-essentialism
+ดีมากกับการวิจารณ์ type, identity, persona, diagnosis ที่ทำให้คนแข็งเป็นป้าย
+Mindfulness → observing ego / awareness practice
+ใช้เชื่อม psychotherapy ได้ แต่ไม่ควรลดพุทธเหลือเทคนิคบำบัด
+ต้องระวัง
+อย่าบอกว่า Anattā = ไม่มีอะไรมีอยู่เลย
+อย่าบอกว่า Śūnyatā = nihilism
+อย่าบอกว่า Nirvāṇa = dissociation / numbness
+อย่าบอกว่า Ālayavijñāna = collective unconscious ตรง ๆ
+อย่าบอกว่า mindfulness = therapy technique เฉย ๆ
+อย่าบอกว่า Buddhist no-self = Jungian Self
+อย่าใช้พุทธเป็นคำปลอบว่า “ปล่อยวางสิ” โดยไม่แตะเหตุปัจจัยของทุกข์จริง
+อย่าทำพุทธให้กลายเป็น self-help สงบ ๆ ที่ตัด ethics, compassion, community และ liberation ออก
+สรุปใช้งานสำหรับเว็บ
+สายนี้คือฐานสำคัญมากของเว็บ เพราะมันทำลายความเข้าใจแบบง่ายว่า “การรู้จักตัวเอง” คือการหา identity ที่แข็งขึ้นเสมอไป
+พุทธถามลึกกว่านั้น:
+สิ่งที่เรากำลังพยายามรู้จัก
+เป็นตัวเราจริงไหม
+หรือเป็นเพียงขันธ์ ความจำ ความอยาก ความกลัว รูปแบบการรับรู้ และเรื่องเล่าที่เกิดดับ
+แล้วเพราะเรายึดมันว่าเป็น “ฉัน”
+ทุกข์จึงเกิดซ้ำเหมือนวงล้อที่หมุนด้วยมือของเราเอง
+สรุปตัวละครหลัก:
+The Buddha / Early Buddhism = dukkha / anicca / anattā / dependent origination / path
+Nāgārjuna = emptiness / anti-svabhāva / two truths / middle way
+Vasubandhu = Abhidharma / Yogācāra / five aggregates / consciousness analysis
+Asaṅga = Yogācāra / ālayavijñāna / three natures / bodhisattva path
+Buddhaghosa = Visuddhimagga / sīla-samādhi-paññā / meditation system
+Dignāga = perception / inference / apoha / Buddhist epistemology
+Dharmakīrti = valid cognition / particulars / conceptual fiction / logic
+Tsongkhapa = Madhyamaka rigor / emptiness without nihilism / lamrim
+Thich Nhat Hanh = mindfulness / interbeing / engaged Buddhism / deep listening
+ประโยคแกนของสายนี้สำหรับเว็บ:
+Buddhist Philosophy และ Buddhist Psychology ทำให้เราเห็นว่า
+จิตมนุษย์ไม่ได้ทุกข์เพราะมีโลก
+แต่ทุกข์เพราะยึดโลกผิด
+ไม่ได้ทุกข์เพราะมีความคิด
+แต่ทุกข์เพราะเชื่อว่าความคิดคือเรา
+ไม่ได้ทุกข์เพราะตัวตนต้องเปลี่ยน
+แต่ทุกข์เพราะหลงว่ามีตัวตนถาวรที่ต้องปกป้องไม่ให้แตก
+การหลุดพ้นจึงไม่ใช่การสร้าง ego ที่สวยกว่าเดิม
+แต่อาจเป็นการเห็นว่า ego เป็นเพียงกระบวนการ
+ที่เกิดขึ้น ตั้งอยู่ และดับไป
+ต่อหน้าความรู้สึกตัวที่ไม่ต้องรีบเรียกทุกอย่างว่า “ฉัน”
+รันสายถัดไปได้เลยค่ะ: Chinese Philosophy / Daoism / Confucianism

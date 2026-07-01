@@ -1,0 +1,392 @@
+ได้ค่ะ สายต่อไปคือ Analytic Philosophy / Language / Logic
+สายนี้คือ “เครื่องมือคุมความแม่น” ของเว็บเราโดยตรง เพราะถ้าเว็บพูดเรื่อง mind, self, soul, symbol, unconscious, type, disorder, meaning โดยไม่มีสายนี้มาคุม คำจะลื่นเร็วมาก
+Analytic Philosophy / Language / Logic
+แกนกลาง:
+ภาษา ความหมาย ตรรกะ ความจริง ข้อโต้แย้ง การอ้างถึง นิยาม การวิเคราะห์ concept ความชัดของประโยค และการแยกว่า ปัญหาจริง กับ ปัญหาที่เกิดจากภาษา/นิยาม/ตรรกะพาเราหลง
+เหมาะกับเว็บ:
+ใช้คุมความแม่นของคำ เช่น mind, self, symbol, unconscious, soul, psyche, type, disorder, meaning, intention, agency, identity, truth, reference, AI language
+Analytic philosophy เติบโตจากการปฏิวัติด้าน logic และ philosophy of language ช่วงปลายศตวรรษที่ 19–ต้นศตวรรษที่ 20 โดย Frege, Russell และ Wittgenstein เป็นตัวตั้งต้นสำคัญมาก: Frege สร้าง predicate calculus สมัยใหม่, Russell ผลัก method of analysis และ logical atomism, ส่วน Wittgenstein ทั้งช่วงต้นและช่วงหลังทำให้ภาษาเป็นสนามหลักของปัญหาปรัชญา. (Stanford Encyclopedia of Philosophy)
+Gottlob Frege
+ผลงานหลัก:
+Begriffsschrift, The Foundations of Arithmetic, Basic Laws of Arithmetic, Function and Concept, On Sense and Reference
+แนวคิดสำคัญ:
+Predicate Logic — ตรรกะสมัยใหม่ที่วิเคราะห์ quantifier และ relation ได้ละเอียดกว่า Aristotelian logic
+Function / Argument Analysis — วิเคราะห์ประโยคผ่าน function และ argument แทน subject/predicate แบบเก่า
+Sense / Reference — ความหมายในฐานะวิธีนำเสนอ กับสิ่งที่คำอ้างถึง
+Thought / Gedanke — เนื้อหาที่ประโยคบอกหรือเสนอ
+Logicism — ความพยายามลดคณิตศาสตร์ให้ตั้งอยู่บนตรรกะ
+Concept / Object Distinction — concept กับ object ต้องไม่ปนกัน
+Truth-value — ประโยคมี reference เป็นค่าความจริงในระบบของ Frege
+Anti-psychologism — ตรรกะไม่ใช่จิตวิทยาของการคิดในหัวคน
+Frege สำคัญมากเพราะเขาเปลี่ยนตรรกะจากระบบ subject-predicate แบบเดิมให้กลายเป็นเครื่องมือวิเคราะห์โครงสร้างประโยคที่ซับซ้อนกว่าเดิม และ Begriffsschrift ของเขามักถูกนับเป็นจุดกำเนิดของ predicate calculus สมัยใหม่. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Frege ใช้กับการกันคำอย่าง self, soul, psyche, symbol, unconscious ไม่ให้ปนกันมั่วระหว่าง “คำ”, “สิ่งที่คำอ้างถึง”, “ความคิดที่คำทำให้เกิด”, และ “ประสบการณ์จริง”
+ประโยคใช้งานเว็บ:
+Frege ทำให้เรารู้ว่า ปัญหาบางอย่างไม่ได้เกิดจากโลกซับซ้อนอย่างเดียว แต่เกิดจากเรายังไม่แยกว่า คำหนึ่งมี sense แบบไหน อ้างถึงอะไร และกำลังทำงานในประโยคอย่างไร
+Bertrand Russell
+ผลงานหลัก:
+Principia Mathematica ร่วมกับ Whitehead, On Denoting, The Problems of Philosophy, Our Knowledge of the External World, Introduction to Mathematical Philosophy, Logical Atomism
+แนวคิดสำคัญ:
+Logical Analysis — แยกประโยคหรือ concept ซับซ้อนให้เห็นโครงสร้างตรรกะ
+Theory of Descriptions — วิเคราะห์คำบอกลักษณะ เช่น “the present king of France” โดยไม่ต้องสมมติว่ามีสิ่งนั้นอยู่จริง
+Logical Atomism — โลกประกอบด้วย atomic facts และภาษาควรแสดงโครงสร้างของ fact ได้
+Acquaintance / Description — รู้โดย acquaintance กับรู้ผ่าน description
+Type Theory — กัน paradox ใน logic/set theory
+Analysis as Method — ปรัชญาควรคลี่ความสับสนผ่านการวิเคราะห์ภาษาและ logic
+Propositions and Facts — ความจริงของประโยคสัมพันธ์กับ facts
+Anti-Hegelian Turn — หนีจาก idealism ไปสู่ logic, analysis, realism
+Russell ใช้คำว่า logical atomism เพื่อสื่อทั้งทัศนะเชิงอภิปรัชญาว่าโลกประกอบด้วย facts ที่แยกได้ และวิธีเชิงปรัชญาที่ใช้ analysis เพื่อลดความคลุมเครือของภาษา/ทฤษฎีให้เหลือโครงสร้างพื้นฐานกว่า. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Russell เหมาะกับการตรวจว่าเวลาเว็บพูดว่า “The Self”, “the unconscious”, “the soul”, “type” เรากำลังอ้างถึงสิ่งที่มีอยู่จริง, model, concept, metaphor หรือคำบอกลักษณะเฉย ๆ
+ประโยคใช้งานเว็บ:
+Russell ทำให้เราระวังคำที่ดูเหมือนชี้ไปยังสิ่งหนึ่งตรง ๆ เพราะบางครั้งชื่อที่เราพูดเหมือนมีของอยู่ข้างหลัง อาจเป็นเพียงโครงสร้างภาษา ที่ต้องถูกแยกออกก่อนจึงจะรู้ว่าเรากำลังอ้างอะไรจริง
+Ludwig Wittgenstein
+ผลงานหลัก:
+Tractatus Logico-Philosophicus, Philosophical Investigations, On Certainty, Blue and Brown Books
+แนวคิดสำคัญ:
+Picture Theory of Meaning — ภาษามีความหมายเมื่อมัน “วาดภาพ” โครงสร้างของโลก
+Logical Form — ภาษาและโลกมีรูปตรรกะที่ทำให้การแทนเป็นไปได้
+Limits of Language — ขอบเขตของภาษาคือขอบเขตของโลกที่พูดได้
+Language-games — ความหมายเกิดจากการใช้ภาษาในกิจกรรมชีวิตจริง
+Meaning as Use — อย่าถามแค่ว่าคำหมายถึงอะไร ให้ดูว่าคำนั้นถูกใช้ทำอะไร
+Form of Life — ภาษาอยู่ในรูปชีวิต ไม่ใช่ระบบสัญญะลอย ๆ
+Family Resemblance — คำบางคำไม่มี essence เดียว แต่เชื่อมกันด้วยความคล้ายซ้อน
+Private Language Argument — ภาษาที่เป็นส่วนตัวล้วน ๆ จนตรวจไม่ได้ อาจเป็นไปไม่ได้
+Philosophy as Therapy — ปรัชญาคลายปมที่ภาษาเองสร้างขึ้น
+Wittgenstein ช่วงต้นใน Tractatus เสนอภาพภาษาแบบ logical atomism และ picture theory ส่วน Wittgenstein ช่วงหลังใน Philosophical Investigations หันมาดูการใช้ภาษาใน language-games และ forms of life โดยเน้นว่าความหมายไม่ได้แยกจากกิจกรรมมนุษย์จริง. (Encyclopedia Britannica)
+เหมาะกับเว็บเรา:
+Wittgenstein สำคัญมากกับคำอย่าง shadow, Self, psyche, soul, complex, type เพราะต้องถามว่า คำเหล่านี้ถูกใช้ใน language-game ไหน: clinical, symbolic, philosophical, religious, poetic, typology, marketing หรือ AI content?
+ประโยคใช้งานเว็บ:
+Wittgenstein ทำให้เราเลิกตามหาความหมายลับของคำทุกคำเหมือนมีแก่นซ่อนอยู่เสมอ แล้วหันมาดูว่าคำนั้นถูกใช้ในชีวิตจริงอย่างไร ใช้เพื่ออธิบาย ปลอบใจ ปิดบัง วินิจฉัย หรือควบคุมใคร
+A. J. Ayer
+ผลงานหลัก:
+Language, Truth and Logic, The Foundations of Empirical Knowledge, The Problem of Knowledge
+แนวคิดสำคัญ:
+Logical Positivism — ปรัชญาควรทำงานผ่านตรรกะ ภาษา และวิทยาศาสตร์
+Verification Principle — ประโยคมีความหมายเชิงความรู้เมื่อเป็น tautology หรือเปิดให้ตรวจสอบเชิงประสบการณ์
+Anti-metaphysics — ประโยคอภิปรัชญาจำนวนมากอาจไม่มี cognitive meaning
+Emotivism in Ethics — ประโยคศีลธรรมไม่ใช่รายงานข้อเท็จจริง แต่แสดงท่าที/อารมณ์
+Analytic / Synthetic — แยกความจริงเชิงตรรกะ/ภาษา กับความจริงเชิงประสบการณ์
+Philosophy as Logical Clarification — ปรัชญาทำหน้าที่ชี้แจงภาษา ไม่ใช่ค้นโลกเหนือประสบการณ์
+Empiricism — ความรู้เกี่ยวกับโลกต้องผูกกับประสบการณ์
+Language, Truth and Logic ของ Ayer เป็นงานปี 1936 ที่ทำให้ logical positivism แพร่ในโลกภาษาอังกฤษ โดยรับอิทธิพลจาก Vienna Circle และเสนอ verification theory of meaning อย่างชัดเจน. (Encyclopedia Britannica)
+เหมาะกับเว็บเรา:
+Ayer เป็น “ไฟแดง” สำหรับบทความที่ใช้คำอย่าง soul, Self, spiritual ascent, archetype, energy, vibration แบบพูดเหมือนข้อเท็จจริง แต่ไม่มีเงื่อนไขตรวจสอบหรือแยกสถานะว่าเป็น metaphor, experience, theology หรือ empirical claim
+ประโยคใช้งานเว็บ:
+Ayer ทำให้เราถามอย่างไม่เกรงใจว่า ประโยคนี้บอกข้อเท็จจริง ตรวจสอบได้ หรือเป็นเพียงภาษาที่ทำให้ผู้พูดรู้สึกว่าตนแตะสิ่งสูงส่ง
+W. V. O. Quine
+ผลงานหลัก:
+Two Dogmas of Empiricism, Word and Object, From a Logical Point of View, Ontological Relativity and Other Essays, Philosophy of Logic
+แนวคิดสำคัญ:
+Critique of Analytic/Synthetic Distinction — เส้นแบ่ง analytic/synthetic ไม่มั่นคงอย่างที่ positivists คิด
+Web of Belief — ความเชื่อของเราเป็นเครือข่ายทั้งระบบ
+Holism — ประโยคเดี่ยวไม่ได้เจอประสบการณ์เดี่ยว ๆ แต่ทั้งทฤษฎีเผชิญโลกพร้อมกัน
+Naturalized Epistemology — epistemology ควรสัมพันธ์กับวิทยาศาสตร์จริง
+Indeterminacy of Translation — หลักฐานพฤติกรรมอาจไม่กำหนดคำแปลเดียว
+Ontological Commitment — ทฤษฎีหนึ่งผูกเรากับสิ่งมีอยู่แบบใด
+Regimentation — ทำภาษาให้เป็นระบบตรรกะเพื่อเห็นพันธะทาง ontology
+No First Philosophy — ไม่มีปรัชญาชั้นสูงที่ยืนเหนือวิทยาศาสตร์ทั้งหมด
+Quine โดดเด่นจากการโจมตี analytic/synthetic distinction และเสนอภาพความรู้แบบ holistic ผ่าน “web of belief” รวมทั้งแนวคิด underdetermination และ indeterminacy of translation. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Quine เหมาะกับการตรวจ ระบบทฤษฎีของเว็บทั้งชุด ว่าแนวคิด Jung, Freud, Lacan, Buddhist, Daoist, neuroscience, AI, typology ไม่ได้อยู่แยกกัน แต่เป็น web of belief ที่ต้องเช็กความตึง ความขัด และ ontology ที่แต่ละคำลากเข้ามา
+ประโยคใช้งานเว็บ:
+Quine ทำให้เราเห็นว่า ความเชื่อหนึ่งประโยคไม่เคยอยู่เดี่ยว ๆ เพราะทุกคำตอบที่เราให้ มันดึงเครือข่ายความเชื่อทั้งผืนให้ขยับตามไปด้วย
+Saul Kripke
+ผลงานหลัก:
+Naming and Necessity, Wittgenstein on Rules and Private Language
+แนวคิดสำคัญ:
+Rigid Designator — ชื่อที่อ้างถึงสิ่งเดียวกันในทุก possible world ที่สิ่งนั้นมีอยู่
+Necessary A Posteriori — บางความจริงจำเป็น แต่รู้ได้ผ่านประสบการณ์ เช่น identity ของ natural kinds
+Contingent A Priori — บางสิ่งรู้ก่อนประสบการณ์ในกรอบหนึ่ง แต่ไม่จำเป็นเชิง metaphysical
+Causal Theory of Reference — การอ้างถึงชื่อสัมพันธ์กับห่วงโซ่การใช้ชื่อในชุมชน
+Anti-descriptivism — ชื่อไม่ได้อ้างถึงผ่านชุดคำบรรยายในหัวเราเสมอไป
+Natural Kind Terms — คำอย่าง water, gold, tiger มีมิติของ kind และ essence
+Rule-following Problem — ปัญหาว่าการทำตามกฎมีฐานอยู่ที่อะไร
+Modal Logic / Possible Worlds — เครื่องมือคิดเรื่องความจำเป็นและความเป็นไปได้
+Kripke ทำให้แนวคิด rigid designator สำคัญมากใน philosophy of language และ metaphysics เพราะถ้าชื่อสองชื่อเป็น rigid designators และอ้างถึงสิ่งเดียวกัน ประโยค identity อาจเป็น necessary แม้เรารู้ได้ a posteriori. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Kripke ใช้กับการถามว่าเวลาเราพูดว่า “Jungian Self”, “ego”, “psyche”, “unconscious”, “type” เรากำลังอ้างถึง object แบบไหน? เป็นคำบรรยาย? ชื่อของ kind? model? หรือคำที่ชุมชนหนึ่งใช้ผ่าน causal chain ของ tradition?
+ประโยคใช้งานเว็บ:
+Kripke ทำให้การตั้งชื่อหนักขึ้น เพราะชื่อไม่ใช่แค่ป้ายที่เราติดตามคำบรรยายในหัว แต่ผูกกับประวัติการใช้ ชุมชนผู้พูด และคำถามว่าเรากำลังอ้างถึงสิ่งเดียวกันจริงหรือไม่
+Hilary Putnam
+ผลงานหลัก:
+Reason, Truth and History, Representation and Reality, Mind, Language and Reality, The Many Faces of Realism, Meaning and the Moral Sciences
+แนวคิดสำคัญ:
+Semantic Externalism — ความหมายไม่ได้อยู่ในหัวล้วน ๆ
+Twin Earth Thought Experiment — คนสองคนอาจมีสภาพภายในเหมือนกัน แต่คำว่า “water” อ้างถึงคนละ substance
+Natural Kind Terms — ความหมายของคำชนิดธรรมชาติผูกกับโลกและชุมชนผู้เชี่ยวชาญ
+Internal Realism — ความจริงไม่ใช่ mirror แบบง่าย แต่ก็ไม่ใช่ relativism
+Model-theoretic Argument — วิจารณ์ metaphysical realism แบบแข็ง
+Fact / Value Entanglement — fact กับ value ไม่แยกสะอาดเสมอไป
+Meaning Holism / Conceptual Pluralism — แนวคิดทำงานในระบบและ practice หลายแบบ
+Anti-reductionism — ระวังการลด mind/language/reality เหลือรูปเดียว
+Putnam โด่งดังกับคำว่า “meanings just ain’t in the head” ผ่าน Twin Earth และ semantic externalism: ความหมายหรือ reference ของคำบางคำไม่ได้ถูกกำหนดจากสิ่งที่อยู่ในหัวผู้พูดอย่างเดียว แต่เกี่ยวข้องกับโลกภายนอกและการใช้ภาษาในชุมชน. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Putnam เหมาะกับคำถามยุค AI มาก: AI อาจใช้คำว่า soul, grief, trauma, love, insight ได้ถูก pattern แต่ถ้าความหมายไม่ได้อยู่ในหัว/ข้อความอย่างเดียว มันมี relation กับโลก ชุมชน ประสบการณ์ และ practice ที่ AI ไม่มีแบบมนุษย์หรือไม่
+ประโยคใช้งานเว็บ:
+Putnam ทำให้เรารู้ว่า ความหมายไม่ได้ถูกขังอยู่ในหัวหรือข้อความ เพราะคำหนึ่งคำอาจต้องพึ่งโลก ชุมชน ประวัติการใช้ และสิ่งที่ผู้พูดเองยังไม่รู้ครบด้วยซ้ำ
+Donald Davidson
+ผลงานหลัก:
+Truth and Meaning, Inquiries into Truth and Interpretation, Essays on Actions and Events, Subjective, Intersubjective, Objective
+แนวคิดสำคัญ:
+Truth-conditional Semantics — ความหมายของประโยคสัมพันธ์กับเงื่อนไขความจริง
+Radical Interpretation — เข้าใจผู้พูดจากศูนย์ โดยไม่รู้ทั้งความเชื่อและความหมายล่วงหน้า
+Principle of Charity — การตีความต้องถือว่าผู้พูดส่วนใหญ่มีเหตุผลและเชื่อสิ่งจริงจำนวนมาก
+Triangulation — ความหมายเกิดในความสัมพันธ์สามเส้า: ผู้พูด ผู้ตีความ และโลกที่ทั้งคู่ตอบสนอง
+Anomalous Monism — เหตุการณ์จิตเป็นเหตุการณ์กาย แต่ไม่อยู่ใต้กฎจิตวิทยาแบบเข้ม
+Reasons as Causes — เหตุผลสามารถเป็นสาเหตุของการกระทำ
+Holism of Meaning and Belief — ความหมายกับความเชื่อพึ่งกันเป็นระบบ
+No Scheme/Content Dualism — วิจารณ์การแยก conceptual scheme กับ content แบบแข็ง
+Davidson พัฒนาแนวคิด radical interpretation โดยชี้ว่าการตีความภาษาและความเชื่อของคนอื่นต้องแก้ปัญหาร่วมกัน เพราะเราไม่อาจให้ความหมายแก่ประโยคโดยไม่รู้ความเชื่อ และไม่อาจรู้ความเชื่อโดยไม่เข้าใจคำพูด. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Davidson สำคัญกับงาน อ่านคน, อ่านข้อความ, อ่านบทความ, อ่านอีเมล, อ่านพยาน, อ่านผู้รับบริการ เพราะต้องตีความเขาโดยไม่รีบคิดว่าเขาไร้เหตุผลหรือผิดตั้งแต่ต้น
+ประโยคใช้งานเว็บ:
+Davidson ทำให้การเข้าใจคนอื่นไม่ใช่การถอดรหัสเครื่องจักร แต่เป็นการตีความผู้พูดในโลกเดียวกับเรา โดยต้องให้ความเป็นเหตุผลแก่เขามากพอ ก่อนจะสรุปว่าเขาผิดหรือหลง
+Elizabeth Anscombe
+ผลงานหลัก:
+Intention, Modern Moral Philosophy, An Introduction to Wittgenstein’s Tractatus, Collected Philosophical Papers
+แนวคิดสำคัญ:
+Intention — วิเคราะห์ intention ในฐานะ intention for future, intention-with-which, และ intentional action
+Intentional Action — การกระทำที่ผู้กระทำรู้ได้ในฐานะกำลังทำเพื่อเหตุผลหนึ่ง
+Practical Knowledge — ความรู้ของผู้กระทำต่อสิ่งที่ตนกำลังทำ ไม่ใช่แค่การสังเกตตนเองจากภายนอก
+The Question “Why?” — การกระทำโดยเจตนาเปิดให้ถามว่า “ทำไปทำไม” ในรูปของเหตุผล
+Critique of Modern Moral Philosophy — วิจารณ์ moral theory สมัยใหม่ที่ใช้คำ obligation/duty โดยขาดฐานกฎหมายศีลธรรมเดิม
+Doctrine of Double Effect — intention สำคัญต่อการประเมินศีลธรรมของการกระทำ
+Action Description — การกระทำเดียวกันอาจถูกบรรยายหลายแบบ แต่ไม่ใช่ทุก description จะจับ intention เดียวกัน
+Wittgensteinian Method — ใช้การวิเคราะห์ภาษาเพื่อคลี่ concept ที่ทำให้เราหลง
+งาน Intention ของ Anscombe เป็นจุดตั้งต้นใหญ่ของ philosophy of action ร่วมสมัย เพราะเธอวิเคราะห์ intention ทั้งสามรูปแบบและเชื่อม intentional action กับคำถาม “Why?” ที่ผู้กระทำตอบได้ในฐานะเหตุผลของการกระทำ. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Anscombe เหมาะกับงานกฎหมาย จิตวิทยา และ AI มาก เพราะช่วยแยก เจตนา เหตุผล แรงจูงใจ ความรับผิด การกระทำ และผลลัพธ์ ไม่ให้ปนกัน
+ประโยคใช้งานเว็บ:
+Anscombe ทำให้การถามว่า “เขาทำอะไร” ยังไม่พอ เพราะการกระทำเดียวกันอาจเปลี่ยนความหมายทันทีเมื่อเราถามต่อว่า เขาทำมันภายใต้ description ไหน และตอบคำถามว่า “ทำไปทำไม” อย่างไร
+นักคิดเสริมที่ควรเก็บไว้ในสายนี้
+G. E. Moore
+ควรมี เพราะ:
+เป็นตัวสำคัญของการต่อต้าน British Idealism และวางวิธีคิดแบบ common sense / conceptual clarity
+ใช้กับเว็บ:
+common sense, clarity, moral realism, anti-grand-system
+Rudolf Carnap
+ควรมี เพราะ:
+สำคัญกับ logical positivism, logical syntax, Aufbau, philosophy of science และการทำภาษาให้เป็นระบบ
+ใช้กับเว็บ:
+scientific language, formal system, anti-metaphysical audit
+J. L. Austin
+ควรมี เพราะ:
+speech act theory และ ordinary language philosophy สำคัญมากกับการเข้าใจว่า “พูด” คือ “ทำ”
+ใช้กับเว็บ:
+promise, confession, diagnosis, legal speech, performative utterance
+Gilbert Ryle
+ควรมี เพราะ:
+วิจารณ์ Cartesian dualism และ “ghost in the machine”
+ใช้กับเว็บ:
+mind-body, category mistake, psychology language
+P. F. Strawson
+ควรมี เพราะ:
+descriptive metaphysics, ordinary language, personhood และ responsibility
+ใช้กับเว็บ:
+person, responsibility, reactive attitudes, self
+Michael Dummett
+ควรมี เพราะ:
+ตีความ Frege และพัฒนา debate เรื่อง meaning, realism, anti-realism
+ใช้กับเว็บ:
+meaning, truth, proof, anti-realism
+Saul Kripke / Putnam / Davidson ควรแยกเป็น bridge
+ควรมี เพราะ:
+เป็นสะพานจาก analytic philosophy ไปสู่ philosophy of language, philosophy of mind, metaphysics และ AI meaning
+คำศัพท์แกนที่ควรทำเป็น Wiki
+คำ
+ความหมายแกน
+ใช้กับเว็บ
+Analysis
+การแยก concept/ประโยคให้เห็นโครงสร้าง
+anti-slop
+Logic
+กฎของเหตุผลและ inference
+argument audit
+Proposition
+เนื้อหาที่ประโยคเสนอ
+truth, belief
+Predicate Logic
+ตรรกะที่วิเคราะห์ relation/quantifier
+precision
+Quantifier
+all / some / none
+claims control
+Sense
+วิธีนำเสนอความหมาย
+Frege
+Reference
+สิ่งที่คำอ้างถึง
+language, ontology
+Truth-value
+ค่าจริง/เท็จของประโยค
+logic
+Definite Description
+คำบอกลักษณะเฉพาะ เช่น “the X”
+Russell
+Logical Form
+โครงสร้างตรรกะใต้ประโยค
+analysis
+Atomic Fact
+fact พื้นฐานใน logical atomism
+Russell/Wittgenstein
+Verification
+การตรวจสอบประโยคเชิงประสบการณ์
+Ayer
+Analytic / Synthetic
+จริงด้วยความหมาย / จริงจากโลก
+Quine debate
+Web of Belief
+เครือข่ายความเชื่อทั้งระบบ
+worldview
+Rigid Designator
+ชื่อที่อ้างถึงสิ่งเดียวกันใน possible worlds
+Kripke
+Necessary A Posteriori
+จำเป็นแต่รู้ผ่านประสบการณ์
+water = H₂O
+Semantic Externalism
+ความหมายไม่ได้อยู่ในหัวล้วน ๆ
+Putnam
+Truth Conditions
+เงื่อนไขที่ทำให้ประโยคจริง
+Davidson
+Radical Interpretation
+การตีความผู้พูดจากศูนย์
+Davidson
+Principle of Charity
+ตีความผู้พูดให้มีเหตุผลพอ
+dialogue
+Intention
+เจตนาในการกระทำ
+Anscombe
+Practical Knowledge
+ความรู้ของผู้กระทำต่อสิ่งที่ตนทำ
+agency
+Category Mistake
+เอาคำไปใช้ผิดประเภท
+Ryle
+Speech Act
+การพูดที่เป็นการกระทำ
+Austin
+Use
+ความหมายจากการใช้
+Wittgenstein
+แกนบทความที่ควรแตกจากสายนี้
+สำหรับ Concept Audit / Anti-AI Slop
+“Self” หมายถึงอะไรใน Jung, Vedanta, Buddhism, analytic philosophy
+“Soul” เป็น reference, metaphor, theological term หรือ phenomenological description
+“Unconscious” เป็น entity, process, model, disposition หรือ explanatory term
+คำว่า “symbol” ใช้ต่างกันอย่างไรใน Jung, Peirce, Saussure, Lacan, Ricoeur
+ประโยคที่ฟังดูจริงกับประโยคที่มี truth condition ต่างกันอย่างไร
+AI ตอบถูก แต่เข้าใจ reference จริงไหม
+สำหรับ Typology / MBTI / Jung
+Type เป็น natural kind, heuristic, construct, description หรือ identity label
+“Introvert” ใน Jung กับ MBTI มี reference เดียวกันไหม
+Function stack เป็น theory, model, metaphor หรือ pseudo-ontology
+คำว่า “Ni”, “Fi”, “Shadow” มี use ใน community แบบไหน
+Category mistake ใน typology: เอา language-game หนึ่งไปใช้ผิดสนาม
+Principle of charity ในการอ่านตัวเองและคนอื่น ไม่ใช่จับผิดเพื่อยืนยัน type
+สำหรับ Psychoanalysis / Lacan
+Signifier ใน Lacan ต้องแยกจาก signifier ใน Saussure อย่างไร
+Symptom เป็น statement, act, sign, metaphor หรือ structure
+Desire พูดถึงอะไร: state ภายใน, relation, lack, signifying structure
+“The unconscious is structured like a language” ต้องตรวจด้วย analytic precision
+การตีความฝันต้องแยก sense, reference, use, context
+สำหรับ Law / Responsibility / Intention
+Intent ต่างจาก motive อย่างไร
+การกระทำเดียวกันถูกบรรยายหลายแบบแล้วความรับผิดเปลี่ยนอย่างไร
+พยานพูดอะไรจริง ๆ: proposition, implication, speech act
+คำรับสารภาพเป็น report หรือ performative act
+กฎหมายต้องการ truth, proof, intention หรือ responsibility
+Anscombe ใช้อ่านเจตนาทางกฎหมายได้อย่างไร
+สำหรับ AI / Language / Meaning
+LLM มี meaning หรือแค่จัดการ signifier
+ความหมายอยู่ในข้อความ ในผู้ใช้ ในโลก หรือใน practice
+AI ไม่มี lived body แล้วใช้คำเกี่ยวกับ pain/love/soul อย่างไร
+Semantic externalism กับ AI: ถ้าความหมายไม่ได้อยู่ในหัว ข้อความ AI หมายถึงอะไร
+Prompt engineering เป็น language-game แบบไหน
+AI hallucination เป็น error ของ reference, inference หรือ epistemic authority
+จุดเชื่อมกับ Jung / Psychology แบบคุมให้แม่น
+ใช้ได้
+Frege → sense/reference
+ใช้แยกว่าคำทางจิตวิทยาหมายถึงอะไร และอ้างถึงอะไรจริง
+Russell → logical analysis / descriptions
+ใช้กันคำใหญ่ที่เหมือนมี object แต่จริง ๆ อาจเป็น description หรือ model
+Wittgenstein → meaning as use / language-games
+ใช้ตรวจคำอย่าง Self, shadow, soul, type ว่าถูกใช้ในสนามไหน
+Ayer → verification pressure
+ใช้ตรวจ claim ที่แอบอ้างวิทยาศาสตร์หรือข้อเท็จจริง
+Quine → web of belief
+ใช้ดูว่าทฤษฎีเว็บทั้งชุดผูกกันอย่างไร
+Kripke → naming/reference/necessity
+ใช้ตรวจคำที่เราคิดว่าอ้างถึง kind หรือ identity จริง
+Putnam → semantic externalism
+ใช้กับ AI, meaning, community, expertise
+Davidson → interpretation/charity/truth conditions
+ใช้กับการอ่านคน อ่านข้อความ อ่านผู้รับบริการ
+Anscombe → intention/action
+ใช้กับ ethics, law, agency, responsibility
+ต้องระวัง
+อย่าทำ analytic philosophy เป็นแค่ “ปรัชญาแห้ง ๆ”
+อย่าคิดว่าความชัดฆ่าความลึก — จริง ๆ ความชัดกันความลึกปลอม
+อย่าบอกว่า Ayer พิสูจน์ว่า metaphysics ไร้ค่าทั้งหมด
+อย่าบอกว่า Wittgenstein = ทุกอย่างคือ language-game เลยไม่มีความจริง
+อย่าบอกว่า Quine = ไม่มีความแตกต่างใด ๆ ระหว่างภาษาและโลก
+อย่าบอกว่า Kripke = ชื่อไม่มีความหมายเลยแบบง่าย ๆ
+อย่าบอกว่า Putnam = โลกภายนอกกำหนดความหมายทั้งหมดโดยไม่ต้องมีผู้ใช้ภาษา
+อย่าใช้ logic เป็นตำรวจฆ่างาน symbol แต่ใช้เป็นเครื่องมือแยกประเภท claim ให้ตรง
+สรุปใช้งานสำหรับเว็บ
+สายนี้คือ ระบบกันคำลื่น ของ The Soul’s Compass
+เพราะเว็บของเราจะต้องใช้คำใหญ่เยอะมาก:
+soul
+psyche
+self
+ego
+shadow
+archetype
+symbol
+unconscious
+type
+consciousness
+trauma
+desire
+meaning
+AI
+agency
+responsibility
+ถ้าไม่มี analytic philosophy คุม คำเหล่านี้จะเริ่มทำงานแบบหมอก: ดูมีพลัง แต่จับไม่อยู่
+Analytic Philosophy บังคับให้ถามว่า:
+คำนี้หมายถึงอะไร
+อ้างถึงอะไร
+อยู่ใน language-game ไหน
+มี truth condition ไหม
+เป็น metaphor หรือ claim
+เป็น model หรือ ontology
+เป็น description หรือ explanation
+ใช้ผิด category หรือเปล่า
+และประโยคนี้ถ้าจะผิด มันผิดได้อย่างไร
+สรุปตัวละครหลัก:
+Frege = predicate logic / sense-reference / concept-object / anti-psychologism
+Russell = logical analysis / descriptions / logical atomism / acquaintance-description
+Wittgenstein = picture theory / language-games / meaning as use / form of life
+A. J. Ayer = logical positivism / verification / anti-metaphysics / emotivism
+Quine = analytic-synthetic critique / web of belief / holism / naturalized epistemology
+Kripke = rigid designator / naming / necessity / reference
+Putnam = semantic externalism / Twin Earth / meanings not in the head
+Davidson = truth-conditional semantics / radical interpretation / principle of charity
+Anscombe = intention / action / practical knowledge / “Why?” question
+ประโยคแกนของสายนี้สำหรับเว็บ:
+Analytic Philosophy ทำให้ความคิดไม่รอดด้วยบรรยากาศ
+ไม่รอดด้วยศัพท์ใหญ่
+ไม่รอดด้วยความรู้สึกว่ามันลึก
+แต่มันต้องผ่านคำถามพื้นฐานว่า
+เรากำลังพูดอะไร
+คำนี้ทำงานอย่างไร
+ประโยคนี้อ้างถึงโลกแบบไหน
+และข้อโต้แย้งนี้ยืนได้จริงหรือแค่ไหลไปตามภาษา
+สำหรับเว็บที่พูดเรื่อง soul และ psyche
+สายนี้ไม่ใช่ศัตรูของความลึก
+แต่มันคือมีดที่ช่วยตัดหมอกออก
+เพื่อให้ความลึกที่เหลืออยู่ ไม่ใช่ความคลุมเครือปลอมตัวมาเป็นปัญญา
+รันสายถัดไปได้เลยค่ะ: Philosophy of Language / Semiotics

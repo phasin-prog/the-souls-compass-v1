@@ -1,0 +1,794 @@
+Phenomenology / Hermeneutics
+รายชื่อนักคิดคนสำคัญและผลงานหลัก
+หมายเหตุเบื้องต้น
+Phenomenology / Hermeneutics ไม่ใช่สำนักจิตวิทยาโดยตรงแบบ CBT, Jungian หรือ Family Systems
+แต่เป็นรากปรัชญาและวิธีคิดที่มีอิทธิพลสูงมากต่อจิตวิทยา จิตบำบัด จิตเวชศาสตร์ ปรัชญาจิต และการวิจัยเชิงคุณภาพ
+แกนสำคัญของสายนี้คือ
+lived experience
+intentionality
+consciousness
+embodiment
+being-in-the-world
+lifeworld
+meaning
+interpretation
+understanding
+horizon
+temporality
+subjectivity
+intersubjectivity
+selfhood
+language
+narrative
+existence
+suffering
+world-disclosure
+hermeneutic circle
+ถ้าจะจัดเป็นหมวดในเว็บไซต์ สามารถใช้ชื่อรวมว่า
+Phenomenology / Hermeneutics
+หรือ
+Phenomenological and Hermeneutic Psychology
+Classical Phenomenology
+ปรากฏการณ์วิทยาคลาสสิก
+Edmund Husserl
+สำนัก / สาย: Classical Phenomenology, Transcendental Phenomenology
+สถานะ: ผู้ก่อตั้ง Phenomenology สมัยใหม่
+แนวคิดสำคัญ: intentionality, phenomenological reduction, epoché, noesis-noema, lifeworld, transcendental subjectivity, time-consciousness
+ผลงานสำคัญ:
+Logical Investigations
+Ideas Pertaining to a Pure Phenomenology and to a Phenomenological Philosophy
+Cartesian Meditations
+The Crisis of European Sciences and Transcendental Phenomenology
+On the Phenomenology of the Consciousness of Internal Time
+Experience and Judgment
+ความสำคัญ:
+Husserl คือจุดเริ่มต้นของ phenomenology สมัยใหม่ เขาพยายามให้ปรัชญากลับไปสู่ “สิ่งที่ปรากฏในประสบการณ์” ก่อนจะรีบอธิบายด้วยทฤษฎี วิทยาศาสตร์ หรืออภิปรัชญาที่ครอบทับอยู่แล้ว
+Franz Brentano
+สำนัก / สาย: Descriptive Psychology, Proto-Phenomenology
+สถานะ: รากสำคัญของแนวคิด intentionality ก่อน Husserl
+แนวคิดสำคัญ: intentionality, act psychology, descriptive psychology, mental phenomena
+ผลงานสำคัญ:
+Psychology from an Empirical Standpoint
+Descriptive Psychology
+The Origin of Our Knowledge of Right and Wrong
+ความสำคัญ:
+Brentano สำคัญเพราะแนวคิด intentionality ของเขาเป็นหนึ่งในรากที่ Husserl นำไปพัฒนาต่อเป็น phenomenology โดยตรง
+Max Scheler
+สำนัก / สาย: Phenomenology, Philosophical Anthropology, Value Ethics
+สถานะ: นักปรากฏการณ์วิทยายุคต้นคนสำคัญ
+แนวคิดสำคัญ: value, emotion, sympathy, person, love, resentment, philosophical anthropology
+ผลงานสำคัญ:
+Formalism in Ethics and Non-Formal Ethics of Values
+The Nature of Sympathy
+Ressentiment
+The Human Place in the Cosmos
+On the Eternal in Man
+ความสำคัญ:
+Scheler สำคัญเพราะทำให้ phenomenology ไม่ได้อยู่แค่โครงสร้างสำนึก แต่ขยายไปสู่คุณค่า อารมณ์ ความรัก ความเห็นอกเห็นใจ และคำถามว่ามนุษย์คืออะไร
+Edith Stein
+สำนัก / สาย: Phenomenology, Empathy, Philosophical Anthropology
+สถานะ: นักปรากฏการณ์วิทยาสำคัญสาย Husserlian
+แนวคิดสำคัญ: empathy, personhood, intersubjectivity, body-soul unity, community
+ผลงานสำคัญ:
+On the Problem of Empathy
+Finite and Eternal Being
+Philosophy of Psychology and the Humanities
+The Structure of the Human Person
+An Investigation Concerning the State
+ความสำคัญ:
+Stein สำคัญมากต่อการเข้าใจ empathy ในเชิง phenomenology เพราะเธอศึกษาว่าเรารับรู้ผู้อื่นในฐานะ subject ที่มีชีวิตภายในอย่างไร ไม่ใช่แค่มองเขาเป็นวัตถุภายนอก
+Roman Ingarden
+สำนัก / สาย: Phenomenology, Ontology, Aesthetics
+สถานะ: นักปรากฏการณ์วิทยาโปแลนด์และศิษย์สำคัญของ Husserl
+แนวคิดสำคัญ: ontology of artwork, intentional object, literary work, realism, aesthetic experience
+ผลงานสำคัญ:
+The Literary Work of Art
+The Controversy over the Existence of the World
+The Cognition of the Literary Work of Art
+Ontology of the Work of Art
+ความสำคัญ:
+Ingarden สำคัญต่อ phenomenology ของศิลปะ วรรณกรรม และวัตถุเชิงเจตนา เขาช่วยให้การอ่านงานศิลป์และตัวบทมีฐาน ontological ที่ละเอียดมากขึ้น
+Existential / Hermeneutic Phenomenology
+ปรากฏการณ์วิทยาเชิงภาวะดำรงอยู่และการตีความ
+Martin Heidegger
+สำนัก / สาย: Hermeneutic Phenomenology, Existential Ontology
+สถานะ: ผู้เปลี่ยน phenomenology จากสำนึกไปสู่คำถามเรื่อง Being
+แนวคิดสำคัญ: Dasein, Being-in-the-world, care, thrownness, being-toward-death, authenticity, everydayness, hermeneutic circle
+ผลงานสำคัญ:
+Being and Time
+The Basic Problems of Phenomenology
+Introduction to Metaphysics
+The Question Concerning Technology
+Poetry, Language, Thought
+What Is Called Thinking?
+Identity and Difference
+ความสำคัญ:
+Heidegger ทำให้ phenomenology ไม่ใช่แค่การบรรยายโครงสร้างของสำนึก แต่กลายเป็นการตีความการมีอยู่ของมนุษย์ในโลก มนุษย์ไม่ได้เป็น “จิตที่ยืนมองโลก” แต่เป็นผู้ที่ถูกโยนลงมาอยู่ในโลก ความสัมพันธ์ ภาษา เวลา ความตาย และความหมายตั้งแต่แรก
+Jean-Paul Sartre
+สำนัก / สาย: Existential Phenomenology, Existentialism
+สถานะ: นักปรัชญา existential phenomenology คนสำคัญของฝรั่งเศส
+แนวคิดสำคัญ: consciousness, nothingness, freedom, bad faith, being-for-itself, being-in-itself, gaze, situation
+ผลงานสำคัญ:
+Being and Nothingness
+The Transcendence of the Ego
+The Imaginary
+Sketch for a Theory of the Emotions
+Existentialism Is a Humanism
+Nausea
+Critique of Dialectical Reason
+ความสำคัญ:
+Sartre สำคัญเพราะทำให้ phenomenology กลายเป็นปรัชญาแห่งเสรีภาพ ความรับผิดชอบ ความหลอกตัวเอง และความตึงเครียดระหว่างตัวตนกับสายตาของผู้อื่น
+Maurice Merleau-Ponty
+สำนัก / สาย: Embodied Phenomenology, Existential Phenomenology
+สถานะ: นักปรากฏการณ์วิทยาร่างกายคนสำคัญที่สุดคนหนึ่ง
+แนวคิดสำคัญ: embodied perception, body-subject, lived body, flesh, chiasm, perception, world, ambiguity
+ผลงานสำคัญ:
+Phenomenology of Perception
+The Structure of Behavior
+Sense and Non-Sense
+The Visible and the Invisible
+Signs
+The Primacy of Perception
+Eye and Mind
+ความสำคัญ:
+Merleau-Ponty สำคัญมากต่อจิตวิทยาและจิตบำบัด เพราะเขาทำให้ “ร่างกาย” ไม่ใช่แค่วัตถุที่จิตควบคุม แต่เป็นวิธีที่มนุษย์มีโลก รับรู้โลก และสัมพันธ์กับผู้อื่น
+Emmanuel Levinas
+สำนัก / สาย: Phenomenology, Ethics, Philosophy of the Other
+สถานะ: นักปรากฏการณ์วิทยาแห่ง Other และจริยศาสตร์
+แนวคิดสำคัญ: face-to-face, Other, responsibility, alterity, ethics as first philosophy, infinity
+ผลงานสำคัญ:
+Totality and Infinity
+Otherwise than Being
+Time and the Other
+Existence and Existents
+Ethics and Infinity
+ความสำคัญ:
+Levinas สำคัญเพราะเปลี่ยนคำถาม phenomenology จาก “ฉันรับรู้โลกอย่างไร” ไปสู่ “การเผชิญหน้ากับผู้อื่นเรียกร้องความรับผิดชอบจากฉันอย่างไร”
+Michel Henry
+สำนัก / สาย: Phenomenology of Life, Radical Phenomenology
+สถานะ: นักปรากฏการณ์วิทยาชีวิตภายใน
+แนวคิดสำคัญ: auto-affection, life, affectivity, invisible, subjectivity, incarnation
+ผลงานสำคัญ:
+The Essence of Manifestation
+Material Phenomenology
+I Am the Truth
+Incarnation
+Barbarism
+Genealogy of Psychoanalysis
+ความสำคัญ:
+Henry สำคัญเพราะเขาหัน phenomenology เข้าหาชีวิตที่รู้สึกตนเองจากภายใน ก่อนโลกจะปรากฏเป็นวัตถุภายนอก เขาสำคัญมากต่อคำถามเรื่อง affect, subjectivity และชีวิตภายใน
+Jean-Luc Marion
+สำนัก / สาย: Phenomenology, Theology, Givenness
+สถานะ: นักปรากฏการณ์วิทยาร่วมสมัยคนสำคัญ
+แนวคิดสำคัญ: givenness, saturated phenomenon, donation, icon, idol, revelation
+ผลงานสำคัญ:
+Being Given
+Reduction and Givenness
+In Excess
+God Without Being
+The Erotic Phenomenon
+ความสำคัญ:
+Marion สำคัญเพราะขยาย phenomenology ไปสู่ปรากฏการณ์ที่ล้นเกินกรอบการควบคุมของ subject เช่น ความรัก ศิลปะ การเปิดเผย และสิ่งที่ให้ตัวเองมากเกินกว่าจะถูกจับเป็นวัตถุธรรมดา
+Hannah Arendt
+สำนัก / สาย: Political Phenomenology, Existential-Political Thought
+สถานะ: นักคิดการเมืองที่ได้รับอิทธิพลจาก phenomenology และ Heidegger
+แนวคิดสำคัญ: action, plurality, natality, public realm, totalitarianism, thinking, judgment
+ผลงานสำคัญ:
+The Human Condition
+The Origins of Totalitarianism
+Eichmann in Jerusalem
+Between Past and Future
+The Life of the Mind
+On Revolution
+ความสำคัญ:
+Arendt สำคัญในฐานะนักคิดที่นำคำถามเรื่อง existence, action, world, plurality และ judgment ไปสู่ปรัชญาการเมือง เธอช่วยให้ phenomenology ไม่ถูกจำกัดอยู่แค่ประสบการณ์ส่วนตัว แต่แตะโลกสาธารณะและการกระทำร่วมกันของมนุษย์
+Hermeneutics
+ศาสตร์และปรัชญาแห่งการตีความ
+Friedrich Schleiermacher
+สำนัก / สาย: Modern Hermeneutics, Romantic Hermeneutics
+สถานะ: ผู้บุกเบิก hermeneutics สมัยใหม่
+แนวคิดสำคัญ: grammatical interpretation, psychological interpretation, misunderstanding, universal hermeneutics, authorial meaning
+ผลงานสำคัญ:
+Hermeneutics and Criticism
+On Religion
+The Christian Faith
+Brief Outline of Theology as a Field of Study
+ความสำคัญ:
+Schleiermacher สำคัญเพราะขยาย hermeneutics จากการตีความพระคัมภีร์หรือข้อความเฉพาะ ไปสู่ศิลปะการตีความทั่วไป เขามองว่าความเข้าใจต้องจับทั้งภาษาและชีวิตจิตใจของผู้พูดหรือผู้เขียน
+Wilhelm Dilthey
+สำนัก / สาย: Hermeneutics, Human Sciences, Lebensphilosophie
+สถานะ: ผู้วางฐาน hermeneutics สำหรับมนุษยศาสตร์และสังคมศาสตร์
+แนวคิดสำคัญ: lived experience, understanding, explanation, human sciences, historical consciousness, Erlebnis
+ผลงานสำคัญ:
+Introduction to the Human Sciences
+The Formation of the Historical World in the Human Sciences
+Selected Works
+Poetry and Experience
+The Rise of Hermeneutics
+ความสำคัญ:
+Dilthey สำคัญเพราะเขาแยกการเข้าใจมนุษย์ออกจากการอธิบายธรรมชาติ มนุษย์ไม่ใช่วัตถุให้วัดอย่างเดียว แต่เป็นชีวิตที่ต้องเข้าใจผ่านประสบการณ์ ความหมาย ประวัติศาสตร์ และบริบท
+Hans-Georg Gadamer
+สำนัก / สาย: Philosophical Hermeneutics
+สถานะ: ผู้ก่อตั้ง Philosophical Hermeneutics สมัยใหม่
+แนวคิดสำคัญ: fusion of horizons, tradition, prejudice, dialogue, historically effected consciousness, understanding, language
+ผลงานสำคัญ:
+Truth and Method
+Philosophical Hermeneutics
+Reason in the Age of Science
+The Relevance of the Beautiful
+The Enigma of Health
+ความสำคัญ:
+Gadamer สำคัญเพราะเขาทำให้ hermeneutics ไม่ใช่แค่วิธีตีความข้อความ แต่เป็นโครงสร้างพื้นฐานของความเข้าใจมนุษย์ เราไม่เคยเข้าใจอะไรจากความว่างเปล่า แต่เข้าใจผ่านประวัติศาสตร์ ภาษา อคติเดิม และการสนทนากับสิ่งที่เรากำลังตีความ
+Paul Ricoeur
+สำนัก / สาย: Hermeneutics, Phenomenology, Narrative Identity
+สถานะ: นักคิดสำคัญที่เชื่อม phenomenology กับ hermeneutics
+แนวคิดสำคัญ: narrative identity, symbol, interpretation, hermeneutics of suspicion, selfhood, text, memory, metaphor
+ผลงานสำคัญ:
+Freedom and Nature
+Fallible Man
+The Symbolism of Evil
+Freud and Philosophy
+The Rule of Metaphor
+Time and Narrative
+Oneself as Another
+Memory, History, Forgetting
+The Conflict of Interpretations
+ความสำคัญ:
+Ricoeur สำคัญมากต่อจิตวิทยาเชิงลึก เพราะเขาเชื่อมการตีความสัญลักษณ์ ตัวบท จิตวิเคราะห์ เวลา ความทรงจำ และ narrative identity เข้าด้วยกัน เขาช่วยให้การอ่านมนุษย์ไม่หยุดที่อาการ แต่เข้าไปถึงเรื่องเล่าที่คนใช้เข้าใจตนเอง
+Jürgen Habermas
+สำนัก / สาย: Critical Hermeneutics, Critical Theory
+สถานะ: นักคิดที่วิจารณ์และขยาย hermeneutics ผ่านทฤษฎีวิพากษ์
+แนวคิดสำคัญ: communicative action, ideology critique, knowledge interests, emancipation, distorted communication
+ผลงานสำคัญ:
+Knowledge and Human Interests
+The Theory of Communicative Action
+The Philosophical Discourse of Modernity
+On the Logic of the Social Sciences
+Between Facts and Norms
+ความสำคัญ:
+Habermas สำคัญเพราะเตือนว่า “ความเข้าใจ” อย่างเดียวอาจไม่พอ หากภาษาและความหมายถูกบิดโดยอำนาจ อุดมการณ์ หรือโครงสร้างสังคม การตีความจึงต้องมีมิติวิพากษ์ด้วย
+Karl-Otto Apel
+สำนัก / สาย: Transcendental Hermeneutics, Discourse Ethics
+สถานะ: นักคิดเยอรมันที่เชื่อม hermeneutics กับ pragmatics และ ethics
+แนวคิดสำคัญ: transcendental pragmatics, discourse ethics, communication community, understanding
+ผลงานสำคัญ:
+Transformation of Philosophy
+Understanding and Explanation
+Towards a Transformation of Philosophy
+งานเขียนด้าน discourse ethics และ transcendental pragmatics
+ความสำคัญ:
+Apel สำคัญในฐานะนักคิดที่พยายามเชื่อมการตีความ ภาษา การสื่อสาร และเงื่อนไขทางจริยธรรมของการเข้าใจกัน
+Richard E. Palmer
+สำนัก / สาย: Hermeneutics, Literary Theory
+สถานะ: ผู้เผยแพร่ hermeneutics สู่โลกภาษาอังกฤษ
+แนวคิดสำคัญ: interpretation, hermeneutic tradition, literary understanding, Heidegger, Gadamer
+ผลงานสำคัญ:
+Hermeneutics: Interpretation Theory in Schleiermacher, Dilthey, Heidegger, and Gadamer
+งานเขียนและแปลเกี่ยวกับ hermeneutics
+งานเผยแพร่ philosophical hermeneutics
+ความสำคัญ:
+Palmer สำคัญเพราะช่วยทำให้ hermeneutics เยอรมันถูกอ่านในโลกภาษาอังกฤษอย่างเป็นระบบ โดยเฉพาะสาย Schleiermacher-Dilthey-Heidegger-Gadamer
+Jean Grondin
+สำนัก / สาย: Hermeneutics, Gadamer Studies
+สถานะ: นักประวัติศาสตร์ hermeneutics ร่วมสมัยคนสำคัญ
+แนวคิดสำคัญ: philosophical hermeneutics, Gadamer, meaning, interpretation, understanding
+ผลงานสำคัญ:
+Introduction to Philosophical Hermeneutics
+Hans-Georg Gadamer: A Biography
+The Philosophy of Gadamer
+Introduction to Metaphysics
+งานเขียนด้านประวัติ hermeneutics
+ความสำคัญ:
+Grondin สำคัญในฐานะนักอธิบายประวัติและโครงสร้างของ hermeneutics ที่ช่วยให้สายนี้อ่านง่ายขึ้นโดยไม่ลดทอนความลึกของ Gadamer และ Heidegger
+Phenomenological Psychiatry / Daseinsanalysis
+จิตเวชศาสตร์ปรากฏการณ์วิทยาและการวิเคราะห์ภาวะดำรงอยู่
+Karl Jaspers
+สำนัก / สาย: Phenomenological Psychiatry, Existential Philosophy
+สถานะ: ผู้บุกเบิก phenomenological psychopathology
+แนวคิดสำคัญ: understanding vs explanation, psychopathology, limit situations, existence, empathy, delusion
+ผลงานสำคัญ:
+General Psychopathology
+Psychology of Worldviews
+Philosophy
+Reason and Existenz
+The Question of German Guilt
+ความสำคัญ:
+Jaspers สำคัญมากต่อจิตเวชศาสตร์ เพราะเขาแยกระหว่างการอธิบายสาเหตุของอาการกับการเข้าใจประสบการณ์ของผู้ป่วยจากภายใน เขาทำให้ psychopathology ไม่ใช่แค่การจัดหมวดอาการ แต่เป็นการเข้าใจโลกที่ผู้ป่วยอาศัยอยู่
+Ludwig Binswanger
+สำนัก / สาย: Daseinsanalysis, Existential Psychiatry
+สถานะ: ผู้บุกเบิก Daseinsanalysis
+แนวคิดสำคัญ: being-in-the-world, world-design, existential analysis, love, existential psychopathology
+ผลงานสำคัญ:
+Being-in-the-World
+Dream and Existence
+The Case of Ellen West
+Grundformen und Erkenntnis menschlichen Daseins
+งานเขียนด้าน Daseinsanalysis
+ความสำคัญ:
+Binswanger สำคัญเพราะนำ Heidegger มาใช้ในจิตเวชศาสตร์และจิตบำบัด โดยมองอาการทางจิตเป็นการเปลี่ยนแปลงของวิธีที่คนมีโลก ไม่ใช่แค่ความผิดปกติแยกส่วนในสมองหรือพฤติกรรม
+Medard Boss
+สำนัก / สาย: Daseinsanalysis, Existential Psychotherapy
+สถานะ: นักจิตเวชและนักบำบัด Daseinsanalysis คนสำคัญ
+แนวคิดสำคัญ: Daseinsanalysis, openness, being-in-the-world, dreams, embodiment, therapy as freeing openness
+ผลงานสำคัญ:
+Psychoanalysis and Daseinsanalysis
+Existential Foundations of Medicine and Psychology
+The Analysis of Dreams
+I Dreamt Last Night
+A Psychiatrist Discovers India
+ความสำคัญ:
+Boss สำคัญเพราะพยายามทำให้ Daseinsanalysis เป็นแนวทางบำบัดจริง โดยเฉพาะการอ่านความฝัน ร่างกาย และอาการในฐานะวิธีที่โลกเปิดหรือปิดให้คนคนหนึ่ง
+Eugène Minkowski
+สำนัก / สาย: Phenomenological Psychiatry
+สถานะ: นักจิตเวชปรากฏการณ์วิทยาคนสำคัญ
+แนวคิดสำคัญ: lived time, schizophrenia, vital contact with reality, temporality, psychopathology
+ผลงานสำคัญ:
+Lived Time
+Schizophrenia
+The Essential Minkowski
+งานเขียนด้าน lived time และ phenomenological psychopathology
+ความสำคัญ:
+Minkowski สำคัญเพราะเขาอ่าน schizophrenia ผ่านการเปลี่ยนแปลงของเวลา ชีวิต และการสัมผัสกับความจริง ไม่ใช่แค่กลุ่มอาการตามคู่มือวินิจฉัย
+Erwin Straus
+สำนัก / สาย: Phenomenological Psychology, Phenomenological Psychiatry
+สถานะ: นักคิดสำคัญด้าน lived body และ perception
+แนวคิดสำคัญ: sensing, movement, lived body, spatiality, embodiment, affective experience
+ผลงานสำคัญ:
+The Primary World of Senses
+Phenomenological Psychology
+งานเขียนด้าน perception, sensing และ movement
+ความสำคัญ:
+Straus สำคัญเพราะทำให้ perception และ movement ถูกเข้าใจในฐานะประสบการณ์มีชีวิต ไม่ใช่แค่ข้อมูลประสาทสัมผัสที่สมองประมวลผล
+Viktor von Weizsäcker
+สำนัก / สาย: Medical Anthropology, Phenomenological Medicine
+สถานะ: นักคิดสำคัญด้านการแพทย์เชิงมานุษยวิทยา
+แนวคิดสำคัญ: pathic subject, medical anthropology, illness experience, body-person unity
+ผลงานสำคัญ:
+Der Gestaltkreis
+งานเขียนด้าน medical anthropology
+งานเขียนด้าน illness, subjectivity และ embodied medicine
+ความสำคัญ:
+Weizsäcker สำคัญเพราะเขาทำให้การแพทย์ไม่มองผู้ป่วยเป็นวัตถุทางชีวภาพล้วน ๆ แต่เป็น subject ที่ป่วย เจ็บ และมีชีวิตอยู่ในโลกของความหมาย
+Arthur Tatossian
+สำนัก / สาย: Phenomenological Psychiatry
+สถานะ: นักจิตเวชฝรั่งเศสสาย phenomenological psychopathology
+แนวคิดสำคัญ: depression, schizophrenia, lived experience, phenomenological psychopathology
+ผลงานสำคัญ:
+Phenomenology of the Psychoses
+งานเขียนด้าน phenomenological psychiatry
+งานศึกษาประสบการณ์ของ psychosis และ depression
+ความสำคัญ:
+Tatossian สำคัญในสายที่รักษาความละเอียดของประสบการณ์ผู้ป่วยทางจิตเวช โดยไม่รีบด่วนแปลทุกอย่างเป็นหมวดวินิจฉัยเท่านั้น
+Wolfgang Blankenburg
+สำนัก / สาย: Phenomenological Psychopathology
+สถานะ: นักคิดสำคัญด้าน schizophrenia และ common sense
+แนวคิดสำคัญ: loss of natural self-evidence, schizophrenia, common sense, lived world
+ผลงานสำคัญ:
+Der Verlust der natürlichen Selbstverständlichkeit
+งานเขียนด้าน schizophrenia และ phenomenological psychopathology
+ความสำคัญ:
+Blankenburg สำคัญเพราะเสนอว่า schizophrenia อาจเกี่ยวกับการสูญเสีย “ความเป็นไปเองตามธรรมชาติ” ของโลก สิ่งที่คนทั่วไปไม่ต้องคิด กลับกลายเป็นสิ่งแปลก ประหลาด และไม่มั่นคง
+Thomas Fuchs
+สำนัก / สาย: Phenomenological Psychiatry, Embodied Cognition
+สถานะ: นักจิตเวชและนักปรากฏการณ์วิทยาร่วมสมัยคนสำคัญ
+แนวคิดสำคัญ: embodied mind, intercorporeality, depression, schizophrenia, temporality, ecological brain
+ผลงานสำคัญ:
+Ecology of the Brain
+In Defense of the Human Being
+งานเขียนด้าน embodied cognition และ phenomenological psychopathology
+งานวิจัยเรื่อง depression, schizophrenia และ temporality
+ความสำคัญ:
+Fuchs สำคัญมากในยุคร่วมสมัย เพราะเขาเชื่อม phenomenology, psychiatry, embodied cognition และ neuroscience โดยไม่ลดทอนมนุษย์ให้เหลือแค่สมอง
+Louis A. Sass
+สำนัก / สาย: Phenomenological Psychopathology, Schizophrenia Studies
+สถานะ: นักคิดสำคัญด้าน phenomenology of schizophrenia
+แนวคิดสำคัญ: hyperreflexivity, self-disorder, schizophrenia, modernism, ipseity disturbance
+ผลงานสำคัญ:
+Madness and Modernism
+The Paradoxes of Delusion
+Self and Schizophrenia
+งานเขียนด้าน self-disorders และ schizophrenia
+ความสำคัญ:
+Sass สำคัญเพราะช่วยอธิบาย psychosis โดยเฉพาะ schizophrenia ผ่านการเปลี่ยนแปลงของ self-awareness, embodiment และความสัมพันธ์กับโลก
+Josef Parnas
+สำนัก / สาย: Phenomenological Psychiatry, Self-Disorder Research
+สถานะ: นักวิจัยสำคัญด้าน self-disorders ใน schizophrenia spectrum
+แนวคิดสำคัญ: ipseity disturbance, self-disorders, schizophrenia spectrum, EASE interview
+ผลงานสำคัญ:
+งานพัฒนา Examination of Anomalous Self-Experience
+งานวิจัยเรื่อง self-disorders และ schizophrenia spectrum
+งานเขียนร่วมกับ Louis Sass ด้าน ipseity disturbance
+ความสำคัญ:
+Parnas สำคัญเพราะช่วยทำให้ phenomenological psychopathology มีเครื่องมือวิจัยและการประเมินที่จับประสบการณ์ผิดปกติของ self ได้ละเอียดขึ้น
+Existential Therapy / Existential-Phenomenological Therapy
+จิตบำบัดอัตถิภาวะและปรากฏการณ์วิทยา
+Rollo May
+สำนัก / สาย: Existential Psychology, Existential-Humanistic Therapy
+สถานะ: ผู้บุกเบิก existential psychology ในอเมริกา
+แนวคิดสำคัญ: anxiety, freedom, will, courage, meaning, existential guilt, being
+ผลงานสำคัญ:
+The Meaning of Anxiety
+Man’s Search for Himself
+Existence
+Love and Will
+The Courage to Create
+The Discovery of Being
+Freedom and Destiny
+ความสำคัญ:
+Rollo May สำคัญเพราะนำ existential phenomenology เข้าสู่โลกจิตวิทยาอเมริกัน เขาทำให้ anxiety ไม่ใช่แค่อาการที่ต้องกำจัด แต่เป็นสัญญาณของการเผชิญเสรีภาพ ความเป็นไปได้ และความรับผิดชอบของมนุษย์
+Viktor Frankl
+สำนัก / สาย: Logotherapy, Existential Analysis
+สถานะ: ผู้ก่อตั้ง Logotherapy
+แนวคิดสำคัญ: will to meaning, meaning in suffering, existential vacuum, responsibility, tragic optimism
+ผลงานสำคัญ:
+Man’s Search for Meaning
+The Doctor and the Soul
+The Will to Meaning
+The Unheard Cry for Meaning
+Man’s Search for Ultimate Meaning
+ความสำคัญ:
+Frankl สำคัญเพราะทำให้คำถามเรื่องความหมายกลายเป็นแกนของจิตบำบัด มนุษย์ไม่ได้ต้องการแค่ความสุขหรือแรงขับ แต่ต้องการเหตุผลที่จะมีชีวิตต่อ
+Irvin D. Yalom
+สำนัก / สาย: Existential Psychotherapy
+สถานะ: นักจิตบำบัด existential ที่มีอิทธิพลสูงมาก
+แนวคิดสำคัญ: death, freedom, isolation, meaninglessness, therapeutic encounter, group therapy
+ผลงานสำคัญ:
+Existential Psychotherapy
+The Theory and Practice of Group Psychotherapy
+Love’s Executioner
+The Gift of Therapy
+Staring at the Sun
+Momma and the Meaning of Life
+When Nietzsche Wept
+ความสำคัญ:
+Yalom สำคัญเพราะทำให้ existential therapy อ่านง่าย ใช้ได้จริง และเห็นภาพคลินิกชัด โดยเฉพาะสี่ givens: ความตาย เสรีภาพ ความโดดเดี่ยว และความไร้ความหมาย
+Emmy van Deurzen
+สำนัก / สาย: Existential Therapy, Existential-Phenomenological Psychotherapy
+สถานะ: นักบำบัด existential สำคัญในยุโรปและอังกฤษ
+แนวคิดสำคัญ: four worlds, existential dimensions, meaning, values, paradox, lived experience
+ผลงานสำคัญ:
+Existential Psychotherapy and Counselling in Practice
+Everyday Mysteries
+Paradox and Passion
+Skills in Existential Counselling and Psychotherapy
+Psychotherapy and the Quest for Happiness
+ความสำคัญ:
+van Deurzen สำคัญเพราะทำให้ existential therapy มีระบบที่ชัดผ่านมิติของโลกชีวิต เช่น กายภาพ สังคม จิตใจ และจิตวิญญาณ โดยไม่ทำให้มันกลายเป็นเทคนิคสำเร็จรูป
+Ernesto Spinelli
+สำนัก / สาย: Existential-Phenomenological Therapy
+สถานะ: นักคิดสำคัญด้าน existential phenomenological psychotherapy
+แนวคิดสำคัญ: relatedness, uncertainty, worlding, bracketing, phenomenological inquiry, existential givens
+ผลงานสำคัญ:
+The Interpreted World
+Practising Existential Psychotherapy
+Tales of Un-Knowing
+Demystifying Therapy
+The Mirror and the Hammer
+ความสำคัญ:
+Spinelli สำคัญเพราะย้ำว่า existential therapy ไม่ใช่การยัดทฤษฎีใส่ผู้รับบริการ แต่เป็นการสำรวจโลกที่ผู้รับบริการมีชีวิตอยู่จริง ผ่านท่าทีไม่รู้ล่วงหน้าและการฟังแบบ phenomenological
+Kirk J. Schneider
+สำนัก / สาย: Existential-Humanistic Therapy
+สถานะ: นักคิดร่วมสมัยสาย existential-humanistic psychology
+แนวคิดสำคัญ: awe, presence, existential integration, polarized mind, depth therapy
+ผลงานสำคัญ:
+The Paradoxical Self
+Rediscovery of Awe
+Existential-Humanistic Therapy
+The Polarized Mind
+The Spirituality of Awe
+Life-Enhancing Anxiety
+ความสำคัญ:
+Schneider สำคัญเพราะเชื่อม existential therapy กับ humanistic psychology และความสามารถของมนุษย์ในการเผชิญความกว้างใหญ่ ความกลัว ความตาย และความพิศวงของการมีชีวิต
+James F. T. Bugental
+สำนัก / สาย: Existential-Humanistic Psychotherapy
+สถานะ: นักบำบัด humanistic-existential คนสำคัญ
+แนวคิดสำคัญ: authenticity, presence, inward searching, life process, subjectivity
+ผลงานสำคัญ:
+The Search for Authenticity
+The Search for Existential Identity
+Psychotherapy and Process
+The Art of the Psychotherapist
+Psychotherapy Isn’t What You Think
+ความสำคัญ:
+Bugental สำคัญเพราะทำให้ psychotherapy เป็นการเผชิญชีวิตจากภายใน ไม่ใช่แค่การแก้อาการ เขาเน้น presence ของนักบำบัดและการค้นหาความจริงของประสบการณ์ผู้รับบริการ
+Phenomenological Psychology / Human Science Psychology
+จิตวิทยาปรากฏการณ์วิทยาและมนุษยศาสตร์เชิงจิตวิทยา
+Amedeo Giorgi
+สำนัก / สาย: Phenomenological Psychology, Human Science Psychology
+สถานะ: ผู้พัฒนา Descriptive Phenomenological Method ในจิตวิทยา
+แนวคิดสำคัญ: descriptive phenomenological method, human science, lived experience, psychological meaning units
+ผลงานสำคัญ:
+Psychology as a Human Science
+Phenomenology and Psychological Research
+The Descriptive Phenomenological Method in Psychology
+งานพัฒนาวิธีวิจัย phenomenological psychology
+ความสำคัญ:
+Giorgi สำคัญมากเพราะทำให้ phenomenology กลายเป็นวิธีวิจัยทางจิตวิทยาที่มีขั้นตอนจริง โดยเฉพาะการศึกษาประสบการณ์มนุษย์จากคำบอกเล่าโดยไม่รีบลดทอนเป็นตัวแปร
+Duquesne School
+สำนัก / สาย: Phenomenological Psychology, Human Science Psychology
+สถานะ: กลุ่มสำคัญในการพัฒนา phenomenological psychology ในอเมริกา
+แนวคิดสำคัญ: lived experience, human science, descriptive analysis, psychological phenomenology
+ผลงานสำคัญ:
+งานวิจัย phenomenological psychology จาก Duquesne University
+งานของ Amedeo Giorgi, Adrian van Kaam และนักวิจัยร่วมสาย human science psychology
+งานพัฒนา qualitative phenomenological methods
+ความสำคัญ:
+Duquesne School สำคัญในฐานะพื้นที่ที่ทำให้ phenomenology ถูกนำมาใช้ในจิตวิทยาอย่างจริงจัง ไม่ใช่แค่อยู่ในปรัชญา
+Adrian van Kaam
+สำนัก / สาย: Phenomenological Psychology, Humanistic Psychology
+สถานะ: นักพัฒนา phenomenological method รุ่นสำคัญ
+แนวคิดสำคัญ: existential foundations, human formation, phenomenological research, spiritual psychology
+ผลงานสำคัญ:
+Existential Foundations of Psychology
+The Art of Existential Counseling
+Religion and Personality
+งานพัฒนา phenomenological research method
+ความสำคัญ:
+van Kaam สำคัญเพราะเชื่อม phenomenological psychology, existential therapy และการก่อตัวของมนุษย์เข้าด้วยกัน
+Clark Moustakas
+สำนัก / สาย: Phenomenological Research, Humanistic Psychology
+สถานะ: นักพัฒนา phenomenological และ heuristic research
+แนวคิดสำคัญ: phenomenological research, heuristic inquiry, loneliness, self, human experience
+ผลงานสำคัญ:
+Loneliness
+The Self
+Heuristic Research
+Phenomenological Research Methods
+Existential Child Therapy
+ความสำคัญ:
+Moustakas สำคัญเพราะทำให้การวิจัยประสบการณ์มนุษย์มีน้ำเสียงมนุษยนิยมและเชิงภาวะดำรงอยู่ โดยเฉพาะเรื่อง loneliness, self และประสบการณ์ส่วนลึกของมนุษย์
+Max van Manen
+สำนัก / สาย: Hermeneutic Phenomenology, Pedagogy, Qualitative Research
+สถานะ: นักคิดสำคัญด้าน hermeneutic phenomenological research
+แนวคิดสำคัญ: lived experience, lifeworld existentials, phenomenological writing, pedagogy, reflective inquiry
+ผลงานสำคัญ:
+Researching Lived Experience
+Phenomenology of Practice
+The Tact of Teaching
+Writing in the Dark
+Pedagogical Tact
+ความสำคัญ:
+van Manen สำคัญมากต่อการใช้ phenomenology ในงานวิจัยเชิงคุณภาพ โดยเฉพาะการเขียน การสะท้อน และการตีความ lived experience อย่างละเอียด
+Jonathan A. Smith
+สำนัก / สาย: Interpretative Phenomenological Analysis, Qualitative Psychology
+สถานะ: ผู้พัฒนา IPA หรือ Interpretative Phenomenological Analysis
+แนวคิดสำคัญ: IPA, double hermeneutic, lived experience, idiographic analysis, meaning-making
+ผลงานสำคัญ:
+Interpretative Phenomenological Analysis
+งานวิจัยด้าน health psychology และ qualitative psychology
+งานพัฒนา IPA ในจิตวิทยา
+ความสำคัญ:
+Smith สำคัญเพราะทำให้ phenomenology และ hermeneutics กลายเป็นวิธีวิจัยเชิงคุณภาพยอดนิยมในจิตวิทยาร่วมสมัย โดยเฉพาะการศึกษาว่าคนให้ความหมายต่อประสบการณ์สำคัญในชีวิตอย่างไร
+Paul Flowers
+สำนัก / สาย: Interpretative Phenomenological Analysis, Health Psychology
+สถานะ: นักวิจัย IPA รุ่นสำคัญ
+แนวคิดสำคัญ: IPA, health experience, embodiment, sexuality, illness experience, qualitative analysis
+ผลงานสำคัญ:
+Interpretative Phenomenological Analysis — with Jonathan Smith and Michael Larkin
+งานวิจัยด้าน health psychology และ lived experience
+งานวิจัยเชิงคุณภาพด้าน sexuality และ illness
+ความสำคัญ:
+Flowers สำคัญในงานที่ทำให้ IPA ใช้กับประสบการณ์สุขภาพ ร่างกาย ความเจ็บป่วย และชีวิตทางสังคมได้ลึกขึ้น
+Michael Larkin
+สำนัก / สาย: Interpretative Phenomenological Analysis, Qualitative Psychology
+สถานะ: นักวิจัย IPA และ clinical qualitative psychology
+แนวคิดสำคัญ: IPA, meaning-making, mental health, lived experience, interpretative analysis
+ผลงานสำคัญ:
+Interpretative Phenomenological Analysis — with Jonathan Smith and Paul Flowers
+งานวิจัยด้าน mental health และ qualitative psychology
+งานเขียนด้าน phenomenological methodology
+ความสำคัญ:
+Larkin สำคัญเพราะช่วยทำให้ IPA มีความแข็งแรงด้านวิธีวิทยาและนำไปใช้กับประเด็นสุขภาพจิตและประสบการณ์มนุษย์ร่วมสมัยได้ดี
+Steen Halling
+สำนัก / สาย: Phenomenological Psychology
+สถานะ: นักจิตวิทยาปรากฏการณ์วิทยาด้าน interpersonal experience
+แนวคิดสำคัญ: dialogue, forgiveness, interpersonal experience, phenomenological inquiry
+ผลงานสำคัญ:
+Intimacy, Transcendence, and Psychology
+The Lived Experience of Forgiveness
+งานวิจัย phenomenological psychology ด้านความสัมพันธ์และการให้อภัย
+ความสำคัญ:
+Halling สำคัญเพราะทำให้ phenomenological psychology เข้าไปศึกษาประสบการณ์สัมพันธ์ เช่น การให้อภัย ความใกล้ชิด และการพบกันของมนุษย์อย่างลึกซึ้ง
+Hermeneutic / Narrative / Interpretive Psychology
+จิตวิทยาการตีความ เรื่องเล่า และความหมาย
+Jerome Bruner
+สำนัก / สาย: Narrative Psychology, Cultural Psychology
+สถานะ: นักจิตวิทยาที่ทำให้ narrative กลายเป็นแกนสำคัญของการเข้าใจมนุษย์
+แนวคิดสำคัญ: narrative mind, meaning-making, culture, self, possible worlds, folk psychology
+ผลงานสำคัญ:
+Acts of Meaning
+Actual Minds, Possible Worlds
+The Culture of Education
+Making Stories
+Life as Narrative
+On Knowing
+ความสำคัญ:
+Bruner สำคัญเพราะเขาชี้ว่ามนุษย์ไม่ได้เข้าใจชีวิตผ่านตรรกะเชิงวิทยาศาสตร์อย่างเดียว แต่ผ่านเรื่องเล่า ความหมาย วัฒนธรรม และรูปแบบการเล่าตัวเอง
+Donald Polkinghorne
+สำนัก / สาย: Narrative Psychology, Hermeneutic Psychology
+สถานะ: นักคิดสำคัญด้าน narrative knowing และ qualitative inquiry
+แนวคิดสำคัญ: narrative knowing, human action, meaning, qualitative research, story
+ผลงานสำคัญ:
+Narrative Knowing and the Human Sciences
+Methodology for the Human Sciences
+งานเขียนด้าน narrative psychology และ qualitative inquiry
+ความสำคัญ:
+Polkinghorne สำคัญเพราะเชื่อม hermeneutics, narrative และ human sciences เข้ากับจิตวิทยา ทำให้การเข้าใจชีวิตมนุษย์ไม่ถูกลดเหลือแค่ข้อมูลเชิงปริมาณ
+Theodore Sarbin
+สำนัก / สาย: Narrative Psychology
+สถานะ: ผู้ผลักดัน narrative turn ในจิตวิทยา
+แนวคิดสำคัญ: narrative as root metaphor, role, identity, self-narrative, social construction
+ผลงานสำคัญ:
+Narrative Psychology: The Storied Nature of Human Conduct
+The Narrative as a Root Metaphor for Psychology
+งานเขียนด้าน role theory และ narrative psychology
+ความสำคัญ:
+Sarbin สำคัญเพราะเสนอว่า narrative ไม่ใช่แค่เครื่องมือเล่าเรื่อง แต่เป็น root metaphor สำหรับจิตวิทยา มนุษย์จัดชีวิต พฤติกรรม และตัวตนผ่านเรื่องเล่า
+Charles Taylor
+สำนัก / สาย: Philosophical Anthropology, Hermeneutics, Moral Psychology
+สถานะ: นักปรัชญาที่มีอิทธิพลต่อ hermeneutic psychology และ selfhood studies
+แนวคิดสำคัญ: self, identity, moral sources, recognition, strong evaluation, modernity
+ผลงานสำคัญ:
+Sources of the Self
+The Ethics of Authenticity
+Philosophical Arguments
+A Secular Age
+Human Agency and Language
+ความสำคัญ:
+Taylor สำคัญต่อการเข้าใจตัวตนในฐานะสิ่งที่ก่อตัวในภาษา คุณค่า ประวัติศาสตร์ และการยอมรับจากผู้อื่น ไม่ใช่ ego เดี่ยวลอย ๆ นอกบริบท
+Charles Guignon
+สำนัก / สาย: Heidegger Studies, Existential Hermeneutics, Authenticity
+สถานะ: นักอธิบาย Heidegger และ existential hermeneutics สำคัญ
+แนวคิดสำคัญ: authenticity, selfhood, Heidegger, interpretation, modern identity
+ผลงานสำคัญ:
+Heidegger and the Problem of Knowledge
+On Being Authentic
+The Cambridge Companion to Heidegger
+งานเขียนด้าน existential selfhood และ authenticity
+ความสำคัญ:
+Guignon สำคัญเพราะช่วยทำให้คำถามเรื่อง authenticity และ selfhood ในสาย Heidegger เชื่อมกับจิตวิทยาและชีวิตสมัยใหม่ได้ชัดขึ้น
+Shaun Gallagher
+สำนัก / สาย: Phenomenology, Cognitive Science, Embodied Cognition
+สถานะ: นักคิดร่วมสมัยที่เชื่อม phenomenology กับ cognitive science
+แนวคิดสำคัญ: embodied cognition, self, agency, intersubjectivity, enactivism, phenomenological mind
+ผลงานสำคัญ:
+The Phenomenological Mind
+How the Body Shapes the Mind
+Enactivist Interventions
+Action and Interaction
+Phenomenology
+ความสำคัญ:
+Gallagher สำคัญเพราะเชื่อม phenomenology กับ cognitive science, neuroscience และ embodied cognition โดยทำให้คำถามเรื่อง self, agency และร่างกายไม่ถูกแยกจากประสบการณ์มีชีวิต
+Dan Zahavi
+สำนัก / สาย: Phenomenology, Selfhood, Intersubjectivity
+สถานะ: นักปรากฏการณ์วิทยาร่วมสมัยคนสำคัญ
+แนวคิดสำคัญ: minimal self, self-awareness, intersubjectivity, empathy, subjectivity, Husserl
+ผลงานสำคัญ:
+Self-Awareness and Alterity
+Subjectivity and Selfhood
+Husserl’s Phenomenology
+Phenomenology: The Basics
+The Phenomenological Mind — with Shaun Gallagher
+ความสำคัญ:
+Zahavi สำคัญมากต่อการศึกษา self และ consciousness ร่วมสมัย โดยเฉพาะการอธิบายว่า self-awareness ขั้นพื้นฐานมีอยู่ก่อนการเล่าเรื่องตัวตนอย่างไร
+รายชื่อแบบย่อสำหรับใช้ในเว็บไซต์
+Classical Phenomenology
+Edmund Husserl
+Franz Brentano
+Max Scheler
+Edith Stein
+Roman Ingarden
+Existential / Hermeneutic Phenomenology
+Martin Heidegger
+Jean-Paul Sartre
+Maurice Merleau-Ponty
+Emmanuel Levinas
+Michel Henry
+Jean-Luc Marion
+Hannah Arendt
+Hermeneutics
+Friedrich Schleiermacher
+Wilhelm Dilthey
+Hans-Georg Gadamer
+Paul Ricoeur
+Jürgen Habermas
+Karl-Otto Apel
+Richard E. Palmer
+Jean Grondin
+Phenomenological Psychiatry / Daseinsanalysis
+Karl Jaspers
+Ludwig Binswanger
+Medard Boss
+Eugène Minkowski
+Erwin Straus
+Viktor von Weizsäcker
+Arthur Tatossian
+Wolfgang Blankenburg
+Thomas Fuchs
+Louis Sass
+Josef Parnas
+Existential Therapy / Existential-Phenomenological Therapy
+Rollo May
+Viktor Frankl
+Irvin D. Yalom
+Emmy van Deurzen
+Ernesto Spinelli
+Kirk Schneider
+James F. T. Bugental
+Phenomenological Psychology / Human Science Psychology
+Amedeo Giorgi
+Duquesne School
+Adrian van Kaam
+Clark Moustakas
+Max van Manen
+Jonathan A. Smith
+Paul Flowers
+Michael Larkin
+Steen Halling
+Hermeneutic / Narrative / Interpretive Psychology
+Jerome Bruner
+Donald Polkinghorne
+Theodore Sarbin
+Charles Taylor
+Charles Guignon
+Shaun Gallagher
+Dan Zahavi
+ข้อสับสนที่ควรระวัง
+Phenomenology ไม่ใช่ “phenomenon” แบบทั่วไป
+คำว่า phenomenology ไม่ได้แปลว่าแค่ “การศึกษาปรากฏการณ์” แบบกว้าง ๆ
+แต่หมายถึงวิธีคิดที่พยายามกลับไปดูว่าโลก ตัวตน ร่างกาย เวลา ผู้อื่น และความหมาย “ปรากฏในประสบการณ์” อย่างไร
+พูดสั้น ๆ คือ
+phenomenon = สิ่งที่ปรากฏ
+phenomenology = วิธีศึกษาว่าสิ่งนั้นปรากฏต่อประสบการณ์อย่างไร
+Husserl กับ Heidegger ไม่ใช่สายเดียวกันตรง ๆ
+Husserl เริ่มจากการวิเคราะห์ consciousness, intentionality และโครงสร้างประสบการณ์
+Heidegger เปลี่ยนคำถามไปสู่ Being, Dasein และ being-in-the-world
+พูดสั้น ๆ คือ
+Husserl = โครงสร้างของสำนึกและประสบการณ์
+Heidegger = ภาวะการมีอยู่ของมนุษย์ในโลก
+Phenomenology ไม่ใช่ introspection ธรรมดา
+Phenomenology ไม่ใช่แค่นั่งดูใจแล้วเล่าว่ารู้สึกอะไร
+แต่มันเป็นการบรรยายโครงสร้างของประสบการณ์อย่างมีวินัย เช่น เวลา ร่างกาย ความตั้งใจ ความหมาย โลก และความสัมพันธ์กับผู้อื่น
+Hermeneutics ไม่ใช่แค่ “ตีความตามใจ”
+Hermeneutics ไม่ได้แปลว่าอยากตีความอะไรก็ได้
+แต่เป็นการเข้าใจว่าความหมายเกิดขึ้นผ่านภาษา ประวัติศาสตร์ บริบท ตัวบท ผู้อ่าน ผู้พูด และ horizon ของการเข้าใจ
+การตีความที่ดีต้องรับผิดชอบต่อสิ่งที่ตีความ ไม่ใช่เอาตัวเองไปทับทุกอย่าง
+Gadamer ไม่ใช่ relativist แบบง่าย ๆ
+Gadamer ไม่ได้บอกว่าทุกการตีความถูกหมด
+แต่บอกว่าเราเข้าใจจาก horizon ของเราเสมอ และการเข้าใจที่ดีคือการเข้าสู่บทสนทนากับสิ่งที่เราตีความ จน horizon ของเราเปลี่ยนได้
+Ricoeur สำคัญมากต่อจิตวิทยาเชิงลึก
+Ricoeur ช่วยเชื่อม hermeneutics กับ psychoanalysis, symbol, narrative, memory และ selfhood
+ถ้าเว็บต้องการเขียนเรื่อง Jung, Freud, myth, symbol, trauma narrative หรือ identity ควรมี Ricoeur เป็นฐานสำคัญ
+Phenomenological Psychiatry ไม่ใช่การปฏิเสธชีววิทยา
+Jaspers, Binswanger, Minkowski, Fuchs, Sass และ Parnas ไม่ได้บอกว่าสมองไม่สำคัญ
+แต่เตือนว่าการเข้าใจผู้ป่วยต้องไม่หยุดที่อาการหรือสมอง ต้องเข้าใจโลกที่ผู้ป่วยมีชีวิตอยู่ด้วย
+Existential Therapy ไม่ใช่การพูดคำคมเรื่องชีวิต
+Existential therapy ไม่ใช่การพูดว่า “ชีวิตไม่มีความหมาย จงสร้างมันขึ้นมาเอง” แบบเท่ ๆ
+แต่เป็นการทำงานกับความจริงพื้นฐานของมนุษย์ เช่น ความตาย เสรีภาพ ความโดดเดี่ยว ความรับผิดชอบ ความหมาย ความกลัว และความเป็นไปได้ของชีวิต
+IPA ไม่ใช่ Phenomenology ทั้งหมด
+IPA หรือ Interpretative Phenomenological Analysis เป็นวิธีวิจัยเชิงคุณภาพสายหนึ่งที่ได้รับอิทธิพลจาก phenomenology และ hermeneutics
+แต่ไม่ใช่ phenomenology ทั้งหมด
+พูดสั้น ๆ คือ
+Phenomenology = ร่มปรัชญาใหญ่
+IPA = วิธีวิจัยเชิงคุณภาพร่วมสมัยแบบหนึ่ง
+ถ้าเว็บไซต์เน้นจิตวิทยาเชิงลึก ควรดันรายชื่อเหล่านี้เป็นแกนหลัก
+Edmund Husserl
+Martin Heidegger
+Maurice Merleau-Ponty
+Hans-Georg Gadamer
+Paul Ricoeur
+Karl Jaspers
+Ludwig Binswanger
+Medard Boss
+Eugène Minkowski
+Thomas Fuchs
+Louis Sass
+Rollo May
+Viktor Frankl
+Irvin Yalom
+Amedeo Giorgi
+Max van Manen
+Jonathan A. Smith
+Jerome Bruner
+Dan Zahavi
+เพราะกลุ่มนี้เชื่อม experience, meaning, interpretation, embodiment, existence, selfhood, narrative, psychopathology และ psychotherapy ได้ดีที่สุด

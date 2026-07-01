@@ -1,0 +1,347 @@
+Emotion Theory / Affect Theory / Emotion-Focused Therapy
+หมายเหตุสั้น ๆ:
+สายนี้ไม่ใช่แค่ “ศึกษาอารมณ์” แบบทั่วไป แต่เป็นสายที่ถามว่า อารมณ์คืออะไร / เกิดจากร่างกายหรือความคิด / เป็นสากลหรือถูกสร้างทางวัฒนธรรม / ใช้รักษาคนได้อย่างไร
+Emotion Theory = ทฤษฎีอารมณ์ในจิตวิทยาและประสาทวิทยา
+Affect Theory = อารมณ์ ความรู้สึก บรรยากาศทางสังคม วัฒนธรรม และการเมืองของความรู้สึก
+Emotion-Focused Therapy = จิตบำบัดที่ใช้อารมณ์เป็นประตูเข้าสู่การเปลี่ยนแปลง ไม่ใช่แค่สิ่งที่ต้องควบคุม
+Leslie Greenberg เป็นแกนสำคัญของ Emotion-Focused Therapy ร่วมสมัย ส่วน Sue Johnson เป็นแกนใหญ่ของ Emotionally Focused Therapy ในสายคู่รัก/attachment (York University)
+William James
+สาย / สำนัก: Emotion Theory, Psychology of Emotion, Pragmatism
+ผลงานสำคัญ:
+The Principles of Psychology
+บทความ “What Is an Emotion?”
+The Varieties of Religious Experience
+แกนความคิด:
+James สำคัญมากเพราะเสนอว่าอารมณ์ไม่ได้เริ่มจาก “เรากลัว แล้วร่างกายสั่น” แต่กลับกัน ร่างกายตอบสนองก่อน แล้วเราจึงรับรู้สภาวะนั้นเป็นความกลัว เช่น เราไม่ได้ร้องไห้เพราะเศร้าอย่างเดียว แต่การร้องไห้เองก็เป็นส่วนหนึ่งของประสบการณ์เศร้า
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+body and emotion, feeling, consciousness, religious experience, embodied emotion
+Carl Lange
+สาย / สำนัก: Physiological Emotion Theory
+ผลงานสำคัญ:
+งานทฤษฎีอารมณ์ร่วมฐานกับ James-Lange theory
+แกนความคิด:
+Lange สำคัญในฐานะคู่ความคิดของ James ในทฤษฎี James-Lange ที่มองว่าอารมณ์สัมพันธ์กับการรับรู้การเปลี่ยนแปลงทางร่างกายอย่างลึกซึ้ง จุดแข็งของสายนี้คือการทำให้อารมณ์ไม่ใช่แค่ความคิดในหัว แต่เป็นเหตุการณ์ที่เกิดทั้งในร่างกายและจิตใจพร้อมกัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+physiological emotion, bodily feeling, heart, muscle, autonomic response
+Walter Cannon
+สาย / สำนัก: Emotion Theory, Physiology, Stress Response
+ผลงานสำคัญ:
+Bodily Changes in Pain, Hunger, Fear and Rage
+งานเกี่ยวกับ fight-or-flight response
+Cannon-Bard theory
+แกนความคิด:
+Cannon วิจารณ์ James-Lange และเสนอว่าอารมณ์ไม่ได้เกิดจากการรับรู้ร่างกายเพียงอย่างเดียว แต่สมองและร่างกายตอบสนองพร้อมกัน เขาสำคัญกับการวางฐานเรื่องระบบประสาทอัตโนมัติ ความกลัว ความโกรธ และการเอาตัวรอด
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+fight-or-flight, fear, rage, stress physiology, autonomic nervous system
+Philip Bard
+สาย / สำนัก: Neurophysiology of Emotion, Cannon-Bard Theory
+ผลงานสำคัญ:
+งานวิจัยร่วมฐานกับ Cannon-Bard theory
+งานด้าน hypothalamus และ emotional expression
+แกนความคิด:
+Bard สำคัญในฐานะผู้ช่วยวางฐานทฤษฎีว่าอารมณ์ต้องอ่านผ่านสมองส่วนลึก ไม่ใช่แค่ร่างกายปลายทาง งานของเขาชี้ว่า hypothalamus และระบบสมองชั้นลึกมีบทบาทต่อการแสดงออกของอารมณ์
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+brain and emotion, hypothalamus, emotional expression, neurophysiology
+Stanley Schachter
+สาย / สำนัก: Cognitive Emotion Theory, Social Psychology of Emotion
+ผลงานสำคัญ:
+งาน Schachter-Singer Two-Factor Theory of Emotion
+แกนความคิด:
+Schachter เสนอว่าอารมณ์เกิดจากสองส่วนคือ ความตื่นตัวทางร่างกาย และ การตีความทางความคิด เราอาจมีหัวใจเต้นแรงเหมือนกัน แต่จะรู้สึกเป็นความกลัว ความตื่นเต้น หรือความรัก ขึ้นกับบริบทและคำอธิบายที่จิตสร้างขึ้น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+arousal, cognitive labeling, social context, misattribution, emotion interpretation
+Jerome Singer
+สาย / สำนัก: Cognitive Emotion Theory, Two-Factor Theory
+ผลงานสำคัญ:
+งานร่วมกับ Stanley Schachter เรื่อง Two-Factor Theory of Emotion
+แกนความคิด:
+Singer สำคัญในฐานะผู้ร่วมสร้างแนวคิดว่าอารมณ์ไม่ได้เป็นเพียงปฏิกิริยาดิบ แต่เป็นสิ่งที่ถูก “ตั้งชื่อ” ผ่านการตีความบริบท ความตื่นตัวของร่างกายจึงยังไม่ใช่อารมณ์เต็มรูป จนกว่ามนุษย์จะอ่านมันว่า “นี่คืออะไร”
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+emotion labeling, arousal, context, cognition, social interpretation
+Magda Arnold
+สาย / สำนัก: Appraisal Theory, Emotion Psychology
+ผลงานสำคัญ:
+Emotion and Personality
+แกนความคิด:
+Arnold เป็นคนสำคัญของ appraisal theory เธอมองว่าอารมณ์เกิดจากการประเมินความหมายของเหตุการณ์ต่อชีวิตเรา ไม่ใช่แค่ stimulus มากระทบแล้วเกิด emotion ทันที สิ่งเดียวกันอาจทำให้คนหนึ่งกลัว แต่อีกคนรู้สึกท้าทาย เพราะการประเมินความหมายไม่เหมือนกัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+appraisal, meaning, emotion and personality, evaluation, subjective significance
+Richard Lazarus
+สาย / สำนัก: Cognitive Appraisal Theory, Stress and Coping
+ผลงานสำคัญ:
+Emotion and Adaptation
+Stress, Appraisal, and Coping
+Psychological Stress and the Coping Process
+แกนความคิด:
+Lazarus สำคัญมากกับแนวคิดว่าอารมณ์สัมพันธ์กับการประเมินสถานการณ์และความสามารถในการรับมือ อารมณ์จึงไม่ใช่แค่ปฏิกิริยา แต่เป็นการอ่านว่า “สิ่งนี้คุกคามฉันไหม / ฉันรับมือได้ไหม / มันกระทบคุณค่าหรือเป้าหมายของฉันอย่างไร”
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+stress, coping, appraisal, threat, meaning, adaptation
+Nico Frijda
+สาย / สำนัก: Emotion Theory, Action Tendency Theory
+ผลงานสำคัญ:
+The Emotions
+The Laws of Emotion
+แกนความคิด:
+Frijda เสนอว่าอารมณ์สัมพันธ์กับ action tendency หรือแรงโน้มที่จะกระทำบางอย่าง เช่น กลัวแล้วอยากหนี โกรธแล้วอยากปะทะ เศร้าแล้วถอนตัว อารมณ์จึงไม่ใช่แค่ความรู้สึกเฉย ๆ แต่เป็นแรงจัดท่าทีของสิ่งมีชีวิตต่อโลก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+action tendency, motivation, emotional law, readiness to act, adaptive emotion
+Klaus Scherer
+สาย / สำนัก: Component Process Model, Appraisal Theory, Affective Science
+ผลงานสำคัญ:
+งาน Component Process Model of Emotion
+งานด้าน vocal emotion, appraisal, affective science
+แกนความคิด:
+Scherer เสนอว่าอารมณ์เป็นกระบวนการหลายองค์ประกอบ ไม่ใช่สิ่งเดียวแบน ๆ อารมณ์ประกอบด้วย appraisal, bodily response, expression, action tendency และ subjective feeling ที่เคลื่อนไหวประสานกัน แนวนี้ดีมากสำหรับอธิบายอารมณ์แบบเป็นระบบ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+component process, appraisal, expression, bodily response, emotion system
+Paul Ekman
+สาย / สำนัก: Basic Emotion Theory, Facial Expression Research
+ผลงานสำคัญ:
+Emotion in the Human Face
+Emotions Revealed
+งานวิจัยเรื่อง facial expressions และ basic emotions
+แกนความคิด:
+Ekman เป็นคนสำคัญของทฤษฎี basic emotions และการศึกษา facial expressions เขาเสนอว่าอารมณ์พื้นฐานบางอย่างมีรูปแบบการแสดงออกทางใบหน้าที่พบได้ข้ามวัฒนธรรม เช่น happiness, sadness, anger, fear, disgust, surprise
+ข้อควรระวัง:
+งานของ Ekman มีอิทธิพลมาก แต่ปัจจุบันถูกโต้แย้งจากสาย constructed emotion โดยเฉพาะ Lisa Feldman Barrett ว่าอารมณ์ไม่ได้มีแพ็กเกจสากลตายตัวแบบหนึ่งอารมณ์ต่อหนึ่งใบหน้าเสมอไป
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+basic emotions, facial expression, microexpression, cross-cultural emotion
+Carroll Izard
+สาย / สำนัก: Differential Emotions Theory, Developmental Emotion Theory
+ผลงานสำคัญ:
+The Face of Emotion
+Human Emotions
+งานด้าน Differential Emotions Theory
+แกนความคิด:
+Izard มองว่าอารมณ์พื้นฐานมีบทบาทสำคัญต่อพัฒนาการ บุคลิกภาพ และการปรับตัวของมนุษย์ เขาสนใจว่าอารมณ์ไม่ได้เป็นแค่ reaction แต่เป็นระบบที่ช่วยจัดประสบการณ์ การเรียนรู้ และความสัมพันธ์ตั้งแต่วัยเด็ก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+basic emotion, child development, emotion and personality, affective development
+Silvan Tomkins
+สาย / สำนัก: Affect Theory, Personality Theory, Script Theory
+ผลงานสำคัญ:
+Affect Imagery Consciousness
+งานด้าน Script Theory
+งานอิทธิพลต่อ Donald Nathanson, Eve Kosofsky Sedgwick และ affect theory รุ่นหลัง
+แกนความคิด:
+Tomkins คือรากใหญ่ของ affect theory เขามองว่า affect เป็นระบบแรงขับพื้นฐานที่ทำให้สิ่งต่าง ๆ “มีความสำคัญ” ต่อเรา ไม่ใช่แค่สีสันประกอบชีวิต เขาเสนอ affect พื้นฐานหลายแบบ เช่น interest-excitement, enjoyment-joy, surprise-startle, distress-anguish, shame-humiliation, fear-terror, anger-rage, disgust, dissmell (Tomkins Institute 1)
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+affect, shame, motivation, personality script, emotional pattern
+Donald Nathanson
+สาย / สำนัก: Affect Theory, Shame Theory, Script Theory
+ผลงานสำคัญ:
+Shame and Pride
+งาน Compass of Shame
+แกนความคิด:
+Nathanson ต่อยอด Tomkins โดยเฉพาะเรื่อง shame เขาเสนอ Compass of Shame เพื่ออธิบายท่าทีที่มนุษย์ใช้หนีหรือจัดการความอับอาย เช่น withdrawal, attack self, avoidance, attack other งานนี้มีประโยชน์มากกับการอ่าน defense, narcissism, humiliation และบาดแผลทางตัวตน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+shame, pride, humiliation, defense, self-attack, narcissistic wound
+Eve Kosofsky Sedgwick
+สาย / สำนัก: Affect Theory, Queer Theory, Literary Theory
+ผลงานสำคัญ:
+Touching Feeling
+Between Men
+Epistemology of the Closet
+แกนความคิด:
+Sedgwick สำคัญในการพา affect theory เข้าสู่ humanities, queer theory และ literary theory เธอสนใจความรู้สึกละเอียด ๆ เช่น shame, texture, touch, vulnerability และการอ่านที่ไม่ลดมนุษย์ให้เหลือแค่โครงสร้างอำนาจแบบแห้ง ๆ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+shame, affect and literature, queer affect, vulnerability, reparative reading
+Brian Massumi
+สาย / สำนัก: Affect Theory, Philosophy, Deleuzian Theory
+ผลงานสำคัญ:
+Parables for the Virtual
+Politics of Affect
+งานแปลและต่อยอด Deleuze & Guattari
+แกนความคิด:
+Massumi มอง affect เป็นความเข้มข้นก่อนภาษา ก่อนการตั้งชื่อชัดเจน เป็นแรงสั่นสะเทือนที่ไหลผ่านร่างกายและสถานการณ์ก่อนจะกลายเป็น emotion ที่ถูกตีความ งานเขาเหมาะมากกับการคิดเรื่องบรรยากาศ สื่อ การเมือง และประสบการณ์ที่ยังไม่กลายเป็นคำ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+pre-personal affect, intensity, body, politics of affect, atmosphere
+Sara Ahmed
+สาย / สำนัก: Affect Theory, Cultural Studies, Feminist Theory
+ผลงานสำคัญ:
+The Cultural Politics of Emotion
+The Promise of Happiness
+Living a Feminist Life
+แกนความคิด:
+Ahmed สำคัญมากในการอธิบายว่าอารมณ์ไม่ได้อยู่แค่ในตัวบุคคล แต่อารมณ์ “ไหลเวียน” ระหว่างร่างกาย ภาษา วัตถุ สถาบัน และสังคม เช่น ความกลัว ความเกลียด ความสุข หรือความเจ็บปวด ไม่ได้เป็นแค่เรื่องส่วนตัว แต่กลายเป็นพลังทางวัฒนธรรมและการเมือง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+cultural emotion, happiness, fear, hate, feminist affect, social body
+Lauren Berlant
+สาย / สำนัก: Affect Theory, Cultural Theory, Political Emotion
+ผลงานสำคัญ:
+Cruel Optimism
+The Female Complaint
+The Hundreds
+แกนความคิด:
+Berlant สำคัญมากกับการอ่านชีวิตสมัยใหม่ผ่านความปรารถนา ความหวัง ความติดค้าง และภาวะที่มนุษย์ผูกพันกับสิ่งที่ทำร้ายตัวเอง แนวคิด cruel optimism หมายถึงการยึดติดกับสิ่งที่เหมือนจะให้ชีวิตดีขึ้น แต่จริง ๆ กลับขวางการมีชีวิตที่ดี
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+cruel optimism, attachment to fantasy, modern life, precarity, political feeling
+Sianne Ngai
+สาย / สำนัก: Affect Theory, Aesthetic Theory, Literary Theory
+ผลงานสำคัญ:
+Ugly Feelings
+Our Aesthetic Categories
+Theory of the Gimmick
+แกนความคิด:
+Ngai สำคัญกับการอ่าน “ความรู้สึกเล็ก ๆ น่าเกลียด ๆ” ที่มักไม่ถูกยกเป็นอารมณ์ใหญ่ เช่น irritation, envy, anxiety, paranoia, animatedness เธอทำให้เห็นว่าอารมณ์ระดับต่ำ เหนื่อย หนืด หงุดหงิด และติดขัด สะท้อนระบบสังคมและเศรษฐกิจได้ลึกมาก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+ugly feelings, irritation, envy, anxiety, aesthetics, minor affects
+Lisa Feldman Barrett
+สาย / สำนัก: Constructed Emotion, Affective Science, Neuroscience of Emotion
+ผลงานสำคัญ:
+How Emotions Are Made
+Seven and a Half Lessons About the Brain
+งานด้าน Theory of Constructed Emotion
+แกนความคิด:
+Barrett เสนอว่าอารมณ์ไม่ได้เป็นแพ็กเกจตายตัวที่ฝังอยู่ในสมองแบบสากลหนึ่งต่อหนึ่ง แต่สมองสร้างอารมณ์ขึ้นจาก prediction, body budget, concept, language และบริบททางวัฒนธรรม งานของเธอสำคัญมากในการโต้แย้ง basic emotion theory แบบแข็ง ๆ (Northeastern College of Science)
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+constructed emotion, body budget, prediction, emotion concept, culture and emotion
+James J. Gross
+สาย / สำนัก: Emotion Regulation, Affective Science, Clinical Psychology
+ผลงานสำคัญ:
+Handbook of Emotion Regulation
+งาน Process Model of Emotion Regulation
+งานเรื่อง reappraisal, suppression, regulation strategy
+แกนความคิด:
+Gross สำคัญมากกับทฤษฎี emotion regulation เขาเสนอ process model ที่อธิบายว่าคนเราควบคุมหรือปรับอารมณ์ได้หลายช่วง ตั้งแต่เลือกสถานการณ์ เปลี่ยนสถานการณ์ จัดการความสนใจ ตีความใหม่ ไปจนถึงกดหรือปรับการตอบสนองทางร่างกาย งานนี้ใช้ได้ทั้งจิตบำบัด การศึกษา และการออกแบบชีวิตประจำวัน (PubMed)
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+emotion regulation, reappraisal, suppression, coping, affective control
+Robert Levenson
+สาย / สำนัก: Affective Science, Psychophysiology, Emotion and Aging
+ผลงานสำคัญ:
+งานด้าน psychophysiology of emotion
+งานวิจัยเรื่อง emotion, relationship, aging, autonomic nervous system
+แกนความคิด:
+Levenson สำคัญกับการศึกษาความสัมพันธ์ระหว่างอารมณ์กับร่างกายในเชิงทดลอง เขามองอารมณ์ผ่านระบบประสาทอัตโนมัติ สีหน้า พฤติกรรม และความสัมพันธ์ระหว่างบุคคล เหมาะสำหรับเชื่อม emotion theory กับข้อมูลทางกายภาพโดยไม่ลดอารมณ์ให้เหลือแค่สารเคมี
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+psychophysiology, autonomic emotion, aging, relationship emotion, body response
+Leslie Greenberg
+สาย / สำนัก: Emotion-Focused Therapy, Humanistic-Experiential Therapy, Process-Experiential Therapy
+ผลงานสำคัญ:
+Emotion-Focused Therapy
+Emotion in Psychotherapy
+Working with Emotions in Psychotherapy
+Emotion-Focused Therapy: Coaching Clients to Work Through Their Feelings
+แกนความคิด:
+Greenberg คือแกนหลักของ Emotion-Focused Therapy เขามองว่าอารมณ์ไม่ใช่สิ่งที่ต้องกำจัด แต่เป็นข้อมูล เป็นแรงขับ และเป็นประตูสู่การเปลี่ยนแปลง ใน EFT อารมณ์ถูกแยกเป็น primary adaptive emotion, primary maladaptive emotion, secondary emotion และ instrumental emotion เพื่อช่วยให้คนเข้าถึงแกนอารมณ์ที่แท้จริง ไม่ใช่ติดอยู่แค่ปฏิกิริยาชั้นนอก (York University)
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+emotion-focused therapy, emotional processing, primary emotion, emotional transformation, chair work
+Robert Elliott
+สาย / สำนัก: Emotion-Focused Therapy, Humanistic Psychotherapy, Psychotherapy Research
+ผลงานสำคัญ:
+Learning Emotion-Focused Therapy
+งานวิจัยด้าน process-experiential therapy
+งานด้าน psychotherapy process research
+แกนความคิด:
+Elliott สำคัญในสาย EFT เพราะช่วยทำให้ Emotion-Focused Therapy มีระบบการฝึกและการวิจัยที่ชัดขึ้น เขาเน้นการทำงานกับประสบการณ์ตรงของผู้รับการบำบัด การฟังอย่างลึก และการติดตาม process ของอารมณ์ขณะเกิดขึ้นจริง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+therapy process, empathy, experiential therapy, emotional processing, humanistic research
+Laura Rice
+สาย / สำนัก: Client-Centered Therapy, Process-Experiential Therapy, Emotion-Focused Therapy
+ผลงานสำคัญ:
+งานด้าน evocative unfolding
+งานพัฒนาฐานของ process-experiential therapy
+งานร่วมในสาย humanistic-experiential psychotherapy
+แกนความคิด:
+Rice เป็นรากสำคัญก่อน EFT จะเป็นรูปเป็นร่างชัด เธอสนใจการช่วยให้ผู้รับการบำบัดคลี่ประสบการณ์ที่ยังไม่ชัดออกมาอย่างละเอียด โดยเฉพาะความทรงจำ เหตุการณ์ และความรู้สึกที่ถูกกดหรือเลือน การทำงานของเธอเป็นฐานให้การใช้ emotion ใน therapy มีความลึก ไม่ใช่แค่ถามว่า “รู้สึกอะไร”
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+evocative unfolding, experiential therapy, client-centered therapy, emotion exploration
+Jeanne Watson
+สาย / สำนัก: Emotion-Focused Therapy, Humanistic Psychotherapy, Empathy Research
+ผลงานสำคัญ:
+Emotion-Focused Therapy for Depression
+งานด้าน empathy และ therapeutic relationship
+งานร่วมกับ Leslie Greenberg
+แกนความคิด:
+Watson สำคัญกับ EFT โดยเฉพาะการรักษาภาวะซึมเศร้าและบทบาทของความสัมพันธ์ในการบำบัด เธอทำให้งานกับอารมณ์ไม่ได้เป็นเทคนิคแยกส่วน แต่ตั้งอยู่บนความสัมพันธ์ การเห็นอกเห็นใจ และการเข้าถึงประสบการณ์ภายในอย่างปลอดภัย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+EFT for depression, empathy, therapeutic relationship, emotional processing
+Sue Johnson
+สาย / สำนัก: Emotionally Focused Therapy, Attachment-Based Couple Therapy
+ผลงานสำคัญ:
+Hold Me Tight
+Love Sense
+Attachment Theory in Practice
+The Practice of Emotionally Focused Couple Therapy
+แกนความคิด:
+Sue Johnson เป็นแกนสำคัญของ Emotionally Focused Therapy ในสายคู่รักและ attachment เธอมองความขัดแย้งของคู่รักไม่ใช่แค่ปัญหาการสื่อสาร แต่เป็นวงจรของความกลัวการสูญเสีย ความไม่ปลอดภัย และความต้องการผูกพัน EFT ของ Johnson จึงเน้นการซ่อม emotional bond และเปลี่ยน negative interaction cycle (ICEEFT)
+ข้อควรแยก:
+Emotion-Focused Therapy ของ Greenberg กับ Emotionally Focused Therapy ของ Sue Johnson ชื่อย่อ EFT เหมือนกัน แต่ emphasis ไม่เหมือนกัน
+Greenberg = emotion processing / individual change / humanistic-experiential
+Johnson = attachment bond / couple therapy / relational cycle
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+couple therapy, attachment, emotional bond, love, relationship repair
+Diana Fosha
+สาย / สำนัก: AEDP, Experiential Therapy, Attachment and Emotion Transformation
+ผลงานสำคัญ:
+The Transforming Power of Affect
+งานด้าน Accelerated Experiential Dynamic Psychotherapy
+แกนความคิด:
+Fosha สำคัญกับการทำงานแบบ experiential-dynamic ที่เน้นพลังเปลี่ยนรูปของ affect เธอมองว่าการเยียวยาไม่ได้เกิดจากการเข้าใจเชิงเหตุผลเท่านั้น แต่เกิดจากการเข้าถึงอารมณ์ลึกในความสัมพันธ์ที่ปลอดภัย จนเกิด transformation ของ self
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+AEDP, affect transformation, attachment, healing emotion, experiential change
+Eugene Gendlin
+สาย / สำนัก: Focusing, Experiential Psychotherapy, Humanistic Psychology
+ผลงานสำคัญ:
+Focusing
+Experiencing and the Creation of Meaning
+งานด้าน felt sense
+แกนความคิด:
+Gendlin สำคัญมากกับแนวคิด felt sense หรือความรู้สึกคลุมเครือในร่างกายที่ยังไม่มีภาษา เขาชี้ว่าการเปลี่ยนแปลงทางจิตไม่ได้เกิดจากการคิดชัดเสมอไป แต่เกิดจากการอยู่กับความรู้สึกกึ่งร่างกายกึ่งความหมาย จนมันค่อย ๆ เปิดคำและความหมายของตัวเอง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+felt sense, focusing, body meaning, experiential process, implicit emotion
+António Pascual-Leone
+สาย / สำนัก: Emotion-Focused Therapy Research, Psychotherapy Process Research
+ผลงานสำคัญ:
+งานด้าน emotional processing ใน psychotherapy
+งานเกี่ยวกับ sequential model of emotional processing
+งานวิจัยด้าน emotion transformation
+แกนความคิด:
+Pascual-Leone สำคัญในสายวิจัย EFT เพราะพยายามอธิบายว่าอารมณ์เปลี่ยนรูปใน therapy อย่างไร เขาศึกษาลำดับการเคลื่อนของอารมณ์ เช่น จาก distress ไปสู่ anger, sadness, need, grief, self-compassion หรือ agency ทำให้งาน EFT มีฐาน process ที่ละเอียดขึ้น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+emotion transformation, therapy process, emotional sequence, distress, agency
+Rhonda Goldman
+สาย / สำนัก: Emotion-Focused Therapy, Clinical Psychology, Couple Therapy
+ผลงานสำคัญ:
+Case Formulation in Emotion-Focused Therapy
+Emotion-Focused Couples Therapy
+งานร่วมกับ Leslie Greenberg
+แกนความคิด:
+Goldman สำคัญกับการทำให้ EFT มีโครงสร้าง case formulation และการประยุกต์ใช้กับคู่รัก เธอช่วยวางวิธีอ่านปัญหาทางคลินิกผ่านอารมณ์ ความต้องการ ความเจ็บปวด และรูปแบบปฏิสัมพันธ์ ไม่ใช่แค่วิเคราะห์อาการ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+EFT case formulation, couple therapy, emotional need, clinical process
+สรุปแกนของสายนี้
+สายนี้ควรเก็บไว้เป็นฐานของเว็บเวลาเขียนเรื่อง:
+อารมณ์ไม่ใช่ศัตรูของเหตุผล แต่อาจเป็นฐานของความหมายและการตัดสินใจ
+emotion กับ affect ไม่ใช่คำเดียวกันเสมอไป
+affect = ความเข้มข้น / สภาวะดิบ / แรงก่อนภาษา
+emotion = อารมณ์ที่ถูกจัดรูป ตั้งชื่อ และมีบริบท
+ความรู้สึกไม่ได้อยู่แค่ในตัวบุคคล แต่อยู่ในภาษา ความสัมพันธ์ วัฒนธรรม และสังคม
+ในจิตบำบัด อารมณ์ไม่ใช่แค่สิ่งที่ต้องระบาย แต่เป็นทางเข้าสู่ need, wound, self และ transformation
+ความอับอาย ความโกรธ ความเศร้า ความกลัว ความหวัง และความรัก ควรถูกอ่านทั้งในระดับร่างกาย จิตใจ ความสัมพันธ์ และวัฒนธรรม
+ถ้าจะเขียนงาน Jung / Freud / Lacan ให้มีเลือดเนื้อ สายนี้สำคัญมาก เพราะมันทำให้ “จิต” ไม่ลอยแห้งเป็นแนวคิด แต่กลับมามีน้ำหนักของความรู้สึกจริง
+รายชื่อแกนหลักที่ควรใช้เป็นฐานอ้างอิงก่อน
+William James
+Walter Cannon
+Richard Lazarus
+Magda Arnold
+Nico Frijda
+Klaus Scherer
+Paul Ekman
+Carroll Izard
+Silvan Tomkins
+Donald Nathanson
+Eve Kosofsky Sedgwick
+Brian Massumi
+Sara Ahmed
+Lauren Berlant
+Sianne Ngai
+Lisa Feldman Barrett
+James J. Gross
+Leslie Greenberg
+Robert Elliott
+Laura Rice
+Jeanne Watson
+Sue Johnson
+Diana Fosha
+Eugene Gendlin
+Rhonda Goldman

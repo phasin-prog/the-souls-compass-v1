@@ -1,0 +1,3 @@
+[0630/215304.351:ERROR:third_party\crashpad\crashpad\client\crashpad_client_win.cc:186] crash server did not respond, self-terminating
+[0630/215304.507:ERROR:third_party\crashpad\crashpad\client\crashpad_client_win.cc:186] crash server did not respond, self-terminating
+[0630/225026.688:ERROR:third_party\crashpad\crashpad\client\crashpad_client_win.cc:186] crash server did not respond, self-terminating

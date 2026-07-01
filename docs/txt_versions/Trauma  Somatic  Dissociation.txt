@@ -1,0 +1,561 @@
+5) Trauma / Somatic / Dissociation
+รายชื่อนักคิดคนสำคัญและผลงานหลัก
+หมายเหตุเบื้องต้น
+Trauma / Somatic / Dissociation ไม่ใช่ “สำนักเดียว” แบบ Jungian, Freudian, Adlerian หรือ Lacanian
+แต่เป็นกลุ่มแนวคิดและการบำบัดที่เชื่อมกันผ่านคำถามใหญ่เรื่อง
+บาดแผลทางจิตใจ
+ความทรงจำบาดแผล
+ร่างกายกับระบบประสาท
+การแยกส่วนของประสบการณ์
+dissociation
+complex trauma
+developmental trauma
+trauma-informed therapy
+การฟื้นคืนความรู้สึกปลอดภัยในร่างกายและความสัมพันธ์
+ถ้าจะจัดเป็นหมวดในเว็บไซต์ สามารถใช้ชื่อรวมว่า
+Trauma / Somatic / Dissociation
+หรือ
+Trauma, Body, and Dissociative Psychology
+I. Trauma Studies / Complex Trauma
+ทฤษฎีบาดแผลทางจิตใจและบาดแผลซับซ้อน
+Pierre Janet
+สำนัก / สาย: Trauma, Dissociation, Early Dynamic Psychiatry
+สถานะ: นักคิดยุคบุกเบิกเรื่อง trauma และ dissociation
+แนวคิดสำคัญ: dissociation, subconscious fixed ideas, traumatic memory, psychological automatism, failed integration
+ผลงานสำคัญ:
+L’Automatisme psychologique
+The Mental State of Hystericals
+The Major Symptoms of Hysteria
+Psychological Healing
+Principles of Psychotherapy
+ความสำคัญ:
+Janet เป็นรากลึกของสาย trauma และ dissociation ก่อนที่คำว่า PTSD จะเกิดขึ้นเสียอีก จุดสำคัญของเขาคือมองว่า trauma ไม่ใช่แค่ “ความทรงจำที่เจ็บปวด” แต่คือประสบการณ์ที่จิตไม่สามารถรวมเข้ากับตัวตนได้อย่างสมบูรณ์
+Sándor Ferenczi
+สำนัก / สาย: Psychoanalysis, Trauma Theory
+สถานะ: นักจิตวิเคราะห์ยุคต้นที่ให้ความสำคัญกับ trauma จริงในความสัมพันธ์
+แนวคิดสำคัญ: confusion of tongues, trauma, identification with the aggressor, relational injury, child abuse
+ผลงานสำคัญ:
+Confusion of Tongues Between Adults and the Child
+Clinical Diary
+Final Contributions to the Problems and Methods of Psycho-Analysis
+Thalassa
+ความสำคัญ:
+Ferenczi สำคัญเพราะเขาดึง trauma กลับมาอยู่ในโลกของความสัมพันธ์จริง ไม่ใช่ลดทุกอย่างให้เป็น fantasy หรือ drive ภายในอย่างเดียว
+Judith Herman
+สำนัก / สาย: Trauma Studies, Feminist Psychiatry, Complex Trauma
+สถานะ: ผู้วางฐานสำคัญของแนวคิด complex trauma
+แนวคิดสำคัญ: complex PTSD, captivity, domestic violence, incest trauma, recovery stages, safety-remembrance-reconnection
+ผลงานสำคัญ:
+Father-Daughter Incest
+Trauma and Recovery
+Truth and Repair
+ความสำคัญ:
+Herman ทำให้ trauma ถูกอ่านทั้งในระดับคลินิก การเมือง เพศ อำนาจ และสังคม เธอสำคัญมากต่อแนวคิด complex trauma และการฟื้นฟูผู้รอดชีวิตจากความรุนแรงระยะยาว
+Bessel van der Kolk
+สำนัก / สาย: Traumatic Stress Studies, Body-Oriented Trauma
+สถานะ: นักวิจัย trauma สมัยใหม่ที่มีอิทธิพลสูงมาก
+แนวคิดสำคัญ: traumatic stress, body memory, developmental trauma, neurobiology of trauma, trauma and the body
+ผลงานสำคัญ:
+Psychological Trauma
+Traumatic Stress
+The Body Keeps the Score
+งานวิจัยเรื่อง traumatic memory
+งานวิจัยเรื่อง developmental trauma disorder
+ความสำคัญ:
+van der Kolk สำคัญเพราะทำให้ trauma ถูกเข้าใจในฐานะสิ่งที่กระทบทั้งสมอง ร่างกาย ความสัมพันธ์ อารมณ์ และตัวตน ไม่ใช่แค่เหตุการณ์ในอดีตที่คน “คิดมากไปเอง”
+Lenore Terr
+สำนัก / สาย: Child Trauma, Developmental Trauma
+สถานะ: นักวิจัย trauma ในเด็กคนสำคัญ
+แนวคิดสำคัญ: childhood trauma, psychic trauma in children, Type I trauma, Type II trauma
+ผลงานสำคัญ:
+Too Scared to Cry
+Unchained Memories
+งานวิจัยเกี่ยวกับผลของ trauma ต่อเด็ก
+ความสำคัญ:
+Terr สำคัญเพราะช่วยแยกความแตกต่างระหว่าง trauma แบบเหตุการณ์เดี่ยวกับ trauma แบบเรื้อรัง โดยเฉพาะในเด็ก
+Mardi J. Horowitz
+สำนัก / สาย: Stress Response, PTSD, Trauma Processing
+สถานะ: นักวิจัยยุคต้นด้าน stress response และ trauma
+แนวคิดสำคัญ: stress response syndrome, intrusion, avoidance, working through, trauma processing
+ผลงานสำคัญ:
+Stress Response Syndromes
+Image Formation and Cognition
+Treatment of Stress Response Syndromes
+ความสำคัญ:
+Horowitz สำคัญต่อการเข้าใจรูปแบบ intrusion และ avoidance ซึ่งต่อมากลายเป็นแกนสำคัญของการเข้าใจ PTSD
+Charles Figley
+สำนัก / สาย: Traumatology, Compassion Fatigue
+สถานะ: นักคิดสำคัญด้าน traumatic stress และ secondary trauma
+แนวคิดสำคัญ: compassion fatigue, secondary traumatic stress, family trauma, traumatology
+ผลงานสำคัญ:
+Trauma and Its Wake
+Compassion Fatigue
+Treating Compassion Fatigue
+Mapping Trauma and Its Wake
+ความสำคัญ:
+Figley สำคัญเพราะขยาย trauma ไปถึงผู้ช่วยเหลือ นักบำบัด ครอบครัว และคนที่สัมผัสความทุกข์ของผู้อื่นอย่างต่อเนื่อง
+Christine A. Courtois
+สำนัก / สาย: Complex Trauma, Childhood Abuse, Trauma Treatment
+สถานะ: นักคลินิกสำคัญด้าน complex trauma และ sexual abuse trauma
+แนวคิดสำคัญ: complex trauma, childhood sexual abuse, phase-oriented treatment, relational trauma
+ผลงานสำคัญ:
+Healing the Incest Wound
+Recollections of Sexual Abuse
+Treating Complex Traumatic Stress Disorders
+Treatment of Complex Trauma
+ความสำคัญ:
+Courtois สำคัญในงานคลินิกกับบาดแผลซับซ้อน โดยเฉพาะ trauma จากการถูกละเมิดในวัยเด็กและบาดแผลเชิงสัมพันธ์
+Julian D. Ford
+สำนัก / สาย: Complex Trauma, Developmental Trauma, Trauma Treatment
+สถานะ: นักวิจัยและนักคลินิกด้าน complex trauma
+แนวคิดสำคัญ: developmental trauma, affect regulation, traumatic stress, complex PTSD, TARGET model
+ผลงานสำคัญ:
+Treating Complex Traumatic Stress Disorders
+Treating Complex Traumatic Stress Disorders in Children and Adolescents
+Posttraumatic Stress Disorder
+งานพัฒนา TARGET model
+ความสำคัญ:
+Ford สำคัญในสายที่เชื่อม trauma กับพัฒนาการ เด็ก วัยรุ่น การควบคุมอารมณ์ และการรักษาแบบเป็นระบบ
+John Briere
+สำนัก / สาย: Trauma Psychology, Child Abuse, Complex Trauma
+สถานะ: นักวิจัยและนักคลินิกด้าน trauma assessment และ treatment
+แนวคิดสำคัญ: child abuse trauma, complex trauma, trauma symptoms, assessment, self-trauma model
+ผลงานสำคัญ:
+Child Abuse Trauma
+Principles of Trauma Therapy
+Psychological Assessment of Adult Posttraumatic States
+งานพัฒนาเครื่องมือประเมิน trauma หลายชุด
+ความสำคัญ:
+Briere สำคัญในฐานะนักคิดที่เชื่อมการประเมิน trauma กับการบำบัด trauma อย่างเป็นระบบและระมัดระวัง
+Marylène Cloitre
+สำนัก / สาย: Complex PTSD, Skills-Based Trauma Therapy
+สถานะ: นักวิจัยสำคัญด้าน complex PTSD และการรักษาแบบ phase-based
+แนวคิดสำคัญ: complex PTSD, STAIR, emotion regulation, interpersonal trauma, childhood abuse
+ผลงานสำคัญ:
+Treating Survivors of Childhood Abuse and Interpersonal Trauma
+งานพัฒนา STAIR / Skills Training in Affective and Interpersonal Regulation
+งานวิจัยด้าน complex PTSD และ interpersonal trauma
+ความสำคัญ:
+Cloitre สำคัญมากในสาย complex trauma เพราะเน้นว่าผู้รอดชีวิตจาก trauma ระยะยาวต้องการทักษะด้านอารมณ์ ความสัมพันธ์ และความปลอดภัยก่อนเข้าไปทำงานกับความทรงจำบาดแผลโดยตรง
+Ruth Lanius
+สำนัก / สาย: Trauma Neuroscience, Dissociation, PTSD
+สถานะ: นักวิจัยสมองกับ trauma คนสำคัญ
+แนวคิดสำคัญ: trauma neuroscience, dissociative subtype of PTSD, self-consciousness, affect dysregulation
+ผลงานสำคัญ:
+The Impact of Early Life Trauma on Health and Disease
+Healing the Traumatized Self
+งานวิจัยด้าน neurobiology of PTSD
+งานวิจัยเรื่อง dissociation และ brain imaging
+ความสำคัญ:
+Lanius สำคัญในสายที่ทำให้ trauma, dissociation, body, brain และ sense of self ถูกศึกษาเชิงประสาทวิทยามากขึ้น
+Paul Frewen
+สำนัก / สาย: Trauma Neuroscience, Self and Consciousness, Dissociation
+สถานะ: นักวิจัย trauma ร่วมสมัย
+แนวคิดสำคัญ: traumatized self, consciousness, dissociation, mindfulness, affect regulation
+ผลงานสำคัญ:
+Healing the Traumatized Self
+งานวิจัยด้าน PTSD, dissociation, self-consciousness และ emotion regulation
+ความสำคัญ:
+Frewen สำคัญในงานที่เชื่อม trauma เข้ากับ self, consciousness, mindfulness และระบบประสาท
+II. Somatic / Body-Oriented Trauma Therapy
+จิตบำบัดบาดแผลผ่านร่างกายและระบบประสาท
+Wilhelm Reich
+สำนัก / สาย: Psychoanalysis, Body Psychotherapy
+สถานะ: รากสำคัญของ body psychotherapy
+แนวคิดสำคัญ: character armor, muscular armor, body and repression, vegetotherapy
+ผลงานสำคัญ:
+Character Analysis
+The Function of the Orgasm
+The Mass Psychology of Fascism
+Selected Writings
+ความสำคัญ:
+Reich ไม่ใช่นัก trauma therapy โดยตรงแบบสมัยใหม่ แต่สำคัญเพราะเป็นหนึ่งในคนแรก ๆ ที่ทำให้ร่างกาย กล้ามเนื้อ การเกร็ง และบุคลิกภาพถูกอ่านร่วมกันในจิตบำบัด
+Alexander Lowen
+สำนัก / สาย: Bioenergetic Analysis, Body Psychotherapy
+สถานะ: ผู้พัฒนา Bioenergetic Analysis
+แนวคิดสำคัญ: body armor, bioenergetics, grounding, character structure, bodily expression
+ผลงานสำคัญ:
+The Language of the Body
+Bioenergetics
+Depression and the Body
+Fear of Life
+Narcissism
+ความสำคัญ:
+Lowen สำคัญในสาย body psychotherapy เพราะทำให้การทำงานกับร่างกาย ท่าทาง การหายใจ และพลังชีวิตกลายเป็นระบบบำบัดเฉพาะทาง
+Peter A. Levine
+สำนัก / สาย: Somatic Experiencing, Trauma Therapy
+สถานะ: ผู้ก่อตั้ง Somatic Experiencing
+แนวคิดสำคัญ: freeze response, titration, pendulation, completion of defensive responses, nervous system regulation
+ผลงานสำคัญ:
+Waking the Tiger
+Healing Trauma
+In an Unspoken Voice
+Trauma and Memory
+Freedom from Pain
+An Autobiography of Trauma
+ความสำคัญ:
+Levine สำคัญในสาย trauma therapy ที่มองว่าบาดแผลไม่ได้อยู่แค่ในเรื่องเล่า แต่ค้างอยู่ในระบบประสาท การเคลื่อนไหวที่ถูกขัดจังหวะ และวงจรเอาตัวรอดของร่างกาย
+Pat Ogden
+สำนัก / สาย: Sensorimotor Psychotherapy, Somatic Trauma Therapy
+สถานะ: ผู้ก่อตั้ง Sensorimotor Psychotherapy
+แนวคิดสำคัญ: sensorimotor processing, body awareness, trauma and attachment, somatic resources, action systems
+ผลงานสำคัญ:
+Trauma and the Body
+Sensorimotor Psychotherapy
+Sensorimotor Psychotherapy: Interventions for Trauma and Attachment
+งานพัฒนา Sensorimotor Psychotherapy Institute
+ความสำคัญ:
+Ogden สำคัญเพราะสร้างโมเดลที่เชื่อม body, trauma, attachment, cognition และ emotion เข้ากับกระบวนการบำบัดอย่างเป็นระบบ
+Ron Kurtz
+สำนัก / สาย: Hakomi, Body-Centered Psychotherapy
+สถานะ: ผู้ก่อตั้ง Hakomi Method
+แนวคิดสำคัญ: mindfulness, body-centered psychotherapy, core beliefs, somatic awareness, nonviolence
+ผลงานสำคัญ:
+Body-Centered Psychotherapy
+The Body Reveals
+Grace Unfolding
+งานพัฒนา Hakomi Method
+ความสำคัญ:
+Kurtz เป็นรากสำคัญของ somatic psychotherapy และมีอิทธิพลต่อ Pat Ogden รวมถึงสายบำบัดที่ใช้ mindfulness กับร่างกายเป็นทางเข้าสู่จิตใจ
+Babette Rothschild
+สำนัก / สาย: Somatic Trauma Therapy, Trauma-Informed Stabilization
+สถานะ: นักเขียนและนักคลินิกสำคัญด้าน body-based trauma therapy
+แนวคิดสำคัญ: body memory, autonomic arousal, trauma stabilization, dual awareness, safe pacing
+ผลงานสำคัญ:
+The Body Remembers
+The Body Remembers Casebook
+Trauma Essentials
+8 Keys to Safe Trauma Recovery
+Revolutionizing Trauma Treatment
+ความสำคัญ:
+Rothschild สำคัญเพราะย้ำเรื่องความปลอดภัย ความช้า การคุมระดับ arousal และการไม่ผลักผู้ป่วยเข้าไปเผชิญ trauma เร็วเกินไป
+Janina Fisher
+สำนัก / สาย: Trauma, Sensorimotor Psychotherapy, Parts Work, Dissociation
+สถานะ: นักคลินิกสำคัญที่เชื่อม trauma, dissociation, body และ parts work
+แนวคิดสำคัญ: fragmented selves, structural dissociation, trauma parts, shame, somatic stabilization
+ผลงานสำคัญ:
+Healing the Fragmented Selves of Trauma Survivors
+Transforming the Living Legacy of Trauma
+Sensorimotor Psychotherapy
+งานเขียนด้าน trauma-informed parts work
+ความสำคัญ:
+Fisher สำคัญมากสำหรับการอ่านผู้รอดชีวิตจาก trauma ในฐานะคนที่มีส่วนต่าง ๆ ของตัวตนพยายามเอาตัวรอด ไม่ใช่คนที่ “ไม่เป็นเหตุเป็นผล” หรือ “ดราม่า”
+Stephen W. Porges
+สำนัก / สาย: Polyvagal Theory, Psychophysiology
+สถานะ: ผู้พัฒนา Polyvagal Theory
+แนวคิดสำคัญ: autonomic nervous system, vagal regulation, neuroception, social engagement system, safety and threat
+ผลงานสำคัญ:
+The Polyvagal Theory
+Clinical Applications of the Polyvagal Theory
+Polyvagal Safety
+งานวิจัยเกี่ยวกับ autonomic nervous system และ social behavior
+ความสำคัญ:
+Porges มีอิทธิพลมากในโลก trauma-informed therapy เพราะทำให้ภาษาเรื่อง safety, threat, shutdown, nervous-system state และ social engagement แพร่หลายมากขึ้น
+หมายเหตุ:
+Polyvagal Theory เป็นแนวคิดที่มีอิทธิพลสูงในวงการบำบัด แต่มีข้อถกเถียงทางวิทยาศาสตร์จำนวนมาก จึงควรใช้ด้วยความระมัดระวัง ไม่ควรเสนอว่าเป็นข้อสรุป neuroscience ที่ปิดตายแล้ว
+Deb Dana
+สำนัก / สาย: Polyvagal-Informed Therapy
+สถานะ: ผู้ทำให้ Polyvagal Theory กลายเป็นภาษาคลินิกที่ใช้ในห้องบำบัด
+แนวคิดสำคัญ: nervous system mapping, ladder, ventral vagal, sympathetic, dorsal vagal, regulation
+ผลงานสำคัญ:
+The Polyvagal Theory in Therapy
+Polyvagal Exercises for Safety and Connection
+Anchored
+Polyvagal Practices
+ความสำคัญ:
+Dana สำคัญในฐานะผู้แปล Polyvagal Theory ให้เป็นเครื่องมือบำบัดที่เข้าใจง่าย โดยเฉพาะงานกับ regulation, safety และการสังเกตสภาวะของระบบประสาท
+หมายเหตุ:
+ควรวาง Dana เป็น “สาย clinical application” ไม่ใช่ผู้ก่อตั้งทฤษฎีหลัก
+Laurence Heller
+สำนัก / สาย: NARM, Developmental Trauma
+สถานะ: ผู้พัฒนา NeuroAffective Relational Model
+แนวคิดสำคัญ: developmental trauma, connection, attunement, trust, autonomy, love-sexuality, somatic-relational repair
+ผลงานสำคัญ:
+Healing Developmental Trauma
+The Practical Guide for Healing Developmental Trauma
+งานพัฒนา NARM
+ความสำคัญ:
+Heller สำคัญในสาย developmental trauma ที่เชื่อมร่างกาย ระบบประสาท ความสัมพันธ์ และบาดแผลระยะแรกของชีวิตเข้าด้วยกัน
+Aline LaPierre
+สำนัก / สาย: Somatic Psychology, NARM
+สถานะ: นักคิดและนักคลินิกร่วมพัฒนาแนว developmental trauma
+แนวคิดสำคัญ: somatic psychology, developmental trauma, relational repair, body-based attachment work
+ผลงานสำคัญ:
+Healing Developmental Trauma — with Laurence Heller
+งานเขียนและงานสอนด้าน somatic psychology
+ความสำคัญ:
+LaPierre สำคัญในฐานะผู้ช่วยวางภาษา somatic-relational สำหรับการเข้าใจ developmental trauma
+Stanley Keleman
+สำนัก / สาย: Somatic Psychology, Formative Psychology
+สถานะ: นักคิดสำคัญด้าน somatic psychology
+แนวคิดสำคัญ: body formation, emotional anatomy, somatic process, formative psychology
+ผลงานสำคัญ:
+Emotional Anatomy
+Your Body Speaks Its Mind
+Embodying Experience
+Forming Your Life
+ความสำคัญ:
+Keleman ไม่ใช่ trauma theorist โดยตรง แต่สำคัญต่อรากของ somatic psychology เพราะเขามองว่าตัวตน อารมณ์ และร่างกายก่อตัวไปด้วยกัน
+III. Dissociation / Structural Dissociation
+การแยกส่วนของจิตใจและบุคลิกภาพจาก trauma
+Morton Prince
+สำนัก / สาย: Early Dissociation Studies, Abnormal Psychology
+สถานะ: นักวิจัยยุคต้นเรื่อง dissociation และ multiple personality
+แนวคิดสำคัญ: dissociation, multiple personality, co-consciousness, subconscious processes
+ผลงานสำคัญ:
+The Dissociation of a Personality
+The Unconscious
+Clinical and Experimental Studies in Personality
+ความสำคัญ:
+Prince เป็นชื่อสำคัญในประวัติศาสตร์การศึกษา dissociation ก่อนยุค DSM และก่อนกรอบ trauma therapy สมัยใหม่
+Frank W. Putnam
+สำนัก / สาย: Dissociation, Child Trauma, DID
+สถานะ: นักวิจัยสำคัญด้าน dissociative disorders
+แนวคิดสำคัญ: dissociative identity disorder, child dissociation, trauma and development, dissociative symptoms
+ผลงานสำคัญ:
+Diagnosis and Treatment of Multiple Personality Disorder
+Dissociation in Children and Adolescents
+งานวิจัยเกี่ยวกับ dissociative disorders และ childhood trauma
+ความสำคัญ:
+Putnam สำคัญในงานที่ทำให้ dissociation และ DID ถูกศึกษาเชิงคลินิกและเชิงพัฒนาการมากขึ้น
+Richard P. Kluft
+สำนัก / สาย: Dissociative Disorders, DID Treatment
+สถานะ: นักคลินิกสำคัญด้าน dissociative identity disorder
+แนวคิดสำคัญ: multiple personality disorder, dissociative identity disorder, treatment of dissociation, trauma-based dissociation
+ผลงานสำคัญ:
+งานวิจัยและบทความด้าน multiple personality disorder / DID
+Childhood Antecedents of Multiple Personality
+งานบรรณาธิการและงานคลินิกด้าน dissociative disorders
+ความสำคัญ:
+Kluft สำคัญในยุคที่ dissociative disorders ถูกถกเถียงอย่างหนัก เขาเป็นหนึ่งในคนที่ช่วยทำให้การรักษา DID มีกรอบคลินิกจริงจังขึ้น
+Onno van der Hart
+สำนัก / สาย: Structural Dissociation, Trauma-Related Dissociation
+สถานะ: ผู้ร่วมพัฒนา Theory of Structural Dissociation
+แนวคิดสำคัญ: structural dissociation, ANP, EP, trauma-related dissociation, phase-oriented treatment
+ผลงานสำคัญ:
+The Haunted Self
+Coping with Trauma-Related Dissociation
+Treating Trauma-Related Dissociation
+งานวิจัยเรื่อง trauma-related dissociation
+ความสำคัญ:
+van der Hart สำคัญในสายที่มอง trauma ว่าอาจทำให้บุคลิกภาพหรือระบบตัวตนแยกเป็นส่วนที่ทำหน้าที่ต่างกัน เช่น ส่วนที่ใช้ชีวิตประจำวันกับส่วนที่ติดอยู่ใน trauma
+Ellert R. S. Nijenhuis
+สำนัก / สาย: Structural Dissociation, Somatoform Dissociation
+สถานะ: ผู้ร่วมพัฒนา Theory of Structural Dissociation
+แนวคิดสำคัญ: somatoform dissociation, structural dissociation, trauma, animal defensive systems, dissociative parts
+ผลงานสำคัญ:
+Somatoform Dissociation
+The Haunted Self
+The Trinity of Trauma
+งานวิจัยด้าน trauma-related dissociation
+ความสำคัญ:
+Nijenhuis สำคัญเพราะเชื่อม dissociation กับร่างกาย การป้องกันตนเอง และระบบเอาตัวรอด ทำให้ trauma ไม่ใช่แค่เรื่องความคิดหรือความทรงจำ
+Kathy Steele
+สำนัก / สาย: Structural Dissociation, Complex Trauma Treatment
+สถานะ: นักคลินิกสำคัญด้าน dissociation และ complex trauma
+แนวคิดสำคัญ: phase-oriented treatment, structural dissociation, parts, stabilization, trauma integration
+ผลงานสำคัญ:
+The Haunted Self
+Coping with Trauma-Related Dissociation
+Treating Trauma-Related Dissociation
+งานสอนและงานเขียนด้าน complex trauma และ dissociation
+ความสำคัญ:
+Steele สำคัญในสายปฏิบัติ เพราะช่วยทำให้แนวคิด structural dissociation กลายเป็นแนวทางบำบัดที่ใช้กับ complex trauma และ dissociative disorders ได้เป็นขั้นตอน
+Suzette Boon
+สำนัก / สาย: Dissociation, Trauma Treatment
+สถานะ: นักคลินิกสำคัญด้าน dissociation และการรักษาแบบ phase-oriented
+แนวคิดสำคัญ: dissociative disorders, stabilization, skills training, trauma-related parts, psychoeducation
+ผลงานสำคัญ:
+Coping with Trauma-Related Dissociation
+Treating Trauma-Related Dissociation
+งานฝึกอบรมด้าน dissociation และ complex trauma
+ความสำคัญ:
+Boon สำคัญมากในงานที่ทำให้ผู้ป่วย dissociation มีเครื่องมือเข้าใจตนเองและฝึกทักษะความปลอดภัยก่อนทำงานกับ trauma โดยตรง
+Elizabeth F. Howell
+สำนัก / สาย: Psychoanalysis, Dissociation, Relational Trauma
+สถานะ: นักจิตวิเคราะห์ร่วมสมัยด้าน dissociation
+แนวคิดสำคัญ: dissociative mind, relational trauma, self-states, psychoanalytic dissociation
+ผลงานสำคัญ:
+The Dissociative Mind
+Understanding and Treating Dissociative Identity Disorder
+Dissociation and the Dissociative Disorders
+งานเขียนด้าน dissociation ใน psychoanalysis
+ความสำคัญ:
+Howell สำคัญเพราะเชื่อม dissociation เข้ากับ psychoanalysis, relational trauma และ self-state theory
+Colin A. Ross
+สำนัก / สาย: Dissociative Disorders, Trauma Model
+สถานะ: นักวิจัยและนักคลินิกด้าน DID และ trauma model
+แนวคิดสำคัญ: dissociative identity disorder, trauma model, multiplicity, childhood trauma
+ผลงานสำคัญ:
+Multiple Personality Disorder
+Dissociative Identity Disorder
+The Trauma Model
+Schizophrenia: Innovations in Diagnosis and Treatment
+ความสำคัญ:
+Ross สำคัญในฐานะผู้เสนอ trauma model ของ dissociative disorders และทำงานอย่างกว้างขวางกับ DID
+Richard J. Loewenstein
+สำนัก / สาย: Dissociative Disorders, Trauma Psychiatry
+สถานะ: จิตแพทย์สำคัญด้าน dissociation และ DID
+แนวคิดสำคัญ: DID treatment, dissociative disorders, trauma, diagnosis, phase-oriented therapy
+ผลงานสำคัญ:
+งานวิจัยและบทความด้าน dissociative identity disorder
+งานใน Dissociation and the Dissociative Disorders
+งานคลินิกด้าน trauma-related dissociation
+ความสำคัญ:
+Loewenstein เป็นชื่อสำคัญในสายจิตเวชที่ทำงานกับ dissociation อย่างเป็นระบบ โดยเฉพาะด้านการวินิจฉัยและการรักษา DID
+David Spiegel
+สำนัก / สาย: Dissociation, Hypnosis, Trauma Psychiatry
+สถานะ: นักวิจัยสำคัญด้าน dissociation และ hypnosis
+แนวคิดสำคัญ: dissociation, hypnosis, PTSD, trauma, altered states of consciousness
+ผลงานสำคัญ:
+Trance and Treatment
+งานวิจัยด้าน dissociation, hypnosis และ PTSD
+งานเกี่ยวกับ dissociative disorders ใน DSM tradition
+ความสำคัญ:
+Spiegel สำคัญในสายที่เชื่อม dissociation กับ hypnosis, trauma และจิตเวชศาสตร์กระแสหลัก
+Paul F. Dell
+สำนัก / สาย: Dissociation Studies, Dissociative Disorders
+สถานะ: นักวิชาการสำคัญด้าน dissociation และ DID
+แนวคิดสำคัญ: dissociative symptoms, DID assessment, phenomenology of dissociation
+ผลงานสำคัญ:
+Dissociation and the Dissociative Disorders: DSM-V and Beyond
+งานวิจัยด้าน dissociative identity disorder
+งานเกี่ยวกับ Multidimensional Inventory of Dissociation
+ความสำคัญ:
+Dell สำคัญเพราะช่วยรวบรวมองค์ความรู้ dissociation สมัยใหม่ และเน้นรายละเอียดของอาการ dissociation ที่ซับซ้อนกว่าความเข้าใจทั่วไปมาก
+IV. EMDR / Trauma-Focused Treatment
+แนวรักษาบาดแผลทางจิตใจที่สำคัญ
+Francine Shapiro
+สำนัก / สาย: EMDR, Trauma Therapy
+สถานะ: ผู้ก่อตั้ง EMDR
+แนวคิดสำคัญ: eye movement desensitization and reprocessing, adaptive information processing, traumatic memory, bilateral stimulation
+ผลงานสำคัญ:
+Eye Movement Desensitization and Reprocessing
+EMDR
+Getting Past Your Past
+งานพัฒนา EMDR therapy
+ความสำคัญ:
+Shapiro สำคัญเพราะ EMDR กลายเป็นหนึ่งในแนว trauma-focused therapy ที่มีอิทธิพลสูงมากในงานรักษา PTSD และ traumatic memory
+Roger Solomon
+สำนัก / สาย: EMDR, Trauma Treatment
+สถานะ: นักฝึกอบรมและนักคลินิกสำคัญในสาย EMDR
+แนวคิดสำคัญ: EMDR, traumatic grief, law enforcement trauma, trauma processing
+ผลงานสำคัญ:
+งานเขียนและฝึกอบรมด้าน EMDR
+งานด้าน traumatic grief และ trauma ในกลุ่ม first responders
+ความสำคัญ:
+Solomon สำคัญในสายการประยุกต์ EMDR กับ grief, trauma จากงานภาคสนาม และกลุ่มผู้ปฏิบัติงานที่เจอเหตุการณ์รุนแรง
+Laurel Parnell
+สำนัก / สาย: EMDR, Attachment-Focused EMDR
+สถานะ: ผู้พัฒนา Attachment-Focused EMDR
+แนวคิดสำคัญ: EMDR, attachment repair, resource tapping, relational trauma
+ผลงานสำคัญ:
+Attachment-Focused EMDR
+Tapping In
+A Therapist’s Guide to EMDR
+Rewiring the Addicted Brain
+ความสำคัญ:
+Parnell สำคัญเพราะนำ EMDR ไปเชื่อมกับ attachment, resource, และ relational trauma มากขึ้น
+V. รายชื่อแบบย่อสำหรับใช้ในเว็บไซต์
+Trauma Studies / Complex Trauma
+Pierre Janet
+Sándor Ferenczi
+Judith Herman
+Bessel van der Kolk
+Lenore Terr
+Mardi J. Horowitz
+Charles Figley
+Christine A. Courtois
+Julian D. Ford
+John Briere
+Marylène Cloitre
+Ruth Lanius
+Paul Frewen
+Somatic / Body-Oriented Trauma Therapy
+Wilhelm Reich
+Alexander Lowen
+Peter A. Levine
+Pat Ogden
+Ron Kurtz
+Babette Rothschild
+Janina Fisher
+Stephen W. Porges
+Deb Dana
+Laurence Heller
+Aline LaPierre
+Stanley Keleman
+Dissociation / Structural Dissociation
+Pierre Janet
+Morton Prince
+Frank W. Putnam
+Richard P. Kluft
+Onno van der Hart
+Ellert R. S. Nijenhuis
+Kathy Steele
+Suzette Boon
+Elizabeth F. Howell
+Colin A. Ross
+Richard J. Loewenstein
+David Spiegel
+Paul F. Dell
+Janina Fisher
+EMDR / Trauma-Focused Treatment
+Francine Shapiro
+Roger Solomon
+Laurel Parnell
+VI. ข้อสับสนที่ควรระวัง
+1) Trauma ไม่ได้แปลว่า “ทุกความเจ็บปวด”
+Trauma ในทางคลินิกหมายถึงประสบการณ์ที่เกินขีดความสามารถของระบบจิต-ร่างกายในการรับมือและบูรณาการ
+แต่ในวัฒนธรรมปัจจุบัน คำว่า trauma ถูกใช้กว้างมากจนบางครั้งกลายเป็นคำแทนความเจ็บปวดทุกชนิด
+ควรเขียนในเว็บให้ชัดว่า
+trauma คือบาดแผลที่กระทบระบบการรับรู้ ความปลอดภัย ร่างกาย ความสัมพันธ์ และความสามารถในการดำเนินชีวิต ไม่ใช่แค่ความเสียใจทั่วไป
+2) PTSD กับ Complex PTSD ไม่ใช่อันเดียวกัน
+PTSD มักสัมพันธ์กับเหตุการณ์รุนแรงหรือคุกคามชีวิต
+Complex PTSD มักสัมพันธ์กับ trauma ระยะยาว ซ้ำ ๆ และเกิดในความสัมพันธ์ที่หลบหนีไม่ได้ เช่น abuse, neglect, captivity, domestic violence หรือ developmental trauma
+3) Somatic Therapy ไม่ใช่เวทมนตร์ “ปล่อยพลังค้างในร่างกาย”
+Somatic therapy ที่ดีไม่ใช่การพูดว่า “ร่างกายจำทุกอย่าง” แบบลอย ๆ
+แต่คือการทำงานอย่างระมัดระวังกับ
+sensation
+arousal
+breath
+posture
+movement impulse
+orienting
+grounding
+safety
+regulation
+trauma memory
+หัวใจคือคุมระดับความปลอดภัย ไม่ใช่บังคับให้คนดิ่งกลับไปหา trauma
+4) Dissociation ไม่ได้แปลว่า DID เสมอไป
+Dissociation มีหลายระดับ ตั้งแต่เหม่อ ตัดขาดจากความรู้สึก ชา derealization, depersonalization, amnesia ไปจนถึง dissociative identity disorder
+DID เป็นรูปแบบหนึ่งของ dissociation ที่รุนแรงและซับซ้อนกว่า
+แต่ไม่ใช่ dissociation ทั้งหมด
+5) Structural Dissociation ไม่ใช่ IFS
+Structural Dissociation และ IFS ต่างใช้ภาษาเรื่อง “parts” เหมือนกัน
+แต่ฐานคิดไม่เหมือนกัน
+Structural Dissociation มาจาก trauma, dissociation และ psychotraumatology
+IFS มาจาก parts work, family systems language และโมเดล Self-led healing
+จุดร่วมคือมองว่าจิตมีหลายส่วน
+จุดต่างคือ Structural Dissociation เน้น trauma-related division ของระบบบุคลิกภาพมากกว่า
+6) Polyvagal Theory มีอิทธิพลสูง แต่มีข้อถกเถียง
+Polyvagal Theory ช่วยให้วงการบำบัดมีภาษาพูดเรื่อง nervous system, safety, shutdown, social engagement และ regulation
+แต่ในเชิงวิทยาศาสตร์ มีข้อถกเถียงจำนวนมากเกี่ยวกับความแม่นยำของตัวทฤษฎี
+ดังนั้นในเว็บควรเขียนแบบระวังว่า
+Polyvagal-informed therapy เป็นกรอบคลินิกที่มีอิทธิพลสูง แต่ไม่ควรถูกเสนอเป็นข้อสรุปทาง neuroscience ที่ไม่มีข้อโต้แย้ง
+7) ถ้าเว็บไซต์เน้นจิตวิทยาเชิงลึก ควรดันรายชื่อเหล่านี้เป็นแกนหลัก
+สำหรับเว็บด้านจิตวิทยาเชิงลึก จิตบำบัด trauma และ psyche development รายชื่อที่ควรเด่นเป็นพิเศษคือ
+Pierre Janet
+Sándor Ferenczi
+Judith Herman
+Bessel van der Kolk
+Peter Levine
+Pat Ogden
+Babette Rothschild
+Janina Fisher
+Onno van der Hart
+Ellert Nijenhuis
+Kathy Steele
+Suzette Boon
+Ruth Lanius
+Francine Shapiro
+เพราะกลุ่มนี้เชื่อม trauma, body, dissociation, memory, self, attachment และ clinical treatment ได้ดีที่สุด

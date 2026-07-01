@@ -1,0 +1,380 @@
+ได้ค่ะ สายต่อไปคือ Philosophy of Science / Scientific Explanation
+สายนี้คือ “มีดตรวจคุณภาพความจริง” ของเว็บเราโดยตรง โดยเฉพาะเวลาจะพูดเรื่อง MBTI, typology, psychoanalysis, neuroscience, psychiatry, research quality, AI, evidence, theory, explanation
+Philosophy of Science / Scientific Explanation
+แกนกลาง:
+วิทยาศาสตร์รู้อะไรได้ ทฤษฎีคืออะไร หลักฐานคืออะไร การอธิบายคืออะไร อะไรนับว่าเป็นวิทยาศาสตร์ ทฤษฎีถูกหักล้างอย่างไร paradigm เปลี่ยนอย่างไร และเราควรเชื่อ scientific model แค่ไหน
+เหมาะกับเว็บ:
+ใช้กับ วิจารณ์ MBTI, psychoanalysis, neuroscience, psychiatry, research quality, scientific explanation, pseudoscience, evidence hierarchy, theory audit, AI truth-claim, typology as model
+สายนี้สำคัญมาก เพราะเว็บของสินจะพูดเรื่องที่อยู่กึ่งกลางระหว่าง psychology / philosophy / symbol / clinical language / typology / AI ถ้าไม่มี philosophy of science เว็บจะเสี่ยงสองทางทันที:
+ลอยเป็นสายจิตวิญญาณที่พูดอะไรก็ได้
+แข็งเป็น scientism ที่คิดว่าเฉพาะสิ่งที่วัดได้เท่านั้นจึงมีความหมาย
+Karl Popper
+ผลงานหลัก:
+The Logic of Scientific Discovery, Conjectures and Refutations, Objective Knowledge, The Open Society and Its Enemies
+แนวคิดสำคัญ:
+Falsifiability — ทฤษฎีเป็นวิทยาศาสตร์เมื่อมีความเป็นไปได้เชิงหลักการที่จะถูกหักล้าง
+Demarcation Problem — ปัญหาเส้นแบ่งระหว่าง science กับ non-science
+Conjectures and Refutations — ความรู้วิทยาศาสตร์เติบโตผ่านข้อเสนอที่เสี่ยงและการพยายามหักล้าง
+Risky Prediction — หลักฐานมีน้ำหนักเมื่อทฤษฎีเสี่ยงจะผิดจริง
+Corroboration — ทฤษฎีที่ผ่านการทดสอบหนัก ๆ ยังไม่ “พิสูจน์จริง” แต่ถูก corroborated
+Anti-Verificationsim — หลักฐานสนับสนุนอย่างเดียวไม่พอ เพราะทฤษฎีที่คลุมทุกอย่างอาจหา confirmation ได้ง่าย
+Fallibilism — ความรู้มนุษย์ผิดได้เสมอ
+Critique of Psychoanalysis / Marxism — Popper เห็นว่าทฤษฎีบางแบบปรับตัวรับทุกกรณีจนแทบไม่เปิดทางให้ถูกหักล้าง
+Popper เสนอ falsifiability เป็นเกณฑ์ demarcation ระหว่าง science กับ non-science โดยเขาเน้นว่าทฤษฎีวิทยาศาสตร์ต้องห้ามบางสิ่ง ต้องมีกรณีที่ถ้าเกิดขึ้นจริงจะทำให้ทฤษฎีเสียหาย แต่เขาก็แยกชัดว่าในทางปฏิบัติ การหักล้างทฤษฎีไม่ง่ายเหมือนตรรกะบนกระดาษ เพราะข้อมูลสังเกตการณ์ เครื่องมือ และสมมติฐานประกอบอาจมีปัญหาได้เช่นกัน (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Popper สำคัญมากกับการวิจารณ์ MBTI, typology, psychoanalysis, Jungian claims, AI claims
+คำถามแบบ Popper ที่เว็บควรถามเสมอ:
+ข้ออ้างนี้มีเงื่อนไขไหมว่าอะไรจะทำให้มันผิด
+หรือมันสามารถอธิบายได้ทุกอย่างจนไม่มีทางแพ้
+ประโยคใช้งานเว็บ:
+Popper ทำให้เรารู้ว่า ทฤษฎีที่อธิบายได้ทุกอย่าง อาจไม่ได้ลึกที่สุด แต่อาจเป็นทฤษฎีที่ไม่ยอมเสี่ยงพอจะผิด
+Thomas Kuhn
+ผลงานหลัก:
+The Structure of Scientific Revolutions, The Essential Tension, The Road Since Structure
+แนวคิดสำคัญ:
+Paradigm — แบบแผนร่วมของการทำวิทยาศาสตร์ในชุมชนหนึ่ง
+Normal Science — วิทยาศาสตร์ช่วงปกติที่แก้ puzzle ภายในกรอบเดิม
+Anomaly — ปัญหาที่กรอบเดิมแก้ไม่ลง
+Crisis — ภาวะที่ anomaly สะสมจน paradigm สั่น
+Scientific Revolution — การเปลี่ยนกรอบใหญ่ของวิทยาศาสตร์
+Incommensurability — paradigm ต่างกันอาจใช้ภาษา มาตรฐาน และปัญหาคนละแบบ
+Disciplinary Matrix — ชุดของทฤษฎี เครื่องมือ ค่านิยม วิธีวัด และตัวอย่างมาตรฐาน
+Exemplars — ตัวอย่างงานวิทยาศาสตร์ที่ชุมชนถือว่าเป็นแบบอย่าง
+Kuhn มองว่าวิทยาศาสตร์ที่โตแล้วมักสลับระหว่างช่วง normal science กับ scientific revolutions โดยช่วงปกติ นักวิทยาศาสตร์ทำงานแก้ปริศนาภายใน disciplinary matrix เดิม แต่เมื่อ anomaly สะสมจนแก้ไม่ลง อาจเกิดการเปลี่ยน paradigm ซึ่งไม่ใช่แค่เปลี่ยนคำตอบ แต่เปลี่ยนวิธีเห็นปัญหา วิธีวัด และมาตรฐานของสิ่งที่นับว่าเป็นคำตอบด้วย (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Kuhn เหมาะกับบทความเรื่อง paradigm ของ psychology, psychiatry, neuroscience, MBTI, psychoanalysis, typology community
+ใช้ดีมากกับคำถามแบบนี้:
+ทำไมคนใน community เดียวกันถึงเห็นข้อมูลชุดเดียวกันเป็นคนละเรื่อง
+ทำไมบางระบบความคิดดู “จริง” ภายในกลุ่ม แต่คุยกับคนนอกแล้วพัง
+ทำไม typology บางสายถึงกลายเป็น paradigm ปิดของตัวเอง
+ประโยคใช้งานเว็บ:
+Kuhn ทำให้เราเห็นว่า วิทยาศาสตร์ไม่ได้เปลี่ยนเพราะข้อมูลใหม่อย่างเดียว แต่เปลี่ยนเมื่อชุมชนทั้งชุมชนเริ่มมองโลกด้วยกรอบเดิมต่อไปไม่ไหว
+Imre Lakatos
+ผลงานหลัก:
+Proofs and Refutations, The Methodology of Scientific Research Programmes
+แนวคิดสำคัญ:
+Research Programme — วิทยาศาสตร์ไม่ได้มีแค่ทฤษฎีเดี่ยว แต่เป็นโครงการวิจัยทั้งชุด
+Hard Core — แกนกลางที่นักวิจัยใน programme นั้นปกป้อง
+Protective Belt — สมมติฐานเสริมที่ปรับเปลี่ยนได้เพื่อรับมือปัญหา
+Positive Heuristic — แนวทางว่าควรพัฒนา programme ไปทางไหน
+Negative Heuristic — ข้อห้ามไม่ให้โจมตี hard core โดยตรง
+Progressive Research Programme — ปรับแล้วทำนาย/ค้นพบสิ่งใหม่ได้
+Degenerating Research Programme — ปรับเพียงเพื่อแก้ตัวภายหลัง ไม่ได้ให้ผลใหม่
+Popper + Kuhn Bridge — พยายามรักษาความมีเหตุผลของวิทยาศาสตร์ โดยไม่ทำให้วิทยาศาสตร์เป็นการหักล้างครั้งเดียวจบ
+Lakatos เป็นนักปรัชญาคณิตศาสตร์และวิทยาศาสตร์ที่ทำงานที่ LSE และเสนอแนวคิด Methodology of Scientific Research Programmes ซึ่งมีอิทธิพลมากใน philosophy of science โดยเฉพาะการประเมินทฤษฎีเป็นชุด programme ไม่ใช่ดู hypothesis เดี่ยว ๆ แยกขาดจากประวัติการพัฒนา (LSE)
+เหมาะกับเว็บเรา:
+Lakatos โคตรเหมาะกับการประเมิน Jungian theory, typology, MBTI, psychoanalysis, TPDT
+เพราะคำถามไม่ได้มีแค่ว่า “ทฤษฎีนี้ถูกหรือผิด” แต่ต้องถามว่า:
+มันเป็น research programme ที่ยังผลิต insight ใหม่ได้ไหม
+หรือกำลังแค่ขยับสมมติฐานเพื่อไม่ให้ตัวเองแพ้
+ประโยคใช้งานเว็บ:
+Lakatos ทำให้เราไม่รีบฆ่าทฤษฎีเพราะเจอ anomaly หนึ่งจุด แต่ก็ไม่ปล่อยให้ทฤษฎีแก้ตัวไปเรื่อย ๆ จนกลายเป็นระบบป้องกันตัวเองจากความจริง
+Paul Feyerabend
+ผลงานหลัก:
+Against Method, Science in a Free Society, Farewell to Reason, Conquest of Abundance
+แนวคิดสำคัญ:
+Epistemological Anarchism — ไม่มี method สากลข้อเดียวที่ใช้กำกับวิทยาศาสตร์ทุกยุคทุกกรณี
+Against Method — ต่อต้านภาพวิทยาศาสตร์แบบสูตรตายตัว
+Anything Goes — ไม่ใช่คำเชิญให้มั่ว แต่เป็นการประชด/โจมตี method ที่อ้างว่าเป็นกฎสากล
+Methodological Pluralism — วิทยาศาสตร์เติบโตจากหลายวิธี หลายกรอบ หลายการเบี่ยง
+Counterinduction — บางครั้งการคิดสวนข้อมูลหรือสวนทฤษฎีเดิมอาจเปิดทางใหม่
+Science and Power — วิทยาศาสตร์ไม่ควรกลายเป็นสถาบันอำนาจที่ปิดเสียงความรู้รูปแบบอื่น
+Critique of Rationalist Historiography — ประวัติศาสตร์วิทยาศาสตร์จริง messy กว่าคู่มือ “scientific method” มาก
+Plurality of Traditions — ต้องระวังการทำให้ science กลืนระบบความรู้อื่นด้วยอำนาจทางสังคม
+Feyerabend ใน Against Method เสนอว่าไม่มี methodological rules แบบ useful และ exceptionless ที่อธิบายความก้าวหน้าของวิทยาศาสตร์ได้ทั้งหมด และเขาโจมตีทั้ง logical empiricism กับ Popperian critical rationalism ว่าอาจบีบความคิดใหม่ ๆ จนขัดขวาง scientific progress ได้ (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Feyerabend มีประโยชน์มากกับการกันไม่ให้เว็บกลายเป็น scientism
+เขาช่วยเตือนว่า:
+scientific method ในตำราเด็ก อาจเรียบร้อยเกินกว่าวิทยาศาสตร์จริง
+และความรู้บางแบบอาจถูกตัดทิ้งไม่ใช่เพราะไร้ค่า แต่เพราะไม่เข้ากับสถาบันที่มีอำนาจนิยามว่าอะไรคือความรู้
+ประโยคใช้งานเว็บ:
+Feyerabend ไม่ได้บอกให้เราเลิกใช้เหตุผล แต่เตือนว่าเหตุผลที่กลายเป็นตำรวจของวิธีเดียว อาจฆ่าความเป็นไปได้ที่วิทยาศาสตร์ยังไม่รู้จัก
+Carl Hempel
+ผลงานหลัก:
+Aspects of Scientific Explanation, Philosophy of Natural Science
+บทความสำคัญ: “Studies in the Logic of Explanation” ร่วมกับ Paul Oppenheim
+แนวคิดสำคัญ:
+Deductive-Nomological Model / DN Model — การอธิบายทางวิทยาศาสตร์คือการ deduce เหตุการณ์จากกฎและเงื่อนไขเริ่มต้น
+Explanandum — สิ่งที่ต้องอธิบาย
+Explanans — ชุดประโยค/กฎ/เงื่อนไขที่ใช้อธิบาย
+Covering-Law Model — อธิบายโดยนำปรากฏการณ์ไปอยู่ใต้กฎทั่วไป
+Symmetry of Explanation and Prediction — ถ้า explain ได้ อาจ predict ได้ในโครงสร้างเดียวกัน
+Inductive-Statistical Explanation — การอธิบายแบบสถิติ
+Logical Empiricism — วิทยาศาสตร์ควรมีโครงสร้างทางตรรกะและหลักฐานเชิงประจักษ์
+Scientific Explanation as Argument — explanation มีรูปเหมือน argument ที่มีเงื่อนไขแน่น
+Hempel เป็นผู้ให้รูปแบบละเอียดและทรงอิทธิพลที่สุดของ Deductive-Nomological model โดย scientific explanation ประกอบด้วย explanandum และ explanans และ explanandum ต้องเป็นผลตามตรรกะจาก explanans ซึ่งมีอย่างน้อยหนึ่งกฎธรรมชาติเป็น premise สำคัญ (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+Hempel เหมาะกับการตรวจว่า “คำอธิบาย” ในเว็บเราเป็นคำอธิบายจริงไหม หรือแค่เล่าเรื่องสวย
+คำถามแบบ Hempel:
+เรากำลังอธิบายด้วยกฎ/กลไก/หลักฐาน
+หรือแค่ตั้งชื่อให้สิ่งที่เกิดขึ้น
+ประโยคใช้งานเว็บ:
+Hempel ทำให้คำว่า “อธิบาย” หนักขึ้น เพราะการอธิบายไม่ใช่การเล่าให้ฟังดูมีเหตุผล แต่ต้องมีโครงสร้างที่ทำให้สิ่งที่เกิดขึ้นตามมาจากเงื่อนไขและหลักที่ชัดพอ
+Bas van Fraassen
+ผลงานหลัก:
+The Scientific Image, Laws and Symmetry, Scientific Representation, The Empirical Stance
+แนวคิดสำคัญ:
+Constructive Empiricism — วิทยาศาสตร์มุ่งสร้างทฤษฎีที่ empirically adequate ไม่จำเป็นต้องเชื่อว่าทฤษฎีจริงทุกระดับ
+Empirical Adequacy — ทฤษฎีถูกต้องเกี่ยวกับสิ่งที่ observable
+Scientific Anti-Realism — ระวังการเชื่อว่าสิ่งที่ทฤษฎีพูดถึงโดยเฉพาะ unobservable entities ต้องมีอยู่จริงตามทฤษฎี
+Acceptance vs Belief — ยอมรับทฤษฎีเพื่อใช้ ไม่เท่ากับเชื่อว่ามันจริงทั้งหมด
+Saving the Phenomena — ทฤษฎีที่ดีอย่างน้อยต้องรักษา/อธิบายปรากฏการณ์ที่สังเกตได้
+Semantic View of Theories — มองทฤษฎีเป็น model structure ไม่ใช่แค่ชุดประโยค
+Pragmatics of Explanation — คำอธิบายสัมพันธ์กับคำถาม บริบท และความสนใจของผู้ถาม
+van Fraassen เสนอ constructive empiricism ใน The Scientific Image โดยนิยามว่า science มุ่งให้ทฤษฎีที่ empirically adequate และการยอมรับทฤษฎีเกี่ยวข้องกับการเชื่อเพียงว่าทฤษฎีนั้นเพียงพอในเชิงประจักษ์ ไม่จำเป็นต้องเชื่อว่าทฤษฎีเล่าความจริงทั้งหมดของโลก โดยเฉพาะส่วนที่สังเกตไม่ได้โดยตรง (plato.stanford.edu)
+เหมาะกับเว็บเรา:
+van Fraassen เหมาะกับการคุมงาน typology และ psychology มาก เพราะช่วยแยก:
+model ใช้ได้
+model อธิบายบางปรากฏการณ์ได้
+model จริงทั้งหมด
+model คือ ontology ของมนุษย์
+สี่อย่างนี้ไม่ใช่สิ่งเดียวกัน
+ประโยคใช้งานเว็บ:
+van Fraassen ทำให้เราใช้ทฤษฎีได้โดยไม่ต้องกราบทฤษฎี เพราะ model ที่ช่วยจัดปรากฏการณ์ ไม่จำเป็นต้องเป็นภาพถ่ายสุดท้ายของความจริง
+Nancy Cartwright
+ผลงานหลัก:
+How the Laws of Physics Lie, Nature’s Capacities and Their Measurement, The Dappled World, Hunting Causes and Using Them
+แนวคิดสำคัญ:
+How the Laws of Physics Lie — กฎฟิสิกส์พื้นฐานมักจริงในโลกของ model ที่ idealized มากกว่าตรงกับโลกจริงแบบเต็ม
+Dappled World — โลกจริงเป็น patchwork ของ regularities หลายแบบ ไม่ใช่ระบบกฎเดียวเรียบ
+Nomological Machines — กฎทำงานได้เมื่อมีเครื่อง/ระบบ/เงื่อนไขที่ทำให้ regularity เกิดซ้ำ
+Capacities — สิ่งต่าง ๆ มีพลังหรือความสามารถเชิงเหตุที่ทำงานในบริบทเฉพาะ
+Causal Powers — อธิบายเหตุผลผ่าน powers/capacities ไม่ใช่แค่ universal laws
+Model-Based Science — วิทยาศาสตร์ทำงานผ่าน model ที่ตัดโลกบางส่วนออก
+Against Overgeneralization — ระวังการขยายกฎจาก lab/model ไปยังโลกจริงโดยไม่ดูเงื่อนไข
+Evidence for Use — หลักฐานต้องเหมาะกับบริบทการใช้ ไม่ใช่แค่ “มีงานวิจัยบอกว่า”
+หนังสือ How the Laws of Physics Lie ของ Cartwright เสนอภาพใหม่เกี่ยวกับบทบาทของกฎพื้นฐานในวิทยาศาสตร์ โดยท้าทายภาพที่คิดว่ากฎฟิสิกส์พื้นฐานอธิบายโลกจริงได้ตรง ๆ ทุกบริบท และผลักให้เราดูบทบาทของ model, idealization และเงื่อนไขเฉพาะของการเกิด regularity มากขึ้น (OUP Academic)
+เหมาะกับเว็บเรา:
+Cartwright สำคัญมากกับเว็บ เพราะช่วยกันการใช้ research แบบโง่ ๆ:
+งานวิจัยบอกว่า X
+เลยสรุปว่า X ใช้กับทุกคน ทุกบริบท ทุกสังคม ทุกเงื่อนไข
+ไม่ได้ค่ะ โลกจริงเป็น dappled world กว่าที่กราฟสวย ๆ บอกเยอะ
+ประโยคใช้งานเว็บ:
+Cartwright ทำให้เรารู้ว่า กฎที่จริงใน model อาจโกหกเมื่อเอาไปใช้กับโลกจริงผิดบริบท เพราะโลกไม่ได้ทำตัวเรียบร้อยเหมือนสมการที่เราสร้างไว้ให้มันอยู่
+นักคิดเสริมที่ควรเก็บไว้ในสายนี้
+Pierre Duhem
+ควรมี เพราะ:
+สำคัญกับปัญหา holistic testing: เวลาทฤษฎีเจอข้อมูลขัดแย้ง เราไม่รู้ทันทีว่าทฤษฎีหลักผิด หรือสมมติฐานประกอบ/เครื่องมือ/เงื่อนไขทดลองผิด
+ใช้กับเว็บ:
+theory testing, auxiliary assumptions, typology audit, clinical interpretation
+W. V. O. Quine
+ควรมี เพราะ:
+ต่อยอด Duhem ในภาพ web of belief และ underdetermination
+ใช้กับเว็บ:
+research framework, worldview, theory network, AI knowledge ecology
+Ian Hacking
+ควรมี เพราะ:
+สำคัญกับ scientific realism แบบ intervention, experimentation และ “making up people”
+ใช้กับเว็บ:
+diagnosis, psychiatric category, social construction, classification affects people
+Philip Kitcher
+ควรมี เพราะ:
+สำคัญกับ unificationist explanation และ science in democratic society
+ใช้กับเว็บ:
+science communication, public reason, explanation, responsible knowledge
+Wesley Salmon
+ควรมี เพราะ:
+สำคัญกับ causal-mechanical explanation หลัง Hempel
+ใช้กับเว็บ:
+causal explanation, mechanism, psychology/neuroscience explanation
+Helen Longino
+ควรมี เพราะ:
+สำคัญกับ feminist philosophy of science และ objectivity แบบ social-critical
+ใช้กับเว็บ:
+bias, community criticism, gender, knowledge and power
+Sandra Harding / Donna Haraway
+ควรมีแบบข้ามสาย:
+สำคัญกับ standpoint epistemology และ situated knowledge
+ใช้กับเว็บ:
+science and power, situated objectivity, critique of neutrality
+คำศัพท์แกนที่ควรทำเป็น Wiki
+คำ
+ความหมายแกน
+ใช้กับเว็บ
+Falsifiability
+ความสามารถที่จะถูกหักล้างได้
+MBTI / psychoanalysis critique
+Demarcation Problem
+ปัญหาเส้นแบ่ง science / non-science
+pseudoscience
+Corroboration
+การผ่านการทดสอบหนัก แต่ยังไม่พิสูจน์จริง
+research discipline
+Risky Prediction
+คำทำนายที่เสี่ยงผิดจริง
+theory quality
+Paradigm
+กรอบร่วมของชุมชนวิทยาศาสตร์
+psychology paradigms
+Normal Science
+การแก้ puzzle ภายในกรอบเดิม
+research culture
+Anomaly
+สิ่งที่กรอบเดิมอธิบายไม่ลง
+theory crisis
+Scientific Revolution
+การเปลี่ยนกรอบใหญ่
+paradigm shift
+Research Programme
+โครงการวิจัยทั้งชุด
+Jungian / typology programme
+Hard Core
+แกนทฤษฎีที่ปกป้อง
+theory identity
+Protective Belt
+สมมติฐานเสริมที่ปรับได้
+ad hoc defense
+Progressive Programme
+programme ที่ทำนาย/ค้นพบใหม่ได้
+living theory
+Degenerating Programme
+programme ที่แก้ตัวอย่างเดียว
+dead theory
+Explanandum
+สิ่งที่ต้องอธิบาย
+explanation structure
+Explanans
+สิ่งที่ใช้อธิบาย
+argument quality
+DN Model
+deductive-nomological explanation
+scientific explanation
+Covering Law
+อธิบายด้วยกฎทั่วไป
+law-based model
+Empirical Adequacy
+ตรงกับสิ่ง observable พอ
+model use
+Scientific Realism
+ทฤษฎีวิทยาศาสตร์เล่าโลกจริง
+ontology of science
+Constructive Empiricism
+เชื่อเพียง empirical adequacy
+model humility
+Underdetermination
+หลักฐานรองรับหลายทฤษฎีได้
+interpretation caution
+Auxiliary Hypothesis
+สมมติฐานประกอบ
+theory testing
+Model
+ภาพจำลองที่ตัดโลกบางส่วน
+psychology model
+Idealization
+การทำให้โลกเรียบเพื่อคิดได้
+lab vs real life
+Mechanism
+กลไกเชิงเหตุ
+neuroscience/psychology
+Nomological Machine
+เงื่อนไขที่ทำให้กฎทำงานซ้ำ
+context-sensitive science
+Replication
+การทำซ้ำผลวิจัย
+research quality
+Operationalization
+แปลง concept เป็นสิ่งวัดได้
+typology / psychology
+Construct Validity
+เครื่องมือวัดจับ concept ได้จริงไหม
+MBTI critique
+Scientism
+ยก science เป็นคำตอบสุดท้ายทุกเรื่อง
+anti-reductionism
+แกนบทความที่ควรแตกจากสายนี้
+สำหรับ MBTI / Typology Critique
+MBTI เป็น science, model, heuristic หรือ narrative tool
+Falsifiability ของ typology: อะไรจะทำให้ type reading ผิด
+Construct validity: function, type, trait วัดอะไรได้จริง
+Confirmation bias กับการอ่าน type
+Lakatos อ่าน typology: progressive หรือ degenerating programme
+ทำไมคำอธิบายที่ “ตรงมาก” อาจยังไม่ใช่ scientific explanation
+สำหรับ Psychoanalysis / Jung
+Popper วิจารณ์ psychoanalysis ว่า unfalsifiable แปลว่ามันไร้ค่าหรือไม่
+Jungian theory เป็น science, hermeneutics, clinical art หรือ symbolic psychology
+Archetype ทดสอบอย่างไรได้บ้าง
+Dream interpretation มี evidence แบบไหน
+Psychoanalysis เป็น research programme ที่ยัง progressive ได้ไหม
+Scientific validity vs interpretive depth: อย่าเอามาปนจนเละ
+สำหรับ Neuroscience / Psychiatry
+brain scan อธิบาย psyche ได้แค่ไหน
+biological marker กับ diagnosis
+DSM เป็น natural kind หรือ practical classification
+mechanism vs meaning: depression เป็นเคมี สมอง ประวัติชีวิต หรือโลกที่อยู่ไม่ได้
+evidence-based practice ต้องถามว่า evidence แบบไหน ใช้กับใคร ในบริบทใด
+Cartwright กับคำถามว่า research จาก lab ใช้กับชีวิตจริงได้แค่ไหน
+สำหรับ AI / Research / Writing
+AI hallucination ในมุม philosophy of science
+คำตอบที่อ้างงานวิจัย ไม่ได้แปลว่า scientific
+Model ที่พูดเหมือนรู้ อาจไม่ได้รู้โลก
+“งานวิจัยบอกว่า” ต้องถามต่อว่า sample, method, construct, replication, effect size คืออะไร
+Scientific explanation ต่างจาก AI explanation อย่างไร
+เว็บที่ดีต้องมี research hygiene ไม่ใช่ citation decoration
+สำหรับ The Soul’s Compass
+เว็บนี้ควรประกาศ epistemic stance อย่างไร
+อะไรคือ claim เชิงวิทยาศาสตร์ อะไรคือ interpretation อะไรคือ metaphor
+วิธีเขียนบทความ psyche โดยไม่แอบอ้าง science
+วิธีใช้ Jung อย่างรับผิดชอบทางวิชาการ
+วิธีเชื่อม philosophy, psychology, symbol โดยไม่ทำให้ทุกอย่างกลายเป็น “พิสูจน์แล้ว”
+Evidence ladder สำหรับบทความของเว็บเรา
+จุดเชื่อมกับ Jung / Psychology แบบคุมให้คม
+ใช้ได้
+Popper → falsifiability / risky prediction
+ใช้ตรวจ typology, psychoanalysis, Jungian claim
+Kuhn → paradigm / community / anomaly
+ใช้อ่าน psychology schools และ typology communities
+Lakatos → research programme
+ดีมากกับการถามว่า Jungian theory หรือ MBTI ยังผลิต insight ใหม่ หรือแค่ป้องกันตัวเอง
+Feyerabend → anti-method dogmatism / pluralism
+กันไม่ให้เว็บกลายเป็น scientism แข็ง ๆ
+Hempel → explanation structure
+ใช้ตรวจว่าบทความอธิบายจริงหรือแค่ตั้งชื่อสิ่งที่เกิด
+van Fraassen → empirical adequacy
+ใช้กับ model humility: model ใช้ได้ ไม่แปลว่า model คือ reality ทั้งหมด
+Cartwright → context / model / real-world complexity
+ใช้กับ psychology research ที่เอาผลจากบริบทหนึ่งไปอ้างกับมนุษย์ทั้งหมด
+ต้องระวัง
+อย่าบอกว่า unfalsifiable = ไม่มีค่า
+Popper แยก science/non-science แต่ non-science ไม่จำเป็นต้องไร้ความหมาย
+อย่าบอกว่า Kuhn = วิทยาศาสตร์เป็นแค่ความเชื่อของชุมชน
+Kuhn ซับซ้อนกว่านั้นมาก
+อย่าบอกว่า Feyerabend = อะไรก็ได้ มั่วได้
+เขาโจมตี method ตายตัว ไม่ใช่เชิญให้เลิกคิด
+อย่าบอกว่า Hempel = scientific explanation ทั้งหมดต้องเป็น DN model
+หลัง Hempel มี causal, statistical, pragmatic, mechanistic, unificationist models อีกมาก
+อย่าบอกว่า van Fraassen = ไม่เชื่อวิทยาศาสตร์
+constructive empiricism ไม่ได้ปฏิเสธวิทยาศาสตร์ แต่จำกัดสิ่งที่ควรเชื่อ
+อย่าบอกว่า Cartwright = กฎวิทยาศาสตร์โกหกหมด
+เธอวิจารณ์บทบาทของ fundamental laws และ idealized models ไม่ใช่บอกว่าวิทยาศาสตร์ไร้ค่า
+อย่าใช้ philosophy of science เป็นไม้ตี Jung อย่างเดียว
+ใช้มันเป็นเครื่องมือแยกชนิด claim ให้ชัดกว่าเดิม
+สรุปใช้งานสำหรับเว็บ
+สายนี้คือระบบป้องกันเว็บจากทั้งสองโรค:
+AI / spiritual / Jungian slop — พูดลึกแต่ไม่มีฐาน
+scientism slop — เห็นมนุษย์เป็นแค่ตัวเลข สมอง แบบสอบถาม และกราฟ
+Philosophy of Science ทำให้เว็บเราพูดได้แม่นขึ้นว่า:
+ข้อความนี้เป็น scientific claim
+ข้อความนี้เป็น clinical hypothesis
+ข้อความนี้เป็น symbolic interpretation
+ข้อความนี้เป็น philosophical argument
+ข้อความนี้เป็น metaphor
+ข้อความนี้เป็น model ที่มีประโยชน์ แต่ยังไม่ใช่ความจริงสุดท้าย
+สรุปตัวละครหลัก:
+Karl Popper = falsifiability / demarcation / risky prediction / conjecture and refutation
+Thomas Kuhn = paradigm / normal science / anomaly / scientific revolution
+Imre Lakatos = research programme / hard core / protective belt / progressive vs degenerating
+Paul Feyerabend = against method / methodological pluralism / critique of scientific dogmatism
+Carl Hempel = DN model / covering law / explanandum-explanans / scientific explanation
+Bas van Fraassen = constructive empiricism / empirical adequacy / acceptance vs belief
+Nancy Cartwright = models / idealization / dappled world / nomological machines / context-sensitive laws
+ประโยคแกนของสายนี้สำหรับเว็บ:
+Philosophy of Science ไม่ได้มีไว้ทำให้เราพูดว่า
+“อะไรไม่ scientific ก็ทิ้งไป”
+แต่มันมีไว้ทำให้เรารู้ว่า
+เรากำลังพูดในสถานะไหน
+กำลังอ้างหลักฐานระดับใด
+กำลังใช้ model หรือกำลังอ้าง reality
+กำลังอธิบายจริง หรือแค่เล่าเรื่องให้ดูมีเหตุผล
+และทฤษฎีที่เรารัก ยังยอมเสี่ยงต่อความจริงอยู่ไหม
+หรือมันกลายเป็นระบบป้องกันตัวเองที่ไม่มีอะไรทำให้ผิดได้อีกแล้ว
+รันสายถัดไปได้เลยค่ะ: Ethics / Moral Philosophy

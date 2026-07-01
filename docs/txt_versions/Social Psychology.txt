@@ -1,0 +1,438 @@
+Social Psychology / Group Dynamics / Social Cognition
+หมายเหตุสั้น ๆ:
+สายนี้คือการศึกษาว่า มนุษย์คิด รู้สึก เชื่อ ตัดสินใจ และกระทำอย่างไรเมื่ออยู่ท่ามกลางคนอื่น
+ไม่ใช่แค่ “คนคนหนึ่งเป็นอย่างไร” แต่ถามว่า
+กลุ่มเปลี่ยนคนได้อย่างไร
+อำนาจทำให้คนเชื่อฟังได้แค่ไหน
+บรรทัดฐานทางสังคมกำกับพฤติกรรมอย่างไร
+อคติและ stereotype เกิดจากอะไร
+เราตัดสินคนอื่นผิดพลาดแบบไหน
+self ถูกสร้างผ่านสายตาคนอื่นอย่างไร
+cognition ของมนุษย์ถูก social context ครอบอยู่ตลอดเวลาหรือไม่
+สายนี้สำคัญมากสำหรับเว็บไซต์ เพราะมันทำให้จิตวิทยาไม่ติดอยู่แค่ “โลกภายใน” แต่ดึงมนุษย์กลับเข้าไปอยู่ในสนามของกลุ่ม สังคม อำนาจ ความสัมพันธ์ และวัฒนธรรม
+Kurt Lewin
+สาย / สำนัก: Social Psychology, Field Theory, Group Dynamics
+ผลงานสำคัญ:
+A Dynamic Theory of Personality
+Principles of Topological Psychology
+Resolving Social Conflicts
+งานด้าน field theory และ group dynamics
+แกนความคิด:
+Lewin คือหนึ่งในบิดาของ social psychology สมัยใหม่ เขาเสนอว่าพฤติกรรมเป็นผลของบุคคลและสิ่งแวดล้อมร่วมกัน ไม่ใช่เกิดจากนิสัยภายในอย่างเดียว สูตรสำคัญของเขาคือ B = f(P, E) หรือพฤติกรรมเป็นฟังก์ชันของ person และ environment งานของเขาทำให้เราเห็นว่าคนไม่ได้ลอยอยู่ในสุญญากาศ แต่ถูกสนามทางสังคมกด ดึง ผลัก และจัดทิศทางอยู่เสมอ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+field theory, group dynamics, social field, behavior and environment, change theory
+Gordon Allport
+สาย / สำนัก: Social Psychology, Prejudice Studies, Personality and Social Attitudes
+ผลงานสำคัญ:
+The Nature of Prejudice
+Personality: A Psychological Interpretation
+Becoming
+แกนความคิด:
+Allport สำคัญมากกับการศึกษาความอคติ เขาเสนอว่า prejudice ไม่ใช่แค่ความเกลียดส่วนตัว แต่เกี่ยวข้องกับการจัดหมวดหมู่ การเหมารวม ความกลัว ความไม่มั่นคง และโครงสร้างทางสังคม งานของเขาเรื่อง contact hypothesis สำคัญมาก เพราะเสนอว่าการพบปะระหว่างกลุ่มอาจลดอคติได้ หากมีเงื่อนไขที่เหมาะสม เช่น สถานะเท่าเทียม เป้าหมายร่วม และการสนับสนุนจากสถาบัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+prejudice, stereotype, intergroup contact, discrimination, social attitude
+Solomon Asch
+สาย / สำนัก: Social Influence, Conformity, Gestalt Social Psychology
+ผลงานสำคัญ:
+งานทดลอง Asch Conformity Experiments
+Social Psychology
+แกนความคิด:
+Asch แสดงให้เห็นว่าคนจำนวนมากยอมตอบผิดตามกลุ่ม แม้เรื่องนั้นจะเห็นได้ชัดด้วยตาตัวเอง งานของเขาไม่ได้บอกแค่ว่าคน “โง่ตามกลุ่ม” แต่ชี้ให้เห็นแรงกดดันของ social reality ว่าเมื่อเสียงส่วนใหญ่พูดตรงกัน คนคนหนึ่งจะเริ่มสงสัยประสบการณ์ของตัวเองได้อย่างไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+conformity, peer pressure, group pressure, social reality, majority influence
+Muzafer Sherif
+สาย / สำนัก: Social Norms, Group Conflict, Intergroup Relations
+ผลงานสำคัญ:
+The Psychology of Social Norms
+Robbers Cave Experiment
+งาน autokinetic effect
+แกนความคิด:
+Sherif สำคัญกับการอธิบายว่าบรรทัดฐานของกลุ่มเกิดขึ้นอย่างไร เขาทำให้เห็นว่าเมื่อคนอยู่ในสถานการณ์คลุมเครือ กลุ่มสามารถสร้าง “ความจริงร่วม” ขึ้นมาได้เอง งาน Robbers Cave ของเขายังแสดงให้เห็นว่าความขัดแย้งระหว่างกลุ่มไม่ได้เกิดจากความเกลียดส่วนตัวเท่านั้น แต่เกิดจากการแข่งขันเพื่อทรัพยากร สถานะ และเป้าหมาย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+social norms, group conflict, intergroup hostility, realistic conflict theory, group identity
+Henri Tajfel
+สาย / สำนัก: Social Identity Theory, Intergroup Relations, Prejudice
+ผลงานสำคัญ:
+งาน Minimal Group Paradigm
+Human Groups and Social Categories
+งาน Social Identity Theory
+แกนความคิด:
+Tajfel คือแกนสำคัญของ Social Identity Theory เขาเสนอว่ามนุษย์สร้างตัวตนส่วนหนึ่งจากกลุ่มที่ตนสังกัด และแม้การแบ่งกลุ่มจะเล็กน้อยมาก คนก็ยังเริ่มลำเอียงเข้าข้างกลุ่มตัวเองได้ งานของเขาคมมากในการอธิบาย nationalism, tribalism, fandom, political identity และความขัดแย้งระหว่างกลุ่ม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+social identity, ingroup bias, outgroup, minimal group, prejudice
+John Turner
+สาย / สำนัก: Self-Categorization Theory, Social Identity, Group Psychology
+ผลงานสำคัญ:
+Rediscovering the Social Group
+งาน Self-Categorization Theory
+งานร่วมกับ Henri Tajfel
+แกนความคิด:
+Turner ต่อยอด Tajfel โดยเสนอ Self-Categorization Theory ว่าคนไม่ได้มี self แบบเดียว แต่สลับระดับการรับรู้ตัวเองได้ เช่น ฉันในฐานะบุคคล ฉันในฐานะสมาชิกกลุ่ม ฉันในฐานะมนุษย์คนหนึ่ง เมื่อ social identity ถูกเปิดใช้งาน คนอาจคิด รู้สึก และทำตาม prototype ของกลุ่มมากขึ้น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self-categorization, group self, depersonalization, social identity, group prototype
+Leon Festinger
+สาย / สำนัก: Cognitive Dissonance, Social Comparison, Social Psychology
+ผลงานสำคัญ:
+A Theory of Cognitive Dissonance
+When Prophecy Fails
+งาน Social Comparison Theory
+แกนความคิด:
+Festinger สำคัญมากกับแนวคิด cognitive dissonance หรือภาวะไม่สอดคล้องทางความคิด เมื่อความเชื่อกับพฤติกรรมขัดกัน คนจะพยายามลดความตึงเครียดนั้นด้วยการเปลี่ยนความเชื่อ หาเหตุผลเข้าข้างตัวเอง หรือบิดความหมายของเหตุการณ์ เขายังเสนอว่าเราประเมินตัวเองผ่านการเปรียบเทียบกับคนอื่นอยู่เสมอ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+cognitive dissonance, rationalization, social comparison, belief change, self-justification
+Stanley Milgram
+สาย / สำนัก: Obedience, Authority, Social Influence
+ผลงานสำคัญ:
+Obedience to Authority
+Milgram Obedience Experiment
+Small-world experiment
+แกนความคิด:
+Milgram แสดงให้เห็นว่าคนธรรมดาสามารถเชื่อฟังคำสั่งที่ขัดกับมโนธรรมของตัวเองได้ เมื่ออยู่ภายใต้กรอบอำนาจที่ชอบธรรม งานของเขาทำให้คำถามเรื่องความชั่วร้ายไม่ได้อยู่แค่ “คนเลว” แต่อยู่ที่โครงสร้างอำนาจ บทบาท สถานการณ์ และการถ่ายโอนความรับผิดชอบ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+obedience, authority, moral conflict, responsibility, destructive obedience
+Philip Zimbardo
+สาย / สำนัก: Situationism, Social Roles, Deindividuation
+ผลงานสำคัญ:
+Stanford Prison Experiment
+The Lucifer Effect
+งานด้าน deindividuation และ social roles
+แกนความคิด:
+Zimbardo สำคัญกับแนวคิดว่าสถานการณ์และบทบาททางสังคมสามารถเปลี่ยนพฤติกรรมคนได้อย่างรุนแรง เขาเน้นว่าคนดีอาจทำสิ่งเลวร้ายได้ภายใต้ระบบที่จัดบทบาท อำนาจ และความไร้นามให้เหมาะสม
+ข้อควรระวัง:
+Stanford Prison Experiment ถูกวิจารณ์หนักเรื่องวิธีวิจัย การกำกับพฤติกรรมผู้เข้าร่วม และการตีความผล ควรใช้เป็นกรณีศึกษาเชิงประวัติศาสตร์และข้อถกเถียง ไม่ใช่หลักฐานแข็งแบบไร้ปัญหา
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+situationism, social roles, deindividuation, prison psychology, evil and systems
+Erving Goffman
+สาย / สำนัก: Symbolic Interactionism, Social Self, Dramaturgical Sociology
+ผลงานสำคัญ:
+The Presentation of Self in Everyday Life
+Stigma
+Frame Analysis
+Asylums
+แกนความคิด:
+Goffman ไม่ใช่นักจิตวิทยาโดยตรง แต่สำคัญมากต่อ social psychology ของ self เขามองชีวิตสังคมเหมือนเวทีที่คนจัดการภาพลักษณ์ บทบาท และความประทับใจต่อกัน แนวคิด front stage / back stage ใช้อธิบาย persona ทางสังคมได้คมมาก โดยไม่ต้องลดทุกอย่างเป็นจิตไร้สำนึก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+presentation of self, stigma, role, social performance, impression management
+Fritz Heider
+สาย / สำนัก: Attribution Theory, Naive Psychology, Social Cognition
+ผลงานสำคัญ:
+The Psychology of Interpersonal Relations
+แกนความคิด:
+Heider เป็นรากสำคัญของ attribution theory เขาสนใจว่า “คนธรรมดา” อธิบายพฤติกรรมของคนอื่นอย่างไร เรามักถามว่าคนทำแบบนี้เพราะนิสัยภายใน หรือเพราะสถานการณ์บังคับ งานของเขาเปิดทางให้ social cognition ศึกษาความผิดพลาดในการตัดสินคนอย่างเป็นระบบ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+attribution, naive psychology, interpersonal perception, intention, social explanation
+Harold Kelley
+สาย / สำนัก: Attribution Theory, Interdependence Theory, Social Cognition
+ผลงานสำคัญ:
+งาน Covariation Model
+งาน Interdependence Theory
+Personal Relationships
+แกนความคิด:
+Kelley ต่อยอด attribution theory โดยเสนอว่าคนใช้ข้อมูลอย่าง consistency, distinctiveness และ consensus เพื่ออธิบายสาเหตุของพฤติกรรม เช่น คนนี้ทำแบบนี้เสมอไหม ทำเฉพาะกับสิ่งนี้ไหม คนอื่นทำแบบนี้ด้วยไหม งานของเขาช่วยให้เราเห็นว่าการตัดสินคนมีตรรกะอยู่ แต่ตรรกะนั้นก็ผิดพลาดได้
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+attribution, covariation, interpersonal dependence, relationship, social judgment
+Edward E. Jones
+สาย / สำนัก: Attribution Theory, Correspondent Inference, Social Perception
+ผลงานสำคัญ:
+งาน Correspondent Inference Theory
+งานด้าน ingratiation และ self-presentation
+งานร่วมกับ Harold Kelley และคนอื่นในสาย attribution
+แกนความคิด:
+Jones สำคัญกับคำถามว่าเราสรุปนิสัยภายในของคนจากพฤติกรรมภายนอกอย่างไร เขาเสนอว่าเมื่อคนทำบางอย่าง เรามักพยายามอนุมานว่า “นี่สะท้อนตัวตนจริงของเขาไหม” งานนี้เป็นฐานให้เข้าใจความผิดพลาดแบบ fundamental attribution error
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+correspondent inference, attribution error, social perception, self-presentation
+Lee Ross
+สาย / สำนัก: Social Cognition, Attribution Error, Naive Realism
+ผลงานสำคัญ:
+งาน Fundamental Attribution Error
+งาน Naive Realism
+The Person and the Situation
+แกนความคิด:
+Ross สำคัญมากกับการอธิบายว่าคนเรามักประเมินพลังของสถานการณ์ต่ำเกินไป และประเมินนิสัยส่วนตัวสูงเกินไป เขายังเสนอแนวคิด naive realism คือแนวโน้มที่เราคิดว่าเราเห็นโลกตามจริง ส่วนคนที่เห็นต่างคือคนโง่ ลำเอียง หรือมีเจตนาไม่ดี
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+fundamental attribution error, naive realism, person-situation, conflict, bias
+Richard Nisbett
+สาย / สำนัก: Social Cognition, Cultural Psychology, Reasoning Bias
+ผลงานสำคัญ:
+The Person and the Situation
+The Geography of Thought
+งานด้าน introspection illusion และ reasoning
+แกนความคิด:
+Nisbett สำคัญกับการชี้ว่าคนเราไม่รู้เหตุผลของตัวเองดีเท่าที่คิด เรามักสร้างคำอธิบายย้อนหลังให้พฤติกรรมของตนเอง งานของเขายังเชื่อม social cognition กับ cultural psychology โดยเสนอว่าวัฒนธรรมตะวันตกและตะวันออกอาจมีรูปแบบการคิดและการรับรู้โลกแตกต่างกัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+social cognition, introspection illusion, cultural cognition, reasoning, self-explanation
+Susan Fiske
+สาย / สำนัก: Social Cognition, Stereotype, Prejudice, Power
+ผลงานสำคัญ:
+Social Beings
+งาน Stereotype Content Model
+งานด้าน power and social cognition
+แกนความคิด:
+Fiske สำคัญมากใน social cognition โดยเฉพาะการศึกษา stereotype, prejudice และ power เธอเสนอ Stereotype Content Model ที่อธิบายว่ากลุ่มต่าง ๆ มักถูกประเมินผ่านสองมิติใหญ่คือ warmth และ competence ทำให้เห็นว่าความลำเอียงไม่ได้มีแค่เกลียดตรง ๆ แต่มีรูปแบบซับซ้อน เช่น สงสาร ดูถูก อิจฉา หรือหวาดกลัว
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+stereotype, warmth and competence, prejudice, power, social cognition
+Shelley Taylor
+สาย / สำนัก: Social Cognition, Health Psychology, Positive Illusions
+ผลงานสำคัญ:
+Social Cognition
+Positive Illusions
+The Tending Instinct
+แกนความคิด:
+Taylor สำคัญกับ social cognition และ health psychology เธอศึกษา positive illusions หรือภาพลวงเชิงบวกที่มนุษย์ใช้รักษาความหวังและความสามารถในการรับมือชีวิต งานของเธอทำให้เห็นว่า self-deception บางแบบอาจมีหน้าที่ทางจิตใจ ไม่ใช่แค่ความผิดพลาดที่ต้องกำจัด
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+positive illusions, coping, social cognition, health psychology, self-enhancement
+Elliot Aronson
+สาย / สำนัก: Social Psychology, Cognitive Dissonance, Prejudice Reduction
+ผลงานสำคัญ:
+The Social Animal
+งาน Jigsaw Classroom
+งานด้าน cognitive dissonance
+แกนความคิด:
+Aronson เป็นนักเขียนและนักวิจัย social psychology ที่สำคัญมาก เขาทำให้งาน cognitive dissonance, prejudice และ group learning เข้าใจง่ายขึ้นโดยไม่เสียความลึก Jigsaw Classroom ของเขาเป็นตัวอย่างการออกแบบโครงสร้างกลุ่มเพื่อลดอคติและเพิ่มความร่วมมือในห้องเรียน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+cognitive dissonance, prejudice reduction, cooperation, education, group structure
+Bibb Latané
+สาย / สำนัก: Bystander Effect, Social Impact Theory, Group Influence
+ผลงานสำคัญ:
+งาน Bystander Effect ร่วมกับ John Darley
+Social Impact Theory
+งานด้าน diffusion of responsibility
+แกนความคิด:
+Latané สำคัญกับการอธิบายว่าเมื่อมีคนอยู่หลายคน ความรับผิดชอบอาจกระจายจนไม่มีใครลงมือช่วย งาน bystander effect ทำให้เห็นว่าความเฉยเมยไม่ได้เกิดจากความโหดร้ายส่วนตัวเสมอไป แต่อาจเกิดจากสถานการณ์ที่ทำให้ทุกคนรอดูคนอื่น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+bystander effect, diffusion of responsibility, social impact, helping behavior
+John Darley
+สาย / สำนัก: Bystander Effect, Helping Behavior, Moral Psychology
+ผลงานสำคัญ:
+งาน Bystander Intervention Model
+งานร่วมกับ Bibb Latané
+งานด้าน moral judgment และ social behavior
+แกนความคิด:
+Darley ร่วมอธิบายขั้นตอนของการช่วยเหลือว่า คนต้องสังเกตเหตุการณ์ ตีความว่าเป็นเหตุฉุกเฉิน รับผิดชอบ รู้วิธีช่วย และลงมือจริง งานนี้ทำให้เราเห็นว่าการไม่ช่วยคนอื่นอาจเกิดจากความล้มเหลวในแต่ละขั้น ไม่ใช่เพียงเพราะไม่มีน้ำใจ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+helping behavior, emergency response, bystander intervention, moral action
+Robert Cialdini
+สาย / สำนัก: Persuasion, Influence, Social Influence
+ผลงานสำคัญ:
+Influence
+Pre-Suasion
+งานด้าน principles of persuasion
+แกนความคิด:
+Cialdini สำคัญกับการอธิบายกลไกการโน้มน้าว เช่น reciprocity, commitment and consistency, social proof, liking, authority, scarcity และ unity จุดแข็งของเขาคือทำให้ social influence อ่านได้ทั้งในชีวิตประจำวัน การตลาด การเมือง ลัทธิ และการหลอกลวง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+persuasion, influence, authority, social proof, compliance
+Serge Moscovici
+สาย / สำนัก: Social Representations, Minority Influence, Social Psychology
+ผลงานสำคัญ:
+Psychoanalysis: Its Image and Its Public
+งาน Social Representations Theory
+งาน minority influence
+แกนความคิด:
+Moscovici สำคัญกับการอธิบายว่าความรู้ ความเชื่อ และภาพแทนทางสังคมถูกสร้างและหมุนเวียนในสังคมอย่างไร เขายังศึกษาว่าชนกลุ่มน้อยสามารถเปลี่ยนความคิดของคนส่วนใหญ่ได้ หากมีความสม่ำเสมอ ชัดเจน และยืนหยัดพอ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+social representations, minority influence, collective belief, public understanding, social change
+Kenneth Gergen
+สาย / สำนัก: Social Constructionism, Relational Self, Critical Social Psychology
+ผลงานสำคัญ:
+The Saturated Self
+An Invitation to Social Construction
+Relational Being
+แกนความคิด:
+Gergen เป็นแกนสำคัญของ social constructionism เขามองว่า self ความจริงทางสังคม และความหมายจำนวนมากไม่ได้อยู่ลอย ๆ ในตัวบุคคล แต่ถูกสร้างผ่านภาษา ความสัมพันธ์ และการปฏิบัติทางสังคม งานของเขาสำคัญมากสำหรับการวิจารณ์จิตวิทยาที่ทำเหมือนมนุษย์เป็นหน่วยโดดเดี่ยว
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+social constructionism, relational self, discourse, identity, critical psychology
+Albert Bandura
+สาย / สำนัก: Social Cognitive Theory, Observational Learning, Self-Efficacy
+ผลงานสำคัญ:
+Social Learning Theory
+Social Foundations of Thought and Action
+Self-Efficacy: The Exercise of Control
+แกนความคิด:
+Bandura สำคัญมากกับการเชื่อม learning, social context และ agency เขาเสนอว่ามนุษย์เรียนรู้จากการสังเกตผู้อื่น ไม่ใช่แค่จากรางวัลและการลงโทษโดยตรง แนวคิด self-efficacy ของเขายังชี้ว่าความเชื่อว่าตัวเองทำได้ มีผลต่อการลงมือ ความอดทน และการเปลี่ยนแปลงชีวิต
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+observational learning, modeling, self-efficacy, agency, social cognition
+Claude Steele
+สาย / สำนัก: Stereotype Threat, Self-Affirmation, Social Identity
+ผลงานสำคัญ:
+Whistling Vivaldi
+งาน Stereotype Threat
+งาน Self-Affirmation Theory
+แกนความคิด:
+Steele สำคัญกับแนวคิด stereotype threat หรือภาวะที่คนทำผลงานแย่ลงเมื่อรู้สึกว่าตัวเองอาจยืนยัน stereotype ด้านลบของกลุ่มตน งานนี้ทำให้เห็นว่า performance ไม่ได้สะท้อนความสามารถดิบอย่างเดียว แต่ถูกกดโดยอัตลักษณ์ ความคาดหวัง และบรรยากาศทางสังคม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+stereotype threat, identity, performance, self-affirmation, education inequality
+Mahzarin Banaji
+สาย / สำนัก: Implicit Social Cognition, Implicit Bias, Social Perception
+ผลงานสำคัญ:
+Blindspot
+งาน Implicit Association Test
+งานด้าน implicit cognition
+แกนความคิด:
+Banaji สำคัญกับการศึกษาความลำเอียงแบบไม่รู้ตัว เธอช่วยแสดงให้เห็นว่าคนจำนวนมากอาจมี implicit bias แม้ระดับจิตสำนึกจะเชื่อว่าตนยุติธรรม งานของเธอทำให้การศึกษาความอคติขยับจากทัศนคติเปิดเผยไปสู่กระบวนการประเมินอัตโนมัติ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+implicit bias, unconscious prejudice, social cognition, automatic evaluation, stereotype
+Anthony Greenwald
+สาย / สำนัก: Implicit Cognition, Social Cognition, Attitude Measurement
+ผลงานสำคัญ:
+งาน Implicit Association Test
+งานด้าน implicit social cognition
+งาน self and memory
+แกนความคิด:
+Greenwald เป็นผู้ร่วมพัฒนา IAT และเป็นนักวิจัยสำคัญของ implicit social cognition งานของเขาช่วยทำให้การศึกษา attitude, prejudice และ self-concept มีเครื่องมือวัดกระบวนการที่คนอาจไม่รู้ตัวหรือไม่ยอมรายงานตรง ๆ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Implicit Association Test, implicit attitude, social cognition, self-concept, prejudice measurement
+John Bargh
+สาย / สำนัก: Automaticity, Social Cognition, Priming
+ผลงานสำคัญ:
+งานด้าน automaticity of social behavior
+งาน priming และ unconscious social cognition
+Before You Know It
+แกนความคิด:
+Bargh สำคัญกับแนวคิดว่าพฤติกรรมและการตัดสินใจจำนวนมากอาจถูกกระตุ้นอัตโนมัติโดยสิ่งแวดล้อมโดยที่เราไม่รู้ตัว งานของเขามีอิทธิพลมากต่อ social cognition แม้บางงานในสาย priming จะถูกถกเถียงและตรวจสอบซ้ำอย่างหนักในยุค replication crisis
+ข้อควรระวัง:
+ใช้ Bargh แบบมีสติ เพราะงาน social priming บางส่วนมีข้อถกเถียงเรื่องการทำซ้ำผลการทดลอง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+automaticity, priming, unconscious influence, social cognition, environmental cue
+Icek Ajzen
+สาย / สำนัก: Attitude-Behavior Relation, Theory of Planned Behavior
+ผลงานสำคัญ:
+งาน Theory of Planned Behavior
+งานร่วมฐานกับ Martin Fishbein เรื่อง reasoned action
+แกนความคิด:
+Ajzen สำคัญกับการอธิบายว่าทัศนคติไม่ได้แปลเป็นพฤติกรรมตรง ๆ เสมอไป พฤติกรรมขึ้นกับ intention ซึ่งได้รับอิทธิพลจาก attitude, subjective norm และ perceived behavioral control งานนี้ใช้ได้มากกับการอธิบายการเปลี่ยนพฤติกรรม สุขภาพ การเมือง สิ่งแวดล้อม และการตลาด
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+planned behavior, intention, attitude, subjective norm, behavioral control
+Martin Fishbein
+สาย / สำนัก: Attitude Theory, Reasoned Action, Social Psychology
+ผลงานสำคัญ:
+งาน Theory of Reasoned Action
+งานร่วมกับ Icek Ajzen
+งานด้าน attitude and behavior prediction
+แกนความคิด:
+Fishbein สำคัญกับการทำให้ความสัมพันธ์ระหว่าง attitude, belief, intention และ behavior เป็นระบบมากขึ้น เขาช่วยวางฐานให้การศึกษาพฤติกรรมมนุษย์ไม่หยุดอยู่ที่ “คนคิดอย่างไร” แต่ถามต่อว่า belief เหล่านั้นกลายเป็น intention และการกระทำอย่างไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+reasoned action, attitude, belief, intention, behavior prediction
+Alice Eagly
+สาย / สำนัก: Social Role Theory, Gender Psychology, Attitudes
+ผลงานสำคัญ:
+Sex Differences in Social Behavior
+งาน Social Role Theory
+งานด้าน gender stereotypes และ attitude change
+แกนความคิด:
+Eagly สำคัญกับการอธิบายความแตกต่างทางเพศและ gender stereotypes ผ่านบทบาททางสังคม เธอเสนอว่าความแตกต่างหลายอย่างไม่ได้มาจากชีววิทยาล้วน ๆ แต่เกิดจากบทบาท ความคาดหวัง และโครงสร้างทางสังคมที่กำหนดให้คนฝึกพฤติกรรมต่างกัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+social role theory, gender stereotype, attitude change, sex differences, social expectation
+Carol Tavris
+สาย / สำนัก: Social Psychology, Cognitive Dissonance, Gender and Anger
+ผลงานสำคัญ:
+Mistakes Were Made but Not by Me
+Anger: The Misunderstood Emotion
+The Mismeasure of Woman
+แกนความคิด:
+Tavris สำคัญในฐานะนักเขียนที่เอา social psychology ไปอธิบาย self-justification ความโกรธ เพศ และความผิดพลาดของมนุษย์ เธอทำให้ cognitive dissonance ไม่ใช่แค่ทฤษฎีในห้องทดลอง แต่เป็นกลไกที่คนใช้ปกป้องภาพตัวเองในชีวิตจริง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self-justification, cognitive dissonance, anger, gender bias, everyday social psychology
+Jonathan Haidt
+สาย / สำนัก: Moral Psychology, Social Intuitionism, Political Psychology
+ผลงานสำคัญ:
+The Righteous Mind
+The Happiness Hypothesis
+The Coddling of the American Mind
+งาน Moral Foundations Theory
+แกนความคิด:
+Haidt เสนอว่าการตัดสินทางศีลธรรมจำนวนมากเกิดจาก intuition ก่อน แล้วเหตุผลค่อยตามมาปกป้องทีหลัง Moral Foundations Theory ของเขาอธิบายว่าคนแต่ละกลุ่มอาจให้ความสำคัญกับฐานศีลธรรมต่างกัน เช่น care, fairness, loyalty, authority, sanctity, liberty
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+moral psychology, political identity, intuition, moral foundations, group morality
+Daniel Kahneman
+สาย / สำนัก: Judgment and Decision-Making, Cognitive Bias, Behavioral Science
+ผลงานสำคัญ:
+Thinking, Fast and Slow
+งาน Prospect Theory ร่วมกับ Amos Tversky
+งานด้าน heuristics and biases
+แกนความคิด:
+Kahneman ไม่ใช่ social psychologist แบบแคบ ๆ แต่สำคัญมากต่อ social cognition เพราะเขาอธิบายความลำเอียงในการตัดสินใจของมนุษย์ เช่น anchoring, availability, representativeness และ loss aversion งานของเขาทำให้เราเห็นว่ามนุษย์ไม่ได้เป็นผู้ใช้เหตุผลใสสะอาด แต่คิดผ่านทางลัดทางจิตจำนวนมาก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+heuristics, cognitive bias, judgment, decision-making, loss aversion
+Amos Tversky
+สาย / สำนัก: Judgment and Decision-Making, Cognitive Bias, Behavioral Science
+ผลงานสำคัญ:
+งาน Heuristics and Biases
+งาน Prospect Theory ร่วมกับ Daniel Kahneman
+งานด้าน similarity, framing, judgment
+แกนความคิด:
+Tversky เป็นแกนสำคัญคู่กับ Kahneman ในการทำให้ความผิดพลาดของการตัดสินใจกลายเป็นเรื่องที่ศึกษาอย่างเป็นระบบ งานของเขาชี้ว่าคนเราไม่ได้คิดผิดแบบสุ่ม แต่ผิดเป็น pattern และ pattern เหล่านี้สัมพันธ์กับวิธีที่สมองลดความซับซ้อนของโลก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+heuristics, framing effect, judgment bias, decision-making, prospect theory
+Roy Baumeister
+สาย / สำนัก: Self and Identity, Social Psychology, Self-Control
+ผลงานสำคัญ:
+The Self in Social Psychology
+Meanings of Life
+Willpower
+งานด้าน need to belong และ self-control
+แกนความคิด:
+Baumeister สำคัญกับการศึกษาตัวตนในบริบทสังคม เขาเสนอว่า need to belong เป็นแรงพื้นฐานของมนุษย์ และศึกษา self-control, meaning, aggression, rejection และ identity จุดแข็งของเขาคือการทำให้ self ไม่ใช่แค่โครงสร้างภายใน แต่เป็นระบบที่ต้องอยู่ร่วมกับคนอื่น
+ข้อควรระวัง:
+งาน ego depletion บางส่วนถูกถกเถียงมากในยุค replication crisis ควรใช้ด้วยความระวัง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self, belongingness, self-control, rejection, meaning
+Mark Leary
+สาย / สำนัก: Self, Social Acceptance, Sociometer Theory
+ผลงานสำคัญ:
+The Curse of the Self
+งาน Sociometer Theory
+งานด้าน self-esteem และ interpersonal rejection
+แกนความคิด:
+Leary เสนอ Sociometer Theory ว่า self-esteem ทำงานเหมือนมาตรวัดการยอมรับทางสังคม เมื่อเรารู้สึกว่าถูกปฏิเสธหรือถูกตัดออกจากกลุ่ม self-esteem จะตกลง งานนี้ดีมากสำหรับการอธิบายความไวของมนุษย์ต่อสายตาคนอื่น การอับอาย และความต้องการเป็นที่ยอมรับ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self-esteem, rejection, belonging, social acceptance, sociometer
+สรุปแกนของสายนี้
+สายนี้ควรเก็บไว้เป็นฐานของเว็บเวลาเขียนเรื่อง:
+มนุษย์ไม่ได้เป็นปัจเจกลอย ๆ แต่คิด รู้สึก และตัดสินใจอยู่ในสนามสังคมเสมอ
+กลุ่มสามารถสร้างบรรทัดฐาน ความจริงร่วม อคติ ความเชื่อ และความกล้าหรือความขี้ขลาดของคนได้
+คนเรามักประเมินพลังของสถานการณ์ต่ำเกินไป และประเมินนิสัยภายในของคนอื่นสูงเกินไป
+social identity ทำให้มนุษย์ไม่ได้มีแค่ “ฉัน” แต่มี “พวกเรา” ที่กำกับการรับรู้โลก
+อคติไม่ได้มีแค่แบบเปิดเผย แต่มีทั้ง stereotype, implicit bias, institutional bias และ social representation
+authority, conformity, obedience และ social proof คือแรงที่ทำให้คนธรรมดาทำสิ่งที่ตัวเองอาจไม่ทำเมื่ออยู่คนเดียว
+social cognition สำคัญมาก เพราะมันอธิบายว่าการอ่านคน การตัดสินคน การเข้าใจตัวเอง และความขัดแย้งทางสังคม มักถูก bias ครอบอยู่ตั้งแต่ต้น
+ถ้าจะเขียน Jung / Freud / Lacan ให้ไม่ติดอยู่ในห้องส่วนตัวของ psyche สายนี้ต้องเข้ามาช่วย เพราะมนุษย์ไม่ได้มีแค่ unconscious ส่วนบุคคล แต่ยังมีแรงของกลุ่ม ภาษา อำนาจ และสายตาคนอื่นที่สร้างตัวตนอยู่ตลอดเวลา
+รายชื่อแกนหลักที่ควรใช้เป็นฐานอ้างอิงก่อน
+Kurt Lewin
+Gordon Allport
+Solomon Asch
+Muzafer Sherif
+Henri Tajfel
+John Turner
+Leon Festinger
+Stanley Milgram
+Philip Zimbardo
+Erving Goffman
+Fritz Heider
+Harold Kelley
+Edward E. Jones
+Lee Ross
+Richard Nisbett
+Susan Fiske
+Shelley Taylor
+Elliot Aronson
+Bibb Latané
+John Darley
+Robert Cialdini
+Serge Moscovici
+Kenneth Gergen
+Albert Bandura
+Claude Steele
+Mahzarin Banaji
+Anthony Greenwald
+John Bargh
+Icek Ajzen
+Martin Fishbein
+Alice Eagly
+Carol Tavris
+Jonathan Haidt
+Daniel Kahneman
+Amos Tversky
+Roy Baumeister
+Mark Leary
+รันสายอื่น ๆ ต่อได้เลยค่ะ
+สายถัดไปคือ Cultural / Critical / Liberation Psychology

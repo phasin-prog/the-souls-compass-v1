@@ -498,10 +498,15 @@
 
 /* ===== chrome — โหมดมืด หอดูดาว ===== */
 .glass-nav {
-  background: rgba(24, 27, 36, 0.72);
+  /* ผสมสี cosmology เข้าในพื้นกระจก → ไล่สีนุ่ม ๆ ตามหน้า (Dynamic Colour) */
+  background: color-mix(in srgb, var(--cosmology-accent) 8%, rgba(24, 27, 36, 0.72));
   backdrop-filter: blur(24px) saturate(180%);
   -webkit-backdrop-filter: blur(24px) saturate(180%);
   border-bottom: 1px solid color-mix(in srgb, var(--cosmology-accent) 18%, transparent);
+}
+/* แผงเมนูมือถือ — tint จางตาม cosmology ของหน้า (เข้ากับแถบ header) */
+.glass-nav-panel {
+  background: color-mix(in srgb, var(--cosmology-accent) 5%, var(--color-deep-navy));
 }
 .material-symbols-outlined {
   font-family: "Material Symbols Outlined";
@@ -747,7 +752,7 @@
     border-color var(--dur-base) var(--ease-out);
 }
 .glass-nav.is-scrolled {
-  background: rgba(24, 27, 36, 0.92);
+  background: color-mix(in srgb, var(--cosmology-accent) 12%, rgba(24, 27, 36, 0.92));
   border-bottom-color: color-mix(in srgb, var(--cosmology-accent) 28%, transparent);
 }
 @keyframes mm-fade {

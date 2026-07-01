@@ -1,0 +1,418 @@
+Personality Psychology / Trait Theory / Individual Differences
+หมายเหตุสั้น ๆ:
+สายนี้คือฐานใหญ่ของการศึกษา บุคลิกภาพ / ลักษณะนิสัย / ความแตกต่างระหว่างบุคคล แบบเป็นระบบ
+ไม่ใช่แค่ “คนนี้เป็นคนแบบไหน” แต่ถามว่า
+อะไรคือโครงสร้างที่ค่อนข้างคงที่ของบุคลิกภาพ
+trait ต่างจาก type อย่างไร
+บุคลิกภาพเปลี่ยนได้ไหม
+คนเราคงเส้นคงวาข้ามสถานการณ์จริงหรือไม่
+แบบวัดบุคลิกภาพเชื่อถือได้แค่ไหน
+ความแตกต่างระหว่างคนมาจากพันธุกรรม สิ่งแวดล้อม สมอง การเรียนรู้ หรือเรื่องเล่าชีวิตมากน้อยแค่ไหน
+Big Five / Five-Factor Model เป็นหนึ่งในกรอบที่มีอิทธิพลมากที่สุดของสายนี้ โดยใช้มิติหลัก เช่น Neuroticism, Extraversion, Openness, Agreeableness, Conscientiousness ส่วน HEXACO เพิ่มมิติ Honesty-Humility เข้ามาเป็นแกนที่หกของบุคลิกภาพ (Wiley Online Library)
+Gordon Allport
+สาย / สำนัก: Trait Theory, Personality Psychology, Individuality
+ผลงานสำคัญ:
+Personality: A Psychological Interpretation
+Becoming
+Pattern and Growth in Personality
+The Nature of Prejudice
+แกนความคิด:
+Allport คือหนึ่งในผู้วางฐานบุคลิกภาพสมัยใหม่ เขาเน้นความเป็นเอกลักษณ์ของบุคคล ไม่ลดมนุษย์ให้เหลือแค่แรงขับหรือพฤติกรรมที่สังเกตได้ เขาแบ่ง trait เป็น cardinal traits, central traits และ secondary traits เพื่ออธิบายว่าลักษณะบางอย่างเป็นแกนของชีวิตคน ขณะที่บางอย่างปรากฏเฉพาะบางบริบท
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+trait theory, individuality, self, mature personality, prejudice, personal uniqueness
+Henry Murray
+สาย / สำนัก: Personology, Need Theory, Personality Assessment
+ผลงานสำคัญ:
+Explorations in Personality
+งานพัฒนา Thematic Apperception Test
+งานด้าน needs, press, personology
+แกนความคิด:
+Murray เสนอว่าเราควรศึกษาบุคลิกภาพแบบ “ทั้งชีวิตของบุคคล” ไม่ใช่แค่ trait แยกส่วน เขาให้ความสำคัญกับ needs หรือแรงต้องการภายใน และ press หรือแรงกดจากสิ่งแวดล้อม บุคลิกภาพจึงเป็นผลของแรงภายในกับโลกภายนอกที่ปะทะกันอย่างต่อเนื่อง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+needs, motivation, personology, TAT, life history, inner drive and environment
+Raymond Cattell
+สาย / สำนัก: Trait Theory, Psychometrics, Factor Analysis
+ผลงานสำคัญ:
+The Scientific Analysis of Personality
+Personality and Motivation Structure and Measurement
+16 Personality Factor Questionnaire
+งานด้าน fluid / crystallized intelligence
+แกนความคิด:
+Cattell พยายามทำให้บุคลิกภาพเป็นวิทยาศาสตร์เชิงวัดผล เขาใช้ factor analysis เพื่อลดคำอธิบายบุคลิกภาพจำนวนมากให้เหลือกลุ่ม trait สำคัญ และสร้าง 16PF หรือ 16 Personality Factors งานของเขาเป็นฐานสำคัญของ psychometrics และการวิเคราะห์โครงสร้างบุคลิกภาพ
+ข้อควรระวัง:
+Cattell สำคัญในเชิงประวัติศาสตร์ของ trait theory แต่เวลาใช้ในเว็บไซต์ควรแยก “คุณูปการเชิงวิธีวิทยา” ออกจากประเด็นถกเถียงทางจริยธรรมและการเมืองในประวัติของเขา
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+16PF, factor analysis, trait measurement, psychometrics, personality structure
+Hans Eysenck
+สาย / สำนัก: Biological Trait Theory, Personality Psychology, Psychometrics
+ผลงานสำคัญ:
+Dimensions of Personality
+The Biological Basis of Personality
+Personality and Individual Differences
+Eysenck Personality Questionnaire
+แกนความคิด:
+Eysenck เสนอโมเดลบุคลิกภาพที่เน้นมิติใหญ่ เช่น Extraversion, Neuroticism และ Psychoticism เขาพยายามโยง trait เข้ากับชีววิทยา ระบบประสาท และระดับ arousal จุดเด่นของเขาคือการมองบุคลิกภาพไม่ใช่แค่คำบรรยาย แต่เป็นระบบที่มีฐานทางร่างกายและสมอง
+ข้อควรระวัง:
+งานของ Eysenck มีอิทธิพลมาก แต่บางงาน โดยเฉพาะงานเกี่ยวกับสุขภาพและพฤติกรรม ถูกวิจารณ์และตรวจสอบอย่างหนักในภายหลัง ควรใช้ด้วยความระวัง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+extraversion, neuroticism, psychoticism, biological personality, arousal theory
+J. P. Guilford
+สาย / สำนัก: Psychometrics, Personality Measurement, Intelligence and Creativity
+ผลงานสำคัญ:
+Personality
+The Nature of Human Intelligence
+งานด้าน creativity และ structure of intellect
+แกนความคิด:
+Guilford สำคัญกับการวัดความแตกต่างระหว่างบุคคล ทั้งด้านบุคลิกภาพ สติปัญญา และความคิดสร้างสรรค์ เขาช่วยขยาย psychometrics ให้ไม่ใช่แค่การวัด IQ แบบแคบ ๆ แต่รวมถึงความสามารถและลักษณะทางจิตที่หลากหลาย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+psychometrics, creativity, intelligence, personality measurement, individual differences
+Donald Fiske
+สาย / สำนัก: Trait Psychology, Five-Factor Research, Personality Assessment
+ผลงานสำคัญ:
+งานวิจัยยุคแรกด้าน five-factor personality structure
+งานด้าน multimethod personality assessment
+แกนความคิด:
+Fiske เป็นหนึ่งในนักวิจัยยุคแรกที่พบโครงสร้างบุคลิกภาพแบบห้าปัจจัยในข้อมูลการประเมินบุคคล งานของเขาเป็นเหมือนสะพานก่อน Big Five จะกลายเป็นโมเดลหลักในภายหลัง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+early Big Five, personality ratings, trait structure, assessment method
+Ernest Tupes
+สาย / สำนัก: Trait Psychology, Big Five Precursor, Psychometrics
+ผลงานสำคัญ:
+งานร่วมกับ Raymond Christal เรื่อง recurrent personality factors
+งานวิจัยด้าน trait ratings ในกองทัพอากาศสหรัฐฯ
+แกนความคิด:
+Tupes สำคัญเพราะงานร่วมกับ Christal ช่วยยืนยันว่าโครงสร้างบุคลิกภาพแบบห้าปัจจัยปรากฏซ้ำในข้อมูลหลายชุด แม้งานช่วงแรกจะไม่ได้ดังทันที แต่ภายหลังถูกมองว่าเป็นรากสำคัญของ Big Five
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Big Five history, recurrent factors, trait ratings, psychometric structure
+Raymond Christal
+สาย / สำนัก: Trait Psychology, Big Five Precursor, Personality Measurement
+ผลงานสำคัญ:
+งานร่วมกับ Ernest Tupes ด้าน recurrent personality factors
+งานด้าน factor analysis of trait ratings
+แกนความคิด:
+Christal เป็นผู้ร่วมวางหลักฐานสำคัญว่า trait จำนวนมากสามารถจัดเข้ากลุ่มปัจจัยใหญ่ได้ งานนี้สำคัญต่อประวัติของ Big Five เพราะแสดงให้เห็นว่าโครงสร้างบุคลิกภาพบางแบบไม่ได้เกิดจากการคิดทฤษฎีล้วน ๆ แต่เกิดจาก pattern ในข้อมูลจริง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Big Five origins, factor analysis, personality ratings, trait taxonomy
+Warren Norman
+สาย / สำนัก: Big Five Development, Trait Taxonomy, Personality Assessment
+ผลงานสำคัญ:
+งานด้าน “adequate taxonomy” of personality attributes
+งานพัฒนาฐาน Big Five ยุคก่อน Goldberg
+แกนความคิด:
+Norman สำคัญกับการทำให้โครงสร้างบุคลิกภาพแบบห้าปัจจัยเริ่มชัดขึ้นในฐานะ taxonomy ของ trait เขาช่วยต่อจาก Tupes และ Christal แล้วส่งอิทธิพลไปถึง Goldberg และนักวิจัย Big Five รุ่นหลัง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+trait taxonomy, Big Five development, personality descriptors, lexical personality
+Lewis Goldberg
+สาย / สำนัก: Big Five, Lexical Hypothesis, Personality Taxonomy
+ผลงานสำคัญ:
+งานด้าน Big Five personality markers
+International Personality Item Pool
+งาน lexical approach to personality
+แกนความคิด:
+Goldberg เป็นคนสำคัญมากของ Big Five โดยเฉพาะสาย lexical hypothesis หรือแนวคิดว่าความแตกต่างสำคัญระหว่างคนมักถูกเข้ารหัสไว้ในภาษาธรรมชาติ เขาช่วยทำให้คำว่า “Big Five” กลายเป็นกรอบหลักในการพูดถึงบุคลิกภาพสมัยใหม่
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Big Five, lexical hypothesis, IPIP, trait language, personality taxonomy
+John Digman
+สาย / สำนัก: Big Five, Developmental Personality, Trait Structure
+ผลงานสำคัญ:
+“Five Robust Trait Dimensions: Development, Stability, and Utility”
+งานด้าน personality structure และ trait development
+แกนความคิด:
+Digman สำคัญในการทำให้ Big Five ถูกมองว่าเป็นโครงสร้างที่ค่อนข้างแข็งแรงของบุคลิกภาพ ไม่ใช่แค่ผลลัพธ์ชั่วคราวของแบบสอบถามบางชุด เขาศึกษาทั้งเสถียรภาพ การพัฒนา และประโยชน์ของมิติบุคลิกภาพห้าด้านในชีวิตจริง (Wiley Online Library)
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Big Five, trait stability, development, educational achievement, personality structure
+Paul T. Costa Jr.
+สาย / สำนัก: Five-Factor Model, Personality Assessment, Adult Personality
+ผลงานสำคัญ:
+Revised NEO Personality Inventory
+Personality in Adulthood
+งานร่วมกับ Robert McCrae ด้าน Five-Factor Model
+แกนความคิด:
+Costa คือแกนสำคัญของ Five-Factor Model ร่วมกับ McCrae เขาช่วยทำให้ Big Five กลายเป็นระบบการประเมินบุคลิกภาพที่ใช้ในงานวิจัยและงานประเมินจริง โดยเฉพาะผ่าน NEO Personality Inventory
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Five-Factor Model, NEO-PI-R, adult personality, trait assessment, personality stability
+Robert R. McCrae
+สาย / สำนัก: Five-Factor Model, Cross-Cultural Personality, Personality Assessment
+ผลงานสำคัญ:
+Revised NEO Personality Inventory
+Personality in Adulthood
+งานวิจัย cross-cultural Five-Factor Model
+แกนความคิด:
+McCrae เป็นแกนหลักของ Five-Factor Model ร่วมกับ Costa โดยเน้นว่ามิติบุคลิกภาพห้าด้านสามารถใช้เป็นภาษากลางในการศึกษา personality traits ได้ในหลายวัฒนธรรม งานของ Costa และ McCrae ทำให้ NEO-PI กลายเป็นเครื่องมือสำคัญของสาย Big Five / Five-Factor Model (Wiley Online Library)
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Five-Factor Model, cross-cultural personality, NEO-PI, trait universality, personality assessment
+Oliver P. John
+สาย / สำนัก: Big Five, Personality Assessment, Self and Emotion
+ผลงานสำคัญ:
+Big Five Inventory
+งานด้าน personality structure, self-perception, emotion regulation
+Handbook of Personality
+แกนความคิด:
+Oliver John สำคัญกับการทำให้ Big Five ใช้งานง่ายขึ้นผ่าน Big Five Inventory และงานสังเคราะห์ด้าน personality psychology เขาอยู่ในสายที่พยายามทำให้ trait ไม่ใช่แค่ทฤษฎีแห้ง ๆ แต่ใช้ศึกษาตัวตน การรับรู้ตนเอง และพัฒนาการของบุคลิกภาพได้จริง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+Big Five Inventory, self, trait assessment, personality development, emotion regulation
+David M. Buss
+สาย / สำนัก: Evolutionary Psychology, Individual Differences, Mating Psychology
+ผลงานสำคัญ:
+Evolutionary Psychology
+The Evolution of Desire
+Personality Psychology: Domains of Knowledge About Human Nature
+แกนความคิด:
+Buss สำคัญในการเชื่อมบุคลิกภาพกับวิวัฒนาการ เขามองว่าความแตกต่างระหว่างบุคคลบางอย่างเกี่ยวข้องกับปัญหาการปรับตัว เช่น การเลือกคู่ การแข่งขัน สถานะ ความหึงหวง และกลยุทธ์ทางสังคม บุคลิกภาพจึงไม่ได้เป็นเพียงนิสัยส่วนตัว แต่เกี่ยวข้องกับแรงกดดันเชิงวิวัฒนาการ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+evolutionary personality, mating strategy, individual differences, jealousy, adaptation
+David Funder
+สาย / สำนัก: Personality Judgment, Trait Psychology, Realistic Accuracy Model
+ผลงานสำคัญ:
+The Personality Puzzle
+The Personality Puzzle Reader
+งาน Realistic Accuracy Model
+แกนความคิด:
+Funder สำคัญกับคำถามว่า “เราตัดสินบุคลิกภาพคนอื่นได้แม่นแค่ไหน” เขาเสนอ Realistic Accuracy Model เพื่ออธิบายว่า accuracy ในการอ่านคนต้องมีทั้งข้อมูลที่เกี่ยวข้อง การแสดงออกที่ตรวจจับได้ ผู้สังเกตที่รับรู้ได้ และการใช้ข้อมูลอย่างเหมาะสม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+personality judgment, accuracy, trait visibility, person perception, everyday personality reading
+Walter Mischel
+สาย / สำนัก: Social-Cognitive Personality, Person-Situation Debate, Self-Regulation
+ผลงานสำคัญ:
+Personality and Assessment
+Introduction to Personality
+งาน Marshmallow Test และ self-control
+งาน cognitive-affective personality system
+แกนความคิด:
+Mischel คือคนสำคัญของ person-situation debate เขาท้าทายแนวคิดว่า trait จะทำนายพฤติกรรมข้ามสถานการณ์ได้อย่างตรงไปตรงมา เขาเสนอว่าบุคลิกภาพควรถูกอ่านผ่านรูปแบบ “ถ้า...แล้ว...” เช่น คนคนหนึ่งอาจก้าวร้าวในบางบริบท แต่สงบในอีกบริบทหนึ่ง ไม่ใช่เพราะเขาไม่มีบุคลิกภาพ แต่เพราะบุคลิกภาพแสดงตัวเป็น pattern ตามสถานการณ์
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+person-situation debate, self-control, CAPS, delay of gratification, contextual personality
+Albert Bandura
+สาย / สำนัก: Social Cognitive Theory, Personality, Self-Efficacy
+ผลงานสำคัญ:
+Social Learning Theory
+Social Foundations of Thought and Action
+Self-Efficacy: The Exercise of Control
+แกนความคิด:
+Bandura สำคัญในการทำให้บุคลิกภาพไม่ถูกมองเป็น trait ตายตัวอย่างเดียว เขาเสนอว่าคนเรียนรู้ผ่านการสังเกต แบบอย่าง ความคาดหวัง และความเชื่อในความสามารถของตนเอง แนวคิด self-efficacy สำคัญมาก เพราะคนที่เชื่อว่าตนทำได้มักเข้าใกล้ปัญหาและลงมือแตกต่างจากคนที่รู้สึกว่าตนไม่มีอำนาจ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self-efficacy, social learning, agency, observational learning, personality and behavior
+Julian Rotter
+สาย / สำนัก: Social Learning Theory, Locus of Control, Personality
+ผลงานสำคัญ:
+Social Learning and Clinical Psychology
+งานด้าน locus of control
+งาน expectancy-value theory
+แกนความคิด:
+Rotter เสนอว่าเราควรอ่านบุคลิกภาพผ่านความคาดหวังและการให้คุณค่าต่อผลลัพธ์ แนวคิด locus of control ของเขาแยกคนที่รู้สึกว่าชีวิตถูกควบคุมจากภายใน กับคนที่รู้สึกว่าชีวิตถูกกำหนดจากภายนอก งานนี้ใช้ได้มากกับการอ่าน agency, learned helplessness และการตัดสินใจ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+locus of control, expectancy, agency, social learning, control belief
+George Kelly
+สาย / สำนัก: Personal Construct Theory, Cognitive Personality Theory
+ผลงานสำคัญ:
+The Psychology of Personal Constructs
+แกนความคิด:
+Kelly มองมนุษย์เหมือน “นักวิทยาศาสตร์ส่วนตัว” ที่สร้างกรอบตีความโลกของตัวเอง บุคลิกภาพจึงไม่ใช่แค่ trait แต่เป็นระบบ construct ที่คนใช้ทำนาย เข้าใจ และจัดระเบียบประสบการณ์ของตนเอง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+personal constructs, meaning-making, cognitive personality, worldview, interpretation
+Seymour Epstein
+สาย / สำนัก: Cognitive-Experiential Self-Theory, Personality, Emotion and Cognition
+ผลงานสำคัญ:
+งาน Cognitive-Experiential Self-Theory
+งานด้าน constructive thinking
+Constructive Thinking
+แกนความคิด:
+Epstein เสนอว่ามนุษย์มีระบบประมวลผลสองแบบ คือระบบเหตุผลและระบบประสบการณ์ อันหลังทำงานเร็ว อารมณ์สูง และเชื่อมกับความรู้สึกส่วนตัว บุคลิกภาพจึงเกี่ยวข้องกับวิธีที่คนใช้สองระบบนี้จัดการโลก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+experiential system, rational system, constructive thinking, self-theory, emotion and cognition
+Jeffrey Gray
+สาย / สำนัก: Biological Personality, Reinforcement Sensitivity Theory, Neuropsychology
+ผลงานสำคัญ:
+The Neuropsychology of Anxiety
+งาน Reinforcement Sensitivity Theory
+งานด้าน BIS / BAS
+แกนความคิด:
+Gray พัฒนาทฤษฎี Reinforcement Sensitivity Theory เพื่ออธิบายความแตกต่างระหว่างคนผ่านความไวของระบบสมองต่อรางวัล การลงโทษ และภัยคุกคาม แนวนี้สำคัญมากกับการเชื่อมบุคลิกภาพเข้ากับ anxiety, impulsivity, motivation และ psychopathology (ScienceDirect)
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+BIS/BAS, anxiety, impulsivity, reward sensitivity, punishment sensitivity
+Marvin Zuckerman
+สาย / สำนัก: Sensation Seeking, Biological Personality, Individual Differences
+ผลงานสำคัญ:
+Sensation Seeking and Risky Behavior
+Psychobiology of Personality
+Zuckerman-Kuhlman Personality Questionnaire
+แกนความคิด:
+Zuckerman สำคัญกับแนวคิด sensation seeking หรือแนวโน้มแสวงหาความแปลกใหม่ ความเข้มข้น ความเสี่ยง และประสบการณ์กระตุ้นสูง บุคลิกภาพจึงเกี่ยวกับระดับ stimulation ที่แต่ละคนต้องการจากโลก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+sensation seeking, risk-taking, novelty, stimulation, impulsivity
+Robert Cloninger
+สาย / สำนัก: Temperament and Character, Personality Biology, Psychiatry
+ผลงานสำคัญ:
+Feeling Good: The Science of Well-Being
+Temperament and Character Inventory
+งานด้าน novelty seeking, harm avoidance, reward dependence
+แกนความคิด:
+Cloninger เสนอโมเดลที่แยก temperament กับ character โดย temperament เกี่ยวกับแนวโน้มเชิงชีวภาพ เช่น novelty seeking, harm avoidance, reward dependence, persistence ส่วน character เกี่ยวกับ self-directedness, cooperativeness และ self-transcendence
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+temperament, character, novelty seeking, harm avoidance, self-transcendence
+Auke Tellegen
+สาย / สำนัก: Trait Psychology, Affectivity, Personality Assessment
+ผลงานสำคัญ:
+Multidimensional Personality Questionnaire
+งานด้าน positive affectivity / negative affectivity
+งานด้าน absorption
+แกนความคิด:
+Tellegen สำคัญกับการวัดบุคลิกภาพในมิติอารมณ์และประสบการณ์ภายใน โดยเฉพาะ positive emotionality, negative emotionality และ constraint รวมถึงแนวคิด absorption หรือความสามารถในการจมลึกกับประสบการณ์ จินตนาการ หรือสภาวะรับรู้
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+affectivity, absorption, temperament, emotional traits, personality assessment
+Robert Hogan
+สาย / สำนัก: Socioanalytic Theory, Personality Assessment, Occupational Personality
+ผลงานสำคัญ:
+Personality and the Fate of Organizations
+Hogan Personality Inventory
+Hogan Development Survey
+แกนความคิด:
+Hogan มองบุคลิกภาพผ่านชีวิตสังคมและชื่อเสียง เขาแยกระหว่าง identity หรือสิ่งที่เราคิดว่าเราเป็น กับ reputation หรือสิ่งที่คนอื่นเห็นว่าเราเป็น แนวนี้คมมากสำหรับงานองค์กร ผู้นำ และ dark side ของบุคลิกภาพ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+reputation, leadership, work personality, dark side traits, socioanalytic theory
+Michael C. Ashton
+สาย / สำนัก: HEXACO, Trait Psychology, Personality Structure
+ผลงานสำคัญ:
+Individual Differences and Personality
+The H Factor of Personality
+งานพัฒนา HEXACO model
+แกนความคิด:
+Ashton เป็นหนึ่งในผู้พัฒนา HEXACO ร่วมกับ Kibeom Lee จุดเด่นคือการเพิ่มมิติ Honesty-Humility ซึ่งช่วยอ่านด้านความจริงใจ ความถ่อมตัว ความยุติธรรม ความโลภ และแนวโน้มเอาเปรียบผู้อื่น โมเดล HEXACO วัดหกมิติหลัก ได้แก่ Honesty-Humility, Emotionality, Extraversion, Agreeableness, Conscientiousness และ Openness (hexaco.org)
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+HEXACO, Honesty-Humility, personality structure, individual differences, moral traits
+Kibeom Lee
+สาย / สำนัก: HEXACO, Cross-Cultural Personality, Trait Psychology
+ผลงานสำคัญ:
+The H Factor of Personality
+HEXACO Personality Inventory-Revised
+งานวิจัย lexical personality structure
+แกนความคิด:
+Lee เป็นผู้ร่วมพัฒนา HEXACO และทำให้ Honesty-Humility กลายเป็นมิติสำคัญในการอ่านบุคลิกภาพ โมเดลนี้มีประโยชน์มากเมื่อเราต้องอ่านเรื่องความซื่อสัตย์ ความหลงตัวเอง การเอาเปรียบ ความโลภ และพฤติกรรมทางสังคมที่ Big Five อาจจับได้ไม่คมพอ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+HEXACO, honesty-humility, cross-cultural traits, lexical study, moral personality
+Brent Roberts
+สาย / สำนัก: Personality Development, Trait Change, Life-Course Psychology
+ผลงานสำคัญ:
+งานด้าน personality development across adulthood
+งาน meta-analysis เรื่อง trait change
+งานด้าน personality and life outcomes
+แกนความคิด:
+Roberts สำคัญกับคำถามว่า “บุคลิกภาพเปลี่ยนได้ไหม” เขาศึกษาการเปลี่ยนแปลงของ traits ตลอดช่วงชีวิต และช่วยทำให้ภาพของ trait ไม่แข็งทื่อเกินไป บุคลิกภาพมีเสถียรภาพระดับหนึ่ง แต่ก็เปลี่ยนตามวัย บทบาท ประสบการณ์ และบริบทชีวิตได้
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+trait change, adult development, life course, personality stability, maturity
+Avshalom Caspi
+สาย / สำนัก: Developmental Psychopathology, Personality Development, Individual Differences
+ผลงานสำคัญ:
+งาน Dunedin Multidisciplinary Health and Development Study
+งานด้าน temperament, life-course development, gene-environment interaction
+แกนความคิด:
+Caspi สำคัญกับการศึกษาบุคลิกภาพและพัฒนาการระยะยาว เขาทำให้เห็นว่า temperament ในวัยเด็กสัมพันธ์กับเส้นทางชีวิต สุขภาพ พฤติกรรมเสี่ยง และความเปราะบางทางจิตใจในวัยผู้ใหญ่ได้อย่างไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+temperament, life-course development, longitudinal study, personality and psychopathology
+Terrie Moffitt
+สาย / สำนัก: Developmental Psychopathology, Individual Differences, Life-Course Research
+ผลงานสำคัญ:
+งาน Dunedin Study
+งานด้าน self-control, antisocial behavior, developmental taxonomy
+งานร่วมกับ Avshalom Caspi
+แกนความคิด:
+Moffitt สำคัญกับการศึกษาความแตกต่างระหว่างบุคคลในระยะยาว โดยเฉพาะ self-control, antisocial behavior และเส้นทางพัฒนาการที่แตกต่างกัน งานของเธอช่วยให้เห็นว่าบุคลิกภาพไม่ได้อยู่โดด ๆ แต่โยงกับสุขภาพ สังคม อาชญากรรม เศรษฐกิจ และชีวิตทั้งเส้น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self-control, antisocial behavior, longitudinal personality, developmental risk, life outcomes
+Dan P. McAdams
+สาย / สำนัก: Personality Psychology, Narrative Identity, Life Story
+ผลงานสำคัญ:
+The Stories We Live By
+The Art and Science of Personality Development
+The Redemptive Self
+งาน narrative identity
+แกนความคิด:
+McAdams เสนอโมเดลบุคลิกภาพแบบสามชั้น ได้แก่ dispositional traits, characteristic adaptations และ narrative identity เขาสำคัญเพราะทำให้ trait ไม่ใช่คำตอบทั้งหมดของบุคลิกภาพ คนเราไม่ได้มีแค่คะแนนนิสัย แต่ยังมีเป้าหมาย บทบาท ความขัดแย้ง และเรื่องเล่าชีวิตที่ใช้ทำให้ตนเองมีความหมาย งาน narrative identity ของเขานิยามเรื่องเล่าชีวิตว่าเป็นเรื่องเล่าภายในที่เชื่อมอดีตกับอนาคตเพื่อให้ชีวิตมีเอกภาพและเป้าหมายบางอย่าง (Sage Journals)
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative identity, life story, traits and self, personality development, meaning-making
+Jack Block
+สาย / สำนัก: Personality Development, Ego-Resiliency, Longitudinal Personality
+ผลงานสำคัญ:
+งานด้าน ego-resiliency และ ego-control
+งาน longitudinal personality development
+California Q-Sort
+แกนความคิด:
+Block สำคัญกับการอ่านบุคลิกภาพในฐานะระบบปรับตัว เขาเสนอแนวคิด ego-resiliency เพื่ออธิบายความยืดหยุ่นของบุคคลในการรับมือกับสถานการณ์ และ ego-control เพื่ออธิบายระดับการควบคุมแรงกระตุ้นหรือการแสดงออก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+ego-resiliency, ego-control, personality development, adaptation, Q-sort
+Theodore Millon
+สาย / สำนัก: Personality Theory, Personality Disorders, Clinical Personality
+ผลงานสำคัญ:
+Disorders of Personality
+Personality Disorders in Modern Life
+Millon Clinical Multiaxial Inventory
+แกนความคิด:
+Millon สำคัญกับการเชื่อม personality theory เข้ากับ personality disorders เขาไม่ได้มองบุคลิกภาพปกติและผิดปกติเป็นคนละจักรวาล แต่เห็นว่า pathology คือ pattern ของบุคลิกภาพที่แข็งตัว ผิดสมดุล หรือปรับตัวต่อโลกแบบสร้างปัญหา
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+personality disorders, clinical personality, maladaptive traits, MCMI, personality style
+David Watson
+สาย / สำนัก: Trait Affect, Personality Assessment, Clinical Personality
+ผลงานสำคัญ:
+งาน PANAS ร่วมกับ Lee Anna Clark และ Auke Tellegen
+งานด้าน positive affect / negative affect
+งานด้าน personality and psychopathology
+แกนความคิด:
+Watson สำคัญกับการเชื่อม trait personality กับ affect โดยเฉพาะ positive affectivity และ negative affectivity งานของเขาช่วยอธิบายว่าบางคนมีแนวโน้มรู้สึกอารมณ์ลบง่ายหรืออารมณ์บวกง่าย ซึ่งสัมพันธ์กับทั้งบุคลิกภาพและความเสี่ยงทางคลินิก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+positive affect, negative affect, trait emotion, personality and psychopathology
+Lee Anna Clark
+สาย / สำนัก: Personality Assessment, Personality Pathology, Trait Affect
+ผลงานสำคัญ:
+Schedule for Nonadaptive and Adaptive Personality
+งานด้าน personality disorder traits
+งาน PANAS ร่วมกับ Watson และ Tellegen
+แกนความคิด:
+Clark สำคัญในการอ่านบุคลิกภาพทั้งด้านปกติและผิดปกติผ่าน trait เธอช่วยพัฒนาการประเมิน personality pathology ที่ไม่มองอาการแยกขาดจากโครงสร้างบุคลิกภาพ ทำให้เหมาะกับงานเชื่อมจิตวิทยาบุคลิกภาพกับจิตเวชศาสตร์
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+personality pathology, maladaptive traits, assessment, affective traits, clinical personality
+สรุปแกนของสายนี้
+สายนี้ควรเก็บไว้เป็นฐานของเว็บเวลาเขียนเรื่อง:
+บุคลิกภาพไม่ใช่แค่ “type” แต่มีมิติของ trait, motivation, temperament, self, adaptation และ life story
+trait คือแนวโน้มที่ค่อนข้างคงที่ แต่ไม่ใช่ชะตากรรมตายตัว
+Big Five / Five-Factor Model เป็นภาษากลางที่แข็งแรงมากของจิตวิทยาบุคลิกภาพร่วมสมัย
+HEXACO สำคัญเพราะเพิ่มแกน Honesty-Humility ทำให้จับมิติศีลธรรม การเอาเปรียบ ความจริงใจ และความถ่อมตัวได้คมขึ้น
+person-situation debate สำคัญมาก เพราะเตือนว่าเราไม่ควรอ่านคนจาก trait แบบแข็งทื่อโดยไม่ดูบริบท
+บุคลิกภาพมีทั้งฐานชีวภาพ การเรียนรู้ สังคม พัฒนาการ เรื่องเล่าชีวิต และความสามารถในการปรับตัว
+ถ้าจะเขียนเว็บให้ลึก อย่าเอา MBTI / typology ไปแทน personality psychology ทั้งหมด เพราะสายนี้มีฐานวิจัย วิธีวัด และข้อถกเถียงกว้างกว่านั้นมาก
+รายชื่อแกนหลักที่ควรใช้เป็นฐานอ้างอิงก่อน
+Gordon Allport
+Henry Murray
+Raymond Cattell
+Hans Eysenck
+J. P. Guilford
+Donald Fiske
+Ernest Tupes
+Raymond Christal
+Warren Norman
+Lewis Goldberg
+John Digman
+Paul T. Costa Jr.
+Robert R. McCrae
+Oliver P. John
+David M. Buss
+David Funder
+Walter Mischel
+Albert Bandura
+Julian Rotter
+George Kelly
+Seymour Epstein
+Jeffrey Gray
+Marvin Zuckerman
+Robert Cloninger
+Auke Tellegen
+Robert Hogan
+Michael C. Ashton
+Kibeom Lee
+Brent Roberts
+Avshalom Caspi
+Terrie Moffitt
+Dan P. McAdams
+Jack Block
+Theodore Millon
+David Watson
+Lee Anna Clark

@@ -189,6 +189,134 @@ export function ArrowRightIcon({ className = "h-5 w-5" }: IconProps) {
 }
 
 /* ============================================================================
+   ARCHRON — HEADER NAV ICONS (ไอคอนนำทางแถบ header)
+   ลายเส้นเดียวกับชุด line ด้านบน (strokeWidth 1.5 · currentColor · ไม่มีวงแหวน)
+   น้ำหนักเบาเหมาะกับแถบนำทางที่มี label ภาษาไทย · ใช้แทน Material Symbols ใน header
+   ============================================================================ */
+
+// คลังความรู้ — โหนดศูนย์กลาง + โหนดบริวารเชื่อม (แผนที่ความรู้)
+// แทนไอคอน explore เดิม (เลี่ยงสัญลักษณ์เข็มทิศ ตาม Founding Brand Codex)
+export function KnowledgeHubIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <>
+      <circle cx="12" cy="12" r="2.2" />
+      <circle cx="5" cy="5.5" r="1.4" />
+      <circle cx="19" cy="5.5" r="1.4" />
+      <circle cx="5" cy="18.5" r="1.4" />
+      <circle cx="19" cy="18.5" r="1.4" />
+      <line x1="10.4" y1="10.6" x2="6.2" y2="6.6" />
+      <line x1="13.6" y1="10.6" x2="17.8" y2="6.6" />
+      <line x1="10.4" y1="13.4" x2="6.2" y2="17.4" />
+      <line x1="13.6" y1="13.4" x2="17.8" y2="17.4" />
+    </>,
+  );
+}
+
+// ปฏิญญา — เอกสาร + 3 บรรทัด (ถ้อยคำประกาศ)
+export function ManifestoIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <>
+      <path d="M6 3h9l4 4v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z" />
+      <path d="M15 3v4h4" />
+      <line x1="8.5" y1="12" x2="15" y2="12" />
+      <line x1="8.5" y1="15" x2="15" y2="15" />
+      <line x1="8.5" y1="18" x2="12.5" y2="18" />
+    </>,
+  );
+}
+
+// แหล่งอ้างอิง — เครื่องหมายคำพูดคู่ (ถ้อยคำที่ยกมา)
+export function QuoteIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <>
+      <path d="M10 7c-2.5 0-4 2-4 4.5S7.5 16 10 16c0-2-1-3-2.5-3 .3-1.5 1.5-2.5 2.5-2.8z" />
+      <path d="M18 7c-2.5 0-4 2-4 4.5S15.5 16 18 16c0-2-1-3-2.5-3 .3-1.5 1.5-2.5 2.5-2.8z" />
+    </>,
+  );
+}
+
+// ทรัพยากรภายนอก — กรอบ + ลูกศรออกมุมบนขวา (นำออกไปภายนอก)
+export function ExternalLinkIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <>
+      <path d="M13.5 5H6a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7.5" />
+      <path d="M14 4.5h5.5V10" />
+      <line x1="10.5" y1="13.5" x2="19" y2="5" />
+    </>,
+  );
+}
+
+// คำถามที่พบบ่อย — เครื่องหมางคำถาม
+export function HelpIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M9.3 9.3a2.8 2.8 0 0 1 5.3 1.2c0 1.8-2.6 2.2-2.6 3.8" />
+      <circle cx="12" cy="17.2" r="0.6" fill="currentColor" stroke="none" />
+    </>,
+  );
+}
+
+// สนับสนุนโครงการ — หัวใจเรขาคณิต
+export function HeartIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <path d="M12 19.5C6.5 15.5 4 12.2 4 8.8 4 6.4 5.9 4.5 8.3 4.5c1.5 0 2.9.8 3.7 2 .8-1.2 2.2-2 3.7-2 2.4 0 4.3 1.9 4.3 4.3 0 3.4-2.5 6.7-8 10.7z" />,
+  );
+}
+
+// ปิดเมนู — กากบาท
+export function CloseIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <>
+      <line x1="6" y1="6" x2="18" y2="18" />
+      <line x1="18" y1="6" x2="6" y2="18" />
+    </>,
+  );
+}
+
+// เข้าสู่ระบบ — กรอบประตู + ลูกศรเข้า
+export function LoginIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <>
+      <path d="M14 4h4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-4" />
+      <line x1="4" y1="12" x2="15" y2="12" />
+      <path d="M10 7l5 5-5 5" />
+    </>,
+  );
+}
+
+// Studio — ดินสอ (เครื่องมือเขียน/แก้)
+export function EditIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <>
+      <path d="M4 20h4l10.5-10.5a1.4 1.4 0 0 0 0-2l-2-2a1.4 1.4 0 0 0-2 0L4 16z" />
+      <line x1="13.5" y1="6.5" x2="17.5" y2="10.5" />
+    </>,
+  );
+}
+
+// ออกจากระบบ — กรอบประตู + ลูกศรออก
+export function LogoutIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <>
+      <path d="M10 4H6a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h4" />
+      <line x1="9" y1="12" x2="20" y2="12" />
+      <path d="M15 7l5 5-5 5" />
+    </>,
+  );
+}
+
+/* ============================================================================
    ARCHRON — ICON LANGUAGE (ชุดไอคอนประจำศาสตร์ ตาม brand board)
    ลายเส้นเชิงสัญลักษณ์ในวงแหวนล้อมรอบ (signature ของบอร์ด) · currentColor · 24x24
    ============================================================================ */

@@ -1,0 +1,466 @@
+Cultural / Critical / Liberation Psychology
+หมายเหตุสั้น ๆ:
+สายนี้คือกลุ่มความคิดที่ทำให้จิตวิทยาไม่ติดอยู่แค่ “บุคคลโดดเดี่ยว” แต่กลับไปถามว่า
+วัฒนธรรมสร้างวิธีคิดของมนุษย์อย่างไร
+ภาษา สังคม และประวัติศาสตร์สร้าง self อย่างไร
+ความทุกข์ทางจิตเป็นเรื่องส่วนตัวล้วน ๆ หรือถูกผลิตโดยอำนาจและโครงสร้างสังคม
+จิตวิทยากระแสหลักมีอคติของชนชั้น เพศ เชื้อชาติ และโลกตะวันตกแฝงอยู่หรือไม่
+การบำบัดและความรู้ทางจิตวิทยาอาจกลายเป็นเครื่องมือทำให้คนเชื่องต่อระบบได้หรือไม่
+จิตวิทยาจะรับใช้การปลดปล่อยมนุษย์ได้อย่างไร
+สายนี้สำคัญมาก เพราะมันทำให้คำว่า “จิตใจ” ไม่ถูกแยกออกจากโลกจริงของมนุษย์ เช่น ความยากจน ความรุนแรงทางรัฐ อาณานิคม สถาบัน ครอบครัว เพศ ภาษา ชาติพันธุ์ การศึกษา และความไม่เท่าเทียม
+Lev Vygotsky
+สาย / สำนัก: Cultural-Historical Psychology, Sociocultural Theory, Developmental Psychology
+ผลงานสำคัญ:
+Mind in Society
+Thought and Language
+The History of the Development of Higher Mental Functions
+แกนความคิด:
+Vygotsky คือรากใหญ่ของจิตวิทยาวัฒนธรรมและ cultural-historical psychology เขามองว่าจิตมนุษย์ไม่ได้พัฒนาแบบโดดเดี่ยวในหัว แต่เกิดผ่านภาษา เครื่องมือ สัญลักษณ์ การเรียนรู้ร่วมกับผู้อื่น และบริบททางวัฒนธรรม แนวคิด zone of proximal development สำคัญมาก เพราะชี้ว่าความสามารถของคนไม่ได้วัดจากสิ่งที่ทำได้คนเดียวเท่านั้น แต่รวมถึงสิ่งที่ทำได้ผ่านการช่วยเหลือ การสอน และการมีคนอื่นอยู่ร่วมในกระบวนการเรียนรู้
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+วัฒนธรรมกับจิต, ภาษา, การเรียนรู้, พัฒนาการ, social mediation, zone of proximal development
+Alexander Luria
+สาย / สำนัก: Cultural-Historical Psychology, Neuropsychology, Soviet Psychology
+ผลงานสำคัญ:
+Higher Cortical Functions in Man
+The Working Brain
+Cognitive Development: Its Cultural and Social Foundations
+The Mind of a Mnemonist
+The Man with a Shattered World
+แกนความคิด:
+Luria เชื่อมสมอง จิต ภาษา และวัฒนธรรมเข้าด้วยกันอย่างลึก เขาไม่ได้มองการทำงานของสมองเป็นกลไกแยกจากชีวิต แต่ดูว่ากระบวนการทางจิตชั้นสูงถูกสร้างผ่านกิจกรรมทางสังคม ภาษา และประสบการณ์ทางวัฒนธรรมอย่างไร งานของเขาจึงเป็นสะพานระหว่าง neuroscience, psychology และ cultural-historical theory
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+สมองกับวัฒนธรรม, ภาษา, higher mental functions, neuropsychology, cultural cognition
+Aleksei Leontiev
+สาย / สำนัก: Activity Theory, Cultural-Historical Psychology, Soviet Psychology
+ผลงานสำคัญ:
+Activity, Consciousness, and Personality
+งานพัฒนา Activity Theory
+แกนความคิด:
+Leontiev ต่อยอด Vygotsky โดยเน้นว่า “จิต” ไม่ได้เข้าใจได้จากภายในล้วน ๆ แต่ต้องดูผ่านกิจกรรมที่มนุษย์ทำในโลกจริง เขาเสนอว่า consciousness, motivation และ personality เกิดขึ้นผ่าน activity ที่มีวัตถุ เป้าหมาย เครื่องมือ และความสัมพันธ์ทางสังคม จิตจึงไม่ใช่สิ่งลอยอยู่ในหัว แต่ถูกสร้างผ่านการลงมืออยู่ในโลก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+activity theory, consciousness, motivation, social activity, personality and labor
+Michael Cole
+สาย / สำนัก: Cultural Psychology, Cultural-Historical Activity Theory, Developmental Psychology
+ผลงานสำคัญ:
+Cultural Psychology: A Once and Future Discipline
+The Development of Children
+งานด้าน Laboratory of Comparative Human Cognition
+แกนความคิด:
+Cole สำคัญมากในการฟื้น cultural psychology สมัยใหม่ เขาชี้ว่ากระบวนการคิดของมนุษย์ต้องเข้าใจผ่านวัฒนธรรม เครื่องมือ สถาบัน ภาษา และกิจกรรมจริงในชีวิตประจำวัน ไม่ใช่แค่การทดลองในห้องแล็บที่ตัดบริบทออกจนมนุษย์กลายเป็นสิ่งมีชีวิตไร้โลก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+cultural psychology, cognition in context, activity, tools, education, cultural mediation
+Jerome Bruner
+สาย / สำนัก: Cultural Psychology, Narrative Psychology, Cognitive Psychology
+ผลงานสำคัญ:
+Acts of Meaning
+The Culture of Education
+Actual Minds, Possible Worlds
+Making Stories
+แกนความคิด:
+Bruner สำคัญเพราะเขาพาจิตวิทยากลับมาหาความหมาย วัฒนธรรม และเรื่องเล่า เขาเสนอว่ามนุษย์ไม่ได้คิดแบบตรรกะวิทยาศาสตร์อย่างเดียว แต่คิดผ่าน narrative ด้วย เราสร้างตัวตนและโลกของเราผ่านเรื่องเล่าที่วัฒนธรรมจัดเตรียมไว้ให้ งานของ Bruner จึงสำคัญมากสำหรับการเชื่อม cultural psychology กับ narrative identity
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+meaning-making, narrative, culture, education, self, story
+Richard Shweder
+สาย / สำนัก: Cultural Psychology, Moral Psychology, Psychological Anthropology
+ผลงานสำคัญ:
+Thinking Through Cultures
+Why Do Men Barbecue?
+งานด้าน cultural psychology และ moral worlds
+แกนความคิด:
+Shweder เป็นแกนสำคัญของ cultural psychology เขาโต้ความคิดที่มองว่าจิตวิทยามนุษย์เป็นสากลแบบง่ายเกินไป เขาเสนอว่า psyche และ culture สร้างกันและกัน มนุษย์ไม่ได้มีจิตแบบเดียวกันแล้วแค่แต่งชุดวัฒนธรรมต่างกัน แต่หลายครั้งวิธีรู้สึก คิด ตัดสินผิดถูก และเป็นตัวเอง ถูกสร้างขึ้นจาก moral world ของวัฒนธรรมนั้น ๆ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+cultural psychology, moral worlds, self and culture, relativism, psychological anthropology
+Hazel Rose Markus
+สาย / สำนัก: Cultural Psychology, Self and Culture, Social Psychology
+ผลงานสำคัญ:
+งานเรื่อง independent / interdependent self-construal
+Doing Race
+งานด้าน culture and self
+แกนความคิด:
+Markus สำคัญมากกับการอธิบายว่า self ไม่ได้มีรูปแบบเดียวทั่วโลก เธอร่วมเสนอแนวคิด independent self และ interdependent self เพื่ออธิบายว่าบางวัฒนธรรมเน้นตัวตนแบบอิสระ แยกตน ตัดสินใจด้วยตนเอง ขณะที่บางวัฒนธรรมเน้นตัวตนที่สัมพันธ์กับครอบครัว กลุ่ม และบริบททางสังคม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self-construal, independent self, interdependent self, culture and identity, social self
+Shinobu Kitayama
+สาย / สำนัก: Cultural Psychology, Culture and Self, Social Cognition
+ผลงานสำคัญ:
+งานร่วมกับ Hazel Markus เรื่อง culture and self
+งานด้าน cultural neuroscience
+งานด้าน emotion, cognition และ self ในบริบทวัฒนธรรม
+แกนความคิด:
+Kitayama ช่วยทำให้ cultural psychology มีฐานวิจัยที่แข็งแรงขึ้น โดยเฉพาะเรื่อง self, emotion, cognition และ attention ในวัฒนธรรมต่าง ๆ งานของเขาชี้ว่าความเป็นตัวเอง ความสุข การรับรู้อารมณ์ และการคิด ไม่ได้เกิดในสุญญากาศ แต่ถูกฝึกผ่านบริบทวัฒนธรรมตั้งแต่ต้น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+culture and self, emotion, cultural cognition, cultural neuroscience, interdependence
+Harry Triandis
+สาย / สำนัก: Cross-Cultural Psychology, Individualism-Collectivism, Social Psychology
+ผลงานสำคัญ:
+Individualism and Collectivism
+Culture and Social Behavior
+งานด้าน subjective culture
+แกนความคิด:
+Triandis สำคัญกับการศึกษา individualism และ collectivism เขาช่วยทำให้การเปรียบเทียบวัฒนธรรมมีศัพท์กลางในการอธิบายว่าบางสังคมเน้นความเป็นอิสระส่วนบุคคล ขณะที่บางสังคมเน้นความสัมพันธ์ หน้าที่ และกลุ่ม งานของเขาใช้ได้มาก แต่ต้องระวังไม่ทำให้วัฒนธรรมกลายเป็นกล่องแข็ง ๆ แบบเหมารวม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+individualism, collectivism, cross-cultural psychology, subjective culture, social behavior
+John W. Berry
+สาย / สำนัก: Cross-Cultural Psychology, Acculturation, Intercultural Relations
+ผลงานสำคัญ:
+Cross-Cultural Psychology: Research and Applications
+งานด้าน acculturation strategies
+งานด้าน ecological and cultural adaptation
+แกนความคิด:
+Berry สำคัญมากกับการศึกษา acculturation หรือกระบวนการปรับตัวเมื่อคนต้องอยู่ระหว่างวัฒนธรรม เช่น immigrant, minority group, indigenous people หรือคนที่ถูกดึงเข้าระบบวัฒนธรรมใหม่ เขาเสนอรูปแบบ acculturation เช่น integration, assimilation, separation และ marginalization
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+acculturation, migration, cultural adaptation, minority psychology, intercultural relations
+Patricia Greenfield
+สาย / สำนัก: Cultural Psychology, Developmental Psychology, Social Change
+ผลงานสำคัญ:
+Mind and Media
+You Can’t Take It With You
+งานด้าน cultural change and human development
+แกนความคิด:
+Greenfield ศึกษาว่าวัฒนธรรมและการเปลี่ยนแปลงทางสังคมส่งผลต่อพัฒนาการและ cognition อย่างไร เธอสนใจการเปลี่ยนจากสังคมเกษตร ชุมชน ครอบครัวขยาย ไปสู่สังคมเมือง เทคโนโลยี และปัจเจกนิยม ทำให้เห็นว่าการเปลี่ยนโลกภายนอกเปลี่ยนโครงสร้างทางจิตของคนรุ่นใหม่ด้วย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+cultural change, development, media, family, modernization, cognition
+Barbara Rogoff
+สาย / สำนัก: Cultural Psychology, Developmental Psychology, Learning in Community
+ผลงานสำคัญ:
+Apprenticeship in Thinking
+The Cultural Nature of Human Development
+งานด้าน learning through participation
+แกนความคิด:
+Rogoff สำคัญกับการมองพัฒนาการมนุษย์ผ่านการมีส่วนร่วมในกิจกรรมของชุมชน เธอเสนอว่าเด็กไม่ได้เรียนรู้แค่จากการสอนแบบทางการ แต่เรียนผ่านการสังเกต การร่วมมือ การทำงานจริง และการอยู่ในกิจกรรมของครอบครัวหรือชุมชน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+learning, community, apprenticeship, cultural development, participation
+Michael Tomasello
+สาย / สำนัก: Cultural Learning, Developmental Psychology, Comparative Psychology
+ผลงานสำคัญ:
+The Cultural Origins of Human Cognition
+A Natural History of Human Thinking
+Becoming Human
+แกนความคิด:
+Tomasello สำคัญกับคำถามว่าอะไรทำให้มนุษย์ต่างจากสัตว์อื่นในเชิงวัฒนธรรม เขาเน้น joint attention, shared intentionality, imitation, cooperation และ cultural learning มนุษย์ไม่ได้ฉลาดเพราะสมองเดี่ยว ๆ เท่านั้น แต่เพราะสามารถเรียนรู้ร่วมกัน สร้างความตั้งใจร่วม และส่งต่อวัฒนธรรมข้ามรุ่นได้
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+shared intentionality, cooperation, cultural learning, imitation, human cognition
+Klaus Holzkamp
+สาย / สำนัก: Critical Psychology, German Critical Psychology, Subject Science
+ผลงานสำคัญ:
+Grundlegung der Psychologie
+Learning: A Subject-Scientific Foundation
+งานด้าน German Critical Psychology
+แกนความคิด:
+Holzkamp คือแกนใหญ่ของ critical psychology เยอรมัน เขาวิจารณ์จิตวิทยากระแสหลักที่มองมนุษย์เป็นวัตถุทดลองและตัดคนออกจากเงื่อนไขชีวิตจริง เขาเสนอ subject science หรือจิตวิทยาที่เริ่มจากมุมมองของผู้มีชีวิตจริง ผู้ที่ต้องดิ้นรน เลือก ถูกจำกัด และพยายามขยายความเป็นไปได้ของตนภายใต้สังคม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+critical psychology, subject science, agency, everyday life, social conditions
+Ian Parker
+สาย / สำนัก: Critical Psychology, Discourse Analysis, Psychoanalysis and Politics
+ผลงานสำคัญ:
+Critical Psychology: What It Is and What It Is Not
+Discourse Dynamics
+Psychology After Psychoanalysis
+Revolution in Psychology
+แกนความคิด:
+Parker สำคัญมากใน critical psychology ร่วมสมัย เขาวิจารณ์ว่าจิตวิทยากระแสหลักมักทำให้ปัญหาทางสังคมกลายเป็นปัญหาภายในบุคคล และทำให้ความทุกข์ที่เกิดจากระบบถูกแปลเป็นอาการส่วนตัว งานของเขาเชื่อม discourse, psychoanalysis, Marxism และการเมืองของความรู้ทางจิตวิทยา
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+critical psychology, discourse, ideology, psychoanalysis, politics of psychology
+Erica Burman
+สาย / สำนัก: Critical Developmental Psychology, Feminist Psychology, Discourse Analysis
+ผลงานสำคัญ:
+Deconstructing Developmental Psychology
+Developments: Child, Image, Nation
+งานด้าน feminism, childhood, development, discourse
+แกนความคิด:
+Burman สำคัญมากในการวิจารณ์ developmental psychology ว่ามักทำให้พัฒนาการเด็กดูเป็นธรรมชาติ สากล และเป็นกลาง ทั้งที่จริงแล้วแนวคิดเรื่อง “เด็กปกติ” “แม่ที่ดี” “พัฒนาการที่ถูกต้อง” มักมีอุดมการณ์ ชนชั้น เพศ และความเป็นตะวันตกแฝงอยู่
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+critical developmental psychology, childhood, feminism, motherhood, discourse
+Thomas Teo
+สาย / สำนัก: Critical Psychology, History of Psychology, Epistemology
+ผลงานสำคัญ:
+The Critique of Psychology
+A Critical History and Philosophy of Psychology
+งานด้าน epistemological violence
+แกนความคิด:
+Teo สำคัญกับการวิจารณ์ความรู้ทางจิตวิทยาในระดับ epistemology เขาเสนอแนวคิด epistemological violence เพื่ออธิบายว่าการตีความข้อมูลทางจิตวิทยาอาจทำร้ายกลุ่มคนได้ เมื่อผู้วิจัยใช้กรอบอคติแปลผลให้คนบางกลุ่มต่ำกว่า ด้อยกว่า หรือผิดปกติอย่างเป็นระบบ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+epistemological violence, history of psychology, racism, critical method, philosophy of psychology
+Isaac Prilleltensky
+สาย / สำนัก: Critical Psychology, Community Psychology, Psychopolitical Validity
+ผลงานสำคัญ:
+Community Psychology: In Pursuit of Liberation and Well-Being
+Promoting Family Wellness and Preventing Child Maltreatment
+งานด้าน psychopolitical validity
+แกนความคิด:
+Prilleltensky สำคัญกับการเชื่อม wellbeing, justice และ liberation เขาเสนอว่าความอยู่ดีมีสุขของมนุษย์ไม่ใช่แค่เรื่องภายในใจ แต่เกี่ยวข้องกับอำนาจ ความยุติธรรม ทรัพยากร และโอกาสทางสังคม แนวคิด psychopolitical validity สำคัญมาก เพราะบังคับให้นักจิตวิทยาถามว่างานของตนเข้าใจอำนาจและช่วยเปลี่ยนเงื่อนไขกดทับจริงหรือไม่
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+wellbeing, justice, liberation, community psychology, psychopolitical validity
+Dennis Fox
+สาย / สำนัก: Critical Psychology, Law and Psychology, Social Justice
+ผลงานสำคัญ:
+Critical Psychology: An Introduction
+งานด้าน psychology, law, ethics และ social justice
+แกนความคิด:
+Fox สำคัญในฐานะผู้ร่วมวางฐาน critical psychology ที่ตั้งคำถามต่อบทบาทของจิตวิทยาในสังคม เขาชี้ว่าจิตวิทยาไม่ควรทำตัวเป็นความรู้เป็นกลางที่ไม่ยุ่งการเมือง เพราะในความจริง การนิยามว่าอะไรคือปกติ ผิดปกติ เหมาะสม หรือเบี่ยงเบน ล้วนเกี่ยวข้องกับอำนาจและคุณค่าทางสังคม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+critical psychology, ethics, law, social justice, power and psychology
+Valerie Walkerdine
+สาย / สำนัก: Critical Psychology, Feminist Psychology, Cultural Studies
+ผลงานสำคัญ:
+Schoolgirl Fictions
+Counting Girls Out
+Daddy’s Girl
+งานด้าน class, gender, education และ subjectivity
+แกนความคิด:
+Walkerdine สำคัญกับการอ่าน subjectivity ผ่านชนชั้น เพศ การศึกษา และวัฒนธรรม เธอทำให้เห็นว่า “ความสามารถ” “ความฉลาด” หรือ “เด็กดี” ไม่ได้เป็นคำกลาง ๆ แต่ถูกสร้างผ่านสถาบัน ภาษา ความคาดหวัง และระบบชนชั้นที่กดทับเด็กบางกลุ่มตั้งแต่ต้น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+feminist psychology, class, education, subjectivity, girlhood, cultural power
+Michelle Fine
+สาย / สำนัก: Critical Psychology, Participatory Action Research, Social Justice Research
+ผลงานสำคัญ:
+Framing Dropouts
+Working Method
+งานด้าน participatory action research, youth, inequality
+แกนความคิด:
+Fine สำคัญกับการทำวิจัยที่ไม่มองคนชายขอบเป็นวัตถุศึกษา แต่ดึงพวกเขาเข้ามาเป็นผู้ร่วมผลิตความรู้ เธอทำงานกับโรงเรียน ความเหลื่อมล้ำ เยาวชน เพศ เชื้อชาติ และระบบสถาบัน ทำให้จิตวิทยาไม่หยุดที่การวัดคน แต่หันไปถามว่าใครมีสิทธิพูด ใครถูกทำให้เงียบ และความรู้ควรรับใช้ใคร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+participatory action research, social justice, education inequality, youth, critical method
+Ignacio Martín-Baró
+สาย / สำนัก: Liberation Psychology, Liberation Social Psychology, Latin American Psychology
+ผลงานสำคัญ:
+Writings for a Liberation Psychology
+Action and Ideology
+งานด้าน psychology of war, ideology, oppression
+แกนความคิด:
+Martín-Baró คือแกนใหญ่ของ liberation psychology เขาเสนอว่าจิตวิทยาต้องเริ่มจากชีวิตของผู้ถูกกดขี่ ไม่ใช่จากทฤษฎีที่ผลิตในศูนย์กลางอำนาจแล้วเอาไปครอบคนชายขอบ เขาวิจารณ์การทำให้ปัญหาสังคมกลายเป็นปัญหาส่วนบุคคล และเสนอว่าหน้าที่ของจิตวิทยาคือการเปิดโปงอุดมการณ์ ฟังเสียงประชาชน และช่วยให้ผู้คนตระหนักถึงเงื่อนไขที่กดทับชีวิตตนเอง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+liberation psychology, oppression, ideology, conscientization, war trauma, social suffering
+Paulo Freire
+สาย / สำนัก: Critical Pedagogy, Liberation Education, Conscientization
+ผลงานสำคัญ:
+Pedagogy of the Oppressed
+Education for Critical Consciousness
+Pedagogy of Hope
+แกนความคิด:
+Freire ไม่ใช่นักจิตวิทยาโดยตรง แต่เป็นรากสำคัญของ liberation psychology ผ่านแนวคิด conscientization หรือการตื่นรู้เชิงวิพากษ์ เขาเสนอว่าการศึกษาไม่ควรเป็นการฝากความรู้ใส่หัวผู้เรียนแบบธนาคาร แต่ควรเป็นกระบวนการสนทนาที่ทำให้ผู้ถูกกดขี่อ่านโลก อ่านตนเอง และลงมือเปลี่ยนเงื่อนไขชีวิตของตน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+critical consciousness, liberation education, oppression, dialogue, pedagogy
+Frantz Fanon
+สาย / สำนัก: Liberation Psychology, Postcolonial Theory, Psychiatry, Anti-Colonial Thought
+ผลงานสำคัญ:
+Black Skin, White Masks
+The Wretched of the Earth
+A Dying Colonialism
+แกนความคิด:
+Fanon สำคัญอย่างมหาศาลต่อการอ่านจิตใต้เงาอาณานิคม เขาเป็นจิตแพทย์ที่เห็นว่าความเจ็บป่วยทางจิตไม่ได้แยกจากความรุนแรงทางการเมือง เชื้อชาติ และการครอบงำเชิงอาณานิคม งานของเขาแสดงให้เห็นว่าผู้ถูกกดขี่อาจ internalize สายตาของผู้กดขี่จนแปลกแยกจากร่างกาย ภาษา สีผิว และความเป็นตัวเอง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+colonial trauma, racism, alienation, violence, decolonization, internalized oppression
+Maritza Montero
+สาย / สำนัก: Liberation Psychology, Community Psychology, Latin American Social Psychology
+ผลงานสำคัญ:
+Introduction to Community Psychology: Development and Challenges
+งานด้าน community empowerment
+งานด้าน political psychology และ liberation
+แกนความคิด:
+Montero สำคัญกับ community psychology และ liberation psychology ในลาตินอเมริกา เธอเน้น empowerment, participation และการสร้างความรู้ร่วมกับชุมชน ไม่ใช่การเข้าไปศึกษาชุมชนเหมือนวัตถุ งานของเธอเหมาะมากสำหรับการคิดว่าจิตวิทยาจะทำงานกับประชาชนจริงโดยไม่ทำตัวเป็นผู้เชี่ยวชาญจากข้างบนได้อย่างไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+community psychology, empowerment, participation, liberation, Latin American psychology
+Mary Watkins
+สาย / สำนัก: Liberation Psychology, Depth Psychology, Community Psychology
+ผลงานสำคัญ:
+Toward Psychologies of Liberation
+Waking Dreams
+Invisible Guests
+งานร่วมกับ Helene Shulman
+แกนความคิด:
+Watkins สำคัญเพราะเชื่อม depth psychology กับ liberation psychology เธอสนใจทั้งจินตนาการ ภาพฝัน บาดแผลทางสังคม และการเยียวยาชุมชน งานของเธอช่วยเปิดทางให้จิตวิทยาลึกไม่กลายเป็นการหมกตัวอยู่ใน psyche ส่วนบุคคล แต่หันไปมองความฝัน ความทรงจำ และภาพภายในที่ถูกสร้างโดยประวัติศาสตร์ ความรุนแรง และความอยุติธรรมด้วย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+liberation psychology, depth psychology, imagination, community healing, social trauma
+Helene Shulman
+สาย / สำนัก: Liberation Psychology, Depth Psychology, Community Psychology
+ผลงานสำคัญ:
+Toward Psychologies of Liberation
+งานด้าน community, trauma, liberation และ depth psychology
+แกนความคิด:
+Shulman ร่วมกับ Mary Watkins วางแนวคิด psychologies of liberation ที่ไม่ได้มองการปลดปล่อยเป็นแค่คำการเมือง แต่เป็นงานทางจิต วิญญาณ ชุมชน และจินตนาการ เธอช่วยให้การพูดเรื่อง oppression ไม่แห้งเป็นทฤษฎีอำนาจล้วน ๆ แต่เห็นผลสะเทือนที่ลงไปถึงภาพภายใน ความสัมพันธ์ และวิธีที่คนรู้สึกว่าตนมีหรือไม่มีที่ยืนในโลก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+psychologies of liberation, community, social trauma, depth psychology, healing
+Lillian Comas-Díaz
+สาย / สำนัก: Liberation Psychology, Multicultural Psychology, Ethnocultural Psychotherapy
+ผลงานสำคัญ:
+Multicultural Care
+Ethnocultural Psychotherapy
+งานด้าน decolonial psychology, racial trauma, liberation healing
+แกนความคิด:
+Comas-Díaz สำคัญกับการเชื่อม psychotherapy เข้ากับวัฒนธรรม เชื้อชาติ อัตลักษณ์ บาดแผลทางสังคม และการปลดปล่อย เธอทำให้การบำบัดไม่ใช่แค่เรื่องเทคนิคระหว่างนักบำบัดกับผู้รับบริการ แต่ต้องรับรู้ประวัติศาสตร์ของอำนาจ การเหยียด การย้ายถิ่น ภาษา และความทรงจำของชุมชนด้วย
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+multicultural therapy, liberation healing, racial trauma, decolonial psychology, ethnocultural identity
+Martín-Baró / Freire / Fanon เป็นแกนร่วมอย่างไร
+สาย / สำนัก: Liberation Psychology, Critical Consciousness, Anti-Colonial Psychology
+ผลงานสำคัญ:
+Martín-Baró: Writings for a Liberation Psychology
+Freire: Pedagogy of the Oppressed
+Fanon: Black Skin, White Masks, The Wretched of the Earth
+แกนความคิด:
+ถ้าต้องวางแกนสามคนนี้ในเว็บ ให้มองแบบนี้:
+Martín-Baró ให้ภาษาของ “จิตวิทยาเพื่อผู้ถูกกดขี่”
+Freire ให้ภาษาของ “การตื่นรู้และการศึกษาเพื่อปลดปล่อย”
+Fanon ให้ภาษาของ “บาดแผลทางจิตใต้อาณานิคมและการเหยียดเชื้อชาติ”
+สามคนนี้ทำให้จิตวิทยาไม่สามารถพูดเรื่อง healing แบบไร้การเมืองได้อีกต่อไป เพราะบางบาดแผลไม่ได้เกิดจากอดีตส่วนตัวเท่านั้น แต่เกิดจากโลกที่จัดวางมนุษย์บางกลุ่มให้ต่ำกว่าอีกกลุ่ม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+oppression, liberation, colonial trauma, critical consciousness, political healing
+David Smail
+สาย / สำนัก: Critical Psychology, Social Materialism, Psychotherapy Critique
+ผลงานสำคัญ:
+The Origins of Unhappiness
+Power, Interest and Psychology
+Taking Care
+แกนความคิด:
+Smail วิจารณ์จิตบำบัดที่ทำเหมือนความทุกข์เกิดจากภายในตัวบุคคลล้วน ๆ เขาเสนอว่าความทุกข์จำนวนมากมีรากจากอำนาจ วัตถุ เศรษฐกิจ ชนชั้น และเงื่อนไขชีวิตจริง คนไม่ได้ทุกข์เพราะคิดผิดอย่างเดียว แต่ทุกข์เพราะโลกกดทับอย่างเป็นรูปธรรม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+critical therapy, power, unhappiness, social materialism, class and mental distress
+Nikolas Rose
+สาย / สำนัก: Critical Psychology, Sociology of Psychology, Governmentality
+ผลงานสำคัญ:
+Governing the Soul
+Inventing Our Selves
+Powers of Freedom
+Our Psychiatric Future
+แกนความคิด:
+Rose สำคัญกับการวิเคราะห์ว่าจิตวิทยาและจิตเวชไม่ได้เป็นแค่ศาสตร์ที่ช่วยคน แต่ยังเป็นเทคโนโลยีในการปกครองมนุษย์สมัยใหม่ด้วย เขาชี้ว่าคำอย่าง self-esteem, autonomy, adjustment, risk, therapy และ normality อาจทำให้คนเรียนรู้ที่จะกำกับ ควบคุม และจัดการตัวเองให้สอดคล้องกับระบบ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+governing the soul, psy-disciplines, self-management, governmentality, neoliberal subject
+Michel Foucault
+สาย / สำนัก: Critical Theory, History of Madness, Power/Knowledge, Genealogy
+ผลงานสำคัญ:
+Madness and Civilization
+Discipline and Punish
+The History of Sexuality
+The Birth of the Clinic
+แกนความคิด:
+Foucault ไม่ใช่นักจิตวิทยาโดยตรง แต่สำคัญมากต่อ critical psychology เพราะเขาทำให้เห็นว่าความรู้เรื่องความบ้า ความผิดปกติ เพศ อาชญากรรม และร่างกาย ถูกผลิตผ่านสถาบัน อำนาจ ภาษา และวิธีจำแนกมนุษย์ งานของเขาทำให้เราระวังว่า “การวินิจฉัย” หรือ “ความปกติ” ไม่ใช่คำบริสุทธิ์ไร้อำนาจ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+madness, power/knowledge, discipline, normality, diagnosis, subjectification
+bell hooks
+สาย / สำนัก: Feminist Theory, Critical Pedagogy, Cultural Criticism
+ผลงานสำคัญ:
+Teaching to Transgress
+Ain’t I a Woman
+All About Love
+Feminist Theory: From Margin to Center
+แกนความคิด:
+bell hooks ไม่ใช่นักจิตวิทยาโดยตรง แต่สำคัญมากต่อ critical / liberation psychology เพราะเธอวางภาษาของความรัก การศึกษา เพศ เชื้อชาติ ชนชั้น และการปลดปล่อยไว้อย่างมีเลือดเนื้อ งานของเธอช่วยเตือนว่า healing ที่แท้ไม่ควรถูกแยกจากความยุติธรรม ความสัมพันธ์ และการทวงคืนเสียงของคนชายขอบ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+feminism, love, pedagogy, race, class, liberation, voice
+Linda Tuhiwai Smith
+สาย / สำนัก: Decolonial Methodology, Indigenous Studies, Critical Research
+ผลงานสำคัญ:
+Decolonizing Methodologies
+แกนความคิด:
+Smith สำคัญกับการวิจารณ์งานวิจัยแบบอาณานิคม เธอชี้ว่าการวิจัยไม่ใช่กิจกรรมเป็นกลางเสมอไป เพราะประวัติศาสตร์ของการเก็บข้อมูล การจำแนก และการอธิบายชนพื้นเมืองมักผูกกับอำนาจอาณานิคม งานของเธอสำคัญมากถ้าเว็บไซต์จะเขียนเรื่องจิตวิทยาอย่างรับผิดชอบต่อคนที่ถูกศึกษา ไม่ใช่แค่ใช้พวกเขาเป็นวัตถุดิบทางทฤษฎี
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+decolonizing research, indigenous knowledge, research ethics, colonial power, methodology
+María Lugones
+สาย / สำนัก: Decolonial Feminism, Philosophy of Oppression, Critical Theory
+ผลงานสำคัญ:
+งานด้าน coloniality of gender
+Pilgrimages/Peregrinajes
+แกนความคิด:
+Lugones สำคัญกับการคิดเรื่องเพศภายใต้ coloniality เธอเสนอว่าระบบเพศแบบที่เราคิดว่าเป็นธรรมชาติ อาจถูกจัดรูปขึ้นใหม่ผ่านอำนาจอาณานิคม เชื้อชาติ ศาสนา และระบบเศรษฐกิจ งานของเธอเหมาะกับการขยายจิตวิทยาให้เห็นว่า gendered self ไม่ได้เกิดจากครอบครัวหรือจิตส่วนบุคคลอย่างเดียว แต่ถูกสร้างผ่านประวัติศาสตร์อำนาจขนาดใหญ่
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+decolonial feminism, gender, coloniality, oppression, intersectionality
+Eduardo Duran
+สาย / สำนัก: Indigenous Psychology, Liberation Psychology, Soul Wound, Historical Trauma
+ผลงานสำคัญ:
+Healing the Soul Wound
+Native American Postcolonial Psychology
+แกนความคิด:
+Duran สำคัญกับการอธิบาย historical trauma และ soul wound ในบริบทชนพื้นเมือง เขาวิจารณ์การบำบัดที่ใช้กรอบตะวันตกอย่างเดียวกับบาดแผลที่เกิดจากอาณานิคม การฆ่าล้างวัฒนธรรม การบังคับกลืนกลาย และการสูญเสียสายสัมพันธ์กับชุมชน บรรพบุรุษ และแผ่นดิน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+historical trauma, soul wound, indigenous psychology, decolonial healing, collective trauma
+Derald Wing Sue
+สาย / สำนัก: Multicultural Psychology, Counseling Psychology, Microaggressions
+ผลงานสำคัญ:
+Counseling the Culturally Diverse
+Microaggressions in Everyday Life
+งานด้าน multicultural counseling
+แกนความคิด:
+Sue สำคัญกับ multicultural psychology และแนวคิด microaggressions เขาชี้ว่าการเหยียดหรือการกดทับไม่ได้มาในรูปความรุนแรงเปิดเผยเท่านั้น แต่แทรกอยู่ในคำพูด ท่าที สถาบัน และการทำให้คนบางกลุ่มต้องอธิบายความเป็นมนุษย์ของตัวเองซ้ำ ๆ งานของเขามีประโยชน์มากต่อการเขียนเรื่องบาดแผลทางสังคมในชีวิตประจำวัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+microaggressions, multicultural counseling, racism, cultural competence, everyday oppression
+Beverly Daniel Tatum
+สาย / สำนัก: Race Psychology, Identity Development, Education and Social Justice
+ผลงานสำคัญ:
+Why Are All the Black Kids Sitting Together in the Cafeteria?
+Can We Talk About Race?
+แกนความคิด:
+Tatum สำคัญกับการอธิบาย racial identity development และการเรียนรู้เรื่องเชื้อชาติในสังคม เธอทำให้เห็นว่าอัตลักษณ์ทางเชื้อชาติไม่ได้เป็นแค่เรื่องส่วนตัว แต่ถูกสร้างผ่านโรงเรียน ครอบครัว สื่อ ประวัติศาสตร์ และโครงสร้างสังคม งานของเธอเหมาะมากสำหรับการเขียนเรื่อง identity ที่ไม่ตื้นเป็น self-discovery แบบปัจเจกนิยม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+racial identity, education, socialization, racism, identity development
+Urie Bronfenbrenner
+สาย / สำนัก: Ecological Systems Theory, Developmental Psychology, Social Ecology
+ผลงานสำคัญ:
+The Ecology of Human Development
+Making Human Beings Human
+แกนความคิด:
+Bronfenbrenner สำคัญเพราะเขาทำให้พัฒนาการมนุษย์ถูกอ่านผ่านระบบนิเวศของชีวิต ไม่ใช่แค่ครอบครัวหรือบุคลิกภาพภายใน เขาเสนอระบบหลายชั้น เช่น microsystem, mesosystem, exosystem, macrosystem และ chronosystem เพื่ออธิบายว่าเด็กและมนุษย์ถูกสร้างโดยครอบครัว โรงเรียน ชุมชน นโยบาย เศรษฐกิจ วัฒนธรรม และเวลาอย่างไร
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+ecological systems, development, family, institution, culture, social context
+James W. Pennebaker
+สาย / สำนัก: Cultural Psychology, Language Psychology, Trauma and Narrative
+ผลงานสำคัญ:
+Opening Up
+The Secret Life of Pronouns
+งานด้าน expressive writing และ language analysis
+แกนความคิด:
+Pennebaker สำคัญกับการศึกษาความสัมพันธ์ระหว่างภาษา การเขียน บาดแผล และสุขภาพจิต เขาแสดงให้เห็นว่าการเล่า การเขียน และโครงสร้างของคำที่เราใช้ สะท้อนทั้งอารมณ์ ตัวตน ความสัมพันธ์ และการจัดระเบียบประสบการณ์ภายใน งานนี้ใช้เชื่อม cultural / narrative / trauma psychology ได้ดีมาก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+language, expressive writing, trauma narrative, self, social words
+สรุปแกนของสายนี้
+สายนี้ควรเก็บไว้เป็นฐานของเว็บเวลาเขียนเรื่อง:
+จิตใจมนุษย์ไม่ได้เกิดในสุญญากาศ แต่เกิดในภาษา วัฒนธรรม ประวัติศาสตร์ และความสัมพันธ์ทางสังคม
+ความทุกข์ทางจิตจำนวนมากไม่ใช่ปัญหาส่วนตัวล้วน ๆ แต่อาจเป็นผลของอำนาจ ความจน การเหยียด เพศ ชนชั้น อาณานิคม และสถาบัน
+จิตวิทยากระแสหลักต้องถูกตรวจสอบ เพราะบางครั้งมันทำให้ปัญหาทางสังคมกลายเป็นอาการของบุคคล
+liberation psychology เสนอว่าจิตวิทยาควรเริ่มจากเสียงของผู้ถูกกดขี่ ไม่ใช่จากทฤษฎีของศูนย์กลางอำนาจเท่านั้น
+critical psychology ถามว่า ความรู้ทางจิตวิทยารับใช้ใคร ใครได้ประโยชน์ ใครถูกทำให้เงียบ และใครถูกนิยามว่า “ผิดปกติ”
+cultural psychology ชี้ว่า self, emotion, cognition และ morality ถูกสร้างร่วมกับวัฒนธรรม ไม่ใช่สากลแบบง่าย ๆ
+decolonial และ indigenous psychology เตือนว่า healing ไม่ควรตัดคนออกจากแผ่นดิน บรรพบุรุษ ภาษา ชุมชน และประวัติศาสตร์บาดแผล
+ถ้าจะเขียน Jung / Freud / Lacan ให้ร่วมสมัยขึ้น สายนี้จำเป็นมาก เพราะมันทำให้ psyche ไม่ถูกขังอยู่แค่ในห้องบำบัด แต่กลับไปอยู่ในโลกที่มีรัฐ โรงเรียน ศาสนา ภาษา ชนชั้น เพศ เชื้อชาติ และประวัติศาสตร์กดทับอยู่จริง
+รายชื่อแกนหลักที่ควรใช้เป็นฐานอ้างอิงก่อน
+Lev Vygotsky
+Alexander Luria
+Aleksei Leontiev
+Michael Cole
+Jerome Bruner
+Richard Shweder
+Hazel Rose Markus
+Shinobu Kitayama
+Harry Triandis
+John W. Berry
+Patricia Greenfield
+Barbara Rogoff
+Michael Tomasello
+Klaus Holzkamp
+Ian Parker
+Erica Burman
+Thomas Teo
+Isaac Prilleltensky
+Dennis Fox
+Valerie Walkerdine
+Michelle Fine
+Ignacio Martín-Baró
+Paulo Freire
+Frantz Fanon
+Maritza Montero
+Mary Watkins
+Helene Shulman
+Lillian Comas-Díaz
+David Smail
+Nikolas Rose
+Michel Foucault
+bell hooks
+Linda Tuhiwai Smith
+María Lugones
+Eduardo Duran
+Derald Wing Sue
+Beverly Daniel Tatum
+Urie Bronfenbrenner
+James W. Pennebaker
+รันสายอื่น ๆ ต่อได้เลยค่ะ
+สายถัดไปคือ Narrative Psychology / Identity / Life Story

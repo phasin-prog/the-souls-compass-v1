@@ -1,0 +1,786 @@
+Philosophy of Technology / Technics / Media Philosophy
+แกนกลาง
+Philosophy of Technology / Technics / Media Philosophy คือสายปรัชญาที่ตั้งคำถามกับ “เครื่องมือ” ในระดับที่ลึกกว่าการถามว่าเครื่องมือนั้นดีหรือไม่ดี
+สายนี้ไม่ได้ถามแค่ว่า
+เทคโนโลยีมีประโยชน์ไหม
+AI จะเก่งแค่ไหน
+โซเชียลมีเดียทำให้คนติดมือถือหรือเปล่า
+เครื่องจักรทำให้งานเร็วขึ้นหรือไม่
+แต่ถามลึกกว่านั้นว่า
+เทคโนโลยีเปลี่ยนวิธีที่มนุษย์เห็นโลกอย่างไร
+เครื่องมือเปลี่ยนวิธีที่มนุษย์คิดอย่างไร
+สื่อเปลี่ยนความทรงจำ ภาษา เวลา ความสัมพันธ์ และตัวตนอย่างไร
+สิ่งที่เราเรียกว่า “เครื่องมือ” เป็นแค่ของใช้ภายนอก หรือเป็นสิ่งที่ย้อนกลับมาสร้างมนุษย์ด้วย
+มนุษย์ใช้เทคโนโลยี หรือเทคโนโลยีใช้มนุษย์ผ่านระบบความเคยชิน ความสะดวก การเสพติด และโครงสร้างสังคม
+และเมื่อชีวิตของมนุษย์ถูกฝากไว้กับหน้าจอ algorithm database cloud AI platform และเครื่องมือดิจิทัล ตัวตนของเรายังอยู่ที่เดิมจริงหรือไม่
+สายนี้ต้องจับคำว่า technics ให้ชัด
+Technology มักหมายถึงเครื่องมือ ระบบ เทคนิค เครื่องจักร กระบวนการ และโครงสร้างที่มนุษย์สร้างขึ้นเพื่อทำบางสิ่ง
+Technics ลึกกว่านั้น คือมิติของเทคนิค เครื่องมือ การทำ การฝึก การจัดรูปโลก และการ externalize ความสามารถของมนุษย์ออกไปนอกตัว
+Media Philosophy มองว่าสื่อไม่ได้เป็นแค่ช่องทางส่งสาร แต่เป็นสิ่งแวดล้อมที่เปลี่ยนการรับรู้ ความจำ จังหวะชีวิต และวิธีที่มนุษย์สัมพันธ์กับโลก
+ถ้าพูดให้เป็นภาษาของ The Soul’s Compass
+สายนี้คือสายที่ถามว่า
+จิตใจมนุษย์ในยุคเทคโนโลยี
+ยังเป็นจิตใจแบบเดิมอยู่ไหม
+เมื่อความจำอยู่ในมือถือ
+ความรักอยู่ในแชท
+ความโกรธถูก algorithm ขยาย
+ความเหงาถูก platform จัดการ
+ความคิดถูก autocomplete
+ภาพตัวตนถูก metrics วัด
+เวลาแตกเป็น notification
+และเสียงภายในถูกสื่อภายนอกกลบจนแทบไม่ได้ยิน
+เทคโนโลยีจึงไม่ใช่แค่สิ่งที่เราถืออยู่ในมือ
+แต่มันอาจเป็นโลกใหม่ที่ค่อย ๆ ถือเราไว้เช่นกัน
+นักคิดหลัก
+Martin Heidegger
+ผลงานหลัก
+“The Question Concerning Technology”
+Being and Time
+Discourse on Thinking
+The Origin of the Work of Art
+แนวคิดสำคัญ
+Heidegger เป็นแกนสำคัญของ philosophy of technology เพราะเขาไม่มองเทคโนโลยีเป็นแค่เครื่องมือ แต่ถามถึง essence of technology หรือแก่นของเทคโนโลยีในฐานะวิธีที่โลกถูกเปิดเผยต่อมนุษย์
+แนวคิดสำคัญของเขาคือ Enframing หรือ Gestell
+โลกเทคโนโลยีทำให้สิ่งต่าง ๆ ปรากฏในฐานะ standing-reserve คือสิ่งที่พร้อมถูกใช้ พร้อมถูกคำนวณ พร้อมถูกจัดเก็บ พร้อมถูกสั่งการ
+แม่น้ำไม่ใช่แม่น้ำ แต่เป็นพลังงาน
+ป่าไม่ใช่ป่า แต่เป็นทรัพยากร
+มนุษย์ไม่ใช่มนุษย์ แต่เป็นแรงงาน ข้อมูล ผู้ใช้ หรือหน่วยผลิต
+Heidegger สำคัญสำหรับเว็บเรา เพราะเขาทำให้เห็นว่าเทคโนโลยีไม่ได้แค่เปลี่ยนเครื่องมือ
+แต่มันเปลี่ยนวิธีที่ Being ปรากฏต่อเรา
+คำสำคัญ
+Enframing
+Gestell
+Standing-Reserve
+Revealing
+Essence of Technology
+Technological Mode of Being
+Calculative Thinking
+Jacques Ellul
+ผลงานหลัก
+The Technological Society
+The Technological System
+Propaganda
+The Technological Bluff
+แนวคิดสำคัญ
+Jacques Ellul เสนอแนวคิด technique ในฐานะระบบที่กว้างกว่าเครื่องจักร
+Technique ไม่ใช่แค่เครื่องมือ แต่คือวิธีคิดแบบประสิทธิภาพสูงสุด การจัดการ การคำนวณ การควบคุม และการทำให้ทุกอย่างเป็นระบบที่เหมาะแก่การดำเนินงาน
+Ellul สำคัญเพราะเขาเห็นว่าเทคโนโลยีสมัยใหม่มี autonomy บางแบบ
+เมื่อสังคมรับตรรกะของ efficiency เป็นแกน ทุกอย่างจะถูกปรับให้เข้ากับระบบ ไม่ว่าจะเป็นการศึกษา การเมือง การสื่อสาร ศาสนา ศิลปะ หรือชีวิตประจำวัน
+คำถามของ Ellul คือ
+ถ้าทุกอย่างต้องมีประสิทธิภาพ
+อะไรในมนุษย์จะถูกทำให้ไร้ค่าเพราะมันไม่มีประสิทธิภาพพอ
+คำสำคัญ
+Technique
+Technological Society
+Efficiency
+Autonomy of Technique
+Propaganda
+Technological System
+Instrumental Rationality
+Lewis Mumford
+ผลงานหลัก
+Technics and Civilization
+The Myth of the Machine
+The City in History
+Art and Technics
+แนวคิดสำคัญ
+Lewis Mumford เป็นนักคิดสำคัญที่มองเทคโนโลยีเชื่อมกับเมือง อารยธรรม การเมือง และรูปแบบชีวิต
+เขาแยกความต่างระหว่างเทคโนโลยีที่รับใช้ชีวิตกับเทคโนโลยีที่กลายเป็น megamachine คือระบบขนาดใหญ่ที่จัดมนุษย์ให้เป็นชิ้นส่วนของกลไกอำนาจ
+Mumford สำคัญเพราะเขาไม่คิดเทคโนโลยีแบบเครื่องมือเดี่ยว ๆ แต่คิดเป็นระบบอารยธรรม
+เมือง โรงงาน รัฐ กองทัพ bureaucratic system และเครื่องจักรทางสังคมล้วนเป็นส่วนหนึ่งของ technics
+สำหรับเว็บเรา Mumford ช่วยให้เห็นว่า
+บางครั้งเทคโนโลยีที่น่ากลัวที่สุดไม่ใช่เครื่องจักรเหล็ก
+แต่คือระบบที่ทำให้มนุษย์กลายเป็นฟันเฟืองโดยไม่รู้ตัว
+คำสำคัญ
+Technics and Civilization
+Megamachine
+Authoritarian Technics
+Democratic Technics
+Civilization
+City
+Machine Myth
+Gilbert Simondon
+ผลงานหลัก
+On the Mode of Existence of Technical Objects
+Individuation in Light of Notions of Form and Information
+งานด้าน individuation, technology และ ontology
+แนวคิดสำคัญ
+Simondon สำคัญมากเพราะเขาไม่มองวัตถุเทคนิคเป็นของต่ำกว่ามนุษย์ เขาเสนอว่า technical objects มี mode of existence ของตนเอง และต้องถูกเข้าใจในกระบวนการวิวัฒน์ของมัน
+เขาวิจารณ์ท่าทีที่มนุษย์แปลกแยกจากเทคโนโลยี เพราะมองเครื่องมือเป็นเพียงของใช้หรือภัยคุกคาม ทั้งที่มนุษย์ควรเข้าใจตรรกะการก่อตัวของวัตถุเทคนิค
+แนวคิด individuation ของ Simondon สำคัญมากสำหรับเว็บเรา
+เพราะเขามองสิ่งต่าง ๆ ไม่ใช่วัตถุสำเร็จรูป แต่เป็นกระบวนการก่อตัว
+มนุษย์ เครื่องมือ สังคม และความรู้ ล้วนกำลังกลายเป็นบางสิ่งอยู่ตลอดเวลา
+คำสำคัญ
+Technical Objects
+Mode of Existence
+Individuation
+Transduction
+Metastability
+Information
+Human-Technology Relation
+Bernard Stiegler
+ผลงานหลัก
+Technics and Time
+Taking Care of Youth and the Generations
+For a New Critique of Political Economy
+The Age of Disruption
+แนวคิดสำคัญ
+Bernard Stiegler เป็นหนึ่งในนักคิดสำคัญที่สุดสำหรับเว็บเรา เพราะเขามองว่า technics ไม่ใช่สิ่งภายนอกมนุษย์ แต่มนุษย์เป็นสิ่งมีชีวิตที่ externalize ความทรงจำ ความสามารถ และเวลาออกไปในเครื่องมือ
+การเขียน ปฏิทิน หนังสือ กล้อง โทรศัพท์ อินเทอร์เน็ต และ AI ล้วนเป็นรูปแบบของ memory ภายนอก
+แต่เทคโนโลยีเป็น pharmakon คือทั้งยาและพิษ
+มันช่วยจำ แต่ก็ทำให้เราลืม
+มันช่วยคิด แต่ก็ทำให้เราหยุดคิด
+มันเชื่อมคน แต่ก็จับ attention
+มันเปิดโลก แต่ก็อาจทำให้ desire ถูกระบบอุตสาหกรรมยึดครอง
+Stiegler สำคัญต่อ The Soul’s Compass มาก เพราะเขาช่วยวางคำถามว่า
+จิตใจมนุษย์ในยุคดิจิทัลกำลังถูกดูแล หรือถูกทำให้หมดแรงผ่านเศรษฐกิจของ attention
+คำสำคัญ
+Technics
+Technics and Time
+Exteriorization
+Prosthesis
+Memory
+Pharmakon
+Attention
+Proletarianization
+Don Ihde
+ผลงานหลัก
+Technology and the Lifeworld
+Technics and Praxis
+Bodies in Technology
+Postphenomenology and Technoscience
+แนวคิดสำคัญ
+Don Ihde เป็นแกนสำคัญของ postphenomenology ซึ่งศึกษาว่าเทคโนโลยีเปลี่ยนประสบการณ์ของมนุษย์อย่างไร
+เขาเสนอว่าเทคโนโลยีเป็น mediation
+มันไม่ใช่แค่ของกลางที่เป็นกลาง แต่เป็นสิ่งที่แปล ขยาย ลดทอน และจัดรูปความสัมพันธ์ระหว่างมนุษย์กับโลก
+แว่นตาทำให้เห็นโลกแบบหนึ่ง
+กล้องทำให้เห็นโลกแบบหนึ่ง
+แผนที่ทำให้เข้าใจพื้นที่แบบหนึ่ง
+หน้าจอทำให้ความสัมพันธ์กลายเป็นภาพ/ข้อความ/การแจ้งเตือน
+AI ทำให้ความคิดของมนุษย์ถูกสะท้อนผ่านระบบอีกแบบหนึ่ง
+Ihde สำคัญเพราะเขาทำให้เราถามว่า
+เมื่อเราใช้เครื่องมือ เราไม่ได้แค่ทำอะไรเร็วขึ้น
+แต่เรารับรู้โลกผ่านเครื่องมือนั้นต่างออกไปด้วย
+คำสำคัญ
+Postphenomenology
+Human-Technology Relations
+Mediation
+Embodiment Relations
+Hermeneutic Relations
+Technological Intentionality
+Lifeworld
+Albert Borgmann
+ผลงานหลัก
+Technology and the Character of Contemporary Life
+Crossing the Postmodern Divide
+Holding On to Reality
+Power Failure
+แนวคิดสำคัญ
+Albert Borgmann เสนอแนวคิด device paradigm เพื่ออธิบายว่าเทคโนโลยีสมัยใหม่มักให้ผลลัพธ์สะดวกโดยตัดเราออกจากกระบวนการและความสัมพันธ์ที่เคยทำให้ชีวิตมีความหมาย
+เตาผิงแบบเก่าไม่ใช่แค่ให้ความร้อน
+แต่มันรวมการหาฟืน การจุดไฟ การนั่งร่วมกัน กลิ่น เสียง ความพยายาม และ ritual ของบ้าน
+ระบบทำความร้อนสมัยใหม่ให้ “ความร้อน” อย่างมีประสิทธิภาพกว่า
+แต่ซ่อนเครื่องมือ กระบวนการ และความสัมพันธ์ไว้หลังปุ่มเดียว
+Borgmann จึงถามว่า
+ความสะดวกทำให้เราได้อะไร
+และทำให้เราสูญเสีย focal things กับ focal practices อะไรไปบ้าง
+คำสำคัญ
+Device Paradigm
+Focal Things
+Focal Practices
+Contemporary Life
+Availability
+Commodification
+Meaningful Practice
+Andrew Feenberg
+ผลงานหลัก
+Critical Theory of Technology
+Transforming Technology
+Questioning Technology
+Between Reason and Experience
+แนวคิดสำคัญ
+Andrew Feenberg เสนอ critical theory of technology โดยปฏิเสธความคิดที่ว่าเทคโนโลยีเป็นกลางหรือถูกกำหนดโดยตรรกะภายในของมันอย่างเดียว
+เขามองว่าเทคโนโลยีถูกออกแบบภายใต้คุณค่า อำนาจ สถาบัน เศรษฐกิจ และการเมือง
+ดังนั้นเทคโนโลยีสามารถถูก democratize ได้
+ไม่ใช่แค่ให้ผู้เชี่ยวชาญหรือบริษัทออกแบบโลกแทนมนุษย์ทั้งหมด
+Feenberg สำคัญต่อเว็บเรา เพราะเขาทำให้คำถามเรื่องเทคโนโลยีไม่จบที่การยอมรับหรือปฏิเสธ
+แต่ถามว่า
+ใครออกแบบ
+ใครได้ประโยชน์
+ใครถูกบังคับให้ปรับตัว
+และเทคโนโลยีนั้นสามารถถูกออกแบบใหม่ให้รับใช้ชีวิตมนุษย์อย่างมีศักดิ์ศรีขึ้นได้ไหม
+คำสำคัญ
+Critical Theory of Technology
+Democratic Rationalization
+Technical Politics
+Design
+Instrumentalization
+Technology and Power
+User Agency
+Langdon Winner
+ผลงานหลัก
+The Whale and the Reactor
+“Do Artifacts Have Politics?”
+Autonomous Technology
+The Democratic Shaping of Technology
+แนวคิดสำคัญ
+Langdon Winner ตั้งคำถามสำคัญมากว่า
+วัตถุเทคนิคมีการเมืองหรือไม่
+เขาเสนอว่า artifacts บางอย่างไม่ได้เป็นกลาง แต่ฝังรูปแบบอำนาจ ความสัมพันธ์ และการตัดสินใจทางสังคมไว้ในตัวมันเอง
+สะพาน ถนน ระบบไฟฟ้า software architecture platform และ infrastructure อาจจัดว่าใครเข้าถึงได้ ใครถูกกันออก ใครควบคุม ใครถูกควบคุม
+Winner สำคัญเพราะเขาทำให้เราเห็นว่า
+การเมืองไม่ได้อยู่แค่ในรัฐสภา
+แต่มันอยู่ในสิ่งของ ระบบ และโครงสร้างที่เราคิดว่าเป็นเพียงเทคนิค
+คำสำคัญ
+Do Artifacts Have Politics?
+Autonomous Technology
+Technological Politics
+Infrastructure
+Design and Power
+Political Artifacts
+Technological Order
+Marshall McLuhan
+ผลงานหลัก
+Understanding Media
+The Gutenberg Galaxy
+The Medium Is the Massage
+War and Peace in the Global Village
+แนวคิดสำคัญ
+Marshall McLuhan คือแกนสำคัญของ media philosophy ผ่านประโยคที่โด่งดังว่า the medium is the message
+ความหมายคือ สิ่งที่สื่อทำกับมนุษย์ไม่ได้อยู่แค่ในเนื้อหาที่มันส่ง
+แต่รูปแบบของสื่อเองเปลี่ยนประสาทสัมผัส จังหวะการรับรู้ โครงสร้างสังคม และวิธีที่มนุษย์คิด
+ตัวอักษรพิมพ์สร้างมนุษย์แบบหนึ่ง
+โทรทัศน์สร้างมนุษย์แบบหนึ่ง
+อินเทอร์เน็ตสร้างมนุษย์แบบหนึ่ง
+โซเชียลมีเดียสร้างมนุษย์แบบหนึ่ง
+AI interface อาจกำลังสร้างมนุษย์อีกแบบหนึ่ง
+McLuhan สำคัญมากต่อ The Soul’s Compass เพราะเขาทำให้เราไม่หลงคิดว่า “เนื้อหา” คือทุกอย่าง
+บางครั้งสิ่งที่เปลี่ยน psyche ไม่ใช่สิ่งที่เราดู
+แต่คือรูปแบบของการดู
+คำสำคัญ
+The Medium Is the Message
+Media Ecology
+Extensions of Man
+Global Village
+Hot and Cool Media
+Gutenberg Galaxy
+Sensory Ratio
+Walter J. Ong
+ผลงานหลัก
+Orality and Literacy
+The Presence of the Word
+Interfaces of the Word
+Ramus, Method, and the Decay of Dialogue
+แนวคิดสำคัญ
+Walter Ong ศึกษาความต่างระหว่างวัฒนธรรมมุขปาฐะกับวัฒนธรรมลายลักษณ์อักษร
+เขาเสนอว่าเทคโนโลยีการเขียนไม่ได้เป็นแค่การบันทึกคำพูด แต่เปลี่ยนโครงสร้างความคิด ความจำ การโต้แย้ง การจัดหมวด และการสร้างตัวตน
+ในวัฒนธรรม oral ความรู้ผูกกับเสียง ความจำ rhythm เรื่องเล่า และการอยู่ร่วมกัน
+แต่เมื่อเข้าสู่ literacy ความคิดสามารถแยกออกจากสถานการณ์ ถูกจัดเป็นระบบ ถูกวิเคราะห์ และถูกเก็บนอกตัวมนุษย์ได้มากขึ้น
+Ong สำคัญต่อเว็บ เพราะทำให้เราเห็นว่า
+รูปแบบการเขียนที่เราใช้สร้าง Wiki ไม่ใช่แค่ภาชนะของความรู้
+แต่มันเปลี่ยนวิธีที่ความรู้เกิดขึ้นด้วย
+คำสำคัญ
+Orality
+Literacy
+Writing Technology
+Memory
+Voice
+Textual Consciousness
+Secondary Orality
+Neil Postman
+ผลงานหลัก
+Amusing Ourselves to Death
+Technopoly
+The Disappearance of Childhood
+Teaching as a Conserving Activity
+แนวคิดสำคัญ
+Neil Postman เป็นนักคิดสำคัญของ media ecology เขาวิจารณ์สังคมที่ปล่อยให้เทคโนโลยีและสื่อกำหนดวัฒนธรรมโดยแทบไม่มีคำถาม
+ใน Amusing Ourselves to Death เขาเสนอว่าสื่อโทรทัศน์ทำให้การเมือง ศาสนา การศึกษา และข่าวสารกลายเป็น entertainment
+ใน Technopoly เขาวิจารณ์สังคมที่เทคโนโลยีกลายเป็นผู้ตัดสินว่าอะไรจริง อะไรมีค่า อะไรควรทำ และอะไรล้าสมัย
+Postman สำคัญสำหรับเว็บเรา เพราะเขาช่วยถามว่า
+เมื่อความรู้ถูกบังคับให้สนุก เร็ว สั้น และดึงดูดตลอดเวลา
+ความคิดลึก ๆ จะอยู่รอดอย่างไร
+คำสำคัญ
+Media Ecology
+Technopoly
+Amusing Ourselves to Death
+Entertainment Culture
+Information
+Public Discourse
+Education and Media
+Friedrich Kittler
+ผลงานหลัก
+Gramophone, Film, Typewriter
+Discourse Networks 1800/1900
+Optical Media
+The Truth of the Technological World
+แนวคิดสำคัญ
+Friedrich Kittler เป็นนักคิด media theory ที่แรงมาก เพราะเขาเสนอว่าสื่อเทคนิคไม่ได้แค่ส่งความหมาย แต่มันกำหนดว่าอะไรสามารถถูกบันทึก ส่งต่อ ประมวลผล และคิดได้
+ประโยคสำคัญของสาย Kittler คือ media determine our situation
+สื่อกำหนดสถานการณ์ของเรา
+เมื่อมี gramophone เสียงถูกบันทึกต่างจากตัวหนังสือ
+เมื่อมี film การมองและความทรงจำเปลี่ยน
+เมื่อมี typewriter การเขียนแยกจากลายมือ ร่างกาย และเสียงของผู้เขียนในอีกแบบหนึ่ง
+เมื่อมีคอมพิวเตอร์ ข้อมูลทุกชนิดถูกแปลงเป็น code
+Kittler สำคัญเพราะเขาเตือนว่า
+มนุษย์ไม่ได้เป็นเจ้าของภาษาและสื่ออย่างสมบูรณ์
+บางครั้งสื่อคิดผ่านเรา
+คำสำคัญ
+Media Theory
+Discourse Networks
+Gramophone / Film / Typewriter
+Technical Media
+Inscription
+Code
+Media Materialism
+Vilém Flusser
+ผลงานหลัก
+Towards a Philosophy of Photography
+Into the Universe of Technical Images
+The Shape of Things
+Does Writing Have a Future?
+แนวคิดสำคัญ
+Vilém Flusser สำคัญต่อ media philosophy เพราะเขาวิเคราะห์ technical images เช่น ภาพถ่าย ภาพยนตร์ วิดีโอ และภาพดิจิทัล
+เขาเสนอว่ากล้องไม่ใช่เครื่องมือกลาง ๆ ที่มนุษย์ใช้ตามใจ
+กล้องมี program ของมัน
+คนถ่ายภาพเล่นอยู่ใน possibilities ที่ apparatus อนุญาตให้เล่น
+นี่สำคัญมากในยุค AI image และ algorithmic media
+เพราะผู้ใช้คิดว่าตนเองสร้างภาพ
+แต่ภาพนั้นถูกจำกัดและจัดรูปโดย apparatus, prompt system, dataset, model และ interface
+Flusser ทำให้เราถามว่า
+เรากำลังสร้างภาพ
+หรือกำลังเล่นอยู่ในโปรแกรมของเครื่องสร้างภาพ
+คำสำคัญ
+Technical Images
+Apparatus
+Program
+Photography
+Image Culture
+Post-Historical
+Freedom and Apparatus
+Paul Virilio
+ผลงานหลัก
+Speed and Politics
+The Information Bomb
+War and Cinema
+Open Sky
+The Accident of Art
+แนวคิดสำคัญ
+Paul Virilio เป็นนักคิดของ speed, technology, war และ perception
+เขาเสนอว่าเทคโนโลยีสมัยใหม่ไม่ใช่แค่เพิ่มพลัง แต่เพิ่มความเร็ว และความเร็วเองกลายเป็นอำนาจ
+รถไฟสร้างอุบัติเหตุรถไฟ
+เครื่องบินสร้างอุบัติเหตุเครื่องบิน
+อินเทอร์เน็ตสร้างอุบัติเหตุของข้อมูล
+AI อาจสร้างอุบัติเหตุของการตัดสินใจ ความจริง และความรับผิดชอบ
+Virilio สำคัญเพราะเขาทำให้เราเห็นว่า
+การประดิษฐ์เทคโนโลยีหนึ่งอย่าง คือการประดิษฐ์อุบัติเหตุชนิดใหม่ไปพร้อมกัน
+สำหรับ The Soul’s Compass เขาช่วยอ่านความวิตก ความเร็ว ความแตกกระจายของ attention และความรู้สึกว่ามนุษย์ตามโลกไม่ทัน
+คำสำคัญ
+Speed
+Dromology
+Accident
+Information Bomb
+War and Technology
+Perception
+Acceleration
+Ivan Illich
+ผลงานหลัก
+Tools for Conviviality
+Deschooling Society
+Medical Nemesis
+Energy and Equity
+แนวคิดสำคัญ
+Ivan Illich วิจารณ์สถาบันและเครื่องมือสมัยใหม่ที่เริ่มจากการช่วยมนุษย์ แต่สุดท้ายกลับยึดอำนาจจากมนุษย์ไป
+แนวคิดสำคัญของเขาคือ convivial tools
+เครื่องมือที่ดีควรเพิ่ม autonomy, creativity และความสามารถของชุมชน ไม่ใช่ทำให้ผู้ใช้ต้องพึ่งระบบผู้เชี่ยวชาญ บริษัท หรือสถาบันมากขึ้นเรื่อย ๆ
+Illich สำคัญมากต่อเว็บเรา เพราะเขาถามว่า
+เครื่องมือแบบไหนทำให้มนุษย์เป็นอิสระขึ้น
+และเครื่องมือแบบไหนทำให้มนุษย์อ่อนแอลงแม้มันจะสะดวกขึ้น
+นี่ใช้กับ AI ได้แรงมาก
+AI แบบ convivial ควรช่วยให้คนคิดเป็นขึ้น
+ไม่ใช่ทำให้คนเลิกคิดเอง
+คำสำคัญ
+Tools for Conviviality
+Convivial Tools
+Deschooling
+Institutional Critique
+Autonomy
+Counterproductivity
+Human Scale
+Sherry Turkle
+ผลงานหลัก
+The Second Self
+Life on the Screen
+Alone Together
+Reclaiming Conversation
+แนวคิดสำคัญ
+Sherry Turkle ศึกษาความสัมพันธ์ระหว่างมนุษย์กับคอมพิวเตอร์ อินเทอร์เน็ต หุ่นยนต์ และตัวตนดิจิทัล
+เธอเสนอว่าเทคโนโลยีไม่ได้แค่ช่วยสื่อสาร แต่สร้างพื้นที่ให้มนุษย์ทดลองตัวตน สร้าง persona ใหม่ ซ่อนความเปราะบาง และจัดการความใกล้ชิดในรูปแบบที่ควบคุมได้มากขึ้น
+ใน Alone Together เธอชี้ว่ายุคดิจิทัลอาจทำให้มนุษย์เชื่อมต่อกันมากขึ้น แต่ก็โดดเดี่ยวขึ้นในอีกแบบหนึ่ง
+Turkle สำคัญต่อ The Soul’s Compass เพราะเธอทำให้เราเห็นว่า
+เทคโนโลยีไม่ได้แค่เปลี่ยนการสื่อสาร
+แต่มันเปลี่ยนความสามารถในการอยู่กับตนเองและอยู่กับผู้อื่น
+คำสำคัญ
+Digital Self
+Online Identity
+Human-Computer Interaction
+Alone Together
+Simulation
+Technology and Intimacy
+Reclaiming Conversation
+Byung-Chul Han
+ผลงานหลัก
+The Burnout Society
+In the Swarm
+Psychopolitics
+The Transparency Society
+Non-things
+แนวคิดสำคัญ
+Byung-Chul Han เป็นนักคิดร่วมสมัยที่อ่านเทคโนโลยีดิจิทัลร่วมกับทุนนิยม attention, transparency, burnout และ subjectivity
+เขาเสนอว่าสังคมร่วมสมัยไม่ได้กดขี่มนุษย์ด้วยคำสั่ง “ต้องทำ” อย่างเดียว แต่ทำให้มนุษย์กดขี่ตนเองผ่านคำว่า “ทำได้” “พัฒนาได้” “แสดงออกได้” “ผลิตได้” “มองเห็นได้”
+ในโลกดิจิทัล มนุษย์กลายเป็นผู้เปิดเผยตนเองตลอดเวลา
+ข้อมูล ความโปร่งใส การแสดงตัว และการผลิตภาพตนเองกลายเป็นเครื่องมือของอำนาจแบบใหม่
+Han สำคัญต่อเว็บเรา เพราะเขาช่วยอ่านอาการจิตใจยุค platform ได้ดีมาก
+burnout, emptiness, performance, exposure, comparison และการสูญเสียความเงียบภายใน
+คำสำคัญ
+Burnout Society
+Psychopolitics
+Transparency
+Digital Swarm
+Performance Subject
+Attention
+Non-things
+Shoshana Zuboff
+ผลงานหลัก
+The Age of Surveillance Capitalism
+In the Age of the Smart Machine
+The Support Economy
+แนวคิดสำคัญ
+Shoshana Zuboff เสนอแนวคิด surveillance capitalism เพื่ออธิบายระบบเศรษฐกิจที่เก็บข้อมูลพฤติกรรมมนุษย์ แปลงเป็น prediction และใช้เพื่อกำกับพฤติกรรมในอนาคต
+ในระบบนี้ มนุษย์ไม่ได้เป็นแค่ผู้ใช้
+แต่กลายเป็นแหล่งข้อมูลดิบสำหรับการคาดการณ์และปรับพฤติกรรม
+Zuboff สำคัญต่อ Philosophy of Technology เพราะเธอทำให้เราเห็นว่าเทคโนโลยีดิจิทัลไม่ได้เป็นเพียงเครื่องมือส่วนตัว แต่เป็นระบบเศรษฐกิจการเมืองที่จัดรูป attention, desire, choice และ autonomy
+สำหรับเว็บเรา นี่คือจุดเชื่อมกับ psyche ชัดมาก
+เพราะถ้าพฤติกรรมมนุษย์ถูกคาดการณ์และดัดทิศอย่างต่อเนื่อง
+คำว่า “ฉันเลือกเอง” ต้องถูกถามใหม่
+คำสำคัญ
+Surveillance Capitalism
+Behavioral Surplus
+Prediction
+Data Extraction
+Instrumentarian Power
+Autonomy
+Digital Power
+Yuk Hui
+ผลงานหลัก
+The Question Concerning Technology in China
+Recursivity and Contingency
+Art and Cosmotechnics
+Machine and Sovereignty
+แนวคิดสำคัญ
+Yuk Hui สำคัญมากเพราะเขาไม่ยอมให้ philosophy of technology กลายเป็นเรื่องเล่าตะวันตกเพียงเส้นเดียว
+เขาเสนอแนวคิด cosmotechnics คือการคิดเทคโนโลยีที่สัมพันธ์กับจักรวาลทัศน์ จริยธรรม และวัฒนธรรมเฉพาะ
+เทคโนโลยีไม่ได้มีอนาคตสากลแบบเดียว
+ไม่ใช่ว่าทุกสังคมต้องเดินไปสู่โมเดลเดียวกันของ Silicon Valley, automation, platform capitalism หรือ AI civilization
+คำถามของ Hui คือ
+เราจะคิด technodiversity ได้อย่างไร
+เทคโนโลยีแบบไหนที่สอดคล้องกับโลกแบบพุทธ เต๋า จีน อินเดีย Indigenous หรือโลกทัศน์อื่น
+และเราจะหลุดจากการคิดว่า modernity มีทางเดียวได้หรือไม่
+คำสำคัญ
+Cosmotechnics
+Technodiversity
+Recursivity
+Contingency
+Non-Western Technology
+Modernity
+Philosophy of Technology
+แนวคิดสำคัญ
+Technology
+เครื่องมือ ระบบ เทคนิค กระบวนการ และโครงสร้างที่มนุษย์สร้างขึ้นเพื่อทำบางสิ่ง แต่ไม่ได้หยุดแค่การใช้งาน เพราะมันย้อนกลับมาจัดรูปชีวิตมนุษย์ด้วย
+Technics
+มิติของการทำ เครื่องมือ วิธีปฏิบัติ การฝึก การ externalize ความสามารถ และการสร้างโลกผ่านเทคนิค
+Technique
+ในความหมายของ Ellul คือระบบของประสิทธิภาพ การจัดการ และวิธีการที่แทรกเข้าไปในทุกพื้นที่ของชีวิต
+Instrumental View of Technology
+มุมมองว่าเทคโนโลยีเป็นเพียงเครื่องมือกลาง ๆ ที่มนุษย์ใช้เพื่อเป้าหมายของตนเอง
+Technological Determinism
+แนวคิดที่มองว่าเทคโนโลยีเป็นตัวกำหนดสังคมและวัฒนธรรมโดยแทบไม่ขึ้นกับการเมืองหรือการเลือกของมนุษย์
+Social Construction of Technology
+แนวคิดที่มองว่าเทคโนโลยีถูกสร้างผ่านสังคม คุณค่า สถาบัน ผู้ใช้ การเมือง และบริบท ไม่ใช่พัฒนาเองแบบเป็นกลาง
+Enframing
+แนวคิดของ Heidegger ที่อธิบายว่าเทคโนโลยีสมัยใหม่เปิดเผยโลกในฐานะสิ่งพร้อมใช้ พร้อมจัดการ และพร้อมคำนวณ
+Standing-Reserve
+สิ่งที่ถูกทำให้ปรากฏในฐานะทรัพยากรสำรอง เช่น ธรรมชาติ แรงงาน เวลา attention หรือข้อมูลมนุษย์
+Pharmakon
+เทคโนโลยีในฐานะทั้งยาและพิษ ช่วยมนุษย์และทำลายมนุษย์ได้พร้อมกัน
+Exteriorization
+การที่มนุษย์ย้ายความจำ ความสามารถ การคิด หรือการปฏิบัติบางอย่างออกไปไว้ในเครื่องมือ ภาษา สื่อ หรือระบบภายนอก
+Prosthesis
+สิ่งต่อขยายของมนุษย์ ไม่ใช่แค่แขนขาเทียม แต่รวมเครื่องมือที่ขยายความจำ การมอง การได้ยิน การคิด และการกระทำ
+Mediation
+เทคโนโลยีในฐานะตัวกลางที่ไม่ได้เป็นกลาง แต่แปล ขยาย ลดทอน และจัดรูปความสัมพันธ์ระหว่างมนุษย์กับโลก
+Postphenomenology
+สายที่ศึกษาประสบการณ์มนุษย์ผ่านเทคโนโลยี โดยดูว่าเครื่องมือเปลี่ยน perception, embodiment และ lifeworld อย่างไร
+Device Paradigm
+แนวคิดของ Borgmann ที่อธิบายว่าเทคโนโลยีสมัยใหม่มักให้ผลลัพธ์สะดวกโดยซ่อนกระบวนการ ความพยายาม และความสัมพันธ์ไว้
+Focal Practice
+กิจกรรมที่รวมความหมาย ความสัมพันธ์ ร่างกาย เวลา และการใส่ใจไว้ เช่น ทำอาหาร เดินป่า อ่านหนังสือ เล่นดนตรี เขียนด้วยมือ หรือสนทนาอย่างลึก
+Media Ecology
+การศึกษาสื่อในฐานะสิ่งแวดล้อมที่จัดรูป perception, communication, culture, society และ psyche
+The Medium Is the Message
+แนวคิดของ McLuhan ว่ารูปแบบของสื่อมีผลต่อมนุษย์มากกว่าเนื้อหาที่สื่อนั้นบรรจุอยู่หลายครั้ง
+Orality / Literacy
+ความต่างระหว่างวัฒนธรรมเสียงกับวัฒนธรรมตัวเขียน ซึ่งเปลี่ยนความจำ ความคิด การจัดระบบ และความสัมพันธ์กับความรู้
+Technical Images
+ภาพที่ผลิตผ่าน apparatus เช่น กล้อง หน้าจอ computer graphics หรือ AI image ซึ่งไม่ได้เป็นภาพบริสุทธิ์ แต่ถูกกำกับด้วย program ของระบบ
+Apparatus
+เครื่องมือ/ระบบที่กำหนดความเป็นไปได้ของการผลิตภาพ ความรู้ หรือการกระทำ เช่น กล้อง โทรศัพท์ platform หรือ AI model
+Algorithmic Mediation
+การที่ algorithm เป็นตัวกลางจัดลำดับ คัดกรอง แนะนำ ซ่อน ขยาย และจัดรูปสิ่งที่มนุษย์เห็น คิด และเลือก
+Surveillance Capitalism
+ระบบเศรษฐกิจที่เก็บข้อมูลพฤติกรรมมนุษย์ แปลงเป็น prediction และใช้สร้างกำไรหรือกำกับพฤติกรรม
+Attention Economy
+เศรษฐกิจที่แย่งชิงเวลา สายตา ความสนใจ และอารมณ์ของมนุษย์เป็นทรัพยากรหลัก
+Technological Politics
+การเมืองที่ฝังอยู่ในการออกแบบ infrastructure, platform, code, interface และระบบเทคนิค
+Convivial Tools
+เครื่องมือที่เพิ่มความสามารถ เสรีภาพ และความสร้างสรรค์ของมนุษย์/ชุมชน แทนที่จะทำให้ต้องพึ่งระบบใหญ่ขึ้นเรื่อย ๆ
+Cosmotechnics
+แนวคิดของ Yuk Hui ที่มองว่าเทคโนโลยีต้องสัมพันธ์กับจักรวาลทัศน์ วัฒนธรรม และจริยธรรมเฉพาะ ไม่ใช่มีรูปแบบสากลเดียว
+เหมาะกับเว็บ
+สายนี้เหมาะกับ The Soul’s Compass อย่างมาก เพราะเว็บเรากำลังสร้างระบบความรู้ในโลกที่เทคโนโลยีไม่ได้เป็นฉากหลังอีกต่อไป
+เรากำลังใช้เว็บ
+ใช้ Obsidian-like Wiki
+ใช้ Visual Map
+ใช้ AI
+ใช้ Editor Studio
+ใช้ระบบฐานข้อมูล
+ใช้ภาพ สัญลักษณ์ แอนิเมชัน
+ใช้ interface เพื่อพาคนเข้าไปเจอความคิด
+ดังนั้นเราต้องเข้าใจว่า
+interface ไม่ใช่แค่หน้าตา
+มันคือวิธีคิด
+Wiki ไม่ใช่แค่คลังบทความ
+มันคือ architecture ของความจำ
+Visual Map ไม่ใช่แค่กราฟสวย ๆ
+มันคือ ontology ของความสัมพันธ์ระหว่างแนวคิด
+AI ไม่ใช่แค่ผู้ช่วย
+มันคือกระจกที่อาจสะท้อน ช่วย หรือขโมยแรงคิดของผู้ใช้ได้
+Editor Studio ไม่ใช่แค่กล่องพิมพ์
+มันคือพื้นที่ที่กำหนดว่านักเขียนจะคิดเป็นชั้น เป็นระบบ หรือไหลเป็นเศษข้อความ
+Philosophy of Technology จึงใช้ต่อยอดบทความในเว็บได้หลายแกน เช่น
+เทคโนโลยีกับ psyche
+AI กับการคิดด้วยตนเอง
+Digital Persona
+Algorithmic Shadow
+Attention Economy กับจิตใจแตกกระจาย
+Technics and Memory
+Writing Tools กับการเกิดของความคิด
+Media Ecology กับการอ่านบทความ
+Interface ในฐานะสัญลักษณ์
+Platform กับการสร้างตัวตน
+Notification กับ complex
+เครื่องมือที่ช่วยคิด vs เครื่องมือที่คิดแทน
+AI companion กับ projection
+Digital ritual กับการจัดระเบียบจิตใจ
+Wiki ในฐานะ externalized psyche
+Technological Enframing กับโลกที่ถูกทำให้เป็นข้อมูล
+สายนี้จะช่วยให้ The Soul’s Compass ไม่กลายเป็นเว็บที่ใช้เทคโนโลยีแบบไม่รู้ตัว
+แต่เป็นเว็บที่ใช้เทคโนโลยีอย่างมีสติ
+รู้ว่าเครื่องมือกำลังสร้างรูปแบบการคิดแบบไหน
+และรู้ว่าอะไรต้องป้องกันไม่ให้ระบบกลืนจิตใจของคนเขียนกับคนอ่าน
+คำศัพท์ Wiki
+Philosophy of Technology
+Technics
+Technique
+Media Philosophy
+Media Ecology
+Instrumental View of Technology
+Technological Determinism
+Social Construction of Technology
+Technological Mediation
+Postphenomenology
+Human-Technology Relations
+Enframing
+Gestell
+Standing-Reserve
+Calculative Thinking
+Essence of Technology
+Technical Objects
+Mode of Existence
+Individuation
+Transduction
+Exteriorization
+Prosthesis
+Pharmakon
+Attention Economy
+Technological Society
+Efficiency
+Autonomy of Technique
+Megamachine
+Democratic Technics
+Authoritarian Technics
+Device Paradigm
+Focal Things
+Focal Practices
+Convivial Tools
+Technological Politics
+Do Artifacts Have Politics?
+Infrastructure
+Design and Power
+The Medium Is the Message
+Orality
+Literacy
+Secondary Orality
+Technical Images
+Apparatus
+Program
+Discourse Networks
+Code
+Algorithmic Mediation
+Platform
+Interface
+Surveillance Capitalism
+Behavioral Surplus
+Prediction
+Digital Self
+Online Identity
+Simulation
+Digital Persona
+Technopoly
+Dromology
+Speed
+Accident
+Information Bomb
+Cosmotechnics
+Technodiversity
+Human Scale
+Mental Ecology
+AI Mediation
+Digital Memory
+Externalized Psyche
+Cognitive Offloading
+จุดเชื่อมกับ Jung-Psychology
+Philosophy of Technology เชื่อมกับ Jung-Psychology ได้ลึกมาก เพราะเทคโนโลยีไม่ได้อยู่แค่นอก psyche แต่มันเข้าไปจัดรูปวิธีที่ psyche รับรู้ จำ ฝัน กลัว ปรารถนา และสร้าง persona
+จุดแรกคือ Persona
+ในยุคดิจิทัล persona ไม่ได้อยู่แค่บทบาททางสังคมแบบเดิม แต่ถูกสร้างผ่าน profile, avatar, username, bio, feed, metrics, engagement, search result, algorithmic recommendation และภาพที่เราต้อง maintain ต่อสายตาของระบบ
+นี่คือ persona ที่ไม่ได้มีแค่คนอื่นมอง
+แต่มี machine-readable persona
+ตัวตนที่ระบบอ่าน ประเมิน จัดกลุ่ม และทำนายได้
+จุดที่สองคือ Shadow
+เทคโนโลยีสมัยใหม่มี shadow หลายชั้น
+ความสะดวกซ่อนการพึ่งพา
+ความเร็วซ่อนความตื้น
+การเชื่อมต่อซ่อนความโดดเดี่ยว
+ข้อมูลซ่อนการเฝ้าระวัง
+AI assistance ซ่อนการสูญเสียแรงคิด
+platform ซ่อนแรงจูงใจทางเศรษฐกิจ
+และคำว่า innovation อาจซ่อนความเสียหายที่ไม่มีใครรับผิดชอบ
+จุดที่สามคือ Projection
+มนุษย์ project ภาพจำนวนมากลงบนเทคโนโลยี
+AI เป็นครู เป็นแม่ เป็นผู้ช่วย เป็นคนรัก เป็นพระเจ้า เป็นปีศาจ เป็นคู่แข่ง เป็นเงาของตัวเอง
+ปัญหาคือ AI และ platform ไม่ได้เป็นจอว่างเฉย ๆ
+มันตอบกลับ projection ได้
+ทำให้ projection แข็งแรงขึ้น ซับซ้อนขึ้น และถอนกลับยากขึ้น
+จุดที่สี่คือ Complex
+เทคโนโลยีกระตุ้น complex ได้เร็วมาก
+notification กระตุ้นความกลัวพลาด
+ยอดไลก์กระตุ้นปมคุณค่า
+ข้อความไม่ตอบกระตุ้นปมถูกทิ้ง
+AI critique กระตุ้นปมด้อย
+algorithmic comparison กระตุ้น envy
+และ doomscrolling ทำให้ affective field ของคนทั้งวันถูกยึดโดยระบบที่ไม่ได้สนใจ psyche ของเขาจริง ๆ
+จุดที่ห้าคือ Memory
+Jungian work ต้องอาศัยความจำ ความฝัน บันทึก และการเชื่อมโยง symbol
+เทคโนโลยีช่วย externalize memory ได้มหาศาล
+แต่ก็ทำให้ความจำภายในอ่อนลงได้เหมือนกัน
+Obsidian, Wiki, database, AI note system จึงเป็นทั้งยาและพิษ
+ช่วยจัดระบบ psyche
+แต่ถ้าใช้ผิด มันอาจทำให้เราเก็บทุกอย่างโดยไม่ย่อยอะไรเลย
+จุดที่หกคือ Individuation
+ถ้า individuation คือการค่อย ๆ กลายเป็นตัวเองมากขึ้น คำถามสำคัญคือ
+เทคโนโลยีช่วยให้เรากลับมาหาตัวเอง
+หรือทำให้เราหนีตัวเองอย่างมีประสิทธิภาพขึ้น
+เครื่องมือที่ดีควรทำให้ ego มีวินัยพอจะฟัง unconscious
+ไม่ใช่ทำให้ ego สร้าง noise จนเสียงลึกในตัวเองหายไป
+จุดที่เจ็ดคือ Symbol
+เทคโนโลยีสร้าง symbol ใหม่ของยุคเรา เช่น screen, cloud, network, code, algorithm, machine, mirror, archive, feed, signal, notification, prompt, model, database
+สิ่งเหล่านี้ไม่ใช่แค่คำเทคนิค
+มันคือ myth ใหม่ของยุคดิจิทัล
+myth ของความรู้ทั้งหมด
+myth ของการเชื่อมต่อทั้งหมด
+myth ของความจำที่ไม่ลืม
+myth ของผู้ช่วยที่ไม่หลับ
+myth ของความเร็วที่ไม่มีวันพอ
+จุดที่แปดคือ Technological Enframing
+Heidegger ช่วยอ่านว่าโลกดิจิทัลทำให้สิ่งต่าง ๆ ปรากฏเป็น standing-reserve อย่างไร
+คนกลายเป็น user
+ความสนใจกลายเป็น resource
+ความสัมพันธ์กลายเป็น engagement
+ประสบการณ์กลายเป็น data
+บทความกลายเป็น content
+ความคิดกลายเป็น output
+นี่คือจุดที่ The Soul’s Compass ต้องระวังมาก
+เพราะเว็บเราไม่ควรลด soul ให้กลายเป็น content
+จุดที่เก้าคือ Anima / Animus และ AI Companion
+ในยุค AI companion ภาพภายในสามารถถูก externalize ออกมาเป็นเสียง ตัวละคร หรือผู้ช่วยที่ตอบสนองได้
+นี่คือพื้นที่ projection ที่แรงมาก
+เพราะมนุษย์อาจสร้าง anima/animus image แบบดิจิทัล แล้วหลงคิดว่านั่นคือความสัมพันธ์จริงกับผู้อื่นหรือกับตัวเอง
+จุดที่สิบคือ Mental Ecology
+Guattari และ Stiegler ช่วยเชื่อมกับ Jung ได้ดีมาก
+เพราะ psyche ต้องการ ecology ที่ดี
+ต้องการความเงียบ จังหวะ การย่อย ความฝัน ความล้มเหลว ความสัมพันธ์จริง และพื้นที่ไม่ถูกวัดผล
+ถ้า mental ecology ถูก platform ทำลาย individuation ก็ยากขึ้น
+สรุปใช้งานเว็บ
+Philosophy of Technology / Technics / Media Philosophy ควรใช้ในเว็บเป็นสายที่รื้อคำว่า “เครื่องมือเป็นกลาง”
+หน้าที่ของสายนี้คือทำให้ The Soul’s Compass ใช้เทคโนโลยีโดยไม่ถูกเทคโนโลยีใช้กลับแบบไม่รู้ตัว
+เพราะเว็บนี้ไม่ใช่แค่เว็บบทความ
+แต่มันเป็นระบบความจำ
+ระบบนำทาง
+ระบบ symbol
+ระบบ visual map
+ระบบ editor
+ระบบการอ่าน
+ระบบการคิด
+และอาจเป็น external psyche ของงานทั้งชุด
+ดังนั้นเราต้องถามเสมอว่า
+เครื่องมือนี้ทำให้คนคิดลึกขึ้นหรือคิดเร็วขึ้นเฉย ๆ
+interface นี้ทำให้ผู้อ่านเข้าใจ หรือแค่ดูสวย
+AI นี้ช่วยให้ผู้เขียนกลับไปหาความคิดของตัวเอง หรือขโมยแรงปะทะที่จำเป็นต่อการคิด
+ระบบ Wiki นี้ทำให้ความรู้เชื่อมกัน หรือทำให้ทุกอย่างกลายเป็นคลังที่ไม่มีชีวิต
+สื่อภาพนี้เปิด symbol หรือกลบ symbol ด้วยความงามผิวเผิน
+และเทคโนโลยีทั้งหมดนี้รับใช้ soul หรือกำลังเปลี่ยน soul ให้เป็น content
+ในระบบเว็บ สายนี้ควรเชื่อมกับ
+Posthumanism
+Transhumanism
+AI Ethics
+Philosophy of Mind
+Media Theory
+Cybernetics
+Cognitive Science
+Phenomenology
+Critical Theory
+Political Philosophy
+Design Philosophy
+Digital Culture
+Jungian Psychology
+Lacanian Psychoanalysis
+Archetypal Psychology
+Writing Systems
+Visual Wiki
+Knowledge Architecture
+Mental Ecology
+ถ้า Posthumanism ทำให้เราเห็นว่า มนุษย์ไม่เคยเป็นมนุษย์ล้วน
+Philosophy of Technology จะพาไปต่อว่า
+มนุษย์ไม่เคยคิดลำพังโดยไม่มีเครื่องมือ
+เราคิดผ่านภาษา
+จำผ่านวัตถุ
+เห็นผ่านสื่อ
+รักผ่านช่องทาง
+กลัวผ่านภาพ
+ฝันผ่าน myth
+และตอนนี้ เรากำลังคิดผ่านเครื่องจักรที่ตอบกลับเราได้
+คำถามจึงไม่ใช่แค่
+เราจะใช้เทคโนโลยีอะไร
+แต่คือ
+เทคโนโลยีนั้นกำลังสร้างมนุษย์แบบไหนจากเรา

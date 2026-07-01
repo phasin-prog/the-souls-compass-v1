@@ -1,0 +1,653 @@
+Object Relations / Kleinian / Winnicottian Thinkers Reference List
+รายชื่อนักคิด นักจิตวิเคราะห์ และนักเขียนสำคัญในสาย Object Relations, Kleinian, Post-Kleinian, Winnicottian และ British Independent Tradition
+ใช้สำหรับเป็นฐานอ้างอิงในเว็บไซต์ The Soul’s Compass
+หมายเหตุ: สายนี้อยู่ภายในประเพณี Psychoanalysis แต่ควรแยกเป็นหมวดใหญ่ของตัวเอง เพราะมีภาษาทฤษฎีและวิธีอ่านจิตใจต่างจาก Freudian drive theory แบบดั้งเดิมอย่างชัดเจน
+1. Core Orientation
+Object Relations คืออะไร
+Object Relations Theory คือสายจิตวิเคราะห์ที่เปลี่ยนจุดเน้นจาก “แรงขับภายใน” ไปสู่ “ความสัมพันธ์กับ object” โดยเฉพาะ object แรก ๆ เช่น แม่ เต้านม ผู้ดูแล และภาพภายในของความสัมพันธ์เหล่านั้น
+ในที่นี้คำว่า object ไม่ได้แปลว่า “วัตถุ” ตรง ๆ แต่หมายถึง “บุคคลหรือภาพแทนของบุคคลที่จิตเข้าไปสัมพันธ์ด้วย” ทั้งในโลกจริงและโลกภายใน
+แกนความคิดหลัก
+internal object
+external object
+part-object
+whole object
+good object
+bad object
+splitting
+introjection
+projection
+projective identification
+unconscious phantasy
+paranoid-schizoid position
+depressive position
+reparation
+envy
+containment
+alpha function
+holding environment
+good enough mother
+transitional object
+transitional space
+true self / false self
+object-seeking libido
+basic fault
+schizoid withdrawal
+unthought known
+2. Foundational Roots / Pre-Object Relations
+Sigmund Freud
+บทบาท: ต้นทางของ psychoanalysis
+ความเกี่ยวข้องกับ Object Relations: แม้ Freud จะเน้น drive theory แต่แนวคิดเรื่อง object-choice, mourning, melancholia, identification และ Oedipus เป็นฐานให้ Object Relations พัฒนาต่อ
+งานสำคัญ:
+Mourning and Melancholia
+The Ego and the Id
+Three Essays on the Theory of Sexuality
+Beyond the Pleasure Principle
+Karl Abraham
+บทบาท: นักจิตวิเคราะห์ยุคต้น ผู้มีอิทธิพลสูงต่อ Melanie Klein
+แกนความคิด: oral stage, anal stage, melancholia, character formation, early object relations
+งานสำคัญ:
+Selected Papers on Psychoanalysis
+Sándor Ferenczi
+บทบาท: นักจิตวิเคราะห์ยุคต้นที่เปิดทางให้ความสำคัญกับ trauma, clinical relationship และความสัมพันธ์จริงระหว่าง analyst-patient
+แกนความคิด: trauma, confusion of tongues, elasticity of technique, mutuality
+งานสำคัญ:
+Clinical Diary
+“Confusion of Tongues Between Adults and the Child”
+Ernest Jones
+บทบาท: ผู้เผยแพร่ psychoanalysis ในอังกฤษ และมีบทบาทในสถาบันที่ต่อมาทำให้สาย Klein/Winnicott/Bion เติบโต
+แกนความคิด: British psychoanalysis, Freud biography, applied psychoanalysis
+งานสำคัญ:
+The Life and Work of Sigmund Freud
+3. Kleinian School
+Melanie Klein
+บทบาท: ผู้ก่อตั้ง Kleinian psychoanalysis และหนึ่งในรากใหญ่ของ Object Relations
+แกนความคิด: unconscious phantasy, internal object, part-object, paranoid-schizoid position, depressive position, splitting, projective identification, envy, reparation
+งานสำคัญ:
+The Psycho-Analysis of Children
+Love, Guilt and Reparation
+Envy and Gratitude
+“Notes on Some Schizoid Mechanisms”
+“A Contribution to the Psychogenesis of Manic-Depressive States”
+Susan Isaacs
+บทบาท: นักคิดสำคัญที่จัดระบบแนวคิด unconscious phantasy ในสาย Kleinian
+แกนความคิด: unconscious phantasy, child development, symbolic play
+งานสำคัญ:
+“The Nature and Function of Phantasy”
+Joan Riviere
+บทบาท: นักแปล Freud และนักคิดสำคัญใกล้ Klein
+แกนความคิด: femininity, masquerade, defense, anxiety
+งานสำคัญ:
+“Womanliness as a Masquerade”
+Paula Heimann
+บทบาท: นักจิตวิเคราะห์ที่ทำให้ countertransference กลายเป็นเครื่องมือทางคลินิกสำคัญ
+แกนความคิด: countertransference, analytic relationship, emotional response of analyst
+งานสำคัญ:
+“On Counter-Transference”
+Hanna Segal
+บทบาท: หนึ่งในผู้อธิบาย Klein ได้ดีที่สุดและชัดที่สุด
+แกนความคิด: symbol formation, psychosis, aesthetics, depressive position, reparation
+งานสำคัญ:
+Introduction to the Work of Melanie Klein
+Dream, Phantasy and Art
+Klein
+Herbert Rosenfeld
+บทบาท: Kleinian analyst สำคัญด้าน psychosis และ narcissism
+แกนความคิด: psychotic states, destructive narcissism, projective identification, envy
+งานสำคัญ:
+Psychotic States
+Impasse and Interpretation
+Roger Money-Kyrle
+บทบาท: Kleinian thinker ด้าน morality, guilt, knowledge และ depressive position
+แกนความคิด: cognitive development, guilt, depressive position, epistemophilia
+งานสำคัญ:
+The Collected Papers of Roger Money-Kyrle
+Betty Joseph
+บทบาท: Kleinian analyst สำคัญด้าน clinical technique และ here-and-now transference
+แกนความคิด: transference, total situation, enactment, psychic equilibrium
+งานสำคัญ:
+Psychic Equilibrium and Psychic Change
+Elizabeth Spillius
+บทบาท: นักจัดระบบและบรรณาธิการงาน Kleinian สำคัญมาก
+แกนความคิด: Kleinian theory, clinical practice, history of Kleinian psychoanalysis
+งานสำคัญ:
+Melanie Klein Today
+The New Dictionary of Kleinian Thought
+Irma Brenman Pick
+บทบาท: Kleinian analyst ด้าน countertransference และ projection
+แกนความคิด: countertransference, projection, analytic encounter
+งานสำคัญ:
+“Working Through in the Countertransference”
+Edna O’Shaughnessy
+บทบาท: Kleinian analyst สำคัญด้าน clinical technique
+แกนความคิด: primitive anxieties, analytic situation, pathological organization
+งานสำคัญ:
+งานบทความในสาย Kleinian clinical psychoanalysis
+Ruth Riesenberg-Malcolm
+บทบาท: Kleinian analyst ด้าน technique และ interpretation
+แกนความคิด: transference, interpretation, unconscious phantasy
+งานสำคัญ:
+งานบทความในสาย Kleinian technique
+4. Post-Kleinian / Bionian Line
+Wilfred R. Bion
+บทบาท: หนึ่งในนักจิตวิเคราะห์ที่ลึกที่สุดหลัง Freud และ Klein
+แกนความคิด: containment, container-contained, alpha function, beta elements, reverie, psychosis, group mentality, O, thinking, transformations
+งานสำคัญ:
+Learning from Experience
+Elements of Psycho-Analysis
+Transformations
+Attention and Interpretation
+Experiences in Groups
+Frances Tustin
+บทบาท: นักจิตวิเคราะห์เด็กด้าน autism และ primitive states
+แกนความคิด: autistic objects, autistic shapes, primitive defenses, sensory enclosure
+งานสำคัญ:
+Autism and Childhood Psychosis
+Autistic Barriers in Neurotic Patients
+Donald Meltzer
+บทบาท: Post-Kleinian analyst สำคัญด้าน dream-life, aesthetics และ claustrum
+แกนความคิด: aesthetic conflict, claustrum, projective identification, dream life
+งานสำคัญ:
+The Psychoanalytic Process
+Dream-Life
+The Claustrum
+Esther Bick
+บทบาท: นักจิตวิเคราะห์เด็ก ผู้พัฒนา infant observation ใน Tavistock tradition
+แกนความคิด: infant observation, skin containment, early psychic development
+งานสำคัญ:
+“The Experience of the Skin in Early Object-Relations”
+Martha Harris
+บทบาท: นักจิตวิเคราะห์เด็กและผู้พัฒนาสาย Tavistock / child psychotherapy
+แกนความคิด: child development, family, infant observation
+งานสำคัญ:
+งานร่วมกับ Donald Meltzer และ Tavistock child psychotherapy
+Ronald Britton
+บทบาท: Post-Kleinian thinker สำคัญมากด้าน triangular space และ belief
+แกนความคิด: triangular space, belief, imagination, Oedipus, psychic reality
+งานสำคัญ:
+Belief and Imagination
+Sex, Death, and the Superego
+John Steiner
+บทบาท: Post-Kleinian analyst สำคัญด้าน psychic retreats
+แกนความคิด: psychic retreats, pathological organization, paranoid-schizoid/depressive positions
+งานสำคัญ:
+Psychic Retreats
+Seeing and Being Seen
+Michael Feldman
+บทบาท: Kleinian/Post-Kleinian analyst ด้าน clinical process
+แกนความคิด: transference, countertransference, interpretation, enactment
+งานสำคัญ:
+Doubt, Conviction and the Analytic Process
+Priscilla Roth
+บทบาท: Kleinian analyst ร่วมสมัยด้าน clinical theory
+แกนความคิด: clinical Kleinian technique, unconscious phantasy, transference
+งานสำคัญ:
+งานบทความในสาย Kleinian clinical psychoanalysis
+Catalina Bronstein
+บทบาท: Kleinian analyst และบรรณาธิการงาน Kleinian ร่วมสมัย
+แกนความคิด: Kleinian theory, adolescent states, clinical practice
+งานสำคัญ:
+Kleinian Theory: A Contemporary Perspective
+Antonino Ferro
+บทบาท: Bionian field theorist สำคัญร่วมสมัย
+แกนความคิด: analytic field, dreaming, characters in the session, narrative transformations
+งานสำคัญ:
+In the Analyst’s Consulting Room
+Seeds of Illness, Seeds of Recovery
+Giuseppe Civitarese
+บทบาท: Bionian psychoanalyst ร่วมสมัย
+แกนความคิด: analytic field, reverie, dreaming, aesthetics of analysis
+งานสำคัญ:
+The Intimate Room
+Truth and the Unconscious in Psychoanalysis
+Thomas H. Ogden
+บทบาท: หนึ่งในนักจิตวิเคราะห์ร่วมสมัยที่อ่าน Klein, Winnicott และ Bion ได้ลึกมาก
+แกนความคิด: analytic third, reverie, autistic-contiguous position, primitive experience, dream thinking
+งานสำคัญ:
+The Matrix of the Mind
+The Primitive Edge of Experience
+Reverie and Interpretation
+The Analytic Third
+5. Fairbairnian Object Relations
+W. R. D. Fairbairn
+บทบาท: ผู้เปลี่ยนแกนจาก libido as pleasure-seeking ไปสู่ libido as object-seeking
+แกนความคิด: object-seeking libido, internal objects, schizoid personality, libidinal ego, anti-libidinal ego, central ego
+งานสำคัญ:
+Psychoanalytic Studies of the Personality
+“Synopsis of an Object-Relations Theory of the Personality”
+Harry Guntrip
+บทบาท: ผู้สานต่อ Fairbairn และอธิบาย schizoid phenomena / withdrawn self
+แกนความคิด: schizoid withdrawal, regressed ego, internal world, self, object relations
+งานสำคัญ:
+Schizoid Phenomena, Object Relations and the Self
+Personality Structure and Human Interaction
+John D. Sutherland
+บทบาท: Scottish psychoanalyst ผู้สืบทอดและจัดระบบ Fairbairnian tradition
+แกนความคิด: self, object relations, Fairbairnian theory
+งานสำคัญ:
+Fairbairn’s Journey into the Interior
+David E. Scharff
+บทบาท: Contemporary object relations analyst ผู้พัฒนา Fairbairnian/object relations ใน family/couple therapy
+แกนความคิด: object relations family therapy, couple therapy, internal object relations
+งานสำคัญ:
+Object Relations Family Therapy
+The Interpersonal Unconscious
+Jill Savege Scharff
+บทบาท: Object relations therapist ด้าน couple/family therapy และ Fairbairnian tradition
+แกนความคิด: couple therapy, family therapy, internal object world
+งานสำคัญ:
+Object Relations Couple Therapy
+งานร่วมกับ David Scharff
+Graham S. Clarke
+บทบาท: นักวิชาการร่วมสมัยด้าน Fairbairn และ dynamic structure
+แกนความคิด: Fairbairn, dynamic structure, object relations tradition
+งานสำคัญ:
+Fairbairn and the Object Relations Tradition
+An Introduction to Fairbairn’s Psychology of Dynamic Structure
+6. Winnicottian / British Independent Tradition
+D. W. Winnicott
+บทบาท: หนึ่งในนักจิตวิเคราะห์สำคัญที่สุดหลัง Freud และ Klein
+แกนความคิด: holding environment, good enough mother, transitional object, transitional phenomena, true self, false self, playing, creativity, capacity to be alone
+งานสำคัญ:
+Playing and Reality
+The Maturational Processes and the Facilitating Environment
+Through Paediatrics to Psycho-Analysis
+The Child, the Family, and the Outside World
+Clare Winnicott
+บทบาท: นักสังคมสงเคราะห์และผู้ร่วมงานสำคัญของ Winnicott
+แกนความคิด: child care, deprivation, family, social work, Winnicottian practice
+งานสำคัญ:
+งานเขียน/บรรณาธิการเกี่ยวกับ Winnicott และ social work
+Marion Milner
+บทบาท: British Independent analyst ด้าน creativity, illusion, play และ symbolic experience
+แกนความคิด: creativity, illusion, painting, play, surrender, symbol formation
+งานสำคัญ:
+On Not Being Able to Paint
+The Hands of the Living God
+The Suppressed Madness of Sane Men
+Michael Balint
+บทบาท: British Independent analyst สำคัญด้าน basic fault และ therapeutic regression
+แกนความคิด: basic fault, primary love, therapeutic regression, doctor-patient relationship
+งานสำคัญ:
+The Basic Fault
+Primary Love and Psycho-Analytic Technique
+The Doctor, His Patient and the Illness
+Enid Balint
+บทบาท: นักวิเคราะห์และผู้สืบงาน Balint groups
+แกนความคิด: doctor-patient relationship, clinical training, analytic relationship
+งานสำคัญ:
+งานร่วมใน Balint group tradition
+Ella Freeman Sharpe
+บทบาท: นักจิตวิเคราะห์อังกฤษยุคต้นด้าน dream, symbol และ language
+แกนความคิด: dream analysis, symbol, poetic language
+งานสำคัญ:
+Dream Analysis
+Marjorie Brierley
+บทบาท: สมาชิกสำคัญของ British Independent / Middle Group
+แกนความคิด: psychoanalytic theory, independent position, object relations
+งานสำคัญ:
+งานบทความใน British psychoanalysis
+Sylvia Payne
+บทบาท: นักจิตวิเคราะห์อังกฤษ ผู้มีบทบาทใน British Psychoanalytical Society
+แกนความคิด: institutional psychoanalysis, Independent tradition
+งานสำคัญ:
+งานบทความและบทบาททางสถาบัน
+Charles Rycroft
+บทบาท: British Independent analyst และนักเขียนพจนานุกรมจิตวิเคราะห์
+แกนความคิด: imagination, symbols, psychoanalytic language
+งานสำคัญ:
+A Critical Dictionary of Psychoanalysis
+Imagination and Reality
+Masud Khan
+บทบาท: Winnicottian-influenced analyst สำคัญแต่มีประวัติจริยธรรมที่ต้องอ่านด้วยความระวัง
+แกนความคิด: cumulative trauma, self, privacy, Winnicottian clinical thought
+งานสำคัญ:
+The Privacy of the Self
+Nina Coltart
+บทบาท: British Independent analyst ด้าน clinical craft และ spirituality
+แกนความคิด: analytic attitude, Buddhism, silence, clinical listening
+งานสำคัญ:
+Slouching Towards Bethlehem
+How to Survive as a Psychotherapist
+Patrick Casement
+บทบาท: British Independent analyst ด้าน learning from the patient
+แกนความคิด: analytic listening, clinical humility, patient-led learning
+งานสำคัญ:
+On Learning from the Patient
+Further Learning from the Patient
+Eric Rayner
+บทบาท: นักเขียนและผู้จัดระบบ British Independent tradition
+แกนความคิด: independent psychoanalysis, object relations, clinical diversity
+งานสำคัญ:
+The Independent Mind in British Psychoanalysis
+Neville Symington
+บทบาท: British Independent analyst ด้าน narcissism, freedom, personhood
+แกนความคิด: narcissism, emotional truth, freedom, clinical encounter
+งานสำคัญ:
+Narcissism: A New Theory
+The Making of a Psychotherapist
+Christopher Bollas
+บทบาท: หนึ่งในนักคิด British Independent ร่วมสมัยที่ทรงพลังมาก
+แกนความคิด: unthought known, transformational object, idiom, receptive unconscious, evocative object
+งานสำคัญ:
+The Shadow of the Object
+Forces of Destiny
+The Christopher Bollas Reader
+Being a Character
+Adam Phillips
+บทบาท: Winnicottian-influenced psychoanalytic essayist
+แกนความคิด: desire, frustration, ordinary life, Winnicott, literature
+งานสำคัญ:
+Winnicott
+On Kissing, Tickling, and Being Bored
+Missing Out
+7. Independent / Relational Object Relations Adjacent
+John Bowlby
+บทบาท: ผู้ก่อตั้ง attachment theory จากฐาน psychoanalytic/object relations
+แกนความคิด: attachment, separation, loss, secure base, internal working model
+งานสำคัญ:
+Attachment and Loss
+Mary Ainsworth
+บทบาท: นักวิจัย attachment ผู้สร้าง empirical foundation ให้ Bowlby
+แกนความคิด: Strange Situation, secure/insecure attachment
+งานสำคัญ:
+Patterns of Attachment
+Margaret Mahler
+บทบาท: psychoanalytic developmental theorist ด้าน separation-individuation
+แกนความคิด: symbiosis, separation-individuation, psychological birth
+งานสำคัญ:
+The Psychological Birth of the Human Infant
+René Spitz
+บทบาท: นักจิตวิเคราะห์เด็กด้าน infant development และ deprivation
+แกนความคิด: hospitalism, anaclitic depression, early deprivation
+งานสำคัญ:
+The First Year of Life
+Daniel Stern
+บทบาท: developmental psychoanalytic thinker ด้าน infant self และ affect attunement
+แกนความคิด: emergent self, core self, affect attunement, present moment
+งานสำคัญ:
+The Interpersonal World of the Infant
+The Present Moment in Psychotherapy and Everyday Life
+Beatrice Beebe
+บทบาท: นักวิจัย mother-infant communication และ psychoanalytic developmental research
+แกนความคิด: nonverbal communication, infant research, attachment, interaction
+งานสำคัญ:
+Infant Research and Adult Treatment
+Stephen A. Mitchell
+บทบาท: relational psychoanalyst ที่สืบต่อ object relations เข้ากับ interpersonal/relational theory
+แกนความคิด: relational matrix, object relations, interpersonal psychoanalysis
+งานสำคัญ:
+Relational Concepts in Psychoanalysis
+Object Relations in Psychoanalytic Theory
+Jay Greenberg
+บทบาท: ผู้ร่วมจัดระบบ relational/object relations theory
+แกนความคิด: drive model vs relational model, analytic relationship
+งานสำคัญ:
+Object Relations in Psychoanalytic Theory
+Oedipus and Beyond
+Jessica Benjamin
+บทบาท: relational psychoanalyst และ feminist theorist
+แกนความคิด: recognition, intersubjectivity, domination, gender
+งานสำคัญ:
+The Bonds of Love
+Like Subjects, Love Objects
+Philip Bromberg
+บทบาท: relational analyst ด้าน dissociation และ self-states
+แกนความคิด: dissociation, self-states, trauma, standing in the spaces
+งานสำคัญ:
+Standing in the Spaces
+Awakening the Dreamer
+8. Contemporary Object Relations / Clinical Expansion
+Otto Kernberg
+บทบาท: นักจิตวิเคราะห์ด้าน borderline personality, narcissism และ object relations
+แกนความคิด: borderline organization, pathological narcissism, aggression, internalized object relations, transference-focused psychotherapy
+งานสำคัญ:
+Borderline Conditions and Pathological Narcissism
+Object Relations Theory and Clinical Psychoanalysis
+Severe Personality Disorders
+James F. Masterson
+บทบาท: object relations clinician ด้าน personality disorders
+แกนความคิด: abandonment depression, false self, borderline/narcissistic disorders
+งานสำคัญ:
+The Search for the Real Self
+The Narcissistic and Borderline Disorders
+Ralph Klein
+บทบาท: ผู้ร่วมพัฒนา Masterson approach
+แกนความคิด: self disorders, object relations, personality disorders
+งานสำคัญ:
+งานร่วมใน Masterson approach
+Glen O. Gabbard
+บทบาท: psychodynamic psychiatrist ด้าน personality disorders และ clinical technique
+แกนความคิด: countertransference, personality disorder, psychodynamic psychiatry
+งานสำคัญ:
+Psychodynamic Psychiatry in Clinical Practice
+Long-Term Psychodynamic Psychotherapy
+Nancy McWilliams
+บทบาท: นักเขียน psychodynamic ที่จัดระบบ character structure และ psychoanalytic diagnosis ได้ดีที่สุดคนหนึ่ง
+แกนความคิด: personality structure, object relations, defense, clinical formulation
+งานสำคัญ:
+Psychoanalytic Diagnosis
+Psychoanalytic Psychotherapy
+Salman Akhtar
+บทบาท: psychoanalytic writer ด้าน object relations, personality, immigration, culture
+แกนความคิด: object relations, personality disorders, identity, culture
+งานสำคัญ:
+Comprehensive Dictionary of Psychoanalysis
+งานด้าน narcissism, schizoid personality, immigration
+Vamik Volkan
+บทบาท: psychoanalyst ด้าน object relations, large-group identity และ political psychology
+แกนความคิด: internal object, mourning, identity, chosen trauma, large-group psychology
+งานสำคัญ:
+The Need to Have Enemies and Allies
+Blind Trust
+Arnold Modell
+บทบาท: psychoanalytic thinker ด้าน object relations, metaphor, memory
+แกนความคิด: metaphor, memory, object relations, self
+งานสำคัญ:
+Object Love and Reality
+The Private Self
+9. Suggested Website Categories
+A. Core Object Relations
+W. R. D. Fairbairn
+Harry Guntrip
+John D. Sutherland
+David E. Scharff
+Jill Savege Scharff
+Graham S. Clarke
+B. Kleinian School
+Melanie Klein
+Susan Isaacs
+Joan Riviere
+Paula Heimann
+Hanna Segal
+Herbert Rosenfeld
+Roger Money-Kyrle
+Betty Joseph
+Elizabeth Spillius
+Irma Brenman Pick
+Edna O’Shaughnessy
+C. Post-Kleinian / Bionian
+Wilfred Bion
+Donald Meltzer
+Frances Tustin
+Esther Bick
+Martha Harris
+Ronald Britton
+John Steiner
+Michael Feldman
+Thomas H. Ogden
+Antonino Ferro
+Giuseppe Civitarese
+D. Winnicottian / British Independent
+D. W. Winnicott
+Clare Winnicott
+Marion Milner
+Michael Balint
+Enid Balint
+Ella Freeman Sharpe
+Marjorie Brierley
+Sylvia Payne
+Charles Rycroft
+Masud Khan
+Nina Coltart
+Patrick Casement
+Eric Rayner
+Neville Symington
+Christopher Bollas
+Adam Phillips
+E. Developmental / Attachment Adjacent
+John Bowlby
+Mary Ainsworth
+Margaret Mahler
+René Spitz
+Daniel Stern
+Beatrice Beebe
+F. Relational Object Relations
+Stephen A. Mitchell
+Jay Greenberg
+Jessica Benjamin
+Philip Bromberg
+Thomas H. Ogden
+G. Personality Disorders / Clinical Object Relations
+Otto Kernberg
+James F. Masterson
+Ralph Klein
+Glen O. Gabbard
+Nancy McWilliams
+Salman Akhtar
+Vamik Volkan
+Arnold Modell
+10. Recommended Reading Order
+Level 1: Gateway
+D. W. Winnicott — Playing and Reality
+D. W. Winnicott — The Maturational Processes and the Facilitating Environment
+Hanna Segal — Introduction to the Work of Melanie Klein
+Thomas H. Ogden — The Matrix of the Mind
+Nancy McWilliams — Psychoanalytic Diagnosis
+Level 2: Core Foundations
+Melanie Klein — Love, Guilt and Reparation
+Melanie Klein — Envy and Gratitude
+W. R. D. Fairbairn — Psychoanalytic Studies of the Personality
+Wilfred Bion — Learning from Experience
+Michael Balint — The Basic Fault
+Level 3: Clinical Depth
+Herbert Rosenfeld — Psychotic States
+Donald Meltzer — The Psychoanalytic Process
+Ronald Britton — Belief and Imagination
+John Steiner — Psychic Retreats
+Christopher Bollas — The Shadow of the Object
+Level 4: Contemporary Integration
+Thomas H. Ogden — Reverie and Interpretation
+Otto Kernberg — Object Relations Theory and Clinical Psychoanalysis
+Stephen Mitchell & Jay Greenberg — Object Relations in Psychoanalytic Theory
+Antonino Ferro — In the Analyst’s Consulting Room
+Giuseppe Civitarese — The Intimate Room
+11. Short Tier List for Website Reference
+Essential
+Melanie Klein
+D. W. Winnicott
+W. R. D. Fairbairn
+Wilfred Bion
+Hanna Segal
+Herbert Rosenfeld
+Michael Balint
+Harry Guntrip
+Marion Milner
+Donald Meltzer
+Ronald Britton
+John Steiner
+Thomas H. Ogden
+Christopher Bollas
+Otto Kernberg
+Nancy McWilliams
+Very Important
+Karl Abraham
+Sándor Ferenczi
+Susan Isaacs
+Joan Riviere
+Paula Heimann
+Roger Money-Kyrle
+Betty Joseph
+Elizabeth Spillius
+Irma Brenman Pick
+Esther Bick
+Frances Tustin
+Michael Feldman
+Antonino Ferro
+Giuseppe Civitarese
+Clare Winnicott
+Enid Balint
+Ella Freeman Sharpe
+Charles Rycroft
+Nina Coltart
+Patrick Casement
+Eric Rayner
+Neville Symington
+Adam Phillips
+Stephen A. Mitchell
+Jay Greenberg
+Jessica Benjamin
+Philip Bromberg
+Important / Specialized
+Marjorie Brierley
+Sylvia Payne
+Edna O’Shaughnessy
+Ruth Riesenberg-Malcolm
+Priscilla Roth
+Catalina Bronstein
+Martha Harris
+John D. Sutherland
+David E. Scharff
+Jill Savege Scharff
+Graham S. Clarke
+James F. Masterson
+Ralph Klein
+Glen O. Gabbard
+Salman Akhtar
+Vamik Volkan
+Arnold Modell
+John Bowlby
+Mary Ainsworth
+Margaret Mahler
+René Spitz
+Daniel Stern
+Beatrice Beebe
+12. External Institutions / Journals to Link
+Institutions
+British Psychoanalytical Society
+Institute of Psychoanalysis
+Melanie Klein Trust
+Tavistock and Portman
+International Psychoanalytical Association
+American Psychoanalytic Association
+Contemporary Freudian Society
+International Psychotherapy Institute
+Object Relations Institute
+Journals / Publications
+The International Journal of Psychoanalysis
+Journal of the American Psychoanalytic Association
+Psychoanalytic Quarterly
+British Journal of Psychotherapy
+Psychoanalytic Dialogues
+The Psychoanalytic Study of the Child
+The International Journal of Psychoanalytic Psychotherapy
+Publishers / Series
+Routledge
+Karnac Books
+New Library of Psychoanalysis
+The International Psychoanalytical Association Publications
+Free Association Books
+Jason Aronson
+Basic Books
+13. Warning for Website Classification
+ไม่ควรเรียกทุกคนในลิสต์นี้ว่า “Object Relations” แบบเดียวกันทั้งหมด
+ควรแยกคำให้ชัด:
+Kleinian = Klein, Segal, Rosenfeld, Joseph, Spillius
+Post-Kleinian / Bionian = Bion, Meltzer, Britton, Steiner, Ogden, Ferro
+Winnicottian / British Independent = Winnicott, Milner, Balint, Bollas, Phillips
+Fairbairnian Object Relations = Fairbairn, Guntrip, Sutherland, Scharff
+Relational Object Relations = Mitchell, Greenberg, Benjamin, Bromberg
+Clinical Object Relations / Personality Disorders = Kernberg, Masterson, McWilliams, Gabbard
+ชื่อหมวดใหญ่ที่เหมาะกับเว็บ:
+Object Relations: Internal Objects, Early Bonds, and the Inner World
+หรือถ้าต้องการชื่อไทย:
+ทฤษฎีความสัมพันธ์เชิงวัตถุ: โลกภายใน ความผูกพันแรกเริ่ม และตัวตนที่ก่อตัวจากความสัมพันธ์

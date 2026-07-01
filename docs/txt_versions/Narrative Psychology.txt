@@ -1,0 +1,445 @@
+Narrative Psychology / Identity / Life Story
+หมายเหตุสั้น ๆ:
+สายนี้คือกลุ่มความคิดที่มองว่า มนุษย์ไม่ได้มีตัวตนจาก trait, symptom, memory หรือ unconscious อย่างเดียว แต่มีตัวตนผ่านเรื่องเล่าที่ใช้จัดระเบียบชีวิต
+คำถามใหญ่ของสายนี้คือ
+มนุษย์เล่าเรื่องตัวเองอย่างไร
+identity เกิดจากความทรงจำ หรือจากการตีความความทรงจำ
+ชีวิตคนมี “โครงเรื่อง” ไหม
+trauma ทำให้เรื่องเล่าชีวิตแตกอย่างไร
+self เป็นสิ่งที่มีอยู่ก่อนเรื่องเล่า หรือถูกสร้างผ่านเรื่องเล่า
+เราเปลี่ยนชีวิตได้ด้วยการเปลี่ยนเรื่องเล่าหรือไม่
+narrative ต่างจาก fiction อย่างไร
+เรื่องเล่าส่วนตัวถูกสร้างจากภาษา วัฒนธรรม ครอบครัว และประวัติศาสตร์อย่างไร
+สายนี้สำคัญมาก เพราะมันเชื่อม จิตวิทยา บุคลิกภาพ ความทรงจำ อัตลักษณ์ วรรณกรรม จิตบำบัด และปรัชญา เข้าด้วยกัน มันทำให้เราเห็นว่ามนุษย์ไม่ได้แค่ “มีชีวิต” แต่ต้องพยายามเล่าให้ชีวิตของตนเองพอจะมีรูป มีความหมาย และพออยู่ต่อได้
+Jerome Bruner
+สาย / สำนัก: Narrative Psychology, Cultural Psychology, Cognitive Psychology
+ผลงานสำคัญ:
+Acts of Meaning
+Actual Minds, Possible Worlds
+Making Stories
+The Culture of Education
+แกนความคิด:
+Bruner คือหนึ่งในรากใหญ่ของ narrative psychology เขาเสนอว่ามนุษย์มีวิธีคิดอย่างน้อยสองแบบ คือความคิดแบบตรรกะ-วิทยาศาสตร์ และความคิดแบบเรื่องเล่า มนุษย์ไม่ได้เข้าใจชีวิตด้วยเหตุผลเชิงพิสูจน์อย่างเดียว แต่เข้าใจผ่านเรื่องเล่า ตัวละคร เหตุการณ์ ความขัดแย้ง ความตั้งใจ และความหมาย งานของเขาทำให้ narrative ไม่ใช่แค่การเล่านิทาน แต่เป็นโครงสร้างหลักของการทำความเข้าใจมนุษย์
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative thinking, meaning-making, culture, self, story, possible worlds
+Dan P. McAdams
+สาย / สำนัก: Narrative Identity, Personality Psychology, Life Story
+ผลงานสำคัญ:
+The Stories We Live By
+The Redemptive Self
+The Art and Science of Personality Development
+Power, Intimacy, and the Life Story
+แกนความคิด:
+McAdams คือแกนสำคัญที่สุดคนหนึ่งของ narrative identity เขาเสนอว่าบุคลิกภาพมนุษย์มีหลายชั้น ได้แก่ traits, characteristic adaptations และ narrative identity ชั้นหลังสุดคือเรื่องเล่าชีวิตที่คนใช้รวมอดีต ปัจจุบัน และอนาคตให้กลายเป็นตัวตนที่พอมีเอกภาพ คนเราไม่ได้มีแค่นิสัย แต่มี “เรื่องที่เราเชื่อว่าเรากำลังเป็นอยู่”
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative identity, life story, personality, redemption, contamination, self-making
+Theodore Sarbin
+สาย / สำนัก: Narrative Psychology, Role Theory, Social Psychology
+ผลงานสำคัญ:
+Narrative Psychology: The Storied Nature of Human Conduct
+งานด้าน role theory และ social behavior
+แกนความคิด:
+Sarbin เป็นหนึ่งในคนที่วางคำว่า narrative psychology อย่างจริงจัง เขาเสนอว่าเรื่องเล่าเป็น root metaphor สำคัญในการเข้าใจพฤติกรรมมนุษย์ แทนที่จะมองคนเป็นเครื่องจักรหรือระบบตอบสนองต่อสิ่งเร้า เขามองว่ามนุษย์กระทำภายใต้บทบาท โครงเรื่อง ความคาดหวัง และการตีความตนเองในฉากชีวิต
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+storied conduct, role, narrative metaphor, human action, self-interpretation
+Donald Spence
+สาย / สำนัก: Narrative Psychoanalysis, Psychoanalytic Theory, Clinical Narrative
+ผลงานสำคัญ:
+Narrative Truth and Historical Truth
+The Freudian Metaphor
+แกนความคิด:
+Spence สำคัญมากกับการแยกระหว่าง historical truth กับ narrative truth ในจิตวิเคราะห์ เขาชี้ว่าความจริงทางจิตบำบัดไม่ได้อยู่แค่การขุดหาเหตุการณ์จริงในอดีต แต่รวมถึงการสร้างเรื่องเล่าที่ทำให้ประสบการณ์มีความหมายและจัดวางได้ใหม่ งานของเขาจึงเหมาะมากสำหรับการคิดเรื่อง memory, fantasy, reconstruction และการบำบัดผ่านภาษา
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative truth, historical truth, psychoanalysis, memory, clinical meaning
+Roy Schafer
+สาย / สำนัก: Narrative Psychoanalysis, Action Language, Psychoanalytic Hermeneutics
+ผลงานสำคัญ:
+A New Language for Psychoanalysis
+Retelling a Life
+Narration in the Psychoanalytic Dialogue
+แกนความคิด:
+Schafer มองจิตวิเคราะห์เป็นการเล่าและเล่าใหม่ของชีวิต เขาเสนอว่าผู้รับการวิเคราะห์ไม่ได้แค่ค้นพบตัวตนเดิมที่ซ่อนอยู่ แต่ค่อย ๆ retell life หรือเล่าชีวิตใหม่ผ่านบทสนทนาเชิงวิเคราะห์ ภาษาในห้องบำบัดจึงไม่ใช่เครื่องมือบรรยายเฉย ๆ แต่เป็นเครื่องมือเปลี่ยนความสัมพันธ์ของคนกับอดีตของตนเอง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+retelling life, psychoanalysis, narrative reconstruction, action language, clinical story
+Paul Ricoeur
+สาย / สำนัก: Hermeneutics, Narrative Identity, Philosophy of Self
+ผลงานสำคัญ:
+Time and Narrative
+Oneself as Another
+Freud and Philosophy
+The Rule of Metaphor
+แกนความคิด:
+Ricoeur ไม่ใช่นักจิตวิทยาโดยตรง แต่สำคัญมากต่อ narrative identity เขาเสนอว่าตัวตนไม่ใช่สิ่งคงที่แบบวัตถุ แต่มีลักษณะเป็น narrative identity คือความเป็นตัวเองที่เกิดผ่านการเล่า การตีความ เวลา ความทรงจำ และคำมั่นสัญญาต่อชีวิต งานของเขาช่วยให้ narrative psychology มีฐานปรัชญาลึกมาก โดยเฉพาะคำถามว่า “ฉันยังเป็นคนเดิมได้อย่างไร ทั้งที่ชีวิตเปลี่ยนตลอดเวลา”
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative identity, hermeneutics, time, selfhood, interpretation, memory
+Erik Erikson
+สาย / สำนัก: Psychosocial Development, Identity Theory, Ego Psychology
+ผลงานสำคัญ:
+Childhood and Society
+Identity: Youth and Crisis
+Young Man Luther
+Gandhi’s Truth
+แกนความคิด:
+Erikson คือแกนสำคัญของคำว่า identity ในจิตวิทยาพัฒนาการ เขาเสนอว่าชีวิตมนุษย์มีวิกฤตทางจิตสังคมตามช่วงวัย และวัยรุ่นเป็นช่วงสำคัญของ identity vs role confusion ตัวตนจึงไม่ได้เกิดจากภายในอย่างเดียว แต่เกิดจากการปะทะกันระหว่าง ego, ประวัติชีวิต, สังคม, บทบาท และอนาคตที่คนพยายามเลือกให้ตนเอง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+identity crisis, psychosocial development, ego identity, adolescence, life cycle
+James Marcia
+สาย / สำนัก: Identity Development, Ego Identity Status, Developmental Psychology
+ผลงานสำคัญ:
+งาน Identity Status Theory
+งานด้าน identity achievement, moratorium, foreclosure, diffusion
+แกนความคิด:
+Marcia ต่อยอด Erikson โดยทำให้ identity development วัดและวิเคราะห์ได้ชัดขึ้น เขาเสนอ identity statuses เช่น achievement, moratorium, foreclosure และ diffusion โดยดูจากสองแกนคือ exploration และ commitment งานของเขาเหมาะมากสำหรับอธิบายว่าคนไม่ได้ “มีตัวตน” หรือ “ไม่มีตัวตน” แบบสองขั้ว แต่มีสถานะของการค้นหาและยึดมั่นในตัวตนต่างกัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+identity status, exploration, commitment, adolescence, identity formation
+Ruthellen Josselson
+สาย / สำนัก: Narrative Identity, Qualitative Psychology, Identity Development
+ผลงานสำคัญ:
+Finding Herself
+The Space Between Us
+งานด้าน narrative research และ identity in women’s lives
+แกนความคิด:
+Josselson สำคัญมากในงาน narrative identity และ qualitative psychology เธอศึกษาชีวิตคนผ่านการสัมภาษณ์และเรื่องเล่าอย่างละเอียด โดยเฉพาะการพัฒนา identity ความสัมพันธ์ และเส้นทางชีวิตของผู้หญิง งานของเธอทำให้เห็นว่าการเข้าใจคนไม่ควรรีบลดเรื่องเล่าชีวิตให้เหลือคะแนนหรือหมวดหมู่เร็วเกินไป
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative research, identity development, women’s lives, qualitative psychology, relationship
+Amia Lieblich
+สาย / สำนัก: Narrative Research, Life Story, Qualitative Psychology
+ผลงานสำคัญ:
+Narrative Research
+The Narrative Study of Lives
+Transition to Adulthood During Military Service
+แกนความคิด:
+Lieblich เป็นนักวิจัยสำคัญด้าน life story และ narrative methods เธอช่วยพัฒนาวิธีอ่านเรื่องเล่าชีวิตทั้งในเชิงเนื้อหา รูปแบบ โครงสร้าง และบริบท งานของเธอเหมาะสำหรับคนที่อยากทำงานเขียนหรือวิจัยที่ไม่ใช่แค่สรุปชีวิตคน แต่ฟังวิธีที่เขาเรียงความหมายของชีวิตตนเอง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+life story, narrative method, qualitative research, identity, meaning
+Catherine Kohler Riessman
+สาย / สำนัก: Narrative Analysis, Qualitative Research, Medical Sociology
+ผลงานสำคัญ:
+Narrative Analysis
+Narrative Methods for the Human Sciences
+งานด้าน illness narratives และ qualitative method
+แกนความคิด:
+Riessman สำคัญกับวิธีวิเคราะห์ narrative ในงานสังคมศาสตร์ เธอชี้ว่าเรื่องเล่าไม่ได้มีแค่ “เนื้อหา” แต่มีวิธีเล่า ผู้ฟัง สถานการณ์ ภาษา การจัดฉาก และอำนาจในการเล่าปะปนอยู่ด้วย งานของเธอเหมาะมากสำหรับการเขียนหรือวิเคราะห์ case โดยไม่ทำลายความซับซ้อนของชีวิตคน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative analysis, qualitative method, illness narrative, storytelling, voice
+Mark Freeman
+สาย / สำนัก: Narrative Psychology, Autobiographical Understanding, Memory and Self
+ผลงานสำคัญ:
+Rewriting the Self
+Hindsight
+The Priority of the Other
+แกนความคิด:
+Freeman สนใจการมองย้อนกลับและการเขียนชีวิตใหม่ เขาชี้ว่ามนุษย์มักเข้าใจชีวิตจาก hindsight หรือการย้อนมองอดีตหลังเหตุการณ์ผ่านไปแล้ว ตัวตนจึงไม่ใช่สิ่งที่เข้าใจได้ครบในขณะเกิดเหตุ แต่ค่อย ๆ ถูกตีความใหม่เมื่อชีวิตเดินต่อ งานของเขาดีมากสำหรับเขียนเรื่อง regret, memory, autobiography และการเปลี่ยนความหมายของอดีต
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+rewriting self, hindsight, memory, autobiography, moral life, interpretation
+Jens Brockmeier
+สาย / สำนัก: Narrative Psychology, Memory Studies, Cultural Psychology
+ผลงานสำคัญ:
+Beyond the Archive
+งานด้าน narrative, memory และ autobiographical self
+งานร่วมในสาย narrative and culture
+แกนความคิด:
+Brockmeier สำคัญกับการเชื่อม narrative, memory และ culture เขาไม่มองความทรงจำเป็นคลังข้อมูลในหัวเท่านั้น แต่เป็นกิจกรรมทางวัฒนธรรมที่มนุษย์ใช้สร้างอดีตให้มีรูปแบบและความหมาย ความจำจึงไม่ใช่การเล่นเทปซ้ำ แต่เป็นการประกอบอดีตผ่านภาษา สัญลักษณ์ และบริบทปัจจุบัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+memory, culture, autobiographical self, narrative reconstruction, remembering
+Molly Andrews
+สาย / สำนัก: Narrative Psychology, Political Narrative, Identity and Society
+ผลงานสำคัญ:
+Lifetimes of Commitment
+Shaping History
+Narrative Imagination and Everyday Life
+แกนความคิด:
+Andrews สำคัญกับการเชื่อมเรื่องเล่าส่วนตัวเข้ากับประวัติศาสตร์ การเมือง และจินตนาการทางสังคม เธอทำให้เห็นว่าเรื่องเล่าชีวิตไม่ได้เป็นแค่เรื่องส่วนตัว แต่สัมพันธ์กับยุคสมัย การต่อสู้ ความเชื่อทางการเมือง และความเป็นไปได้ที่คนจินตนาการให้ชีวิตตนเอง
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+political narrative, life history, imagination, identity, social memory
+Michael Bamberg
+สาย / สำนัก: Narrative Identity, Positioning Theory, Discourse and Identity
+ผลงานสำคัญ:
+งานด้าน positioning analysis
+งาน narrative identity and small stories
+งานด้าน discourse and identity
+แกนความคิด:
+Bamberg สำคัญกับการวิเคราะห์ว่า identity ถูกสร้างในบทสนทนาอย่างไร เขาไม่ได้มองเรื่องเล่าชีวิตเป็น autobiography ใหญ่ ๆ เท่านั้น แต่สนใจ small stories หรือเรื่องเล่าสั้น ๆ ในชีวิตประจำวัน ที่คนใช้วางตำแหน่งตนเองต่อผู้อื่น เช่น ฉันเป็นเหยื่อ ฉันเป็นผู้รอด ฉันเป็นคนขำ ฉันเป็นคนมีศักดิ์ศรี
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+positioning, small stories, discourse, identity construction, everyday narrative
+Alexandra Georgakopoulou
+สาย / สำนัก: Small Stories Research, Narrative Analysis, Sociolinguistics
+ผลงานสำคัญ:
+Small Stories, Interaction and Identities
+งานร่วมด้าน small stories research
+งานด้าน narrative and digital communication
+แกนความคิด:
+Georgakopoulou สำคัญกับ small stories approach เธอชี้ว่า identity ไม่ได้ถูกสร้างเฉพาะในเรื่องเล่ายาวแบบ “ชีวิตฉันตั้งแต่เกิดจนโต” แต่ถูกสร้างในเรื่องเล่าชิ้นเล็ก ๆ ในบทสนทนา โซเชียลมีเดีย การเล่าเหตุการณ์สั้น ๆ การหยอกล้อ และการแสดงตัวตนในชีวิตประจำวัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+small stories, interaction, digital identity, everyday storytelling, sociolinguistics
+Hubert Hermans
+สาย / สำนัก: Dialogical Self Theory, Narrative Psychology, Identity
+ผลงานสำคัญ:
+The Dialogical Self
+Self-Narratives
+งานด้าน dialogical self theory
+แกนความคิด:
+Hermans เสนอ Dialogical Self Theory ว่าตัวตนไม่ได้เป็นเสียงเดียว แต่เป็นพื้นที่สนทนาระหว่างหลายตำแหน่งภายใน เช่น ฉันในฐานะลูก ฉันในฐานะคนรัก ฉันในฐานะผู้แพ้ ฉันในฐานะผู้รอด ฉันในฐานะเด็กคนนั้น ฉันในฐานะคนที่อยากเริ่มใหม่ แนวนี้ใกล้กับงาน parts work, Jungian complexes และ narrative identity มาก
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+dialogical self, inner voices, identity positions, self-narrative, multiplicity
+Kenneth Gergen
+สาย / สำนัก: Social Constructionism, Relational Self, Narrative Identity
+ผลงานสำคัญ:
+The Saturated Self
+An Invitation to Social Construction
+Relational Being
+แกนความคิด:
+Gergen มอง self ไม่ใช่แก่นภายในที่อยู่นิ่ง แต่เป็นสิ่งที่ถูกสร้างผ่านความสัมพันธ์ ภาษา และวาทกรรมทางสังคม เขาสำคัญมากต่อ narrative psychology เพราะช่วยให้เห็นว่าเรื่องเล่าของเราไม่ได้เกิดจากตัวเราคนเดียว แต่เกิดจากภาษา วัฒนธรรม ครอบครัว สถาบัน และรูปแบบความสัมพันธ์ที่เราอาศัยอยู่
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+social constructionism, relational self, discourse, identity, narrative culture
+Mary Gergen
+สาย / สำนัก: Narrative Psychology, Feminist Psychology, Social Constructionism
+ผลงานสำคัญ:
+Feminist Reconstructions in Psychology
+งานด้าน narrative, gender และ aging
+งานร่วมกับ Kenneth Gergen
+แกนความคิด:
+Mary Gergen สำคัญกับการเชื่อม narrative psychology กับ feminist psychology เธอชี้ว่าชีวิตคน โดยเฉพาะชีวิตผู้หญิง ความชรา ความสัมพันธ์ และ identity ถูกเล่าผ่านกรอบวัฒนธรรมที่ไม่เป็นกลาง เรื่องเล่าจึงไม่ใช่แค่ประสบการณ์ส่วนตัว แต่เป็นพื้นที่ที่อำนาจทางเพศและสังคมเข้ามาจัดรูปชีวิต
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+feminist narrative, gender, aging, relational self, social construction
+Michael White
+สาย / สำนัก: Narrative Therapy, Family Therapy, Poststructural Therapy
+ผลงานสำคัญ:
+Maps of Narrative Practice
+Narrative Means to Therapeutic Ends
+Re-Authoring Lives
+แกนความคิด:
+Michael White คือแกนสำคัญของ Narrative Therapy เขาเสนอว่าคนไม่ได้เป็นปัญหา แต่ “ปัญหาคือปัญหา” งานของเขาเน้นการ externalize ปัญหา แยกตัวตนออกจากเรื่องเล่าที่กดทับ และช่วยให้ผู้รับการบำบัดค้นหา alternative stories หรือเรื่องเล่าทางเลือกที่ทำให้ชีวิตมี agency มากขึ้น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative therapy, externalizing problem, re-authoring, alternative stories, agency
+David Epston
+สาย / สำนัก: Narrative Therapy, Family Therapy, Collaborative Therapy
+ผลงานสำคัญ:
+Narrative Means to Therapeutic Ends
+Playful Approaches to Serious Problems
+งานพัฒนา Narrative Therapy ร่วมกับ Michael White
+แกนความคิด:
+Epston ร่วมวางฐาน Narrative Therapy กับ Michael White เขามีบทบาทสำคัญในการใช้จดหมาย การสนทนา และพิธีกรรมทางภาษาเพื่อช่วยให้ผู้รับการบำบัดสร้างความสัมพันธ์ใหม่กับปัญหา งานของเขาทำให้ therapy ไม่ใช่แค่การวิเคราะห์ปัญหา แต่เป็นการร่วมเขียนชีวิตใหม่ผ่านภาษาที่มีศักดิ์ศรีกว่าเดิม
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative therapy, therapeutic letters, re-authoring, collaboration, family therapy
+Jill Freedman
+สาย / สำนัก: Narrative Therapy, Collaborative Practice, Family Therapy
+ผลงานสำคัญ:
+Narrative Therapy: The Social Construction of Preferred Realities
+งานร่วมกับ Gene Combs
+แกนความคิด:
+Freedman สำคัญกับการทำให้ Narrative Therapy เข้าใจและฝึกใช้ได้ชัดขึ้น เธอเน้นว่าปัญหาของคนมักถูกทำให้แข็งผ่านเรื่องเล่าเดี่ยว เช่น “ฉันเป็นคนล้มเหลว” “ฉันเป็นภาระ” “ฉันไม่มีทางเปลี่ยน” งานของเธอช่วยเปิดพื้นที่ให้ preferred realities หรือความจริงทางเลือกที่คนสามารถอยู่กับตัวเองได้อย่างมีศักดิ์ศรีขึ้น
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative therapy, preferred realities, social construction, collaborative conversation, identity
+Gene Combs
+สาย / สำนัก: Narrative Therapy, Social Constructionist Therapy, Family Therapy
+ผลงานสำคัญ:
+Narrative Therapy: The Social Construction of Preferred Realities
+งานร่วมกับ Jill Freedman
+แกนความคิด:
+Combs สำคัญในสาย Narrative Therapy โดยเฉพาะการเน้นว่าความจริงในชีวิตคนจำนวนมากถูกสร้างผ่านภาษา ความสัมพันธ์ และอำนาจทางวัฒนธรรม เขาช่วยทำให้ narrative practice ไม่ใช่แค่เทคนิคการเล่าใหม่ แต่เป็นวิธีทำงานกับความหมายที่คนถูกโลกตีตราและคนพยายามทวงคืน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+social construction, narrative practice, preferred identity, therapy conversation, meaning-making
+Cheryl Mattingly
+สาย / สำนัก: Narrative Anthropology, Moral Experience, Illness Narrative
+ผลงานสำคัญ:
+Healing Dramas and Clinical Plots
+The Paradox of Hope
+Moral Laboratories
+แกนความคิด:
+Mattingly สำคัญมากกับการศึกษา illness narrative และ moral experience เธอมองชีวิตคนป่วย ครอบครัว และผู้ดูแลผ่านเรื่องเล่า ความหวัง ความล้มเหลว และการทดลองทางศีลธรรมในชีวิตประจำวัน งานของเธอทำให้เห็นว่า illness ไม่ใช่แค่ภาวะทางการแพทย์ แต่เป็นเรื่องเล่าที่เปลี่ยนความหมายของตัวตน ครอบครัว และอนาคต
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+illness narrative, moral experience, hope, care, clinical story
+Arthur Frank
+สาย / สำนัก: Illness Narrative, Medical Sociology, Narrative Ethics
+ผลงานสำคัญ:
+The Wounded Storyteller
+At the Will of the Body
+The Renewal of Generosity
+แกนความคิด:
+Frank สำคัญมากกับ illness narrative โดยเฉพาะแนวคิด wounded storyteller เขาเสนอว่าคนป่วยไม่ได้แค่มีอาการ แต่ต้องเผชิญการแตกของเรื่องเล่าชีวิตเดิม และต้องหาวิธีเล่าชีวิตใหม่ท่ามกลางร่างกายที่เปลี่ยนไป เขาแบ่งเรื่องเล่าความเจ็บป่วย เช่น restitution narrative, chaos narrative และ quest narrative ซึ่งใช้ได้ดีมากในการเขียนเรื่อง trauma, illness และ transformation
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+wounded storyteller, illness narrative, chaos story, quest story, body and identity
+Paul John Eakin
+สาย / สำนัก: Autobiography Studies, Narrative Identity, Life Writing
+ผลงานสำคัญ:
+How Our Lives Become Stories
+Living Autobiographically
+Fictions in Autobiography
+แกนความคิด:
+Eakin สำคัญกับการศึกษา autobiography และ life writing เขาชี้ว่าชีวิตไม่ได้กลายเป็นเรื่องเล่าเองโดยธรรมชาติ แต่ถูกสร้างผ่านรูปแบบวัฒนธรรม ความทรงจำ ภาษา และกฎของการเล่าตนเอง งานของเขาเหมาะมากถ้าจะเชื่อม narrative psychology กับวรรณกรรม อัตชีวประวัติ และการเขียนตัวตน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+autobiography, life writing, narrative self, memory, self-representation
+Mark Turner
+สาย / สำนัก: Cognitive Science, Narrative Thought, Conceptual Blending
+ผลงานสำคัญ:
+The Literary Mind
+The Way We Think
+งานด้าน conceptual blending
+แกนความคิด:
+Turner เสนอว่าความคิดมนุษย์มีธรรมชาติแบบวรรณกรรมมากกว่าที่เราคิด มนุษย์ใช้เรื่องเล่า อุปมา และการผสมกรอบความหมายเพื่อเข้าใจโลก งานของเขาดีมากสำหรับการอธิบายว่าทำไม narrative ไม่ใช่เครื่องประดับของความคิด แต่เป็นโครงสร้างพื้นฐานของ cognition
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+literary mind, conceptual blending, narrative cognition, metaphor, meaning
+Ulric Neisser
+สาย / สำนัก: Cognitive Psychology, Autobiographical Memory, Self
+ผลงานสำคัญ:
+Cognitive Psychology
+Memory Observed
+งานด้าน ecological memory และ self-knowledge
+แกนความคิด:
+Neisser สำคัญกับการศึกษาความทรงจำในชีวิตจริง เขาวิจารณ์การศึกษาความจำที่แยกจากโลกจริงมากเกินไป และสนใจ autobiographical memory หรือความทรงจำเกี่ยวกับชีวิตตนเอง งานของเขาเป็นฐานสำคัญในการเชื่อม memory, self และ narrative เข้าด้วยกัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+autobiographical memory, ecological memory, self, cognition, remembering
+Martin Conway
+สาย / สำนัก: Autobiographical Memory, Self-Memory System, Cognitive Psychology
+ผลงานสำคัญ:
+งาน Self-Memory System
+งานด้าน autobiographical memory และ identity
+แกนความคิด:
+Conway สำคัญกับแนวคิด self-memory system เขาเสนอว่าความทรงจำเกี่ยวกับชีวิตตนเองไม่ได้เป็นไฟล์แยก ๆ แต่สัมพันธ์กับเป้าหมาย ตัวตน และโครงสร้างความหมายที่เรามีในปัจจุบัน ความจำจึงถูกจัดระเบียบโดย self และ self ก็ถูกหล่อเลี้ยงด้วยความจำในเวลาเดียวกัน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+autobiographical memory, self-memory system, identity, life goals, remembering
+Robyn Fivush
+สาย / สำนัก: Autobiographical Memory, Family Narrative, Developmental Psychology
+ผลงานสำคัญ:
+งานด้าน parent-child reminiscing
+งาน family narratives and identity
+งาน autobiographical memory development
+แกนความคิด:
+Fivush สำคัญกับการศึกษาว่าเด็กพัฒนาความทรงจำเกี่ยวกับตนเองผ่านการเล่าร่วมกับครอบครัวอย่างไร เรื่องเล่าของพ่อแม่ การถาม การตอบ การขยายความ และการให้ความหมายกับเหตุการณ์ ล้วนช่วยสร้าง autobiographical self ของเด็ก งานนี้สำคัญมากถ้าจะเขียนเรื่องครอบครัวกับ identity
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+family narrative, autobiographical memory, child development, reminiscing, identity
+Tilmann Habermas
+สาย / สำนัก: Life Story Development, Autobiographical Reasoning, Narrative Identity
+ผลงานสำคัญ:
+งานด้าน life story development
+งาน autobiographical reasoning
+งาน temporal coherence ในเรื่องเล่าชีวิต
+แกนความคิด:
+Habermas สำคัญกับการศึกษาว่าคนพัฒนา ability ในการเล่าชีวิตให้เป็นเรื่องต่อเนื่องได้อย่างไร โดยเฉพาะในวัยรุ่น เขาสนใจ temporal coherence, causal coherence และ autobiographical reasoning หรือความสามารถในการเชื่อมเหตุการณ์ชีวิตกับการเปลี่ยนแปลงของตัวตน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+life story development, autobiographical reasoning, coherence, adolescence, identity
+Jefferson Singer
+สาย / สำนัก: Narrative Identity, Self-Defining Memories, Personality Psychology
+ผลงานสำคัญ:
+Memories That Matter
+งาน self-defining memories
+งาน narrative identity and psychotherapy
+แกนความคิด:
+Singer สำคัญกับแนวคิด self-defining memories หรือความทรงจำบางชุดที่คนใช้กำหนดว่าตนเป็นใคร ความทรงจำเหล่านี้ไม่ได้สำคัญเพราะเกิดขึ้นจริงเท่านั้น แต่เพราะคนกลับไปเล่า กลับไปตีความ และใช้มันเป็นหลักฐานของตัวตนซ้ำ ๆ งานนี้เหมาะมากกับการเขียนเรื่อง trauma, identity, turning points และ personal myth
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self-defining memory, identity, personality, psychotherapy, turning point
+Kate C. McLean
+สาย / สำนัก: Narrative Identity, Adolescent Development, Identity Formation
+ผลงานสำคัญ:
+งานด้าน narrative identity development
+งาน meaning-making, master narratives และ identity
+งาน narrative identity in adolescence
+แกนความคิด:
+McLean สำคัญกับ narrative identity รุ่นร่วมสมัย เธอศึกษาว่าวัยรุ่นและคนหนุ่มสาวสร้าง identity ผ่านเรื่องเล่าอย่างไร โดยเฉพาะการทำความหมายจากเหตุการณ์ยาก ๆ และการต่อรองกับ master narratives หรือเรื่องเล่าหลักของสังคมที่บอกว่าชีวิตที่ดีควรเป็นแบบไหน
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative identity development, adolescence, meaning-making, master narratives, identity
+Avril Thorne
+สาย / สำนัก: Narrative Identity, Self-Defining Memories, Developmental Psychology
+ผลงานสำคัญ:
+งาน self-defining memories
+งานด้าน narrative identity และ personality development
+งาน memory sharing and self-understanding
+แกนความคิด:
+Thorne สำคัญกับการศึกษาว่าความทรงจำสำคัญถูกเล่าและแบ่งปันอย่างไร เธอสนใจว่าเหตุการณ์บางอย่างกลายเป็นจุดนิยามตัวตนได้เพราะมันถูกนำกลับมาเล่าในความสัมพันธ์ ไม่ใช่เพราะมันอยู่ในหัวคนเดียวอย่างโดดเดี่ยว
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self-defining memory, shared memory, identity development, relationships, life story
+Susan Bluck
+สาย / สำนัก: Autobiographical Memory, Life Story, Aging and Identity
+ผลงานสำคัญ:
+งานด้าน functions of autobiographical memory
+งาน life story and aging
+งาน reminiscence and self-continuity
+แกนความคิด:
+Bluck สำคัญกับการศึกษาหน้าที่ของ autobiographical memory เช่น ใช้สร้างตัวตน รักษาความสัมพันธ์ และชี้นำพฤติกรรมในอนาคต งานของเธอเหมาะกับการเขียนเรื่องความจำไม่ใช่แค่คลังอดีต แต่เป็นเครื่องมือที่มนุษย์ใช้ประคอง self และความต่อเนื่องของชีวิต
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+autobiographical memory, self-continuity, aging, reminiscence, memory function
+Monisha Pasupathi
+สาย / สำนัก: Narrative Identity, Autobiographical Reasoning, Social Interaction
+ผลงานสำคัญ:
+งานด้าน narrative identity in conversation
+งาน autobiographical reasoning
+งาน memory sharing and self-development
+แกนความคิด:
+Pasupathi สำคัญกับการศึกษาว่า identity ถูกสร้างผ่านการเล่าให้คนอื่นฟังอย่างไร ผู้ฟังไม่ใช่แค่ผู้รับสาร แต่มีผลต่อวิธีที่ผู้เล่าเข้าใจตนเอง งานของเธอทำให้เห็นว่าเรื่องเล่าชีวิตเป็นกิจกรรมทางสังคม ไม่ใช่กระบวนการในหัวคนเดียว
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+narrative identity, social interaction, memory sharing, autobiographical reasoning, listener effect
+Michael Chandler
+สาย / สำนัก: Identity Development, Personal Persistence, Cultural Psychology
+ผลงานสำคัญ:
+งานด้าน personal persistence
+งาน identity and suicide prevention ในชุมชนชนพื้นเมือง
+งาน self-continuity
+แกนความคิด:
+Chandler สำคัญกับคำถามว่า “คนรู้สึกว่าตนยังเป็นคนเดิมต่อเนื่องได้อย่างไร” เขาศึกษา self-continuity ทั้งในระดับบุคคลและวัฒนธรรม โดยเฉพาะในบริบทเยาวชนและชุมชนที่เผชิญการแตกของเรื่องเล่าทางวัฒนธรรม งานนี้สำคัญมากสำหรับการเชื่อม identity กับ community, history และ cultural survival
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+self-continuity, identity, cultural continuity, adolescence, indigenous psychology
+Erik Erikson / McAdams / Ricoeur เป็นแกนร่วมอย่างไร
+สาย / สำนัก: Identity Theory, Narrative Identity, Hermeneutics of Self
+ผลงานสำคัญ:
+Erikson: Identity: Youth and Crisis
+McAdams: The Stories We Live By
+Ricoeur: Time and Narrative, Oneself as Another
+แกนความคิด:
+ถ้าจะวางแกน identity ในเว็บ สามคนนี้ควรอยู่เป็นโครงหลัก
+Erikson ให้ภาษาของ “วิกฤตอัตลักษณ์และพัฒนาการทางจิตสังคม”
+McAdams ให้ภาษาของ “ชีวิตที่ถูกจัดรูปเป็นเรื่องเล่าของตัวตน”
+Ricoeur ให้ฐานปรัชญาว่า “ตัวตนดำรงอยู่ผ่านเวลา การตีความ และเรื่องเล่า”
+เมื่อรวมกัน identity จะไม่ใช่แค่คำว่า “ฉันเป็นใคร” แบบลอย ๆ แต่คือกระบวนการที่มนุษย์พยายามรักษาความต่อเนื่องของตนเองท่ามกลางเวลา ความทรงจำ ความเปลี่ยนแปลง และโลกที่ตีความเราอยู่เสมอ
+เหมาะใช้อ้างอิงเมื่อเขียนเรื่อง:
+identity crisis, narrative identity, selfhood, time, life story, interpretation
+สรุปแกนของสายนี้
+สายนี้ควรเก็บไว้เป็นฐานของเว็บเวลาเขียนเรื่อง:
+มนุษย์ไม่ได้มีตัวตนจาก trait หรืออาการเท่านั้น แต่มีตัวตนผ่านเรื่องเล่าที่ใช้จัดระเบียบชีวิต
+ความทรงจำไม่ใช่การเล่นเทปอดีตซ้ำ แต่เป็นการสร้างความหมายของอดีตจากจุดยืนในปัจจุบัน
+identity คือความพยายามเชื่อมอดีต ปัจจุบัน และอนาคตให้กลายเป็น “ฉัน” ที่พอจะต่อเนื่องได้
+เรื่องเล่าชีวิตมีทั้ง redemption, contamination, turning point, trauma, quest, loss, rebirth และ silence
+trauma อาจทำให้เรื่องเล่าชีวิตแตก ขาด ลำดับเวลาเสีย หรือไม่สามารถเล่าออกมาเป็นภาษาได้
+narrative therapy มองว่าคนไม่ใช่ปัญหา แต่ปัญหาถูกสร้างและทำให้แข็งผ่านเรื่องเล่าบางแบบ
+เรื่องเล่าส่วนตัวไม่เคยเป็นส่วนตัวล้วน ๆ เพราะมันถูกสร้างจากภาษา ครอบครัว วัฒนธรรม สังคม เพศ ชนชั้น และประวัติศาสตร์
+ถ้าจะเขียน Jung / Freud / Lacan ให้มีชีวิต สายนี้สำคัญมาก เพราะมันทำให้ psyche ไม่ใช่แค่โครงสร้างทฤษฎี แต่กลายเป็นชีวิตที่คนพยายามเล่าให้ตนเองฟังเพื่อไม่ให้แตกสลาย
+รายชื่อแกนหลักที่ควรใช้เป็นฐานอ้างอิงก่อน
+Jerome Bruner
+Dan P. McAdams
+Theodore Sarbin
+Donald Spence
+Roy Schafer
+Paul Ricoeur
+Erik Erikson
+James Marcia
+Ruthellen Josselson
+Amia Lieblich
+Catherine Kohler Riessman
+Mark Freeman
+Jens Brockmeier
+Molly Andrews
+Michael Bamberg
+Alexandra Georgakopoulou
+Hubert Hermans
+Kenneth Gergen
+Mary Gergen
+Michael White
+David Epston
+Jill Freedman
+Gene Combs
+Cheryl Mattingly
+Arthur Frank
+Paul John Eakin
+Mark Turner
+Ulric Neisser
+Martin Conway
+Robyn Fivush
+Tilmann Habermas
+Jefferson Singer
+Kate C. McLean
+Avril Thorne
+Susan Bluck
+Monisha Pasupathi
+Michael Chandler
+รันสายอื่น ๆ ต่อได้เลยค่ะ
+สายถัดไปคือ Psychology of Religion / Spiritual Development

@@ -1,0 +1,351 @@
+ได้ค่ะ สายต่อไปคือ Structuralism / Post-Structuralism
+สายนี้เป็นจุดที่เว็บของเราต้องระวังมาก เพราะมันเกี่ยวกับ ภาษา โครงสร้าง สัญญะ อำนาจ ความหมายที่ไม่มั่นคง และ subject ที่ไม่ได้เกิดจาก “ตัวตนแท้” ล้วน ๆ แต่ถูกผลิตผ่านระบบ
+Structuralism / Post-Structuralism
+แกนกลาง:
+ภาษา โครงสร้าง สัญญะ ความหมายที่เกิดจากความต่าง ระบบที่อยู่ใต้ประสบการณ์ subject ที่ถูกผลิตโดยภาษา/อำนาจ/discourse และการสั่นคลอนความเชื่อว่าความหมายมีศูนย์กลางนิ่ง ๆ
+เหมาะกับเว็บ:
+ใช้กับ Lacan, symbolic order, myth, discourse, identity, power, subject formation, language, AI language, writing theory, ideology, semiotics, tarot/image reading, typology critique
+Structuralism เริ่มจากความคิดว่า สิ่งต่าง ๆ ไม่ได้มีความหมายโดด ๆ ในตัวเอง แต่มีความหมายผ่าน ความสัมพันธ์ในระบบ โดย Saussure วางฐานใหญ่ของ structural linguistics ผ่านความต่างระหว่าง langue ระบบภาษา กับ parole การใช้ภาษาจริงของปัจเจก และแนวคิดนี้กลายเป็นฐานของ structuralism ในมนุษยศาสตร์ศตวรรษที่ 20. (Encyclopedia Britannica)
+ส่วน Post-Structuralism เริ่มเด่นในฝรั่งเศสช่วงปลายทศวรรษ 1960 โดยดึงจาก Saussure, Lévi-Strauss และ Derrida แล้วขยับไปตั้งคำถามกับความนิ่งของโครงสร้าง ความโปร่งใสของภาษา และความมั่นคงของ subject; Britannica ระบุชื่อที่เกี่ยวข้อง เช่น Roland Barthes, Jacques Lacan, Julia Kristeva และ Michel Foucault. (Encyclopedia Britannica)
+Ferdinand de Saussure
+ผลงานหลัก:
+Course in General Linguistics
+หมายเหตุ: เป็นงานที่รวบรวมจากบันทึกการบรรยายหลังเขาเสียชีวิต ไม่ใช่หนังสือที่ Saussure เรียบเรียงเองโดยตรง
+แนวคิดสำคัญ:
+Langue / Parole — ระบบภาษา / การใช้ภาษาจริง
+Signifier / Signified — รูปสัญญะ / แนวคิดที่ถูกสื่อ
+Sign — หน่วยของความหมายที่เกิดจากความสัมพันธ์ระหว่าง signifier และ signified
+Arbitrariness of the Sign — สัญญะไม่ได้เชื่อมกับสิ่งที่มันหมายถึงโดยธรรมชาติ
+Difference — ความหมายเกิดจากความต่าง ไม่ใช่แก่นในตัวคำ
+Synchronic / Diachronic — ศึกษาระบบภาษาในช่วงเวลาหนึ่ง / ศึกษาการเปลี่ยนแปลงตามเวลา
+Language as System — ภาษาเป็นระบบความสัมพันธ์ ไม่ใช่กองคำแยกกัน
+Semiology — การศึกษาชีวิตของสัญญะในสังคม
+Saussure เสนอว่าภาษาต้องถูกเข้าใจเป็นระบบทางสังคมที่มีโครงสร้าง และแยก parole หรือคำพูดเฉพาะของปัจเจกออกจาก langue ซึ่งเป็นระบบกฎ/ความสัมพันธ์ที่ทำให้คำพูดเข้าใจได้; Britannica ระบุว่าสองความต่างหลักของ Saussure คือ langue/parole และ form/substance ซึ่งกลายเป็นฐานของ structural linguistics. (Encyclopedia Britannica)
+เหมาะกับเว็บเรา:
+Saussure คือประตูสู่ Lacan และ semiotics ทั้งหมด เพราะหลังจากเขา เราจะเริ่มถามว่า:
+คำไม่ได้หมายถึงสิ่งตรง ๆ
+แต่หมายผ่านระบบของความต่าง
+แล้ว “ตัวตน” ที่เราพูดถึงอยู่ในภาษาแบบไหน
+ประโยคใช้งานเว็บ:
+Saussure ทำให้ภาษาไม่ใช่กระจกใสที่สะท้อนโลก แต่เป็นระบบความต่างที่ทำให้โลกถูกแบ่ง ถูกตั้งชื่อ และถูกทำให้มีความหมายต่อเรา
+Claude Lévi-Strauss
+ผลงานหลัก:
+The Elementary Structures of Kinship, Structural Anthropology, Tristes Tropiques, The Savage Mind, Mythologiques
+แนวคิดสำคัญ:
+Structural Anthropology — วิเคราะห์วัฒนธรรมผ่านโครงสร้างสัมพันธ์ที่อยู่ใต้ผิว
+Binary Oppositions — คู่ตรงข้าม เช่น nature/culture, raw/cooked, life/death
+Myth as Structure — myth ไม่ใช่เรื่องเล่าเดี่ยว ๆ แต่เป็นระบบความสัมพันธ์
+Unconscious Structure — โครงสร้างบางอย่างทำงานโดยคนในวัฒนธรรมไม่รู้ตัว
+Kinship Systems — เครือญาติเป็นระบบแลกเปลี่ยนและความสัมพันธ์
+Culture as Language-like System — วัฒนธรรมทำงานคล้ายภาษา
+Transformation of Myths — myth หนึ่งแปรรูปเป็นอีก myth ผ่านกฎความสัมพันธ์
+The Savage Mind — ความคิดแบบ mythic มีตรรกะของตัวเอง ไม่ใช่ความคิดด้อยกว่าเหตุผลสมัยใหม่
+Lévi-Strauss พัฒนา structuralism ในมานุษยวิทยา โดยวิเคราะห์วัฒนธรรมเป็นระบบและมองหาโครงสร้างความสัมพันธ์ใต้พิธีกรรม myth เครือญาติ ศิลปะ ศาสนา และอาหาร; Britannica ระบุว่าเขาได้รับอิทธิพลจาก structural linguistics และเน้นความสัมพันธ์ระหว่างหน่วยมากกว่าหน่วยเดี่ยว ๆ. (Encyclopedia Britannica)
+เหมาะกับเว็บเรา:
+Lévi-Strauss เหมาะมากกับงาน myth, archetype, tarot, cultural symbol, Jungian comparative symbolism
+แต่ต้องระวัง: เขาไม่ใช่ Jungian และ myth ในเขาไม่ใช่ “ภาพจาก collective unconscious” แบบตรง ๆ
+ประโยคใช้งานเว็บ:
+Lévi-Strauss ทำให้ myth ไม่ใช่นิทานโบราณที่รอให้เราแปลเป็นคติสอนใจ แต่เป็นเครื่องจักรของความหมายที่จัดคู่ตรงข้ามในจิตและวัฒนธรรมให้พออยู่ร่วมกันได้
+Roland Barthes
+ผลงานหลัก:
+Mythologies, Writing Degree Zero, S/Z, The Pleasure of the Text, Image-Music-Text, Camera Lucida
+แนวคิดสำคัญ:
+Mythologies — วิเคราะห์วัฒนธรรมร่วมสมัยในฐานะ myth
+Myth as Second-order Signification — myth เอาสัญญะหนึ่งไปทำให้กลายเป็นสัญญะอีกชั้น
+Death of the Author — ความหมายไม่ควรถูกผูกกับเจตนาผู้เขียนเพียงอย่างเดียว
+Readerly / Writerly Text — ข้อความที่ปิดความหมาย / ข้อความที่เปิดให้ผู้อ่านร่วมผลิตความหมาย
+Codes — ความหมายในข้อความเกิดจากรหัสหลายชั้น
+Semiotics of Everyday Life — แฟชั่น อาหาร ภาพโฆษณา กีฬา การเมือง ล้วนอ่านเป็น sign ได้
+Pleasure of the Text — การอ่านมีมิติของความสุข ร่างกาย และการแตกของความหมาย
+Punctum / Studium — ในภาพถ่าย มีทั้งความหมายเชิงวัฒนธรรมและจุดแทงเฉพาะตัวผู้ดู
+Barthes มีบทบาทสูงในการทำให้ semiotics เข้าไปอ่านวัฒนธรรมร่วมสมัย เช่น Mythologies ที่อ่านสัญลักษณ์ในชีวิตประจำวันและกลายเป็นฐานสำคัญของ cultural studies; Britannica ยังระบุว่าเขาแยก “readerly” กับ “writerly” text เพื่อชี้ว่าข้อความบางแบบเปิดให้เกิดการอ่านที่หลากหลายและรบกวนความหมายเดิมมากกว่า. (Encyclopedia Britannica)
+เหมาะกับเว็บเรา:
+Barthes เหมาะกับบทความเรื่อง media, AI language, website image, tarot, myth of self-development, branding, aesthetic ideology
+ประโยคใช้งานเว็บ:
+Barthes ทำให้เรารู้ว่า myth ไม่ได้อยู่แค่ในเทพนิยาย แต่มันอยู่ในโฆษณา รูปโปรไฟล์ หน้าเว็บ สี ฟอนต์ และทุกภาพที่ทำให้ระบบบางอย่างดูเป็นธรรมชาติขึ้นมา
+Jacques Derrida
+ผลงานหลัก:
+Of Grammatology, Writing and Difference, Speech and Phenomena, Margins of Philosophy, Dissemination, Positions, The Post Card, Specters of Marx
+แนวคิดสำคัญ:
+Deconstruction — อ่านรอยร้าวภายในระบบความหมาย
+Différance — ความหมายเกิดจากทั้ง difference และ deferral คือความต่างและการเลื่อนออกไป
+Trace — ทุกความหมายมีร่องรอยของสิ่งที่มันไม่ใช่
+Supplement — สิ่งที่ดูเหมือนส่วนเพิ่ม กลับเผยว่าศูนย์กลางเดิมไม่สมบูรณ์
+Logocentrism — วิจารณ์ความเชื่อว่ามีความหมาย/ความจริงปรากฏตรงบริสุทธิ์
+Presence / Absence — ความหมายไม่ได้อยู่แบบ present เต็ม ๆ แต่พัวพันกับสิ่งที่ขาดหาย
+Textuality — ไม่มีความหมายที่หลุดพ้นจากระบบร่องรอย ภาษา และบริบทอย่างสมบูรณ์
+Undecidability — บางโครงสร้างความหมายไม่สามารถถูกปิดด้วยคำตัดสินสุดท้ายง่าย ๆ
+Deconstruction and Justice — การรื้อโครงสร้างไม่ใช่แค่เล่นคำ แต่สัมพันธ์กับความยุติธรรมและสิ่งที่ระบบกดทับ
+Derrida เป็นผู้ก่อตั้ง deconstruction ซึ่งเป็นวิธีวิจารณ์ทั้งข้อความปรัชญา วรรณกรรม และสถาบันทางการเมือง โดย SEP ระบุว่า deconstruction ไม่ใช่แค่การทำลายความหมาย แต่เป็นความพยายามคิดความต่าง รอยร้าว และความยุติธรรมที่ระบบปิดทับไว้. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Derrida เหมาะกับบทความเรื่อง language instability, AI writing, hidden assumptions, binary opposition, Jungian terms, Lacanian signifier, textual slippage
+ประโยคใช้งานเว็บ:
+Derrida ทำให้เราระวังคำที่ดูมั่นคงเกินไป เพราะทุกคำที่อ้างว่าจับความจริงไว้ได้เต็มมือ มักมีเงาของสิ่งที่มันกดทับ ซ่อน หรือเลื่อนออกไปอยู่ข้างในเสมอ
+Michel Foucault
+ผลงานหลัก:
+Madness and Civilization, The Birth of the Clinic, The Order of Things, Archaeology of Knowledge, Discipline and Punish, The History of Sexuality
+แนวคิดสำคัญ:
+Power/Knowledge — อำนาจกับความรู้ผลิตกันและกัน
+Discourse — ระบบคำพูด/ความรู้ที่กำหนดว่าอะไรพูดได้ คิดได้ เป็นจริงได้
+Archaeology — วิเคราะห์เงื่อนไขเชิงประวัติศาสตร์ของระบบความรู้
+Genealogy — สืบรากของสิ่งที่เราคิดว่าเป็นธรรมชาติ เช่น madness, sexuality, crime
+Discipline — อำนาจที่ฝึกร่างให้เชื่อง มีประสิทธิภาพ และควบคุมตัวเอง
+Panopticism — การเฝ้าระวังที่ทำให้คนกลายเป็นผู้คุมตัวเอง
+Biopower — อำนาจที่จัดการชีวิต สุขภาพ เพศ ประชากร
+Subjectivation — subject ถูกผลิตผ่าน practice, discourse, institution
+Normal / Abnormal — ความปกติถูกผลิตในประวัติศาสตร์ ไม่ใช่แค่ค้นพบในธรรมชาติ
+Foucault มีอิทธิพลสูงทั้งในปรัชญา มนุษยศาสตร์ และสังคมศาสตร์ โดย SEP ระบุว่าเขาเกี่ยวข้องกับทั้ง structuralist และ post-structuralist movements และงานของเขาอ่านได้ในฐานะประวัติศาสตร์เชิงปรัชญาของความรู้ อำนาจ ร่างกาย และ subject. (Stanford Encyclopedia of Philosophy) งาน genealogy ของเขาเน้นว่าร่างกายถูกทำให้เป็นเป้าของเทคนิคอำนาจ เช่น ใน Discipline and Punish ที่แสดงการผลิต “docile bodies” ผ่านสถาบันอย่างคุก โรงเรียน กองทัพ และโรงงาน. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Foucault สำคัญมากกับบทความเรื่อง psychiatry, diagnosis, normality, sexuality, AI profiling, social media, self-discipline, power in knowledge
+ประโยคใช้งานเว็บ:
+Foucault ทำให้เราถามว่า สิ่งที่เราเรียกว่า “ปกติ” “ป่วย” “มีวินัย” หรือ “ต้องพัฒนา” เป็นความจริงบริสุทธิ์ หรือเป็นร่องรอยของอำนาจที่เรียนรู้จะพูดผ่านภาษาของความรู้
+Gilles Deleuze
+ผลงานหลัก:
+Difference and Repetition, Logic of Sense, Nietzsche and Philosophy, Bergsonism, Spinoza: Practical Philosophy, Anti-Oedipus, A Thousand Plateaus
+หมายเหตุ: Anti-Oedipus และ A Thousand Plateaus เขียนร่วมกับ Félix Guattari
+แนวคิดสำคัญ:
+Difference-in-itself — difference มาก่อน identity
+Repetition — การซ้ำไม่ใช่การทำเหมือนเดิม แต่เป็นการผลิตความต่าง
+Multiplicity — ความเป็นหลายที่ไม่ต้องถูกลดเป็นเอกภาพเดียว
+Virtual / Actual — virtual เป็นความจริงเชิงศักยภาพ ไม่ใช่แค่ possible
+Becoming — การกลายเป็น ไม่ใช่การเดินไปหา identity ตายตัว
+Assemblage / Agencement — ตัวตน/สังคม/ความหมายเกิดจากการประกอบของแรงหลายชั้น
+Rhizome — โครงสร้างแตกกิ่ง ไม่มีศูนย์เดียว ไม่ใช่ต้นไม้ลำดับชั้น
+Deterritorialization / Reterritorialization — การหลุดจากกรอบเดิมและการถูกจัดรูปใหม่
+Desiring-production — desire ไม่ใช่แค่ขาด แต่เป็นพลังผลิต
+Anti-Oedipal Critique — วิจารณ์การลด desire ทั้งหมดกลับไปสู่ครอบครัวแบบ Oedipus
+Deleuze เสนอปรัชญาของ difference โดยใน Difference and Repetition เขากลับลำดับเดิมที่ให้ identity มาก่อน difference; SEP อธิบายว่า Deleuze ทำให้ identity กลายเป็นผลผลิตรองของความต่างที่ลึกกว่า ไม่ใช่จุดตั้งต้นของความจริง. (Stanford Encyclopedia of Philosophy)
+เหมาะกับเว็บเรา:
+Deleuze เหมาะกับ TPDT, anti-fixed typology, psyche as assemblage, desire, becoming, identity fluidity
+ใช้ดีมากในการกันไม่ให้เว็บเอาคนไปแช่แข็งด้วย type
+ประโยคใช้งานเว็บ:
+Deleuze ทำให้ตัวตนไม่ใช่แก่นนิ่งที่รอให้ค้นพบ แต่เป็น assemblage ของแรง ความทรงจำ ภาษา ร่างกาย อำนาจ desire และความเป็นไปได้ที่กำลังประกอบตัวใหม่ตลอดเวลา
+Julia Kristeva
+ผลงานหลัก:
+Revolution in Poetic Language, Desire in Language, Powers of Horror, Black Sun, Strangers to Ourselves, Tales of Love
+แนวคิดสำคัญ:
+Intertextuality — ข้อความหนึ่งมีชีวิตจากความสัมพันธ์กับข้อความอื่น
+Semiotic / Symbolic — จังหวะ เสียง ร่างกาย drive / ไวยากรณ์ กฎ ความหมายเชิงสัญลักษณ์
+Speaking Subject — subject เกิดผ่านภาษา แต่ไม่ถูกปิดนิ่งในภาษา
+Semananalysis — ผสาน semiotics กับ psychoanalysis
+Abjection — สิ่งที่ถูกขับออกเพื่อให้ subject และขอบเขตตัวตนเกิดขึ้น
+Maternal Body — ร่างแม่ในฐานะพื้นที่ก่อน/ใต้ symbolic order
+Poetic Language — ภาษาเขย่าโครงสร้าง symbolic ด้วย rhythm, tone, drive
+Strangeness — ความเป็นคนแปลกหน้า ทั้งในสังคมและในตัวเราเอง
+Melancholia / Black Sun — ความเศร้าและภาษาในระดับลึกของ subject
+Kristeva เป็นนักคิดที่เชื่อม structural linguistics, semiotics, psychoanalysis และ feminist theory; Britannica ระบุว่างานของเธอมีช่วง structuralist-semiotic และ psychoanalytic-feminist โดยหนึ่งในข้อเสนอสำคัญคือความต่างระหว่าง semiotic ที่สัมพันธ์กับ rhythm/tone และ maternal body กับ symbolic ที่สัมพันธ์กับ grammar/syntax และ referential meaning. (Encyclopedia Britannica) แนวคิด intertextuality ของ Kristeva เสนอว่าความหมายของข้อความถูกก่อรูปผ่านความสัมพันธ์กับข้อความอื่น ไม่ใช่ผ่านผู้เขียนเดี่ยว ๆ อย่างปิดตัว. (Taylor & Francis Online)
+เหมาะกับเว็บเรา:
+Kristeva เหมาะมากกับบทความเรื่อง writing voice, poetic language, abjection, depression, feminine symbolic, body-language, AI writing without body
+ประโยคใช้งานเว็บ:
+Kristeva ทำให้ภาษามีร่างกายอีกครั้ง เพราะคำไม่ได้ทำงานด้วยความหมายตรงอย่างเดียว แต่มีจังหวะ น้ำหนัก เสียง drive และสิ่งถูกขับออกที่ยังสั่นอยู่ใต้ระบบไวยากรณ์
+นักคิดเสริมที่ควรเก็บไว้ในสายนี้
+Jacques Lacan
+ควรมี เพราะ:
+เป็นตัวเชื่อมใหญ่ระหว่าง Freud กับ structuralism ผ่านภาษา signifier และ symbolic order
+ใช้กับเว็บ:
+unconscious structured like a language, desire, subject split, mirror stage, symbolic order
+Louis Althusser
+ควรมี เพราะ:
+สำคัญกับ structural Marxism และ ideology ที่ interpellate subject
+ใช้กับเว็บ:
+ideology, subject formation, state apparatus, political unconscious
+Roman Jakobson
+ควรมี เพราะ:
+เป็นสะพาน structural linguistics, phonology, poetics และอิทธิพลต่อ Lévi-Strauss/Lacan
+ใช้กับเว็บ:
+metaphor/metonymy, poetic function, language structure
+Émile Benveniste
+ควรมี เพราะ:
+สำคัญกับ subjectivity in language โดยเฉพาะคำว่า I/you และ enunciation
+ใช้กับเว็บ:
+subject, pronoun, voice, writing persona, AI voice
+Hélène Cixous
+ควรมีแบบข้ามสาย feminist/post-structural:
+สำคัญกับ écriture féminine และการเขียนที่สั่นระบบภาษาแบบชายเป็นศูนย์กลาง
+ใช้กับเว็บ:
+body writing, feminine symbolic, poetic disruption
+Luce Irigaray
+ควรมีแบบข้ามสาย feminist philosophy:
+สำคัญกับ sexual difference, critique of phallocentrism, language and body
+ใช้กับเว็บ:
+anima/animus critique, gender, feminine language
+Jean Baudrillard
+ควรมีแบบข้ามสาย media philosophy:
+สำคัญกับ simulacra, simulation, hyperreality
+ใช้กับเว็บ:
+media, AI image, digital self, spectacle, reality collapse
+คำศัพท์แกนที่ควรทำเป็น Wiki
+คำ
+ความหมายแกน
+ใช้กับเว็บ
+Structure
+ระบบความสัมพันธ์ใต้ปรากฏการณ์
+myth, language, psyche
+Langue
+ระบบภาษา
+symbolic order
+Parole
+การใช้ภาษาจริง
+speech, writing voice
+Sign
+สัญญะ
+semiotics
+Signifier
+รูปเสียง/รูปคำ/ตัวสื่อ
+Lacan, language
+Signified
+แนวคิดที่ถูกสื่อ
+meaning
+Binary Opposition
+คู่ตรงข้ามที่จัดโครงสร้างความหมาย
+myth, psyche
+Myth
+ระบบความหมายชั้นสอง
+culture, ideology
+Code
+รหัสที่ทำให้ข้อความอ่านได้
+Barthes
+Textuality
+ความเป็นข้อความของความหมาย
+writing
+Intertextuality
+ข้อความสัมพันธ์กับข้อความอื่น
+Kristeva
+Discourse
+ระบบคำพูด/ความรู้
+Foucault
+Power/Knowledge
+อำนาจกับความรู้ผลิตกัน
+diagnosis, ideology
+Genealogy
+สืบรากประวัติศาสตร์ของความจริงที่ดูธรรมชาติ
+Foucault
+Deconstruction
+อ่านรอยร้าวของระบบความหมาย
+Derrida
+Différance
+ความต่างและการเลื่อนความหมาย
+Derrida
+Trace
+ร่องรอยของสิ่งที่ไม่อยู่
+language
+Supplement
+ส่วนเพิ่มที่เผยความไม่สมบูรณ์ของศูนย์กลาง
+Derrida
+Subjectivation
+การผลิต subject ผ่านระบบ
+power, identity
+Assemblage
+การประกอบของแรงหลายชั้น
+Deleuze
+Multiplicity
+ความเป็นหลาย
+anti-fixed identity
+Virtual
+ศักยภาพจริงที่ยังไม่ actualized
+becoming
+Rhizome
+โครงสร้างแตกกิ่งไร้ศูนย์
+wiki, knowledge system
+Semiotic / Symbolic
+จังหวะร่างกาย-drive / กฎภาษา-ความหมาย
+Kristeva
+Abjection
+สิ่งถูกขับออกเพื่อให้ตัวตนเกิด
+body, disgust, boundary
+Simulacrum
+ภาพ/สำเนาที่ไม่กลับไปหาต้นฉบับมั่นคง
+media, AI
+แกนบทความที่ควรแตกจากสายนี้
+สำหรับ Lacan / Psychoanalysis
+Unconscious structured like a language แปลว่าอะไร
+Signifier ทำงานกับ desire อย่างไร
+Subject ไม่ใช่ ego: Lacan อ่านผ่าน structuralism อย่างไร
+Symbolic order กับการผลิตตัวตน
+Mirror stage กับ image, signifier, social gaze
+Freud หลัง Saussure: symptom เป็นข้อความหรือไม่
+สำหรับ Jung / Myth / Symbol
+Archetype กับ structure ต่างกันอย่างไร
+Myth ใน Jung กับ myth ใน Lévi-Strauss
+Binary opposition กับ Jungian opposites
+Symbol มี meaning ลึก หรือมี structure ของความต่าง
+Tarot image อ่านแบบ structural ได้อย่างไร
+ระวัง dictionary archetype: symbol ไม่ได้แปลตรงตัวแบบป้ายคำศัพท์
+สำหรับ Identity / Subject / Power
+ตัวตนเป็นของแท้ หรือถูกผลิตโดยภาษา
+Diagnosis ผลิต subject แบบไหน
+Typology สร้าง identity หรือค้นพบ identity
+Foucault กับ MBTI community: type เป็น liberation หรือ discipline
+AI profiling กับ subjectivation
+Persona ไม่ใช่แค่หน้ากาก แต่เป็นตำแหน่งในระบบสัญญะ
+สำหรับ Writing / AI / Language
+AI เขียนเหมือนมีตัวตน เพราะมันเล่นกับ signifier ได้หรือเปล่า
+ภาษา AI ไม่มี body: อ่านผ่าน Kristeva ได้อย่างไร
+Text ไม่มี author จริงไหมในยุค AI
+Death of the Author กับ prompt engineering
+งานเขียนของสินต้องไม่กลายเป็น code สำเร็จรูป
+Humanizer คือการคืน rhythm, wound, body, temporality ให้ภาษา
+สำหรับ Web / UI / Media
+หน้าเว็บเป็นระบบสัญญะ ไม่ใช่แค่ layout
+สี ฟอนต์ icon motion คือ signifier ที่ผลิต mood
+เว็บจิตวิญญาณกลายเป็น myth ตลาดได้อย่างไร
+UI/UX กับ Barthes: design ทำให้ ideology ดูเป็นธรรมชาติ
+Simulacra กับ AI image: ภาพสวยที่ไม่มีชีวิตจริงรองรับ
+Wiki แบบ rhizome: knowledge ไม่จำเป็นต้องเป็นต้นไม้ลำดับชั้นเดียว
+จุดเชื่อมกับ Jung / Psychology แบบคุมให้คม
+ใช้ได้
+Saussure → signifier/signified
+ใช้เป็นฐานเข้า Lacan และ writing theory
+Lévi-Strauss → myth as structure
+ใช้เทียบกับ Jung ได้ แต่ต้องไม่ทำให้เหมือนกันตรง ๆ
+Barthes → myth in modern culture
+ใช้กับ media, branding, self-development, AI aesthetics
+Derrida → instability of meaning
+ใช้คุมคำใหญ่ เช่น Self, soul, archetype, feminine, unconscious ไม่ให้แข็งเกินไป
+Foucault → power/knowledge
+ใช้กับ diagnosis, psychiatry, typology, sexuality, AI profiling
+Deleuze → becoming / assemblage
+ใช้กับ TPDT และ anti-fixed identity
+Kristeva → semiotic body / abjection
+ใช้กับ writing voice, body-language, disgust, boundary, depression, feminine symbolic
+ต้องระวัง
+อย่าบอกว่า structuralism = ทุกอย่างถูกกำหนดแข็ง ๆ
+อย่าบอกว่า post-structuralism = ไม่มีความจริง อะไรก็ได้
+อย่าบอกว่า Derrida = ทำลายความหมายทั้งหมด
+อย่าบอกว่า Foucault = ทุกอย่างคืออำนาจ เลยไม่มีความจริง
+อย่าบอกว่า Deleuze = ไม่มีตัวตน ไม่มีขอบเขต ทำอะไรก็ได้
+อย่าบอกว่า Kristeva’s semiotic = semiotics ของ Saussure
+อย่าทำ Barthes เป็นแค่ “ผู้เขียนตายแล้ว” แบบ meme
+อย่าทำ Lévi-Strauss เป็น Jung เวอร์ชันมานุษยวิทยา
+อย่าลืมว่า “post-structuralism” เป็นป้ายรวมหลวม ๆ หลายคนในกลุ่มนี้ไม่ได้เรียกตัวเองแบบนั้นตรง ๆ
+สรุปใช้งานสำหรับเว็บ
+สายนี้สำคัญมาก เพราะมันบังคับให้เว็บหยุดคิดแบบ ตัวตนแท้ลอย ๆ แล้วหันมาถามว่า:
+ตัวตนถูกผลิตในภาษาแบบไหน
+ความหมายถูกสร้างผ่านระบบอะไร
+myth สมัยใหม่กำลังทำให้อะไรดูธรรมชาติ
+diagnosis ทำให้คนเป็น subject แบบใด
+typology ปลดปล่อยคน หรือสร้างกรงใหม่ให้คนอยู่
+AI เขียนภาษาได้ แต่มี body, wound, desire, silence หรือเปล่า
+และคำที่เรารัก เช่น soul, Self, feminine, shadow, psyche
+กำลังเปิดความหมาย หรือกำลังกลายเป็นป้ายที่ปิดมนุษย์
+สรุปตัวละครหลัก:
+Ferdinand de Saussure = langue/parole / signifier-signified / language as relational system
+Claude Lévi-Strauss = myth structure / binary oppositions / cultural systems / unconscious structures
+Roland Barthes = mythologies / cultural semiotics / death of author / readerly-writerly text
+Jacques Derrida = deconstruction / différance / trace / supplement / critique of presence
+Michel Foucault = discourse / power-knowledge / genealogy / discipline / subjectivation
+Gilles Deleuze = difference / repetition / multiplicity / assemblage / becoming
+Julia Kristeva = intertextuality / semiotic-symbolic / abjection / poetic language / speaking body
+ประโยคแกนของสายนี้สำหรับเว็บ:
+Structuralism และ Post-Structuralism ทำให้ psyche ไม่ใช่แค่ความลึกส่วนตัว
+แต่เป็นสิ่งที่ถูกจัดรูปผ่านภาษา สัญญะ อำนาจ วัฒนธรรม myth และ discourse
+มนุษย์ไม่ได้พูดภาษาอย่างเดียว
+ภาษาเองก็พูดผ่านมนุษย์
+มนุษย์ไม่ได้มี identity อย่างเดียว
+identity เองก็ถูกผลิตจากระบบที่มาก่อนเขา
+และความหมายไม่ได้อยู่เฉย ๆ ให้เราหยิบ
+แต่มันเลื่อน แตก ซ่อน ต่อสู้ และเปลี่ยนรูปในสนามของ signifier อยู่ตลอดเวลา
+สายนี้จึงเป็นวัคซีนกันเว็บของเราไม่ให้ใช้คำใหญ่แบบไร้เดียงสา
+เพราะทุกคำที่ดูสวย
+อาจมีโครงสร้าง อำนาจ และเงาของสิ่งที่ถูกขับออกซ่อนอยู่ข้างใน
+รันสายถัดไปได้เลยค่ะ: Critical Theory / Frankfurt School
