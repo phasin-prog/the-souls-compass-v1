@@ -13,7 +13,7 @@ import {
   SynthesisIcon,
 } from "@/components/icons";
 import { RecentlyViewed } from "@/components/recently-viewed";
-import { CardCarousel } from "@/components/card-carousel";
+import { LoopCarousel } from "@/components/loop-carousel";
 import { VesicaPattern } from "@/components/hero/vesica-pattern";
 import type { Cosmology } from "@/lib/content/cosmology";
 
@@ -269,7 +269,7 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-            <CardCarousel ariaLabel="แผนที่ความรู้ — หกแขนงของการศึกษาจิตใจมนุษย์">
+            <LoopCarousel ariaLabel="แผนที่ความรู้ — หกแขนงของการศึกษาจิตใจมนุษย์">
               {ATLAS.map((c) => {
                 const Icon = c.Icon;
                 return (
@@ -302,7 +302,7 @@ export default function HomePage() {
                   </Link>
                 );
               })}
-            </CardCarousel>
+            </LoopCarousel>
           </div>
         </section>
 
