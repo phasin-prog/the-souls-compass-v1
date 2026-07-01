@@ -21,6 +21,11 @@ export default async function ArticlesPage() {
   return (
     <main className="pb-24">
       <PageHeader
+        breadcrumb={[
+          { label: "หน้าแรก", href: "/" },
+          { label: "คลังความรู้", href: "/knowledge" },
+          { label: "บทความ" },
+        ]}
         kicker="บทความ"
         title="บทความ"
         lead="งานอ่านที่อธิบาย วิเคราะห์ และตีความแนวคิดเกี่ยวกับจิตใจมนุษย์ โดยวางไว้ในบริบทเดิมและเชื่อมกลับไปยังแนวคิดและแหล่งอ้างอิง"

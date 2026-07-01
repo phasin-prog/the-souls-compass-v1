@@ -154,6 +154,8 @@ export async function ReadingPage({
         <nav aria-label="เส้นทางนำทาง" className="scroll-reveal flex flex-wrap items-center gap-1 text-xs text-muted">
           <Link href="/" className="rounded px-2 py-1.5 transition-colors hover:text-soft-gold focus-visible:ring-1 focus-visible:ring-burnished-gold/60 focus-visible:text-soft-gold focus-visible:outline-none">หน้าแรก</Link>
           <span className="material-symbols-outlined text-[16px] text-subtle" aria-hidden="true">chevron_right</span>
+          <Link href="/knowledge" className="rounded px-2 py-1.5 transition-colors hover:text-soft-gold focus-visible:ring-1 focus-visible:ring-burnished-gold/60 focus-visible:text-soft-gold focus-visible:outline-none">คลังความรู้</Link>
+          <span className="material-symbols-outlined text-[16px] text-subtle" aria-hidden="true">chevron_right</span>
           <Link href={`/${section}`} className="rounded px-2 py-1.5 transition-colors hover:text-soft-gold focus-visible:ring-1 focus-visible:ring-burnished-gold/60 focus-visible:text-soft-gold focus-visible:outline-none">
             {SECTION_LABEL[section]}
           </Link>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ComponentType } from "react";
 import Link from "next/link";
+import { Breadcrumb } from "@/components/breadcrumb";
 import {
   BookIcon,
   PsychologyIcon,
@@ -80,6 +81,11 @@ export default function KnowledgeHubPage() {
   return (
     <main className="px-6 py-24">
       <div className="mx-auto max-w-5xl">
+        {/* เส้นทางนำทางกลับหน้าแรก */}
+        <Breadcrumb
+          items={[{ label: "หน้าแรก", href: "/" }, { label: "คลังความรู้" }]}
+          className="mb-10"
+        />
         {/* หัวข้อหน้าและบทนำ */}
         <header className="mb-16 space-y-5 text-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-burnished-gold/30 px-4 py-1.5 text-[11px] uppercase tracking-[0.2em] text-burnished-gold">

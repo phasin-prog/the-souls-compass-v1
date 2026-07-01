@@ -1,12 +1,18 @@
+import { Breadcrumb, type BreadcrumbItem } from "@/components/breadcrumb";
+
 type PageHeaderProps = {
   kicker?: string;
   title: string;
   lead?: string;
+  breadcrumb?: BreadcrumbItem[];
 };
 
-export function PageHeader({ kicker, title, lead }: PageHeaderProps) {
+export function PageHeader({ kicker, title, lead, breadcrumb }: PageHeaderProps) {
   return (
     <header className="scroll-reveal mx-auto max-w-6xl px-6 pb-10 pt-20">
+      {breadcrumb && breadcrumb.length > 0 ? (
+        <Breadcrumb items={breadcrumb} className="mb-6" />
+      ) : null}
       {kicker ? (
         <p className="text-xs font-semibold tracking-[0.18em] text-accent uppercase transition-colors duration-700">{kicker}</p>
       ) : null}
