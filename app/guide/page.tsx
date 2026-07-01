@@ -1,33 +1,29 @@
-import type { Metadata } from "next";
+"use client";
+
+import { useState } from "react";
 import Link from "next/link";
 
-export const metadata: Metadata = {
-  title: "Jungian Type Analysis — วิเคราะห์ประเภททางจิต | ARCHRON",
-  description:
-    "บริการวิเคราะห์โครงสร้าง Ego ผ่านกรอบ Jungian Psychological Types — อ่านแนวโน้มการรับรู้โลกอย่างมีบริบท ไม่ใช่การวินิจฉัยทางการแพทย์หรือการทำนายอนาคต",
-};
-
 const SCOPE = [
-  { icon: "compare_arrows", title: "Object / Subject Orientation", desc: "แนวโน้มว่า Ego ให้น้ำหนักกับโลกภายนอกหรือโลกภายในมากกว่า" },
-  { icon: "psychology", title: "Principal Function", desc: "ฟังก์ชันหลักที่ใช้รับและตัดสินข้อมูลเป็นทางหลัก" },
-  { icon: "stacks", title: "Function Stack", desc: "ลำดับการทำงาน: Dominant / Auxiliary / Inferior" },
-  { icon: "bolt", title: "Ego Pattern", desc: "รูปแบบของ Ego และแนวโน้มการรับมือแรงกดดัน" },
-  { icon: "description", title: "รายงานสรุป", desc: "เอกสารสรุปผลประมาณ 2–3 หน้า" },
-  { icon: "schedule", title: "เวลาพูดคุย", desc: "เซสชันสนทนาประมาณ 1 ชั่วโมง 30 นาที" },
+  { icon: "compare_arrows", title: "Object / Subject Orientation", desc: "แนวโน้มว่า Ego ให้น้ำหนักกับโลกภายนอก (Extraversion) หรือโลกภายใน (Introversion) มากกว่ากัน" },
+  { icon: "psychology", title: "Principal Function", desc: "ฟังก์ชันหลัก (Thinking, Feeling, Sensation, Intuition) ที่จิตสำนึกใช้รับและตัดสินข้อมูลเป็นช่องทางหลัก" },
+  { icon: "stacks", title: "Function Stack", desc: "ลำดับการทำงานและน้ำหนักของโครงสร้างจิตสำนึก: Dominant (ฟังก์ชันหลัก) / Auxiliary (ฟังก์ชันช่วย) / Inferior (ฟังก์ชันด้อย)" },
+  { icon: "bolt", title: "Ego Pattern", desc: "รูปแบบพฤติกรรมการป้องกันตัวของ Ego และแนวโน้มทิศทางเมื่อต้องรับมือแรงกดดันจากภายนอก" },
+  { icon: "description", title: "รายงานสรุปจิตวิเคราะห์", desc: "เอกสารรายงานสรุปโครงสร้างจิตและการวิเคราะห์ Ego ความยาวประมาณ 2–3 หน้า" },
+  { icon: "schedule", title: "เวลาสนทนาเชิงลึก", desc: "เซสชันสัมภาษณ์และพูดคุยวิเคราะห์แบบตัวต่อตัวความยาวประมาณ 1 ชั่วโมง 30 นาที" },
 ];
 
 const STEPS = [
-  { no: "01", title: "ติดต่อ / นัดหมาย", desc: "ทักผ่านช่องทางด้านล่างเพื่อเลือกวันเวลาที่สะดวก" },
-  { no: "02", title: "ยืนยันการชำระเงิน", desc: "ชำระและส่งหลักฐานการโอนเพื่อยืนยันการนัดหมาย" },
-  { no: "03", title: "เซสชันพูดคุย", desc: "สนทนาเชิงลึกประมาณ 1 ชม. 30 นาที ตามกรอบทฤษฎี" },
-  { no: "04", title: "รับรายงานสรุป", desc: "ได้เอกสารสรุปแนวโน้มของ Ego ประมาณ 2–3 หน้า" },
+  { no: "01", title: "นัดหมายทางออนไลน์", desc: "เลือกช่องทางติดต่อด้านล่างเพื่อพูดคุยเลือกวันเวลาที่สะดวกสำหรับคุณ" },
+  { no: "02", title: "ยืนยันบริการ", desc: "ชำระเงินและแจ้งหลักฐานโอนเพื่อล็อคคิวนัดหมายวิเคราะห์ล่วงหน้า" },
+  { no: "03", title: "เซสชันสัมภาษณ์เชิงลึก", desc: "เข้าสนทนาสดออนไลน์ประมาณ 90 นาที เพื่อสำรวจโครงสร้างและแบบแผนของ Ego" },
+  { no: "04", title: "รับเอกสารรายงาน", desc: "รับรายงานสรุปทฤษฎีแนวโน้มการทำงานและ stack ฟังก์ชันจิตวิทยาความยาว 2-3 หน้า" },
 ];
 
 const BOUNDARIES = [
-  "เป็นการสะท้อนโครงสร้างบุคลิกภาพและรูปแบบการรับรู้โลกตามแนว Jungian Psychological Types",
-  "ไม่ใช่การวินิจฉัยทางการแพทย์ จิตเวช หรือการบำบัด",
-  "ไม่ใช่การทำนายอนาคต และไม่ใช่การทายโชค",
-  "ผลลัพธ์มีไว้เพื่อช่วยให้เข้าใจตนเอง เห็น pattern ของ Ego และนำไปสะท้อนตนเองอย่างมีสติ",
+  "เป็นการสะท้อนโครงสร้างบุคลิกภาพและรูปแบบการรับรู้โลกตามแนว Jungian Psychological Types ดั้งเดิม",
+  "ไม่ใช่การวินิจฉัยทางการแพทย์ จิตเวช ทางคลินิก หรือกระบวนการจิตบำบัดรักษาโรค",
+  "ไม่ใช่การทำนายอนาคต การทายโชคชะตา หรือการพยากรณ์เชิงโหราศาสตร์ใดๆ",
+  "ผลลัพธ์มีขึ้นเพื่อช่วยให้บุคคลเข้าใจแบบแผนของ Ego ตระหนักรู้กลไกป้องกันตัว และนำไปพัฒนาตนเองอย่างมีสติ",
 ];
 
 const CONTACTS = [
@@ -37,143 +33,403 @@ const CONTACTS = [
   { icon: "groups", label: "Facebook Page", value: "ARCHRON", href: "https://www.facebook.com/profile.php?id=61561438596973", external: true },
 ];
 
+type PsycheFunction = "thinking" | "feeling" | "sensation" | "intuition" | "ego";
+
+const COMPASS_DETAILS: Record<PsycheFunction, { title: string; subtitle: string; desc: string; stack: string }> = {
+  thinking: {
+    title: "Thinking (T) — การคิด",
+    subtitle: "Rational & Logical Evaluation",
+    desc: "การประเมินและตัดสินใจด้วยเหตุผลเชิงระบบ การวิเคราะห์หลักการทั่วไป ความถูกต้องเป็นสากล และการแยกแยะจัดหมวดหมู่ข้อมูลอย่างเป็นวัตถุวิสัย (Objective Analysis)",
+    stack: "แกนหลักในการจัดระบบโครงสร้างความคิดและการใช้ตรรกวิทยาเพื่อสร้างระบบระเบียบ",
+  },
+  feeling: {
+    title: "Feeling (F) — ความรู้สึก",
+    subtitle: "Valuation & Relation Evaluation",
+    desc: "การตัดสินคุณค่า (Value) ด้วยความสำคัญต่อบุคคลหรือสังคม จิตวิญญาณแห่งความเชื่อมโยง ความสอดคล้องกลมกลืน และการวัดน้ำหนักทางจริยธรรมของทางเลือก (Ethical Evaluation)",
+    stack: "ฟังก์ชันที่ทำงานตรงข้ามกับ Thinking ในการประเมินสิ่งที่คู่ควรแก่คุณค่าของมนุษย์",
+  },
+  sensation: {
+    title: "Sensation (S) — การรับรู้สัมผัส",
+    subtitle: "Reality & Detail Perception",
+    desc: "การเปิดรับข้อมูลตามความจริงผ่านประสาทสัมผัสทั้งห้า ความเป็นจริงตรงหน้าในปัจจุบัน รายละเอียดที่จับต้องได้ ประสบการณ์ในอดีต และความจริงเชิงประจักษ์ (Concrete Reality)",
+    stack: "ฟังก์ชันสังเกตการณ์ที่เน้นข้อมูลที่เกิดขึ้นจริง ณ ปัจจุบันขณะและการจัดเก็บรายละเอียด",
+  },
+  intuition: {
+    title: "Intuition (N) — การหยั่งรู้",
+    subtitle: "Possibility & Pattern Perception",
+    desc: "การรับรู้ผ่านการเชื่อมโยงความสัมพันธ์ที่มองไม่เห็นด้วยตา ความเป็นไปได้ในอนาคต ภาพรวมเชิงระบบ ความหมายเบื้องหลังสัญลักษณ์ และจินตนาการวิสัยทัศน์ (Hidden Patterns)",
+    stack: "ฟังก์ชันสังเกตการณ์ที่มองข้ามความเป็นจริงตรงหน้าเพื่อเข้าหาศักยภาพและแนวโน้มถัดไป",
+  },
+  ego: {
+    title: "Ego / Self Axis — ศูนย์กลางจิตวิทยา",
+    subtitle: "Conscious Center & Total Psyche",
+    desc: "จุดสมดุลระหว่าง Ego (จิตสำนึก) และ Self (องค์รวมของจิต) ซึ่งเป็นแกนกลางของการหลอมรวมฟังก์ชันด้านต่างๆ เพื่อให้จิตใจสามารถเติบโตเป็นหนึ่งเดียว (Individuation)",
+    stack: "เป้าหมายหลักของการวิเคราะห์แบบแผน Ego เพื่อนำทางไปสู่ความสมบูรณ์แบบภายในตัวตน",
+  },
+};
+
 export default function GuidePage() {
+  const [activeFunc, setActiveFunc] = useState<PsycheFunction>("ego");
+
   return (
-    <main>
-      {/* Hero */}
-      <section className="scroll-reveal relative overflow-hidden border-b border-slate-boundary/30 px-6 py-24 md:py-32">
-        <div className="hero-gradient pointer-events-none absolute inset-0" />
-        <div className="relative mx-auto max-w-3xl text-center">
-          <span className="block text-xs font-semibold uppercase tracking-[0.3em] text-burnished-gold/80">
-            ARCHRON · Moonlight
-          </span>
-          <h1 className="mt-5 font-serif text-4xl font-bold text-on-surface md:text-5xl">
-            Jungian Type Analysis
-          </h1>
-          <p className="mt-3 text-base text-on-surface-variant/70">
-            วิเคราะห์โครงสร้าง Ego ผ่านกรอบ Jungian Psychological Types
-          </p>
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-on-surface-variant/80">
-            อ่าน “แนวโน้ม” ว่า Ego ของคุณรับโลกอย่างไร ให้ความสำคัญกับ Object หรือ Subject มากกว่า
-            ใช้ Function ใดเป็นทางหลัก และมีแนวโน้มรับมือแรงกดดันอย่างไร — อย่างมีบริบทและอ้างอิงกรอบทฤษฎี
-          </p>
-          <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <a
-              href="#contact"
-              className="group inline-flex items-center gap-2 bg-burnished-gold px-9 py-4 text-sm font-semibold tracking-[0.05em] text-prima transition-all duration-500 hover:shadow-[0_0_30px_rgba(212,175,55,0.3)]"
-            >
-              นัดหมาย / สอบถาม
-              <span className="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1.5">
-                arrow_forward
+    <main className="min-h-screen bg-deep-navy pb-24 text-ivory">
+      {/* Hero & Interactive Compass Container */}
+      <section className="relative overflow-hidden border-b border-slate-boundary/30 px-6 py-20 lg:py-28">
+        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(199,154,74,0.06)_0%,transparent_70%)]" />
+        
+        <div className="mx-auto max-w-6xl">
+          <nav aria-label="เส้นทางนำทาง" className="mb-8 flex flex-wrap items-center gap-1 text-xs text-muted">
+            <Link href="/" className="rounded px-2 py-1.5 transition-colors hover:text-soft-gold focus-visible:ring-1 focus-visible:ring-burnished-gold/60 focus-visible:text-soft-gold focus-visible:outline-none">
+              หน้าแรก
+            </Link>
+            <span className="material-symbols-outlined text-[16px] text-subtle" aria-hidden="true">chevron_right</span>
+            <span className="px-2 py-1.5 text-soft-ivory">Jungian Type Analysis</span>
+          </nav>
+
+          <div className="grid gap-12 lg:grid-cols-12 lg:items-center">
+            {/* Left Content */}
+            <div className="text-left lg:col-span-7">
+              <span className="inline-block text-xs font-semibold uppercase tracking-[0.25em] text-burnished-gold">
+                ARCHRON · Dynamic Typology
               </span>
-            </a>
-            <span className="text-sm text-on-surface-variant/70">
-              ราคาทดลอง <span className="font-semibold text-burnished-gold">249 บาท</span> · ถึง 30 มิ.ย. 2569
-            </span>
+              <h1 className="mt-4 font-serif text-fluid-h1 font-bold leading-tight text-ivory">
+                Jungian Type Analysis
+              </h1>
+              <p className="mt-2 text-lg text-lumen font-serif italic">
+                วิเคราะห์โครงสร้าง Ego ผ่านกรอบทฤษฎีจิตวิทยาเชิงลึกของคาร์ล ยุง
+              </p>
+              
+              <p className="mt-6 max-w-xl text-base leading-relaxed text-soft-ivory/90">
+                สแกนและอ่านโครงสร้างความโน้มเอียงของ Ego ในการรับและตัดสินข้อมูล เพื่อทำความเข้าใจทิศทางพลังงานจิต (Introversion / Extraversion) พร้อมประเมิน Function Stack ค้นหากลไกป้องกันตัวและการตอบสนองยามตกอยู่ภายใต้ความเครียดเชิงลึกอย่างมีสติ
+              </p>
+
+              <div className="mt-8 flex flex-wrap items-center gap-4">
+                <a
+                  href="#contact"
+                  className="group inline-flex items-center gap-2 rounded bg-gradient-to-br from-antique-gold to-burnished-gold px-8 py-4 text-sm font-semibold tracking-[0.05em] text-prima transition-transform hover:-translate-y-0.5 focus-visible:ring-2 focus-visible:ring-burnished-gold focus-visible:outline-none"
+                >
+                  จองเวลา / สอบถามคิว
+                  <span className="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1">
+                    arrow_forward
+                  </span>
+                </a>
+                <a
+                  href="#pricing"
+                  className="rounded border border-slate-boundary/50 bg-surface-container/30 px-6 py-4 text-sm font-medium text-soft-ivory transition-colors hover:bg-surface-container/60 hover:text-ivory focus-visible:ring-2 focus-visible:ring-burnished-gold focus-visible:outline-none"
+                >
+                  ตรวจสอบราคาปกติ
+                </a>
+              </div>
+            </div>
+
+            {/* Right Interactive SVG Compass Widget */}
+            <div className="flex flex-col items-center justify-center lg:col-span-5">
+              <div className="relative h-[320px] w-[320px] rounded-full border border-slate-boundary/30 bg-midnight/40 p-4 backdrop-blur-sm">
+                {/* SVG Compass Map */}
+                <svg viewBox="0 0 320 320" className="h-full w-full">
+                  <defs>
+                    <radialGradient id="gold-glow" cx="50%" cy="50%" r="50%">
+                      <stop offset="0%" stopColor="#C79A4A" stopOpacity="0.4" />
+                      <stop offset="100%" stopColor="#C79A4A" stopOpacity="0" />
+                    </radialGradient>
+                  </defs>
+
+                  {/* Outer Concentric Dotted Circle (Unconscious Shadow) */}
+                  <circle cx="160" cy="160" r="130" fill="none" stroke="var(--color-slate-boundary)" strokeWidth="1" strokeDasharray="3 3" />
+                  
+                  {/* Ego Consciousness boundary circle */}
+                  <circle cx="160" cy="160" r="90" fill="none" stroke="var(--color-slate-boundary)" strokeWidth="1" opacity="0.6" />
+                  
+                  {/* Center Circle */}
+                  <circle cx="160" cy="160" r="45" fill="none" stroke="var(--color-slate-boundary)" strokeWidth="1" opacity="0.3" />
+
+                  {/* Axis lines */}
+                  <line x1="160" y1="30" x2="160" y2="290" stroke="var(--color-slate-boundary)" strokeWidth="1" opacity="0.4" />
+                  <line x1="30" y1="160" x2="290" y2="160" stroke="var(--color-slate-boundary)" strokeWidth="1" opacity="0.4" />
+
+                  {/* Active node highlight path */}
+                  {activeFunc === "thinking" && <line x1="160" y1="30" x2="160" y2="160" stroke="var(--color-antique-gold)" strokeWidth="1.5" />}
+                  {activeFunc === "feeling" && <line x1="160" y1="290" x2="160" y2="160" stroke="var(--color-antique-gold)" strokeWidth="1.5" />}
+                  {activeFunc === "intuition" && <line x1="30" y1="160" x2="160" y2="160" stroke="var(--color-antique-gold)" strokeWidth="1.5" />}
+                  {activeFunc === "sensation" && <line x1="290" y1="160" x2="160" y2="160" stroke="var(--color-antique-gold)" strokeWidth="1.5" />}
+
+                  {/* Active Glowing Backdrop */}
+                  {activeFunc === "thinking" && <circle cx="160" cy="30" r="24" fill="url(#gold-glow)" />}
+                  {activeFunc === "feeling" && <circle cx="160" cy="290" r="24" fill="url(#gold-glow)" />}
+                  {activeFunc === "intuition" && <circle cx="30" cy="160" r="24" fill="url(#gold-glow)" />}
+                  {activeFunc === "sensation" && <circle cx="290" cy="160" r="24" fill="url(#gold-glow)" />}
+                  {activeFunc === "ego" && <circle cx="160" cy="160" r="30" fill="url(#gold-glow)" />}
+
+                  {/* Nodes */}
+                  {/* Thinking (Top) */}
+                  <g
+                    className="cursor-pointer"
+                    onClick={() => setActiveFunc("thinking")}
+                    tabIndex={0}
+                    onKeyDown={(e) => e.key === "Enter" && setActiveFunc("thinking")}
+                    aria-label="Thinking function"
+                  >
+                    <circle cx="160" cy="30" r="14" fill="#080B16" stroke={activeFunc === "thinking" ? "var(--color-antique-gold)" : "var(--color-slate-boundary)"} strokeWidth="1.5" />
+                    <text x="160" y="34" textAnchor="middle" fill={activeFunc === "thinking" ? "var(--color-antique-gold)" : "var(--color-ivory)"} fontSize="11" fontWeight="bold" fontFamily="monospace">T</text>
+                  </g>
+
+                  {/* Feeling (Bottom) */}
+                  <g
+                    className="cursor-pointer"
+                    onClick={() => setActiveFunc("feeling")}
+                    tabIndex={0}
+                    onKeyDown={(e) => e.key === "Enter" && setActiveFunc("feeling")}
+                    aria-label="Feeling function"
+                  >
+                    <circle cx="160" cy="290" r="14" fill="#080B16" stroke={activeFunc === "feeling" ? "var(--color-antique-gold)" : "var(--color-slate-boundary)"} strokeWidth="1.5" />
+                    <text x="160" y="294" textAnchor="middle" fill={activeFunc === "feeling" ? "var(--color-antique-gold)" : "var(--color-ivory)"} fontSize="11" fontWeight="bold" fontFamily="monospace">F</text>
+                  </g>
+
+                  {/* Intuition (Left) */}
+                  <g
+                    className="cursor-pointer"
+                    onClick={() => setActiveFunc("intuition")}
+                    tabIndex={0}
+                    onKeyDown={(e) => e.key === "Enter" && setActiveFunc("intuition")}
+                    aria-label="Intuition function"
+                  >
+                    <circle cx="30" cy="160" r="14" fill="#080B16" stroke={activeFunc === "intuition" ? "var(--color-antique-gold)" : "var(--color-slate-boundary)"} strokeWidth="1.5" />
+                    <text x="30" y="164" textAnchor="middle" fill={activeFunc === "intuition" ? "var(--color-antique-gold)" : "var(--color-ivory)"} fontSize="11" fontWeight="bold" fontFamily="monospace">N</text>
+                  </g>
+
+                  {/* Sensation (Right) */}
+                  <g
+                    className="cursor-pointer"
+                    onClick={() => setActiveFunc("sensation")}
+                    tabIndex={0}
+                    onKeyDown={(e) => e.key === "Enter" && setActiveFunc("sensation")}
+                    aria-label="Sensation function"
+                  >
+                    <circle cx="290" cy="160" r="14" fill="#080B16" stroke={activeFunc === "sensation" ? "var(--color-antique-gold)" : "var(--color-slate-boundary)"} strokeWidth="1.5" />
+                    <text x="290" y="164" textAnchor="middle" fill={activeFunc === "sensation" ? "var(--color-antique-gold)" : "var(--color-ivory)"} fontSize="11" fontWeight="bold" fontFamily="monospace">S</text>
+                  </g>
+
+                  {/* Ego Center Node */}
+                  <g
+                    className="cursor-pointer"
+                    onClick={() => setActiveFunc("ego")}
+                    tabIndex={0}
+                    onKeyDown={(e) => e.key === "Enter" && setActiveFunc("ego")}
+                    aria-label="Ego center"
+                  >
+                    <circle cx="160" cy="160" r="18" fill="#121826" stroke={activeFunc === "ego" ? "var(--color-antique-gold)" : "var(--color-slate-boundary)"} strokeWidth="2" />
+                    <circle cx="160" cy="160" r="4" fill="var(--color-antique-gold)" />
+                  </g>
+                </svg>
+
+                <span className="absolute -top-6 left-1/2 -translate-x-1/2 rounded bg-surface-container px-2 py-0.5 text-[9px] font-semibold tracking-wider text-muted/80 uppercase">
+                  Psyche Compass
+                </span>
+              </div>
+
+              {/* Compass Interactive Description Panel */}
+              <div className="mt-6 w-full max-w-[340px] rounded-md border border-slate-boundary/30 bg-surface-container/40 p-4 text-center backdrop-blur-sm">
+                <h4 className="font-serif text-sm font-semibold text-burnished-gold">
+                  {COMPASS_DETAILS[activeFunc].title}
+                </h4>
+                <p className="text-[11px] uppercase tracking-wider text-muted/75">
+                  {COMPASS_DETAILS[activeFunc].subtitle}
+                </p>
+                <p className="mt-2 text-xs leading-relaxed text-soft-ivory/90">
+                  {COMPASS_DETAILS[activeFunc].desc}
+                </p>
+                <p className="mt-2 border-t border-slate-boundary/20 pt-2 text-[11px] italic text-burnished-gold/80">
+                  {COMPASS_DETAILS[activeFunc].stack}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Scope */}
-      <section className="scroll-reveal mx-auto max-w-5xl px-6 py-20">
-        <h2 className="font-serif text-3xl text-on-surface">ขอบเขตการวิเคราะห์</h2>
-        <p className="mt-3 text-on-surface-variant/70">สิ่งที่คุณจะได้รับจากการวิเคราะห์หนึ่งครั้ง</p>
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {/* Scope Section */}
+      <section className="mx-auto max-w-5xl px-6 py-20">
+        <div className="text-center lg:text-left">
+          <span className="text-xs font-semibold uppercase tracking-[0.2em] text-burnished-gold/85">
+            Scope of Analysis
+          </span>
+          <h2 className="mt-2 font-serif text-3xl text-on-surface">ขอบเขตหัวข้อการวิเคราะห์</h2>
+          <p className="mt-3 text-sm text-on-surface-variant/70">
+            สิ่งที่จะได้รับการตรวจสอบและสะท้อนกลับในคู่มือรายงานรายบุคคล
+          </p>
+        </div>
+
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {SCOPE.map((s) => (
             <div
               key={s.title}
-              className="rounded-md border border-slate-boundary/40 bg-surface-container p-6"
+              className="rounded-lg border border-slate-boundary/20 bg-surface-container/40 p-6 transition-all hover:border-slate-boundary/50 hover:bg-surface-container/60 hover:shadow-lg"
             >
-              <span className="material-symbols-outlined text-[32px] text-burnished-gold">{s.icon}</span>
-              <h3 className="mt-3 font-serif text-lg text-on-surface">{s.title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-on-surface-variant/70">{s.desc}</p>
+              <div className="flex h-12 w-12 items-center justify-center rounded-full border border-burnished-gold/20 bg-midnight text-burnished-gold">
+                <span className="material-symbols-outlined text-[24px]">{s.icon}</span>
+              </div>
+              <h3 className="mt-4 font-serif text-lg font-semibold text-on-surface">{s.title}</h3>
+              <p className="mt-2 text-xs leading-relaxed text-on-surface-variant/70">{s.desc}</p>
             </div>
           ))}
         </div>
       </section>
 
-      {/* Process */}
-      <section className="scroll-reveal border-y border-slate-boundary/30 bg-surface-container-lowest px-6 py-20">
-        <div className="mx-auto max-w-5xl">
-          <h2 className="font-serif text-3xl text-on-surface">ขั้นตอนการเข้ารับบริการ</h2>
-          <div className="mt-10 grid gap-8 md:grid-cols-4">
-            {STEPS.map((step) => (
-              <div key={step.no}>
-                <span className="font-serif text-3xl text-burnished-gold/50">{step.no}</span>
-                <div className="mt-3 mb-4 h-px w-10 bg-burnished-gold/30" />
-                <h3 className="font-serif text-lg text-on-surface">{step.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-on-surface-variant/70">{step.desc}</p>
+      {/* Dynamic Process Section */}
+      <section className="border-y border-slate-boundary/30 bg-surface-container-lowest px-6 py-20">
+        <div className="mx-auto max-w-4xl">
+          <div className="text-center mb-16">
+            <span className="text-xs font-semibold uppercase tracking-[0.2em] text-burnished-gold/85">
+              Service Flow
+            </span>
+            <h2 className="mt-2 font-serif text-3xl text-on-surface">ขั้นตอนและกระบวนการรับคำวิเคราะห์</h2>
+          </div>
+
+          <div className="relative space-y-12 before:absolute before:left-4 before:top-2 before:h-[90%] before:w-px before:bg-slate-boundary/50 md:before:left-1/2 md:before:-translate-x-1/2">
+            {STEPS.map((step, idx) => (
+              <div
+                key={step.no}
+                className={`relative flex flex-col md:flex-row md:justify-between items-start ${
+                  idx % 2 === 1 ? "md:flex-row-reverse" : ""
+                }`}
+              >
+                {/* Connector Dot */}
+                <div className="absolute left-4 top-2 h-4 w-4 -translate-x-1.5 rounded-full border-2 border-burnished-gold bg-deep-navy md:left-1/2 md:top-2 md:-translate-x-2" />
+
+                {/* Left/Right Container */}
+                <div className="w-full pl-10 md:w-[45%] md:pl-0 md:text-right">
+                  {idx % 2 === 0 ? (
+                    <div className="md:pr-4">
+                      <span className="font-serif text-3xl font-bold text-burnished-gold/40">{step.no}</span>
+                      <h3 className="mt-2 font-serif text-lg font-semibold text-on-surface">{step.title}</h3>
+                      <p className="mt-2 text-xs leading-relaxed text-on-surface-variant/70">{step.desc}</p>
+                    </div>
+                  ) : null}
+                </div>
+
+                <div className="w-full pl-10 md:w-[45%] md:pl-0 md:text-left">
+                  {idx % 2 === 1 ? (
+                    <div className="md:pl-4">
+                      <span className="font-serif text-3xl font-bold text-burnished-gold/40">{step.no}</span>
+                      <h3 className="mt-2 font-serif text-lg font-semibold text-on-surface">{step.title}</h3>
+                      <p className="mt-2 text-xs leading-relaxed text-on-surface-variant/70">{step.desc}</p>
+                    </div>
+                  ) : null}
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Boundaries / academic scope */}
-      <section className="scroll-reveal mx-auto max-w-3xl px-6 py-20">
-        <div className="rounded-md border border-burnished-gold/30 bg-surface-container p-8 md:p-10">
-          <h2 className="font-serif text-2xl text-on-surface">กรอบวิชาการ และสิ่งที่บริการนี้ “ไม่ทำ”</h2>
-          <ul className="mt-5 space-y-3">
+      {/* Pricing & Anniversary Promotion */}
+      <section id="pricing" className="mx-auto max-w-4xl px-6 py-20">
+        <div className="text-center mb-12">
+          <span className="text-xs font-semibold uppercase tracking-[0.2em] text-burnished-gold/85">
+            Rates & Promotion
+          </span>
+          <h2 className="mt-2 font-serif text-3xl text-on-surface">ค่าบริการและการวิเคราะห์ข้อมูล</h2>
+        </div>
+
+        <div className="grid gap-8 md:grid-cols-12 md:items-stretch">
+          {/* Regular Price */}
+          <div className="rounded-lg border border-slate-boundary/40 bg-surface-container/30 p-8 text-center flex flex-col justify-between md:col-span-5">
+            <div>
+              <span className="text-xs font-semibold tracking-wider text-on-surface-variant/60 uppercase">ราคาปกติ</span>
+              <p className="mt-4 font-serif text-5xl font-bold text-on-surface">399<span className="ml-1 text-sm text-on-surface-variant/60">บาท / ครั้ง</span></p>
+              <div className="mt-2 text-xs text-muted/75">
+                (ผ่านพ้นกำหนดโปรโมชั่นราคาทดลอง 249 บาท เมื่อวันที่ 30 มิถุนายน 2569 แล้ว)
+              </div>
+            </div>
+            <div className="mt-6 border-t border-slate-boundary/20 pt-4 text-xs text-on-surface-variant/70">
+              ครอบคลุมเซสชันสัมภาษณ์ 90 นาที และรายงานสรุปทัศนคติ Ego 2–3 หน้า
+            </div>
+          </div>
+
+          {/* Birthday Special Promotion Banner */}
+          <div className="rounded-lg border border-burnished-gold/50 bg-gradient-to-br from-midnight via-surface-container/30 to-midnight p-8 flex flex-col justify-between md:col-span-7">
+            <div>
+              <span className="inline-block rounded bg-burnished-gold/10 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-burnished-gold">
+                กิจกรรมพิเศษวันเกิดแบรนด์
+              </span>
+              <h3 className="mt-3 font-serif text-xl font-bold text-ivory">
+                วิเคราะห์ฟรีสิทธิ์พิเศษ (16 กรกฎาคม)
+              </h3>
+              <p className="mt-2 text-xs text-burnished-gold/80 font-serif">
+                จำนวนจำกัด 5 สิทธิ์อิงตามลำดับเวลาในการทำกิจกรรมครบถ้วน
+              </p>
+              
+              <div className="mt-4 space-y-2.5 border-t border-slate-boundary/20 pt-4 text-left">
+                <div className="flex gap-2 text-xs text-soft-ivory">
+                  <span className="material-symbols-outlined text-[16px] text-burnished-gold shrink-0">check_circle</span>
+                  <span>อวยพรวันเกิดเพจในโพสต์กิจกรรมวันที่ 16 กรกฎาคม 2569</span>
+                </div>
+                <div className="flex gap-2 text-xs text-soft-ivory">
+                  <span className="material-symbols-outlined text-[16px] text-burnished-gold shrink-0">check_circle</span>
+                  <span>แชร์โพสต์โปรโมตกิจกรรมการรีแบรนด์ (Rebranding) จากชื่อเดิม <strong>The Soul&apos;s Compass - Moonlight</strong> สู่ชื่อใหม่ <strong>Archron</strong> ไปยังโปรไฟล์ส่วนตัวของคุณ</span>
+                </div>
+                <div className="flex gap-2 text-xs text-soft-ivory">
+                  <span className="material-symbols-outlined text-[16px] text-burnished-gold shrink-0">check_circle</span>
+                  <span>ตกลงส่งรีวิวสะท้อนผลสัมภาษณ์ตามความเป็นจริงผ่านหน้าเพจ Archron หลังเสร็จสิ้นเซสชันการวิเคราะห์</span>
+                </div>
+              </div>
+            </div>
+            
+            <div className="mt-6 text-xs text-muted/75 italic">
+              * กิจกรรมนี้จัดทำขึ้นโดยตรงผ่านช่องทางหลักของ Archron เท่านั้น
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Limitations / Boundaries callout */}
+      <section className="mx-auto max-w-3xl px-6 pb-20">
+        <div className="rounded-lg border border-burnished-gold/30 bg-surface-container/30 p-8 backdrop-blur-sm">
+          <h3 className="font-serif text-xl text-on-surface">กรอบขอบเขตทางวิชาการและข้อตกลง</h3>
+          <ul className="mt-4 space-y-3.5">
             {BOUNDARIES.map((b) => (
-              <li key={b} className="flex gap-3 text-base leading-relaxed text-on-surface-variant/80">
-                <span className="material-symbols-outlined mt-0.5 shrink-0 text-[18px] text-burnished-gold">
+              <li key={b} className="flex gap-3 text-xs leading-relaxed text-on-surface-variant/80">
+                <span className="material-symbols-outlined shrink-0 text-[18px] text-burnished-gold">
                   check_small
                 </span>
                 {b}
               </li>
             ))}
           </ul>
-          <p className="mt-6 border-l-2 border-burnished-gold/40 pl-4 text-sm italic leading-relaxed text-on-surface-variant/70">
-            “ไม่ใช่การทายโชค แต่เป็นการสะท้อนโครงสร้าง Ego และรูปแบบการรับรู้โลกของคุณ”
-          </p>
         </div>
       </section>
 
-      {/* Pricing */}
-      <section className="scroll-reveal mx-auto max-w-3xl px-6 pb-4">
-        <div className="grid gap-4 sm:grid-cols-2">
-          <div className="rounded-md border border-burnished-gold/40 bg-surface-container-low p-7">
-            <span className="text-xs font-semibold tracking-[0.05em] text-burnished-gold">ราคาทดลอง</span>
-            <p className="mt-3 font-serif text-4xl text-on-surface">249<span className="ml-1 text-lg text-on-surface-variant/70">บาท / ครั้ง</span></p>
-            <p className="mt-2 text-sm text-on-surface-variant/60">ใช้ได้ถึง 30 มิถุนายน 2569</p>
-          </div>
-          <div className="rounded-md border border-slate-boundary/40 bg-surface-container-low p-7">
-            <span className="text-xs font-semibold tracking-[0.05em] text-on-surface-variant/60">ราคาปกติ</span>
-            <p className="mt-3 font-serif text-4xl text-on-surface-variant/80">399<span className="ml-1 text-lg text-on-surface-variant/60">บาท / ครั้ง</span></p>
-            <p className="mt-2 text-sm text-on-surface-variant/60">เริ่ม 1 กรกฎาคม 2569</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Contact */}
-      <section id="contact" className="scroll-reveal mt-12 border-t border-slate-boundary/30 bg-surface-container-low px-6 py-20">
+      {/* Contact Section */}
+      <section id="contact" className="border-t border-slate-boundary/30 bg-surface-container/20 px-6 py-20">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="font-serif text-3xl text-on-surface">นัดหมาย / สอบถาม</h2>
-          <p className="mx-auto mt-3 max-w-xl text-on-surface-variant/70">
-            เลือกช่องทางที่สะดวก — นัดหมาย ชำระเงิน และยืนยันการรับบริการผ่านช่องทางติดต่อโดยตรง
+          <h2 className="font-serif text-3xl text-on-surface">ติดต่อสอบถาม &amp; นัดคิววิเคราะห์</h2>
+          <p className="mx-auto mt-3 max-w-md text-sm text-on-surface-variant/70">
+            ติดต่อผ่านช่องทางหลักของทีมวิเคราะห์เพื่อตรวจรับสิทธิ์ จองคิวสัมภาษณ์ หรือสอบถามกติกาเพิ่มเติมได้โดยตรง
           </p>
+
           <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {CONTACTS.map((c) => (
               <a
                 key={c.label}
                 href={c.href}
                 {...(c.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                className="group flex items-center gap-4 rounded-md border border-slate-boundary/40 bg-surface-container p-5 text-left transition-colors hover:border-burnished-gold/50"
+                className="group flex items-center gap-4 rounded-md border border-slate-boundary/30 bg-surface-container/40 p-4 text-left transition-colors hover:border-burnished-gold/50 hover:bg-surface-container/60 focus-visible:ring-2 focus-visible:ring-burnished-gold focus-visible:outline-none"
               >
-                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-burnished-gold/30 text-burnished-gold">
-                  <span className="material-symbols-outlined text-[20px]">{c.icon}</span>
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-burnished-gold/25 bg-midnight text-burnished-gold">
+                  <span className="material-symbols-outlined text-[18px]">{c.icon}</span>
                 </span>
                 <span className="flex flex-col">
-                  <span className="text-xs tracking-[0.04em] text-on-surface-variant/60">{c.label}</span>
-                  <span className="text-base text-on-surface group-hover:text-burnished-gold">{c.value}</span>
+                  <span className="text-[10px] tracking-wider text-on-surface-variant/50 uppercase">{c.label}</span>
+                  <span className="text-sm font-semibold text-on-surface group-hover:text-burnished-gold">{c.value}</span>
                 </span>
               </a>
             ))}
           </div>
-          <p className="mt-8 text-sm text-on-surface-variant/60">
-            อยากเข้าใจพื้นฐานทฤษฎีก่อน?{" "}
-            <Link href="/concepts/psychological-types" className="text-burnished-gold hover:underline">
-              อ่านแนวคิด Psychological Types
+
+          <p className="mt-10 text-xs text-on-surface-variant/60">
+            ต้องการศึกษาทฤษฎีจิตวิทยาก่อนสัมภาษณ์?{" "}
+            <Link href="/concepts/psychological-types" className="text-burnished-gold hover:underline focus-visible:ring-1 focus-visible:ring-burnished-gold/50 focus-visible:outline-none rounded px-1.5 py-0.5">
+              อ่านข้อมูล Psychological Types เพิ่มเติม
             </Link>
           </p>
         </div>
