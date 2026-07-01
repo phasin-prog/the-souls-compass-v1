@@ -13,8 +13,7 @@ const STORAGE_KEY = "archron-intro-played";
 
 const WORDS = [
   { word: "Arche", greek: "ἀρχή", meaning: "the first principle" },
-  { word: "Archon", greek: "ἄρχων", meaning: "the ruler" },
-  { word: "Cronos", greek: "Χρόνος", meaning: "time" },
+  { word: "Chronos", greek: "Χρόνος", meaning: "time" },
 ] as const;
 
 export function IntroPreloader() {
@@ -50,52 +49,85 @@ export function IntroPreloader() {
         defaults: { ease: "power2.out" },
       });
 
-      // ── Phase 1 (0–4s): เขียน 3 บรรทัดทีละบรรทัดด้วย clip-path reveal ──
-      WORDS.forEach((_, i) => {
-        const el = wordRefs.current[i];
-        if (!el) return;
-        // ตั้ง clip-path เริ่มต้น: ซ่อนทั้งหมด (ขวา→ซ้าย)
-        gsap.set(el, { clipPath: "inset(0 100% 0 0)" });
-        // reveal ทีละบรรทัด (stagger 1.1s)
-        tl.to(
-          el,
-          {
-            clipPath: "inset(0 0% 0 0)",
-            duration: 0.9,
-            ease: "power1.inOut",
-          },
-          i * 1.1,
-        );
-      });
+      // Set initial states
+      gsap.set(wordRefs.current[0], { opacity: 0, y: -25 });
+      gsap.set(wordRefs.current[1], { opacity: 0, y: 25 });
+      gsap.set(spineRef.current, { opacity: 0 });
+      gsap.set(edgeRef.current, { opacity: 0 });
+      gsap.set(coverRef.current, { opacity: 0, scale: 0.85 });
+      gsap.set(coverWordRef.current, { opacity: 0, letterSpacing: "0.1em" });
 
-      // ── Phase 2 (4–5.5s): 2D pull-out — scale down + ขอบเล่มโผล่ ──
+      // ── Phase 1 (0.5–2.4s): ค่อยๆ ปรากฏทีละบรรทัด ──
+      tl.to(
+        wordRefs.current[0],
+        {
+          opacity: 1,
+          y: 0,
+          duration: 1.2,
+          ease: "power2.out",
+        },
+        0.5,
+      );
+
+      tl.to(
+        wordRefs.current[1],
+        {
+          opacity: 1,
+          y: 0,
+          duration: 1.2,
+          ease: "power2.out",
+        },
+        1.2,
+      );
+
+      // ── Phase 2 (2.8–3.8s): โน้มตัวอักษรเข้าหากันตรงกลาง (Arche เลื่อนลง, Chronos เลื่อนขึ้น) และ fade หายไป ──
+      tl.to(
+        wordRefs.current[0],
+        {
+          y: 40,
+          opacity: 0,
+          scale: 0.8,
+          duration: 1.0,
+          ease: "power2.in",
+        },
+        2.8,
+      );
+
+      tl.to(
+        wordRefs.current[1],
+        {
+          y: -40,
+          opacity: 0,
+          scale: 0.8,
+          duration: 1.0,
+          ease: "power2.in",
+        },
+        2.8,
+      );
+
+      // ── Phase 3 (3.2–5.4s): หน้ากระดาษพับย่อตัวลงและหลอมรวมกลายเป็นปก Archron ──
       tl.to(
         pageRef.current,
-        { scale: 0.55, duration: 1.2, ease: "power3.out" },
-        4.0,
+        { scale: 0.55, opacity: 0, duration: 1.0, ease: "power3.inOut" },
+        3.2,
       )
-        .to(spineRef.current, { opacity: 1, duration: 0.8 }, 4.0)
-        .to(edgeRef.current, { opacity: 1, duration: 0.8 }, 4.2);
-
-      // ── Phase 3 (5.5–6.5s): ปิดเล่ม — page fade + cover scale up ──
-      tl.to(pageRef.current, { opacity: 0, scale: 0.5, duration: 0.5, ease: "power2.in" }, 5.5)
-        .to(spineRef.current, { opacity: 0, duration: 0.3 }, 5.6)
-        .to(edgeRef.current, { opacity: 0, duration: 0.3 }, 5.6)
-        .fromTo(
+        .to(spineRef.current, { opacity: 0.8, duration: 0.6 }, 3.2)
+        .to(edgeRef.current, { opacity: 0.8, duration: 0.6 }, 3.3)
+        .to(spineRef.current, { opacity: 0, duration: 0.4 }, 3.8)
+        .to(edgeRef.current, { opacity: 0, duration: 0.4 }, 3.8)
+        .to(
           coverRef.current,
-          { opacity: 0, scale: 0.6 },
-          { opacity: 1, scale: 1, duration: 0.9, ease: "power3.out" },
-          5.7,
+          { opacity: 1, scale: 1, duration: 1.2, ease: "power3.out" },
+          3.8,
         )
-        .fromTo(
+        .to(
           coverWordRef.current,
-          { opacity: 0, y: 8, letterSpacing: "0.6em" },
-          { opacity: 1, y: 0, letterSpacing: "0.4em", duration: 1.0, ease: "power2.out" },
-          5.9,
+          { opacity: 1, letterSpacing: "0.45em", duration: 1.4, ease: "power2.out" },
+          4.0,
         );
 
-      // ── Phase 4 (7.2–7.8s): fade out overlay ──
-      tl.to(containerRef.current, { opacity: 0, duration: 0.6, ease: "power2.inOut" }, 7.2);
+      // ── Phase 4 (5.8–6.5s): ค่อยๆ จางหายไปเพื่อเปิดเข้าสู่หน้าแรก ──
+      tl.to(containerRef.current, { opacity: 0, duration: 0.7, ease: "power2.inOut" }, 5.8);
     }, containerRef);
 
     function finish() {
@@ -143,7 +175,6 @@ export function IntroPreloader() {
         ref={skipBtnRef}
         type="button"
         onClick={() => {
-          // trigger skip via keydown handler simulation not needed; call directly
           window.dispatchEvent(new KeyboardEvent("keydown", { key: "Escape" }));
         }}
         className="absolute right-5 top-5 z-10 rounded border border-slate-boundary/40 bg-surface-container/40 px-4 py-2 text-xs font-medium tracking-wider text-on-surface-variant/70 backdrop-blur transition-colors hover:text-soft-gold hover:border-burnished-gold/30 focus:outline-none focus-visible:ring-2 focus-visible:ring-burnished-gold/50"
@@ -173,7 +204,7 @@ export function IntroPreloader() {
         {/* หน้ากระดาษ (เขียนลายมือ) */}
         <div
           ref={pageRef}
-          className="relative w-[380px] max-w-[80vw] px-10 py-12"
+          className="relative w-[380px] max-w-[80vw] px-10 py-16"
           style={{
             backgroundColor: "#1a1812",
             border: "1px solid #3a3328",
@@ -190,32 +221,32 @@ export function IntroPreloader() {
             }}
           />
 
-          <div className="relative space-y-5">
+          <div className="relative flex flex-col items-center space-y-12 py-4">
             {WORDS.map((w, i) => (
               <div
                 key={w.word}
                 ref={(el) => {
                   wordRefs.current[i] = el;
                 }}
-                className="flex flex-col"
+                className="flex flex-col items-center"
               >
                 <div className="flex items-baseline gap-3">
                   <span
-                    className="text-2xl italic text-soft-gold"
+                    className="text-3xl italic text-soft-gold"
                     style={{ fontFamily: "var(--font-eb-garamond), 'EB Garamond', Georgia, serif" }}
                   >
                     {w.word}
                   </span>
                   <span className="text-base text-soft-gold/50">—</span>
                   <span
-                    className="text-xl italic text-soft-gold/80"
+                    className="text-2xl italic text-soft-gold/80"
                     style={{ fontFamily: "var(--font-eb-garamond), 'EB Garamond', Georgia, serif" }}
                   >
                     {w.greek}
                   </span>
                 </div>
                 <span
-                  className="mt-0.5 text-[10px] tracking-wide text-muted"
+                  className="mt-1.5 text-[11px] tracking-wide text-muted"
                   style={{ fontFamily: "var(--font-eb-garamond), 'EB Garamond', Georgia, serif" }}
                 >
                   {w.meaning}
