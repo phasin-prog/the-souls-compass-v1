@@ -50,37 +50,95 @@ export function IntroPreloader() {
       });
 
       // Set initial states
-      gsap.set(wordRefs.current[0], { opacity: 0, y: -25 });
-      gsap.set(wordRefs.current[1], { opacity: 0, y: 25 });
+      WORDS.forEach((_, i) => {
+        const el = wordRefs.current[i];
+        if (!el) return;
+        gsap.set(el.querySelectorAll(".word-char, .greek-char"), { opacity: 0, y: -4 });
+        gsap.set(el.querySelector(".separator"), { opacity: 0 });
+        gsap.set(el.querySelector(".meaning-text"), { opacity: 0, y: 3 });
+      });
+
       gsap.set(spineRef.current, { opacity: 0 });
       gsap.set(edgeRef.current, { opacity: 0 });
       gsap.set(coverRef.current, { opacity: 0, scale: 0.85 });
       gsap.set(coverWordRef.current, { opacity: 0, letterSpacing: "0.1em" });
 
-      // ── Phase 1 (0.5–2.4s): ค่อยๆ ปรากฏทีละบรรทัด ──
+      // ── Phase 1 (0.5–3.4s): เขียนอักษรทีละตัว ──
+      // เขียน Arche
       tl.to(
-        wordRefs.current[0],
+        wordRefs.current[0]?.querySelectorAll(".word-char") ?? [],
         {
           opacity: 1,
           y: 0,
-          duration: 1.2,
-          ease: "power2.out",
+          duration: 0.15,
+          stagger: 0.08,
+          ease: "power1.out",
         },
         0.5,
       );
 
       tl.to(
-        wordRefs.current[1],
+        wordRefs.current[0]?.querySelector(".separator") ?? [],
+        { opacity: 0.6, duration: 0.3 },
+        0.9,
+      );
+
+      tl.to(
+        wordRefs.current[0]?.querySelectorAll(".greek-char") ?? [],
         {
           opacity: 1,
           y: 0,
-          duration: 1.2,
-          ease: "power2.out",
+          duration: 0.15,
+          stagger: 0.08,
+          ease: "power1.out",
         },
-        1.2,
+        1.0,
       );
 
-      // ── Phase 2 (2.8–3.8s): โน้มตัวอักษรเข้าหากันตรงกลาง (Arche เลื่อนลง, Chronos เลื่อนขึ้น) และ fade หายไป ──
+      tl.to(
+        wordRefs.current[0]?.querySelector(".meaning-text") ?? [],
+        { opacity: 1, y: 0, duration: 0.5 },
+        1.4,
+      );
+
+      // เขียน Chronos
+      tl.to(
+        wordRefs.current[1]?.querySelectorAll(".word-char") ?? [],
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.15,
+          stagger: 0.08,
+          ease: "power1.out",
+        },
+        1.8,
+      );
+
+      tl.to(
+        wordRefs.current[1]?.querySelector(".separator") ?? [],
+        { opacity: 0.6, duration: 0.3 },
+        2.3,
+      );
+
+      tl.to(
+        wordRefs.current[1]?.querySelectorAll(".greek-char") ?? [],
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.15,
+          stagger: 0.08,
+          ease: "power1.out",
+        },
+        2.4,
+      );
+
+      tl.to(
+        wordRefs.current[1]?.querySelector(".meaning-text") ?? [],
+        { opacity: 1, y: 0, duration: 0.5 },
+        2.9,
+      );
+
+      // ── Phase 2 (3.5–4.5s): โน้มคำเข้าหากันตรงกลาง ──
       tl.to(
         wordRefs.current[0],
         {
@@ -90,7 +148,7 @@ export function IntroPreloader() {
           duration: 1.0,
           ease: "power2.in",
         },
-        2.8,
+        3.5,
       );
 
       tl.to(
@@ -102,32 +160,32 @@ export function IntroPreloader() {
           duration: 1.0,
           ease: "power2.in",
         },
-        2.8,
+        3.5,
       );
 
-      // ── Phase 3 (3.2–5.4s): หน้ากระดาษพับย่อตัวลงและหลอมรวมกลายเป็นปก Archron ──
+      // ── Phase 3 (3.9–6.1s): หน้ากระดาษปิดตัวรวมร่างกลายเป็นปก Archron ──
       tl.to(
         pageRef.current,
         { scale: 0.55, opacity: 0, duration: 1.0, ease: "power3.inOut" },
-        3.2,
+        3.9,
       )
-        .to(spineRef.current, { opacity: 0.8, duration: 0.6 }, 3.2)
-        .to(edgeRef.current, { opacity: 0.8, duration: 0.6 }, 3.3)
-        .to(spineRef.current, { opacity: 0, duration: 0.4 }, 3.8)
-        .to(edgeRef.current, { opacity: 0, duration: 0.4 }, 3.8)
+        .to(spineRef.current, { opacity: 0.8, duration: 0.6 }, 3.9)
+        .to(edgeRef.current, { opacity: 0.8, duration: 0.6 }, 4.0)
+        .to(spineRef.current, { opacity: 0, duration: 0.4 }, 4.5)
+        .to(edgeRef.current, { opacity: 0, duration: 0.4 }, 4.5)
         .to(
           coverRef.current,
           { opacity: 1, scale: 1, duration: 1.2, ease: "power3.out" },
-          3.8,
+          4.5,
         )
         .to(
           coverWordRef.current,
           { opacity: 1, letterSpacing: "0.45em", duration: 1.4, ease: "power2.out" },
-          4.0,
+          4.7,
         );
 
-      // ── Phase 4 (5.8–6.5s): ค่อยๆ จางหายไปเพื่อเปิดเข้าสู่หน้าแรก ──
-      tl.to(containerRef.current, { opacity: 0, duration: 0.7, ease: "power2.inOut" }, 5.8);
+      // ── Phase 4 (6.5–7.2s): ค่อยๆ จางหายไปเปิดหน้าโฮม ──
+      tl.to(containerRef.current, { opacity: 0, duration: 0.7, ease: "power2.inOut" }, 6.5);
     }, containerRef);
 
     function finish() {
@@ -235,9 +293,15 @@ export function IntroPreloader() {
                     className="text-3xl italic text-soft-gold"
                     style={{ fontFamily: "var(--font-eb-garamond), 'EB Garamond', Georgia, serif" }}
                   >
-                    {w.word}
+                    {w.word.split("").map((char, charIdx) => (
+                      <span key={charIdx} className="word-char inline-block opacity-0">
+                        {char}
+                      </span>
+                    ))}
                   </span>
-                  <span className="text-base text-soft-gold/50">—</span>
+
+                  <span className="separator text-base text-soft-gold/50 opacity-0">—</span>
+
                   <span
                     className="text-2xl italic text-soft-gold/80"
                     style={{ fontFamily: "var(--font-eb-garamond), 'EB Garamond', Georgia, serif" }}
