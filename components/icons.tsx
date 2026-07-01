@@ -597,3 +597,16 @@ export function SynthesisIcon({ className = "h-5 w-5" }: IconProps) {
     </>,
   );
 }
+
+// กริด/หมวดศาสตร์ — สี่ช่องมน (ใช้กับ "ศาสตร์ที่เราศึกษา")
+export function GridIcon({ className = "h-5 w-5" }: IconProps) {
+  return SVG(
+    className,
+    <>
+      <rect x="4" y="4" width="7" height="7" rx="1.4" />
+      <rect x="13" y="4" width="7" height="7" rx="1.4" />
+      <rect x="4" y="13" width="7" height="7" rx="1.4" />
+      <rect x="13" y="13" width="7" height="7" rx="1.4" />
+    </>,
+  );
+}
