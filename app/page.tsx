@@ -221,35 +221,34 @@ export default function HomePage() {
             className="absolute inset-0 h-full w-full"
           />
           <div className="relative z-10 mx-auto max-w-[1200px]">
-            <div className="mb-16 grid grid-cols-1 items-end gap-8 md:grid-cols-12">
-              <div className="md:col-span-8">
-                <span className="mb-4 block text-xs font-semibold tracking-[0.05em] text-burnished-gold/60">
-                  แผนที่ความรู้
-                </span>
-                <h2 className="mb-6 font-serif text-fluid-h2 font-medium text-on-surface">
-                  สิบสองแขนงของการเข้าใจมนุษย์
-                </h2>
-                <p className="max-w-2xl text-lg text-on-surface-variant/70">
-                  การเข้าใจมนุษย์ไม่อาจอาศัยศาสตร์เดียว — แต่ละแขนงส่องสว่างซึ่งกันและกัน วางอยู่ในแผนที่เดียวที่เชื่อมโยงถึงกัน
-                </p>
-              </div>
-              <div className="md:col-span-4 md:text-right">
-                <Link
-                  href="/disciplines"
-                  className="group inline-flex items-center gap-3 border-b border-burnished-gold/0 pb-2 text-xs font-semibold tracking-[0.05em] text-burnished-gold transition-all duration-500 hover:border-burnished-gold/40"
-                >
-                  ดูศาสตร์ทั้งหมด
-                  <span className="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1.5">
-                    arrow_forward
-                  </span>
-                </Link>
-              </div>
+            <div className="mb-12 max-w-2xl">
+              <span className="mb-4 block text-xs font-semibold tracking-[0.05em] text-burnished-gold/60">
+                แผนที่ความรู้
+              </span>
+              <h2 className="mb-6 font-serif text-fluid-h2 font-medium text-on-surface">
+                สิบสองแขนงของการเข้าใจมนุษย์
+              </h2>
+              <p className="text-lg text-on-surface-variant/70">
+                การเข้าใจมนุษย์ไม่อาจอาศัยศาสตร์เดียว — แต่ละแขนงส่องสว่างซึ่งกันและกัน วางอยู่ในแผนที่เดียวที่เชื่อมโยงถึงกัน
+              </p>
             </div>
             <LoopCarousel ariaLabel="สิบสองแขนงของการเข้าใจมนุษย์ — เลื่อนวนได้">
               {DISCIPLINES.map((d) => (
-                <DisciplineCard key={d.key} entry={d} href="/disciplines" />
+                <DisciplineCard key={d.key} entry={d} href={`/disciplines/${d.key}`} />
               ))}
             </LoopCarousel>
+            {/* CTA ท้ายส่วน — จัดกลาง ตามลำดับ typography */}
+            <div className="mt-14 flex justify-center">
+              <Link
+                href="/disciplines"
+                className="group inline-flex items-center gap-3 border-b border-burnished-gold/30 pb-2 text-sm font-semibold tracking-[0.05em] text-burnished-gold transition-all duration-500 hover:border-burnished-gold/60"
+              >
+                ดูศาสตร์ทั้งหมด
+                <span className="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1.5">
+                  arrow_forward
+                </span>
+              </Link>
+            </div>
           </div>
         </section>
 
