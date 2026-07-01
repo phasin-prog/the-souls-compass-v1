@@ -121,6 +121,28 @@ export default function RootLayout({
           <noscript>
             <style>{`.scroll-reveal{opacity:1!important;transform:none!important}`}</style>
           </noscript>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                // Prevent double-tap zoom
+                let lastTouchEnd = 0;
+                document.addEventListener('touchend', function (event) {
+                  const now = (new Date()).getTime();
+                  if (now - lastTouchEnd <= 300) {
+                    event.preventDefault();
+                  }
+                  lastTouchEnd = now;
+                }, false);
+
+                // Prevent pinch-to-zoom
+                document.addEventListener('touchstart', function (event) {
+                  if (event.touches.length > 1) {
+                    event.preventDefault();
+                  }
+                }, { passive: false });
+              `,
+            }}
+          />
         </head>
         <body className="min-h-screen bg-deep-navy pb-16 text-ivory antialiased md:pb-0">
           <IntroPreloader />
