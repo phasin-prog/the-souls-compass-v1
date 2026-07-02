@@ -225,6 +225,16 @@
     color: var(--color-soft-ivory);
   }
 
+  /* Dynamic Colour Cosmology — base gradient สเลตกลางคืนสมดุล (ไม่ดำสนิท/ไม่จ้า) */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: linear-gradient(180deg, #1B2130 0%, #151A24 55%, #10141C 100%);
+  }
+
   body {
     font-family: var(--font-body);
     font-synthesis: none;
@@ -529,14 +539,11 @@
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background: radial-gradient(
-    62% 46% at 50% 0%,
-    color-mix(in srgb, var(--accent) 24%, transparent) 0%,
-    transparent 70%
-  );
-  opacity: 0.45;
-  animation: accent-breathe 9s ease-in-out infinite;
-  transition: background 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  background:
+    radial-gradient(1100px 560px at 50% -8%, color-mix(in srgb, var(--accent) 22%, transparent), transparent 60%),
+    radial-gradient(760px 520px at 8% 106%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 60%),
+    radial-gradient(680px 520px at 100% 60%, color-mix(in srgb, var(--accent) 10%, transparent), transparent 62%);
+  transition: background 1.2s ease;
 }
 @keyframes accent-breathe {
   0%, 100% { opacity: 0.32; }
