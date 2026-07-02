@@ -9,6 +9,7 @@ import { getAuthedSupabase, getUserRole } from "@/lib/content/server-auth";
 import { canWrite, ROLE_LABEL } from "@/lib/content/roles";
 import { getMyProfile } from "@/lib/content/profile-db";
 import { listMyEntries } from "@/lib/content/entries-db";
+import { getPublicEntries } from "@/lib/content/public-source";
 import {
   getReadingStats,
   getReadingHistory,
@@ -78,6 +79,12 @@ export default async function ProfilePage() {
   const unlockedKeys = new Set(await getUserAchievements(supabase, uid));
   const lp = levelProgress(stats.completed);
 
+  // map slug → ชื่อเรื่องจริง สำหรับแสดงในประวัติการอ่าน (fallback เป็น slug ถ้าไม่พบ)
+  const allEntries = await getPublicEntries();
+  const titleBySlug = new Map<string, string>(
+    allEntries.map((e) => [e.slug, e.title] as const),
+  );
+
   // งานที่เขียนเอง (เฉพาะนักเขียน)
   let myEntries: ContentEntry[] = [];
   if (isWriter) {
@@ -91,6 +98,7 @@ export default async function ProfilePage() {
       stats={stats}
       history={history}
       unlockedKeys={unlockedKeys}
+      titleBySlug={titleBySlug}
     />
   );
 
@@ -145,12 +153,14 @@ function ReadingTab({
   stats,
   history,
   unlockedKeys,
+  titleBySlug,
 }: {
   displayName: string;
   lp: ReturnType<typeof levelProgress>;
   stats: { completed: number; distinctSchools: number; streakDays: number; readManifesto: boolean };
   history: ReadingRow[];
   unlockedKeys: Set<string>;
+  titleBySlug: Map<string, string>;
 }) {
   const completedHistory = history.filter((h) => h.status === "completed");
 
@@ -282,6 +292,7 @@ function ReadingTab({
           <ul className="mt-4 space-y-2">
             {history.map((h) => {
               const done = h.status === "completed";
+              const displayTitle = titleBySlug.get(h.slug) ?? h.slug;
               return (
                 <li key={h.slug}>
                   <Link
@@ -289,7 +300,7 @@ function ReadingTab({
                     className="archron-panel flex items-center justify-between gap-3 px-4 py-3 transition-colors hover:border-burnished-gold/40"
                   >
                     <div className="min-w-0">
-                      <p className="truncate text-sm text-ivory">{h.slug}</p>
+                      <p className="truncate text-sm text-ivory">{displayTitle}</p>
                       <p className="mt-0.5 text-[11px] text-muted">
                         {CONTENT_TYPE_LABEL[h.content_type] ?? h.content_type}
                       </p>
