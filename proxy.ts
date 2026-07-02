@@ -2,10 +2,12 @@ import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 import { NextResponse, type NextRequest, type NextFetchEvent } from "next/server";
 
 // ป้องกันเฉพาะ /studio/editor (ต้อง login) — /studio (landing/login นักเขียน) เปิดสาธารณะ
+// /profile (โปรไฟล์นักอ่าน — Private เท่านั้น) ต้อง login เช่นกัน
 const isProtectedRoute = createRouteMatcher([
   "/studio/editor(.*)",
   "/studio/users(.*)",
   "/studio/comments(.*)",
+  "/profile(.*)",
 ]);
 const isAuthRoute = createRouteMatcher([
   "/th/login(.*)",
