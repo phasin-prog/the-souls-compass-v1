@@ -315,3 +315,106 @@ grant select on public.page_views to anon, authenticated;
 -- END -- Run this file in Supabase SQL Editor to set up the full DB
 --       DB=Supabase (this)  Storage=Cloudflare R2  Cache=Upstash Redis
 -- =========================================================
+-- =========================================================
+-- ===== Reading Progress & Achievements (additive) =====
+-- ADDITIVE ONLY — ต่อท้ายไฟล์เดิม ไม่แก้ statement เดิมด้านบน
+-- ยึดแพตเทิร์นเดิม: RLS ผูก auth.jwt()->>'sub' = clerk_user_id (เหมือน profiles/comments)
+-- ใช้ create table if not exists + drop policy if exists (idempotent เหมือนทั้งไฟล์)
+-- =========================================================
+
+-- ---------------------------------------------------------
+-- 11) reading_progress -- ความคืบหน้าการอ่านรายบุคคล (per-user, per-slug)
+--     ต่างจาก page_views (aggregate ต่อ slug) — ตารางนี้เป็นข้อมูลส่วนบุคคล
+--     status: 'reading' | 'completed' · progress 0–100
+--     Level คำนวณ (derive) จาก COUNT(status='completed') ทุกครั้ง — ไม่ cache
+-- ---------------------------------------------------------
+create table if not exists public.reading_progress (
+  clerk_user_id text not null,                    -- Clerk user id (JWT sub)
+  slug text not null,                             -- entry slug
+  content_type text not null default 'article',   -- article | concept | person | book | school | symbol | term | reading-set | source-note
+  status text not null default 'reading',         -- reading | completed
+  progress smallint not null default 0,           -- 0–100
+  first_read_at timestamptz default now(),
+  completed_at timestamptz,
+  updated_at timestamptz default now(),
+  primary key (clerk_user_id, slug)
+);
+
+create index if not exists reading_progress_user_status_idx
+  on public.reading_progress (clerk_user_id, status);
+
+alter table public.reading_progress enable row level security;
+
+-- อ่าน: เฉพาะแถวของตน (ข้อมูลส่วนบุคคล — โปรไฟล์เป็น private เท่านั้น)
+drop policy if exists reading_progress_select on public.reading_progress;
+create policy reading_progress_select on public.reading_progress
+  for select using (clerk_user_id = (auth.jwt()->>'sub'));
+
+-- สร้าง: เฉพาะแถวของตน
+drop policy if exists reading_progress_insert on public.reading_progress;
+create policy reading_progress_insert on public.reading_progress
+  for insert with check (clerk_user_id = (auth.jwt()->>'sub'));
+
+-- แก้: เฉพาะแถวของตน
+drop policy if exists reading_progress_update on public.reading_progress;
+create policy reading_progress_update on public.reading_progress
+  for update using (clerk_user_id = (auth.jwt()->>'sub'))
+  with check (clerk_user_id = (auth.jwt()->>'sub'));
+
+-- ลบ: เฉพาะแถวของตน
+drop policy if exists reading_progress_delete on public.reading_progress;
+create policy reading_progress_delete on public.reading_progress
+  for delete using (clerk_user_id = (auth.jwt()->>'sub'));
+
+-- updated_at trigger (ใช้ฟังก์ชัน set_updated_at() ที่ประกาศไว้แล้วด้านบน)
+drop trigger if exists reading_progress_set_updated_at on public.reading_progress;
+create trigger reading_progress_set_updated_at
+  before update on public.reading_progress
+  for each row execute function public.set_updated_at();
+
+-- ---------------------------------------------------------
+-- 12) user_achievements -- เหรียญตรา/ความสำเร็จที่ปลดล็อก (per-user)
+--     achievement_key ตรงกับ ACHIEVEMENTS catalog ใน lib/content/achievements.ts
+-- ---------------------------------------------------------
+create table if not exists public.user_achievements (
+  clerk_user_id text not null,                    -- Clerk user id (JWT sub)
+  achievement_key text not null,                  -- first-read | explorer-10 | cross-schools-5 | streak-7 | deep-50 | manifesto
+  unlocked_at timestamptz default now(),
+  primary key (clerk_user_id, achievement_key)
+);
+
+create index if not exists user_achievements_user_idx
+  on public.user_achievements (clerk_user_id);
+
+alter table public.user_achievements enable row level security;
+
+-- อ่าน: เฉพาะของตน
+drop policy if exists user_achievements_select on public.user_achievements;
+create policy user_achievements_select on public.user_achievements
+  for select using (clerk_user_id = (auth.jwt()->>'sub'));
+
+-- สร้าง: เฉพาะของตน
+drop policy if exists user_achievements_insert on public.user_achievements;
+create policy user_achievements_insert on public.user_achievements
+  for insert with check (clerk_user_id = (auth.jwt()->>'sub'));
+
+-- แก้: เฉพาะของตน
+drop policy if exists user_achievements_update on public.user_achievements;
+create policy user_achievements_update on public.user_achievements
+  for update using (clerk_user_id = (auth.jwt()->>'sub'))
+  with check (clerk_user_id = (auth.jwt()->>'sub'));
+
+-- ลบ: เฉพาะของตน
+drop policy if exists user_achievements_delete on public.user_achievements;
+create policy user_achievements_delete on public.user_achievements
+  for delete using (clerk_user_id = (auth.jwt()->>'sub'));
+
+-- ---------------------------------------------------------
+-- 13) Grants -- เปิด table-level access (RLS ยังบังคับ row-level เหมือนตารางอื่น)
+-- ---------------------------------------------------------
+grant select, insert, update, delete on public.reading_progress to authenticated;
+grant select, insert, update, delete on public.user_achievements to authenticated;
+
+-- =========================================================
+-- END -- Reading Progress & Achievements (additive)
+-- =========================================================
