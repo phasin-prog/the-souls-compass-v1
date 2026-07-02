@@ -149,7 +149,20 @@ export function SiteHeader() {
             <SearchIcon className="h-[22px] w-[22px]" />
           </Link>
 
-          {/* Account dropdown (lg+) — รวม เข้าสู่ระบบ / Studio / ออกจากระบบ */}
+          {/* โปรไฟล์นักอ่าน — ทางเข้าลัดเด่น (เฉพาะผู้ล็อกอิน, เดสก์ท็อป) */}
+          <SignedIn>
+            <Link
+              href="/profile"
+              aria-label="โปรไฟล์ของฉัน"
+              className={`hidden h-10 w-10 items-center justify-center rounded-full transition-colors hover:bg-white/5 lg:flex ${
+                isActive("/profile") ? "text-accent" : "text-on-surface-variant hover:text-accent"
+              }`}
+            >
+              <PersonIcon className="h-[22px] w-[22px]" />
+            </Link>
+          </SignedIn>
+
+          {/* Account dropdown (lg+) — รวม เข้าสู่ระบบ / โปรไฟล์ / Studio / ออกจากระบบ */}
           <div className="relative hidden lg:block" ref={acctRef}>
             <button
               type="button"
@@ -195,6 +208,10 @@ export function SiteHeader() {
                   <p className="px-3 pb-1 pt-2 font-mono text-[10px] uppercase tracking-[0.12em] text-on-surface-variant/50">
                     บัญชีของคุณ
                   </p>
+                  <Link href="/profile" onClick={() => setAcctOpen(false)} className={menuItem} role="menuitem">
+                    <PersonIcon className="h-[18px] w-[18px] text-accent" />
+                    โปรไฟล์ของฉัน
+                  </Link>
                   <Link href="/studio" onClick={() => setAcctOpen(false)} className={menuItem} role="menuitem">
                     <EditIcon className="h-[18px] w-[18px] text-accent" />
                     Studio
@@ -271,6 +288,14 @@ export function SiteHeader() {
 
           <SignedIn>
             <div className="flex flex-col gap-2">
+              <Link
+                href="/profile"
+                onClick={() => setOpen(false)}
+                className="inline-flex items-center gap-2 rounded border border-accent/40 bg-accent/10 px-4 py-2.5 text-base font-semibold text-accent transition-colors hover:bg-accent hover:text-prima"
+              >
+                <PersonIcon className="h-5 w-5" />
+                โปรไฟล์ของฉัน
+              </Link>
               <Link
                 href="/studio"
                 onClick={() => setOpen(false)}
