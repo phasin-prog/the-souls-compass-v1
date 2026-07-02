@@ -52,7 +52,10 @@ export default async function SchoolDetailPage({ params }: PageProps) {
   const relatedEntries = allEntries.filter(
     (e) =>
       e.status === "published" &&
-      (e.school === s.nameTh ||
+      // จับคู่ด้วย slug ของสำนัก (s.id) เป็นหลัก เผื่อชื่อไทย/อังกฤษ และ framework
+      (e.school === s.id ||
+        e.school === s.nameTh ||
+        e.school === s.nameEn ||
         (e.framework &&
           (e.framework.toLowerCase() === s.nameEn.toLowerCase() ||
             e.framework.toLowerCase() === s.nameTh.toLowerCase()))),
