@@ -29,6 +29,7 @@ import { ReadingProgress } from "@/components/reading/reading-progress";
 import { ViewCounter } from "@/components/reading/view-counter";
 import { CommentSection } from "@/components/reading/comment-section";
 import { LocalGraph } from "@/components/reading/local-graph";
+import { ReadCompletionTracker } from "@/components/reading/read-completion-tracker";
 import { themesForEntry } from "@/lib/content/themes";
 import { getPublicEntries } from "@/lib/content/public-source";
 import { getBacklinksForConcept } from "@/lib/content/related";
@@ -601,6 +602,10 @@ export async function ReadingPage({
             ) : null}
           </div>
         </nav>
+
+        {/* ตัวติดตาม "อ่านจบ" อัตโนมัติ — sentinel ล่องหนท้ายเนื้อหา + dwell timer
+            เมื่อเลื่อนถึงจุดนี้และค้างหน้าครบเวลา → บันทึก reading_progress (ผู้ล็อกอินเท่านั้น) */}
+        <ReadCompletionTracker slug={entry.slug} contentType={entry.contentType} />
       </main>
 
       {/* spacer คอลัมน์ขวา — รักษาบทความให้อยู่กึ่งกลาง grid */}

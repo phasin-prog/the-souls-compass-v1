@@ -1,0 +1,382 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { redirect } from "next/navigation";
+import { auth, clerkClient } from "@clerk/nextjs/server";
+import { PageHeader } from "@/components/page-header";
+import { EmptyState } from "@/components/empty-state";
+import { ProfileTabs } from "@/components/profile/profile-tabs";
+import { getAuthedSupabase, getUserRole } from "@/lib/content/server-auth";
+import { canWrite, ROLE_LABEL } from "@/lib/content/roles";
+import { getMyProfile } from "@/lib/content/profile-db";
+import { listMyEntries } from "@/lib/content/entries-db";
+import {
+  getReadingStats,
+  getReadingHistory,
+  getUserAchievements,
+  type ReadingRow,
+} from "@/lib/content/reading-db";
+import { levelProgress, LEVELS } from "@/lib/content/levels";
+import { ACHIEVEMENTS } from "@/lib/content/achievements";
+import type { ContentEntry } from "@/types/content";
+
+export const metadata: Metadata = {
+  title: "โปรไฟล์ของฉัน — ARCHRON",
+};
+
+// /profile เป็นหน้า Private เท่านั้น — ไม่ cache (ข้อมูลรายบุคคล)
+export const dynamic = "force-dynamic";
+
+const CONTENT_TYPE_LABEL: Record<string, string> = {
+  article: "บทความ",
+  concept: "แนวคิด",
+  person: "นักคิด",
+  book: "หนังสือ",
+  school: "สำนักคิด",
+  symbol: "สัญลักษณ์",
+  term: "คำศัพท์",
+  "reading-set": "เส้นทางการอ่าน",
+  "source-note": "บันทึกอ้างอิง",
+};
+
+function sectionForType(t: string): "articles" | "concepts" {
+  return t === "article" ? "articles" : "concepts";
+}
+
+// อักษรย่อสำหรับ monogram avatar (ตัวแรกของชื่อ)
+function monogram(name: string): string {
+  const trimmed = (name || "").trim();
+  return trimmed ? trimmed[0].toUpperCase() : "?";
+}
+
+export default async function ProfilePage() {
+  const { userId } = await auth();
+  // ป้องกันซ้อน middleware — signed-out → ไปหน้าเข้าสู่ระบบนักอ่าน
+  if (!userId) {
+    redirect("/th/login");
+  }
+
+  const { userId: uid, supabase } = await getAuthedSupabase();
+  const role = await getUserRole();
+  const isWriter = canWrite(role);
+
+  // ชื่อที่แสดง — จาก profiles ก่อน แล้ว fallback ไป Clerk
+  const profile = await getMyProfile(supabase, uid);
+  const client = await clerkClient();
+  const clerkUser = await client.users.getUser(uid);
+  const displayName =
+    profile?.display_name ||
+    clerkUser.fullName ||
+    profile?.username ||
+    clerkUser.username ||
+    clerkUser.primaryEmailAddress?.emailAddress ||
+    "ผู้อ่าน";
+  const title = profile?.title || ROLE_LABEL[role];
+
+  // สถิติการอ่าน + ประวัติ + เหรียญ (derive ทุกครั้ง)
+  const stats = await getReadingStats(supabase, uid);
+  const history = await getReadingHistory(supabase, uid, 30);
+  const unlockedKeys = new Set(await getUserAchievements(supabase, uid));
+  const lp = levelProgress(stats.completed);
+
+  // งานที่เขียนเอง (เฉพาะนักเขียน)
+  let myEntries: ContentEntry[] = [];
+  if (isWriter) {
+    myEntries = await listMyEntries(supabase, uid);
+  }
+
+  const readingTab = (
+    <ReadingTab
+      displayName={displayName}
+      lp={lp}
+      stats={stats}
+      history={history}
+      unlockedKeys={unlockedKeys}
+    />
+  );
+
+  const workTab = <WorkTab entries={myEntries} />;
+
+  return (
+    <main className="pb-24">
+      <PageHeader
+        kicker="โปรไฟล์นักอ่าน"
+        title="โปรไฟล์ของฉัน"
+        lead="ติดตามการเดินทางในคลังความรู้ ระดับนักอ่าน และเหรียญตราของคุณ"
+      />
+
+      <div className="mx-auto max-w-6xl px-6">
+        {/* หัวโปรไฟล์ — monogram avatar + ชื่อ + ยศ */}
+        <div className="archron-card flex flex-col items-center gap-4 p-7 sm:flex-row sm:items-center sm:gap-6">
+          <div
+            className="flex h-20 w-20 flex-none items-center justify-center rounded-full border text-3xl font-serif text-soft-gold"
+            style={{
+              borderColor: "color-mix(in srgb, var(--accent) 45%, transparent)",
+              backgroundColor: "color-mix(in srgb, var(--accent) 12%, transparent)",
+            }}
+            aria-hidden="true"
+          >
+            {monogram(displayName)}
+          </div>
+          <div className="text-center sm:text-left">
+            <h2 className="font-serif text-2xl text-ivory">{displayName}</h2>
+            <div className="mt-2 flex flex-wrap items-center justify-center gap-2 sm:justify-start">
+              <span className="tag-pill">{title}</span>
+              <span className="inline-flex items-center gap-1 rounded-full border border-burnished-gold/30 bg-burnished-gold/10 px-2.5 py-0.5 text-[11px] text-burnished-gold">
+                <span className="material-symbols-outlined text-[14px]">military_tech</span>
+                ระดับ {lp.level} · {lp.name}
+              </span>
+            </div>
+          </div>
+        </div>
+
+        {/* แท็บ */}
+        <div className="mt-8">
+          <ProfileTabs reading={readingTab} work={workTab} showWork={isWriter} />
+        </div>
+      </div>
+    </main>
+  );
+}
+
+// ===== แท็บ "การอ่านของฉัน" =====
+function ReadingTab({
+  displayName,
+  lp,
+  stats,
+  history,
+  unlockedKeys,
+}: {
+  displayName: string;
+  lp: ReturnType<typeof levelProgress>;
+  stats: { completed: number; distinctSchools: number; streakDays: number; readManifesto: boolean };
+  history: ReadingRow[];
+  unlockedKeys: Set<string>;
+}) {
+  const completedHistory = history.filter((h) => h.status === "completed");
+
+  return (
+    <div className="space-y-10">
+      {/* การ์ดระดับ + แถบความคืบหน้า */}
+      <section className="archron-card p-6 sm:p-7">
+        <div className="flex items-end justify-between gap-4">
+          <div>
+            <p className="text-xs uppercase tracking-[0.12em] text-muted">ระดับปัจจุบัน</p>
+            <p className="mt-1 font-serif text-2xl text-ivory">
+              {lp.level} · {lp.name}
+            </p>
+          </div>
+          <div className="text-right">
+            <p className="font-serif text-3xl text-soft-gold">{stats.completed}</p>
+            <p className="text-xs text-muted">ชิ้นความรู้ที่อ่านจบ</p>
+          </div>
+        </div>
+
+        {/* แถบความคืบหน้า */}
+        <div className="mt-5">
+          <div className="h-2.5 w-full overflow-hidden rounded-full bg-surface-container">
+            <div
+              className="h-full rounded-full transition-[width] duration-700"
+              style={{
+                width: `${lp.pct}%`,
+                backgroundImage:
+                  "linear-gradient(90deg, color-mix(in srgb, var(--accent) 55%, transparent), var(--accent))",
+              }}
+            />
+          </div>
+          <p className="mt-2 text-xs text-muted">
+            {lp.next
+              ? `อ่านอีก ${lp.toNext} ชิ้นความรู้เพื่อเลื่อนสู่ระดับ ${lp.next.name}`
+              : "ถึงระดับสูงสุดแล้ว — นักปราชญ์แห่งคลังความรู้"}
+          </p>
+        </div>
+
+        {/* บันไดระดับ 6 ขั้น */}
+        <ol className="mt-6 grid grid-cols-3 gap-2 sm:grid-cols-6">
+          {LEVELS.map((lv) => {
+            const reached = stats.completed >= lv.threshold;
+            const isCurrent = lv.level === lp.level;
+            return (
+              <li
+                key={lv.level}
+                className={`rounded-md border px-2 py-2.5 text-center ${
+                  isCurrent
+                    ? "border-burnished-gold/60 bg-burnished-gold/10"
+                    : reached
+                      ? "border-slate-boundary/40 bg-surface-container"
+                      : "border-slate-boundary/20 opacity-55"
+                }`}
+              >
+                <p className={`text-[11px] ${reached ? "text-soft-gold" : "text-muted"}`}>
+                  {lv.level}
+                </p>
+                <p className={`mt-0.5 text-[11px] leading-tight ${reached ? "text-ivory" : "text-muted"}`}>
+                  {lv.name}
+                </p>
+                <p className="mt-0.5 text-[10px] text-muted">{lv.threshold}+</p>
+              </li>
+            );
+          })}
+        </ol>
+      </section>
+
+      {/* กริดเหรียญตรา */}
+      <section>
+        <h3 className="font-serif text-fluid-h3 text-ivory">เหรียญตรา</h3>
+        <p className="mt-1 text-sm text-muted">
+          ปลดล็อก {unlockedKeys.size} จาก {ACHIEVEMENTS.length} เหรียญ
+        </p>
+        <div className="mt-5 grid grid-cols-2 gap-4 sm:grid-cols-3">
+          {ACHIEVEMENTS.map((a) => {
+            const unlocked = unlockedKeys.has(a.key);
+            return (
+              <div
+                key={a.key}
+                className={`archron-panel flex flex-col items-center p-5 text-center ${
+                  unlocked ? "" : "opacity-45"
+                }`}
+              >
+                <span
+                  className="flex h-14 w-14 items-center justify-center rounded-full border"
+                  style={{
+                    color: unlocked ? "var(--accent)" : "var(--color-muted)",
+                    borderColor: unlocked
+                      ? "color-mix(in srgb, var(--accent) 45%, transparent)"
+                      : "color-mix(in srgb, var(--color-slate-boundary) 60%, transparent)",
+                    backgroundColor: unlocked
+                      ? "color-mix(in srgb, var(--accent) 12%, transparent)"
+                      : "transparent",
+                  }}
+                >
+                  <span className="material-symbols-outlined text-[26px]" aria-hidden="true">
+                    {unlocked ? a.icon : "lock"}
+                  </span>
+                </span>
+                <p className="mt-3 text-sm font-medium text-ivory">{a.title}</p>
+                <p className="mt-1 text-xs leading-snug text-muted">{a.description}</p>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* ประวัติการอ่าน */}
+      <section>
+        <h3 className="font-serif text-fluid-h3 text-ivory">ประวัติการอ่าน</h3>
+        {history.length === 0 ? (
+          <div className="mt-4">
+            <EmptyState
+              icon="auto_stories"
+              title="ยังไม่มีประวัติการอ่าน"
+              description="เริ่มอ่านชิ้นความรู้ในคลัง แล้วความคืบหน้าจะถูกบันทึกที่นี่โดยอัตโนมัติ"
+            >
+              <Link
+                href="/articles"
+                className="inline-flex items-center gap-1.5 text-sm text-soft-gold hover:underline"
+              >
+                <span className="material-symbols-outlined text-[16px]">explore</span>
+                เริ่มสำรวจคลังความรู้
+              </Link>
+            </EmptyState>
+          </div>
+        ) : (
+          <ul className="mt-4 space-y-2">
+            {history.map((h) => {
+              const done = h.status === "completed";
+              return (
+                <li key={h.slug}>
+                  <Link
+                    href={`/${sectionForType(h.content_type)}/${h.slug}`}
+                    className="archron-panel flex items-center justify-between gap-3 px-4 py-3 transition-colors hover:border-burnished-gold/40"
+                  >
+                    <div className="min-w-0">
+                      <p className="truncate text-sm text-ivory">{h.slug}</p>
+                      <p className="mt-0.5 text-[11px] text-muted">
+                        {CONTENT_TYPE_LABEL[h.content_type] ?? h.content_type}
+                      </p>
+                    </div>
+                    <span
+                      className={`inline-flex flex-none items-center gap-1 rounded-full px-2.5 py-0.5 text-[11px] ${
+                        done
+                          ? "border border-burnished-gold/30 bg-burnished-gold/10 text-soft-gold"
+                          : "border border-slate-boundary/40 text-muted"
+                      }`}
+                    >
+                      <span className="material-symbols-outlined text-[14px]">
+                        {done ? "check_circle" : "schedule"}
+                      </span>
+                      {done ? "อ่านจบ" : "อ่านค้าง"}
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        )}
+        {completedHistory.length > 0 ? (
+          <p className="mt-3 text-xs text-muted">
+            อ่านจบแล้ว {completedHistory.length} รายการจากประวัติล่าสุด
+          </p>
+        ) : null}
+      </section>
+    </div>
+  );
+}
+
+// ===== แท็บ "งานของฉัน" (นักเขียน) =====
+function WorkTab({ entries }: { entries: ContentEntry[] }) {
+  if (entries.length === 0) {
+    return (
+      <EmptyState
+        icon="edit_note"
+        title="ยังไม่มีงานที่เขียน"
+        description="เมื่อคุณเผยแพร่หรือบันทึกฉบับร่างใน Studio งานเหล่านั้นจะปรากฏที่นี่"
+      >
+        <Link
+          href="/studio/editor"
+          className="inline-flex items-center gap-1.5 text-sm text-soft-gold hover:underline"
+        >
+          <span className="material-symbols-outlined text-[16px]">edit_note</span>
+          เข้าสู่ห้องเขียน
+        </Link>
+      </EmptyState>
+    );
+  }
+
+  return (
+    <ul className="grid gap-4 sm:grid-cols-2">
+      {entries.map((e) => {
+        const published = e.status === "published";
+        return (
+          <li key={e.id}>
+            <Link
+              href={`/${sectionForType(e.contentType)}/${e.slug}`}
+              className="archron-card flex h-full flex-col p-5"
+            >
+              <div className="flex items-center gap-2">
+                <span className="tag-pill">{CONTENT_TYPE_LABEL[e.contentType] ?? e.contentType}</span>
+                <span
+                  className={`inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-[11px] ${
+                    published
+                      ? "border border-success/40 bg-success/10 text-success"
+                      : "border border-slate-boundary/40 text-muted"
+                  }`}
+                >
+                  {published ? "เผยแพร่แล้ว" : "ฉบับร่าง"}
+                </span>
+              </div>
+              <p className="mt-3 font-serif text-lg text-ivory">{e.title}</p>
+              {e.shortDescription ? (
+                <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-muted">
+                  {e.shortDescription}
+                </p>
+              ) : null}
+              {e.updatedAt ? (
+                <p className="mt-auto pt-3 text-[11px] text-muted">แก้ไขล่าสุด · {e.updatedAt}</p>
+              ) : null}
+            </Link>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
